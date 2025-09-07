@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Functions on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/functions/</link>
+    <description>Recent content in Functions on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:01:15 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inverse Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</link>
+      <pubDate>Sun, 07 Sep 2025 07:01:15 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</guid>
+      <description>&lt;h1 id=&#34;inverse-functions&#34;&gt;Inverse Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find $ f^{-1} $ for each function $ f $&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ f(x) = x^3 + 1 $&lt;/li&gt;
+&lt;li&gt;$ f(x) = (x - 1)^3 $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} x &amp;amp; \text{rational} \ -x &amp;amp; \text{irrational} \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} -x^2 &amp;amp; x \geq 0 \ 1 - x^3 &amp;amp; x &amp;lt; 0 \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} x &amp;amp; x \neq a_i \ a_{i+1} &amp;amp; x = a_i \ (i &amp;lt; n) \ a_1 &amp;amp; x = a_n \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = x + \lfloor x \rfloor $&lt;/li&gt;
+&lt;li&gt;$ f(0.a_1a_2a_3\ldots) = 0.a_2a_1a_3\ldots $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \frac{x}{1 - x^2}, \ -1 &amp;lt; x &amp;lt; 1 $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Describe $ f^{-1} $&amp;rsquo;s graph when $ f $ is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</guid>
+      <description>&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Let $f(x) = \frac{1}{1 + x}$. Find:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$f(f(x))$ and determine its domain&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f\left(\frac{1}{x}\right)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(cx)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x + y)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x) + f(y)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For which numbers $c$ does there exist $x$ such that $f(cx) = f(x)$?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For which numbers $c$ does $f(cx) = f(x)$ hold for two different values of $x$?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Let $g(x) = x^2$ and $h(x) = \begin{cases} 0 &amp;amp; \text{if } x \text{ rational} \ 1 &amp;amp; \text{if } x \text{ irrational} \end{cases}$. Find:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

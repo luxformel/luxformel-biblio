@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Derivatives on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/derivatives/</link>
+    <description>Recent content in Derivatives on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:04:16 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/derivatives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Derivatives</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</link>
+      <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</guid>
+      <description>&lt;h1 id=&#34;derivatives&#34;&gt;Derivatives&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using the definition, prove that if $f(x)=1/x$, then $f&amp;rsquo;(a)=-1/a^{2}$ for $a\neq 0$.&lt;/li&gt;
+&lt;li&gt;Show that the tangent line to $f$ at $(a, 1/a)$ intersects $f$ only at $(a, 1/a)$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using the definition, prove that if $f(x)=1/x^{2}$, then $f&amp;rsquo;(a)=-2/a^{3}$ for $a\neq 0$.&lt;/li&gt;
+&lt;li&gt;Show that the tangent line at $(a, 1/a^{2})$ intersects $f$ at exactly one other point, on the opposite side of the y-axis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Prove that if $f(x)=\sqrt{x}$, then $f&amp;rsquo;(a)=1/(2\sqrt{a})$ for $a&amp;gt;0$. (Hint: Rationalize the difference quotient.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

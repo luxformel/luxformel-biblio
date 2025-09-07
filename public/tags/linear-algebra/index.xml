@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linear Algebra on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/linear-algebra/</link>
+    <description>Recent content in Linear Algebra on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 08:35:20 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/linear-algebra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eigenvalues and Eigenvectors</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>
+      <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</guid>
+      <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors&#34;&gt;Eigenvalues and Eigenvectors&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Confirm by multiplication that &lt;strong&gt;x&lt;/strong&gt; is an eigenvector of &lt;strong&gt;A&lt;/strong&gt;, and find the corresponding eigenvalue.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 1 &amp;amp; 2 \ 3 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ -1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 5 &amp;amp; -1 \ 3 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 4 &amp;amp; 0 &amp;amp; 0 \ 2 &amp;amp; 3 &amp;amp; 2 \ 1 &amp;amp; 0 &amp;amp; 4 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 2 &amp;amp; -1 &amp;amp; -1 \ -1 &amp;amp; 2 &amp;amp; -1 \ -1 &amp;amp; -1 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find the characteristic equation, the eigenvalues, and bases for the eigenspaces of the matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inner Product Spaces</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</link>
+      <pubDate>Sun, 07 Sep 2025 07:28:08 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</guid>
+      <description>&lt;h1 id=&#34;inner-product-spaces&#34;&gt;Inner Product Spaces&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;In each part, determine whether the set of vectors is orthogonal and whether it is orthonormal with respect to the Euclidean inner product on ℝ².&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ (0, 1), (2, 0) $&lt;/li&gt;
+&lt;li&gt;$(- \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}), (\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}})$&lt;/li&gt;
+&lt;li&gt;$(- \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}), (\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}})$&lt;/li&gt;
+&lt;li&gt;$ (0, 0), (0, 1) $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;In each part, determine whether the set of vectors is orthogonal and whether it is orthonormal with respect to the Euclidean inner product on $\mathbb{R}^2$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inner Products</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</link>
+      <pubDate>Sun, 07 Sep 2025 07:26:03 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</guid>
+      <description>&lt;h1 id=&#34;inner-products&#34;&gt;Inner Products&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Let $\mathbb{R}^2$ have the weighted Euclidean inner product:
+$$ \langle u, v \rangle = 2u_1v_1 + 3u_2v_2  $$&lt;/p&gt;
+&lt;p&gt;and let $u = (1, 1)$, $v = (3, 2)$, $w = (0, -1)$, and $k = 3$. Compute the stated quantities.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$ \langle u,v \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ \langle ku,w \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ \langle u+v , w \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ | v | $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ d\langle u,v \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ | u-kv | $&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Definition of Vector Space</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</link>
+      <pubDate>Sun, 07 Sep 2025 07:07:06 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</guid>
+      <description>&lt;h1 id=&#34;definition-of-vector-space&#34;&gt;Definition of Vector Space&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1-double-additive-inverse&#34;&gt;Exercise 1: Double Additive Inverse&lt;/h2&gt;
+&lt;p&gt;Prove that $ -(-v) = v $ for every $ v \in V $, where $ V $ is a vector space.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2-zero-product-property&#34;&gt;Exercise 2: Zero Product Property&lt;/h2&gt;
+&lt;p&gt;Suppose $ a \in \mathbb{F} $ (a field), $ v \in V $, and $ av = 0 $. Prove that $ a = 0 $ or $ v = 0 $.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3-unique-solution-to-vector-equation&#34;&gt;Exercise 3: Unique Solution to Vector Equation&lt;/h2&gt;
+&lt;p&gt;Suppose $ v, w \in V $. Explain why there exists a unique $ x \in V $ such that $ v + 3x = w $.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Numbers and Vector Space</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
+      <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
+      <description>&lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1-complex-number-inverse&#34;&gt;Exercise 1: Complex Number Inverse&lt;/h2&gt;
+&lt;p&gt;Suppose $a $ and $b $ are real numbers, not both 0. Find real numbers $c $ and $d $ such that&lt;br&gt;
+$$ \frac{1}{a + bi} = c + di. $$&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2-cube-root-of-unity&#34;&gt;Exercise 2: Cube Root of Unity&lt;/h2&gt;
+&lt;p&gt;Show that&lt;br&gt;
+$$ \frac{-1 + \sqrt{3}i}{2} $$&lt;br&gt;
+is a cube root of 1 (meaning that its cube equals 1).&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3-square-roots-of-i-&#34;&gt;Exercise 3: Square Roots of $i $&lt;/h2&gt;
+&lt;p&gt;Find two distinct square roots of $i $ (i.e., find two different complex numbers $z $ such that $z^2 = i $).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

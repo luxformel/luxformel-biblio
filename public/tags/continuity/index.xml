@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Continuity on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/continuity/</link>
+    <description>Recent content in Continuity on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 06:48:04 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/continuity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</link>
+      <pubDate>Sun, 07 Sep 2025 06:48:04 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</guid>
+      <description>&lt;h1 id=&#34;continuous-functions&#34;&gt;Continuous Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;For which functions $ f $ does there exist a continuous function $ F: \mathbb{R} \to \mathbb{R} $ such that $ F(x) = f(x) $ for all $ x $ in the domain of $ f $?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{x^2 - 4}{x - 2} $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{|x|}{x} $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = 0 $ for irrational $ x $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{1}{q} $ for $ x = \frac{p}{q} $ in lowest terms&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Limits and Continuity</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</guid>
+      <description>&lt;h1 id=&#34;limits-and-continuity&#34;&gt;Limits and Continuity&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find the following limits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\lim_{x \to 1} \frac{x^2 - 1}{x^3 - 1}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 2} \frac{x^3 - 8}{x^2 - 4}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 3} \frac{x^3 - 8}{x^2 - 4}$ &lt;em&gt;(Note the changed limit point)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to y} \frac{x^n - y^n}{x - y}$&lt;/li&gt;
+&lt;li&gt;$\lim_{y \to x} \frac{x^n - y^n}{x - y}$&lt;/li&gt;
+&lt;li&gt;$\lim_{h \to 0} \frac{\sqrt{a + h} - \sqrt{a}}{h}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find the following limits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\lim_{x \to 1} \frac{1 - \sqrt{x}}{1 - x}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 0} \frac{1 - \sqrt{1 - x^2}}{x}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 0} \frac{1 - \sqrt{1 - x^2}}{x^2}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;In each of the following cases, determine the limit $l$ for the given $a$, and prove that it is the limit by showing how to find a $\delta$ such  that $| f(x) - l | &amp;lt; \varepsilon$ where $\forall x$ satisfying $0 &amp;lt; |x-a| &amp;lt; \delta$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

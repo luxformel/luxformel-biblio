@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Intérgales on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/int%C3%A9rgales/</link>
+    <description>Recent content in Intérgales on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:18:16 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/int%C3%A9rgales/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convergence et calcul d&#39;intégrales impropres</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</link>
+      <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</guid>
+      <description>&lt;h1 id=&#34;convergence-et-calcul-dintégrales-impropres&#34;&gt;Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--convergence-et-calcul-dintégrales-impropres&#34;&gt;Exercice 1 : Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h2&gt;
+&lt;p&gt;Étudier la convergence des intégrales impropres suivantes et, lorsqu&amp;rsquo;elles sont convergentes, calculer leurs valeurs.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$$
+\int_1^3 \frac{dt}{\sqrt{(t-1)(3-t)}}
+$$&lt;/li&gt;
+&lt;li&gt;Pour $ b &amp;gt; 0 $.
+$$
+\int_0^b \ln(t) dt
+$$&lt;/li&gt;
+&lt;li&gt;$$
+\int_1^{+\infty} \frac{e^{1/t}}{t^2} dt
+$$&lt;/li&gt;
+&lt;li&gt;$$
+\int_0^x \frac{t \ln(t)}{(t^2+1)^2} dt
+$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--convergences-sans-calcul&#34;&gt;Exercice 2 : Convergences sans calcul&lt;/h2&gt;
+&lt;p&gt;Étudier la convergence des intégrales impropres suivantes :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_1^{+\infty} e^{-t^2} dt
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>L’intégrale au sens de Riemann</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</link>
+      <pubDate>Sun, 07 Sep 2025 07:10:03 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</guid>
+      <description>&lt;h1 id=&#34;lintégrale-au-sens-de-riemann&#34;&gt;L’intégrale au sens de Riemann&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--fonctions-dintégrale-nulle&#34;&gt;Exercice 1 : Fonctions d’intégrale nulle&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Donner un exemple d’une fonction $ f : [a,b] \to \mathbb{R}_{\geq 0} $ intégrable, non identiquement nulle mais d’intégrale nulle.&lt;/li&gt;
+&lt;li&gt;Montrer que si $ f : [a,b] \to \mathbb{R}_{\geq 0} $ est continue et non identiquement nulle, alors son intégrale est strictement positive.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--valeurs-particulières-et-intégrales&#34;&gt;Exercice 2 : Valeurs particulières et intégrales&lt;/h2&gt;
+&lt;p&gt;Soit $ f : [0,1] \to \mathbb{R} $ une fonction continue.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

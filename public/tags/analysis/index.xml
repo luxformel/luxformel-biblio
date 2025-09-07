@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Analysis on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/analysis/</link>
+    <description>Recent content in Analysis on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 08:45:14 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preliminary Analysis</title>
+      <link>https://biblio.luxformel.info/posts/analysis/en/preliminary-analysis/</link>
+      <pubDate>Sun, 07 Sep 2025 08:45:14 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/analysis/en/preliminary-analysis/</guid>
+      <description>&lt;h1 id=&#34;preliminary-analysis&#34;&gt;Preliminary Analysis&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Prove that $\sqrt{3}$ is irrational. Does a similar argument work to show $\sqrt{6}$ is irrational?&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Decide which of the following represent true statements about the nature of sets. For any that are false, provide a specific example where the statement in question does not hold.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If $ A_1 \supseteq A_2 \supseteq A_3 \supseteq A_4 \supseteq \cdots $ are all sets containing an infinite number of elements, then the intersection $  \bigcap_{n=1}^{\infty} A_n $ is infinite as well.&lt;/li&gt;
+&lt;li&gt;If $ A_1 \supseteq A_2 \supseteq A_3 \supseteq A_4 \supseteq \cdots $ are all finite, nonempty sets of real numbers, then the intersection $ \bigcap_{n=1}^{\infty} A_n $ is finite and nonempty.&lt;/li&gt;
+&lt;li&gt;$A \cap (B\cup C) = (A \cap B )\cup C$&lt;/li&gt;
+&lt;li&gt;$A \cap (B\cap C) = (A \cap B )\cap C$&lt;/li&gt;
+&lt;li&gt;$A \cap (B\cup C) = (A \cap B ) \cup (A \cap C)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3-de-morgans-law&#34;&gt;Exercise 3: De Morgan&amp;rsquo;s Law&lt;/h2&gt;
+&lt;p&gt;Let $ A $ and $ B $ be subsets of $ \mathbb{R} $.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Axiom Of Completeness</title>
+      <link>https://biblio.luxformel.info/posts/analysis/en/axiom-of-completeness/</link>
+      <pubDate>Sun, 07 Sep 2025 08:43:44 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/analysis/en/axiom-of-completeness/</guid>
+      <description>&lt;h1 id=&#34;axiom-of-completeness&#34;&gt;Axiom Of Completeness&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Let $ \mathbb{Z}_5 = {0, 1, 2, 3, 4} $ and define addition and multiplication modulo 5. In other words, compute the integer remainder when $ a + b $ and $ ab $ are divided by 5, and use this as the value for the sum and product, respectively.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Show that, given any element $ z \in \mathbb{Z}_5 $, there exists an element $ y $ such that $ z + y = 0 $. The element $ y $ is called the &lt;em&gt;additive inverse&lt;/em&gt; of $ z $.&lt;/li&gt;
+&lt;li&gt;Show that, given any $ z \neq 0 $ in $ \mathbb{Z}_5 $, there exists an element $ x $ such that $ zx = 1 $. The element $ x $ is called the &lt;em&gt;multiplicative inverse&lt;/em&gt; of $ z $.&lt;/li&gt;
+&lt;li&gt;The existence of additive and multiplicative inverses is part of the definition of a &lt;em&gt;field&lt;/em&gt;. Investigate the set $ \mathbb{Z}_4 = {0, 1, 2, 3} $ (where addition and multiplication are defined modulo 4) for the existence of additive and multiplicative inverses.&lt;br&gt;
+Make a conjecture about the values of $ n $ for which additive inverses exist in $ \mathbb{Z}_n $, and then form another conjecture about the existence of multiplicative inverses.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Write a formal definition in the style of Definition 1.3.2 for the &lt;em&gt;infimum&lt;/em&gt; or &lt;em&gt;greatest lower bound&lt;/em&gt; of a set.&lt;/li&gt;
+&lt;li&gt;Now, state and prove a version of Lemma 1.3.7 for greatest lower bounds.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Let $ A $ be bounded below, and define&lt;br&gt;
+$$
+B = { b \in \mathbb{R} : b \text{ is a lower bound for } A }.
+$$&lt;br&gt;
+Show that $ \sup B = \inf A $.&lt;/li&gt;
+&lt;li&gt;Use (1) to explain why there is no need to assert that greatest lower bounds exist as part of the Axiom of Completeness.&lt;/li&gt;
+&lt;li&gt;Propose another way to use the Axiom of Completeness to prove that sets bounded below have greatest lower bounds.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-4&#34;&gt;Exercise 4&lt;/h2&gt;
+&lt;p&gt;Assume that $A$ and $B$ are nonempty, bounded above, and satisfy $B \subseteq A$. Show that $ \sup(B) \leq \sup(A) $.
+.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

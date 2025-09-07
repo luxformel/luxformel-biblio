@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/posts/</link>
+    <description>Recent content in Posts on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 08:45:14 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preliminary Analysis</title>
+      <link>https://biblio.luxformel.info/posts/analysis/en/preliminary-analysis/</link>
+      <pubDate>Sun, 07 Sep 2025 08:45:14 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/analysis/en/preliminary-analysis/</guid>
+      <description>&lt;h1 id=&#34;preliminary-analysis&#34;&gt;Preliminary Analysis&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Prove that $\sqrt{3}$ is irrational. Does a similar argument work to show $\sqrt{6}$ is irrational?&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Decide which of the following represent true statements about the nature of sets. For any that are false, provide a specific example where the statement in question does not hold.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If $ A_1 \supseteq A_2 \supseteq A_3 \supseteq A_4 \supseteq \cdots $ are all sets containing an infinite number of elements, then the intersection $  \bigcap_{n=1}^{\infty} A_n $ is infinite as well.&lt;/li&gt;
+&lt;li&gt;If $ A_1 \supseteq A_2 \supseteq A_3 \supseteq A_4 \supseteq \cdots $ are all finite, nonempty sets of real numbers, then the intersection $ \bigcap_{n=1}^{\infty} A_n $ is finite and nonempty.&lt;/li&gt;
+&lt;li&gt;$A \cap (B\cup C) = (A \cap B )\cup C$&lt;/li&gt;
+&lt;li&gt;$A \cap (B\cap C) = (A \cap B )\cap C$&lt;/li&gt;
+&lt;li&gt;$A \cap (B\cup C) = (A \cap B ) \cup (A \cap C)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3-de-morgans-law&#34;&gt;Exercise 3: De Morgan&amp;rsquo;s Law&lt;/h2&gt;
+&lt;p&gt;Let $ A $ and $ B $ be subsets of $ \mathbb{R} $.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Axiom Of Completeness</title>
+      <link>https://biblio.luxformel.info/posts/analysis/en/axiom-of-completeness/</link>
+      <pubDate>Sun, 07 Sep 2025 08:43:44 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/analysis/en/axiom-of-completeness/</guid>
+      <description>&lt;h1 id=&#34;axiom-of-completeness&#34;&gt;Axiom Of Completeness&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Let $ \mathbb{Z}_5 = {0, 1, 2, 3, 4} $ and define addition and multiplication modulo 5. In other words, compute the integer remainder when $ a + b $ and $ ab $ are divided by 5, and use this as the value for the sum and product, respectively.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Show that, given any element $ z \in \mathbb{Z}_5 $, there exists an element $ y $ such that $ z + y = 0 $. The element $ y $ is called the &lt;em&gt;additive inverse&lt;/em&gt; of $ z $.&lt;/li&gt;
+&lt;li&gt;Show that, given any $ z \neq 0 $ in $ \mathbb{Z}_5 $, there exists an element $ x $ such that $ zx = 1 $. The element $ x $ is called the &lt;em&gt;multiplicative inverse&lt;/em&gt; of $ z $.&lt;/li&gt;
+&lt;li&gt;The existence of additive and multiplicative inverses is part of the definition of a &lt;em&gt;field&lt;/em&gt;. Investigate the set $ \mathbb{Z}_4 = {0, 1, 2, 3} $ (where addition and multiplication are defined modulo 4) for the existence of additive and multiplicative inverses.&lt;br&gt;
+Make a conjecture about the values of $ n $ for which additive inverses exist in $ \mathbb{Z}_n $, and then form another conjecture about the existence of multiplicative inverses.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Write a formal definition in the style of Definition 1.3.2 for the &lt;em&gt;infimum&lt;/em&gt; or &lt;em&gt;greatest lower bound&lt;/em&gt; of a set.&lt;/li&gt;
+&lt;li&gt;Now, state and prove a version of Lemma 1.3.7 for greatest lower bounds.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Let $ A $ be bounded below, and define&lt;br&gt;
+$$
+B = { b \in \mathbb{R} : b \text{ is a lower bound for } A }.
+$$&lt;br&gt;
+Show that $ \sup B = \inf A $.&lt;/li&gt;
+&lt;li&gt;Use (1) to explain why there is no need to assert that greatest lower bounds exist as part of the Axiom of Completeness.&lt;/li&gt;
+&lt;li&gt;Propose another way to use the Axiom of Completeness to prove that sets bounded below have greatest lower bounds.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-4&#34;&gt;Exercise 4&lt;/h2&gt;
+&lt;p&gt;Assume that $A$ and $B$ are nonempty, bounded above, and satisfy $B \subseteq A$. Show that $ \sup(B) \leq \sup(A) $.
+.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wave Function</title>
+      <link>https://biblio.luxformel.info/posts/physik/quantum-mechanics/en/wave-function/</link>
+      <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/physik/quantum-mechanics/en/wave-function/</guid>
+      <description>&lt;h1 id=&#34;wave-function&#34;&gt;Wave Function&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Consider the Gaussian distribution&lt;br&gt;
+$$
+\rho(x) = Ae^{-\lambda(x - a)^2}
+$$&lt;br&gt;
+where $ A, a, \lambda $ are positive real constants.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the normalization condition $\int_{-\infty}^{+\infty} \rho(x), dx = 1$ to determine $A$.&lt;/li&gt;
+&lt;li&gt;Find $\langle x \rangle$, $\langle x^2 \rangle$, and the standard deviation $\sigma$.&lt;/li&gt;
+&lt;li&gt;Sketch the graph of $\rho(x)$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;At time $ t = 0 $, a particle is represented by the wave function:
+$$
+\Psi(x, 0) =
+\begin{cases}
+A(x/a), &amp;amp; 0 \leq x \leq a \
+A(b - x)/(b - a), &amp;amp; a \leq x \leq b \
+0, &amp;amp; \text{otherwise}
+\end{cases}
+$$
+where $ A, a, b $ are positive constants.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eigenvalues and Eigenvectors</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>
+      <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</guid>
+      <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors&#34;&gt;Eigenvalues and Eigenvectors&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Confirm by multiplication that &lt;strong&gt;x&lt;/strong&gt; is an eigenvector of &lt;strong&gt;A&lt;/strong&gt;, and find the corresponding eigenvalue.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 1 &amp;amp; 2 \ 3 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ -1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 5 &amp;amp; -1 \ 3 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 4 &amp;amp; 0 &amp;amp; 0 \ 2 &amp;amp; 3 &amp;amp; 2 \ 1 &amp;amp; 0 &amp;amp; 4 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 2 &amp;amp; -1 &amp;amp; -1 \ -1 &amp;amp; 2 &amp;amp; -1 \ -1 &amp;amp; -1 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find the characteristic equation, the eigenvalues, and bases for the eigenspaces of the matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lagrangeformalismus</title>
+      <link>https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</link>
+      <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</guid>
+      <description>&lt;h1 id=&#34;lagrangeformalismus&#34;&gt;Lagrangeformalismus&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1-massenpunkt-auf-kurve-im-schwerefeld&#34;&gt;Aufgabe 1: Massenpunkt auf Kurve im Schwerefeld&lt;/h2&gt;
+&lt;p&gt;Ein Massenpunkt gleitet reibungsfrei auf der Kurve $z = f(x)$ in der $z$-$x$-Ebene unter Schwerkraft $F = -mg\mathbf{e}_z$. Stellen Sie die Lagrangegleichungen 1. Art auf.&lt;/p&gt;
+&lt;h2 id=&#34;aufgabe-2-ablösung-von-kugeloberfläche&#34;&gt;Aufgabe 2: Ablösung von Kugeloberfläche&lt;/h2&gt;
+&lt;p&gt;Ein Massenpunkt startet vom obersten Punkt einer Kugel und gleitet reibungsfrei ab. Bestimmen Sie mit dem Energieerhaltungssatz den Ablösepunkt.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/images/lagrangeformalismus-aufgabe2.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;aufgabe-3-hantel-auf-konzentrischen-kreisen&#34;&gt;Aufgabe 3: Hantel auf konzentrischen Kreisen&lt;/h2&gt;
+&lt;p&gt;Zwei gleiche Massen $m$ sind durch eine Stange der Länge $L$ verbunden und bewegen sich reibungsfrei auf konzentrischen Kreisen mit Radien $r$ und $R$ ($R - r &amp;lt; L &amp;lt; R + r$). Unter Schwerkraft $g = -g\mathbf{e}_y$:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inner Product Spaces</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</link>
+      <pubDate>Sun, 07 Sep 2025 07:28:08 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</guid>
+      <description>&lt;h1 id=&#34;inner-product-spaces&#34;&gt;Inner Product Spaces&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;In each part, determine whether the set of vectors is orthogonal and whether it is orthonormal with respect to the Euclidean inner product on ℝ².&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ (0, 1), (2, 0) $&lt;/li&gt;
+&lt;li&gt;$(- \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}), (\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}})$&lt;/li&gt;
+&lt;li&gt;$(- \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}), (\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}})$&lt;/li&gt;
+&lt;li&gt;$ (0, 0), (0, 1) $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;In each part, determine whether the set of vectors is orthogonal and whether it is orthonormal with respect to the Euclidean inner product on $\mathbb{R}^2$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inner Products</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</link>
+      <pubDate>Sun, 07 Sep 2025 07:26:03 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</guid>
+      <description>&lt;h1 id=&#34;inner-products&#34;&gt;Inner Products&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Let $\mathbb{R}^2$ have the weighted Euclidean inner product:
+$$ \langle u, v \rangle = 2u_1v_1 + 3u_2v_2  $$&lt;/p&gt;
+&lt;p&gt;and let $u = (1, 1)$, $v = (3, 2)$, $w = (0, -1)$, and $k = 3$. Compute the stated quantities.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$ \langle u,v \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ \langle ku,w \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ \langle u+v , w \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ | v | $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ d\langle u,v \rangle $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ | u-kv | $&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fonctions de plusieurs variables</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</link>
+      <pubDate>Sun, 07 Sep 2025 07:21:58 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</guid>
+      <description>&lt;h1 id=&#34;fonctions-de-plusieurs-variables&#34;&gt;Fonctions de plusieurs variables&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--continuité-de-fonctions-de-deux-variables&#34;&gt;Exercice 1 : Continuité de fonctions de deux variables&lt;/h2&gt;
+&lt;p&gt;Étudier la continuité en $(0,0)$ des fonctions suivantes :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{xy(x^2 - y^2)}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{x^4 + y^4}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{x^2 y^2}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{xy^2}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{\sin{|xy|}}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Séries numériques</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/series-numeriques/</link>
+      <pubDate>Sun, 07 Sep 2025 07:20:47 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/series-numeriques/</guid>
+      <description>&lt;h1 id=&#34;séries-numériques&#34;&gt;Séries numériques&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--calculs-de-séries&#34;&gt;Exercice 1 : Calculs de séries&lt;/h2&gt;
+&lt;p&gt;Calculer les sommes des séries suivantes :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$$
+\sum_{k=0}^{+\infty} \left(\frac{2}{3}\right)^k
+$$&lt;/li&gt;
+&lt;li&gt;$$
+\sum_{k=0}^{+\infty} 3^{-2k+1}
+$$&lt;/li&gt;
+&lt;li&gt;$$
+\sum_{k=0}^{+\infty} \sin(2ka)e^{-ka}
+$$&lt;/li&gt;
+&lt;li&gt;$$
+\sum_{k=0}^{+\infty} \frac{k}{2^k} \quad \text{(plus difficile).}
+$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--convergence-de-séries&#34;&gt;Exercice 2 : Convergence de séries&lt;/h2&gt;
+&lt;p&gt;Étudier la convergence de la série $\sum_{n=1}^{+\infty} u_n$, pour :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+u_n = \frac{n}{n^2 + 1}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+u_n = \frac{\cosh n}{\cosh(2n)}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+u_1 = 0 \quad \text{et} \quad u_n = \frac{1}{\sqrt{n^2-1}} - \frac{1}{\sqrt{n^2+1}} \quad \text{pour } n &amp;gt; 1
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convergence et calcul d&#39;intégrales impropres</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</link>
+      <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</guid>
+      <description>&lt;h1 id=&#34;convergence-et-calcul-dintégrales-impropres&#34;&gt;Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--convergence-et-calcul-dintégrales-impropres&#34;&gt;Exercice 1 : Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h2&gt;
+&lt;p&gt;Étudier la convergence des intégrales impropres suivantes et, lorsqu&amp;rsquo;elles sont convergentes, calculer leurs valeurs.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$$
+\int_1^3 \frac{dt}{\sqrt{(t-1)(3-t)}}
+$$&lt;/li&gt;
+&lt;li&gt;Pour $ b &amp;gt; 0 $.
+$$
+\int_0^b \ln(t) dt
+$$&lt;/li&gt;
+&lt;li&gt;$$
+\int_1^{+\infty} \frac{e^{1/t}}{t^2} dt
+$$&lt;/li&gt;
+&lt;li&gt;$$
+\int_0^x \frac{t \ln(t)}{(t^2+1)^2} dt
+$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--convergences-sans-calcul&#34;&gt;Exercice 2 : Convergences sans calcul&lt;/h2&gt;
+&lt;p&gt;Étudier la convergence des intégrales impropres suivantes :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_1^{+\infty} e^{-t^2} dt
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Équations Différentielles</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/equations-differentielles/</link>
+      <pubDate>Sun, 07 Sep 2025 07:12:52 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/equations-differentielles/</guid>
+      <description>&lt;h1 id=&#34;équations-différentielles&#34;&gt;Équations Différentielles&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--applications-directes&#34;&gt;Exercice 1 : Applications Directes&lt;/h2&gt;
+&lt;p&gt;Résoudre les équations différentielles suivantes :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ xy&amp;rsquo; + 2y = 4x^2 $, avec la condition initiale $ y(1) = 2 $.&lt;/li&gt;
+&lt;li&gt;$ y&amp;rsquo; \sin(x) - y = 1 - \cos x $.&lt;/li&gt;
+&lt;li&gt;$ (1 - x^2)y&amp;rsquo; + xy = 1 $.&lt;/li&gt;
+&lt;li&gt;$ xy&amp;rsquo; + y = y^2 \log(x) $.&lt;/li&gt;
+&lt;li&gt;$ y&amp;rsquo; + 2xy + xy^4 = 0 $.&lt;/li&gt;
+&lt;li&gt;$ y - xy&amp;rsquo; + \log x = 0 $.&lt;/li&gt;
+&lt;li&gt;$ x^3y&amp;rsquo; + (2 - 3x^2)y = x^3 $.&lt;/li&gt;
+&lt;li&gt;$ y&amp;rsquo; + y = y^2 (\cos x - \sin x) $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--équations-du-premier-ordre-à-variable-séparée&#34;&gt;Exercice 2 : Équations du premier ordre à variable séparée&lt;/h2&gt;
+&lt;p&gt;On considère les équations de la forme :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Primitives</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</link>
+      <pubDate>Sun, 07 Sep 2025 07:11:27 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</guid>
+      <description>&lt;h1 id=&#34;primitives&#34;&gt;Primitives&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--calculs-dintégrales&#34;&gt;Exercice 1 : Calculs d’intégrales&lt;/h2&gt;
+&lt;p&gt;Calculer :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^x t e^t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_1^e \frac{\ln t}{t} dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_1^{e^2} \frac{dt}{t \ln t}.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_{\pi/4}^{\pi/2} \tan t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^x \frac{1}{1+t^2} dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^1 e^t \cos t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pour $ x &amp;gt; 0 $, calculer :&lt;/p&gt;
+&lt;p&gt;$$
+\int_1^x \ln t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^x \cos^5 t e^t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^1 \sqrt{1 - t^2} dt.
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>L’intégrale au sens de Riemann</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</link>
+      <pubDate>Sun, 07 Sep 2025 07:10:03 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</guid>
+      <description>&lt;h1 id=&#34;lintégrale-au-sens-de-riemann&#34;&gt;L’intégrale au sens de Riemann&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--fonctions-dintégrale-nulle&#34;&gt;Exercice 1 : Fonctions d’intégrale nulle&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Donner un exemple d’une fonction $ f : [a,b] \to \mathbb{R}_{\geq 0} $ intégrable, non identiquement nulle mais d’intégrale nulle.&lt;/li&gt;
+&lt;li&gt;Montrer que si $ f : [a,b] \to \mathbb{R}_{\geq 0} $ est continue et non identiquement nulle, alors son intégrale est strictement positive.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--valeurs-particulières-et-intégrales&#34;&gt;Exercice 2 : Valeurs particulières et intégrales&lt;/h2&gt;
+&lt;p&gt;Soit $ f : [0,1] \to \mathbb{R} $ une fonction continue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Développements en séries de Taylor</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</link>
+      <pubDate>Sun, 07 Sep 2025 07:08:24 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</guid>
+      <description>&lt;h1 id=&#34;développements-en-séries-de-taylor&#34;&gt;Développements en séries de Taylor&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--développements-limités-des-fonctions-paires-et-impaires&#34;&gt;Exercice 1 : Développements limités des fonctions paires et impaires&lt;/h2&gt;
+&lt;p&gt;Soit $ n \in \mathbb{N} $ et soit $ f : \mathbb{R} \to \mathbb{R} $ une fonction de classe $ C^{n+1} $.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Montrer que si $ f $ est paire, alors le développement limité en 0 de $ f $ à l’ordre $ n $ n’a que des termes de degré pair (et tous les termes de degré impair sont nuls).&lt;/li&gt;
+&lt;li&gt;Montrer de même que si $ f $ est impaire, tous les termes de degré pair de son développement limité en 0 sont nuls.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--calculs-de-développements-limités&#34;&gt;Exercice 2 : Calculs de développements limités&lt;/h2&gt;
+&lt;p&gt;Calculer les développements limités en 0 des fonctions suivantes, aux ordres précisés :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Definition of Vector Space</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</link>
+      <pubDate>Sun, 07 Sep 2025 07:07:06 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</guid>
+      <description>&lt;h1 id=&#34;definition-of-vector-space&#34;&gt;Definition of Vector Space&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1-double-additive-inverse&#34;&gt;Exercise 1: Double Additive Inverse&lt;/h2&gt;
+&lt;p&gt;Prove that $ -(-v) = v $ for every $ v \in V $, where $ V $ is a vector space.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2-zero-product-property&#34;&gt;Exercise 2: Zero Product Property&lt;/h2&gt;
+&lt;p&gt;Suppose $ a \in \mathbb{F} $ (a field), $ v \in V $, and $ av = 0 $. Prove that $ a = 0 $ or $ v = 0 $.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3-unique-solution-to-vector-equation&#34;&gt;Exercise 3: Unique Solution to Vector Equation&lt;/h2&gt;
+&lt;p&gt;Suppose $ v, w \in V $. Explain why there exists a unique $ x \in V $ such that $ v + 3x = w $.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Derivatives</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</link>
+      <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</guid>
+      <description>&lt;h1 id=&#34;derivatives&#34;&gt;Derivatives&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using the definition, prove that if $f(x)=1/x$, then $f&amp;rsquo;(a)=-1/a^{2}$ for $a\neq 0$.&lt;/li&gt;
+&lt;li&gt;Show that the tangent line to $f$ at $(a, 1/a)$ intersects $f$ only at $(a, 1/a)$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using the definition, prove that if $f(x)=1/x^{2}$, then $f&amp;rsquo;(a)=-2/a^{3}$ for $a\neq 0$.&lt;/li&gt;
+&lt;li&gt;Show that the tangent line at $(a, 1/a^{2})$ intersects $f$ at exactly one other point, on the opposite side of the y-axis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Prove that if $f(x)=\sqrt{x}$, then $f&amp;rsquo;(a)=1/(2\sqrt{a})$ for $a&amp;gt;0$. (Hint: Rationalize the difference quotient.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fundamental Theorem of Calculus</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</link>
+      <pubDate>Sun, 07 Sep 2025 07:02:44 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</guid>
+      <description>&lt;h1 id=&#34;fundamental-theorem-of-calculus&#34;&gt;Fundamental Theorem of Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--derivatives-of-integral-functions&#34;&gt;Exercise 1 : Derivatives of Integral Functions&lt;/h2&gt;
+&lt;p&gt;Find $F&amp;rsquo;(x)$ for each function:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_a^{x^3} \sin^3 t  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_3^x \frac{1}{1 + \sin^6 t + t^2} \int_1^t \sin^3 u  du  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_{15}^x \int_8^y \frac{1}{1 + t^2 + \sin^2 t}  dt  dy$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_x^b \frac{1}{1 + t^2 + \sin^2 t}  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_a^b \frac{x}{1 + t^2 + \sin^2 t}  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \sin \left( \int_0^x \sin \left( \int_0^y \sin^3 t  dt \right)  dy \right)$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inverse Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</link>
+      <pubDate>Sun, 07 Sep 2025 07:01:15 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</guid>
+      <description>&lt;h1 id=&#34;inverse-functions&#34;&gt;Inverse Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find $ f^{-1} $ for each function $ f $&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ f(x) = x^3 + 1 $&lt;/li&gt;
+&lt;li&gt;$ f(x) = (x - 1)^3 $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} x &amp;amp; \text{rational} \ -x &amp;amp; \text{irrational} \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} -x^2 &amp;amp; x \geq 0 \ 1 - x^3 &amp;amp; x &amp;lt; 0 \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} x &amp;amp; x \neq a_i \ a_{i+1} &amp;amp; x = a_i \ (i &amp;lt; n) \ a_1 &amp;amp; x = a_n \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = x + \lfloor x \rfloor $&lt;/li&gt;
+&lt;li&gt;$ f(0.a_1a_2a_3\ldots) = 0.a_2a_1a_3\ldots $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \frac{x}{1 - x^2}, \ -1 &amp;lt; x &amp;lt; 1 $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Describe $ f^{-1} $&amp;rsquo;s graph when $ f $ is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Numbers and Vector Space</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
+      <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
+      <description>&lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1-complex-number-inverse&#34;&gt;Exercise 1: Complex Number Inverse&lt;/h2&gt;
+&lt;p&gt;Suppose $a $ and $b $ are real numbers, not both 0. Find real numbers $c $ and $d $ such that&lt;br&gt;
+$$ \frac{1}{a + bi} = c + di. $$&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2-cube-root-of-unity&#34;&gt;Exercise 2: Cube Root of Unity&lt;/h2&gt;
+&lt;p&gt;Show that&lt;br&gt;
+$$ \frac{-1 + \sqrt{3}i}{2} $$&lt;br&gt;
+is a cube root of 1 (meaning that its cube equals 1).&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3-square-roots-of-i-&#34;&gt;Exercise 3: Square Roots of $i $&lt;/h2&gt;
+&lt;p&gt;Find two distinct square roots of $i $ (i.e., find two different complex numbers $z $ such that $z^2 = i $).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Riemann Sums</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</link>
+      <pubDate>Sun, 07 Sep 2025 06:56:51 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</guid>
+      <description>&lt;h1 id=&#34;riemann-sums&#34;&gt;Riemann Sums&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--approximation-of-integral-products&#34;&gt;Exercise 1 : Approximation of Integral Products&lt;/h2&gt;
+&lt;p&gt;Let (f,g) be continuous on ([a,b]). For any partition (P = {t_0,\ldots,t_n}) of ([a,b]), choose points (x_i, u_i \in [t_{i-1},t_i]).&lt;/p&gt;
+&lt;p&gt;Show that sums of the form&lt;br&gt;
+[\sum_{i=1}^n f(x_i)g(u_i)(t_i-t_{i-1})]&lt;br&gt;
+can be made arbitrarily close to (\int_a^b fg) by choosing sufficiently fine partitions (P).&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--approximation-of-composite-functions&#34;&gt;Exercise 2 : Approximation of Composite Functions&lt;/h2&gt;
+&lt;p&gt;Let (f,g) be continuous and nonnegative on ([a,b]). Show that for sufficiently fine partitions (P), sums&lt;br&gt;
+[\sum_{i=1}^n \sqrt{f(x_i)+g(u_i)}(t_i-t_{i-1})]&lt;br&gt;
+approximate (\int_a^b \sqrt{f+g}) within any (\varepsilon &amp;gt; 0).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Binomial Theorem</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/binomial-theorem/</link>
+      <pubDate>Sun, 07 Sep 2025 06:54:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/binomial-theorem/</guid>
+      <description>&lt;h1 id=&#34;binomial-theorem&#34;&gt;Binomial Theorem&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--expansion&#34;&gt;Exercise 1 : Expansion&lt;/h2&gt;
+&lt;p&gt;Expand using the binomial formula:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ (x + y)^4 $&lt;/li&gt;
+&lt;li&gt;$ (2a - b)^5 $&lt;/li&gt;
+&lt;li&gt;$ \left( \frac{1}{x} + x \right)^3 $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--coefficients&#34;&gt;Exercise 2 : Coefficients&lt;/h2&gt;
+&lt;p&gt;Find the specified coefficient:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Coefficient of $ x^3 $ in $ (1 + x)^8 $&lt;/li&gt;
+&lt;li&gt;Coefficient of $ a^4b^2 $ in $ (2a - 3b)^6 $&lt;/li&gt;
+&lt;li&gt;Coefficient of $ x^{-2} $ in $ \left( x - \frac{1}{x} \right)^{10} $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--identities&#34;&gt;Exercise 3 : Identities&lt;/h2&gt;
+&lt;p&gt;Prove the following identities using the binomial theorem:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convexity and Concavity</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/convexity-and-concavity/</link>
+      <pubDate>Sun, 07 Sep 2025 06:52:52 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/convexity-and-concavity/</guid>
+      <description>&lt;h1 id=&#34;convexity-and-concavity&#34;&gt;Convexity and Concavity&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Show that a function $ f $ is convex on an interval if and only if for all $ x, y $ in the interval and $ 0 &amp;lt; t &amp;lt; 1 $, we have:
+$$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Let $ f $ and $ g $ be convex functions with $ f $ increasing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Differentiation</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</link>
+      <pubDate>Sun, 07 Sep 2025 06:50:32 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</guid>
+      <description>&lt;h1 id=&#34;differentiation&#34;&gt;Differentiation&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find $f^{\prime}(x)$ for each $f$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f(x) = \sin(x + x^2)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin x + \sin x^2$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\cos x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\sin x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin\left(\frac{\cos x}{x}\right)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \frac{\sin(\cos x)}{x}$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(x + \sin x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\cos(\sin x))$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find $f^{\prime}(x)$ for each $f$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f(x) = \sin((x + 1)^2(x + 2))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^3(x^2 + \sin x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^2((x + \sin x)^2)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin\left(\frac{x^3}{\cos x^3}\right)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(x \sin x) + \sin(\sin x^2)$&lt;/li&gt;
+&lt;li&gt;$f(x) = (\cos x)^3$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^2 x \sin x^2 \sin^2 x^2$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^3(\sin^2(\sin x))$&lt;/li&gt;
+&lt;li&gt;$f(x) = (x + \sin^5 x)^6$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\sin(\sin(\sin(\sin x))))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin((\sin^7 x^7 + 1)^7)$&lt;/li&gt;
+&lt;li&gt;$f(x) = (((x^2 + x)^3 + x)^4 + x)^5$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(x^2 + \sin(x^2 + \sin x^2))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(6 \cos(6 \sin(6 \cos 6x)))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \frac{\sin x^2 \sin^2 x}{1 + \sin x}$&lt;/li&gt;
+&lt;li&gt;$f(x) = \frac{1}{x - \frac{2}{x + \sin x}}$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin \left( \frac{x^3}{\sin \left( \frac{x^3}{\sin x} \right)} \right)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin \left( \frac{x}{x - \sin \left( \frac{x}{x - \sin x} \right)} \right)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Find derivatives of: tan, cot, sec, csc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</link>
+      <pubDate>Sun, 07 Sep 2025 06:48:04 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</guid>
+      <description>&lt;h1 id=&#34;continuous-functions&#34;&gt;Continuous Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;For which functions $ f $ does there exist a continuous function $ F: \mathbb{R} \to \mathbb{R} $ such that $ F(x) = f(x) $ for all $ x $ in the domain of $ f $?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{x^2 - 4}{x - 2} $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{|x|}{x} $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = 0 $ for irrational $ x $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{1}{q} $ for $ x = \frac{p}{q} $ in lowest terms&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</guid>
+      <description>&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Let $f(x) = \frac{1}{1 + x}$. Find:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$f(f(x))$ and determine its domain&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f\left(\frac{1}{x}\right)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(cx)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x + y)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x) + f(y)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For which numbers $c$ does there exist $x$ such that $f(cx) = f(x)$?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For which numbers $c$ does $f(cx) = f(x)$ hold for two different values of $x$?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Let $g(x) = x^2$ and $h(x) = \begin{cases} 0 &amp;amp; \text{if } x \text{ rational} \ 1 &amp;amp; \text{if } x \text{ irrational} \end{cases}$. Find:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Integrals</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</guid>
+      <description>&lt;h1 id=&#34;integrals&#34;&gt;Integrals&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--proofs&#34;&gt;Exercise 1 : Proofs&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^{3} dx = \frac{b^4}{4}$ using equal partitions and $\sum_{i=1}^{n} i^3$.&lt;/li&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^{4} dx = \frac{b^5}{5}$ analogously.&lt;/li&gt;
+&lt;li&gt;Show $\lim_{n \to \infty} \sum_{k=1}^{n} \frac{k^p}{n^{p+1}} = \frac{1}{p+1}$.&lt;/li&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^p dx = \frac{b^{p+1}}{p+1}$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;For $0 &amp;lt; a &amp;lt; b$, find $\int_{a}^{b} x^p dx$ using partitions with fixed ratios $r = t_i/t_{i-1}$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Show $t_i = a \cdot c^{i/n}$ where $c = b/a$.&lt;/li&gt;
+&lt;li&gt;For $f(x) = x^p$, derive:&lt;br&gt;
+$$
+U(f,P) = (b^{p+1} - a^{p+1}) \frac{c^{p/n}}{1 + c^{1/n} + \cdots + c^{p/n}}
+$$&lt;br&gt;
+and find $L(f,P)$.&lt;/li&gt;
+&lt;li&gt;Conclude $\int_{a}^{b} x^p dx = \frac{b^{p+1} - a^{p+1}}{p+1}$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Evaluate by symmetry:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Limits and Continuity</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</guid>
+      <description>&lt;h1 id=&#34;limits-and-continuity&#34;&gt;Limits and Continuity&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find the following limits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\lim_{x \to 1} \frac{x^2 - 1}{x^3 - 1}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 2} \frac{x^3 - 8}{x^2 - 4}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 3} \frac{x^3 - 8}{x^2 - 4}$ &lt;em&gt;(Note the changed limit point)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to y} \frac{x^n - y^n}{x - y}$&lt;/li&gt;
+&lt;li&gt;$\lim_{y \to x} \frac{x^n - y^n}{x - y}$&lt;/li&gt;
+&lt;li&gt;$\lim_{h \to 0} \frac{\sqrt{a + h} - \sqrt{a}}{h}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find the following limits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\lim_{x \to 1} \frac{1 - \sqrt{x}}{1 - x}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 0} \frac{1 - \sqrt{1 - x^2}}{x}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 0} \frac{1 - \sqrt{1 - x^2}}{x^2}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;In each of the following cases, determine the limit $l$ for the given $a$, and prove that it is the limit by showing how to find a $\delta$ such  that $| f(x) - l | &amp;lt; \varepsilon$ where $\forall x$ satisfying $0 &amp;lt; |x-a| &amp;lt; \delta$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

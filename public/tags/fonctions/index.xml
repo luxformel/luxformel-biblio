@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fonctions on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/fonctions/</link>
+    <description>Recent content in Fonctions on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:21:58 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/fonctions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fonctions de plusieurs variables</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</link>
+      <pubDate>Sun, 07 Sep 2025 07:21:58 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</guid>
+      <description>&lt;h1 id=&#34;fonctions-de-plusieurs-variables&#34;&gt;Fonctions de plusieurs variables&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--continuité-de-fonctions-de-deux-variables&#34;&gt;Exercice 1 : Continuité de fonctions de deux variables&lt;/h2&gt;
+&lt;p&gt;Étudier la continuité en $(0,0)$ des fonctions suivantes :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{xy(x^2 - y^2)}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{x^4 + y^4}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{x^2 y^2}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{xy^2}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$f(x, y) = \frac{\sin{|xy|}}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

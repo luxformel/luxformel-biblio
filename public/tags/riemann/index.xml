@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Riemann on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/riemann/</link>
+    <description>Recent content in Riemann on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:10:03 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/riemann/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L’intégrale au sens de Riemann</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</link>
+      <pubDate>Sun, 07 Sep 2025 07:10:03 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</guid>
+      <description>&lt;h1 id=&#34;lintégrale-au-sens-de-riemann&#34;&gt;L’intégrale au sens de Riemann&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--fonctions-dintégrale-nulle&#34;&gt;Exercice 1 : Fonctions d’intégrale nulle&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Donner un exemple d’une fonction $ f : [a,b] \to \mathbb{R}_{\geq 0} $ intégrable, non identiquement nulle mais d’intégrale nulle.&lt;/li&gt;
+&lt;li&gt;Montrer que si $ f : [a,b] \to \mathbb{R}_{\geq 0} $ est continue et non identiquement nulle, alors son intégrale est strictement positive.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--valeurs-particulières-et-intégrales&#34;&gt;Exercice 2 : Valeurs particulières et intégrales&lt;/h2&gt;
+&lt;p&gt;Soit $ f : [0,1] \to \mathbb{R} $ une fonction continue.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

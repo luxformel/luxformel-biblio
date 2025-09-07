@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Binomial Theorem on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/binomial-theorem/</link>
+    <description>Recent content in Binomial Theorem on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 06:54:19 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/binomial-theorem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binomial Theorem</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/binomial-theorem/</link>
+      <pubDate>Sun, 07 Sep 2025 06:54:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/binomial-theorem/</guid>
+      <description>&lt;h1 id=&#34;binomial-theorem&#34;&gt;Binomial Theorem&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--expansion&#34;&gt;Exercise 1 : Expansion&lt;/h2&gt;
+&lt;p&gt;Expand using the binomial formula:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ (x + y)^4 $&lt;/li&gt;
+&lt;li&gt;$ (2a - b)^5 $&lt;/li&gt;
+&lt;li&gt;$ \left( \frac{1}{x} + x \right)^3 $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--coefficients&#34;&gt;Exercise 2 : Coefficients&lt;/h2&gt;
+&lt;p&gt;Find the specified coefficient:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Coefficient of $ x^3 $ in $ (1 + x)^8 $&lt;/li&gt;
+&lt;li&gt;Coefficient of $ a^4b^2 $ in $ (2a - 3b)^6 $&lt;/li&gt;
+&lt;li&gt;Coefficient of $ x^{-2} $ in $ \left( x - \frac{1}{x} \right)^{10} $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--identities&#34;&gt;Exercise 3 : Identities&lt;/h2&gt;
+&lt;p&gt;Prove the following identities using the binomial theorem:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

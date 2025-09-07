@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Riemann Sums on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/riemann-sums/</link>
+    <description>Recent content in Riemann Sums on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 06:56:51 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/riemann-sums/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Riemann Sums</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</link>
+      <pubDate>Sun, 07 Sep 2025 06:56:51 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</guid>
+      <description>&lt;h1 id=&#34;riemann-sums&#34;&gt;Riemann Sums&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--approximation-of-integral-products&#34;&gt;Exercise 1 : Approximation of Integral Products&lt;/h2&gt;
+&lt;p&gt;Let (f,g) be continuous on ([a,b]). For any partition (P = {t_0,\ldots,t_n}) of ([a,b]), choose points (x_i, u_i \in [t_{i-1},t_i]).&lt;/p&gt;
+&lt;p&gt;Show that sums of the form&lt;br&gt;
+[\sum_{i=1}^n f(x_i)g(u_i)(t_i-t_{i-1})]&lt;br&gt;
+can be made arbitrarily close to (\int_a^b fg) by choosing sufficiently fine partitions (P).&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--approximation-of-composite-functions&#34;&gt;Exercise 2 : Approximation of Composite Functions&lt;/h2&gt;
+&lt;p&gt;Let (f,g) be continuous and nonnegative on ([a,b]). Show that for sufficiently fine partitions (P), sums&lt;br&gt;
+[\sum_{i=1}^n \sqrt{f(x_i)+g(u_i)}(t_i-t_{i-1})]&lt;br&gt;
+approximate (\int_a^b \sqrt{f+g}) within any (\varepsilon &amp;gt; 0).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

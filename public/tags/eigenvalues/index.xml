@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eigenvalues on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/eigenvalues/</link>
+    <description>Recent content in Eigenvalues on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 08:35:20 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/eigenvalues/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eigenvalues and Eigenvectors</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>
+      <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</guid>
+      <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors&#34;&gt;Eigenvalues and Eigenvectors&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Confirm by multiplication that &lt;strong&gt;x&lt;/strong&gt; is an eigenvector of &lt;strong&gt;A&lt;/strong&gt;, and find the corresponding eigenvalue.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 1 &amp;amp; 2 \ 3 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ -1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 5 &amp;amp; -1 \ 3 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 4 &amp;amp; 0 &amp;amp; 0 \ 2 &amp;amp; 3 &amp;amp; 2 \ 1 &amp;amp; 0 &amp;amp; 4 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;li&gt;$ A = \begin{bmatrix} 2 &amp;amp; -1 &amp;amp; -1 \ -1 &amp;amp; 2 &amp;amp; -1 \ -1 &amp;amp; -1 &amp;amp; 2 \end{bmatrix}, \quad x = \begin{bmatrix} 1 \ 1 \ 1 \end{bmatrix} $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find the characteristic equation, the eigenvalues, and bases for the eigenspaces of the matrix.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

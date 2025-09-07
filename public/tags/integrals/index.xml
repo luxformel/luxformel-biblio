@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Integrals on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/integrals/</link>
+    <description>Recent content in Integrals on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 06:44:19 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/integrals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrals</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</guid>
+      <description>&lt;h1 id=&#34;integrals&#34;&gt;Integrals&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--proofs&#34;&gt;Exercise 1 : Proofs&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^{3} dx = \frac{b^4}{4}$ using equal partitions and $\sum_{i=1}^{n} i^3$.&lt;/li&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^{4} dx = \frac{b^5}{5}$ analogously.&lt;/li&gt;
+&lt;li&gt;Show $\lim_{n \to \infty} \sum_{k=1}^{n} \frac{k^p}{n^{p+1}} = \frac{1}{p+1}$.&lt;/li&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^p dx = \frac{b^{p+1}}{p+1}$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;For $0 &amp;lt; a &amp;lt; b$, find $\int_{a}^{b} x^p dx$ using partitions with fixed ratios $r = t_i/t_{i-1}$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Show $t_i = a \cdot c^{i/n}$ where $c = b/a$.&lt;/li&gt;
+&lt;li&gt;For $f(x) = x^p$, derive:&lt;br&gt;
+$$
+U(f,P) = (b^{p+1} - a^{p+1}) \frac{c^{p/n}}{1 + c^{1/n} + \cdots + c^{p/n}}
+$$&lt;br&gt;
+and find $L(f,P)$.&lt;/li&gt;
+&lt;li&gt;Conclude $\int_{a}^{b} x^p dx = \frac{b^{p+1} - a^{p+1}}{p+1}$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Evaluate by symmetry:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

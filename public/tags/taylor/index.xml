@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Taylor on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/taylor/</link>
+    <description>Recent content in Taylor on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:08:24 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/taylor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Développements en séries de Taylor</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</link>
+      <pubDate>Sun, 07 Sep 2025 07:08:24 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</guid>
+      <description>&lt;h1 id=&#34;développements-en-séries-de-taylor&#34;&gt;Développements en séries de Taylor&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--développements-limités-des-fonctions-paires-et-impaires&#34;&gt;Exercice 1 : Développements limités des fonctions paires et impaires&lt;/h2&gt;
+&lt;p&gt;Soit $ n \in \mathbb{N} $ et soit $ f : \mathbb{R} \to \mathbb{R} $ une fonction de classe $ C^{n+1} $.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Montrer que si $ f $ est paire, alors le développement limité en 0 de $ f $ à l’ordre $ n $ n’a que des termes de degré pair (et tous les termes de degré impair sont nuls).&lt;/li&gt;
+&lt;li&gt;Montrer de même que si $ f $ est impaire, tous les termes de degré pair de son développement limité en 0 sont nuls.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--calculs-de-développements-limités&#34;&gt;Exercice 2 : Calculs de développements limités&lt;/h2&gt;
+&lt;p&gt;Calculer les développements limités en 0 des fonctions suivantes, aux ordres précisés :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

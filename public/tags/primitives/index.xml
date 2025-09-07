@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Primitives on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/primitives/</link>
+    <description>Recent content in Primitives on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:11:27 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/primitives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primitives</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</link>
+      <pubDate>Sun, 07 Sep 2025 07:11:27 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</guid>
+      <description>&lt;h1 id=&#34;primitives&#34;&gt;Primitives&lt;/h1&gt;
+&lt;h2 id=&#34;exercice-1--calculs-dintégrales&#34;&gt;Exercice 1 : Calculs d’intégrales&lt;/h2&gt;
+&lt;p&gt;Calculer :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^x t e^t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_1^e \frac{\ln t}{t} dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_1^{e^2} \frac{dt}{t \ln t}.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_{\pi/4}^{\pi/2} \tan t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^x \frac{1}{1+t^2} dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^1 e^t \cos t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pour $ x &amp;gt; 0 $, calculer :&lt;/p&gt;
+&lt;p&gt;$$
+\int_1^x \ln t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^x \cos^5 t e^t dt.
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+\int_0^1 \sqrt{1 - t^2} dt.
+$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

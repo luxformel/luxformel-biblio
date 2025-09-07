@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wave Function on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/wave-function/</link>
+    <description>Recent content in Wave Function on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 08:38:35 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/wave-function/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wave Function</title>
+      <link>https://biblio.luxformel.info/posts/physik/quantum-mechanics/en/wave-function/</link>
+      <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/physik/quantum-mechanics/en/wave-function/</guid>
+      <description>&lt;h1 id=&#34;wave-function&#34;&gt;Wave Function&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Consider the Gaussian distribution&lt;br&gt;
+$$
+\rho(x) = Ae^{-\lambda(x - a)^2}
+$$&lt;br&gt;
+where $ A, a, \lambda $ are positive real constants.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the normalization condition $\int_{-\infty}^{+\infty} \rho(x), dx = 1$ to determine $A$.&lt;/li&gt;
+&lt;li&gt;Find $\langle x \rangle$, $\langle x^2 \rangle$, and the standard deviation $\sigma$.&lt;/li&gt;
+&lt;li&gt;Sketch the graph of $\rho(x)$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;At time $ t = 0 $, a particle is represented by the wave function:
+$$
+\Psi(x, 0) =
+\begin{cases}
+A(x/a), &amp;amp; 0 \leq x \leq a \
+A(b - x)/(b - a), &amp;amp; a \leq x \leq b \
+0, &amp;amp; \text{otherwise}
+\end{cases}
+$$
+where $ A, a, b $ are positive constants.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

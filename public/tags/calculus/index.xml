@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Calculus on Luxformel Bibliothéik</title>
+    <link>https://biblio.luxformel.info/tags/calculus/</link>
+    <description>Recent content in Calculus on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:04:16 +0200</lastBuildDate>
+    <atom:link href="https://biblio.luxformel.info/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Derivatives</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</link>
+      <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</guid>
+      <description>&lt;h1 id=&#34;derivatives&#34;&gt;Derivatives&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using the definition, prove that if $f(x)=1/x$, then $f&amp;rsquo;(a)=-1/a^{2}$ for $a\neq 0$.&lt;/li&gt;
+&lt;li&gt;Show that the tangent line to $f$ at $(a, 1/a)$ intersects $f$ only at $(a, 1/a)$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using the definition, prove that if $f(x)=1/x^{2}$, then $f&amp;rsquo;(a)=-2/a^{3}$ for $a\neq 0$.&lt;/li&gt;
+&lt;li&gt;Show that the tangent line at $(a, 1/a^{2})$ intersects $f$ at exactly one other point, on the opposite side of the y-axis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Prove that if $f(x)=\sqrt{x}$, then $f&amp;rsquo;(a)=1/(2\sqrt{a})$ for $a&amp;gt;0$. (Hint: Rationalize the difference quotient.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fundamental Theorem of Calculus</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</link>
+      <pubDate>Sun, 07 Sep 2025 07:02:44 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</guid>
+      <description>&lt;h1 id=&#34;fundamental-theorem-of-calculus&#34;&gt;Fundamental Theorem of Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--derivatives-of-integral-functions&#34;&gt;Exercise 1 : Derivatives of Integral Functions&lt;/h2&gt;
+&lt;p&gt;Find $F&amp;rsquo;(x)$ for each function:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_a^{x^3} \sin^3 t  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_3^x \frac{1}{1 + \sin^6 t + t^2} \int_1^t \sin^3 u  du  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_{15}^x \int_8^y \frac{1}{1 + t^2 + \sin^2 t}  dt  dy$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_x^b \frac{1}{1 + t^2 + \sin^2 t}  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \int_a^b \frac{x}{1 + t^2 + \sin^2 t}  dt$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$F(x) = \sin \left( \int_0^x \sin \left( \int_0^y \sin^3 t  dt \right)  dy \right)$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inverse Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</link>
+      <pubDate>Sun, 07 Sep 2025 07:01:15 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</guid>
+      <description>&lt;h1 id=&#34;inverse-functions&#34;&gt;Inverse Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find $ f^{-1} $ for each function $ f $&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ f(x) = x^3 + 1 $&lt;/li&gt;
+&lt;li&gt;$ f(x) = (x - 1)^3 $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} x &amp;amp; \text{rational} \ -x &amp;amp; \text{irrational} \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} -x^2 &amp;amp; x \geq 0 \ 1 - x^3 &amp;amp; x &amp;lt; 0 \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \begin{cases} x &amp;amp; x \neq a_i \ a_{i+1} &amp;amp; x = a_i \ (i &amp;lt; n) \ a_1 &amp;amp; x = a_n \end{cases} $&lt;/li&gt;
+&lt;li&gt;$ f(x) = x + \lfloor x \rfloor $&lt;/li&gt;
+&lt;li&gt;$ f(0.a_1a_2a_3\ldots) = 0.a_2a_1a_3\ldots $&lt;/li&gt;
+&lt;li&gt;$ f(x) = \frac{x}{1 - x^2}, \ -1 &amp;lt; x &amp;lt; 1 $&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Describe $ f^{-1} $&amp;rsquo;s graph when $ f $ is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Riemann Sums</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</link>
+      <pubDate>Sun, 07 Sep 2025 06:56:51 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</guid>
+      <description>&lt;h1 id=&#34;riemann-sums&#34;&gt;Riemann Sums&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--approximation-of-integral-products&#34;&gt;Exercise 1 : Approximation of Integral Products&lt;/h2&gt;
+&lt;p&gt;Let (f,g) be continuous on ([a,b]). For any partition (P = {t_0,\ldots,t_n}) of ([a,b]), choose points (x_i, u_i \in [t_{i-1},t_i]).&lt;/p&gt;
+&lt;p&gt;Show that sums of the form&lt;br&gt;
+[\sum_{i=1}^n f(x_i)g(u_i)(t_i-t_{i-1})]&lt;br&gt;
+can be made arbitrarily close to (\int_a^b fg) by choosing sufficiently fine partitions (P).&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--approximation-of-composite-functions&#34;&gt;Exercise 2 : Approximation of Composite Functions&lt;/h2&gt;
+&lt;p&gt;Let (f,g) be continuous and nonnegative on ([a,b]). Show that for sufficiently fine partitions (P), sums&lt;br&gt;
+[\sum_{i=1}^n \sqrt{f(x_i)+g(u_i)}(t_i-t_{i-1})]&lt;br&gt;
+approximate (\int_a^b \sqrt{f+g}) within any (\varepsilon &amp;gt; 0).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convexity and Concavity</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/convexity-and-concavity/</link>
+      <pubDate>Sun, 07 Sep 2025 06:52:52 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/convexity-and-concavity/</guid>
+      <description>&lt;h1 id=&#34;convexity-and-concavity&#34;&gt;Convexity and Concavity&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Show that a function $ f $ is convex on an interval if and only if for all $ x, y $ in the interval and $ 0 &amp;lt; t &amp;lt; 1 $, we have:
+$$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Let $ f $ and $ g $ be convex functions with $ f $ increasing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Differentiation</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</link>
+      <pubDate>Sun, 07 Sep 2025 06:50:32 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</guid>
+      <description>&lt;h1 id=&#34;differentiation&#34;&gt;Differentiation&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find $f^{\prime}(x)$ for each $f$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f(x) = \sin(x + x^2)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin x + \sin x^2$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\cos x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\sin x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin\left(\frac{\cos x}{x}\right)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \frac{\sin(\cos x)}{x}$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(x + \sin x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\cos(\sin x))$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find $f^{\prime}(x)$ for each $f$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f(x) = \sin((x + 1)^2(x + 2))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^3(x^2 + \sin x)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^2((x + \sin x)^2)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin\left(\frac{x^3}{\cos x^3}\right)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(x \sin x) + \sin(\sin x^2)$&lt;/li&gt;
+&lt;li&gt;$f(x) = (\cos x)^3$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^2 x \sin x^2 \sin^2 x^2$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin^3(\sin^2(\sin x))$&lt;/li&gt;
+&lt;li&gt;$f(x) = (x + \sin^5 x)^6$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(\sin(\sin(\sin(\sin x))))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin((\sin^7 x^7 + 1)^7)$&lt;/li&gt;
+&lt;li&gt;$f(x) = (((x^2 + x)^3 + x)^4 + x)^5$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(x^2 + \sin(x^2 + \sin x^2))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin(6 \cos(6 \sin(6 \cos 6x)))$&lt;/li&gt;
+&lt;li&gt;$f(x) = \frac{\sin x^2 \sin^2 x}{1 + \sin x}$&lt;/li&gt;
+&lt;li&gt;$f(x) = \frac{1}{x - \frac{2}{x + \sin x}}$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin \left( \frac{x^3}{\sin \left( \frac{x^3}{\sin x} \right)} \right)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \sin \left( \frac{x}{x - \sin \left( \frac{x}{x - \sin x} \right)} \right)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Find derivatives of: tan, cot, sec, csc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</link>
+      <pubDate>Sun, 07 Sep 2025 06:48:04 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</guid>
+      <description>&lt;h1 id=&#34;continuous-functions&#34;&gt;Continuous Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;For which functions $ f $ does there exist a continuous function $ F: \mathbb{R} \to \mathbb{R} $ such that $ F(x) = f(x) $ for all $ x $ in the domain of $ f $?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{x^2 - 4}{x - 2} $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{|x|}{x} $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = 0 $ for irrational $ x $&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$ f(x) = \frac{1}{q} $ for $ x = \frac{p}{q} $ in lowest terms&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</guid>
+      <description>&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Let $f(x) = \frac{1}{1 + x}$. Find:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$f(f(x))$ and determine its domain&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f\left(\frac{1}{x}\right)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(cx)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x + y)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$f(x) + f(y)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For which numbers $c$ does there exist $x$ such that $f(cx) = f(x)$?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For which numbers $c$ does $f(cx) = f(x)$ hold for two different values of $x$?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Let $g(x) = x^2$ and $h(x) = \begin{cases} 0 &amp;amp; \text{if } x \text{ rational} \ 1 &amp;amp; \text{if } x \text{ irrational} \end{cases}$. Find:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Integrals</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</guid>
+      <description>&lt;h1 id=&#34;integrals&#34;&gt;Integrals&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--proofs&#34;&gt;Exercise 1 : Proofs&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^{3} dx = \frac{b^4}{4}$ using equal partitions and $\sum_{i=1}^{n} i^3$.&lt;/li&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^{4} dx = \frac{b^5}{5}$ analogously.&lt;/li&gt;
+&lt;li&gt;Show $\lim_{n \to \infty} \sum_{k=1}^{n} \frac{k^p}{n^{p+1}} = \frac{1}{p+1}$.&lt;/li&gt;
+&lt;li&gt;Prove $\int_{0}^{b} x^p dx = \frac{b^{p+1}}{p+1}$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;For $0 &amp;lt; a &amp;lt; b$, find $\int_{a}^{b} x^p dx$ using partitions with fixed ratios $r = t_i/t_{i-1}$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Show $t_i = a \cdot c^{i/n}$ where $c = b/a$.&lt;/li&gt;
+&lt;li&gt;For $f(x) = x^p$, derive:&lt;br&gt;
+$$
+U(f,P) = (b^{p+1} - a^{p+1}) \frac{c^{p/n}}{1 + c^{1/n} + \cdots + c^{p/n}}
+$$&lt;br&gt;
+and find $L(f,P)$.&lt;/li&gt;
+&lt;li&gt;Conclude $\int_{a}^{b} x^p dx = \frac{b^{p+1} - a^{p+1}}{p+1}$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Evaluate by symmetry:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Limits and Continuity</title>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</link>
+      <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</guid>
+      <description>&lt;h1 id=&#34;limits-and-continuity&#34;&gt;Limits and Continuity&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Find the following limits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\lim_{x \to 1} \frac{x^2 - 1}{x^3 - 1}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 2} \frac{x^3 - 8}{x^2 - 4}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 3} \frac{x^3 - 8}{x^2 - 4}$ &lt;em&gt;(Note the changed limit point)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to y} \frac{x^n - y^n}{x - y}$&lt;/li&gt;
+&lt;li&gt;$\lim_{y \to x} \frac{x^n - y^n}{x - y}$&lt;/li&gt;
+&lt;li&gt;$\lim_{h \to 0} \frac{\sqrt{a + h} - \sqrt{a}}{h}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Find the following limits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\lim_{x \to 1} \frac{1 - \sqrt{x}}{1 - x}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 0} \frac{1 - \sqrt{1 - x^2}}{x}$&lt;/li&gt;
+&lt;li&gt;$\lim_{x \to 0} \frac{1 - \sqrt{1 - x^2}}{x^2}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;In each of the following cases, determine the limit $l$ for the given $a$, and prove that it is the limit by showing how to find a $\delta$ such  that $| f(x) - l | &amp;lt; \varepsilon$ where $\forall x$ satisfying $0 &amp;lt; |x-a| &amp;lt; \delta$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

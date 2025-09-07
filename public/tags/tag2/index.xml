@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tag2 on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/tag2/</link>
+    <description>Recent content in Tag2 on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Sep 2025 07:38:46 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lagrangeformalismus</title>
+      <link>http://localhost:1313/posts/physik/theoretische-physik/langrangeformalismus/</link>
+      <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
+      <guid>http://localhost:1313/posts/physik/theoretische-physik/langrangeformalismus/</guid>
+      <description>&lt;h1 id=&#34;lagrangeformalismus&#34;&gt;Lagrangeformalismus&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1-massenpunkt-auf-kurve-im-schwerefeld&#34;&gt;Aufgabe 1: Massenpunkt auf Kurve im Schwerefeld&lt;/h2&gt;
+&lt;p&gt;In der vertikalen $z$-$x$-Ebene gleitet ein Massenpunkt reibungsfrei auf der Kurve $z = f(x)$. Auf den Massenpunkt wirkt die Schwerkraft $F = \Delta mg, \mathbf{e}_z$. Stellen Sie die Lagrangegleichungen 1. Art auf.&lt;/p&gt;
+&lt;h2 id=&#34;aufgabe-2-massenpunkt-auf-kugeloberfläche&#34;&gt;Aufgabe 2: Massenpunkt auf Kugeloberfläche&lt;/h2&gt;
+&lt;p&gt;Ein Massenpunkt liegt im Schwerefeld auf dem obersten Punkt einer Kugel. Er beginnt dort reibungsfrei herunter zu gleiten. An welcher Stelle hebt er von der Kugel ab? Verwenden Sie den Energieerhaltungssatz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
