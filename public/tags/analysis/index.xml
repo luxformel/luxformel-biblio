@@ -10,7 +10,7 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
+    <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 08:45:14 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -56,15 +56,14 @@ Make a conjecture about the values of $ n $ for which additive inverses exist in
 &lt;ol&gt;
 &lt;li&gt;Let $ A $ be bounded below, and define&lt;br&gt;
 $$
-B = { b \in \mathbb{R} : b \text{ is a lower bound for } A }.
-$$&lt;br&gt;
+   B = \{ b \in \mathbb{R} : b \text{ is a lower bound for } A \}.
+   $$&lt;br&gt;
 Show that $ \sup B = \inf A $.&lt;/li&gt;
 &lt;li&gt;Use (1) to explain why there is no need to assert that greatest lower bounds exist as part of the Axiom of Completeness.&lt;/li&gt;
 &lt;li&gt;Propose another way to use the Axiom of Completeness to prove that sets bounded below have greatest lower bounds.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;exercise-4&#34;&gt;Exercise 4&lt;/h2&gt;
-&lt;p&gt;Assume that $A$ and $B$ are nonempty, bounded above, and satisfy $B \subseteq A$. Show that $ \sup(B) \leq \sup(A) $.
-.&lt;/p&gt;</description>
+&lt;p&gt;Assume that $A$ and $B$ are nonempty, bounded above, and satisfy $B \subseteq A$. Show that $ \sup(B) \leq \sup(A) $.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

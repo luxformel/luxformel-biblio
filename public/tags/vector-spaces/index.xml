@@ -10,9 +10,47 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 07 Sep 2025 06:57:55 +0200</lastBuildDate>
+    <language>lb</language>
+    <lastBuildDate>Mon, 08 Sep 2025 03:11:30 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/vector-spaces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vector Spaces</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-spaces/</link>
+      <pubDate>Mon, 08 Sep 2025 03:11:30 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-spaces/</guid>
+      <description>&lt;h1 id=&#34;vector-spaces&#34;&gt;Vector Spaces&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;For each of the following subsets of $\mathbb{F}^3$, determine whether it is a subspace of $\mathbb{F}^3$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;${(x_1, x_2, x_3) \in \mathbb{F}^3 : x_1 + 2x_2 + 3x_3 = 0}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;${(x_1, x_2, x_3) \in \mathbb{F}^3 : x_1 + 2x_2 + 3x_3 = 4}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;${(x_1, x_2, x_3) \in \mathbb{F}^3 : x_1 x_2 x_3 = 0}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;${(x_1, x_2, x_3) \in \mathbb{F}^3 : x_1 = 5x_3}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Show that the set of differentiable real-valued functions $f$ on the interval $(-4, 4)$ such that $f&amp;rsquo;( -1) = 3f(2)$ is a subspace of $\mathbb{R}^{(-4, 4)}$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Definition of Vector Space</title>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</link>
+      <pubDate>Sun, 07 Sep 2025 07:07:06 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</guid>
+      <description>&lt;h1 id=&#34;definition-of-vector-space&#34;&gt;Definition of Vector Space&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1-double-additive-inverse&#34;&gt;Exercise 1: Double Additive Inverse&lt;/h2&gt;
+&lt;p&gt;Prove that $ -(-v) = v $ for every $ v \in V $, where $ V $ is a vector space.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2-zero-product-property&#34;&gt;Exercise 2: Zero Product Property&lt;/h2&gt;
+&lt;p&gt;Suppose $ a \in \mathbb{F} $ (a field), $ v \in V $, and $ av = 0 $. Prove that $ a = 0 $ or $ v = 0 $.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3-unique-solution-to-vector-equation&#34;&gt;Exercise 3: Unique Solution to Vector Equation&lt;/h2&gt;
+&lt;p&gt;Suppose $ v, w \in V $. Explain why there exists a unique $ x \in V $ such that $ v + 3x = w $.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Complex Numbers and Vector Space</title>
       <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
@@ -21,10 +59,11 @@
       <description>&lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1-complex-number-inverse&#34;&gt;Exercise 1: Complex Number Inverse&lt;/h2&gt;
 &lt;p&gt;Suppose $a $ and $b $ are real numbers, not both 0. Find real numbers $c $ and $d $ such that&lt;br&gt;
-$$ \frac{1}{a + bi} = c + di. $$&lt;/p&gt;
-&lt;h2 id=&#34;exercise-2-cube-root-of-unity&#34;&gt;Exercise 2: Cube Root of Unity&lt;/h2&gt;
+&lt;/p&gt;
+$$ \frac{1}{a + bi} = c + di. $$&lt;h2 id=&#34;exercise-2-cube-root-of-unity&#34;&gt;Exercise 2: Cube Root of Unity&lt;/h2&gt;
 &lt;p&gt;Show that&lt;br&gt;
-$$ \frac{-1 + \sqrt{3}i}{2} $$&lt;br&gt;
+&lt;/p&gt;
+$$ \frac{-1 + \sqrt{3}i}{2} $$&lt;p&gt;&lt;br&gt;
 is a cube root of 1 (meaning that its cube equals 1).&lt;/p&gt;
 &lt;h2 id=&#34;exercise-3-square-roots-of-i-&#34;&gt;Exercise 3: Square Roots of $i $&lt;/h2&gt;
 &lt;p&gt;Find two distinct square roots of $i $ (i.e., find two different complex numbers $z $ such that $z^2 = i $).&lt;/p&gt;</description>

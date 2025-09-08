@@ -3,9 +3,9 @@ title: "Definition of Vector Space"
 date: 2025-09-07T07:07:06+02:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Linear Algebra", "Vector Space"]
+tags: ["Linear Algebra", "Vector Spaces"]
 categories: ["Mathé"]
-author: "Damon"
+author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -17,12 +17,14 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+
+math: true
 ---
 
 # Definition of Vector Space

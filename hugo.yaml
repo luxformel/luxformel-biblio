@@ -23,6 +23,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  math: false
 
   ShowReadingTime: false
   ShowShareButtons: false
@@ -113,20 +114,33 @@ menu:
       url: /tags/
       weight: 20
     - identifier: archives
-      name: archives
+      name: archiv
       url: /archives/
       weight: 20
     - identifier: search
-      name: search
+      name: sichen
       url: /search/
       weight: 20
-    - identifier: example
+    - identifier: luxformel
       name: luxformel.info
       url: https://luxformel.info/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+      extensions:
+        passthrough:
+          delimiters:
+            block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+            inline:
+            - - \(
+              - \)
+          enable: true
   highlight:
     noClasses: false
     # anchorLineNos: true
@@ -139,3 +153,5 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search    
+
+defaultContentLanguage: lb

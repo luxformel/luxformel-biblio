@@ -10,7 +10,7 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
+    <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 06:57:55 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/complex-numbers/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -21,10 +21,11 @@
       <description>&lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1-complex-number-inverse&#34;&gt;Exercise 1: Complex Number Inverse&lt;/h2&gt;
 &lt;p&gt;Suppose $a $ and $b $ are real numbers, not both 0. Find real numbers $c $ and $d $ such that&lt;br&gt;
-$$ \frac{1}{a + bi} = c + di. $$&lt;/p&gt;
-&lt;h2 id=&#34;exercise-2-cube-root-of-unity&#34;&gt;Exercise 2: Cube Root of Unity&lt;/h2&gt;
+&lt;/p&gt;
+$$ \frac{1}{a + bi} = c + di. $$&lt;h2 id=&#34;exercise-2-cube-root-of-unity&#34;&gt;Exercise 2: Cube Root of Unity&lt;/h2&gt;
 &lt;p&gt;Show that&lt;br&gt;
-$$ \frac{-1 + \sqrt{3}i}{2} $$&lt;br&gt;
+&lt;/p&gt;
+$$ \frac{-1 + \sqrt{3}i}{2} $$&lt;p&gt;&lt;br&gt;
 is a cube root of 1 (meaning that its cube equals 1).&lt;/p&gt;
 &lt;h2 id=&#34;exercise-3-square-roots-of-i-&#34;&gt;Exercise 3: Square Roots of $i $&lt;/h2&gt;
 &lt;p&gt;Find two distinct square roots of $i $ (i.e., find two different complex numbers $z $ such that $z^2 = i $).&lt;/p&gt;</description>

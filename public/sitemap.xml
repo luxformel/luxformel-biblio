@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://biblio.luxformel.info/categories/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/tags/linear-algebra/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/tags/linear-independence/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/categories/math%C3%A9/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/posts/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/tags/span/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/span-and-linear-independence/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/tags/</loc>
+    <lastmod>2025-09-08T04:12:27+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-spaces/</loc>
+    <lastmod>2025-09-08T03:11:30+02:00</lastmod>
+  </url><url>
+    <loc>https://biblio.luxformel.info/tags/vector-spaces/</loc>
+    <lastmod>2025-09-08T03:11:30+02:00</lastmod>
+  </url><url>
     <loc>https://biblio.luxformel.info/tags/analysis/</loc>
     <lastmod>2025-09-07T08:45:14+02:00</lastmod>
   </url><url>
-    <loc>https://biblio.luxformel.info/categories/</loc>
-    <lastmod>2025-09-07T08:45:14+02:00</lastmod>
-  </url><url>
-    <loc>https://biblio.luxformel.info/</loc>
-    <lastmod>2025-09-07T08:45:14+02:00</lastmod>
-  </url><url>
-    <loc>https://biblio.luxformel.info/categories/math%C3%A9/</loc>
-    <lastmod>2025-09-07T08:45:14+02:00</lastmod>
-  </url><url>
-    <loc>https://biblio.luxformel.info/posts/</loc>
-    <lastmod>2025-09-07T08:45:14+02:00</lastmod>
-  </url><url>
     <loc>https://biblio.luxformel.info/posts/analysis/en/preliminary-analysis/</loc>
-    <lastmod>2025-09-07T08:45:14+02:00</lastmod>
-  </url><url>
-    <loc>https://biblio.luxformel.info/tags/</loc>
     <lastmod>2025-09-07T08:45:14+02:00</lastmod>
   </url><url>
     <loc>https://biblio.luxformel.info/posts/analysis/en/axiom-of-completeness/</loc>
@@ -32,7 +50,7 @@
     <loc>https://biblio.luxformel.info/tags/quantum-mechanics/</loc>
     <lastmod>2025-09-07T08:38:35+02:00</lastmod>
   </url><url>
-    <loc>https://biblio.luxformel.info/posts/physik/quantum-mechanics/en/wave-function/</loc>
+    <loc>https://biblio.luxformel.info/posts/physik/quantum-mechanics/de/wave-function/</loc>
     <lastmod>2025-09-07T08:38:35+02:00</lastmod>
   </url><url>
     <loc>https://biblio.luxformel.info/tags/wave-function/</loc>
@@ -48,9 +66,6 @@
     <lastmod>2025-09-07T08:35:20+02:00</lastmod>
   </url><url>
     <loc>https://biblio.luxformel.info/tags/eigenvectors/</loc>
-    <lastmod>2025-09-07T08:35:20+02:00</lastmod>
-  </url><url>
-    <loc>https://biblio.luxformel.info/tags/linear-algebra/</loc>
     <lastmod>2025-09-07T08:35:20+02:00</lastmod>
   </url><url>
     <loc>https://biblio.luxformel.info/tags/lagrange/</loc>
@@ -125,9 +140,6 @@
     <loc>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</loc>
     <lastmod>2025-09-07T07:07:06+02:00</lastmod>
   </url><url>
-    <loc>https://biblio.luxformel.info/tags/vector-space/</loc>
-    <lastmod>2025-09-07T07:07:06+02:00</lastmod>
-  </url><url>
     <loc>https://biblio.luxformel.info/tags/calculus/</loc>
     <lastmod>2025-09-07T07:04:16+02:00</lastmod>
   </url><url>
@@ -150,9 +162,6 @@
     <lastmod>2025-09-07T06:57:55+02:00</lastmod>
   </url><url>
     <loc>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</loc>
-    <lastmod>2025-09-07T06:57:55+02:00</lastmod>
-  </url><url>
-    <loc>https://biblio.luxformel.info/tags/vector-spaces/</loc>
     <lastmod>2025-09-07T06:57:55+02:00</lastmod>
   </url><url>
     <loc>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</loc>

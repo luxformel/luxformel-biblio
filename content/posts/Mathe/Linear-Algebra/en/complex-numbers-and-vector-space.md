@@ -5,7 +5,7 @@ date: 2025-09-07T06:57:55+02:00
 # aliases: ["/first"]
 tags: ["Complex Numbers", "Vector Spaces", "Linear Algebra"]
 categories: ["Mathé"]
-author: "Damon"
+author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -17,12 +17,14 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+
+math: true
 ---
 # Complex Numbers and Vector Space
 

@@ -5,7 +5,7 @@ date: 2025-09-07T08:43:44+02:00
 # aliases: ["/first"]
 tags: ["Analysis"]
 categories: ["Mathé"]
-author: "Damon"
+author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -17,12 +17,14 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+
+math: true
 ---
 
 # Axiom Of Completeness
@@ -54,7 +56,6 @@ Let $ \mathbb{Z}_5 = \{0, 1, 2, 3, 4\} $ and define addition and multiplication 
 ## Exercise 4
 
 Assume that $A$ and $B$ are nonempty, bounded above, and satisfy $B \subseteq A$. Show that $ \sup(B) \leq \sup(A) $.
-.
 
 ## Exercise 5
 
@@ -97,7 +98,7 @@ Let $ A \subseteq \mathbb{R} $ be nonempty and bounded above. Let $ B = \{ \sup 
 
 ## Exercise 11
 
-Let $ A_n = \left\{ \frac{k}{n} : k \in \mathbb{N}, \; 0 \leq k \leq n \right\} \subseteq \mathbb{R} $. 
+Let $ A_n = \left\\{ \frac{k}{n} : k \in \mathbb{N}, \; 0 \leq k \leq n \right \\} \subseteq \mathbb{R} $. 
 
 1. Determine $ \sup A_n $ and $ \inf A_n $ for a given $ n \in \mathbb{N} $.
 2. Define $ A = \bigcup_{n=1}^\infty A_n $. Compute $ \sup A $ and $ \inf A $.
@@ -115,9 +116,9 @@ Give counterexamples where a statement does not hold.
 
 ## Exercise 13
 
-Let $ A \subseteq \mathbb{R} $ be a nonempty set that is bounded above. Assume $ (a_n) $ is a sequence in $ A $ such that $ a_n \to \sup A $. Prove that:
+Let $A \subseteq \mathbb{R}$ be a nonempty set that is bounded above. Assume $ (a_n) $ is a sequence in $ A $ such that $ a_n \to \sup A $. Prove that:
 
 1. $ \sup A $ is the least upper bound of $ A $.
 2. No sequence in $ A $ can converge to a limit greater than $ \sup A $.
-3. Construct such a sequence $ (a_n) $ explicitly for the set $ A = \left\{ 1 - \frac{1}{n} : n \in \mathbb{N} \right\} $.
+3. Construct such a sequence $ (a_n) $ explicitly for the set $A = \left \\{ 1 - \frac{1}{n} : n \in \mathbb{N} \right \\}  $.
 

@@ -5,7 +5,7 @@ date: 2025-09-07T06:44:19+02:00
 # aliases: ["/first"]
 tags: ["Functions", "Calculus"]
 categories: ["Mathé"]
-author: "Damon"
+author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -23,6 +23,8 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+
+math: true
 ---
 
 # Functions

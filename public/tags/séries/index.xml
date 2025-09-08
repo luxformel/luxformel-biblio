@@ -10,7 +10,7 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
+    <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 07:20:47 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/s%C3%A9ries/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -23,35 +23,50 @@
 &lt;p&gt;Calculer les sommes des séries suivantes :&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$$
-\sum_{k=0}^{+\infty} \left(\frac{2}{3}\right)^k
-$$&lt;/li&gt;
+   \sum_{k=0}^{+\infty} \left(\frac{2}{3}\right)^k
+   $$&lt;/li&gt;
 &lt;li&gt;$$
-\sum_{k=0}^{+\infty} 3^{-2k+1}
-$$&lt;/li&gt;
+   \sum_{k=0}^{+\infty} 3^{-2k+1}
+   $$&lt;/li&gt;
 &lt;li&gt;$$
-\sum_{k=0}^{+\infty} \sin(2ka)e^{-ka}
-$$&lt;/li&gt;
+   \sum_{k=0}^{+\infty} \sin(2ka)e^{-ka}
+   $$&lt;/li&gt;
 &lt;li&gt;$$
-\sum_{k=0}^{+\infty} \frac{k}{2^k} \quad \text{(plus difficile).}
-$$&lt;/li&gt;
+   \sum_{k=0}^{+\infty} \frac{k}{2^k} \quad \text{(plus difficile).}
+   $$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;exercice-2--convergence-de-séries&#34;&gt;Exercice 2 : Convergence de séries&lt;/h2&gt;
 &lt;p&gt;Étudier la convergence de la série $\sum_{n=1}^{+\infty} u_n$, pour :&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;$$
-u_n = \frac{n}{n^2 + 1}
-$$&lt;/p&gt;
-&lt;/li&gt;
+$$
+   u_n = \frac{n}{n^2 + 1}
+   $$&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$$
-u_n = \frac{\cosh n}{\cosh(2n)}
-$$&lt;/p&gt;
-&lt;/li&gt;
+$$
+   u_n = \frac{\cosh n}{\cosh(2n)}
+   $$&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$$
-u_1 = 0 \quad \text{et} \quad u_n = \frac{1}{\sqrt{n^2-1}} - \frac{1}{\sqrt{n^2+1}} \quad \text{pour } n &amp;gt; 1
-$$&lt;/p&gt;</description>
+$$
+   u_1 = 0 \quad \text{et} \quad u_n = \frac{1}{\sqrt{n^2-1}} - \frac{1}{\sqrt{n^2+1}} \quad \text{pour } n &gt; 1
+   $$&lt;/li&gt;
+&lt;li&gt;
+$$
+   u_n = \frac{n!}{n^n}
+   $$&lt;/li&gt;
+&lt;li&gt;
+$$
+   u_n = e - \left(1 + \frac{1}{n}\right)^n
+   $$&lt;/li&gt;
+&lt;li&gt;
+$$ u_n = \left( \frac{n}{n+1} \right)^{n^2} $$&lt;/li&gt;
+&lt;li&gt;
+$$ u_n = \int_0^1 \sin \left( \frac{t}{n} \right) dt $$&lt;/li&gt;
+&lt;li&gt;
+$$ u_n = \frac{1}{\cos^2 n} $$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-3--convergence-absolue&#34;&gt;Exercice 3 : Convergence absolue&lt;/h2&gt;
+&lt;p&gt;Pour chacune des séries suivantes, dites si elle converge absolument et si les sommes partielles convergent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Développements en séries de Taylor</title>

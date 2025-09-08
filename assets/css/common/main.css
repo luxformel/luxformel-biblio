@@ -68,3 +68,8 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+p, li{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+}

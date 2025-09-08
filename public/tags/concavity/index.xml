@@ -10,7 +10,7 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
+    <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 06:52:52 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/concavity/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -21,8 +21,8 @@
       <description>&lt;h1 id=&#34;convexity-and-concavity&#34;&gt;Convexity and Concavity&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Show that a function $ f $ is convex on an interval if and only if for all $ x, y $ in the interval and $ 0 &amp;lt; t &amp;lt; 1 $, we have:
-$$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;/p&gt;
-&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;/p&gt;
+$$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
 &lt;p&gt;Let $ f $ and $ g $ be convex functions with $ f $ increasing.&lt;/p&gt;</description>
     </item>
   </channel>

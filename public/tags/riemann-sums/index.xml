@@ -10,7 +10,7 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
+    <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 06:56:51 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/riemann-sums/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,14 +20,14 @@
       <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</guid>
       <description>&lt;h1 id=&#34;riemann-sums&#34;&gt;Riemann Sums&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--approximation-of-integral-products&#34;&gt;Exercise 1 : Approximation of Integral Products&lt;/h2&gt;
-&lt;p&gt;Let (f,g) be continuous on ([a,b]). For any partition (P = {t_0,\ldots,t_n}) of ([a,b]), choose points (x_i, u_i \in [t_{i-1},t_i]).&lt;/p&gt;
+&lt;p&gt;Let \(f,g\) be continuous on \([a,b]\). For any partition \(P = \{t_0,\ldots,t_n\}\) of \([a,b]\), choose points \(x_i, u_i \in [t_{i-1},t_i]\).&lt;/p&gt;
 &lt;p&gt;Show that sums of the form&lt;br&gt;
-[\sum_{i=1}^n f(x_i)g(u_i)(t_i-t_{i-1})]&lt;br&gt;
-can be made arbitrarily close to (\int_a^b fg) by choosing sufficiently fine partitions (P).&lt;/p&gt;
+&lt;/p&gt;
+\[\sum_{i=1}^n f(x_i)g(u_i)(t_i-t_{i-1})\]&lt;p&gt;&lt;br&gt;
+can be made arbitrarily close to \(\int_a^b fg\) by choosing sufficiently fine partitions \(P\).&lt;/p&gt;
 &lt;h2 id=&#34;exercise-2--approximation-of-composite-functions&#34;&gt;Exercise 2 : Approximation of Composite Functions&lt;/h2&gt;
-&lt;p&gt;Let (f,g) be continuous and nonnegative on ([a,b]). Show that for sufficiently fine partitions (P), sums&lt;br&gt;
-[\sum_{i=1}^n \sqrt{f(x_i)+g(u_i)}(t_i-t_{i-1})]&lt;br&gt;
-approximate (\int_a^b \sqrt{f+g}) within any (\varepsilon &amp;gt; 0).&lt;/p&gt;</description>
+&lt;p&gt;Let \(f,g\) be continuous and nonnegative on \([a,b]\). Show that for sufficiently fine partitions \(P\), sums&lt;br&gt;
+&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

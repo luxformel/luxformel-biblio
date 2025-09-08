@@ -10,7 +10,7 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
+    <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 07:21:58 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/fonctions/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -23,19 +23,22 @@
 &lt;p&gt;Étudier la continuité en $(0,0)$ des fonctions suivantes :&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;$$f(x, y) = \frac{xy(x^2 - y^2)}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
-&lt;/li&gt;
+$$f(x, y) = \frac{xy(x^2 - y^2)}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$$f(x, y) = \frac{x^4 + y^4}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
-&lt;/li&gt;
+$$f(x, y) = \frac{x^4 + y^4}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$$f(x, y) = \frac{x^2 y^2}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/p&gt;
-&lt;/li&gt;
+$$f(x, y) = \frac{x^2 y^2}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$$f(x, y) = \frac{xy^2}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/p&gt;
-&lt;/li&gt;
+$$f(x, y) = \frac{xy^2}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$$f(x, y) = \frac{\sin{|xy|}}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/p&gt;</description>
+$$f(x, y) = \frac{\sin{|xy|}}{x^2 + y^4}, \quad f(0,0) = 0.$$&lt;/li&gt;
+&lt;li&gt;
+$$f(x, y) = \frac{x^4y^4}{x^2 + 2xy + y^2}, \quad f(0,0) = 0.$$&lt;/li&gt;
+&lt;li&gt;
+$$f(x, y) = \frac{x^2 + 2xy + y^2}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercice-2--différentiabilité-de-fonctions-de-deux-variables&#34;&gt;Exercice 2 : Différentiabilité de fonctions de deux variables&lt;/h2&gt;
+&lt;p&gt;Étudier la continuité et la différentiabilité des fonctions suivantes, puis lorsqu&amp;rsquo;elles sont différentiables, donner l&amp;rsquo;équation de leur plan tangent à la surface d&amp;rsquo;équation $z = f(x, y)$ en $(1,0,f(1,0))$ :&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

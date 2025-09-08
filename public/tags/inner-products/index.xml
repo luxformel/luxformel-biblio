@@ -10,7 +10,7 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
+    <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 07:28:08 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/inner-products/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -38,8 +38,8 @@
       <description>&lt;h1 id=&#34;inner-products&#34;&gt;Inner Products&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $\mathbb{R}^2$ have the weighted Euclidean inner product:
-$$ \langle u, v \rangle = 2u_1v_1 + 3u_2v_2  $$&lt;/p&gt;
-&lt;p&gt;and let $u = (1, 1)$, $v = (3, 2)$, $w = (0, -1)$, and $k = 3$. Compute the stated quantities.&lt;/p&gt;
+&lt;/p&gt;
+$$ \langle u, v \rangle = 2u_1v_1 + 3u_2v_2  $$&lt;p&gt;and let $u = (1, 1)$, $v = (3, 2)$, $w = (0, -1)$, and $k = 3$. Compute the stated quantities.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;$ \langle u,v \rangle $&lt;/p&gt;
@@ -57,7 +57,11 @@ $$ \langle u, v \rangle = 2u_1v_1 + 3u_2v_2  $$&lt;/p&gt;
 &lt;p&gt;$ d\langle u,v \rangle $&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;$ | u-kv | $&lt;/p&gt;</description>
+&lt;p&gt;$ | u-kv | $&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Let $\mathbb{R}^2$ have the weighted Euclidean inner product:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

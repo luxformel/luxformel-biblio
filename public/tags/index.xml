@@ -10,9 +10,37 @@
       <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.149.1</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 07 Sep 2025 08:45:14 +0200</lastBuildDate>
+    <language>lb</language>
+    <lastBuildDate>Mon, 08 Sep 2025 04:12:27 +0200</lastBuildDate>
     <atom:link href="https://biblio.luxformel.info/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linear Algebra</title>
+      <link>https://biblio.luxformel.info/tags/linear-algebra/</link>
+      <pubDate>Mon, 08 Sep 2025 04:12:27 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/tags/linear-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Independence</title>
+      <link>https://biblio.luxformel.info/tags/linear-independence/</link>
+      <pubDate>Mon, 08 Sep 2025 04:12:27 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/tags/linear-independence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Span</title>
+      <link>https://biblio.luxformel.info/tags/span/</link>
+      <pubDate>Mon, 08 Sep 2025 04:12:27 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/tags/span/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vector Spaces</title>
+      <link>https://biblio.luxformel.info/tags/vector-spaces/</link>
+      <pubDate>Mon, 08 Sep 2025 03:11:30 +0200</pubDate>
+      <guid>https://biblio.luxformel.info/tags/vector-spaces/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Analysis</title>
       <link>https://biblio.luxformel.info/tags/analysis/</link>
@@ -53,13 +81,6 @@
       <link>https://biblio.luxformel.info/tags/eigenvectors/</link>
       <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
       <guid>https://biblio.luxformel.info/tags/eigenvectors/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linear Algebra</title>
-      <link>https://biblio.luxformel.info/tags/linear-algebra/</link>
-      <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/linear-algebra/</guid>
       <description></description>
     </item>
     <item>
@@ -154,13 +175,6 @@
       <description></description>
     </item>
     <item>
-      <title>Vector Space</title>
-      <link>https://biblio.luxformel.info/tags/vector-space/</link>
-      <pubDate>Sun, 07 Sep 2025 07:07:06 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/vector-space/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Calculus</title>
       <link>https://biblio.luxformel.info/tags/calculus/</link>
       <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
@@ -186,13 +200,6 @@
       <link>https://biblio.luxformel.info/tags/complex-numbers/</link>
       <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
       <guid>https://biblio.luxformel.info/tags/complex-numbers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vector Spaces</title>
-      <link>https://biblio.luxformel.info/tags/vector-spaces/</link>
-      <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/vector-spaces/</guid>
       <description></description>
     </item>
     <item>

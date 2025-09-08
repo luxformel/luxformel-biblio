@@ -5,7 +5,7 @@ date: 2025-09-07T06:48:04+02:00
 # aliases: ["/first"]
 tags: ["Continuity", "Calculus"]
 categories: ["Mathé"]
-author: "Damon"
+author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -17,12 +17,14 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+
+math: true
 ---
 
 # Continuous Functions

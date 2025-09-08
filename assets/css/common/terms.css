@@ -1,0 +1,26 @@
+.terms-tags li {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.terms-tags a {
+    display: block;
+    padding: 3px 10px;
+    background: var(--tags);
+    color: var(--content);
+    border-radius: 6px;
+    transition: transform 0.1s;
+    font-weight: 600;
+}
+
+.terms-tags a:active {
+    background: var(--tertiary);
+    transform: scale(0.96);
+}
+
+.terms-tags{
+    background-color: var(--home-info);
+    border-radius: var(--radius);
+    box-shadow: inset var(--accent-color) 0px 3px 4px -10px, inset var(--primary) 0px 4px 6px -6px;
+}
