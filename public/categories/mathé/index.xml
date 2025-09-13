@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mathé on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/categories/math%C3%A9/</link>
+    <link>https://biblio.luxformel.info/categories/math%C3%A9/</link>
     <description>Recent content in Mathé on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>lb</language>
     <lastBuildDate>Tue, 09 Sep 2025 08:35:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/math%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/categories/math%C3%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Null Spaces and Ranges</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</link>
       <pubDate>Tue, 09 Sep 2025 08:35:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</guid>
       <description>&lt;h1 id=&#34;null-spaces-and-ranges&#34;&gt;Null Spaces and Ranges&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Give an example of a linear map \( T \) such that \(\dim \text{null} \, T = 3\) and \(\dim \text{range} \, T = 2\).&lt;/p&gt;
@@ -32,9 +32,9 @@ Prove that \((ST)^2 = 0\).&lt;/p&gt;
     </item>
     <item>
       <title>Vector Space of Linear Maps</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</link>
       <pubDate>Tue, 09 Sep 2025 08:25:21 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</guid>
       <description>&lt;h1 id=&#34;vector-space-of-linear-maps&#34;&gt;Vector Space of Linear Maps&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Suppose \( b, c \in \mathbb{R} \). Define \( T: \mathbb{R}^3 \to \mathbb{R}^2 \) by&lt;br&gt;
@@ -47,9 +47,9 @@ Show that \( T \) is linear if and only if \( b = c = 0 \).&lt;/p&gt;
     </item>
     <item>
       <title>Dimension</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/dimension/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/dimension/</link>
       <pubDate>Tue, 09 Sep 2025 08:09:28 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/dimension/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/dimension/</guid>
       <description>&lt;h1 id=&#34;dimension&#34;&gt;Dimension&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Suppose \( V \) is finite-dimensional and \( U \) is a subspace of \( V \) such that&lt;br&gt;
@@ -63,9 +63,9 @@ Prove that \( U = V \)&lt;/p&gt;
     </item>
     <item>
       <title>Bases</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/bases/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/bases/</link>
       <pubDate>Tue, 09 Sep 2025 08:00:40 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/bases/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/bases/</guid>
       <description>&lt;h1 id=&#34;bases&#34;&gt;Bases&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find all vector spaces that have exactly one basis.&lt;/p&gt;
@@ -86,9 +86,9 @@ Prove that \( U = V \)&lt;/p&gt;
     </item>
     <item>
       <title>Subspaces</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/subspaces/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/subspaces/</link>
       <pubDate>Tue, 09 Sep 2025 07:37:21 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/subspaces/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/subspaces/</guid>
       <description>&lt;h1 id=&#34;subspaces&#34;&gt;Subspaces&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;For each of the following subsets of $\mathbb{F}^3$, determine whether it is a subspace of $\mathbb{F}^3$:&lt;/p&gt;
@@ -111,9 +111,9 @@ Prove that \( U = V \)&lt;/p&gt;
     </item>
     <item>
       <title>Span and Linear Independence</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/span-and-linear-independence/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/span-and-linear-independence/</link>
       <pubDate>Mon, 08 Sep 2025 04:12:27 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/span-and-linear-independence/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/span-and-linear-independence/</guid>
       <description>&lt;h1 id=&#34;span-and-linear-independence&#34;&gt;Span and Linear Independence&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Suppose $v_1, v_2, v_3, v_4$ spans $V$. Prove that the list&lt;br&gt;
@@ -131,9 +131,9 @@ also spans $V$.&lt;/p&gt;
     </item>
     <item>
       <title>Preliminary Analysis</title>
-      <link>http://localhost:1313/posts/analysis/en/preliminary-analysis/</link>
+      <link>https://biblio.luxformel.info/posts/analysis/en/preliminary-analysis/</link>
       <pubDate>Sun, 07 Sep 2025 08:45:14 +0200</pubDate>
-      <guid>http://localhost:1313/posts/analysis/en/preliminary-analysis/</guid>
+      <guid>https://biblio.luxformel.info/posts/analysis/en/preliminary-analysis/</guid>
       <description>&lt;h1 id=&#34;preliminary-analysis&#34;&gt;Preliminary Analysis&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Prove that $\sqrt{3}$ is irrational. Does a similar argument work to show $\sqrt{6}$ is irrational?&lt;/p&gt;
@@ -151,9 +151,9 @@ also spans $V$.&lt;/p&gt;
     </item>
     <item>
       <title>Axiom Of Completeness</title>
-      <link>http://localhost:1313/posts/analysis/en/axiom-of-completeness/</link>
+      <link>https://biblio.luxformel.info/posts/analysis/en/axiom-of-completeness/</link>
       <pubDate>Sun, 07 Sep 2025 08:43:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/analysis/en/axiom-of-completeness/</guid>
+      <guid>https://biblio.luxformel.info/posts/analysis/en/axiom-of-completeness/</guid>
       <description>&lt;h1 id=&#34;axiom-of-completeness&#34;&gt;Axiom Of Completeness&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $ \mathbb{Z}_5 = {0, 1, 2, 3, 4} $ and define addition and multiplication modulo 5. In other words, compute the integer remainder when $ a + b $ and $ ab $ are divided by 5, and use this as the value for the sum and product, respectively.&lt;/p&gt;
@@ -183,9 +183,9 @@ Show that $ \sup B = \inf A $.&lt;/li&gt;
     </item>
     <item>
       <title>Eigenvalues and Eigenvectors</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>
       <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</guid>
       <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors&#34;&gt;Eigenvalues and Eigenvectors&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Confirm by multiplication that &lt;strong&gt;x&lt;/strong&gt; is an eigenvector of &lt;strong&gt;A&lt;/strong&gt;, and find the corresponding eigenvalue.&lt;/p&gt;
@@ -200,9 +200,9 @@ Show that $ \sup B = \inf A $.&lt;/li&gt;
     </item>
     <item>
       <title>Inner Product Spaces</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products-spaces/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</link>
       <pubDate>Sun, 07 Sep 2025 07:28:08 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products-spaces/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</guid>
       <description>&lt;h1 id=&#34;inner-product-spaces&#34;&gt;Inner Product Spaces&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;In each part, determine whether the set of vectors is orthogonal and whether it is orthonormal with respect to the Euclidean inner product on ℝ².&lt;/p&gt;
@@ -217,9 +217,9 @@ Show that $ \sup B = \inf A $.&lt;/li&gt;
     </item>
     <item>
       <title>Inner Products</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</link>
       <pubDate>Sun, 07 Sep 2025 07:26:03 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</guid>
       <description>&lt;h1 id=&#34;inner-products&#34;&gt;Inner Products&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $\mathbb{R}^2$ have the weighted Euclidean inner product:
@@ -250,9 +250,9 @@ $$ \langle u, v \rangle = 2u_1v_1 + 3u_2v_2  $$&lt;p&gt;and let $u = (1, 1)$, $v
     </item>
     <item>
       <title>Fonctions de plusieurs variables</title>
-      <link>http://localhost:1313/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</link>
       <pubDate>Sun, 07 Sep 2025 07:21:58 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</guid>
       <description>&lt;h1 id=&#34;fonctions-de-plusieurs-variables&#34;&gt;Fonctions de plusieurs variables&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--continuité-de-fonctions-de-deux-variables&#34;&gt;Exercice 1 : Continuité de fonctions de deux variables&lt;/h2&gt;
 &lt;p&gt;Étudier la continuité en $(0,0)$ des fonctions suivantes :&lt;/p&gt;
@@ -277,9 +277,9 @@ $$f(x, y) = \frac{x^2 + 2xy + y^2}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/li&gt;
     </item>
     <item>
       <title>Séries numériques</title>
-      <link>http://localhost:1313/posts/mathe/calculus/fr/series-numeriques/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/series-numeriques/</link>
       <pubDate>Sun, 07 Sep 2025 07:20:47 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/fr/series-numeriques/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/series-numeriques/</guid>
       <description>&lt;h1 id=&#34;séries-numériques&#34;&gt;Séries numériques&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--calculs-de-séries&#34;&gt;Exercice 1 : Calculs de séries&lt;/h2&gt;
 &lt;p&gt;Calculer les sommes des séries suivantes :&lt;/p&gt;
@@ -332,9 +332,9 @@ $$ u_n = \frac{1}{\cos^2 n} $$&lt;/li&gt;
     </item>
     <item>
       <title>Convergence et calcul d&#39;intégrales impropres</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</link>
       <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</guid>
       <description>&lt;h1 id=&#34;convergence-et-calcul-dintégrales-impropres&#34;&gt;Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--convergence-et-calcul-dintégrales-impropres&#34;&gt;Exercice 1 : Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h2&gt;
 &lt;p&gt;Étudier la convergence des intégrales impropres suivantes et, lorsqu&amp;rsquo;elles sont convergentes, calculer leurs valeurs.&lt;/p&gt;
@@ -374,9 +374,9 @@ $$
     </item>
     <item>
       <title>Équations Différentielles</title>
-      <link>http://localhost:1313/posts/mathe/calculus/fr/equations-differentielles/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/equations-differentielles/</link>
       <pubDate>Sun, 07 Sep 2025 07:12:52 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/fr/equations-differentielles/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/equations-differentielles/</guid>
       <description>&lt;h1 id=&#34;équations-différentielles&#34;&gt;Équations Différentielles&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--applications-directes&#34;&gt;Exercice 1 : Applications Directes&lt;/h2&gt;
 &lt;p&gt;Résoudre les équations différentielles suivantes :&lt;/p&gt;
@@ -395,9 +395,9 @@ $$
     </item>
     <item>
       <title>Primitives</title>
-      <link>http://localhost:1313/posts/mathe/calculus/fr/primitives/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</link>
       <pubDate>Sun, 07 Sep 2025 07:11:27 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/fr/primitives/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</guid>
       <description>&lt;h1 id=&#34;primitives&#34;&gt;Primitives&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--calculs-dintégrales&#34;&gt;Exercice 1 : Calculs d’intégrales&lt;/h2&gt;
 &lt;p&gt;Calculer :&lt;/p&gt;
@@ -446,9 +446,9 @@ $$
     </item>
     <item>
       <title>L’intégrale au sens de Riemann</title>
-      <link>http://localhost:1313/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</link>
       <pubDate>Sun, 07 Sep 2025 07:10:03 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</guid>
       <description>&lt;h1 id=&#34;lintégrale-au-sens-de-riemann&#34;&gt;L’intégrale au sens de Riemann&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--fonctions-dintégrale-nulle&#34;&gt;Exercice 1 : Fonctions d’intégrale nulle&lt;/h2&gt;
 &lt;ol&gt;
@@ -460,9 +460,9 @@ $$
     </item>
     <item>
       <title>Développements en séries de Taylor</title>
-      <link>http://localhost:1313/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</link>
       <pubDate>Sun, 07 Sep 2025 07:08:24 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</guid>
       <description>&lt;h1 id=&#34;développements-en-séries-de-taylor&#34;&gt;Développements en séries de Taylor&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--développements-limités-des-fonctions-paires-et-impaires&#34;&gt;Exercice 1 : Développements limités des fonctions paires et impaires&lt;/h2&gt;
 &lt;p&gt;Soit $ n \in \mathbb{N} $ et soit $ f : \mathbb{R} \to \mathbb{R} $ une fonction de classe $ C^{n+1} $.&lt;/p&gt;
@@ -475,9 +475,9 @@ $$
     </item>
     <item>
       <title>Definition of Vector Space</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/definition-of-vector-space/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</link>
       <pubDate>Sun, 07 Sep 2025 07:07:06 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/definition-of-vector-space/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</guid>
       <description>&lt;h1 id=&#34;definition-of-vector-space&#34;&gt;Definition of Vector Space&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1-double-additive-inverse&#34;&gt;Exercise 1: Double Additive Inverse&lt;/h2&gt;
 &lt;p&gt;Prove that $ -(-v) = v $ for every $ v \in V $, where $ V $ is a vector space.&lt;/p&gt;
@@ -488,9 +488,9 @@ $$
     </item>
     <item>
       <title>Derivatives</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/derivatives/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</link>
       <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/derivatives/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/derivatives/</guid>
       <description>&lt;h1 id=&#34;derivatives&#34;&gt;Derivatives&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;ol&gt;
@@ -507,9 +507,9 @@ $$
     </item>
     <item>
       <title>Fundamental Theorem of Calculus</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</link>
       <pubDate>Sun, 07 Sep 2025 07:02:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</guid>
       <description>&lt;h1 id=&#34;fundamental-theorem-of-calculus&#34;&gt;Fundamental Theorem of Calculus&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--derivatives-of-integral-functions&#34;&gt;Exercise 1 : Derivatives of Integral Functions&lt;/h2&gt;
 &lt;p&gt;Find $F&amp;rsquo;(x)$ for each function:&lt;/p&gt;
@@ -534,9 +534,9 @@ $$
     </item>
     <item>
       <title>Inverse Functions</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/inverse-functions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</link>
       <pubDate>Sun, 07 Sep 2025 07:01:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/inverse-functions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/inverse-functions/</guid>
       <description>&lt;h1 id=&#34;inverse-functions&#34;&gt;Inverse Functions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find $ f^{-1} $ for each function $ f $&lt;/p&gt;
@@ -555,9 +555,9 @@ $$
     </item>
     <item>
       <title>Complex Numbers and Vector Space</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
       <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
       <description>&lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1-complex-number-inverse&#34;&gt;Exercise 1: Complex Number Inverse&lt;/h2&gt;
 &lt;p&gt;Suppose $a $ and $b $ are real numbers, not both 0. Find real numbers $c $ and $d $ such that&lt;br&gt;
@@ -572,9 +572,9 @@ is a cube root of 1 (meaning that its cube equals 1).&lt;/p&gt;
     </item>
     <item>
       <title>Riemann Sums</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/riemann-sums/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</link>
       <pubDate>Sun, 07 Sep 2025 06:56:51 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/riemann-sums/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/riemann-sums/</guid>
       <description>&lt;h1 id=&#34;riemann-sums&#34;&gt;Riemann Sums&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--approximation-of-integral-products&#34;&gt;Exercise 1 : Approximation of Integral Products&lt;/h2&gt;
 &lt;p&gt;Let \(f,g\) be continuous on \([a,b]\). For any partition \(P = \{t_0,\ldots,t_n\}\) of \([a,b]\), choose points \(x_i, u_i \in [t_{i-1},t_i]\).&lt;/p&gt;
@@ -588,9 +588,9 @@ can be made arbitrarily close to \(\int_a^b fg\) by choosing sufficiently fine p
     </item>
     <item>
       <title>Binomial Theorem</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/binomial-theorem/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/binomial-theorem/</link>
       <pubDate>Sun, 07 Sep 2025 06:54:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/binomial-theorem/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/binomial-theorem/</guid>
       <description>&lt;h1 id=&#34;binomial-theorem&#34;&gt;Binomial Theorem&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--expansion&#34;&gt;Exercise 1 : Expansion&lt;/h2&gt;
 &lt;p&gt;Expand using the binomial formula:&lt;/p&gt;
@@ -611,9 +611,9 @@ can be made arbitrarily close to \(\int_a^b fg\) by choosing sufficiently fine p
     </item>
     <item>
       <title>Convexity and Concavity</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/convexity-and-concavity/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/convexity-and-concavity/</link>
       <pubDate>Sun, 07 Sep 2025 06:52:52 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/convexity-and-concavity/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/convexity-and-concavity/</guid>
       <description>&lt;h1 id=&#34;convexity-and-concavity&#34;&gt;Convexity and Concavity&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Show that a function $ f $ is convex on an interval if and only if for all $ x, y $ in the interval and $ 0 &amp;lt; t &amp;lt; 1 $, we have:
@@ -623,9 +623,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Differentiation</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/differentiation/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</link>
       <pubDate>Sun, 07 Sep 2025 06:50:32 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/differentiation/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</guid>
       <description>&lt;h1 id=&#34;differentiation&#34;&gt;Differentiation&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find $f^{\prime}(x)$ for each $f$:&lt;/p&gt;
@@ -666,9 +666,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Continuous Functions</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/continuous-functions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</link>
       <pubDate>Sun, 07 Sep 2025 06:48:04 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/continuous-functions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/continuous-functions/</guid>
       <description>&lt;h1 id=&#34;continuous-functions&#34;&gt;Continuous Functions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;For which functions $ f $ does there exist a continuous function $ F: \mathbb{R} \to \mathbb{R} $ such that $ F(x) = f(x) $ for all $ x $ in the domain of $ f $?&lt;/p&gt;
@@ -687,9 +687,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Functions</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/functions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/functions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/functions/</guid>
       <description>&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $f(x) = \frac{1}{1 + x}$. Find:&lt;/p&gt;
@@ -721,9 +721,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Integrals</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/integrals/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/integrals/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</guid>
       <description>&lt;h1 id=&#34;integrals&#34;&gt;Integrals&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--proofs&#34;&gt;Exercise 1 : Proofs&lt;/h2&gt;
 &lt;ol&gt;
@@ -748,9 +748,9 @@ and find $L(f,P)$.&lt;/li&gt;
     </item>
     <item>
       <title>Limits and Continuity</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/limits-and-continuity/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/limits-and-continuity/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/limits-and-continuity/</guid>
       <description>&lt;h1 id=&#34;limits-and-continuity&#34;&gt;Limits and Continuity&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find the following limits:&lt;/p&gt;
