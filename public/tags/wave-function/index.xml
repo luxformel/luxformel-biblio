@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Wave Function on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/wave-function/</link>
+    <link>http://localhost:1313/tags/wave-function/</link>
     <description>Recent content in Wave Function on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 08:38:35 +0200</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/wave-function/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/wave-function/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wave Function</title>
-      <link>https://biblio.luxformel.info/posts/physik/quantum-mechanics/de/wave-function/</link>
+      <link>http://localhost:1313/posts/physik/quantum-mechanics/de/wave-function/</link>
       <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/physik/quantum-mechanics/de/wave-function/</guid>
+      <guid>http://localhost:1313/posts/physik/quantum-mechanics/de/wave-function/</guid>
       <description>&lt;h1 id=&#34;wave-function&#34;&gt;Wave Function&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Consider the Gaussian distribution&lt;br&gt;

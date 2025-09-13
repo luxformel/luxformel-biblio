@@ -149,15 +149,16 @@ For $S_n(x)=x^n$ and $0\leq k\leq n$, prove:
 Let $f(x)=x^n$ ($x\geq 0$) and $f(x)=0$ ($x\leq 0$). Prove $f^{(n-1)}$ exists but $f^{(n)}(0)$ does not.
 
 ## Exercise 28
-Interpret these Leibniz notation statements (all from previous problems):
 
-1. $ \frac{dx^n}{dx} = nx^{n-1} $  
-2. $ \frac{dz}{dy} = -\frac{1}{y^2} \quad \text{if } z = \frac{1}{y} $  
-3. $ \frac{d[f(x) + c]}{dx} = \frac{df(x)}{dx} $  
-4. $ \frac{d[ cf(x) ]}{dx} = c \frac{df(x)}{dx} $  
-5. $ \frac{dz}{dx} = \frac{dy}{dx} \quad \text{if } z = y + c $  
-6. $ \left. \frac{dx^3}{dx} \right|_{x=a^2} = 3a^4 $  
-7. $ \left. \frac{df(x+a)}{dx} \right|_{x=b} = \left. \frac{df(x)}{dx} \right|_{x=b+a} $  
-8. $ \left. \frac{df(cx)}{dx} \right|_{x=b} = c \cdot \left. \frac{df(x)}{dx} \right|_{x=cb} $  
-9. $ \left. \frac{df(cx)}{dx} \right|_{x=ax} = c \cdot \left. \frac{df(y)}{dy} \right|_{y=cx} $  
-10. $ \left. \frac{d^k x^n}{dx^k} \right|_k^n = k! \binom{n}{k} x^{n-k} $
+Interpret these Leibniz notation statements:
+
+1. \( \frac{d(x^n)}{dx} = nx^{n-1} \)
+2. \( \frac{dz}{dy} = -\frac{1}{y^2} \quad \text{if } z = \frac{1}{y} \)
+3. \( \frac{d[f(x) + c]}{dx} = \frac{df(x)}{dx} \)
+4. \( \frac{d[cf(x)]}{dx} = c \frac{df(x)}{dx} \)
+5. \( \frac{dz}{dx} = \frac{dy}{dx} \quad \text{if } z = y + c \)
+6. \( \frac{d(x^3)}{dx}(a^2) = 3a^4 \)
+7. \( \frac{df(x+a)}{dx}(b) = \frac{df(x)}{dx}(a + b) \)
+8. \( \frac{df(cx)}{dx}(b) = c \cdot \frac{df(x)}{dx}(c \cdot b) \)
+9. \( \frac{df(cx)}{dx}(a) = c \cdot \frac{df(y)}{dy}(c \cdot a) \)
+10. \( \frac{d^k x^n}{dx^k} = k! \binom{n}{k} x^{n-k} \)

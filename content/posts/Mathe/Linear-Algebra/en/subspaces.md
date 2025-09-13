@@ -1,9 +1,9 @@
 ---
-title: "Vector Spaces"
-date: 2025-09-08T03:11:30+02:00
+title: "Subspaces"
+date: 2025-09-09T07:37:21+02:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Linear Algebra", "Vector Spaces"]
+tags: ["Linear Algebra", "Subspaces", "Vector Spaces"]
 categories: ["Mathé"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
@@ -27,7 +27,7 @@ UseHugoToc: true
 math: true
 ---
 
-# Vector Spaces
+# Subspaces
 
 ## Exercise 1
 
@@ -169,4 +169,5 @@ for all $x \in R$. A function $f : R \to R$ is called odd if
 $$f(-x) = -f(x)$$
 for all $x \in R$. Let $U_e$ denote the set of real-valued even functions on $R$ and let $U_o$ denote the set of real-valued odd functions on $R$. Show that
 $$R^R = U_e \oplus U_o.$$
+
 

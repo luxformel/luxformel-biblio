@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mechanik on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/mechanik/</link>
+    <link>http://localhost:1313/tags/mechanik/</link>
     <description>Recent content in Mechanik on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 07:38:46 +0200</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/mechanik/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mechanik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lagrangeformalismus</title>
-      <link>https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</link>
+      <link>http://localhost:1313/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</link>
       <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</guid>
+      <guid>http://localhost:1313/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</guid>
       <description>&lt;h1 id=&#34;lagrangeformalismus&#34;&gt;Lagrangeformalismus&lt;/h1&gt;
 &lt;h2 id=&#34;aufgabe-1-massenpunkt-auf-kurve-im-schwerefeld&#34;&gt;Aufgabe 1: Massenpunkt auf Kurve im Schwerefeld&lt;/h2&gt;
 &lt;p&gt;Ein Massenpunkt gleitet reibungsfrei auf der Kurve $z = f(x)$ in der $z$-$x$-Ebene unter Schwerkraft $F = -mg\mathbf{e}_z$. Stellen Sie die Lagrangegleichungen 1. Art auf.&lt;/p&gt;
 &lt;h2 id=&#34;aufgabe-2-ablösung-von-kugeloberfläche&#34;&gt;Aufgabe 2: Ablösung von Kugeloberfläche&lt;/h2&gt;
 &lt;p&gt;Ein Massenpunkt startet vom obersten Punkt einer Kugel und gleitet reibungsfrei ab. Bestimmen Sie mit dem Energieerhaltungssatz den Ablösepunkt.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/images/lagrangeformalismus-aufgabe2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/physik/theoretical-mechanics/de/lagrangeformalismus/images/lagrangeformalismus-aufgabe2.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;aufgabe-3-hantel-auf-konzentrischen-kreisen&#34;&gt;Aufgabe 3: Hantel auf konzentrischen Kreisen&lt;/h2&gt;
 &lt;p&gt;Zwei gleiche Massen $m$ sind durch eine Stange der Länge $L$ verbunden und bewegen sich reibungsfrei auf konzentrischen Kreisen mit Radien $r$ und $R$ ($R - r &amp;lt; L &amp;lt; R + r$). Unter Schwerkraft $g = -g\mathbf{e}_y$:&lt;/p&gt;</description>
     </item>
