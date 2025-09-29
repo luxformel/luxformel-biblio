@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Luxformel on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/categories/luxformel/</link>
+    <description>Recent content in Luxformel on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Sun, 28 Sep 2025 16:06:45 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/luxformel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Luxformel Styleguide</title>
+      <link>http://localhost:1313/posts/luxformel/styleguide/</link>
+      <pubDate>Sun, 28 Sep 2025 16:06:45 +0200</pubDate>
+      <guid>http://localhost:1313/posts/luxformel/styleguide/</guid>
+      <description>&lt;h1 id=&#34;luxformel-styleguide&#34;&gt;Luxformel Styleguide&lt;/h1&gt;
+&lt;h2 id=&#34;inhaltsverzeechnes&#34;&gt;Inhaltsverzeechnes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#allgemenge-stil&#34;&gt;Allgemenge Stil&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#faarwen&#34;&gt;Faarwen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#schreft&#34;&gt;Schréft&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#kapitel&#34;&gt;Kapitel&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#kapitel_titel&#34;&gt;Kapitel Titel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#enner-titelen&#34;&gt;Ëenner Titelen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#zousaz-titelen&#34;&gt;Zousaz Titelen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bemierkungen&#34;&gt;Bemierkungen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#text&#34;&gt;Text&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#ennerstraichen&#34;&gt;Ënnersträichen&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#leschten&#34;&gt;Lëschten&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#onnumerot%C3%A9iert-l%C3%ABschten&#34;&gt;Onnumerotéiert Lëschten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#numerot%C3%A9iert-l%C3%ABschten&#34;&gt;Numerotéiert Lëschten&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tabellen&#34;&gt;Tabellen&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;allgemenge-stil&#34;&gt;Allgemenge Stil&lt;/h2&gt;
+&lt;h3 id=&#34;faarwen&#34;&gt;Faarwen&lt;/h3&gt;
+&lt;p&gt;Luformel am Helle Stil huet follgend Faarwen:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Wäiss als Hannergrond: &lt;code&gt;#fff&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Schwaarz fir Text, Titelen, Formelen, etc. :&lt;code&gt;#000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Mof als spezial Faarw: &lt;code&gt;hsl(250 100% 50% / 0.6)&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;schreft&#34;&gt;Schréft&lt;/h3&gt;
+&lt;p&gt;Déi typesch Schréft fir d&amp;rsquo;Interface op Luxformel ass: &lt;code&gt; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Déi typesch Schréft fir Text, Titelen ass: &lt;code&gt;font-family: &amp;quot;Times New Roman&amp;quot;, Times, serif;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -3,7 +3,7 @@ title: "Binomial Theorem"
 date: 2025-09-07T06:54:19+02:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Binomial Theorem"]
+tags: ["Algebra", "Binomial Theorem"]
 categories: ["Mathé"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors

@@ -2,274 +2,295 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Tue, 09 Sep 2025 08:35:31 +0200</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2025 16:06:45 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Designer Notes</title>
+      <link>http://localhost:1313/tags/designer-notes/</link>
+      <pubDate>Sun, 28 Sep 2025 16:06:45 +0200</pubDate>
+      <guid>http://localhost:1313/tags/designer-notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algrebra</title>
+      <link>http://localhost:1313/tags/algrebra/</link>
+      <pubDate>Sun, 28 Sep 2025 15:56:51 +0200</pubDate>
+      <guid>http://localhost:1313/tags/algrebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polynomials</title>
+      <link>http://localhost:1313/tags/polynomials/</link>
+      <pubDate>Sun, 28 Sep 2025 15:56:51 +0200</pubDate>
+      <guid>http://localhost:1313/tags/polynomials/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linear Algebra</title>
-      <link>https://biblio.luxformel.info/tags/linear-algebra/</link>
+      <link>http://localhost:1313/tags/linear-algebra/</link>
       <pubDate>Tue, 09 Sep 2025 08:35:31 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/linear-algebra/</guid>
+      <guid>http://localhost:1313/tags/linear-algebra/</guid>
       <description></description>
     </item>
     <item>
       <title>Linear Maps</title>
-      <link>https://biblio.luxformel.info/tags/linear-maps/</link>
+      <link>http://localhost:1313/tags/linear-maps/</link>
       <pubDate>Tue, 09 Sep 2025 08:35:31 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/linear-maps/</guid>
+      <guid>http://localhost:1313/tags/linear-maps/</guid>
       <description></description>
     </item>
     <item>
       <title>Vector Spaces</title>
-      <link>https://biblio.luxformel.info/tags/vector-spaces/</link>
+      <link>http://localhost:1313/tags/vector-spaces/</link>
       <pubDate>Tue, 09 Sep 2025 08:25:21 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/vector-spaces/</guid>
+      <guid>http://localhost:1313/tags/vector-spaces/</guid>
       <description></description>
     </item>
     <item>
       <title>Subspaces</title>
-      <link>https://biblio.luxformel.info/tags/subspaces/</link>
+      <link>http://localhost:1313/tags/subspaces/</link>
       <pubDate>Tue, 09 Sep 2025 07:37:21 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/subspaces/</guid>
+      <guid>http://localhost:1313/tags/subspaces/</guid>
       <description></description>
     </item>
     <item>
       <title>Linear Independence</title>
-      <link>https://biblio.luxformel.info/tags/linear-independence/</link>
+      <link>http://localhost:1313/tags/linear-independence/</link>
       <pubDate>Mon, 08 Sep 2025 04:12:27 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/linear-independence/</guid>
+      <guid>http://localhost:1313/tags/linear-independence/</guid>
       <description></description>
     </item>
     <item>
       <title>Span</title>
-      <link>https://biblio.luxformel.info/tags/span/</link>
+      <link>http://localhost:1313/tags/span/</link>
       <pubDate>Mon, 08 Sep 2025 04:12:27 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/span/</guid>
+      <guid>http://localhost:1313/tags/span/</guid>
       <description></description>
     </item>
     <item>
       <title>Analysis</title>
-      <link>https://biblio.luxformel.info/tags/analysis/</link>
+      <link>http://localhost:1313/tags/analysis/</link>
       <pubDate>Sun, 07 Sep 2025 08:45:14 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/analysis/</guid>
+      <guid>http://localhost:1313/tags/analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantum Mechanics</title>
-      <link>https://biblio.luxformel.info/tags/quantum-mechanics/</link>
+      <link>http://localhost:1313/tags/quantum-mechanics/</link>
       <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/quantum-mechanics/</guid>
+      <guid>http://localhost:1313/tags/quantum-mechanics/</guid>
       <description></description>
     </item>
     <item>
       <title>Wave Function</title>
-      <link>https://biblio.luxformel.info/tags/wave-function/</link>
+      <link>http://localhost:1313/tags/wave-function/</link>
       <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/wave-function/</guid>
+      <guid>http://localhost:1313/tags/wave-function/</guid>
       <description></description>
     </item>
     <item>
       <title>Waves</title>
-      <link>https://biblio.luxformel.info/tags/waves/</link>
+      <link>http://localhost:1313/tags/waves/</link>
       <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/waves/</guid>
+      <guid>http://localhost:1313/tags/waves/</guid>
       <description></description>
     </item>
     <item>
       <title>Eigenvalues</title>
-      <link>https://biblio.luxformel.info/tags/eigenvalues/</link>
+      <link>http://localhost:1313/tags/eigenvalues/</link>
       <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/eigenvalues/</guid>
+      <guid>http://localhost:1313/tags/eigenvalues/</guid>
       <description></description>
     </item>
     <item>
       <title>Eigenvectors</title>
-      <link>https://biblio.luxformel.info/tags/eigenvectors/</link>
+      <link>http://localhost:1313/tags/eigenvectors/</link>
       <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/eigenvectors/</guid>
+      <guid>http://localhost:1313/tags/eigenvectors/</guid>
       <description></description>
     </item>
     <item>
       <title>Lagrange</title>
-      <link>https://biblio.luxformel.info/tags/lagrange/</link>
+      <link>http://localhost:1313/tags/lagrange/</link>
       <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/lagrange/</guid>
+      <guid>http://localhost:1313/tags/lagrange/</guid>
       <description></description>
     </item>
     <item>
       <title>Mechanik</title>
-      <link>https://biblio.luxformel.info/tags/mechanik/</link>
+      <link>http://localhost:1313/tags/mechanik/</link>
       <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/mechanik/</guid>
+      <guid>http://localhost:1313/tags/mechanik/</guid>
       <description></description>
     </item>
     <item>
       <title>Theoretische Physik</title>
-      <link>https://biblio.luxformel.info/tags/theoretische-physik/</link>
+      <link>http://localhost:1313/tags/theoretische-physik/</link>
       <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/theoretische-physik/</guid>
+      <guid>http://localhost:1313/tags/theoretische-physik/</guid>
       <description></description>
     </item>
     <item>
       <title>Inner Products</title>
-      <link>https://biblio.luxformel.info/tags/inner-products/</link>
+      <link>http://localhost:1313/tags/inner-products/</link>
       <pubDate>Sun, 07 Sep 2025 07:28:08 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/inner-products/</guid>
+      <guid>http://localhost:1313/tags/inner-products/</guid>
       <description></description>
     </item>
     <item>
       <title>Analyse</title>
-      <link>https://biblio.luxformel.info/tags/analyse/</link>
+      <link>http://localhost:1313/tags/analyse/</link>
       <pubDate>Sun, 07 Sep 2025 07:21:58 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/analyse/</guid>
+      <guid>http://localhost:1313/tags/analyse/</guid>
       <description></description>
     </item>
     <item>
       <title>Fonctions</title>
-      <link>https://biblio.luxformel.info/tags/fonctions/</link>
+      <link>http://localhost:1313/tags/fonctions/</link>
       <pubDate>Sun, 07 Sep 2025 07:21:58 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/fonctions/</guid>
+      <guid>http://localhost:1313/tags/fonctions/</guid>
       <description></description>
     </item>
     <item>
       <title>Séries</title>
-      <link>https://biblio.luxformel.info/tags/s%C3%A9ries/</link>
+      <link>http://localhost:1313/tags/s%C3%A9ries/</link>
       <pubDate>Sun, 07 Sep 2025 07:20:47 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/s%C3%A9ries/</guid>
+      <guid>http://localhost:1313/tags/s%C3%A9ries/</guid>
       <description></description>
     </item>
     <item>
       <title>Convergence</title>
-      <link>https://biblio.luxformel.info/tags/convergence/</link>
+      <link>http://localhost:1313/tags/convergence/</link>
       <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/convergence/</guid>
+      <guid>http://localhost:1313/tags/convergence/</guid>
       <description></description>
     </item>
     <item>
       <title>Intérgales</title>
-      <link>https://biblio.luxformel.info/tags/int%C3%A9rgales/</link>
+      <link>http://localhost:1313/tags/int%C3%A9rgales/</link>
       <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/int%C3%A9rgales/</guid>
+      <guid>http://localhost:1313/tags/int%C3%A9rgales/</guid>
       <description></description>
     </item>
     <item>
       <title>Équations Différentielles</title>
-      <link>https://biblio.luxformel.info/tags/%C3%A9quations-diff%C3%A9rentielles/</link>
+      <link>http://localhost:1313/tags/%C3%A9quations-diff%C3%A9rentielles/</link>
       <pubDate>Sun, 07 Sep 2025 07:12:52 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/%C3%A9quations-diff%C3%A9rentielles/</guid>
+      <guid>http://localhost:1313/tags/%C3%A9quations-diff%C3%A9rentielles/</guid>
       <description></description>
     </item>
     <item>
       <title>Primitives</title>
-      <link>https://biblio.luxformel.info/tags/primitives/</link>
+      <link>http://localhost:1313/tags/primitives/</link>
       <pubDate>Sun, 07 Sep 2025 07:11:27 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/primitives/</guid>
+      <guid>http://localhost:1313/tags/primitives/</guid>
       <description></description>
     </item>
     <item>
       <title>Riemann</title>
-      <link>https://biblio.luxformel.info/tags/riemann/</link>
+      <link>http://localhost:1313/tags/riemann/</link>
       <pubDate>Sun, 07 Sep 2025 07:10:03 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/riemann/</guid>
+      <guid>http://localhost:1313/tags/riemann/</guid>
       <description></description>
     </item>
     <item>
       <title>Taylor</title>
-      <link>https://biblio.luxformel.info/tags/taylor/</link>
+      <link>http://localhost:1313/tags/taylor/</link>
       <pubDate>Sun, 07 Sep 2025 07:08:24 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/taylor/</guid>
+      <guid>http://localhost:1313/tags/taylor/</guid>
       <description></description>
     </item>
     <item>
       <title>Calculus</title>
-      <link>https://biblio.luxformel.info/tags/calculus/</link>
+      <link>http://localhost:1313/tags/calculus/</link>
       <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/calculus/</guid>
+      <guid>http://localhost:1313/tags/calculus/</guid>
       <description></description>
     </item>
     <item>
       <title>Derivatives</title>
-      <link>https://biblio.luxformel.info/tags/derivatives/</link>
+      <link>http://localhost:1313/tags/derivatives/</link>
       <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/derivatives/</guid>
+      <guid>http://localhost:1313/tags/derivatives/</guid>
       <description></description>
     </item>
     <item>
       <title>Functions</title>
-      <link>https://biblio.luxformel.info/tags/functions/</link>
+      <link>http://localhost:1313/tags/functions/</link>
       <pubDate>Sun, 07 Sep 2025 07:01:15 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/functions/</guid>
+      <guid>http://localhost:1313/tags/functions/</guid>
       <description></description>
     </item>
     <item>
       <title>Complex Numbers</title>
-      <link>https://biblio.luxformel.info/tags/complex-numbers/</link>
+      <link>http://localhost:1313/tags/complex-numbers/</link>
       <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/complex-numbers/</guid>
+      <guid>http://localhost:1313/tags/complex-numbers/</guid>
       <description></description>
     </item>
     <item>
       <title>Riemann Sums</title>
-      <link>https://biblio.luxformel.info/tags/riemann-sums/</link>
+      <link>http://localhost:1313/tags/riemann-sums/</link>
       <pubDate>Sun, 07 Sep 2025 06:56:51 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/riemann-sums/</guid>
+      <guid>http://localhost:1313/tags/riemann-sums/</guid>
       <description></description>
     </item>
     <item>
       <title>Binomial Theorem</title>
-      <link>https://biblio.luxformel.info/tags/binomial-theorem/</link>
+      <link>http://localhost:1313/tags/binomial-theorem/</link>
       <pubDate>Sun, 07 Sep 2025 06:54:19 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/binomial-theorem/</guid>
+      <guid>http://localhost:1313/tags/binomial-theorem/</guid>
       <description></description>
     </item>
     <item>
       <title>Concavity</title>
-      <link>https://biblio.luxformel.info/tags/concavity/</link>
+      <link>http://localhost:1313/tags/concavity/</link>
       <pubDate>Sun, 07 Sep 2025 06:52:52 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/concavity/</guid>
+      <guid>http://localhost:1313/tags/concavity/</guid>
       <description></description>
     </item>
     <item>
       <title>Convexity</title>
-      <link>https://biblio.luxformel.info/tags/convexity/</link>
+      <link>http://localhost:1313/tags/convexity/</link>
       <pubDate>Sun, 07 Sep 2025 06:52:52 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/convexity/</guid>
+      <guid>http://localhost:1313/tags/convexity/</guid>
       <description></description>
     </item>
     <item>
       <title>Differentiation</title>
-      <link>https://biblio.luxformel.info/tags/differentiation/</link>
+      <link>http://localhost:1313/tags/differentiation/</link>
       <pubDate>Sun, 07 Sep 2025 06:50:32 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/differentiation/</guid>
+      <guid>http://localhost:1313/tags/differentiation/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuity</title>
-      <link>https://biblio.luxformel.info/tags/continuity/</link>
+      <link>http://localhost:1313/tags/continuity/</link>
       <pubDate>Sun, 07 Sep 2025 06:48:04 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/continuity/</guid>
+      <guid>http://localhost:1313/tags/continuity/</guid>
       <description></description>
     </item>
     <item>
       <title>Integrals</title>
-      <link>https://biblio.luxformel.info/tags/integrals/</link>
+      <link>http://localhost:1313/tags/integrals/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/integrals/</guid>
+      <guid>http://localhost:1313/tags/integrals/</guid>
       <description></description>
     </item>
     <item>
       <title>Limits</title>
-      <link>https://biblio.luxformel.info/tags/limits/</link>
+      <link>http://localhost:1313/tags/limits/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/tags/limits/</guid>
+      <guid>http://localhost:1313/tags/limits/</guid>
       <description></description>
     </item>
   </channel>

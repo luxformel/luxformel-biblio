@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linear Maps on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/linear-maps/</link>
+    <link>http://localhost:1313/tags/linear-maps/</link>
     <description>Recent content in Linear Maps on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Tue, 09 Sep 2025 08:35:31 +0200</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/linear-maps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linear-maps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Null Spaces and Ranges</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</link>
       <pubDate>Tue, 09 Sep 2025 08:35:31 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</guid>
       <description>&lt;h1 id=&#34;null-spaces-and-ranges&#34;&gt;Null Spaces and Ranges&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Give an example of a linear map \( T \) such that \(\dim \text{null} \, T = 3\) and \(\dim \text{range} \, T = 2\).&lt;/p&gt;
@@ -32,9 +32,9 @@ Prove that \((ST)^2 = 0\).&lt;/p&gt;
     </item>
     <item>
       <title>Vector Space of Linear Maps</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</link>
       <pubDate>Tue, 09 Sep 2025 08:25:21 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</guid>
       <description>&lt;h1 id=&#34;vector-space-of-linear-maps&#34;&gt;Vector Space of Linear Maps&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Suppose \( b, c \in \mathbb{R} \). Define \( T: \mathbb{R}^3 \to \mathbb{R}^2 \) by&lt;br&gt;

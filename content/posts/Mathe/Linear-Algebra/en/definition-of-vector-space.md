@@ -41,7 +41,7 @@ Suppose $ v, w \in V $. Explain why there exists a unique $ x \in V $ such that 
 ## Exercise 4: Alternative Axiom for Additive Inverses
 Show that in the definition of a vector space, the additive inverse condition can be replaced with:
 $$ 0v = 0 \text{ for all } v \in V $$
-(where left 0 ∈ $\mathbb{F}$, right 0 ∈ $ V $).
+(where left 0 $ \in \mathbb{F}$, right 0 $ \in V $).
 
 ## Exercise 5: Extended Real Numbers as a Vector Space?
 
