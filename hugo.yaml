@@ -9,7 +9,13 @@ buildExpired: false
 
 minify:
   disableXML: true
-  minifyOutput: true
+  # Disable minifying output because the minifier can accidentally
+  # remove needed whitespace in complex CSS (e.g. between var(...) and
+  # keywords like `inset`), producing invalid declarations in
+  # `public/assets/css/stylesheet.*.css`.
+  # If you prefer minified output, consider upgrading Hugo or using
+  # an external pipeline (postcss, terser) that preserves spacing.
+  minifyOutput: false
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.

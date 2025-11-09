@@ -26,20 +26,23 @@ UseHugoToc: true
 
 math: true
 ---
+
+Léisung zu dësen Exercicer sinn am Archiv op [luxformel](https://luxformel.info/Archiv/Mathe/pdf/Vector-Spaces/Solutions/Complex-Numbers-and-Vector-Space-solutions.pdf) ze fannen. 
+
 # Complex Numbers and Vector Space
 
-## Exercise 1: Complex Number Inverse
+## Exercise 1 : Complex Number Inverse
 Suppose $a $ and $b $ are real numbers, not both 0. Find real numbers $c $ and $d $ such that  
 $$ \frac{1}{a + bi} = c + di. $$
 
 
-## Exercise 2: Cube Root of Unity
+## Exercise 2 : Cube Root of Unity
 Show that  
 $$ \frac{-1 + \sqrt{3}i}{2} $$  
 is a cube root of 1 (meaning that its cube equals 1).
 
 
-## Exercise 3: Square Roots of $i $
+## Exercise 3 : Square Roots of $i $
 Find two distinct square roots of $i $ (i.e., find two different complex numbers $z $ such that $z^2 = i $).
 
 
@@ -54,12 +57,12 @@ Prove the following properties and name them:
 5. Show that for every $\alpha \in \mathbb{C} $ with $\alpha \neq 0 $, there exists a unique $\beta \in \mathbb{C} $ such that $\alpha\beta = 1 $.
 6. Show that $\lambda(\alpha + \beta) = \lambda\alpha + \lambda\beta $ for all $\lambda, \alpha, \beta \in \mathbb{C} $.
 
-## Exercise 5: Vector Equation in $\mathbb{R}^4 $
+## Exercise 5 : Vector Equation in $\mathbb{R}^4 $
 Find $x \in \mathbb{R}^4 $ such that  
 $$ (4, -3, 1, 7) + 2x = (5, 9, -6, 8). $$
 
 
-## Exercise 6: Non-Existence of Scalar Multiplication
+## Exercise 6 : Non-Existence of Scalar Multiplication
 Explain why there does not exist $\lambda \in \mathbb{C} $ such that  
 $$ \lambda(2 - 3i, 5 + 4i, -6 + 7i) = (12 - 5i, 7 + 22i, -32 - 9i). $$
 

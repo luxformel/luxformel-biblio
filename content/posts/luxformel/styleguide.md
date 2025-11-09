@@ -7,7 +7,7 @@ tags: ["Designer Notes"]
 categories: ["Luxformel"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
@@ -29,6 +29,8 @@ math: true
 
 # Luxformel Styleguide
 
+Luxformel ass ee Site ze fannen ënnert dem link <https://luxformel.info>. De Site gouf erstallt fir d'Léieren ze vereinfachen mat Exercicer, gekierzte Coursen, an nëtzlechen Dokumenter.
+
 
 ## Inhaltsverzeechnes
 
@@ -46,6 +48,9 @@ math: true
         1. [Onnumerotéiert Lëschten](#onnumerotéiert-lëschten)
         2. [Numerotéiert Lëschten](#numerotéiert-lëschten)
     7. [Tabellen](#tabellen)
+3. [Archiv](#archiv)  
+4. [Bibliothéik](#bibliotheik) 
+5. [Change Log](#change-log)
 
 ## Allgemenge Stil {#allgemenge-stil}
 
@@ -56,18 +61,26 @@ Luformel am Helle Stil huet follgend Faarwen:
 1. Wäiss als Hannergrond: ```#fff```
 2. Schwaarz fir Text, Titelen, Formelen, etc. :```#000```   
 3. Mof als spezial Faarw: ```hsl(250 100% 50% / 0.6)``` 
+4. Linken sinn ausser bei ausname blo: `#0000ff` 
+
 ### Schréft {#schreft}
 
-Déi typesch Schréft fir d'Interface op Luxformel ass: ```
-font-family: "Roboto Mono", monospace;```.
+Déi typesch Schréft fir d'Interface op Luxformel ass: 
+```css
+font-family: "Roboto Mono", monospace;
+```
 
-Déi typesch Schréft fir Text, Titelen ass: ```font-family: "Times New Roman", Times, serif;```.
+
+Déi typesch Schréft fir Text, Titelen ass: 
+```css
+font-family: "Times New Roman", Times, serif;
+```
 
 ## Kapitel {#kapitel}
 
 ### Kapitel Titel {#kapitel_titel}
 
-De Kapitel Titel ```<h1><\h1>```  gett ass ee generellen Numm passent bei d'Kapitel. De Kapitel Titel ass d'selwecht wéi den Titel ```<title><\title>```.
+De Kapitel Titel ``` <h1><\h1>```  gett ass ee generellen Numm passent bei d'Kapitel. De Kapitel Titel ass d'selwecht wéi den Titel ```<title><\title>```.
 
 ### Ënner Titel {#enner-titel}
 
@@ -95,7 +108,8 @@ Bemierkungen zu Bemierkungen ginn mat engem break ``` <br> ``` getrennt.
 
 #### Ënnersträichen {#ennerstraichen}
 
-### 
+Wichteg Informatiounen déi usech kéinten alleng ee ganze Paragraph ofkierzen, kënnen vum Autheur Ënnerstrach ginn.
+
 
 ### Lëschten {#leschten}
 
@@ -110,8 +124,9 @@ Nëmme wann néideg soll eng numerotéiert Lëscht ```<ol></ol>``` benotzt ginn.
 ### Tabellen {#tabellen}
 
 Tabellen ginn a folgende Situatioune benotzt:
+
  1. Eng Opzielung vu Informatiounen ass ze komplex fir an eng normal Lëscht.
- 2. 
+ 2. Et ass eng Tabell mat Werter. Beispill: [Sonnensytem](https://luxformel.info/Physik/Tabellen/sonnensystem-tabelle.html) Tabell.
 
 Tabelle solle juste benotzt ginn wa Lëschten absolut keng Méigelechkeet sinn.
 
@@ -122,3 +137,25 @@ Abbreviatiounen gi benotzt wann eng Organisatioun opgezielt gëtt déi normalerw
 ```html
 <abbr title="International Electrotechnical Commission">IEC</abbr>
 ```
+
+## Archiv {#archiv}
+
+D'[Archiv](https://luxformel.info/Archiv/index.html) existéiert fir .pdf Dokumenter fir de Benotzer ze späicheren. Dat kënnen Worksheets, Angaben, Énoncéë sinn oder Léisungen zu denen Aufgaben, genau wéi och tabellaresch Dokumenter. Beispiller:
+
+Léisung: Complex Numbers and Vector Space, an hir Angaben/Worksheet.
+
+Worksheets, Angaben oder Énoncé sinn dei offizell Nimm déi solle Benotzt ginn fir d'Angaben.
+
+D'Léisungen sinn ëmmer lénks vum Site, an den Énoncé ass ëmmer riets.
+
+All Énoncé wou am Archiv ze fannen ass muss och an der Bibliothéik ze fanne sinn.
+
+## Bibliothéik {#bibliotheik}
+
+D'[Bibliothéik](https://biblio.luxformel.info) ass een Zousaz Site fir luxformel.info. An der Bibliothéik sinn d'Énoncéën a Form vun enger Websäit ze fannen. 
+
+Den Énoncé an der Bibliothéik huet wann et eng Léisung gëtt ëmmer ee Link zu de geléisten Exercicer op luxformel.info.
+
+## Change Log {#change-log}
+
+1. Versioun 1.0 Release den 11.2025.

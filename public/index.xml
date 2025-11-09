@@ -11,14 +11,135 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 28 Sep 2025 16:06:45 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 17:55:30 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vectors and Matrices in Python Solutions</title>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
+      <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
+      <description>&lt;h1 id=&#34;vectors-and-matrices-in-python-solutions&#34;&gt;Vectors and Matrices in Python Solutions&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--vectors-in-mathbbr7&#34;&gt;Exercise 1 : Vectors in $\mathbb{R}^7$&lt;/h2&gt;
+&lt;p&gt;Consider the following vectors:
+&lt;/p&gt;
+$$
+u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5)
+$$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Check whether $u$ and $v$ are unit vectors.&lt;/li&gt;
+&lt;li&gt;Compute the dot product of $u$ and $v$.&lt;/li&gt;
+&lt;li&gt;Determine if $u$ and $v$ are orthogonal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;u&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 1. Check if u and v are unit vectors&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;norm_u&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linalg&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;norm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;norm_v&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;linalg&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;norm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;norm_u&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;norm_v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 2. Dot product&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;dot_uv&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dot_uv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3. Orthogonality&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;np&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isclose&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dot_uv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;exercise-2--norms-and-orthogonality&#34;&gt;Exercise 2 : Norms and Orthogonality&lt;/h2&gt;
+&lt;p&gt;Consider the following vectors in $\mathbb{R}^9$:
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vectors and Matrices in Python</title>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</link>
+      <pubDate>Sun, 09 Nov 2025 17:52:23 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</guid>
+      <description>&lt;h1 id=&#34;vectors-and-matrices-in-python&#34;&gt;Vectors and Matrices in Python&lt;/h1&gt;
+&lt;p&gt;In this worksheet, you will use &lt;strong&gt;Python (NumPy)&lt;/strong&gt; to perform vector and matrix operations.&lt;br&gt;
+For each exercise, write Python code to compute the required results and verify them numerically.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exercise-1--vectors-in-mathbbr7&#34;&gt;Exercise 1 : Vectors in $\mathbb{R}^7$&lt;/h2&gt;
+&lt;p&gt;Consider the following vectors:
+&lt;/p&gt;
+$$
+u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5)
+$$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Check whether $u$ and $v$ are unit vectors.&lt;/li&gt;
+&lt;li&gt;Compute the dot product of $u$ and $v$.&lt;/li&gt;
+&lt;li&gt;Determine if $u$ and $v$ are orthogonal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--norms-and-orthogonality&#34;&gt;Exercise 2 : Norms and Orthogonality&lt;/h2&gt;
+&lt;p&gt;Consider the following vectors in $\mathbb{R}^9$:
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vectors and Matrices</title>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</link>
+      <pubDate>Thu, 06 Nov 2025 20:08:06 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</guid>
+      <description>&lt;h1 id=&#34;vectors-and-matrices&#34;&gt;Vectors and Matrices&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Consider the following vectors in $ \mathbb{R}^7 $:
+&lt;/p&gt;
+$$
+u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5)
+$$&lt;ol&gt;
+&lt;li&gt;Check if $ u $ and $ v $ are unit vectors.&lt;/li&gt;
+&lt;li&gt;Calculate the dot product of the vectors $ u $ and $ v $.&lt;/li&gt;
+&lt;li&gt;Are $ u $ and $ v $ orthogonal?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Consider the following vectors in $ \mathbb{R}^9 $:
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematics for Machine Learning</title>
+      <link>http://localhost:1313/posts/mathe/machine-learning/en/mathematics-of-machine-learning/</link>
+      <pubDate>Thu, 30 Oct 2025 20:25:02 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/machine-learning/en/mathematics-of-machine-learning/</guid>
+      <description>&lt;h1 id=&#34;mathematics-for-machine-learning&#34;&gt;Mathematics for Machine Learning&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--basic-vector-operations&#34;&gt;Exercise 1 : Basic vector operations&lt;/h2&gt;
+&lt;p&gt;Let&lt;br&gt;
+&lt;/p&gt;
+$$
+\mathbf{u} = (1,2,-1)^\top, \quad \mathbf{v} = (0,1,3)^\top.
+$$&lt;p&gt;&lt;br&gt;
+Compute:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;⟨&lt;strong&gt;u&lt;/strong&gt;, &lt;strong&gt;v&lt;/strong&gt;⟩&lt;/li&gt;
+&lt;li&gt;\( \| \mathbf{u} \|_2 \) and \( \| \mathbf{v} \|_2 \)&lt;/li&gt;
+&lt;li&gt;Projection of &lt;strong&gt;u&lt;/strong&gt; onto &lt;strong&gt;v&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--linear-system&#34;&gt;Exercise 2 : Linear system&lt;/h2&gt;
+&lt;p&gt;Solve:
+&lt;/p&gt;
+$$
+A =
+\begin{pmatrix}
+2 &amp; -1 &amp; 0 \\
+1 &amp; 1 &amp; 1 \\
+0 &amp; 2 &amp; -1
+\end{pmatrix},
+\quad
+\mathbf{b} =
+\begin{pmatrix}
+1 \\ 3 \\ -1
+\end{pmatrix},
+\quad
+A\mathbf{x} = \mathbf{b}.
+$$&lt;h2 id=&#34;exercise-3--data-interpretation&#34;&gt;Exercise 3 : Data interpretation&lt;/h2&gt;
+&lt;p&gt;Given points (1,2), (2,3), (3,5), form the design matrix &lt;strong&gt;X&lt;/strong&gt; for&lt;br&gt;
+&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Luxformel Styleguide</title>
       <link>http://localhost:1313/posts/luxformel/styleguide/</link>
       <pubDate>Sun, 28 Sep 2025 16:06:45 +0200</pubDate>
       <guid>http://localhost:1313/posts/luxformel/styleguide/</guid>
       <description>&lt;h1 id=&#34;luxformel-styleguide&#34;&gt;Luxformel Styleguide&lt;/h1&gt;
+&lt;p&gt;Luxformel ass ee Site ze fannen ënnert dem link &lt;a href=&#34;https://luxformel.info&#34;&gt;https://luxformel.info&lt;/a&gt;. De Site gouf erstallt fir d&amp;rsquo;Léieren ze vereinfachen mat Exercicer, gekierzte Coursen, an nëtzlechen Dokumenter.&lt;/p&gt;
 &lt;h2 id=&#34;inhaltsverzeechnes&#34;&gt;Inhaltsverzeechnes&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#allgemenge-stil&#34;&gt;Allgemenge Stil&lt;/a&gt;
@@ -47,6 +168,9 @@
 &lt;li&gt;&lt;a href=&#34;#tabellen&#34;&gt;Tabellen&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#archiv&#34;&gt;Archiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bibliotheik&#34;&gt;Bibliothéik&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-log&#34;&gt;Change Log&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;allgemenge-stil&#34;&gt;Allgemenge Stil&lt;/h2&gt;
 &lt;h3 id=&#34;faarwen&#34;&gt;Faarwen&lt;/h3&gt;
@@ -55,10 +179,10 @@
 &lt;li&gt;Wäiss als Hannergrond: &lt;code&gt;#fff&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Schwaarz fir Text, Titelen, Formelen, etc. :&lt;code&gt;#000&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Mof als spezial Faarw: &lt;code&gt;hsl(250 100% 50% / 0.6)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Linken sinn ausser bei ausname blo: &lt;code&gt;#0000ff&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;schreft&#34;&gt;Schréft&lt;/h3&gt;
-&lt;p&gt;Déi typesch Schréft fir d&amp;rsquo;Interface op Luxformel ass: &lt;code&gt; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Déi typesch Schréft fir Text, Titelen ass: &lt;code&gt;font-family: &amp;quot;Times New Roman&amp;quot;, Times, serif;&lt;/code&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Déi typesch Schréft fir d&amp;rsquo;Interface op Luxformel ass:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Polynomial Division Theorem</title>
@@ -442,9 +566,9 @@ $$ u_n = \frac{1}{\cos^2 n} $$&lt;/li&gt;
     </item>
     <item>
       <title>Convergence et calcul d&#39;intégrales impropres</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</link>
       <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/convergence-et-calcul-integrale-impropres/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</guid>
       <description>&lt;h1 id=&#34;convergence-et-calcul-dintégrales-impropres&#34;&gt;Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--convergence-et-calcul-dintégrales-impropres&#34;&gt;Exercice 1 : Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h2&gt;
 &lt;p&gt;Étudier la convergence des intégrales impropres suivantes et, lorsqu&amp;rsquo;elles sont convergentes, calculer leurs valeurs.&lt;/p&gt;
@@ -668,17 +792,16 @@ $$
       <link>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
       <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
       <guid>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
-      <description>&lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
-&lt;h2 id=&#34;exercise-1-complex-number-inverse&#34;&gt;Exercise 1: Complex Number Inverse&lt;/h2&gt;
+      <description>&lt;p&gt;Léisung zu dësen Exercicer sinn am Archiv op &lt;a href=&#34;https://luxformel.info/Archiv/Mathe/pdf/Vector-Spaces/Solutions/Complex-Numbers-and-Vector-Space-solutions.pdf&#34;&gt;luxformel&lt;/a&gt; ze fannen.&lt;/p&gt;
+&lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--complex-number-inverse&#34;&gt;Exercise 1 : Complex Number Inverse&lt;/h2&gt;
 &lt;p&gt;Suppose $a $ and $b $ are real numbers, not both 0. Find real numbers $c $ and $d $ such that&lt;br&gt;
 &lt;/p&gt;
-$$ \frac{1}{a + bi} = c + di. $$&lt;h2 id=&#34;exercise-2-cube-root-of-unity&#34;&gt;Exercise 2: Cube Root of Unity&lt;/h2&gt;
+$$ \frac{1}{a + bi} = c + di. $$&lt;h2 id=&#34;exercise-2--cube-root-of-unity&#34;&gt;Exercise 2 : Cube Root of Unity&lt;/h2&gt;
 &lt;p&gt;Show that&lt;br&gt;
 &lt;/p&gt;
 $$ \frac{-1 + \sqrt{3}i}{2} $$&lt;p&gt;&lt;br&gt;
-is a cube root of 1 (meaning that its cube equals 1).&lt;/p&gt;
-&lt;h2 id=&#34;exercise-3-square-roots-of-i-&#34;&gt;Exercise 3: Square Roots of $i $&lt;/h2&gt;
-&lt;p&gt;Find two distinct square roots of $i $ (i.e., find two different complex numbers $z $ such that $z^2 = i $).&lt;/p&gt;</description>
+is a cube root of 1 (meaning that its cube equals 1).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Riemann Sums</title>
@@ -698,9 +821,9 @@ can be made arbitrarily close to \(\int_a^b fg\) by choosing sufficiently fine p
     </item>
     <item>
       <title>Binomial Theorem</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/binomial-theorem/</link>
+      <link>http://localhost:1313/posts/mathe/algebra/en/binomial-theorem/</link>
       <pubDate>Sun, 07 Sep 2025 06:54:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/binomial-theorem/</guid>
+      <guid>http://localhost:1313/posts/mathe/algebra/en/binomial-theorem/</guid>
       <description>&lt;h1 id=&#34;binomial-theorem&#34;&gt;Binomial Theorem&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--expansion&#34;&gt;Exercise 1 : Expansion&lt;/h2&gt;
 &lt;p&gt;Expand using the binomial formula:&lt;/p&gt;

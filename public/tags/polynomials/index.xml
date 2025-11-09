@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Polynomials on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/polynomials/</link>
+    <link>http://localhost:53389/tags/polynomials/</link>
     <description>Recent content in Polynomials on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 28 Sep 2025 15:56:51 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/polynomials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53389/tags/polynomials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polynomial Division Theorem</title>
-      <link>http://localhost:1313/posts/mathe/algebra/en/polynomial-division-theorem/</link>
+      <link>http://localhost:53389/posts/mathe/algebra/en/polynomial-division-theorem/</link>
       <pubDate>Sun, 28 Sep 2025 15:56:51 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/algebra/en/polynomial-division-theorem/</guid>
+      <guid>http://localhost:53389/posts/mathe/algebra/en/polynomial-division-theorem/</guid>
       <description>&lt;h1 id=&#34;polynomial-division-theorem&#34;&gt;Polynomial Division Theorem&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--polynomial-long-division&#34;&gt;Exercise 1 : Polynomial Long Division&lt;/h2&gt;
 &lt;p&gt;Divide using polynomial long division.&lt;/p&gt;

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Mathematics for Machine Learning | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Machine Learning, AI">
+<meta name="description" content="Mathematics for Machine Learning
+Exercise 1 : Basic vector operations
+Let
+
+$$
+\mathbf{u} = (1,2,-1)^\top, \quad \mathbf{v} = (0,1,3)^\top.
+$$
+Compute:
+
+⟨u, v⟩
+\( \| \mathbf{u} \|_2 \) and \( \| \mathbf{v} \|_2 \)
+Projection of u onto v.
+
+Exercise 2 : Linear system
+Solve:
+
+$$
+A =
+\begin{pmatrix}
+2 & -1 & 0 \\
+1 & 1 & 1 \\
+0 & 2 & -1
+\end{pmatrix},
+\quad
+\mathbf{b} =
+\begin{pmatrix}
+1 \\ 3 \\ -1
+\end{pmatrix},
+\quad
+A\mathbf{x} = \mathbf{b}.
+$$Exercise 3 : Data interpretation
+Given points (1,2), (2,3), (3,5), form the design matrix X for
+">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/machine-learning/en/mathematics-of-machine-learning/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/machine-learning/en/mathematics-of-machine-learning/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Mathematics for Machine Learning">
+  <meta property="og:description" content="Mathematics for Machine Learning Exercise 1 : Basic vector operations Let
+$$ \mathbf{u} = (1,2,-1)^\top, \quad \mathbf{v} = (0,1,3)^\top. $$
+Compute:
+⟨u, v⟩ \( \| \mathbf{u} \|_2 \) and \( \| \mathbf{v} \|_2 \) Projection of u onto v. Exercise 2 : Linear system Solve: $$ A = \begin{pmatrix} 2 &amp; -1 &amp; 0 \\ 1 &amp; 1 &amp; 1 \\ 0 &amp; 2 &amp; -1 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 1 \\ 3 \\ -1 \end{pmatrix}, \quad A\mathbf{x} = \mathbf{b}. $$Exercise 3 : Data interpretation Given points (1,2), (2,3), (3,5), form the design matrix X for">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-30T20:25:02+01:00">
+    <meta property="article:modified_time" content="2025-10-30T20:25:02+01:00">
+    <meta property="article:tag" content="Machine Learning">
+    <meta property="article:tag" content="AI">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Mathematics for Machine Learning">
+<meta name="twitter:description" content="Mathematics for Machine Learning
+Exercise 1 : Basic vector operations
+Let
+
+$$
+\mathbf{u} = (1,2,-1)^\top, \quad \mathbf{v} = (0,1,3)^\top.
+$$
+Compute:
+
+⟨u, v⟩
+\( \| \mathbf{u} \|_2 \) and \( \| \mathbf{v} \|_2 \)
+Projection of u onto v.
+
+Exercise 2 : Linear system
+Solve:
+
+$$
+A =
+\begin{pmatrix}
+2 & -1 & 0 \\
+1 & 1 & 1 \\
+0 & 2 & -1
+\end{pmatrix},
+\quad
+\mathbf{b} =
+\begin{pmatrix}
+1 \\ 3 \\ -1
+\end{pmatrix},
+\quad
+A\mathbf{x} = \mathbf{b}.
+$$Exercise 3 : Data interpretation
+Given points (1,2), (2,3), (3,5), form the design matrix X for
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Mathematics for Machine Learning",
+      "item": "http://localhost:1313/posts/mathe/machine-learning/en/mathematics-of-machine-learning/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Mathematics for Machine Learning",
+  "name": "Mathematics for Machine Learning",
+  "description": "Mathematics for Machine Learning Exercise 1 : Basic vector operations Let\n$$ \\mathbf{u} = (1,2,-1)^\\top, \\quad \\mathbf{v} = (0,1,3)^\\top. $$\nCompute:\n⟨u, v⟩ \\( \\| \\mathbf{u} \\|_2 \\) and \\( \\| \\mathbf{v} \\|_2 \\) Projection of u onto v. Exercise 2 : Linear system Solve: $$ A = \\begin{pmatrix} 2 \u0026 -1 \u0026 0 \\\\ 1 \u0026 1 \u0026 1 \\\\ 0 \u0026 2 \u0026 -1 \\end{pmatrix}, \\quad \\mathbf{b} = \\begin{pmatrix} 1 \\\\ 3 \\\\ -1 \\end{pmatrix}, \\quad A\\mathbf{x} = \\mathbf{b}. $$Exercise 3 : Data interpretation Given points (1,2), (2,3), (3,5), form the design matrix X for\n",
+  "keywords": [
+    "Machine Learning", "AI"
+  ],
+  "articleBody": "Mathematics for Machine Learning Exercise 1 : Basic vector operations Let\n$$ \\mathbf{u} = (1,2,-1)^\\top, \\quad \\mathbf{v} = (0,1,3)^\\top. $$\nCompute:\n⟨u, v⟩ \\( \\| \\mathbf{u} \\|_2 \\) and \\( \\| \\mathbf{v} \\|_2 \\) Projection of u onto v. Exercise 2 : Linear system Solve: $$ A = \\begin{pmatrix} 2 \u0026 -1 \u0026 0 \\\\ 1 \u0026 1 \u0026 1 \\\\ 0 \u0026 2 \u0026 -1 \\end{pmatrix}, \\quad \\mathbf{b} = \\begin{pmatrix} 1 \\\\ 3 \\\\ -1 \\end{pmatrix}, \\quad A\\mathbf{x} = \\mathbf{b}. $$Exercise 3 : Data interpretation Given points (1,2), (2,3), (3,5), form the design matrix X for\n$$y = w_0 + w_1x$$\nand write the normal equations for least squares.\nExercise 4 : Partial derivatives For\n$$ f(x,y) = 3x^2y - 4xy + \\sin y, $$\ncompute \\( \\frac{\\partial f}{\\partial x} \\) and \\( \\frac{\\partial f}{\\partial y} \\).\nExercise 5 : Gradient and Hessian Let\n$$ f(\\mathbf{x}) = \\frac{1}{2}\\mathbf{x}^\\top A\\mathbf{x} - \\mathbf{b}^\\top\\mathbf{x}, $$\ncompute \\( \\nabla f(\\mathbf{x}) \\), \\( H(f) \\), and state when \\( f \\) is convex.\nExercise 6 : Chain rule Let\n$$ g(\\mathbf{x}) = \\log(1 + e^{\\mathbf{a}^\\top \\mathbf{x}}), $$\ncompute \\( \\nabla g(\\mathbf{x}) \\).\nExercise 7 : One-dimensional GD For\n$$ f(x) = x^2 - 4x + 5, $$\nstarting from \\( x_0 = 0 \\), apply gradient descent with \\( \\eta = 0.1 \\) for three iterations.\nExercise 8 : Quadratic form For\n$$ f(\\mathbf{x}) = \\frac{1}{2}\\mathbf{x}^\\top \\begin{pmatrix} 3 \u0026 0 \\\\ 0 \u0026 1 \\end{pmatrix}\\mathbf{x}, $$\nfind the largest \\( \\eta \\) guaranteeing convergence.\nExercise 9 : Least squares For\n$$ J(w) = \\frac{1}{2m}\\| Xw - y \\|_2^2, $$\nderive \\( \\nabla_w J(w) \\) and write one gradient descent update.\nExercise 10 : Ridge closed form Show that\n$$ w^\\star = (X^\\top X + \\lambda I)^{-1} X^\\top y. $$\nWhy does \\( \\lambda I \\) improve conditioning?\nExercise 11 : L1 vs L2 regularization Explain why L1 produces sparse models while L2 does not.\nExercise 12 : Regularized gradient For\n$$ J_\\lambda(w) = \\frac{1}{2m}\\|Xw - y\\|_2^2 + \\frac{\\lambda}{2}\\|w\\|_2^2, $$\ncompute \\( \\nabla_w J_\\lambda(w) \\).\nExercise 13 : Eigenpairs \u0026 PCA intuition Given\n$$ C = \\frac{1}{m} X^\\top X, $$\nexplain why eigenvectors with largest eigenvalues are principal components, and find the projection of a point x.\nExercise 14 : Gradient descent rate For\n$$ f(\\mathbf{x}) = \\frac{1}{2}\\mathbf{x}^\\top A\\mathbf{x} - \\mathbf{b}^\\top\\mathbf{x}, $$\nshow that gradient descent with\n$$ 0 \u003c \\eta \u003c \\frac{2}{\\lambda_{\\max}} $$\nconverges linearly with rate involving\n$$ \\kappa = \\frac{\\lambda_{\\max}}{\\lambda_{\\min}}. $$",
+  "wordCount" : "409",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2025-10-30T20:25:02+01:00",
+  "dateModified": "2025-10-30T20:25:02+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/machine-learning/en/mathematics-of-machine-learning/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Mathematics for Machine Learning
+    </h1>
+    <div class="post-meta"><span title='2025-10-30 20:25:02 +0100 CET'>Oktober 30, 2025</span>&nbsp;·&nbsp;<span>409 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--basic-vector-operations">Exercise 1 : Basic vector operations</a></li>
+    <li><a href="#exercise-2--linear-system">Exercise 2 : Linear system</a></li>
+    <li><a href="#exercise-3--data-interpretation">Exercise 3 : Data interpretation</a></li>
+    <li><a href="#exercise-4--partial-derivatives">Exercise 4 : Partial derivatives</a></li>
+    <li><a href="#exercise-5--gradient-and-hessian">Exercise 5 : Gradient and Hessian</a></li>
+    <li><a href="#exercise-6--chain-rule">Exercise 6 : Chain rule</a></li>
+    <li><a href="#exercise-7--one-dimensional-gd">Exercise 7 : One-dimensional GD</a></li>
+    <li><a href="#exercise-8--quadratic-form">Exercise 8 : Quadratic form</a></li>
+    <li><a href="#exercise-9--least-squares">Exercise 9 : Least squares</a></li>
+    <li><a href="#exercise-10--ridge-closed-form">Exercise 10 : Ridge closed form</a></li>
+    <li><a href="#exercise-11--l1-vs-l2-regularization">Exercise 11 : L1 vs L2 regularization</a></li>
+    <li><a href="#exercise-12--regularized-gradient">Exercise 12 : Regularized gradient</a></li>
+    <li><a href="#exercise-13--eigenpairs--pca-intuition">Exercise 13 : Eigenpairs &amp; PCA intuition</a></li>
+    <li><a href="#exercise-14--gradient-descent-rate">Exercise 14 : Gradient descent rate</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="mathematics-for-machine-learning">Mathematics for Machine Learning<a hidden class="anchor" aria-hidden="true" href="#mathematics-for-machine-learning">#</a></h1>
+<h2 id="exercise-1--basic-vector-operations">Exercise 1 : Basic vector operations<a hidden class="anchor" aria-hidden="true" href="#exercise-1--basic-vector-operations">#</a></h2>
+<p>Let<br>
+</p>
+$$
+\mathbf{u} = (1,2,-1)^\top, \quad \mathbf{v} = (0,1,3)^\top.
+$$<p><br>
+Compute:</p>
+<ol>
+<li>⟨<strong>u</strong>, <strong>v</strong>⟩</li>
+<li>\( \| \mathbf{u} \|_2 \) and \( \| \mathbf{v} \|_2 \)</li>
+<li>Projection of <strong>u</strong> onto <strong>v</strong>.</li>
+</ol>
+<h2 id="exercise-2--linear-system">Exercise 2 : Linear system<a hidden class="anchor" aria-hidden="true" href="#exercise-2--linear-system">#</a></h2>
+<p>Solve:
+</p>
+$$
+A =
+\begin{pmatrix}
+2 & -1 & 0 \\
+1 & 1 & 1 \\
+0 & 2 & -1
+\end{pmatrix},
+\quad
+\mathbf{b} =
+\begin{pmatrix}
+1 \\ 3 \\ -1
+\end{pmatrix},
+\quad
+A\mathbf{x} = \mathbf{b}.
+$$<h2 id="exercise-3--data-interpretation">Exercise 3 : Data interpretation<a hidden class="anchor" aria-hidden="true" href="#exercise-3--data-interpretation">#</a></h2>
+<p>Given points (1,2), (2,3), (3,5), form the design matrix <strong>X</strong> for<br>
+</p>
+$$y = w_0 + w_1x$$<p><br>
+and write the <strong>normal equations</strong> for least squares.</p>
+<h2 id="exercise-4--partial-derivatives">Exercise 4 : Partial derivatives<a hidden class="anchor" aria-hidden="true" href="#exercise-4--partial-derivatives">#</a></h2>
+<p>For<br>
+</p>
+$$
+f(x,y) = 3x^2y - 4xy + \sin y,
+$$<p><br>
+compute \( \frac{\partial f}{\partial x} \) and \( \frac{\partial f}{\partial y} \).</p>
+<h2 id="exercise-5--gradient-and-hessian">Exercise 5 : Gradient and Hessian<a hidden class="anchor" aria-hidden="true" href="#exercise-5--gradient-and-hessian">#</a></h2>
+<p>Let<br>
+</p>
+$$
+f(\mathbf{x}) = \frac{1}{2}\mathbf{x}^\top A\mathbf{x} - \mathbf{b}^\top\mathbf{x},
+$$<p><br>
+compute \( \nabla f(\mathbf{x}) \), \( H(f) \), and state when \( f \) is convex.</p>
+<h2 id="exercise-6--chain-rule">Exercise 6 : Chain rule<a hidden class="anchor" aria-hidden="true" href="#exercise-6--chain-rule">#</a></h2>
+<p>Let<br>
+</p>
+$$
+g(\mathbf{x}) = \log(1 + e^{\mathbf{a}^\top \mathbf{x}}),
+$$<p><br>
+compute \( \nabla g(\mathbf{x}) \).</p>
+<h2 id="exercise-7--one-dimensional-gd">Exercise 7 : One-dimensional GD<a hidden class="anchor" aria-hidden="true" href="#exercise-7--one-dimensional-gd">#</a></h2>
+<p>For<br>
+</p>
+$$
+f(x) = x^2 - 4x + 5,
+$$<p><br>
+starting from \( x_0 = 0 \), apply gradient descent with \( \eta = 0.1 \) for three iterations.</p>
+<h2 id="exercise-8--quadratic-form">Exercise 8 : Quadratic form<a hidden class="anchor" aria-hidden="true" href="#exercise-8--quadratic-form">#</a></h2>
+<p>For<br>
+</p>
+$$
+f(\mathbf{x}) = \frac{1}{2}\mathbf{x}^\top
+\begin{pmatrix}
+3 & 0 \\ 0 & 1
+\end{pmatrix}\mathbf{x},
+$$<p><br>
+find the largest \( \eta \) guaranteeing convergence.</p>
+<h2 id="exercise-9--least-squares">Exercise 9 : Least squares<a hidden class="anchor" aria-hidden="true" href="#exercise-9--least-squares">#</a></h2>
+<p>For<br>
+</p>
+$$
+J(w) = \frac{1}{2m}\| Xw - y \|_2^2,
+$$<p><br>
+derive \( \nabla_w J(w) \) and write one gradient descent update.</p>
+<h2 id="exercise-10--ridge-closed-form">Exercise 10 : Ridge closed form<a hidden class="anchor" aria-hidden="true" href="#exercise-10--ridge-closed-form">#</a></h2>
+<p>Show that<br>
+</p>
+$$
+w^\star = (X^\top X + \lambda I)^{-1} X^\top y.
+$$<p><br>
+Why does \( \lambda I \) improve conditioning?</p>
+<h2 id="exercise-11--l1-vs-l2-regularization">Exercise 11 : L1 vs L2 regularization<a hidden class="anchor" aria-hidden="true" href="#exercise-11--l1-vs-l2-regularization">#</a></h2>
+<p>Explain why <strong>L1</strong> produces sparse models while <strong>L2</strong> does not.</p>
+<h2 id="exercise-12--regularized-gradient">Exercise 12 : Regularized gradient<a hidden class="anchor" aria-hidden="true" href="#exercise-12--regularized-gradient">#</a></h2>
+<p>For<br>
+</p>
+$$
+J_\lambda(w) = \frac{1}{2m}\|Xw - y\|_2^2 + \frac{\lambda}{2}\|w\|_2^2,
+$$<p><br>
+compute \( \nabla_w J_\lambda(w) \).</p>
+<h2 id="exercise-13--eigenpairs--pca-intuition">Exercise 13 : Eigenpairs &amp; PCA intuition<a hidden class="anchor" aria-hidden="true" href="#exercise-13--eigenpairs--pca-intuition">#</a></h2>
+<p>Given<br>
+</p>
+$$
+C = \frac{1}{m} X^\top X,
+$$<p><br>
+explain why eigenvectors with largest eigenvalues are <strong>principal components</strong>, and find the projection of a point <strong>x</strong>.</p>
+<h2 id="exercise-14--gradient-descent-rate">Exercise 14 : Gradient descent rate<a hidden class="anchor" aria-hidden="true" href="#exercise-14--gradient-descent-rate">#</a></h2>
+<p>For<br>
+</p>
+$$
+f(\mathbf{x}) = \frac{1}{2}\mathbf{x}^\top A\mathbf{x} - \mathbf{b}^\top\mathbf{x},
+$$<p><br>
+show that gradient descent with<br>
+</p>
+$$
+0 < \eta < \frac{2}{\lambda_{\max}}
+$$<p><br>
+converges linearly with rate involving<br>
+</p>
+$$
+\kappa = \frac{\lambda_{\max}}{\lambda_{\min}}.
+$$
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="http://localhost:1313/tags/ai/">AI</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Vectors and Matrices</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/luxformel/styleguide/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Luxformel Styleguide</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

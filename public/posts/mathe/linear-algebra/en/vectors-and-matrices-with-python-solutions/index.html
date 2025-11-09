@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Vectors and Matrices in Python Solutions | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Linear Algebra, Vectors, Matrices, Python, Léisungen">
+<meta name="description" content="Vectors and Matrices in Python Solutions
+Exercise 1 : Vectors in $\mathbb{R}^7$
+Consider the following vectors:
+
+$$
+u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5)
+$$Using Python and NumPy:
+
+Check whether $u$ and $v$ are unit vectors.
+Compute the dot product of $u$ and $v$.
+Determine if $u$ and $v$ are orthogonal.
+
+import numpy as np
+
+u = np.array([0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1])
+v = np.array([-1, -2, 1, -2, 3, 1, -5])
+
+# 1. Check if u and v are unit vectors
+norm_u = np.linalg.norm(u)
+norm_v = np.linalg.norm(v)
+print(norm_u, norm_v)
+
+# 2. Dot product
+dot_uv = np.dot(u, v)
+print(dot_uv)
+
+# 3. Orthogonality
+print(np.isclose(dot_uv, 0))
+Exercise 2 : Norms and Orthogonality
+Consider the following vectors in $\mathbb{R}^9$:
+">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Vectors and Matrices in Python Solutions">
+  <meta property="og:description" content="Vectors and Matrices in Python Solutions Exercise 1 : Vectors in $\mathbb{R}^7$ Consider the following vectors: $$ u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5) $$Using Python and NumPy:
+Check whether $u$ and $v$ are unit vectors. Compute the dot product of $u$ and $v$. Determine if $u$ and $v$ are orthogonal. import numpy as np u = np.array([0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1]) v = np.array([-1, -2, 1, -2, 3, 1, -5]) # 1. Check if u and v are unit vectors norm_u = np.linalg.norm(u) norm_v = np.linalg.norm(v) print(norm_u, norm_v) # 2. Dot product dot_uv = np.dot(u, v) print(dot_uv) # 3. Orthogonality print(np.isclose(dot_uv, 0)) Exercise 2 : Norms and Orthogonality Consider the following vectors in $\mathbb{R}^9$: ">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-09T17:55:30+01:00">
+    <meta property="article:modified_time" content="2025-11-09T17:55:30+01:00">
+    <meta property="article:tag" content="Linear Algebra">
+    <meta property="article:tag" content="Vectors">
+    <meta property="article:tag" content="Matrices">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Léisungen">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Vectors and Matrices in Python Solutions">
+<meta name="twitter:description" content="Vectors and Matrices in Python Solutions
+Exercise 1 : Vectors in $\mathbb{R}^7$
+Consider the following vectors:
+
+$$
+u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5)
+$$Using Python and NumPy:
+
+Check whether $u$ and $v$ are unit vectors.
+Compute the dot product of $u$ and $v$.
+Determine if $u$ and $v$ are orthogonal.
+
+import numpy as np
+
+u = np.array([0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1])
+v = np.array([-1, -2, 1, -2, 3, 1, -5])
+
+# 1. Check if u and v are unit vectors
+norm_u = np.linalg.norm(u)
+norm_v = np.linalg.norm(v)
+print(norm_u, norm_v)
+
+# 2. Dot product
+dot_uv = np.dot(u, v)
+print(dot_uv)
+
+# 3. Orthogonality
+print(np.isclose(dot_uv, 0))
+Exercise 2 : Norms and Orthogonality
+Consider the following vectors in $\mathbb{R}^9$:
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Vectors and Matrices in Python Solutions",
+      "item": "http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Vectors and Matrices in Python Solutions",
+  "name": "Vectors and Matrices in Python Solutions",
+  "description": "Vectors and Matrices in Python Solutions Exercise 1 : Vectors in $\\mathbb{R}^7$ Consider the following vectors: $$ u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \\quad v = (-1, -2, 1, -2, 3, 1, -5) $$Using Python and NumPy:\nCheck whether $u$ and $v$ are unit vectors. Compute the dot product of $u$ and $v$. Determine if $u$ and $v$ are orthogonal. import numpy as np u = np.array([0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1]) v = np.array([-1, -2, 1, -2, 3, 1, -5]) # 1. Check if u and v are unit vectors norm_u = np.linalg.norm(u) norm_v = np.linalg.norm(v) print(norm_u, norm_v) # 2. Dot product dot_uv = np.dot(u, v) print(dot_uv) # 3. Orthogonality print(np.isclose(dot_uv, 0)) Exercise 2 : Norms and Orthogonality Consider the following vectors in $\\mathbb{R}^9$: ",
+  "keywords": [
+    "Linear Algebra", "Vectors", "Matrices", "Python", "Léisungen"
+  ],
+  "articleBody": "Vectors and Matrices in Python Solutions Exercise 1 : Vectors in $\\mathbb{R}^7$ Consider the following vectors: $$ u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \\quad v = (-1, -2, 1, -2, 3, 1, -5) $$Using Python and NumPy:\nCheck whether $u$ and $v$ are unit vectors. Compute the dot product of $u$ and $v$. Determine if $u$ and $v$ are orthogonal. import numpy as np u = np.array([0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1]) v = np.array([-1, -2, 1, -2, 3, 1, -5]) # 1. Check if u and v are unit vectors norm_u = np.linalg.norm(u) norm_v = np.linalg.norm(v) print(norm_u, norm_v) # 2. Dot product dot_uv = np.dot(u, v) print(dot_uv) # 3. Orthogonality print(np.isclose(dot_uv, 0)) Exercise 2 : Norms and Orthogonality Consider the following vectors in $\\mathbb{R}^9$: $$ u = (1, 2, 5, 2, -3, 1, 2, 6, 2), \\quad v = (-4, 3, -2, 2, 1, -3, 4, 1, -2), \\quad w = (3, 3, -3, -1, 6, -1, 2, -5, -7) $$Using Python:\nCheck which pairs of these vectors are orthogonal. Calculate the Euclidean norm of $u$. Calculate the infinity norm of $w$. u = np.array([1, 2, 5, 2, -3, 1, 2, 6, 2]) v = np.array([-4, 3, -2, 2, 1, -3, 4, 1, -2]) w = np.array([3, 3, -3, -1, 6, -1, 2, -5, -7])\n# 1. Orthogonality pairs = {'u·v': np.dot(u, v), 'u·w': np.dot(u, w), 'v·w': np.dot(v, w)} print(pairs) # 2. Euclidean norm of u print(np.linalg.norm(u)) # 3. Infinity norm of w print(np.linalg.norm(w, np.inf)) Exercise 3 : Matrix Operations Consider the matrices: $$ A = \\begin{pmatrix} 2 \u0026 -2 \\\\ 0 \u0026 1 \\end{pmatrix}, \\quad B = \\begin{pmatrix} 3 \u0026 1 \\\\ 6 \u0026 2 \\end{pmatrix}, \\quad C = \\begin{pmatrix} 4 \u0026 1 \u0026 -1 \\\\ 2 \u0026 5 \u0026 -2 \\\\ 1 \u0026 1 \u0026 2 \\end{pmatrix}, \\quad D = \\begin{pmatrix} -3 \u0026 1 \u0026 -1 \\\\ -7 \u0026 5 \u0026 -1 \\\\ -6 \u0026 6 \u0026 -2 \\end{pmatrix} $$ $$ E = \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}, \\quad F = \\begin{pmatrix} -2 \u0026 1 \u0026 0 \\end{pmatrix}, \\quad G = \\begin{pmatrix} 1 \u0026 -1 \u0026 0 \u0026 0 \\\\ 1 \u0026 4 \u0026 0 \u0026 0 \\end{pmatrix} $$Using Python:\nCompute (if possible): $A + B$, $B - A$, $B + C$, $AB$, $BA$, $BG$, $CE$, $EF$, $FE$ Compute the transposes of $A$ and $B$ and then their product.\nObserve and explain any property you find. A = np.array([[2, -2], [0, 1]]) B = np.array([[3, 1], [6, 2]]) C = np.array([[4, 1, -1], [2, 5, -2], [1, 1, 2]]) D = np.array([[-3, 1, -1], [-7, 5, -1], [-6, 6, -2]]) E = np.array([[2], [-1], [3]]) F = np.array([[-2, 1, 0]]) G = np.array([[1, -1, 0, 0], [1, 4, 0, 0]]) # 1. Basic operations print(A + B) print(B - A) print(np.dot(A, B)) print(np.dot(B, A)) # Some operations will raise shape errors (e.g. B + C), check compatibility before computing: def try_op(func, *args): try: print(func(*args)) except ValueError as e: print(f\"Operation not possible: {e}\") try_op(np.add, B, C) try_op(np.dot, B, G) try_op(np.dot, C, E) try_op(np.dot, E, F) try_op(np.dot, F, E) # 2. Transpose and product AT, BT = A.T, B.T print(np.dot(AT, BT)) Exercise 4 : Matrix Rank and Norms Consider the following matrices: $$ A = \\begin{pmatrix} 2 \u0026 -2 \\\\ -3 \u0026 1 \\\\ 5 \u0026 -3 \\end{pmatrix}, \\quad B = \\begin{pmatrix} 4 \u0026 4 \u0026 4 \\\\ -2 \u0026 3 \u0026 -7 \\\\ 2 \u0026 5 \u0026 -7 \\end{pmatrix}, \\quad C = \\begin{pmatrix} 4 \u0026 -1 \u0026 2 \\\\ -8 \u0026 2 \u0026 -4 \\\\ 2 \u0026 1 \u0026 -4 \\end{pmatrix} $$Using Python:\nCompute $A^T B$ and $C + B$. Determine which of $A$, $B$, and $C$ are full rank. Compute the Frobenius norm of $C$ and the spectral norm of $A$. Attempt to compute the inverse of $B$. A = np.array([[2, -2], [-3, 1], [5, -3]]) B = np.array([[4, 4, 4], [-2, 3, -7], [2, 5, -7]]) C = np.array([[4, -1, 2], [-8, 2, -4], [2, 1, -4]]) # 1. A^T B and C + B print(A.T @ B) print(C + B) # 2. Rank for name, M in {'A': A, 'B': B, 'C': C}.items(): print(f\"rank({name}) =\", np.linalg.matrix_rank(M)) # 3. Norms frobenius_C = np.linalg.norm(C, 'fro') spectral_A = np.linalg.norm(A, 2) print(frobenius_C, spectral_A) # 4. Inverse of B (if invertible) try: B_inv = np.linalg.inv(B) print(B_inv) except np.linalg.LinAlgError: print(\"B is not invertible.\") Exercise 5 : Determinants Using the matrices from Exercise 3, and Python:\nCompute $\\det(A)$, $\\det(B)$, and $\\det(AB)$. Compute $\\det(C)$ and $\\det(D)$. A = np.array([[2, -2], [0, 1]]) B = np.array([[3, 1], [6, 2]]) C = np.array([[4, 1, -1], [2, 5, -2], [1, 1, 2]]) D = np.array([[-3, 1, -1], [-7, 5, -1], [-6, 6, -2]]) print(np.linalg.det(A)) print(np.linalg.det(B)) print(np.linalg.det(A @ B)) print(np.linalg.det(C)) print(np.linalg.det(D)) Exercise 6 : Inverses Consider the matrices: $$ A = \\begin{pmatrix} 2 \u0026 -1 \\\\ 4 \u0026 3 \\end{pmatrix}, \\quad B = \\begin{pmatrix} 2 \u0026 0 \\\\ 4 \u0026 5 \\end{pmatrix}, \\quad C = \\begin{pmatrix} 6 \u0026 -9 \\\\ -4 \u0026 6 \\end{pmatrix}, \\quad D = \\begin{pmatrix} -1 \u0026 6 \u0026 2 \\\\ 0 \u0026 1 \u0026 0 \\\\ 3 \u0026 0 \u0026 -5 \\end{pmatrix} $$Using Python, calculate (if possible) the inverses of $A$, $B$, $C$, and $D$.\nA = np.array([[2, -1], [4, 3]]) B = np.array([[2, 0], [4, 5]]) C = np.array([[6, -9], [-4, 6]]) D = np.array([[-1, 6, 2], [0, 1, 0], [3, 0, -5]]) for name, M in {'A': A, 'B': B, 'C': C, 'D': D}.items(): try: print(f\"{name} inverse:\\n\", np.linalg.inv(M)) except np.linalg.LinAlgError: print(f\"{name} is not invertible.\") Exercise 7 : Invertibility Consider the matrix: $$ A = \\begin{pmatrix} 2 \u0026 2 \u0026 3 \\\\ -2 \u0026 7 \u0026 4 \\\\ -3 \u0026 -3 \u0026 -4 \\\\ -8 \u0026 2 \u0026 3 \\end{pmatrix} $$Using Python:\nAdd a column to $A$ to make it invertible. Remove a row from $A$ to make it invertible. Compute $AA^T$ and check if it is invertible. Compute $A^T A$ and check if it is invertible. A = np.array([[2, 2, 3], [-2, 7, 4], [-3, -3, -4], [-8, 2, 3]]) # 1. Add a column (example: zeros) A_aug = np.hstack([A, np.ones((4, 1))]) print(\"New A with extra column:\\n\", A_aug) # 2. Remove a row (example: first row) A_red = A[1:, :] print(\"Reduced A:\\n\", A_red) # 3. AA^T and 4. A^T A AAT = A @ A.T ATA = A.T @ A print(\"AA^T invertible?\", np.linalg.matrix_rank(AAT) == AAT.shape[0]) print(\"A^T A invertible?\", np.linalg.matrix_rank(ATA) == ATA.shape[0]) Exercise 8 : Matrix Inversion and Systems of Equations Using Python:\nCompute the inverse of $$ M = \\begin{pmatrix} 3 \u0026 2 \u0026 -1 \\\\ 1 \u0026 -1 \u0026 1 \\\\ 2 \u0026 -4 \u0026 5 \\end{pmatrix}. $$ Use this inverse to solve the linear system: $$ \\begin{cases} 3x + 2y - z = 5 \\\\ x - y + z = 1 \\\\ 2x - 4y + 5z = -3 \\end{cases} $$ M = np.array([[3, 2, -1], [1, -1, 1], [2, -4, 5]]) b = np.array([5, 1, -3]) M_inv = np.linalg.inv(M) print(\"M inverse:\\n\", M_inv) # Solve using inverse x = M_inv @ b print(\"Solution:\", x) # Verify using numpy solver print(\"Check:\", np.allclose(M @ x, b)) Exercise 9 : Solving Linear Systems Use Python to solve the following systems:\n$$ \\begin{cases} 2x + 3y + 5z = 2 \\\\ 7x + z = -1 \\\\ -2y + 2z = 3 \\end{cases} $$ $$ \\begin{cases} x + 2y - z = 2 \\\\ 2x + 5y + 4z = 3 \\\\ 3x + 7y + 4z = 1 \\end{cases} $$# 1st system A1 = np.array([[2, 3, 5], [7, 0, 1], [0, -2, 2]]) b1 = np.array([2, -1, 3]) x1 = np.linalg.solve(A1, b1) print(\"System 1 solution:\", x1) # 2nd system A2 = np.array([[1, 2, -1], [2, 5, 4], [3, 7, 4]]) b2 = np.array([2, 3, 1]) x2 = np.linalg.solve(A2, b2) print(\"System 2 solution:\", x2) ",
+  "wordCount" : "1298",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2025-11-09T17:55:30+01:00",
+  "dateModified": "2025-11-09T17:55:30+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Vectors and Matrices in Python Solutions
+    </h1>
+    <div class="post-meta"><span title='2025-11-09 17:55:30 +0100 CET'>November 9, 2025</span>&nbsp;·&nbsp;<span>1298 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--vectors-in-mathbbr7">Exercise 1 : Vectors in $\mathbb{R}^7$</a></li>
+    <li><a href="#exercise-2--norms-and-orthogonality">Exercise 2 : Norms and Orthogonality</a></li>
+    <li><a href="#exercise-3--matrix-operations">Exercise 3 : Matrix Operations</a></li>
+    <li><a href="#exercise-4--matrix-rank-and-norms">Exercise 4 : Matrix Rank and Norms</a></li>
+    <li><a href="#exercise-5--determinants">Exercise 5 : Determinants</a></li>
+    <li><a href="#exercise-6--inverses">Exercise 6 : Inverses</a></li>
+    <li><a href="#exercise-7--invertibility">Exercise 7 : Invertibility</a></li>
+    <li><a href="#exercise-8--matrix-inversion-and-systems-of-equations">Exercise 8 : Matrix Inversion and Systems of Equations</a></li>
+    <li><a href="#exercise-9--solving-linear-systems">Exercise 9 : Solving Linear Systems</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="vectors-and-matrices-in-python-solutions">Vectors and Matrices in Python Solutions<a hidden class="anchor" aria-hidden="true" href="#vectors-and-matrices-in-python-solutions">#</a></h1>
+<h2 id="exercise-1--vectors-in-mathbbr7">Exercise 1 : Vectors in $\mathbb{R}^7$<a hidden class="anchor" aria-hidden="true" href="#exercise-1--vectors-in-mathbbr7">#</a></h2>
+<p>Consider the following vectors:
+</p>
+$$
+u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5)
+$$<p>Using <strong>Python and NumPy</strong>:</p>
+<ol>
+<li>Check whether $u$ and $v$ are unit vectors.</li>
+<li>Compute the dot product of $u$ and $v$.</li>
+<li>Determine if $u$ and $v$ are orthogonal.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">v</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1. Check if u and v are unit vectors</span>
+</span></span><span class="line"><span class="cl"><span class="n">norm_u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">norm_v</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">norm_u</span><span class="p">,</span> <span class="n">norm_v</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Dot product</span>
+</span></span><span class="line"><span class="cl"><span class="n">dot_uv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">dot_uv</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. Orthogonality</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">dot_uv</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+</span></span></code></pre></div><h2 id="exercise-2--norms-and-orthogonality">Exercise 2 : Norms and Orthogonality<a hidden class="anchor" aria-hidden="true" href="#exercise-2--norms-and-orthogonality">#</a></h2>
+<p>Consider the following vectors in $\mathbb{R}^9$:
+</p>
+$$
+u = (1, 2, 5, 2, -3, 1, 2, 6, 2), \quad v = (-4, 3, -2, 2, 1, -3, 4, 1, -2), \quad w = (3, 3, -3, -1, 6, -1, 2, -5, -7)
+$$<p>Using Python:</p>
+<ol>
+<li>Check which pairs of these vectors are orthogonal.</li>
+<li>Calculate the <strong>Euclidean norm</strong> of $u$.</li>
+<li>Calculate the <strong>infinity norm</strong> of $w$.</li>
+</ol>
+<p>u = np.array([1, 2, 5, 2, -3, 1, 2, 6, 2])
+v = np.array([-4, 3, -2, 2, 1, -3, 4, 1, -2])
+w = np.array([3, 3, -3, -1, 6, -1, 2, -5, -7])</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 1. Orthogonality</span>
+</span></span><span class="line"><span class="cl"><span class="n">pairs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;u·v&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">),</span> <span class="s1">&#39;u·w&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">w</span><span class="p">),</span> <span class="s1">&#39;v·w&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">w</span><span class="p">)}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">pairs</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Euclidean norm of u</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">u</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. Infinity norm of w</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">))</span> 
+</span></span></code></pre></div><h2 id="exercise-3--matrix-operations">Exercise 3 : Matrix Operations<a hidden class="anchor" aria-hidden="true" href="#exercise-3--matrix-operations">#</a></h2>
+<p>Consider the matrices:
+</p>
+$$
+A = \begin{pmatrix} 2 & -2 \\ 0 & 1 \end{pmatrix}, \quad B = \begin{pmatrix} 3 & 1 \\ 6 & 2 \end{pmatrix}, \quad C = \begin{pmatrix} 4 & 1 & -1 \\ 2 & 5 & -2 \\ 1 & 1 & 2 \end{pmatrix}, \quad D = \begin{pmatrix} -3 & 1 & -1 \\ -7 & 5 & -1 \\ -6 & 6 & -2 \end{pmatrix}
+$$<p>
+</p>
+$$
+E = \begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix}, \quad F = \begin{pmatrix} -2 & 1 & 0 \end{pmatrix}, \quad G = \begin{pmatrix} 1 & -1 & 0 & 0 \\ 1 & 4 & 0 & 0 \end{pmatrix}
+$$<p>Using Python:</p>
+<ol>
+<li>Compute (if possible):
+<ul>
+<li>$A + B$, $B - A$, $B + C$, $AB$, $BA$, $BG$, $CE$, $EF$, $FE$</li>
+</ul>
+</li>
+<li>Compute the transposes of $A$ and $B$ and then their product.<br>
+Observe and explain any property you find.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">E</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">F</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">G</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1. Basic operations</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">A</span> <span class="o">+</span> <span class="n">B</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">B</span> <span class="o">-</span> <span class="n">A</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">A</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Some operations will raise shape errors (e.g. B + C), check compatibility before computing:</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">try_op</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Operation not possible: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">try_op</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">add</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">C</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">try_op</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">G</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">try_op</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="n">E</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">try_op</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">,</span> <span class="n">E</span><span class="p">,</span> <span class="n">F</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">try_op</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">,</span> <span class="n">F</span><span class="p">,</span> <span class="n">E</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Transpose and product</span>
+</span></span><span class="line"><span class="cl"><span class="n">AT</span><span class="p">,</span> <span class="n">BT</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span><span class="n">T</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">AT</span><span class="p">,</span> <span class="n">BT</span><span class="p">))</span>
+</span></span></code></pre></div><h2 id="exercise-4--matrix-rank-and-norms">Exercise 4 : Matrix Rank and Norms<a hidden class="anchor" aria-hidden="true" href="#exercise-4--matrix-rank-and-norms">#</a></h2>
+<p>Consider the following matrices:
+</p>
+$$
+A = \begin{pmatrix} 2 & -2 \\ -3 & 1 \\ 5 & -3 \end{pmatrix}, \quad B = \begin{pmatrix} 4 & 4 & 4 \\ -2 & 3 & -7 \\ 2 & 5 & -7 \end{pmatrix}, \quad C = \begin{pmatrix} 4 & -1 & 2 \\ -8 & 2 & -4 \\ 2 & 1 & -4 \end{pmatrix}
+$$<p>Using Python:</p>
+<ol>
+<li>Compute $A^T B$ and $C + B$.</li>
+<li>Determine which of $A$, $B$, and $C$ are full rank.</li>
+<li>Compute the <strong>Frobenius norm</strong> of $C$ and the <strong>spectral norm</strong> of $A$.</li>
+<li>Attempt to compute the inverse of $B$.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1. A^T B and C + B</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">B</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">C</span> <span class="o">+</span> <span class="n">B</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Rank</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">M</span> <span class="ow">in</span> <span class="p">{</span><span class="s1">&#39;A&#39;</span><span class="p">:</span> <span class="n">A</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">:</span> <span class="n">B</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">:</span> <span class="n">C</span><span class="p">}</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;rank(</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">) =&#34;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">matrix_rank</span><span class="p">(</span><span class="n">M</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. Norms</span>
+</span></span><span class="line"><span class="cl"><span class="n">frobenius_C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">C</span><span class="p">,</span> <span class="s1">&#39;fro&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">spectral_A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">frobenius_C</span><span class="p">,</span> <span class="n">spectral_A</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. Inverse of B (if invertible)</span>
+</span></span><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">B_inv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">B_inv</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">except</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">LinAlgError</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;B is not invertible.&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="exercise-5--determinants">Exercise 5 : Determinants<a hidden class="anchor" aria-hidden="true" href="#exercise-5--determinants">#</a></h2>
+<p>Using the matrices from <strong>Exercise 3</strong>, and Python:</p>
+<ol>
+<li>Compute $\det(A)$, $\det(B)$, and $\det(AB)$.</li>
+<li>Compute $\det(C)$ and $\det(D)$.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">B</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">B</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">C</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">D</span><span class="p">))</span>
+</span></span></code></pre></div><h2 id="exercise-6--inverses">Exercise 6 : Inverses<a hidden class="anchor" aria-hidden="true" href="#exercise-6--inverses">#</a></h2>
+<p>Consider the matrices:
+</p>
+$$
+A = \begin{pmatrix} 2 & -1 \\ 4 & 3 \end{pmatrix}, \quad B = \begin{pmatrix} 2 & 0 \\ 4 & 5 \end{pmatrix}, \quad C = \begin{pmatrix} 6 & -9 \\ -4 & 6 \end{pmatrix}, \quad D = \begin{pmatrix} -1 & 6 & 2 \\ 0 & 1 & 0 \\ 3 & 0 & -5 \end{pmatrix}
+$$<p>Using Python, calculate (if possible) the inverses of $A$, $B$, $C$, and $D$.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">M</span> <span class="ow">in</span> <span class="p">{</span><span class="s1">&#39;A&#39;</span><span class="p">:</span> <span class="n">A</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">:</span> <span class="n">B</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">:</span> <span class="n">C</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">:</span> <span class="n">D</span><span class="p">}</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> inverse:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">M</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="k">except</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">LinAlgError</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> is not invertible.&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="exercise-7--invertibility">Exercise 7 : Invertibility<a hidden class="anchor" aria-hidden="true" href="#exercise-7--invertibility">#</a></h2>
+<p>Consider the matrix:
+</p>
+$$
+A = \begin{pmatrix} 2 & 2 & 3 \\ -2 & 7 & 4 \\ -3 & -3 & -4 \\ -8 & 2 & 3 \end{pmatrix}
+$$<p>Using Python:</p>
+<ol>
+<li>Add a column to $A$ to make it invertible.</li>
+<li>Remove a row from $A$ to make it invertible.</li>
+<li>Compute $AA^T$ and check if it is invertible.</li>
+<li>Compute $A^T A$ and check if it is invertible.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">              <span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">              <span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">              <span class="p">[</span><span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 1. Add a column (example: zeros)</span>
+</span></span><span class="line"><span class="cl"><span class="n">A_aug</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">([</span><span class="n">A</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">))])</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;New A with extra column:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">A_aug</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Remove a row (example: first row)</span>
+</span></span><span class="line"><span class="cl"><span class="n">A_red</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="mi">1</span><span class="p">:,</span> <span class="p">:]</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Reduced A:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">A_red</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. AA^T and 4. A^T A</span>
+</span></span><span class="line"><span class="cl"><span class="n">AAT</span> <span class="o">=</span> <span class="n">A</span> <span class="o">@</span> <span class="n">A</span><span class="o">.</span><span class="n">T</span>
+</span></span><span class="line"><span class="cl"><span class="n">ATA</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">A</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;AA^T invertible?&#34;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">matrix_rank</span><span class="p">(</span><span class="n">AAT</span><span class="p">)</span> <span class="o">==</span> <span class="n">AAT</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;A^T A invertible?&#34;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">matrix_rank</span><span class="p">(</span><span class="n">ATA</span><span class="p">)</span> <span class="o">==</span> <span class="n">ATA</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span></code></pre></div><h2 id="exercise-8--matrix-inversion-and-systems-of-equations">Exercise 8 : Matrix Inversion and Systems of Equations<a hidden class="anchor" aria-hidden="true" href="#exercise-8--matrix-inversion-and-systems-of-equations">#</a></h2>
+<p>Using Python:</p>
+<ol>
+<li>Compute the inverse of
+$$
+   M = \begin{pmatrix} 3 & 2 & -1 \\ 1 & -1 & 1 \\ 2 & -4 & 5 \end{pmatrix}.
+   $$</li>
+<li>Use this inverse to solve the linear system:
+$$
+   \begin{cases}
+   3x + 2y - z = 5 \\
+   x - y + z = 1 \\
+   2x - 4y + 5z = -3
+   \end{cases}
+   $$</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">M</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">              <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">              <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">M_inv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">M</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;M inverse:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">M_inv</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Solve using inverse</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">M_inv</span> <span class="o">@</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Solution:&#34;</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Verify using numpy solver</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Check:&#34;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">allclose</span><span class="p">(</span><span class="n">M</span> <span class="o">@</span> <span class="n">x</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
+</span></span></code></pre></div><h2 id="exercise-9--solving-linear-systems">Exercise 9 : Solving Linear Systems<a hidden class="anchor" aria-hidden="true" href="#exercise-9--solving-linear-systems">#</a></h2>
+<p>Use Python to solve the following systems:</p>
+<ol>
+<li></li>
+</ol>
+$$
+\begin{cases}
+2x + 3y + 5z = 2 \\
+7x + z = -1 \\
+-2y + 2z = 3
+\end{cases}
+$$<ol start="2">
+<li></li>
+</ol>
+$$
+\begin{cases}
+x + 2y - z = 2 \\
+2x + 5y + 4z = 3 \\
+3x + 7y + 4z = 1
+\end{cases}
+$$<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 1st system</span>
+</span></span><span class="line"><span class="cl"><span class="n">A1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">               <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">               <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">b1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">A1</span><span class="p">,</span> <span class="n">b1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;System 1 solution:&#34;</span><span class="p">,</span> <span class="n">x1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2nd system</span>
+</span></span><span class="line"><span class="cl"><span class="n">A2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">               <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">               <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">b2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">A2</span><span class="p">,</span> <span class="n">b2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;System 2 solution:&#34;</span><span class="p">,</span> <span class="n">x2</span><span class="p">)</span>
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/linear-algebra/">Linear Algebra</a></li>
+      <li><a href="http://localhost:1313/tags/vectors/">Vectors</a></li>
+      <li><a href="http://localhost:1313/tags/matrices/">Matrices</a></li>
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/tags/l%C3%A9isungen/">Léisungen</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Vectors and Matrices in Python</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

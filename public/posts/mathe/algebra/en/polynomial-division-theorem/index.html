@@ -1,52 +1,558 @@
-<!doctype html><html lang=lb dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Polynomial Division Theorem | Luxformel Bibliothéik</title><meta name=keywords content="Algrebra,Polynomials"><meta name=description content="Polynomial Division Theorem
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=53389&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Polynomial Division Theorem | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Algrebra, Polynomials">
+<meta name="description" content="Polynomial Division Theorem
 Exercise 1 : Polynomial Long Division
 Divide using polynomial long division.
 
 
-$(x^2 + 5x + 6) \div (x + 2)$
+$(x^2 &#43; 5x &#43; 6) \div (x &#43; 2)$
 
 
-$(2x^2 - 7x + 3) \div (x - 3)$
+$(2x^2 - 7x &#43; 3) \div (x - 3)$
 
 
 $(x^3 - 8) \div (x - 2)$
 
 
-$(3x^3 - 2x^2 + 4x - 1) \div (x^2 - x + 1)$
+$(3x^3 - 2x^2 &#43; 4x - 1) \div (x^2 - x &#43; 1)$
 
 
-$(x^4 - 16) \div (x^2 + 4)$
+$(x^4 - 16) \div (x^2 &#43; 4)$
 
 
-$(2x^4 - 3x^3 + x^2 - 5x + 2) \div (x^2 - 2x + 1)$"><meta name=author content><link rel=canonical href=https://canonical.url/to/page><meta name=google-site-verification content="XYZabc"><meta name=yandex-verification content="XYZabc"><meta name=msvalidate.01 content="XYZabc"><link crossorigin=anonymous href=/assets/css/stylesheet.343a53840a207d274ff6d3dd071ee372baf6b49c60bb14417a8dd530b19da89c.css integrity="sha256-NDpThAogfSdP9tPdBx7jcrr2tJxguxRBeo3VMLGdqJw=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/static/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/static/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/static/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/%20safari-pinned-tab.svg><meta name=theme-color content="#7d68f9"><meta name=msapplication-TileColor content=" #2e2e33"><link rel=alternate hreflang=lb href=http://localhost:1313/posts/mathe/algebra/en/polynomial-division-theorem/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"],["$","$"]]}}</script><meta property="og:url" content="http://localhost:1313/posts/mathe/algebra/en/polynomial-division-theorem/"><meta property="og:site_name" content="Luxformel Bibliothéik"><meta property="og:title" content="Polynomial Division Theorem"><meta property="og:description" content="Polynomial Division Theorem Exercise 1 : Polynomial Long Division Divide using polynomial long division.
-$(x^2 + 5x + 6) \div (x + 2)$
-$(2x^2 - 7x + 3) \div (x - 3)$
+$(2x^4 - 3x^3 &#43; x^2 - 5x &#43; 2) \div (x^2 - 2x &#43; 1)$">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:53389/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:53389/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:53389/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:53389/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:53389/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:53389/posts/mathe/algebra/en/polynomial-division-theorem/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:53389/posts/mathe/algebra/en/polynomial-division-theorem/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Polynomial Division Theorem">
+  <meta property="og:description" content="Polynomial Division Theorem Exercise 1 : Polynomial Long Division Divide using polynomial long division.
+$(x^2 &#43; 5x &#43; 6) \div (x &#43; 2)$
+$(2x^2 - 7x &#43; 3) \div (x - 3)$
 $(x^3 - 8) \div (x - 2)$
-$(3x^3 - 2x^2 + 4x - 1) \div (x^2 - x + 1)$
-$(x^4 - 16) \div (x^2 + 4)$
-$(2x^4 - 3x^3 + x^2 - 5x + 2) \div (x^2 - 2x + 1)$"><meta property="og:locale" content="lb"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-09-28T15:56:51+02:00"><meta property="article:modified_time" content="2025-09-28T15:56:51+02:00"><meta property="article:tag" content="Algrebra"><meta property="article:tag" content="Polynomials"><meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Polynomial Division Theorem"><meta name=twitter:description content="Polynomial Division Theorem
+$(3x^3 - 2x^2 &#43; 4x - 1) \div (x^2 - x &#43; 1)$
+$(x^4 - 16) \div (x^2 &#43; 4)$
+$(2x^4 - 3x^3 &#43; x^2 - 5x &#43; 2) \div (x^2 - 2x &#43; 1)$">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-28T15:56:51+02:00">
+    <meta property="article:modified_time" content="2025-09-28T15:56:51+02:00">
+    <meta property="article:tag" content="Algrebra">
+    <meta property="article:tag" content="Polynomials">
+      <meta property="og:image" content="http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Polynomial Division Theorem">
+<meta name="twitter:description" content="Polynomial Division Theorem
 Exercise 1 : Polynomial Long Division
 Divide using polynomial long division.
 
 
-$(x^2 + 5x + 6) \div (x + 2)$
+$(x^2 &#43; 5x &#43; 6) \div (x &#43; 2)$
 
 
-$(2x^2 - 7x + 3) \div (x - 3)$
+$(2x^2 - 7x &#43; 3) \div (x - 3)$
 
 
 $(x^3 - 8) \div (x - 2)$
 
 
-$(3x^3 - 2x^2 + 4x - 1) \div (x^2 - x + 1)$
+$(3x^3 - 2x^2 &#43; 4x - 1) \div (x^2 - x &#43; 1)$
 
 
-$(x^4 - 16) \div (x^2 + 4)$
+$(x^4 - 16) \div (x^2 &#43; 4)$
 
 
-$(2x^4 - 3x^3 + x^2 - 5x + 2) \div (x^2 - 2x + 1)$"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"Polynomial Division Theorem","item":"http://localhost:1313/posts/mathe/algebra/en/polynomial-division-theorem/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Polynomial Division Theorem","name":"Polynomial Division Theorem","description":"Polynomial Division Theorem Exercise 1 : Polynomial Long Division Divide using polynomial long division.\n$(x^2 + 5x + 6) \\div (x + 2)$\n$(2x^2 - 7x + 3) \\div (x - 3)$\n$(x^3 - 8) \\div (x - 2)$\n$(3x^3 - 2x^2 + 4x - 1) \\div (x^2 - x + 1)$\n$(x^4 - 16) \\div (x^2 + 4)$\n$(2x^4 - 3x^3 + x^2 - 5x + 2) \\div (x^2 - 2x + 1)$\n","keywords":["Algrebra","Polynomials"],"articleBody":"Polynomial Division Theorem Exercise 1 : Polynomial Long Division Divide using polynomial long division.\n$(x^2 + 5x + 6) \\div (x + 2)$\n$(2x^2 - 7x + 3) \\div (x - 3)$\n$(x^3 - 8) \\div (x - 2)$\n$(3x^3 - 2x^2 + 4x - 1) \\div (x^2 - x + 1)$\n$(x^4 - 16) \\div (x^2 + 4)$\n$(2x^4 - 3x^3 + x^2 - 5x + 2) \\div (x^2 - 2x + 1)$\nExercise 2 : Synthetic Division Divide using synthetic division.\n$(x^3 - 2x^2 - 5x + 6) \\div (x - 1)$ $(2x^3 + 3x^2 - 4x + 1) \\div (x + 2)$ $(x^4 - 3x^2 + 2x - 5) \\div (x - 3)$ Exercise 3 : Remainder Theorem Applications Use the Remainder Theorem to find the remainder.\n$P(x) = 2x^3 - 5x^2 + 3x - 7$ divided by $(x - 2)$ $Q(x) = x^4 - 2x^3 + x - 5$ divided by $(x + 1)$ $R(x) = 3x^5 - 2x^3 + 4x - 1$ divided by $(x - 3)$ Exercise 4 : Factor Theorem Applications Use the Factor Theorem to determine if the given binomial is a factor.\nIs $(x - 1)$ a factor of $x^3 - 3x^2 + 2x - 2$? Is $(x + 2)$ a factor of $2x^3 + x^2 - 7x + 2$? Is $(x - 3)$ a factor of $x^4 - 4x^3 + 2x^2 - 5x + 6$? Exercise 5 : Finding Roots Find all real roots of the polynomials.\n$P(x) = x^3 - 2x^2 - 5x + 6$ $Q(x) = 2x^3 + x^2 - 13x + 6$ $R(x) = x^4 - 5x^2 + 4$ Exercise 6 : Complete Factorization Completely factor each polynomial.\n$x^3 - 8$ $x^4 - 16$ $2x^3 + 3x^2 - 8x + 3$ $x^4 - 3x^3 - 3x^2 + 11x - 6$ Exercise 7 : Rational Root Theorem Use the Rational Root Theorem to:\nList all possible rational roots Test each possible root Find all actual roots $2x^3 - 3x^2 - 11x + 6$ $3x^4 - 4x^3 - 11x^2 + 16x - 4$ Exercise 8 : Polynomial Equations Solve the polynomial equations.\n$x^3 - 3x^2 - 4x + 12 = 0$ $2x^4 - 5x^3 - 3x^2 + 5x - 1 = 0$ Exercise 9 : Word Problems Solve the following application problems.\nThe volume of a rectangular box is given by $V(x) = x^3 - 2x^2 - 5x + 6$. If the height is $(x - 1)$, find expressions for the length and width.\nWhen a polynomial $P(x)$ is divided by $(x - 2)$, the remainder is 5. When divided by $(x + 1)$, the remainder is -4. Find the remainder when $P(x)$ is divided by $(x - 2)(x + 1)$.\nExercise 10 : Advanced Problems Solve these advanced problems.\nFind the value of k such that $(x + 2)$ is a factor of $x^3 + kx^2 - 4x - 12$ A polynomial $P(x)$ leaves a remainder of 2 when divided by $(x - 1)$ and a remainder of 1 when divided by $(x - 2)$. What remainder is obtained when $P(x)$ is divided by $(x - 1)(x - 2)$? Prove that $x^2 + x + 1$ is a factor of $x^{3n+2} + x^{3m+1} + 1$ for all positive integers m and n. Exercise 11 : Comprehensive Problems Solve using the most efficient method.\nDivide $(3x^4 - 2x^3 + x^2 - 5x + 2) \\div (x^2 - x + 1)$ Find all roots of $x^4 - 3x^3 - 6x^2 + 28x - 24 = 0$ Factor completely: $6x^4 - 11x^3 - 35x^2 + 34x + 24$ Exercise 12 : Proof and Justification Prove or justify the following statements.\nProve the Remainder Theorem. Explain why synthetic division only works for divisors of the form $(x - c)$. Show that if a polynomial has real coefficients and a complex root $a + bi$ (where $b \\neq 0$), then $a - bi$ must also be a root. ","wordCount":"655","inLanguage":"lb","image":"http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished":"2025-09-28T15:56:51+02:00","dateModified":"2025-09-28T15:56:51+02:00","author":{"@type":"Person","name":"Luxformel"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/mathe/algebra/en/polynomial-division-theorem/"},"publisher":{"@type":"Organization","name":"Luxformel Bibliothéik","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="Heem (Alt + H)">Heem</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/categories/ title=kategorie><span>kategorie</span></a></li><li><a href=http://localhost:1313/archives/ title=archiv><span>archiv</span></a></li><li><a href=http://localhost:1313/search/ title="sichen (Alt + /)" accesskey=/><span>sichen</span></a></li><li><a href=http://localhost:1313/tags/ title=tags><span>tags</span></a></li><li><a href=https://luxformel.info/ title=luxformel.info><span>luxformel.info</span>&nbsp;
-<svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg></a></li></ul></nav></header><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"],["$","$"]]}}</script><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>Heem</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">Polynomial Division Theorem</h1><div class=post-meta><span title='2025-09-28 15:56:51 +0200 CEST'>September 28, 2025</span>&nbsp;·&nbsp;655 wierder</div></header><div class=toc><details><summary accesskey=c title="(Alt + C)"><span class=details>Inhaltsverzeechnes</span></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#exercise-1--polynomial-long-division>Exercise 1 : Polynomial Long Division</a></li><li><a href=#exercise-2--synthetic-division>Exercise 2 : Synthetic Division</a></li><li><a href=#exercise-3--remainder-theorem-applications>Exercise 3 : Remainder Theorem Applications</a></li><li><a href=#exercise-4--factor-theorem-applications>Exercise 4 : Factor Theorem Applications</a></li><li><a href=#exercise-5--finding-roots>Exercise 5 : Finding Roots</a></li><li><a href=#exercise-6--complete-factorization>Exercise 6 : Complete Factorization</a></li><li><a href=#exercise-7--rational-root-theorem>Exercise 7 : Rational Root Theorem</a></li><li><a href=#exercise-8--polynomial-equations>Exercise 8 : Polynomial Equations</a></li><li><a href=#exercise-9--word-problems>Exercise 9 : Word Problems</a></li><li><a href=#exercise-10--advanced-problems>Exercise 10 : Advanced Problems</a></li><li><a href=#exercise-11--comprehensive-problems>Exercise 11 : Comprehensive Problems</a></li><li><a href=#exercise-12--proof-and-justification>Exercise 12 : Proof and Justification</a></li></ul></nav></div></details></div><div class=post-content><h1 id=polynomial-division-theorem>Polynomial Division Theorem<a hidden class=anchor aria-hidden=true href=#polynomial-division-theorem>#</a></h1><h2 id=exercise-1--polynomial-long-division>Exercise 1 : Polynomial Long Division<a hidden class=anchor aria-hidden=true href=#exercise-1--polynomial-long-division>#</a></h2><p>Divide using polynomial long division.</p><ol><li><p>$(x^2 + 5x + 6) \div (x + 2)$</p></li><li><p>$(2x^2 - 7x + 3) \div (x - 3)$</p></li><li><p>$(x^3 - 8) \div (x - 2)$</p></li><li><p>$(3x^3 - 2x^2 + 4x - 1) \div (x^2 - x + 1)$</p></li><li><p>$(x^4 - 16) \div (x^2 + 4)$</p></li><li><p>$(2x^4 - 3x^3 + x^2 - 5x + 2) \div (x^2 - 2x + 1)$</p></li></ol><h2 id=exercise-2--synthetic-division>Exercise 2 : Synthetic Division<a hidden class=anchor aria-hidden=true href=#exercise-2--synthetic-division>#</a></h2><p>Divide using synthetic division.</p><ol><li>$(x^3 - 2x^2 - 5x + 6) \div (x - 1)$</li><li>$(2x^3 + 3x^2 - 4x + 1) \div (x + 2)$</li><li>$(x^4 - 3x^2 + 2x - 5) \div (x - 3)$</li></ol><h2 id=exercise-3--remainder-theorem-applications>Exercise 3 : Remainder Theorem Applications<a hidden class=anchor aria-hidden=true href=#exercise-3--remainder-theorem-applications>#</a></h2><p>Use the Remainder Theorem to find the remainder.</p><ol><li>$P(x) = 2x^3 - 5x^2 + 3x - 7$ divided by $(x - 2)$</li><li>$Q(x) = x^4 - 2x^3 + x - 5$ divided by $(x + 1)$</li><li>$R(x) = 3x^5 - 2x^3 + 4x - 1$ divided by $(x - 3)$</li></ol><h2 id=exercise-4--factor-theorem-applications>Exercise 4 : Factor Theorem Applications<a hidden class=anchor aria-hidden=true href=#exercise-4--factor-theorem-applications>#</a></h2><p>Use the Factor Theorem to determine if the given binomial is a factor.</p><ol><li>Is $(x - 1)$ a factor of $x^3 - 3x^2 + 2x - 2$?</li><li>Is $(x + 2)$ a factor of $2x^3 + x^2 - 7x + 2$?</li><li>Is $(x - 3)$ a factor of $x^4 - 4x^3 + 2x^2 - 5x + 6$?</li></ol><h2 id=exercise-5--finding-roots>Exercise 5 : Finding Roots<a hidden class=anchor aria-hidden=true href=#exercise-5--finding-roots>#</a></h2><p>Find all real roots of the polynomials.</p><ol><li>$P(x) = x^3 - 2x^2 - 5x + 6$</li><li>$Q(x) = 2x^3 + x^2 - 13x + 6$</li><li>$R(x) = x^4 - 5x^2 + 4$</li></ol><h2 id=exercise-6--complete-factorization>Exercise 6 : Complete Factorization<a hidden class=anchor aria-hidden=true href=#exercise-6--complete-factorization>#</a></h2><p>Completely factor each polynomial.</p><ol><li>$x^3 - 8$</li><li>$x^4 - 16$</li><li>$2x^3 + 3x^2 - 8x + 3$</li><li>$x^4 - 3x^3 - 3x^2 + 11x - 6$</li></ol><h2 id=exercise-7--rational-root-theorem>Exercise 7 : Rational Root Theorem<a hidden class=anchor aria-hidden=true href=#exercise-7--rational-root-theorem>#</a></h2><p>Use the Rational Root Theorem to:</p><ul><li>List all possible rational roots</li><li>Test each possible root</li><li>Find all actual roots</li></ul><ol><li>$2x^3 - 3x^2 - 11x + 6$</li><li>$3x^4 - 4x^3 - 11x^2 + 16x - 4$</li></ol><h2 id=exercise-8--polynomial-equations>Exercise 8 : Polynomial Equations<a hidden class=anchor aria-hidden=true href=#exercise-8--polynomial-equations>#</a></h2><p>Solve the polynomial equations.</p><ol><li>$x^3 - 3x^2 - 4x + 12 = 0$</li><li>$2x^4 - 5x^3 - 3x^2 + 5x - 1 = 0$</li></ol><h2 id=exercise-9--word-problems>Exercise 9 : Word Problems<a hidden class=anchor aria-hidden=true href=#exercise-9--word-problems>#</a></h2><p>Solve the following application problems.</p><ol><li><p>The volume of a rectangular box is given by $V(x) = x^3 - 2x^2 - 5x + 6$. If the height is $(x - 1)$, find expressions for the length and width.</p></li><li><p>When a polynomial $P(x)$ is divided by $(x - 2)$, the remainder is 5. When divided by $(x + 1)$, the remainder is -4. Find the remainder when $P(x)$ is divided by $(x - 2)(x + 1)$.</p></li></ol><h2 id=exercise-10--advanced-problems>Exercise 10 : Advanced Problems<a hidden class=anchor aria-hidden=true href=#exercise-10--advanced-problems>#</a></h2><p>Solve these advanced problems.</p><ol><li>Find the value of k such that $(x + 2)$ is a factor of $x^3 + kx^2 - 4x - 12$</li><li>A polynomial $P(x)$ leaves a remainder of 2 when divided by $(x - 1)$ and a remainder of 1 when divided by $(x - 2)$. What remainder is obtained when $P(x)$ is divided by $(x - 1)(x - 2)$?</li><li>Prove that $x^2 + x + 1$ is a factor of $x^{3n+2} + x^{3m+1} + 1$ for all positive integers m and n.</li></ol><h2 id=exercise-11--comprehensive-problems>Exercise 11 : Comprehensive Problems<a hidden class=anchor aria-hidden=true href=#exercise-11--comprehensive-problems>#</a></h2><p>Solve using the most efficient method.</p><ol><li>Divide $(3x^4 - 2x^3 + x^2 - 5x + 2) \div (x^2 - x + 1)$</li><li>Find all roots of $x^4 - 3x^3 - 6x^2 + 28x - 24 = 0$</li><li>Factor completely: $6x^4 - 11x^3 - 35x^2 + 34x + 24$</li></ol><h2 id=exercise-12--proof-and-justification>Exercise 12 : Proof and Justification<a hidden class=anchor aria-hidden=true href=#exercise-12--proof-and-justification>#</a></h2><p>Prove or justify the following statements.</p><ol><li>Prove the Remainder Theorem.</li><li>Explain why synthetic division only works for divisors of the form $(x - c)$.</li><li>Show that if a polynomial has real coefficients and a complex root $a + bi$ (where $b \neq 0$), then $a - bi$ must also be a root.</li></ol></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/tags/algrebra/>Algrebra</a></li><li><a href=http://localhost:1313/tags/polynomials/>Polynomials</a></li></ul><nav class=paginav><a class=prev href=http://localhost:1313/posts/luxformel/styleguide/><span class=title>« Virdrun</span><br><span>Luxformel Styleguide</span>
-</a><a class=next href=http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/><span class=title>Nächst »</span><br><span>Null Spaces and Ranges</span></a></nav></footer></article></main><footer class=footer><span>Luxformel Bibliothéik<br>Feedback: <a href=mailto:feedback@luxformel.info>feedback@luxformel.info</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="kopéieren";function s(){t.innerHTML="kopéiert!",setTimeout(()=>{t.innerHTML="kopéieren"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
+$(2x^4 - 3x^3 &#43; x^2 - 5x &#43; 2) \div (x^2 - 2x &#43; 1)$">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:53389/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Polynomial Division Theorem",
+      "item": "http://localhost:53389/posts/mathe/algebra/en/polynomial-division-theorem/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Polynomial Division Theorem",
+  "name": "Polynomial Division Theorem",
+  "description": "Polynomial Division Theorem Exercise 1 : Polynomial Long Division Divide using polynomial long division.\n$(x^2 + 5x + 6) \\div (x + 2)$\n$(2x^2 - 7x + 3) \\div (x - 3)$\n$(x^3 - 8) \\div (x - 2)$\n$(3x^3 - 2x^2 + 4x - 1) \\div (x^2 - x + 1)$\n$(x^4 - 16) \\div (x^2 + 4)$\n$(2x^4 - 3x^3 + x^2 - 5x + 2) \\div (x^2 - 2x + 1)$\n",
+  "keywords": [
+    "Algrebra", "Polynomials"
+  ],
+  "articleBody": "Polynomial Division Theorem Exercise 1 : Polynomial Long Division Divide using polynomial long division.\n$(x^2 + 5x + 6) \\div (x + 2)$\n$(2x^2 - 7x + 3) \\div (x - 3)$\n$(x^3 - 8) \\div (x - 2)$\n$(3x^3 - 2x^2 + 4x - 1) \\div (x^2 - x + 1)$\n$(x^4 - 16) \\div (x^2 + 4)$\n$(2x^4 - 3x^3 + x^2 - 5x + 2) \\div (x^2 - 2x + 1)$\nExercise 2 : Synthetic Division Divide using synthetic division.\n$(x^3 - 2x^2 - 5x + 6) \\div (x - 1)$ $(2x^3 + 3x^2 - 4x + 1) \\div (x + 2)$ $(x^4 - 3x^2 + 2x - 5) \\div (x - 3)$ Exercise 3 : Remainder Theorem Applications Use the Remainder Theorem to find the remainder.\n$P(x) = 2x^3 - 5x^2 + 3x - 7$ divided by $(x - 2)$ $Q(x) = x^4 - 2x^3 + x - 5$ divided by $(x + 1)$ $R(x) = 3x^5 - 2x^3 + 4x - 1$ divided by $(x - 3)$ Exercise 4 : Factor Theorem Applications Use the Factor Theorem to determine if the given binomial is a factor.\nIs $(x - 1)$ a factor of $x^3 - 3x^2 + 2x - 2$? Is $(x + 2)$ a factor of $2x^3 + x^2 - 7x + 2$? Is $(x - 3)$ a factor of $x^4 - 4x^3 + 2x^2 - 5x + 6$? Exercise 5 : Finding Roots Find all real roots of the polynomials.\n$P(x) = x^3 - 2x^2 - 5x + 6$ $Q(x) = 2x^3 + x^2 - 13x + 6$ $R(x) = x^4 - 5x^2 + 4$ Exercise 6 : Complete Factorization Completely factor each polynomial.\n$x^3 - 8$ $x^4 - 16$ $2x^3 + 3x^2 - 8x + 3$ $x^4 - 3x^3 - 3x^2 + 11x - 6$ Exercise 7 : Rational Root Theorem Use the Rational Root Theorem to:\nList all possible rational roots Test each possible root Find all actual roots $2x^3 - 3x^2 - 11x + 6$ $3x^4 - 4x^3 - 11x^2 + 16x - 4$ Exercise 8 : Polynomial Equations Solve the polynomial equations.\n$x^3 - 3x^2 - 4x + 12 = 0$ $2x^4 - 5x^3 - 3x^2 + 5x - 1 = 0$ Exercise 9 : Word Problems Solve the following application problems.\nThe volume of a rectangular box is given by $V(x) = x^3 - 2x^2 - 5x + 6$. If the height is $(x - 1)$, find expressions for the length and width.\nWhen a polynomial $P(x)$ is divided by $(x - 2)$, the remainder is 5. When divided by $(x + 1)$, the remainder is -4. Find the remainder when $P(x)$ is divided by $(x - 2)(x + 1)$.\nExercise 10 : Advanced Problems Solve these advanced problems.\nFind the value of k such that $(x + 2)$ is a factor of $x^3 + kx^2 - 4x - 12$ A polynomial $P(x)$ leaves a remainder of 2 when divided by $(x - 1)$ and a remainder of 1 when divided by $(x - 2)$. What remainder is obtained when $P(x)$ is divided by $(x - 1)(x - 2)$? Prove that $x^2 + x + 1$ is a factor of $x^{3n+2} + x^{3m+1} + 1$ for all positive integers m and n. Exercise 11 : Comprehensive Problems Solve using the most efficient method.\nDivide $(3x^4 - 2x^3 + x^2 - 5x + 2) \\div (x^2 - x + 1)$ Find all roots of $x^4 - 3x^3 - 6x^2 + 28x - 24 = 0$ Factor completely: $6x^4 - 11x^3 - 35x^2 + 34x + 24$ Exercise 12 : Proof and Justification Prove or justify the following statements.\nProve the Remainder Theorem. Explain why synthetic division only works for divisors of the form $(x - c)$. Show that if a polynomial has real coefficients and a complex root $a + bi$ (where $b \\neq 0$), then $a - bi$ must also be a root. ",
+  "wordCount" : "655",
+  "inLanguage": "lb",
+  "image": "http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2025-09-28T15:56:51+02:00",
+  "dateModified": "2025-09-28T15:56:51+02:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:53389/posts/mathe/algebra/en/polynomial-division-theorem/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:53389/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:53389/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:53389/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:53389/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:53389/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:53389/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:53389/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:53389/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Polynomial Division Theorem
+    </h1>
+    <div class="post-meta"><span title='2025-09-28 15:56:51 +0200 CEST'>September 28, 2025</span>&nbsp;·&nbsp;<span>655 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--polynomial-long-division">Exercise 1 : Polynomial Long Division</a></li>
+    <li><a href="#exercise-2--synthetic-division">Exercise 2 : Synthetic Division</a></li>
+    <li><a href="#exercise-3--remainder-theorem-applications">Exercise 3 : Remainder Theorem Applications</a></li>
+    <li><a href="#exercise-4--factor-theorem-applications">Exercise 4 : Factor Theorem Applications</a></li>
+    <li><a href="#exercise-5--finding-roots">Exercise 5 : Finding Roots</a></li>
+    <li><a href="#exercise-6--complete-factorization">Exercise 6 : Complete Factorization</a></li>
+    <li><a href="#exercise-7--rational-root-theorem">Exercise 7 : Rational Root Theorem</a></li>
+    <li><a href="#exercise-8--polynomial-equations">Exercise 8 : Polynomial Equations</a></li>
+    <li><a href="#exercise-9--word-problems">Exercise 9 : Word Problems</a></li>
+    <li><a href="#exercise-10--advanced-problems">Exercise 10 : Advanced Problems</a></li>
+    <li><a href="#exercise-11--comprehensive-problems">Exercise 11 : Comprehensive Problems</a></li>
+    <li><a href="#exercise-12--proof-and-justification">Exercise 12 : Proof and Justification</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="polynomial-division-theorem">Polynomial Division Theorem<a hidden class="anchor" aria-hidden="true" href="#polynomial-division-theorem">#</a></h1>
+<h2 id="exercise-1--polynomial-long-division">Exercise 1 : Polynomial Long Division<a hidden class="anchor" aria-hidden="true" href="#exercise-1--polynomial-long-division">#</a></h2>
+<p>Divide using polynomial long division.</p>
+<ol>
+<li>
+<p>$(x^2 + 5x + 6) \div (x + 2)$</p>
+</li>
+<li>
+<p>$(2x^2 - 7x + 3) \div (x - 3)$</p>
+</li>
+<li>
+<p>$(x^3 - 8) \div (x - 2)$</p>
+</li>
+<li>
+<p>$(3x^3 - 2x^2 + 4x - 1) \div (x^2 - x + 1)$</p>
+</li>
+<li>
+<p>$(x^4 - 16) \div (x^2 + 4)$</p>
+</li>
+<li>
+<p>$(2x^4 - 3x^3 + x^2 - 5x + 2) \div (x^2 - 2x + 1)$</p>
+</li>
+</ol>
+<h2 id="exercise-2--synthetic-division">Exercise 2 : Synthetic Division<a hidden class="anchor" aria-hidden="true" href="#exercise-2--synthetic-division">#</a></h2>
+<p>Divide using synthetic division.</p>
+<ol>
+<li>$(x^3 - 2x^2 - 5x + 6) \div (x - 1)$</li>
+<li>$(2x^3 + 3x^2 - 4x + 1) \div (x + 2)$</li>
+<li>$(x^4 - 3x^2 + 2x - 5) \div (x - 3)$</li>
+</ol>
+<h2 id="exercise-3--remainder-theorem-applications">Exercise 3 : Remainder Theorem Applications<a hidden class="anchor" aria-hidden="true" href="#exercise-3--remainder-theorem-applications">#</a></h2>
+<p>Use the Remainder Theorem to find the remainder.</p>
+<ol>
+<li>$P(x) = 2x^3 - 5x^2 + 3x - 7$ divided by $(x - 2)$</li>
+<li>$Q(x) = x^4 - 2x^3 + x - 5$ divided by $(x + 1)$</li>
+<li>$R(x) = 3x^5 - 2x^3 + 4x - 1$ divided by $(x - 3)$</li>
+</ol>
+<h2 id="exercise-4--factor-theorem-applications">Exercise 4 : Factor Theorem Applications<a hidden class="anchor" aria-hidden="true" href="#exercise-4--factor-theorem-applications">#</a></h2>
+<p>Use the Factor Theorem to determine if the given binomial is a factor.</p>
+<ol>
+<li>Is $(x - 1)$ a factor of $x^3 - 3x^2 + 2x - 2$?</li>
+<li>Is $(x + 2)$ a factor of $2x^3 + x^2 - 7x + 2$?</li>
+<li>Is $(x - 3)$ a factor of $x^4 - 4x^3 + 2x^2 - 5x + 6$?</li>
+</ol>
+<h2 id="exercise-5--finding-roots">Exercise 5 : Finding Roots<a hidden class="anchor" aria-hidden="true" href="#exercise-5--finding-roots">#</a></h2>
+<p>Find all real roots of the polynomials.</p>
+<ol>
+<li>$P(x) = x^3 - 2x^2 - 5x + 6$</li>
+<li>$Q(x) = 2x^3 + x^2 - 13x + 6$</li>
+<li>$R(x) = x^4 - 5x^2 + 4$</li>
+</ol>
+<h2 id="exercise-6--complete-factorization">Exercise 6 : Complete Factorization<a hidden class="anchor" aria-hidden="true" href="#exercise-6--complete-factorization">#</a></h2>
+<p>Completely factor each polynomial.</p>
+<ol>
+<li>$x^3 - 8$</li>
+<li>$x^4 - 16$</li>
+<li>$2x^3 + 3x^2 - 8x + 3$</li>
+<li>$x^4 - 3x^3 - 3x^2 + 11x - 6$</li>
+</ol>
+<h2 id="exercise-7--rational-root-theorem">Exercise 7 : Rational Root Theorem<a hidden class="anchor" aria-hidden="true" href="#exercise-7--rational-root-theorem">#</a></h2>
+<p>Use the Rational Root Theorem to:</p>
+<ul>
+<li>List all possible rational roots</li>
+<li>Test each possible root</li>
+<li>Find all actual roots</li>
+</ul>
+<ol>
+<li>$2x^3 - 3x^2 - 11x + 6$</li>
+<li>$3x^4 - 4x^3 - 11x^2 + 16x - 4$</li>
+</ol>
+<h2 id="exercise-8--polynomial-equations">Exercise 8 : Polynomial Equations<a hidden class="anchor" aria-hidden="true" href="#exercise-8--polynomial-equations">#</a></h2>
+<p>Solve the polynomial equations.</p>
+<ol>
+<li>$x^3 - 3x^2 - 4x + 12 = 0$</li>
+<li>$2x^4 - 5x^3 - 3x^2 + 5x - 1 = 0$</li>
+</ol>
+<h2 id="exercise-9--word-problems">Exercise 9 : Word Problems<a hidden class="anchor" aria-hidden="true" href="#exercise-9--word-problems">#</a></h2>
+<p>Solve the following application problems.</p>
+<ol>
+<li>
+<p>The volume of a rectangular box is given by $V(x) = x^3 - 2x^2 - 5x + 6$. If the height is $(x - 1)$, find expressions for the length and width.</p>
+</li>
+<li>
+<p>When a polynomial $P(x)$ is divided by $(x - 2)$, the remainder is 5. When divided by $(x + 1)$, the remainder is -4. Find the remainder when $P(x)$ is divided by $(x - 2)(x + 1)$.</p>
+</li>
+</ol>
+<h2 id="exercise-10--advanced-problems">Exercise 10 : Advanced Problems<a hidden class="anchor" aria-hidden="true" href="#exercise-10--advanced-problems">#</a></h2>
+<p>Solve these advanced problems.</p>
+<ol>
+<li>Find the value of k such that $(x + 2)$ is a factor of $x^3 + kx^2 - 4x - 12$</li>
+<li>A polynomial $P(x)$ leaves a remainder of 2 when divided by $(x - 1)$ and a remainder of 1 when divided by $(x - 2)$. What remainder is obtained when $P(x)$ is divided by $(x - 1)(x - 2)$?</li>
+<li>Prove that $x^2 + x + 1$ is a factor of $x^{3n+2} + x^{3m+1} + 1$ for all positive integers m and n.</li>
+</ol>
+<h2 id="exercise-11--comprehensive-problems">Exercise 11 : Comprehensive Problems<a hidden class="anchor" aria-hidden="true" href="#exercise-11--comprehensive-problems">#</a></h2>
+<p>Solve using the most efficient method.</p>
+<ol>
+<li>Divide $(3x^4 - 2x^3 + x^2 - 5x + 2) \div (x^2 - x + 1)$</li>
+<li>Find all roots of $x^4 - 3x^3 - 6x^2 + 28x - 24 = 0$</li>
+<li>Factor completely: $6x^4 - 11x^3 - 35x^2 + 34x + 24$</li>
+</ol>
+<h2 id="exercise-12--proof-and-justification">Exercise 12 : Proof and Justification<a hidden class="anchor" aria-hidden="true" href="#exercise-12--proof-and-justification">#</a></h2>
+<p>Prove or justify the following statements.</p>
+<ol>
+<li>Prove the Remainder Theorem.</li>
+<li>Explain why synthetic division only works for divisors of the form $(x - c)$.</li>
+<li>Show that if a polynomial has real coefficients and a complex root $a + bi$ (where $b \neq 0$), then $a - bi$ must also be a root.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:53389/tags/algrebra/">Algrebra</a></li>
+      <li><a href="http://localhost:53389/tags/polynomials/">Polynomials</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:53389/posts/luxformel/styleguide/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Luxformel Styleguide</span>
+  </a>
+  <a class="next" href="http://localhost:53389/posts/mathe/linear-algebra/en/null-spaces-and-ranges/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Null Spaces and Ranges</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

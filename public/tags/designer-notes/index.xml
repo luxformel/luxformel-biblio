@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Designer Notes on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/designer-notes/</link>
+    <link>http://localhost:53389/tags/designer-notes/</link>
     <description>Recent content in Designer Notes on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 28 Sep 2025 16:06:45 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/designer-notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53389/tags/designer-notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Luxformel Styleguide</title>
-      <link>http://localhost:1313/posts/luxformel/styleguide/</link>
+      <link>http://localhost:53389/posts/luxformel/styleguide/</link>
       <pubDate>Sun, 28 Sep 2025 16:06:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/luxformel/styleguide/</guid>
+      <guid>http://localhost:53389/posts/luxformel/styleguide/</guid>
       <description>&lt;h1 id=&#34;luxformel-styleguide&#34;&gt;Luxformel Styleguide&lt;/h1&gt;
 &lt;h2 id=&#34;inhaltsverzeechnes&#34;&gt;Inhaltsverzeechnes&lt;/h2&gt;
 &lt;ol&gt;
@@ -47,6 +47,8 @@
 &lt;li&gt;&lt;a href=&#34;#tabellen&#34;&gt;Tabellen&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#archiv&#34;&gt;Archiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bibliotheik&#34;&gt;Bibliothéik&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;allgemenge-stil&#34;&gt;Allgemenge Stil&lt;/h2&gt;
 &lt;h3 id=&#34;faarwen&#34;&gt;Faarwen&lt;/h3&gt;
@@ -55,10 +57,10 @@
 &lt;li&gt;Wäiss als Hannergrond: &lt;code&gt;#fff&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Schwaarz fir Text, Titelen, Formelen, etc. :&lt;code&gt;#000&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Mof als spezial Faarw: &lt;code&gt;hsl(250 100% 50% / 0.6)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Linken sinn ausser bei ausname blo: &lt;code&gt;#0000ff&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;schreft&#34;&gt;Schréft&lt;/h3&gt;
-&lt;p&gt;Déi typesch Schréft fir d&amp;rsquo;Interface op Luxformel ass: &lt;code&gt; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Déi typesch Schréft fir Text, Titelen ass: &lt;code&gt;font-family: &amp;quot;Times New Roman&amp;quot;, Times, serif;&lt;/code&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Déi typesch Schréft fir d&amp;rsquo;Interface op Luxformel ass:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

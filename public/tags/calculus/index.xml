@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Calculus on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/calculus/</link>
+    <link>http://localhost:53389/tags/calculus/</link>
     <description>Recent content in Calculus on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 07:04:16 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53389/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Derivatives</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/derivatives/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/derivatives/</link>
       <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/derivatives/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/derivatives/</guid>
       <description>&lt;h1 id=&#34;derivatives&#34;&gt;Derivatives&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;ol&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>Fundamental Theorem of Calculus</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</link>
       <pubDate>Sun, 07 Sep 2025 07:02:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</guid>
       <description>&lt;h1 id=&#34;fundamental-theorem-of-calculus&#34;&gt;Fundamental Theorem of Calculus&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--derivatives-of-integral-functions&#34;&gt;Exercise 1 : Derivatives of Integral Functions&lt;/h2&gt;
 &lt;p&gt;Find $F&amp;rsquo;(x)$ for each function:&lt;/p&gt;
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>Inverse Functions</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/inverse-functions/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/inverse-functions/</link>
       <pubDate>Sun, 07 Sep 2025 07:01:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/inverse-functions/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/inverse-functions/</guid>
       <description>&lt;h1 id=&#34;inverse-functions&#34;&gt;Inverse Functions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find $ f^{-1} $ for each function $ f $&lt;/p&gt;
@@ -82,9 +82,9 @@
     </item>
     <item>
       <title>Riemann Sums</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/riemann-sums/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/riemann-sums/</link>
       <pubDate>Sun, 07 Sep 2025 06:56:51 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/riemann-sums/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/riemann-sums/</guid>
       <description>&lt;h1 id=&#34;riemann-sums&#34;&gt;Riemann Sums&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--approximation-of-integral-products&#34;&gt;Exercise 1 : Approximation of Integral Products&lt;/h2&gt;
 &lt;p&gt;Let \(f,g\) be continuous on \([a,b]\). For any partition \(P = \{t_0,\ldots,t_n\}\) of \([a,b]\), choose points \(x_i, u_i \in [t_{i-1},t_i]\).&lt;/p&gt;
@@ -98,9 +98,9 @@ can be made arbitrarily close to \(\int_a^b fg\) by choosing sufficiently fine p
     </item>
     <item>
       <title>Convexity and Concavity</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/convexity-and-concavity/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/convexity-and-concavity/</link>
       <pubDate>Sun, 07 Sep 2025 06:52:52 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/convexity-and-concavity/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/convexity-and-concavity/</guid>
       <description>&lt;h1 id=&#34;convexity-and-concavity&#34;&gt;Convexity and Concavity&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Show that a function $ f $ is convex on an interval if and only if for all $ x, y $ in the interval and $ 0 &amp;lt; t &amp;lt; 1 $, we have:
@@ -110,9 +110,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Differentiation</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/differentiation/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/differentiation/</link>
       <pubDate>Sun, 07 Sep 2025 06:50:32 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/differentiation/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/differentiation/</guid>
       <description>&lt;h1 id=&#34;differentiation&#34;&gt;Differentiation&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find $f^{\prime}(x)$ for each $f$:&lt;/p&gt;
@@ -153,9 +153,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Continuous Functions</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/continuous-functions/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/continuous-functions/</link>
       <pubDate>Sun, 07 Sep 2025 06:48:04 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/continuous-functions/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/continuous-functions/</guid>
       <description>&lt;h1 id=&#34;continuous-functions&#34;&gt;Continuous Functions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;For which functions $ f $ does there exist a continuous function $ F: \mathbb{R} \to \mathbb{R} $ such that $ F(x) = f(x) $ for all $ x $ in the domain of $ f $?&lt;/p&gt;
@@ -174,9 +174,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Functions</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/functions/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/functions/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/functions/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/functions/</guid>
       <description>&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $f(x) = \frac{1}{1 + x}$. Find:&lt;/p&gt;
@@ -208,9 +208,9 @@ $$ f(tx + (1 - t)y) \leq tf(x) + (1 - t)f(y). $$&lt;h2 id=&#34;exercise-2&#34;&g
     </item>
     <item>
       <title>Integrals</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/integrals/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/integrals/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/integrals/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/integrals/</guid>
       <description>&lt;h1 id=&#34;integrals&#34;&gt;Integrals&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--proofs&#34;&gt;Exercise 1 : Proofs&lt;/h2&gt;
 &lt;ol&gt;
@@ -235,9 +235,9 @@ and find $L(f,P)$.&lt;/li&gt;
     </item>
     <item>
       <title>Limits and Continuity</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/limits-and-continuity/</link>
+      <link>http://localhost:53389/posts/mathe/calculus/en/limits-and-continuity/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/limits-and-continuity/</guid>
+      <guid>http://localhost:53389/posts/mathe/calculus/en/limits-and-continuity/</guid>
       <description>&lt;h1 id=&#34;limits-and-continuity&#34;&gt;Limits and Continuity&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find the following limits:&lt;/p&gt;
