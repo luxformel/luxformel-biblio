@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Luxformel Bibliothéik</title>
-    <link>http://localhost:53389/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 09 Nov 2025 17:55:30 +0100</lastBuildDate>
-    <atom:link href="http://localhost:53389/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Dec 2025 15:08:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathé</title>
-      <link>http://localhost:53389/categories/math%C3%A9/</link>
-      <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
-      <guid>http://localhost:53389/categories/math%C3%A9/</guid>
+      <link>http://localhost:1313/categories/math%C3%A9/</link>
+      <pubDate>Thu, 18 Dec 2025 15:08:39 +0100</pubDate>
+      <guid>http://localhost:1313/categories/math%C3%A9/</guid>
       <description></description>
     </item>
     <item>
       <title>Luxformel</title>
-      <link>http://localhost:53389/categories/luxformel/</link>
+      <link>http://localhost:1313/categories/luxformel/</link>
       <pubDate>Sun, 28 Sep 2025 16:06:45 +0200</pubDate>
-      <guid>http://localhost:53389/categories/luxformel/</guid>
+      <guid>http://localhost:1313/categories/luxformel/</guid>
       <description></description>
     </item>
     <item>
       <title>Physik</title>
-      <link>http://localhost:53389/categories/physik/</link>
+      <link>http://localhost:1313/categories/physik/</link>
       <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
-      <guid>http://localhost:53389/categories/physik/</guid>
+      <guid>http://localhost:1313/categories/physik/</guid>
       <description></description>
     </item>
   </channel>

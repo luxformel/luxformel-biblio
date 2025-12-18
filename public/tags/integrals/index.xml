@@ -2,22 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Integrals on Luxformel Bibliothéik</title>
-    <link>http://localhost:53389/tags/integrals/</link>
+    <link>http://localhost:1313/tags/integrals/</link>
     <description>Recent content in Integrals on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:53389/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 07 Sep 2025 06:44:19 +0200</lastBuildDate>
-    <atom:link href="http://localhost:53389/tags/integrals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Dec 2025 15:08:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/integrals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integral Calculus</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</link>
+      <pubDate>Thu, 18 Dec 2025 15:08:39 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</guid>
+      <description>&lt;h1 id=&#34;integral-calculus&#34;&gt;Integral Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--basic-line-integral&#34;&gt;Exercise 1 : Basic Line Integral&lt;/h2&gt;
+&lt;p&gt;For $\mathbf{v} = x^2,\hat{\mathbf{x}} + 2yz,\hat{\mathbf{y}} + y^2,\hat{\mathbf{z}}$, compute $\int_C \mathbf{v} \cdot d\mathbf{l}$ from $(0,0,0)$ to $(1,1,1)$ along:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$(0,0,0) \to (1,0,0) \to (1,1,0) \to (1,1,1)$&lt;/li&gt;
+&lt;li&gt;$(0,0,0) \to (0,0,1) \to (0,1,1) \to (1,1,1)$&lt;/li&gt;
+&lt;li&gt;The straight line $x = y = z$&lt;/li&gt;
+&lt;li&gt;Evaluate $\oint \mathbf{v} \cdot d\mathbf{l}$ around the closed loop: out via 1., back via 2..&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--gradient-field-verification&#34;&gt;Exercise 2 : Gradient Field Verification&lt;/h2&gt;
+&lt;p&gt;Given $\phi = e^{xyz}$, compute $\nabla \phi$ and verify the gradient theorem:
+$\int_{\mathbf{a}}^{\mathbf{b}} \nabla \phi \cdot d\mathbf{l} = \phi(\mathbf{b}) - \phi(\mathbf{a})$
+for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Integrals</title>
-      <link>http://localhost:53389/posts/mathe/calculus/en/integrals/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/en/integrals/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>http://localhost:53389/posts/mathe/calculus/en/integrals/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/integrals/</guid>
       <description>&lt;h1 id=&#34;integrals&#34;&gt;Integrals&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--proofs&#34;&gt;Exercise 1 : Proofs&lt;/h2&gt;
 &lt;ol&gt;

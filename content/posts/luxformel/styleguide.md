@@ -158,4 +158,4 @@ Den Énoncé an der Bibliothéik huet wann et eng Léisung gëtt ëmmer ee Link 
 
 ## Change Log {#change-log}
 
-1. Versioun 1.0 Release den 11.2025.
+1. Versioun 1.0 Release den 9.11.2025.

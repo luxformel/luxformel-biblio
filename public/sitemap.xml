@@ -2,287 +2,308 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53389/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/integrals/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/math%C3%A9/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vector-calculus/</loc>
+    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dirac/</loc>
+    <lastmod>2025-12-18T14:58:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-function/</loc>
+    <lastmod>2025-12-18T14:58:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/functions/</loc>
+    <lastmod>2025-12-18T14:58:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathe/vector-calculus/en/differential-calculus/</loc>
+    <lastmod>2025-12-18T14:35:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/coordinates/</loc>
+    <lastmod>2025-12-18T14:00:11+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathe/vector-calculus/en/curvilinear-coordinates/</loc>
+    <lastmod>2025-12-18T14:00:11+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/l%C3%A9isungen/</loc>
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/l%C3%A9isungen/</loc>
+    <loc>http://localhost:1313/tags/linear-algebra/</loc>
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/linear-algebra/</loc>
+    <loc>http://localhost:1313/tags/matrices/</loc>
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/categories/math%C3%A9/</loc>
+    <loc>http://localhost:1313/tags/vectors/</loc>
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/matrices/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</loc>
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/</loc>
-    <lastmod>2025-11-09T17:55:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53389/tags/python/</loc>
-    <lastmod>2025-11-09T17:55:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53389/tags/</loc>
-    <lastmod>2025-11-09T17:55:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53389/tags/vectors/</loc>
-    <lastmod>2025-11-09T17:55:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</loc>
-    <lastmod>2025-11-09T17:55:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</loc>
     <lastmod>2025-11-09T17:52:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/vectors-and-matrices/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</loc>
     <lastmod>2025-11-06T20:08:06+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-10-30T20:25:02+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2025-10-30T20:25:02+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/machine-learning/en/mathematics-of-machine-learning/</loc>
+    <loc>http://localhost:1313/posts/mathe/machine-learning/en/mathematics-of-machine-learning/</loc>
     <lastmod>2025-10-30T20:25:02+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/designer-notes/</loc>
+    <loc>http://localhost:1313/tags/designer-notes/</loc>
     <lastmod>2025-09-28T16:06:45+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/categories/luxformel/</loc>
+    <loc>http://localhost:1313/categories/luxformel/</loc>
     <lastmod>2025-09-28T16:06:45+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/luxformel/styleguide/</loc>
+    <loc>http://localhost:1313/posts/luxformel/styleguide/</loc>
     <lastmod>2025-09-28T16:06:45+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/algrebra/</loc>
+    <loc>http://localhost:1313/tags/algrebra/</loc>
     <lastmod>2025-09-28T15:56:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/algebra/en/polynomial-division-theorem/</loc>
+    <loc>http://localhost:1313/posts/mathe/algebra/en/polynomial-division-theorem/</loc>
     <lastmod>2025-09-28T15:56:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/polynomials/</loc>
+    <loc>http://localhost:1313/tags/polynomials/</loc>
     <lastmod>2025-09-28T15:56:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/linear-maps/</loc>
+    <loc>http://localhost:1313/tags/linear-maps/</loc>
     <lastmod>2025-09-09T08:35:31+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</loc>
     <lastmod>2025-09-09T08:35:31+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</loc>
     <lastmod>2025-09-09T08:25:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/vector-spaces/</loc>
+    <loc>http://localhost:1313/tags/vector-spaces/</loc>
     <lastmod>2025-09-09T08:25:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/dimension/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/dimension/</loc>
     <lastmod>2025-09-09T08:09:28+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/bases/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/bases/</loc>
     <lastmod>2025-09-09T08:00:40+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/subspaces/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/subspaces/</loc>
     <lastmod>2025-09-09T07:37:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/subspaces/</loc>
+    <loc>http://localhost:1313/tags/subspaces/</loc>
     <lastmod>2025-09-09T07:37:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/linear-independence/</loc>
+    <loc>http://localhost:1313/tags/linear-independence/</loc>
     <lastmod>2025-09-08T04:12:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/span/</loc>
+    <loc>http://localhost:1313/tags/span/</loc>
     <lastmod>2025-09-08T04:12:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/span-and-linear-independence/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/span-and-linear-independence/</loc>
     <lastmod>2025-09-08T04:12:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/analysis/</loc>
+    <loc>http://localhost:1313/tags/analysis/</loc>
     <lastmod>2025-09-07T08:45:14+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/analysis/en/preliminary-analysis/</loc>
+    <loc>http://localhost:1313/posts/mathe/analysis/en/preliminary-analysis/</loc>
     <lastmod>2025-09-07T08:45:14+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/analysis/en/axiom-of-completeness/</loc>
+    <loc>http://localhost:1313/posts/mathe/analysis/en/axiom-of-completeness/</loc>
     <lastmod>2025-09-07T08:43:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/categories/physik/</loc>
+    <loc>http://localhost:1313/categories/physik/</loc>
     <lastmod>2025-09-07T08:38:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/quantum-mechanics/</loc>
+    <loc>http://localhost:1313/tags/quantum-mechanics/</loc>
     <lastmod>2025-09-07T08:38:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/physik/quantum-mechanics/de/wave-function/</loc>
+    <loc>http://localhost:1313/posts/physik/quantum-mechanics/de/wave-function/</loc>
     <lastmod>2025-09-07T08:38:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/wave-function/</loc>
+    <loc>http://localhost:1313/tags/wave-function/</loc>
     <lastmod>2025-09-07T08:38:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/waves/</loc>
+    <loc>http://localhost:1313/tags/waves/</loc>
     <lastmod>2025-09-07T08:38:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/eigenvalues/</loc>
+    <loc>http://localhost:1313/tags/eigenvalues/</loc>
     <lastmod>2025-09-07T08:35:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</loc>
     <lastmod>2025-09-07T08:35:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/eigenvectors/</loc>
+    <loc>http://localhost:1313/tags/eigenvectors/</loc>
     <lastmod>2025-09-07T08:35:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/lagrange/</loc>
+    <loc>http://localhost:1313/tags/lagrange/</loc>
     <lastmod>2025-09-07T07:38:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</loc>
+    <loc>http://localhost:1313/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</loc>
     <lastmod>2025-09-07T07:38:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/mechanik/</loc>
+    <loc>http://localhost:1313/tags/mechanik/</loc>
     <lastmod>2025-09-07T07:38:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/theoretische-physik/</loc>
+    <loc>http://localhost:1313/tags/theoretische-physik/</loc>
     <lastmod>2025-09-07T07:38:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/inner-products-spaces/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products-spaces/</loc>
     <lastmod>2025-09-07T07:28:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/inner-products/</loc>
+    <loc>http://localhost:1313/tags/inner-products/</loc>
     <lastmod>2025-09-07T07:28:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/inner-products/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products/</loc>
     <lastmod>2025-09-07T07:26:03+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/analyse/</loc>
+    <loc>http://localhost:1313/tags/analyse/</loc>
     <lastmod>2025-09-07T07:21:58+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/fonctions/</loc>
+    <loc>http://localhost:1313/tags/fonctions/</loc>
     <lastmod>2025-09-07T07:21:58+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</loc>
     <lastmod>2025-09-07T07:21:58+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/s%C3%A9ries/</loc>
+    <loc>http://localhost:1313/tags/s%C3%A9ries/</loc>
     <lastmod>2025-09-07T07:20:47+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/fr/series-numeriques/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/fr/series-numeriques/</loc>
     <lastmod>2025-09-07T07:20:47+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/convergence/</loc>
+    <loc>http://localhost:1313/tags/convergence/</loc>
     <lastmod>2025-09-07T07:18:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</loc>
     <lastmod>2025-09-07T07:18:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/int%C3%A9rgales/</loc>
+    <loc>http://localhost:1313/tags/int%C3%A9rgales/</loc>
     <lastmod>2025-09-07T07:18:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/fr/equations-differentielles/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/fr/equations-differentielles/</loc>
     <lastmod>2025-09-07T07:12:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/%C3%A9quations-diff%C3%A9rentielles/</loc>
+    <loc>http://localhost:1313/tags/%C3%A9quations-diff%C3%A9rentielles/</loc>
     <lastmod>2025-09-07T07:12:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/fr/primitives/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/fr/primitives/</loc>
     <lastmod>2025-09-07T07:11:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/primitives/</loc>
+    <loc>http://localhost:1313/tags/primitives/</loc>
     <lastmod>2025-09-07T07:11:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</loc>
     <lastmod>2025-09-07T07:10:03+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/riemann/</loc>
+    <loc>http://localhost:1313/tags/riemann/</loc>
     <lastmod>2025-09-07T07:10:03+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</loc>
     <lastmod>2025-09-07T07:08:24+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/taylor/</loc>
+    <loc>http://localhost:1313/tags/taylor/</loc>
     <lastmod>2025-09-07T07:08:24+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/definition-of-vector-space/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/definition-of-vector-space/</loc>
     <lastmod>2025-09-07T07:07:06+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/calculus/</loc>
+    <loc>http://localhost:1313/tags/calculus/</loc>
     <lastmod>2025-09-07T07:04:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/derivatives/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/derivatives/</loc>
     <lastmod>2025-09-07T07:04:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/derivatives/</loc>
+    <loc>http://localhost:1313/tags/derivatives/</loc>
     <lastmod>2025-09-07T07:04:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/fundamental-theorem-of-calculus/</loc>
     <lastmod>2025-09-07T07:02:44+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/functions/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/inverse-functions/</loc>
     <lastmod>2025-09-07T07:01:15+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/inverse-functions/</loc>
-    <lastmod>2025-09-07T07:01:15+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53389/tags/complex-numbers/</loc>
+    <loc>http://localhost:1313/tags/complex-numbers/</loc>
     <lastmod>2025-09-07T06:57:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</loc>
+    <loc>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</loc>
     <lastmod>2025-09-07T06:57:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/riemann-sums/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/riemann-sums/</loc>
     <lastmod>2025-09-07T06:56:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/riemann-sums/</loc>
+    <loc>http://localhost:1313/tags/riemann-sums/</loc>
     <lastmod>2025-09-07T06:56:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/algebra/</loc>
+    <loc>http://localhost:1313/tags/algebra/</loc>
     <lastmod>2025-09-07T06:54:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/algebra/en/binomial-theorem/</loc>
+    <loc>http://localhost:1313/posts/mathe/algebra/en/binomial-theorem/</loc>
     <lastmod>2025-09-07T06:54:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/binomial-theorem/</loc>
+    <loc>http://localhost:1313/tags/binomial-theorem/</loc>
     <lastmod>2025-09-07T06:54:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/concavity/</loc>
+    <loc>http://localhost:1313/tags/concavity/</loc>
     <lastmod>2025-09-07T06:52:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/convexity/</loc>
+    <loc>http://localhost:1313/tags/convexity/</loc>
     <lastmod>2025-09-07T06:52:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/convexity-and-concavity/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/convexity-and-concavity/</loc>
     <lastmod>2025-09-07T06:52:52+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/differentiation/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/differentiation/</loc>
     <lastmod>2025-09-07T06:50:32+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/differentiation/</loc>
+    <loc>http://localhost:1313/tags/differentiation/</loc>
     <lastmod>2025-09-07T06:50:32+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/continuity/</loc>
+    <loc>http://localhost:1313/tags/continuity/</loc>
     <lastmod>2025-09-07T06:48:04+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/continuous-functions/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/continuous-functions/</loc>
     <lastmod>2025-09-07T06:48:04+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/functions/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/functions/</loc>
     <lastmod>2025-09-07T06:44:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/integrals/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/integrals/</loc>
     <lastmod>2025-09-07T06:44:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/integrals/</loc>
+    <loc>http://localhost:1313/tags/limits/</loc>
     <lastmod>2025-09-07T06:44:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/tags/limits/</loc>
+    <loc>http://localhost:1313/posts/mathe/calculus/en/limits-and-continuity/</loc>
     <lastmod>2025-09-07T06:44:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:53389/posts/mathe/calculus/en/limits-and-continuity/</loc>
-    <lastmod>2025-09-07T06:44:19+02:00</lastmod>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:53389/archives/</loc>
-  </url><url>
-    <loc>http://localhost:53389/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

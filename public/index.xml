@@ -11,8 +11,88 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 09 Nov 2025 17:55:30 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 15:08:39 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integral Calculus</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</link>
+      <pubDate>Thu, 18 Dec 2025 15:08:39 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</guid>
+      <description>&lt;h1 id=&#34;integral-calculus&#34;&gt;Integral Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--basic-line-integral&#34;&gt;Exercise 1 : Basic Line Integral&lt;/h2&gt;
+&lt;p&gt;For $\mathbf{v} = x^2,\hat{\mathbf{x}} + 2yz,\hat{\mathbf{y}} + y^2,\hat{\mathbf{z}}$, compute $\int_C \mathbf{v} \cdot d\mathbf{l}$ from $(0,0,0)$ to $(1,1,1)$ along:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$(0,0,0) \to (1,0,0) \to (1,1,0) \to (1,1,1)$&lt;/li&gt;
+&lt;li&gt;$(0,0,0) \to (0,0,1) \to (0,1,1) \to (1,1,1)$&lt;/li&gt;
+&lt;li&gt;The straight line $x = y = z$&lt;/li&gt;
+&lt;li&gt;Evaluate $\oint \mathbf{v} \cdot d\mathbf{l}$ around the closed loop: out via 1., back via 2..&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--gradient-field-verification&#34;&gt;Exercise 2 : Gradient Field Verification&lt;/h2&gt;
+&lt;p&gt;Given $\phi = e^{xyz}$, compute $\nabla \phi$ and verify the gradient theorem:
+$\int_{\mathbf{a}}^{\mathbf{b}} \nabla \phi \cdot d\mathbf{l} = \phi(\mathbf{b}) - \phi(\mathbf{a})$
+for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dirac Delta Function</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-function/</link>
+      <pubDate>Thu, 18 Dec 2025 14:58:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-function/</guid>
+      <description>&lt;h1 id=&#34;dirac-delta-function&#34;&gt;Dirac Delta Function&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Evaluate:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\displaystyle\int_{2}^{6} (3x^2 - 2x - 1),\delta(x - 3) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle\int_{0}^{5} \cos x ,\delta(x - \pi) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle\int_{-1}^{3} x^3 ,\delta(x + 1) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle\int_{-\infty}^{\infty} \ln(x + 3) ,\delta(x + 2) , dx$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Use $\delta(ax) = \frac{1}{|a|}\delta(x)$ to evaluate:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\displaystyle\int_{-2}^{2} (2x + 3),\delta(3x) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle\int_{0}^{2} (x^3 + 3x + 2),\delta(1 - x) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle\int_{-1}^{1} 9x^2 ,\delta(3x + 1) , dx$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Let $\delta(x - b)$ be a Dirac delta centered at $x = b$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Differential Calculus</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/differential-calculus/</link>
+      <pubDate>Thu, 18 Dec 2025 14:35:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/differential-calculus/</guid>
+      <description>&lt;h1 id=&#34;differential-calculus&#34;&gt;Differential Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Calculate the directional derivative of $f(x,y,z) = x^2y + y^2z$ in the direction of $\hat{\mathbf{n}} = (\hat{\mathbf{x}} + \hat{\mathbf{y}} + \hat{\mathbf{z}})/\sqrt{3}$ at point $(1,2,3)$.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Compute the gradient of the following scalar fields:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f(x,y,z) = x^2 + 2xy + 3z + 4$&lt;/li&gt;
+&lt;li&gt;$g(x,y,z) = \sin x \sin y \sin z$&lt;/li&gt;
+&lt;li&gt;$h(x,y,z) = e^{-5x}\sin 4y\cos 3z$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;For the vector field $\mathbf{F} = x^2\hat{\mathbf{x}} + 3xz^2\hat{\mathbf{y}} - 2xz\hat{\mathbf{z}}$:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Curvilinear Coordinates</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/curvilinear-coordinates/</link>
+      <pubDate>Thu, 18 Dec 2025 14:00:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/curvilinear-coordinates/</guid>
+      <description>&lt;h1 id=&#34;curvilinear-coordinates&#34;&gt;Curvilinear Coordinates&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Invert the transformation \( x = r\sin\theta\cos\phi,\; y = r\sin\theta\sin\phi,\; z = r\cos\theta \) to express \( (r, \theta, \phi) \) in terms of \( (x, y, z) \).&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Invert the transformation $x = r\sin\theta\cos\phi, y = r\sin\theta\sin\phi, z = r\cos\theta $ to express $(r, \theta, \phi)$ in terms of $(x, y, z)$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the point \( (x, y, z) = (2, -2, 1) \) in spherical and cylindrical coordinates.&lt;/li&gt;
+&lt;li&gt;Express \( (r, \theta, \phi) = (3, \pi/3, \pi/4) \) in Cartesian coordinates.&lt;/li&gt;
+&lt;li&gt;Express \( (s, \phi, z) = (4, 5\pi/6, -2) \) in Cartesian coordinates.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Express the spherical unit vectors
+&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vectors and Matrices in Python Solutions</title>
       <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
