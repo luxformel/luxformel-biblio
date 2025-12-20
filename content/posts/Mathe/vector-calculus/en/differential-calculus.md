@@ -31,7 +31,7 @@ math: true
 
 ## Exercise 1
 
-Calculate the directional derivative of $f(x,y,z) = x^2y + y^2z$ in the direction of $\hat{\mathbf{n}} = (\hat{\mathbf{x}} + \hat{\mathbf{y}} + \hat{\mathbf{z}})/\sqrt{3}$ at point $(1,2,3)$.
+Calculate the directional derivative of $f(x,y,z) = x^2y + y^2z$ in the direction of $\hat{\mathbf{n}} = (\hat{\mathbf{x}} + \hat{\mathbf{y}} + \hat{\mathbf{z}})\sqrt{3}$ at point $(1,2,3)$.
 
 ## Exercise 2
 
@@ -75,9 +75,9 @@ Verify $\nabla\times(g\mathbf{F}) = g(\nabla\times\mathbf{F}) - \mathbf{F}\times
 ## Exercise 8
 
 Derive and verify the quotient rules:  
-(i) $\nabla\left(\frac{f}{g}\right) = \frac{g\nabla f - f\nabla g}{g^2}$  
-(ii) $\nabla\cdot\left(\frac{\mathbf{A}}{g}\right) = \frac{g\nabla\cdot\mathbf{A} - \mathbf{A}\cdot\nabla g}{g^2}$  
-(iii) $\nabla\times\left(\frac{\mathbf{A}}{g}\right) = \frac{g(\nabla\times\mathbf{A}) + \mathbf{A}\times\nabla g}{g^2}$  
+1. $\nabla\left(\frac{f}{g}\right) = \frac{g\nabla f - f\nabla g}{g^2}$  
+2. $\nabla\cdot\left(\frac{\mathbf{A}}{g}\right) = \frac{g\nabla\cdot\mathbf{A} - \mathbf{A}\cdot\nabla g}{g^2}$  
+3. $\nabla\times\left(\frac{\mathbf{A}}{g}\right) = \frac{g(\nabla\times\mathbf{A}) + \mathbf{A}\times\nabla g}{g^2}$  
 Use $f(x,y,z) = x^2 + y^2$, $\mathbf{A} = x\hat{\mathbf{x}} + y\hat{\mathbf{y}} + z\hat{\mathbf{z}}$, and $g(x,y,z) = x^2 + y^2 + z^2$ for verification.
 
 ## Exercise 9

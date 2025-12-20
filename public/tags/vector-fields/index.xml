@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vector Fields on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/vector-fields/</link>
+    <description>Recent content in Vector Fields on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Fri, 19 Dec 2025 23:06:37 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vector-fields/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theory of Vector Fields</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/</link>
+      <pubDate>Fri, 19 Dec 2025 23:06:37 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/</guid>
+      <description>&lt;h1 id=&#34;theory-of-vector-fields&#34;&gt;Theory of Vector Fields&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--basic-operations-on-vector-fields&#34;&gt;Exercise 1 : Basic Operations on Vector Fields&lt;/h2&gt;
+&lt;p&gt;Given the vector fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\mathbf{F}_1 = x^2 \hat{\mathbf{z}}$&lt;/li&gt;
+&lt;li&gt;$\mathbf{F}_2 = x \hat{\mathbf{x}} + y \hat{\mathbf{y}} + z \hat{\mathbf{z}}$&lt;/li&gt;
+&lt;li&gt;$\mathbf{F}_3 = yz\hat{x} + zx\hat{y} + xy\hat{z}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Calculate $\nabla \cdot \mathbf{F}_i$ and $\nabla \times \mathbf{F}_i$ for $i=1,2,3$.&lt;/li&gt;
+&lt;li&gt;Which fields are conservative? Find scalar potentials where possible.&lt;/li&gt;
+&lt;li&gt;Which fields are solenoidal? Find vector potentials where possible.&lt;/li&gt;
+&lt;li&gt;Show that $\mathbf{F}_3$ can be expressed both as a gradient and a curl.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--helmholtz-theorem-implications&#34;&gt;Exercise 2 : Helmholtz Theorem Implications&lt;/h2&gt;
+&lt;p&gt;For a vector field $\mathbf{F}$ in 3D, prove the following implications:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

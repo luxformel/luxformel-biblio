@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Theory of Vector Fields | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Vector Calculus, Vector Fields">
+<meta name="description" content="Theory of Vector Fields
+Exercise 1 : Basic Operations on Vector Fields
+Given the vector fields:
+
+$\mathbf{F}_1 = x^2 \hat{\mathbf{z}}$
+$\mathbf{F}_2 = x \hat{\mathbf{x}} &#43; y \hat{\mathbf{y}} &#43; z \hat{\mathbf{z}}$
+$\mathbf{F}_3 = yz\hat{x} &#43; zx\hat{y} &#43; xy\hat{z}$
+
+
+Calculate $\nabla \cdot \mathbf{F}_i$ and $\nabla \times \mathbf{F}_i$ for $i=1,2,3$.
+Which fields are conservative? Find scalar potentials where possible.
+Which fields are solenoidal? Find vector potentials where possible.
+Show that $\mathbf{F}_3$ can be expressed both as a gradient and a curl.
+
+Exercise 2 : Helmholtz Theorem Implications
+For a vector field $\mathbf{F}$ in 3D, prove the following implications:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Theory of Vector Fields">
+  <meta property="og:description" content="Theory of Vector Fields Exercise 1 : Basic Operations on Vector Fields Given the vector fields:
+$\mathbf{F}_1 = x^2 \hat{\mathbf{z}}$ $\mathbf{F}_2 = x \hat{\mathbf{x}} &#43; y \hat{\mathbf{y}} &#43; z \hat{\mathbf{z}}$ $\mathbf{F}_3 = yz\hat{x} &#43; zx\hat{y} &#43; xy\hat{z}$ Calculate $\nabla \cdot \mathbf{F}_i$ and $\nabla \times \mathbf{F}_i$ for $i=1,2,3$. Which fields are conservative? Find scalar potentials where possible. Which fields are solenoidal? Find vector potentials where possible. Show that $\mathbf{F}_3$ can be expressed both as a gradient and a curl. Exercise 2 : Helmholtz Theorem Implications For a vector field $\mathbf{F}$ in 3D, prove the following implications:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-19T23:06:37+01:00">
+    <meta property="article:modified_time" content="2025-12-19T23:06:37+01:00">
+    <meta property="article:tag" content="Vector Calculus">
+    <meta property="article:tag" content="Vector Fields">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Theory of Vector Fields">
+<meta name="twitter:description" content="Theory of Vector Fields
+Exercise 1 : Basic Operations on Vector Fields
+Given the vector fields:
+
+$\mathbf{F}_1 = x^2 \hat{\mathbf{z}}$
+$\mathbf{F}_2 = x \hat{\mathbf{x}} &#43; y \hat{\mathbf{y}} &#43; z \hat{\mathbf{z}}$
+$\mathbf{F}_3 = yz\hat{x} &#43; zx\hat{y} &#43; xy\hat{z}$
+
+
+Calculate $\nabla \cdot \mathbf{F}_i$ and $\nabla \times \mathbf{F}_i$ for $i=1,2,3$.
+Which fields are conservative? Find scalar potentials where possible.
+Which fields are solenoidal? Find vector potentials where possible.
+Show that $\mathbf{F}_3$ can be expressed both as a gradient and a curl.
+
+Exercise 2 : Helmholtz Theorem Implications
+For a vector field $\mathbf{F}$ in 3D, prove the following implications:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Theory of Vector Fields",
+      "item": "http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Theory of Vector Fields",
+  "name": "Theory of Vector Fields",
+  "description": "Theory of Vector Fields Exercise 1 : Basic Operations on Vector Fields Given the vector fields:\n$\\mathbf{F}_1 = x^2 \\hat{\\mathbf{z}}$ $\\mathbf{F}_2 = x \\hat{\\mathbf{x}} + y \\hat{\\mathbf{y}} + z \\hat{\\mathbf{z}}$ $\\mathbf{F}_3 = yz\\hat{x} + zx\\hat{y} + xy\\hat{z}$ Calculate $\\nabla \\cdot \\mathbf{F}_i$ and $\\nabla \\times \\mathbf{F}_i$ for $i=1,2,3$. Which fields are conservative? Find scalar potentials where possible. Which fields are solenoidal? Find vector potentials where possible. Show that $\\mathbf{F}_3$ can be expressed both as a gradient and a curl. Exercise 2 : Helmholtz Theorem Implications For a vector field $\\mathbf{F}$ in 3D, prove the following implications:\n",
+  "keywords": [
+    "Vector Calculus", "Vector Fields"
+  ],
+  "articleBody": "Theory of Vector Fields Exercise 1 : Basic Operations on Vector Fields Given the vector fields:\n$\\mathbf{F}_1 = x^2 \\hat{\\mathbf{z}}$ $\\mathbf{F}_2 = x \\hat{\\mathbf{x}} + y \\hat{\\mathbf{y}} + z \\hat{\\mathbf{z}}$ $\\mathbf{F}_3 = yz\\hat{x} + zx\\hat{y} + xy\\hat{z}$ Calculate $\\nabla \\cdot \\mathbf{F}_i$ and $\\nabla \\times \\mathbf{F}_i$ for $i=1,2,3$. Which fields are conservative? Find scalar potentials where possible. Which fields are solenoidal? Find vector potentials where possible. Show that $\\mathbf{F}_3$ can be expressed both as a gradient and a curl. Exercise 2 : Helmholtz Theorem Implications For a vector field $\\mathbf{F}$ in 3D, prove the following implications:\n$\\mathbf{F} = -\\nabla V$ ⇒ $\\nabla \\times \\mathbf{F} = \\mathbf{0}$ $\\nabla \\times \\mathbf{F} = \\mathbf{0}$ ⇒ $\\oint \\mathbf{F} \\cdot d\\mathbf{l} = 0$ $\\oint \\mathbf{F} \\cdot d\\mathbf{l} = 0$ ⇒ $\\mathbf{F} = -\\nabla V$ Exercise 3 : Divergence Theorem Applications Check the divergence theorem for:\n$\\mathbf{v}_1 = r^2 \\cos \\theta , \\hat{\\mathbf{r}} + r^2 \\cos \\phi , \\hat{\\boldsymbol{\\theta}} - r^2 \\cos \\theta \\sin \\phi , \\hat{\\boldsymbol{\\phi}}$ Use one octant of a sphere of radius $R$. [Answer: $\\pi R^4/4$]\n$\\mathbf{v}_2 = r^2 \\sin \\theta , \\hat{\\mathbf{r}} + 4r^2 \\cos \\theta , \\hat{\\boldsymbol{\\theta}} + r^2 \\tan \\theta , \\hat{\\boldsymbol{\\phi}}$ Use an “ice-cream cone” volume (spherical cap with cone). [Answer: $\\frac{\\pi R^4}{12}(2\\pi + 3\\sqrt{3})$]\nExercise 4 : Stokes’ Theorem Applications Verify Stokes’ theorem for:\n$\\mathbf{v}_1 = a y , \\hat{\\mathbf{x}} + b x , \\hat{\\mathbf{y}}$ over a circular path of radius $R$ in the $xy$-plane. [Answer: $\\pi R^2(b-a)$] $\\mathbf{v}_2 = y \\hat{\\mathbf{z}}$ over a triangular surface. [Answer: $a^2$] Exercise 5 : Line Integrals and Stokes’ Theorem Compute the line integral of:\n$\\mathbf{v} = 6\\hat{\\mathbf{x}} + yz^2\\hat{\\mathbf{y}} + (3y+z)\\hat{\\mathbf{z}}$ along a triangular path. Verify with Stokes’ theorem. [Answer: $8/3$] $\\mathbf{v} = (r\\cos^2\\theta)\\hat{\\mathbf{r}} - (r\\cos\\theta\\sin\\theta)\\hat{\\boldsymbol{\\theta}} + 3r\\hat{\\boldsymbol{\\phi}}$ around a specified path. [Answer: $3\\pi/2$] Exercise 6 : Fundamental Theorem Relationships Combine the gradient theorem corollary with Stokes’ theorem. Show consistency with properties of second derivatives. Combine the Stokes’ theorem corollary with the divergence theorem. Show consistency. Prove: $\\nabla \\times (\\nabla T) = \\mathbf{0}$ using integral theorems. Prove: $\\nabla \\cdot (\\nabla \\times \\mathbf{v}) = 0$ using integral theorems. Exercise 7 : Vector Calculus Identities Prove these corollaries of the fundamental theorems:\n$\\int_V (\\nabla T) , d\\tau = \\oint_S T , d\\mathbf{a}$ $\\int_V (\\nabla \\times \\mathbf{v}) , d\\tau = -\\oint_S \\mathbf{v} \\times d\\mathbf{a}$ $\\int_V [T\\nabla^2 U + (\\nabla T)\\cdot(\\nabla U)] , d\\tau = \\oint_S (T\\nabla U)\\cdot d\\mathbf{a}$ $\\oint_S \\nabla T \\times d\\mathbf{a} = -\\oint_P T , d\\mathbf{l}$ Exercise 8 : Vector Area Concept For $\\mathbf{a} \\equiv \\int_S d\\mathbf{a}$:\nFind $\\mathbf{a}$ for a hemispherical bowl of radius $R$. Prove $\\mathbf{a} = \\mathbf{0}$ for any closed surface. Show $\\mathbf{a}$ is invariant for surfaces with the same boundary. Prove $\\mathbf{a} = \\frac{1}{2}\\oint \\mathbf{r} \\times d\\mathbf{l}$. Show $\\oint (\\mathbf{c}\\cdot\\mathbf{r}) , d\\mathbf{l} = \\mathbf{a} \\times \\mathbf{c}$ for constant $\\mathbf{c}$. Exercise 9 : Delta Function Representations Compute $\\nabla \\cdot (\\hat{\\mathbf{r}}/r)$ directly and via divergence theorem. Is there a delta function at the origin? Find the general formula for $\\nabla \\cdot (r^n \\hat{\\mathbf{r}})$. [Answer: $(n+2)r^{n-1}$ except $n=-2$ gives $4\\pi\\delta^3(\\mathbf{r})$] Compute $\\nabla \\times (r^n \\hat{\\mathbf{r}})$. [Answer: $\\mathbf{0}$] Exercise 10 : Regularized Laplacian Consider $D(r,\\epsilon) \\equiv -\\frac{1}{4\\pi}\\nabla^2\\left(\\frac{1}{\\sqrt{r^2+\\epsilon^2}}\\right)$:\nShow $D(r,\\epsilon) = \\frac{3\\epsilon^2}{4\\pi}(r^2+\\epsilon^2)^{-5/2}$ Verify $D(0,\\epsilon) \\to \\infty$ as $\\epsilon \\to 0$ Verify $D(r,\\epsilon) \\to 0$ as $\\epsilon \\to 0$ for $r \\neq 0$ Show $\\int_{\\text{all space}} D(r,\\epsilon) , d\\tau = 1$ Conclude $\\nabla^2(1/r) = -4\\pi\\delta^3(\\mathbf{r})$ Exercise 11 : Conservative Field and Line Integral For $\\mathbf{F} = (2xy+z^3)\\hat{\\mathbf{x}} + x^2\\hat{\\mathbf{y}} + 3xz^2\\hat{\\mathbf{z}}$:\nIs $\\mathbf{F}$ conservative? If so, find its potential. Compute $\\nabla \\times \\mathbf{F}$. Evaluate $\\int_C \\mathbf{F}\\cdot d\\mathbf{l}$ from $(0,0,0)$ to $(1,1,1)$ along $x=t, y=t^2, z=t^3$. Exercise 12 : Divergence \u0026 Stokes — Simple Examples Verify both divergence and Stokes’ theorems for $\\mathbf{v} = x\\hat{\\mathbf{x}} + y\\hat{\\mathbf{y}} + z\\hat{\\mathbf{z}}$ over:\nA cube of side length $a$ A sphere of radius $R$ Exercise 13 : Vector Potentials for Common Fields Find vector potentials for:\n$\\mathbf{B} = \\frac{\\mu_0 I}{2\\pi}\\frac{1}{r}\\hat{\\boldsymbol{\\phi}}$ (magnetic field of a wire) $\\mathbf{B} = B_0\\hat{\\mathbf{z}}$ (uniform field) Exercise 14 : Uniqueness from Vanishing Divergence \u0026 Curl Show that if $\\nabla\\cdot\\mathbf{F} = 0$ and $\\nabla\\times\\mathbf{F} = \\mathbf{0}$ everywhere, and $\\mathbf{F} \\to 0$ at infinity, then $\\mathbf{F} \\equiv \\mathbf{0}$.\nExercise 15 : Coordinate-Free Vector Identities Prove without using coordinates:\n$\\nabla \\cdot (\\mathbf{A} \\times \\mathbf{B}) = \\mathbf{B}\\cdot(\\nabla\\times\\mathbf{A}) - \\mathbf{A}\\cdot(\\nabla\\times\\mathbf{B})$ $\\nabla \\times (\\mathbf{A} \\times \\mathbf{B}) = \\mathbf{A}(\\nabla\\cdot\\mathbf{B}) - \\mathbf{B}(\\nabla\\cdot\\mathbf{A}) + (\\mathbf{B}\\cdot\\nabla)\\mathbf{A} - (\\mathbf{A}\\cdot\\nabla)\\mathbf{B}$ $\\nabla(\\mathbf{A}\\cdot\\mathbf{B}) = \\mathbf{A}\\times(\\nabla\\times\\mathbf{B}) + \\mathbf{B}\\times(\\nabla\\times\\mathbf{A}) + (\\mathbf{A}\\cdot\\nabla)\\mathbf{B} + (\\mathbf{B}\\cdot\\nabla)\\mathbf{A}$ ",
+  "wordCount" : "722",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2025-12-19T23:06:37+01:00",
+  "dateModified": "2025-12-19T23:06:37+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Theory of Vector Fields
+    </h1>
+    <div class="post-meta"><span title='2025-12-19 23:06:37 +0100 CET'>Dezember 19, 2025</span>&nbsp;·&nbsp;<span>722 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--basic-operations-on-vector-fields">Exercise 1 : Basic Operations on Vector Fields</a></li>
+    <li><a href="#exercise-2--helmholtz-theorem-implications">Exercise 2 : Helmholtz Theorem Implications</a></li>
+    <li><a href="#exercise-3--divergence-theorem-applications">Exercise 3 : Divergence Theorem Applications</a></li>
+    <li><a href="#exercise-4--stokes-theorem-applications">Exercise 4 : Stokes&rsquo; Theorem Applications</a></li>
+    <li><a href="#exercise-5--line-integrals-and-stokes-theorem">Exercise 5 : Line Integrals and Stokes&rsquo; Theorem</a></li>
+    <li><a href="#exercise-6--fundamental-theorem-relationships">Exercise 6 : Fundamental Theorem Relationships</a></li>
+    <li><a href="#exercise-7--vector-calculus-identities">Exercise 7 : Vector Calculus Identities</a></li>
+    <li><a href="#exercise-8--vector-area-concept">Exercise 8 : Vector Area Concept</a></li>
+    <li><a href="#exercise-9--delta-function-representations">Exercise 9 : Delta Function Representations</a></li>
+    <li><a href="#exercise-10--regularized-laplacian">Exercise 10 : Regularized Laplacian</a></li>
+    <li><a href="#exercise-11--conservative-field-and-line-integral">Exercise 11 : Conservative Field and Line Integral</a></li>
+    <li><a href="#exercise-12--divergence--stokes--simple-examples">Exercise 12 : Divergence &amp; Stokes — Simple Examples</a></li>
+    <li><a href="#exercise-13--vector-potentials-for-common-fields">Exercise 13 : Vector Potentials for Common Fields</a></li>
+    <li><a href="#exercise-14--uniqueness-from-vanishing-divergence--curl">Exercise 14 : Uniqueness from Vanishing Divergence &amp; Curl</a></li>
+    <li><a href="#exercise-15--coordinate-free-vector-identities">Exercise 15 : Coordinate-Free Vector Identities</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="theory-of-vector-fields">Theory of Vector Fields<a hidden class="anchor" aria-hidden="true" href="#theory-of-vector-fields">#</a></h1>
+<h2 id="exercise-1--basic-operations-on-vector-fields">Exercise 1 : Basic Operations on Vector Fields<a hidden class="anchor" aria-hidden="true" href="#exercise-1--basic-operations-on-vector-fields">#</a></h2>
+<p>Given the vector fields:</p>
+<ul>
+<li>$\mathbf{F}_1 = x^2 \hat{\mathbf{z}}$</li>
+<li>$\mathbf{F}_2 = x \hat{\mathbf{x}} + y \hat{\mathbf{y}} + z \hat{\mathbf{z}}$</li>
+<li>$\mathbf{F}_3 = yz\hat{x} + zx\hat{y} + xy\hat{z}$</li>
+</ul>
+<ol>
+<li>Calculate $\nabla \cdot \mathbf{F}_i$ and $\nabla \times \mathbf{F}_i$ for $i=1,2,3$.</li>
+<li>Which fields are conservative? Find scalar potentials where possible.</li>
+<li>Which fields are solenoidal? Find vector potentials where possible.</li>
+<li>Show that $\mathbf{F}_3$ can be expressed both as a gradient and a curl.</li>
+</ol>
+<h2 id="exercise-2--helmholtz-theorem-implications">Exercise 2 : Helmholtz Theorem Implications<a hidden class="anchor" aria-hidden="true" href="#exercise-2--helmholtz-theorem-implications">#</a></h2>
+<p>For a vector field $\mathbf{F}$ in 3D, prove the following implications:</p>
+<ol>
+<li>$\mathbf{F} = -\nabla V$ ⇒ $\nabla \times \mathbf{F} = \mathbf{0}$</li>
+<li>$\nabla \times \mathbf{F} = \mathbf{0}$ ⇒ $\oint \mathbf{F} \cdot d\mathbf{l} = 0$</li>
+<li>$\oint \mathbf{F} \cdot d\mathbf{l} = 0$ ⇒ $\mathbf{F} = -\nabla V$</li>
+</ol>
+<h2 id="exercise-3--divergence-theorem-applications">Exercise 3 : Divergence Theorem Applications<a hidden class="anchor" aria-hidden="true" href="#exercise-3--divergence-theorem-applications">#</a></h2>
+<p>Check the divergence theorem for:</p>
+<ol>
+<li>
+<p>$\mathbf{v}_1 = r^2 \cos \theta , \hat{\mathbf{r}} + r^2 \cos \phi , \hat{\boldsymbol{\theta}} - r^2 \cos \theta \sin \phi , \hat{\boldsymbol{\phi}}$
+Use one octant of a sphere of radius $R$. [Answer: $\pi R^4/4$]</p>
+</li>
+<li>
+<p>$\mathbf{v}_2 = r^2 \sin \theta , \hat{\mathbf{r}} + 4r^2 \cos \theta , \hat{\boldsymbol{\theta}} + r^2 \tan \theta , \hat{\boldsymbol{\phi}}$
+Use an &ldquo;ice-cream cone&rdquo; volume (spherical cap with cone). [Answer: $\frac{\pi R^4}{12}(2\pi + 3\sqrt{3})$]</p>
+</li>
+</ol>
+<h2 id="exercise-4--stokes-theorem-applications">Exercise 4 : Stokes&rsquo; Theorem Applications<a hidden class="anchor" aria-hidden="true" href="#exercise-4--stokes-theorem-applications">#</a></h2>
+<p>Verify Stokes&rsquo; theorem for:</p>
+<ol>
+<li>$\mathbf{v}_1 = a y , \hat{\mathbf{x}} + b x , \hat{\mathbf{y}}$ over a circular path of radius $R$ in the $xy$-plane. [Answer: $\pi R^2(b-a)$]</li>
+<li>$\mathbf{v}_2 = y \hat{\mathbf{z}}$ over a triangular surface. [Answer: $a^2$]</li>
+</ol>
+<h2 id="exercise-5--line-integrals-and-stokes-theorem">Exercise 5 : Line Integrals and Stokes&rsquo; Theorem<a hidden class="anchor" aria-hidden="true" href="#exercise-5--line-integrals-and-stokes-theorem">#</a></h2>
+<p>Compute the line integral of:</p>
+<ol>
+<li>$\mathbf{v} = 6\hat{\mathbf{x}} + yz^2\hat{\mathbf{y}} + (3y+z)\hat{\mathbf{z}}$ along a triangular path. Verify with Stokes&rsquo; theorem. [Answer: $8/3$]</li>
+<li>$\mathbf{v} = (r\cos^2\theta)\hat{\mathbf{r}} - (r\cos\theta\sin\theta)\hat{\boldsymbol{\theta}} + 3r\hat{\boldsymbol{\phi}}$ around a specified path. [Answer: $3\pi/2$]</li>
+</ol>
+<h2 id="exercise-6--fundamental-theorem-relationships">Exercise 6 : Fundamental Theorem Relationships<a hidden class="anchor" aria-hidden="true" href="#exercise-6--fundamental-theorem-relationships">#</a></h2>
+<ol>
+<li>Combine the gradient theorem corollary with Stokes&rsquo; theorem. Show consistency with properties of second derivatives.</li>
+<li>Combine the Stokes&rsquo; theorem corollary with the divergence theorem. Show consistency.</li>
+<li>Prove: $\nabla \times (\nabla T) = \mathbf{0}$ using integral theorems.</li>
+<li>Prove: $\nabla \cdot (\nabla \times \mathbf{v}) = 0$ using integral theorems.</li>
+</ol>
+<h2 id="exercise-7--vector-calculus-identities">Exercise 7 : Vector Calculus Identities<a hidden class="anchor" aria-hidden="true" href="#exercise-7--vector-calculus-identities">#</a></h2>
+<p>Prove these corollaries of the fundamental theorems:</p>
+<ol>
+<li>$\int_V (\nabla T) , d\tau = \oint_S T , d\mathbf{a}$</li>
+<li>$\int_V (\nabla \times \mathbf{v}) , d\tau = -\oint_S \mathbf{v} \times d\mathbf{a}$</li>
+<li>$\int_V [T\nabla^2 U + (\nabla T)\cdot(\nabla U)] , d\tau = \oint_S (T\nabla U)\cdot d\mathbf{a}$</li>
+<li>$\oint_S \nabla T \times d\mathbf{a} = -\oint_P T , d\mathbf{l}$</li>
+</ol>
+<h2 id="exercise-8--vector-area-concept">Exercise 8 : Vector Area Concept<a hidden class="anchor" aria-hidden="true" href="#exercise-8--vector-area-concept">#</a></h2>
+<p>For $\mathbf{a} \equiv \int_S d\mathbf{a}$:</p>
+<ol>
+<li>Find $\mathbf{a}$ for a hemispherical bowl of radius $R$.</li>
+<li>Prove $\mathbf{a} = \mathbf{0}$ for any closed surface.</li>
+<li>Show $\mathbf{a}$ is invariant for surfaces with the same boundary.</li>
+<li>Prove $\mathbf{a} = \frac{1}{2}\oint \mathbf{r} \times d\mathbf{l}$.</li>
+<li>Show $\oint (\mathbf{c}\cdot\mathbf{r}) , d\mathbf{l} = \mathbf{a} \times \mathbf{c}$ for constant $\mathbf{c}$.</li>
+</ol>
+<h2 id="exercise-9--delta-function-representations">Exercise 9 : Delta Function Representations<a hidden class="anchor" aria-hidden="true" href="#exercise-9--delta-function-representations">#</a></h2>
+<ol>
+<li>Compute $\nabla \cdot (\hat{\mathbf{r}}/r)$ directly and via divergence theorem. Is there a delta function at the origin?</li>
+<li>Find the general formula for $\nabla \cdot (r^n \hat{\mathbf{r}})$. [Answer: $(n+2)r^{n-1}$ except $n=-2$ gives $4\pi\delta^3(\mathbf{r})$]</li>
+<li>Compute $\nabla \times (r^n \hat{\mathbf{r}})$. [Answer: $\mathbf{0}$]</li>
+</ol>
+<h2 id="exercise-10--regularized-laplacian">Exercise 10 : Regularized Laplacian<a hidden class="anchor" aria-hidden="true" href="#exercise-10--regularized-laplacian">#</a></h2>
+<p>Consider $D(r,\epsilon) \equiv -\frac{1}{4\pi}\nabla^2\left(\frac{1}{\sqrt{r^2+\epsilon^2}}\right)$:</p>
+<ol>
+<li>Show $D(r,\epsilon) = \frac{3\epsilon^2}{4\pi}(r^2+\epsilon^2)^{-5/2}$</li>
+<li>Verify $D(0,\epsilon) \to \infty$ as $\epsilon \to 0$</li>
+<li>Verify $D(r,\epsilon) \to 0$ as $\epsilon \to 0$ for $r \neq 0$</li>
+<li>Show $\int_{\text{all space}} D(r,\epsilon) , d\tau = 1$</li>
+<li>Conclude $\nabla^2(1/r) = -4\pi\delta^3(\mathbf{r})$</li>
+</ol>
+<h2 id="exercise-11--conservative-field-and-line-integral">Exercise 11 : Conservative Field and Line Integral<a hidden class="anchor" aria-hidden="true" href="#exercise-11--conservative-field-and-line-integral">#</a></h2>
+<p>For $\mathbf{F} = (2xy+z^3)\hat{\mathbf{x}} + x^2\hat{\mathbf{y}} + 3xz^2\hat{\mathbf{z}}$:</p>
+<ol>
+<li>Is $\mathbf{F}$ conservative? If so, find its potential.</li>
+<li>Compute $\nabla \times \mathbf{F}$.</li>
+<li>Evaluate $\int_C \mathbf{F}\cdot d\mathbf{l}$ from $(0,0,0)$ to $(1,1,1)$ along $x=t, y=t^2, z=t^3$.</li>
+</ol>
+<h2 id="exercise-12--divergence--stokes--simple-examples">Exercise 12 : Divergence &amp; Stokes — Simple Examples<a hidden class="anchor" aria-hidden="true" href="#exercise-12--divergence--stokes--simple-examples">#</a></h2>
+<p>Verify both divergence and Stokes&rsquo; theorems for $\mathbf{v} = x\hat{\mathbf{x}} + y\hat{\mathbf{y}} + z\hat{\mathbf{z}}$ over:</p>
+<ol>
+<li>A cube of side length $a$</li>
+<li>A sphere of radius $R$</li>
+</ol>
+<h2 id="exercise-13--vector-potentials-for-common-fields">Exercise 13 : Vector Potentials for Common Fields<a hidden class="anchor" aria-hidden="true" href="#exercise-13--vector-potentials-for-common-fields">#</a></h2>
+<p>Find vector potentials for:</p>
+<ol>
+<li>$\mathbf{B} = \frac{\mu_0 I}{2\pi}\frac{1}{r}\hat{\boldsymbol{\phi}}$ (magnetic field of a wire)</li>
+<li>$\mathbf{B} = B_0\hat{\mathbf{z}}$ (uniform field)</li>
+</ol>
+<h2 id="exercise-14--uniqueness-from-vanishing-divergence--curl">Exercise 14 : Uniqueness from Vanishing Divergence &amp; Curl<a hidden class="anchor" aria-hidden="true" href="#exercise-14--uniqueness-from-vanishing-divergence--curl">#</a></h2>
+<p>Show that if $\nabla\cdot\mathbf{F} = 0$ and $\nabla\times\mathbf{F} = \mathbf{0}$ everywhere, and $\mathbf{F} \to 0$ at infinity, then $\mathbf{F} \equiv \mathbf{0}$.</p>
+<h2 id="exercise-15--coordinate-free-vector-identities">Exercise 15 : Coordinate-Free Vector Identities<a hidden class="anchor" aria-hidden="true" href="#exercise-15--coordinate-free-vector-identities">#</a></h2>
+<p>Prove without using coordinates:</p>
+<ol>
+<li>$\nabla \cdot (\mathbf{A} \times \mathbf{B}) = \mathbf{B}\cdot(\nabla\times\mathbf{A}) - \mathbf{A}\cdot(\nabla\times\mathbf{B})$</li>
+<li>$\nabla \times (\mathbf{A} \times \mathbf{B}) = \mathbf{A}(\nabla\cdot\mathbf{B}) - \mathbf{B}(\nabla\cdot\mathbf{A}) + (\mathbf{B}\cdot\nabla)\mathbf{A} - (\mathbf{A}\cdot\nabla)\mathbf{B}$</li>
+<li>$\nabla(\mathbf{A}\cdot\mathbf{B}) = \mathbf{A}\times(\nabla\times\mathbf{B}) + \mathbf{B}\times(\nabla\times\mathbf{A}) + (\mathbf{A}\cdot\nabla)\mathbf{B} + (\mathbf{B}\cdot\nabla)\mathbf{A}$</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/vector-calculus/">Vector Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/vector-fields/">Vector Fields</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Vector Algebra</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

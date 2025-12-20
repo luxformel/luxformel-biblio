@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/math%C3%A9/</loc>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/</loc>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vector-calculus/</loc>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vector-fields/</loc>
+    <lastmod>2025-12-19T23:06:37+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-functions/</loc>
+    <lastmod>2025-12-19T22:19:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</loc>
+    <lastmod>2025-12-19T18:12:08+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vectors/</loc>
+    <lastmod>2025-12-19T18:12:08+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</loc>
     <lastmod>2025-12-18T15:08:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/integrals/</loc>
-    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/math%C3%A9/</loc>
-    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-18T15:08:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vector-calculus/</loc>
     <lastmod>2025-12-18T15:08:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dirac/</loc>
@@ -54,9 +69,6 @@
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2025-11-09T17:55:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vectors/</loc>
     <lastmod>2025-11-09T17:55:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</loc>

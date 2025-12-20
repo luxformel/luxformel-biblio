@@ -11,8 +11,28 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 09 Nov 2025 17:55:30 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 18:12:08 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/vectors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vector Algebra</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</link>
+      <pubDate>Fri, 19 Dec 2025 18:12:08 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</guid>
+      <description>&lt;h1 id=&#34;vector-algebra&#34;&gt;Vector Algebra&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Prove that the dot and cross products are distributive, using definitions and diagrams:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;for three coplanar vectors&lt;/li&gt;
+&lt;li&gt;in the general case&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;Is the cross product associative? That is, does &lt;/p&gt;
+$$(\mathbf{A} \times \mathbf{B}) \times \mathbf{C} = \mathbf{A} \times (\mathbf{B} \times \mathbf{C})$$&lt;p&gt; hold? Prove or provide a counterexample.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;Prove the vector identity:&lt;br&gt;
+&lt;/p&gt;
+$$\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = \mathbf{B}(\mathbf{A} \cdot \mathbf{C}) - \mathbf{C}(\mathbf{A} \cdot \mathbf{B})$$&lt;p&gt; (the &lt;em&gt;BAC-CAB&lt;/em&gt; rule) by writing both sides in component form.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vectors and Matrices in Python Solutions</title>
       <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>

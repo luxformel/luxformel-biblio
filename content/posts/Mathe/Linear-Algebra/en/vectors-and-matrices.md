@@ -106,7 +106,6 @@ $$
 
 Calculate, if possible, the inverses of the matrices $ A $, $ B $, $ C $, and $ D $.
 
-
 ## Exercise 7
 
 Consider the matrix:
@@ -154,4 +153,3 @@ x + 2y - z = 2 \\
 3x + 7y + 4z = 1
 \end{cases}
 $$
-

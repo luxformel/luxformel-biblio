@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Vector Algebra | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Vector Calculus, Vectors">
+<meta name="description" content="Vector Algebra
+Exercise 1 : Distributivity of Dot and Cross
+Prove that the dot and cross products are distributive, using definitions and diagrams:
+
+for three coplanar vectors
+in the general case
+
+Exercise 2 : Cross Product Associativity?
+Is the cross product associative? That is, does the following hold?
+
+$$ (A \times B) \times C = A \times (B \times C) $$
+Prove or provide a counterexample.
+Exercise 3 : BAC-CAB Identity
+Prove the vector identity:
+$A \times (B \times C) = B,(A \cdot C) - C,(A \cdot B)$ (the BAC-CAB rule) by writing both sides in component form.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Vector Algebra">
+  <meta property="og:description" content="Vector Algebra Exercise 1 : Distributivity of Dot and Cross Prove that the dot and cross products are distributive, using definitions and diagrams:
+for three coplanar vectors in the general case Exercise 2 : Cross Product Associativity? Is the cross product associative? That is, does the following hold? $$ (A \times B) \times C = A \times (B \times C) $$ Prove or provide a counterexample.
+Exercise 3 : BAC-CAB Identity Prove the vector identity:
+$A \times (B \times C) = B,(A \cdot C) - C,(A \cdot B)$ (the BAC-CAB rule) by writing both sides in component form.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-19T18:12:08+01:00">
+    <meta property="article:modified_time" content="2025-12-19T18:12:08+01:00">
+    <meta property="article:tag" content="Vector Calculus">
+    <meta property="article:tag" content="Vectors">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Vector Algebra">
+<meta name="twitter:description" content="Vector Algebra
+Exercise 1 : Distributivity of Dot and Cross
+Prove that the dot and cross products are distributive, using definitions and diagrams:
+
+for three coplanar vectors
+in the general case
+
+Exercise 2 : Cross Product Associativity?
+Is the cross product associative? That is, does the following hold?
+
+$$ (A \times B) \times C = A \times (B \times C) $$
+Prove or provide a counterexample.
+Exercise 3 : BAC-CAB Identity
+Prove the vector identity:
+$A \times (B \times C) = B,(A \cdot C) - C,(A \cdot B)$ (the BAC-CAB rule) by writing both sides in component form.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Vector Algebra",
+      "item": "http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Vector Algebra",
+  "name": "Vector Algebra",
+  "description": "Vector Algebra Exercise 1 : Distributivity of Dot and Cross Prove that the dot and cross products are distributive, using definitions and diagrams:\nfor three coplanar vectors in the general case Exercise 2 : Cross Product Associativity? Is the cross product associative? That is, does the following hold? $$ (A \\times B) \\times C = A \\times (B \\times C) $$ Prove or provide a counterexample.\nExercise 3 : BAC-CAB Identity Prove the vector identity:\n$A \\times (B \\times C) = B,(A \\cdot C) - C,(A \\cdot B)$ (the BAC-CAB rule) by writing both sides in component form.\n",
+  "keywords": [
+    "Vector Calculus", "Vectors"
+  ],
+  "articleBody": "Vector Algebra Exercise 1 : Distributivity of Dot and Cross Prove that the dot and cross products are distributive, using definitions and diagrams:\nfor three coplanar vectors in the general case Exercise 2 : Cross Product Associativity? Is the cross product associative? That is, does the following hold? $$ (A \\times B) \\times C = A \\times (B \\times C) $$ Prove or provide a counterexample.\nExercise 3 : BAC-CAB Identity Prove the vector identity:\n$A \\times (B \\times C) = B,(A \\cdot C) - C,(A \\cdot B)$ (the BAC-CAB rule) by writing both sides in component form.\nExercise 4 : Jacobi Identity Verify the Jacobi identity:\n$$[A \\times (B \\times C)] + [B \\times (C \\times A)] + [C \\times (A \\times B)] = 0$$\nUnder what condition does $A \\times (B \\times C) = (A \\times B) \\times C$?\nExercise 5 : Cyclic Cross Products Show that if $A + B + C = 0$, then $A \\times B = B \\times C = C \\times A$.\nExercise 6 : Angle Between Body Diagonals Find the angle between the body diagonals of a cube.\nExercise 7 : Unit Normal to a Plane Find the components of the unit vector perpendicular to a plane defined by three given points or a diagram.\nExercise 8 : Rotation Matrices Prove that the 2D rotation matrix preserves dot products. What constraints must the elements $R_{ij}$ of a 3D rotation matrix satisfy to preserve vector lengths? Exercise 9 : 120° Rotation About (1,1,1) Find the transformation matrix for a $120^\\circ$ clockwise rotation about the axis through $(1,1,1)$.\nExercise 10 : Coordinate Transformations How do vector components transform under:\ntranslation: $\\bar{x}=x,\\ \\bar{y}=y-a,\\ \\bar{z}=z$? inversion: $\\bar{x}=-x,\\ \\bar{y}=-y,\\ \\bar{z}=-z$? How does a cross product transform under inversion? Is the cross product of two pseudovectors a vector or pseudovector? Give two examples of pseudovectors in mechanics. How does the scalar triple product transform under inversion? Exercise 11 : Divergence as a Scalar (2D) Show that in two dimensions, the divergence transforms as a scalar under rotations.\nExercise 12 : Gradient Transforms as a Vector Show that the gradient of a scalar function transforms as a vector under rotations.\nExercise 13 : Compute Gradients Compute the gradient of:\n$f(x,y,z) = x^2 + y^3 + z^4$ $f(x,y,z) = x^2 y^3 z^4$ $f(x,y,z) = e^x \\sin y \\ln z$ Exercise 14 : Hilltop and Slope For the hill height \\(h(x,y) = 10(2xy - 3x^2 - 4y^2 - 18x + 28y + 12)\\):\nLocate the top of the hill. Find its height. Find the slope (in ft/mi) and direction of steepest ascent at \\((1,1)\\). Exercise 15 : Gradients of Powers of r For $r$ from $(x’,y’,z’)$ to $(x,y,z)$ with $r = |r|$:\nShow $\\nabla(r^2) = 2r$ Show $\\nabla(1/r) = -\\hat{r}/r^2$ Find $\\nabla(r^n)$ for integer $n$. Exercise 16 : Divergence Calculations Calculate the divergence of and divergence of:\n$v_a = x^2\\hat{x} + 3xz^2\\hat{y} - 2xz\\hat{z}$ $v_b = xy\\hat{x} + 2yz\\hat{y} + 3zx\\hat{z}$ $v_c = y^2\\hat{x} + (2xy+z^2)\\hat{y} + 2yz\\hat{z}$ Exercise 17 : Divergence of Radial Field Sketch $v = \\hat{r}/r^2$ and compute its divergence. Explain any surprising result.\nExercise 18 : Tangential Field Curl For a clockwise-tangential vector field around a circle in the $xy$-plane:\nDetermine signs of $\\partial v_x/\\partial y$ and $\\partial v_y/\\partial x$ Find the direction of $\\nabla \\times {v}$ and interpret geometrically. Exercise 19 : Vector Calculus Identities Verify these identities for arbitrary scalar field $\\phi$ and vector field ${v}$:\n$\\nabla \\cdot (\\phi {v}) = \\phi(\\nabla \\cdot {v}) + {v} \\cdot (\\nabla \\phi)$\n$\\nabla \\times (\\phi {v}) = \\phi(\\nabla \\times {v}) - {v} \\times (\\nabla \\phi)$ Verify these identities for arbitrary scalar field $\\phi$ and vector field $v$:\n$\\nabla \\cdot (\\phi v) = \\phi(\\nabla \\cdot v) + v \\cdot (\\nabla \\phi)$\n$\\nabla \\times (\\phi v) = \\phi(\\nabla \\times v) - v \\times (\\nabla \\phi)$\nExercise 20 : Electrostatic Field Candidates Which of the following vector fields could represent an electrostatic field? (Electrostatic fields have zero curl.)\n$y\\hat{x} + x\\hat{y}$ $y\\hat{x} - x\\hat{y}$ $x\\hat{x} + y\\hat{y}$ $x^2\\hat{x} + 2xy\\hat{y}$ Exercise 21 : Separation Vector Find the separation vector from source point $(2,8,7)$ to field point $(4,6,8)$. Determine its magnitude and unit vector.\nExercise 22 : Point Charge Field Properties If $E = kq\\frac{r}{r^3}$ is the electric field of a point charge, verify that:\n$\\nabla \\cdot E = 0$ for $r \\neq 0$ $\\nabla \\times E = 0$ for $r \\neq 0$ (What happens at $r=0$?) Exercise 23 : Line Integrals and Conservativeness For a vector function ${F} = (3x^2 + 2y)\\hat{x} + (x - 4y^3)\\hat{y}$:\nCompute the line integral from $(0,0)$ to $(1,1)$ along the path $y=x^2$ Compute the same integral along the straight line $y=x$ Is ${F}$ conservative? Explain. ",
+  "wordCount" : "780",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2025-12-19T18:12:08+01:00",
+  "dateModified": "2025-12-19T18:12:08+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Vector Algebra
+    </h1>
+    <div class="post-meta"><span title='2025-12-19 18:12:08 +0100 CET'>Dezember 19, 2025</span>&nbsp;·&nbsp;<span>780 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--distributivity-of-dot-and-cross">Exercise 1 : Distributivity of Dot and Cross</a></li>
+    <li><a href="#exercise-2--cross-product-associativity">Exercise 2 : Cross Product Associativity?</a></li>
+    <li><a href="#exercise-3--bac-cab-identity">Exercise 3 : BAC-CAB Identity</a></li>
+    <li><a href="#exercise-4--jacobi-identity">Exercise 4 : Jacobi Identity</a></li>
+    <li><a href="#exercise-5--cyclic-cross-products">Exercise 5 : Cyclic Cross Products</a></li>
+    <li><a href="#exercise-6--angle-between-body-diagonals">Exercise 6 : Angle Between Body Diagonals</a></li>
+    <li><a href="#exercise-7--unit-normal-to-a-plane">Exercise 7 : Unit Normal to a Plane</a></li>
+    <li><a href="#exercise-8--rotation-matrices">Exercise 8 : Rotation Matrices</a></li>
+    <li><a href="#exercise-9--120-rotation-about-111">Exercise 9 : 120° Rotation About (1,1,1)</a></li>
+    <li><a href="#exercise-10--coordinate-transformations">Exercise 10 : Coordinate Transformations</a></li>
+    <li><a href="#exercise-11--divergence-as-a-scalar-2d">Exercise 11 : Divergence as a Scalar (2D)</a></li>
+    <li><a href="#exercise-12--gradient-transforms-as-a-vector">Exercise 12 : Gradient Transforms as a Vector</a></li>
+    <li><a href="#exercise-13--compute-gradients">Exercise 13 : Compute Gradients</a></li>
+    <li><a href="#exercise-14--hilltop-and-slope">Exercise 14 : Hilltop and Slope</a></li>
+    <li><a href="#exercise-15--gradients-of-powers-of-r">Exercise 15 : Gradients of Powers of r</a></li>
+    <li><a href="#exercise-16--divergence-calculations">Exercise 16 : Divergence Calculations</a></li>
+    <li><a href="#exercise-17--divergence-of-radial-field">Exercise 17 : Divergence of Radial Field</a></li>
+    <li><a href="#exercise-18--tangential-field-curl">Exercise 18 : Tangential Field Curl</a></li>
+    <li><a href="#exercise-19--vector-calculus-identities">Exercise 19 : Vector Calculus Identities</a></li>
+    <li><a href="#exercise-20--electrostatic-field-candidates">Exercise 20 : Electrostatic Field Candidates</a></li>
+    <li><a href="#exercise-21--separation-vector">Exercise 21 : Separation Vector</a></li>
+    <li><a href="#exercise-22--point-charge-field-properties">Exercise 22 : Point Charge Field Properties</a></li>
+    <li><a href="#exercise-23--line-integrals-and-conservativeness">Exercise 23 : Line Integrals and Conservativeness</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="vector-algebra">Vector Algebra<a hidden class="anchor" aria-hidden="true" href="#vector-algebra">#</a></h1>
+<h2 id="exercise-1--distributivity-of-dot-and-cross">Exercise 1 : Distributivity of Dot and Cross<a hidden class="anchor" aria-hidden="true" href="#exercise-1--distributivity-of-dot-and-cross">#</a></h2>
+<p>Prove that the dot and cross products are distributive, using definitions and diagrams:</p>
+<ol>
+<li>for three coplanar vectors</li>
+<li>in the general case</li>
+</ol>
+<h2 id="exercise-2--cross-product-associativity">Exercise 2 : Cross Product Associativity?<a hidden class="anchor" aria-hidden="true" href="#exercise-2--cross-product-associativity">#</a></h2>
+<p>Is the cross product associative? That is, does the following hold?
+</p>
+$$ (A \times B) \times C = A \times (B \times C) $$<p>
+Prove or provide a counterexample.</p>
+<h2 id="exercise-3--bac-cab-identity">Exercise 3 : BAC-CAB Identity<a hidden class="anchor" aria-hidden="true" href="#exercise-3--bac-cab-identity">#</a></h2>
+<p>Prove the vector identity:<br>
+$A \times (B \times C) = B,(A \cdot C) - C,(A \cdot B)$ (the <em>BAC-CAB</em> rule) by writing both sides in component form.</p>
+<h2 id="exercise-4--jacobi-identity">Exercise 4 : Jacobi Identity<a hidden class="anchor" aria-hidden="true" href="#exercise-4--jacobi-identity">#</a></h2>
+<p>Verify the Jacobi identity:<br>
+</p>
+$$[A \times (B \times C)] + [B \times (C \times A)] + [C \times (A \times B)] = 0$$<p><br>
+Under what condition does $A \times (B \times C) = (A \times B) \times C$?</p>
+<h2 id="exercise-5--cyclic-cross-products">Exercise 5 : Cyclic Cross Products<a hidden class="anchor" aria-hidden="true" href="#exercise-5--cyclic-cross-products">#</a></h2>
+<p>Show that if $A + B + C = 0$, then $A \times B = B \times C = C \times A$.</p>
+<h2 id="exercise-6--angle-between-body-diagonals">Exercise 6 : Angle Between Body Diagonals<a hidden class="anchor" aria-hidden="true" href="#exercise-6--angle-between-body-diagonals">#</a></h2>
+<p>Find the angle between the body diagonals of a cube.</p>
+<h2 id="exercise-7--unit-normal-to-a-plane">Exercise 7 : Unit Normal to a Plane<a hidden class="anchor" aria-hidden="true" href="#exercise-7--unit-normal-to-a-plane">#</a></h2>
+<p>Find the components of the unit vector perpendicular to a plane defined by three given points or a diagram.</p>
+<h2 id="exercise-8--rotation-matrices">Exercise 8 : Rotation Matrices<a hidden class="anchor" aria-hidden="true" href="#exercise-8--rotation-matrices">#</a></h2>
+<ol>
+<li>Prove that the 2D rotation matrix preserves dot products.</li>
+<li>What constraints must the elements $R_{ij}$ of a 3D rotation matrix satisfy to preserve vector lengths?</li>
+</ol>
+<h2 id="exercise-9--120-rotation-about-111">Exercise 9 : 120° Rotation About (1,1,1)<a hidden class="anchor" aria-hidden="true" href="#exercise-9--120-rotation-about-111">#</a></h2>
+<p>Find the transformation matrix for a $120^\circ$ clockwise rotation about the axis through $(1,1,1)$.</p>
+<h2 id="exercise-10--coordinate-transformations">Exercise 10 : Coordinate Transformations<a hidden class="anchor" aria-hidden="true" href="#exercise-10--coordinate-transformations">#</a></h2>
+<p>How do vector components transform under:</p>
+<ol>
+<li>translation: $\bar{x}=x,\ \bar{y}=y-a,\ \bar{z}=z$?</li>
+<li>inversion: $\bar{x}=-x,\ \bar{y}=-y,\ \bar{z}=-z$?</li>
+<li>How does a cross product transform under inversion? Is the cross product of two pseudovectors a vector or pseudovector? Give two examples of pseudovectors in mechanics.</li>
+<li>How does the scalar triple product transform under inversion?</li>
+</ol>
+<h2 id="exercise-11--divergence-as-a-scalar-2d">Exercise 11 : Divergence as a Scalar (2D)<a hidden class="anchor" aria-hidden="true" href="#exercise-11--divergence-as-a-scalar-2d">#</a></h2>
+<p>Show that in two dimensions, the divergence transforms as a scalar under rotations.</p>
+<h2 id="exercise-12--gradient-transforms-as-a-vector">Exercise 12 : Gradient Transforms as a Vector<a hidden class="anchor" aria-hidden="true" href="#exercise-12--gradient-transforms-as-a-vector">#</a></h2>
+<p>Show that the gradient of a scalar function transforms as a vector under rotations.</p>
+<h2 id="exercise-13--compute-gradients">Exercise 13 : Compute Gradients<a hidden class="anchor" aria-hidden="true" href="#exercise-13--compute-gradients">#</a></h2>
+<p>Compute the gradient of:</p>
+<ol>
+<li>$f(x,y,z) = x^2 + y^3 + z^4$</li>
+<li>$f(x,y,z) = x^2 y^3 z^4$</li>
+<li>$f(x,y,z) = e^x \sin y \ln z$</li>
+</ol>
+<h2 id="exercise-14--hilltop-and-slope">Exercise 14 : Hilltop and Slope<a hidden class="anchor" aria-hidden="true" href="#exercise-14--hilltop-and-slope">#</a></h2>
+<p>For the hill height \(h(x,y) = 10(2xy - 3x^2 - 4y^2 - 18x + 28y + 12)\):</p>
+<ol>
+<li>Locate the top of the hill.</li>
+<li>Find its height.</li>
+<li>Find the slope (in ft/mi) and direction of steepest ascent at \((1,1)\).</li>
+</ol>
+<h2 id="exercise-15--gradients-of-powers-of-r">Exercise 15 : Gradients of Powers of r<a hidden class="anchor" aria-hidden="true" href="#exercise-15--gradients-of-powers-of-r">#</a></h2>
+<p>For $r$ from $(x&rsquo;,y&rsquo;,z&rsquo;)$ to $(x,y,z)$ with $r = |r|$:</p>
+<ol>
+<li>Show $\nabla(r^2) = 2r$</li>
+<li>Show $\nabla(1/r) = -\hat{r}/r^2$</li>
+<li>Find $\nabla(r^n)$ for integer $n$.</li>
+</ol>
+<h2 id="exercise-16--divergence-calculations">Exercise 16 : Divergence Calculations<a hidden class="anchor" aria-hidden="true" href="#exercise-16--divergence-calculations">#</a></h2>
+<p>Calculate the divergence of and divergence of:</p>
+<ol>
+<li>$v_a = x^2\hat{x} + 3xz^2\hat{y} - 2xz\hat{z}$</li>
+<li>$v_b = xy\hat{x} + 2yz\hat{y} + 3zx\hat{z}$</li>
+<li>$v_c = y^2\hat{x} + (2xy+z^2)\hat{y} + 2yz\hat{z}$</li>
+</ol>
+<h2 id="exercise-17--divergence-of-radial-field">Exercise 17 : Divergence of Radial Field<a hidden class="anchor" aria-hidden="true" href="#exercise-17--divergence-of-radial-field">#</a></h2>
+<p>Sketch $v = \hat{r}/r^2$ and compute its divergence. Explain any surprising result.</p>
+<h2 id="exercise-18--tangential-field-curl">Exercise 18 : Tangential Field Curl<a hidden class="anchor" aria-hidden="true" href="#exercise-18--tangential-field-curl">#</a></h2>
+<p>For a clockwise-tangential vector field around a circle in the $xy$-plane:</p>
+<ol>
+<li>Determine signs of $\partial v_x/\partial y$ and $\partial v_y/\partial x$</li>
+<li>Find the direction of $\nabla \times {v}$ and interpret geometrically.</li>
+</ol>
+<h2 id="exercise-19--vector-calculus-identities">Exercise 19 : Vector Calculus Identities<a hidden class="anchor" aria-hidden="true" href="#exercise-19--vector-calculus-identities">#</a></h2>
+<p>Verify these identities for arbitrary scalar field $\phi$ and vector field ${v}$:</p>
+<ol>
+<li>
+<p>$\nabla \cdot (\phi {v}) = \phi(\nabla \cdot {v}) + {v} \cdot (\nabla \phi)$</p>
+</li>
+<li>
+<p>$\nabla \times (\phi {v}) = \phi(\nabla \times {v}) - {v} \times (\nabla \phi)$
+Verify these identities for arbitrary scalar field $\phi$ and vector field $v$:</p>
+</li>
+<li>
+<p>$\nabla \cdot (\phi v) = \phi(\nabla \cdot v) + v \cdot (\nabla \phi)$</p>
+</li>
+<li>
+<p>$\nabla \times (\phi v) = \phi(\nabla \times v) - v \times (\nabla \phi)$</p>
+</li>
+</ol>
+<h2 id="exercise-20--electrostatic-field-candidates">Exercise 20 : Electrostatic Field Candidates<a hidden class="anchor" aria-hidden="true" href="#exercise-20--electrostatic-field-candidates">#</a></h2>
+<p>Which of the following vector fields could represent an electrostatic field? (Electrostatic fields have zero curl.)</p>
+<ol>
+<li>$y\hat{x} + x\hat{y}$</li>
+<li>$y\hat{x} - x\hat{y}$</li>
+<li>$x\hat{x} + y\hat{y}$</li>
+<li>$x^2\hat{x} + 2xy\hat{y}$</li>
+</ol>
+<h2 id="exercise-21--separation-vector">Exercise 21 : Separation Vector<a hidden class="anchor" aria-hidden="true" href="#exercise-21--separation-vector">#</a></h2>
+<p>Find the separation vector from source point $(2,8,7)$ to field point $(4,6,8)$. Determine its magnitude and unit vector.</p>
+<h2 id="exercise-22--point-charge-field-properties">Exercise 22 : Point Charge Field Properties<a hidden class="anchor" aria-hidden="true" href="#exercise-22--point-charge-field-properties">#</a></h2>
+<p>If $E = kq\frac{r}{r^3}$ is the electric field of a point charge, verify that:</p>
+<ol>
+<li>$\nabla \cdot E = 0$ for $r \neq 0$</li>
+<li>$\nabla \times E = 0$ for $r \neq 0$
+(What happens at $r=0$?)</li>
+</ol>
+<h2 id="exercise-23--line-integrals-and-conservativeness">Exercise 23 : Line Integrals and Conservativeness<a hidden class="anchor" aria-hidden="true" href="#exercise-23--line-integrals-and-conservativeness">#</a></h2>
+<p>For a vector function ${F} = (3x^2 + 2y)\hat{x} + (x - 4y^3)\hat{y}$:</p>
+<ol>
+<li>Compute the line integral from $(0,0)$ to $(1,1)$ along the path $y=x^2$</li>
+<li>Compute the same integral along the straight line $y=x$</li>
+<li>Is ${F}$ conservative? Explain.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/vector-calculus/">Vector Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/vectors/">Vectors</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Theory of Vector Fields</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Integral Calculus</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>
