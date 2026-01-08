@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Subspaces on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/subspaces/</link>
+    <link>https://biblio.luxformel.info/tags/subspaces/</link>
     <description>Recent content in Subspaces on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Tue, 09 Sep 2025 07:37:21 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/subspaces/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/subspaces/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Subspaces</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/subspaces/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/subspaces/</link>
       <pubDate>Tue, 09 Sep 2025 07:37:21 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/subspaces/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/subspaces/</guid>
       <description>&lt;h1 id=&#34;subspaces&#34;&gt;Subspaces&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;For each of the following subsets of $\mathbb{F}^3$, determine whether it is a subspace of $\mathbb{F}^3$:&lt;/p&gt;

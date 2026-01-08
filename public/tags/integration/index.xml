@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Integration on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/integration/</link>
+    <link>https://biblio.luxformel.info/tags/integration/</link>
     <description>Recent content in Integration on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 09:46:25 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/integration/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Applications of Integration</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/applications-of-integration/</link>
       <pubDate>Thu, 08 Jan 2026 09:46:25 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/applications-of-integration/</guid>
       <description>&lt;h1 id=&#34;applications-of-integration&#34;&gt;Applications of Integration&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--area-bounded-by-parabola&#34;&gt;Exercise 1 : Area Bounded by Parabola&lt;/h2&gt;
 &lt;p&gt;Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.&lt;/p&gt;

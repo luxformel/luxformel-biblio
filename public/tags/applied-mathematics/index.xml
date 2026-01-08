@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Applied Mathematics on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/applied-mathematics/</link>
+    <link>https://biblio.luxformel.info/tags/applied-mathematics/</link>
     <description>Recent content in Applied Mathematics on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 11:36:28 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/applied-mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/applied-mathematics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transformation of Coordinates; Matrices</title>
-      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</link>
       <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</guid>
       <description>&lt;h1 id=&#34;transformation-of-coordinates-matrices&#34;&gt;Transformation of Coordinates; Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--shift-paraboloid&#34;&gt;Exercise 1 : Shift Paraboloid&lt;/h2&gt;
 &lt;p&gt;The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 + x^2 + y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?&lt;/p&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>Taylor Series and Power Series</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/taylor-series-and-power-series/</link>
       <pubDate>Thu, 08 Jan 2026 11:27:35 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/taylor-series-and-power-series/</guid>
       <description>&lt;h1 id=&#34;taylor-series-and-power-series&#34;&gt;Taylor Series and Power Series&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--expansion-of-a-function-in-a-power-series&#34;&gt;Exercise 1 : Expansion of a Function in a Power Series&lt;/h2&gt;
 &lt;p&gt;Expand the following functions at $x_0 = 0$ in a series up to the first four terms:&lt;/p&gt;
@@ -44,9 +44,9 @@
     </item>
     <item>
       <title>Surface Integrals, Divergence, Curl and Potential</title>
-      <link>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</link>
       <pubDate>Thu, 08 Jan 2026 11:24:52 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</guid>
       <description>&lt;h1 id=&#34;surface-integrals-divergence-curl-and-potential&#34;&gt;Surface Integrals, Divergence, Curl and Potential&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--coordinate-planes&#34;&gt;Exercise 1 : Coordinate Planes&lt;/h2&gt;
 &lt;p&gt;Given three squares with an area of 4 units each. They are placed:&lt;/p&gt;
@@ -63,9 +63,9 @@
     </item>
     <item>
       <title>Multiple Integrals; Coordinate Systems</title>
-      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</link>
       <pubDate>Thu, 08 Jan 2026 11:07:40 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</guid>
       <description>&lt;h1 id=&#34;multiple-integrals-coordinate-systems&#34;&gt;Multiple Integrals; Coordinate Systems&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--multiple-integrals-with-constant-limits&#34;&gt;Exercise 1 : Multiple Integrals with Constant Limits&lt;/h2&gt;
 &lt;p&gt;Evaluate the following multiple integrals:&lt;/p&gt;
@@ -101,9 +101,9 @@
     </item>
     <item>
       <title>Laplace Transforms</title>
-      <link>http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/differential-equations/en/laplace-transforms/</link>
       <pubDate>Thu, 08 Jan 2026 11:04:12 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/differential-equations/en/laplace-transforms/</guid>
       <description>&lt;h1 id=&#34;laplace-transforms&#34;&gt;Laplace Transforms&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--applying-laplace-transforms&#34;&gt;Exercise 1 : Applying Laplace Transforms&lt;/h2&gt;
 &lt;p&gt;Obtain the Laplace transforms for the following functions:&lt;/p&gt;
@@ -128,9 +128,9 @@
     </item>
     <item>
       <title>Functions of Several Variables; Partial Differentiation; and Total Differentiation</title>
-      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</link>
       <pubDate>Thu, 08 Jan 2026 10:54:10 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</guid>
       <description>&lt;h1 id=&#34;functions-of-several-variables-partial-differentiation-and-total-differentiation&#34;&gt;Functions of Several Variables; Partial Differentiation; and Total Differentiation&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--table-of-variables&#34;&gt;Exercise 1 : Table of Variables&lt;/h2&gt;
 &lt;p&gt;Construct a table of values for the function $f(x, y) = x^2 y + 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.&lt;/p&gt;
@@ -146,9 +146,9 @@
     </item>
     <item>
       <title>Exponential, Logarithmic and Hyperbolic Functions</title>
-      <link>http://localhost:1313/posts/mathe/functions/en/exponetial-logarithmic-and-hyperbolic-functions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/functions/en/exponetial-logarithmic-and-hyperbolic-functions/</link>
       <pubDate>Thu, 08 Jan 2026 10:43:26 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/functions/en/exponetial-logarithmic-and-hyperbolic-functions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/functions/en/exponetial-logarithmic-and-hyperbolic-functions/</guid>
       <description>&lt;h1 id=&#34;exponential-logarithmic-and-hyperbolic-functions&#34;&gt;Exponential, Logarithmic and Hyperbolic Functions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--basic-exponent-rules&#34;&gt;Exercise 1 : Basic Exponent Rules&lt;/h2&gt;
 &lt;p&gt;Calculate the terms given in the next questions or give a transformation:&lt;/p&gt;
@@ -177,9 +177,9 @@
     </item>
     <item>
       <title>Eigenvalues and Eigenvectors of Real Matrices</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
       <pubDate>Thu, 08 Jan 2026 10:36:10 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
       <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors-of-real-matrices&#34;&gt;Eigenvalues and Eigenvectors of Real Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--eigenvalues--2x2-real-matrix&#34;&gt;Exercise 1 : Eigenvalues — 2x2 real matrix&lt;/h2&gt;
 &lt;p&gt;For $A = \begin{pmatrix} 4 &amp;amp; 2 \ 1 &amp;amp; 3 \end{pmatrix}$ find the eigenvalues.&lt;/p&gt;
@@ -190,9 +190,9 @@
     </item>
     <item>
       <title>Differential Equations</title>
-      <link>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/differential-equations/en/differential-equations/</link>
       <pubDate>Thu, 08 Jan 2026 10:09:01 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/differential-equations/en/differential-equations/</guid>
       <description>&lt;h1 id=&#34;differential-equations&#34;&gt;Differential Equations&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--classification--linear-vs-nonlinear&#34;&gt;Exercise 1 : Classification — Linear vs Nonlinear&lt;/h2&gt;
 &lt;p&gt;Which of the following are linear first- and second-order DEs with constant coefficients?&lt;/p&gt;
@@ -209,9 +209,9 @@
     </item>
     <item>
       <title>Differential Calculus</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/differential-calculus/</link>
       <pubDate>Thu, 08 Jan 2026 09:57:06 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/differential-calculus/</guid>
       <description>&lt;h1 id=&#34;differential-calculus&#34;&gt;Differential Calculus&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--sequences-and-limits-of-sequences&#34;&gt;Exercise 1 : Sequences and Limits of Sequences&lt;/h2&gt;
 &lt;p&gt;Calculate the limiting value of the following sequences for $n \to \infty$.&lt;/p&gt;
@@ -229,9 +229,9 @@
     </item>
     <item>
       <title>Applications of Integration</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/applications-of-integration/</link>
       <pubDate>Thu, 08 Jan 2026 09:46:25 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/applications-of-integration/</guid>
       <description>&lt;h1 id=&#34;applications-of-integration&#34;&gt;Applications of Integration&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--area-bounded-by-parabola&#34;&gt;Exercise 1 : Area Bounded by Parabola&lt;/h2&gt;
 &lt;p&gt;Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.&lt;/p&gt;
@@ -240,9 +240,9 @@
     </item>
     <item>
       <title>Theory of Errors</title>
-      <link>http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/statistics/en/theory-of-errors/</link>
       <pubDate>Thu, 08 Jan 2026 09:35:29 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/statistics/en/theory-of-errors/</guid>
       <description>&lt;h1 id=&#34;theory-of-errors&#34;&gt;Theory of Errors&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--types-of-errors&#34;&gt;Exercise 1 : Types of Errors&lt;/h2&gt;
 &lt;p&gt;In the following examples, state whether the error is systematic (constant $S$) or random $R$.&lt;/p&gt;
@@ -263,9 +263,9 @@
     </item>
     <item>
       <title>Probability Distributions</title>
-      <link>http://localhost:1313/posts/mathe/probability/en/probability-distributions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/probability/en/probability-distributions/</link>
       <pubDate>Thu, 08 Jan 2026 09:15:23 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/probability/en/probability-distributions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/probability/en/probability-distributions/</guid>
       <description>&lt;h1 id=&#34;probability-distributions&#34;&gt;Probability Distributions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--random-variable&#34;&gt;Exercise 1 : Random Variable&lt;/h2&gt;
 &lt;p&gt;Two dice are thrown. Calculate the mean value of the random variable &amp;lsquo;sum of the number of spots&amp;rsquo;.&lt;/p&gt;
@@ -284,9 +284,9 @@ Compute the mean value of the random variable.&lt;/p&gt;
     </item>
     <item>
       <title>Probability Calculus</title>
-      <link>http://localhost:1313/posts/mathe/probability/en/probability-calculus/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/probability/en/probability-calculus/</link>
       <pubDate>Thu, 08 Jan 2026 09:13:24 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/probability/en/probability-calculus/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/probability/en/probability-calculus/</guid>
       <description>&lt;h1 id=&#34;probability-calculus&#34;&gt;Probability Calculus&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--menu-selection&#34;&gt;Exercise 1 : Menu Selection&lt;/h2&gt;
 &lt;p&gt;A menu contains five dishes from which two can be chosen freely. Give the sample space.&lt;/p&gt;
@@ -297,9 +297,9 @@ Compute the mean value of the random variable.&lt;/p&gt;
     </item>
     <item>
       <title>Fourier Integrals and Fourier Transforms</title>
-      <link>http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/</link>
       <pubDate>Thu, 08 Jan 2026 08:39:41 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/</guid>
       <description>&lt;h1 id=&#34;fourier-integrals-and-fourier-transforms&#34;&gt;Fourier Integrals and Fourier Transforms&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--fourier-series&#34;&gt;Exercise 1 : Fourier Series&lt;/h2&gt;
 &lt;p&gt;For the following periodic function:
@@ -326,9 +326,9 @@ $$&lt;h2 id=&#34;exercise-2--limiting-spectrum-t-to-infty&#34;&gt;Exercise 2 : L
     </item>
     <item>
       <title>Fourier Series; Harmonic Analysis</title>
-      <link>http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/</link>
       <pubDate>Thu, 08 Jan 2026 08:34:49 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/</guid>
       <description>&lt;h1 id=&#34;fourier-series-harmonic-analysis&#34;&gt;Fourier Series; Harmonic Analysis&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--symmetric-rectangular-pulse&#34;&gt;Exercise 1 : Symmetric rectangular pulse&lt;/h2&gt;
 &lt;p&gt;Obtain the Fourier series of the 2\pi-periodic function&lt;/p&gt;
@@ -350,9 +350,9 @@ $$&lt;p&gt;Compute the Fourier series, indicate whether only sine terms appear, 
     </item>
     <item>
       <title>Integral Calculus</title>
-      <link>http://localhost:1313/posts/mathe/calculus/en/integral-calculus/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/integral-calculus/</link>
       <pubDate>Thu, 08 Jan 2026 07:50:31 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/en/integral-calculus/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/integral-calculus/</guid>
       <description>&lt;h1 id=&#34;integral-calculus&#34;&gt;Integral Calculus&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--primitives&#34;&gt;Exercise 1 : Primitives&lt;/h2&gt;
 &lt;p&gt;Find the primitives of the following functions and the value of the constant:&lt;/p&gt;

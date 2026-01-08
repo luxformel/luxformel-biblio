@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Convergence on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/convergence/</link>
+    <link>https://biblio.luxformel.info/tags/convergence/</link>
     <description>Recent content in Convergence on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 07:18:16 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/convergence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/convergence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convergence et calcul d&#39;intégrales impropres</title>
-      <link>http://localhost:1313/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</link>
       <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</guid>
       <description>&lt;h1 id=&#34;convergence-et-calcul-dintégrales-impropres&#34;&gt;Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--convergence-et-calcul-dintégrales-impropres&#34;&gt;Exercice 1 : Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h2&gt;
 &lt;p&gt;Étudier la convergence des intégrales impropres suivantes et, lorsqu&amp;rsquo;elles sont convergentes, calculer leurs valeurs.&lt;/p&gt;

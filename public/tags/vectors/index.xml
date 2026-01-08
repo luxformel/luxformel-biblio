@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vectors on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/vectors/</link>
+    <link>https://biblio.luxformel.info/tags/vectors/</link>
     <description>Recent content in Vectors on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Fri, 19 Dec 2025 18:12:08 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/vectors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/vectors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vector Algebra</title>
-      <link>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/vector-algebra/</link>
       <pubDate>Fri, 19 Dec 2025 18:12:08 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/vector-algebra/</guid>
       <description>&lt;h1 id=&#34;vector-algebra&#34;&gt;Vector Algebra&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--distributivity-of-dot-and-cross&#34;&gt;Exercise 1 : Distributivity of Dot and Cross&lt;/h2&gt;
 &lt;p&gt;Prove that the dot and cross products are distributive, using definitions and diagrams:&lt;/p&gt;
@@ -36,9 +36,9 @@ $A \times (B \times C) = B,(A \cdot C) - C,(A \cdot B)$ (the &lt;em&gt;BAC-CAB&l
     </item>
     <item>
       <title>Vectors and Matrices in Python Solutions</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
       <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices-in-python-solutions&#34;&gt;Vectors and Matrices in Python Solutions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--vectors-in-mathbbr7&#34;&gt;Exercise 1 : Vectors in $\mathbb{R}^7$&lt;/h2&gt;
 &lt;p&gt;Consider the following vectors:
@@ -73,9 +73,9 @@ $$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
     </item>
     <item>
       <title>Vectors and Matrices in Python</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</link>
       <pubDate>Sun, 09 Nov 2025 17:52:23 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices-in-python&#34;&gt;Vectors and Matrices in Python&lt;/h1&gt;
 &lt;p&gt;In this worksheet, you will use &lt;strong&gt;Python (NumPy)&lt;/strong&gt; to perform vector and matrix operations.&lt;br&gt;
 For each exercise, write Python code to compute the required results and verify them numerically.&lt;/p&gt;
@@ -97,9 +97,9 @@ $$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
     </item>
     <item>
       <title>Vectors and Matrices</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices/</link>
       <pubDate>Thu, 06 Nov 2025 20:08:06 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices&#34;&gt;Vectors and Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Consider the following vectors in $ \mathbb{R}^7 $:

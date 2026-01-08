@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Léisungen on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/l%C3%A9isungen/</link>
+    <link>https://biblio.luxformel.info/tags/l%C3%A9isungen/</link>
     <description>Recent content in Léisungen on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 09 Nov 2025 17:55:30 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/l%C3%A9isungen/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/l%C3%A9isungen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vectors and Matrices in Python Solutions</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
       <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices-in-python-solutions&#34;&gt;Vectors and Matrices in Python Solutions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--vectors-in-mathbbr7&#34;&gt;Exercise 1 : Vectors in $\mathbb{R}^7$&lt;/h2&gt;
 &lt;p&gt;Consider the following vectors:

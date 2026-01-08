@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Matrices on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/matrices/</link>
+    <link>https://biblio.luxformel.info/tags/matrices/</link>
     <description>Recent content in Matrices on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 11:36:28 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/matrices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/matrices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transformation of Coordinates; Matrices</title>
-      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</link>
       <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</guid>
       <description>&lt;h1 id=&#34;transformation-of-coordinates-matrices&#34;&gt;Transformation of Coordinates; Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--shift-paraboloid&#34;&gt;Exercise 1 : Shift Paraboloid&lt;/h2&gt;
 &lt;p&gt;The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 + x^2 + y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?&lt;/p&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>Eigenvalues and Eigenvectors of Real Matrices</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
       <pubDate>Thu, 08 Jan 2026 10:36:10 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
       <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors-of-real-matrices&#34;&gt;Eigenvalues and Eigenvectors of Real Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--eigenvalues--2x2-real-matrix&#34;&gt;Exercise 1 : Eigenvalues — 2x2 real matrix&lt;/h2&gt;
 &lt;p&gt;For $A = \begin{pmatrix} 4 &amp;amp; 2 \ 1 &amp;amp; 3 \end{pmatrix}$ find the eigenvalues.&lt;/p&gt;
@@ -39,9 +39,9 @@
     </item>
     <item>
       <title>Vectors and Matrices in Python Solutions</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
       <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices-in-python-solutions&#34;&gt;Vectors and Matrices in Python Solutions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--vectors-in-mathbbr7&#34;&gt;Exercise 1 : Vectors in $\mathbb{R}^7$&lt;/h2&gt;
 &lt;p&gt;Consider the following vectors:
@@ -76,9 +76,9 @@ $$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
     </item>
     <item>
       <title>Vectors and Matrices in Python</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</link>
       <pubDate>Sun, 09 Nov 2025 17:52:23 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices-in-python&#34;&gt;Vectors and Matrices in Python&lt;/h1&gt;
 &lt;p&gt;In this worksheet, you will use &lt;strong&gt;Python (NumPy)&lt;/strong&gt; to perform vector and matrix operations.&lt;br&gt;
 For each exercise, write Python code to compute the required results and verify them numerically.&lt;/p&gt;
@@ -100,9 +100,9 @@ $$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
     </item>
     <item>
       <title>Vectors and Matrices</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices/</link>
       <pubDate>Thu, 06 Nov 2025 20:08:06 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices&#34;&gt;Vectors and Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Consider the following vectors in $ \mathbb{R}^7 $:

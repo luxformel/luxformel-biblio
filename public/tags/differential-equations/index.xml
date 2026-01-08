@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Differential Equations on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/differential-equations/</link>
+    <link>https://biblio.luxformel.info/tags/differential-equations/</link>
     <description>Recent content in Differential Equations on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 11:04:12 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/differential-equations/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/differential-equations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laplace Transforms</title>
-      <link>http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/differential-equations/en/laplace-transforms/</link>
       <pubDate>Thu, 08 Jan 2026 11:04:12 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/differential-equations/en/laplace-transforms/</guid>
       <description>&lt;h1 id=&#34;laplace-transforms&#34;&gt;Laplace Transforms&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--applying-laplace-transforms&#34;&gt;Exercise 1 : Applying Laplace Transforms&lt;/h2&gt;
 &lt;p&gt;Obtain the Laplace transforms for the following functions:&lt;/p&gt;
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>Differential Equations</title>
-      <link>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/differential-equations/en/differential-equations/</link>
       <pubDate>Thu, 08 Jan 2026 10:09:01 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/differential-equations/en/differential-equations/</guid>
       <description>&lt;h1 id=&#34;differential-equations&#34;&gt;Differential Equations&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--classification--linear-vs-nonlinear&#34;&gt;Exercise 1 : Classification — Linear vs Nonlinear&lt;/h2&gt;
 &lt;p&gt;Which of the following are linear first- and second-order DEs with constant coefficients?&lt;/p&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Complex Numbers on Luxformel Bibliothéik</title>
-    <link>http://localhost:1313/tags/complex-numbers/</link>
+    <link>https://biblio.luxformel.info/tags/complex-numbers/</link>
     <description>Recent content in Complex Numbers on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 06:57:55 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/complex-numbers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biblio.luxformel.info/tags/complex-numbers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complex Numbers and Vector Space</title>
-      <link>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
+      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
       <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
+      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
       <description>&lt;p&gt;Léisung zu dësen Exercicer sinn am Archiv op &lt;a href=&#34;https://luxformel.info/Archiv/Mathe/pdf/Vector-Spaces/Solutions/Complex-Numbers-and-Vector-Space-solutions.pdf&#34;&gt;luxformel&lt;/a&gt; ze fannen.&lt;/p&gt;
 &lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--complex-number-inverse&#34;&gt;Exercise 1 : Complex Number Inverse&lt;/h2&gt;
