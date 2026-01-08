@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Differential Equations | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Calculus, Differential Equations, Applied Mathematics">
+<meta name="description" content="Differential Equations
+Exercise 1 : Classification — Linear vs Nonlinear
+Which of the following are linear first- and second-order DEs with constant coefficients?
+
+$y&rsquo; &#43; x^2 y = 2x$
+$5y&rsquo;&rsquo; - 2y&rsquo; - 4x = 3y$
+$y^4 &#43; 2y&rsquo;&rsquo; &#43; 3y&rsquo; = 0$
+$\sin x, y&rsquo;&rsquo; - y = 0$
+$y&rsquo;&rsquo; - x^5 = 2$
+$2y&rsquo;&rsquo; - y&rsquo; &#43; \frac{3}{2}y = 0$
+
+Exercise 2 : Homogeneity and Order
+Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Differential Equations">
+  <meta property="og:description" content="Differential Equations Exercise 1 : Classification — Linear vs Nonlinear Which of the following are linear first- and second-order DEs with constant coefficients?
+$y’ &#43; x^2 y = 2x$ $5y’’ - 2y’ - 4x = 3y$ $y^4 &#43; 2y’’ &#43; 3y’ = 0$ $\sin x, y’’ - y = 0$ $y’’ - x^5 = 2$ $2y’’ - y’ &#43; \frac{3}{2}y = 0$ Exercise 2 : Homogeneity and Order Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T10:09:01+01:00">
+    <meta property="article:modified_time" content="2026-01-08T10:09:01+01:00">
+    <meta property="article:tag" content="Calculus">
+    <meta property="article:tag" content="Differential Equations">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Differential Equations">
+<meta name="twitter:description" content="Differential Equations
+Exercise 1 : Classification — Linear vs Nonlinear
+Which of the following are linear first- and second-order DEs with constant coefficients?
+
+$y&rsquo; &#43; x^2 y = 2x$
+$5y&rsquo;&rsquo; - 2y&rsquo; - 4x = 3y$
+$y^4 &#43; 2y&rsquo;&rsquo; &#43; 3y&rsquo; = 0$
+$\sin x, y&rsquo;&rsquo; - y = 0$
+$y&rsquo;&rsquo; - x^5 = 2$
+$2y&rsquo;&rsquo; - y&rsquo; &#43; \frac{3}{2}y = 0$
+
+Exercise 2 : Homogeneity and Order
+Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Differential Equations",
+      "item": "http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Differential Equations",
+  "name": "Differential Equations",
+  "description": "Differential Equations Exercise 1 : Classification — Linear vs Nonlinear Which of the following are linear first- and second-order DEs with constant coefficients?\n$y\u0026rsquo; + x^2 y = 2x$ $5y\u0026rsquo;\u0026rsquo; - 2y\u0026rsquo; - 4x = 3y$ $y^4 + 2y\u0026rsquo;\u0026rsquo; + 3y\u0026rsquo; = 0$ $\\sin x, y\u0026rsquo;\u0026rsquo; - y = 0$ $y\u0026rsquo;\u0026rsquo; - x^5 = 2$ $2y\u0026rsquo;\u0026rsquo; - y\u0026rsquo; + \\frac{3}{2}y = 0$ Exercise 2 : Homogeneity and Order Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?\n",
+  "keywords": [
+    "Calculus", "Differential Equations", "Applied Mathematics"
+  ],
+  "articleBody": "Differential Equations Exercise 1 : Classification — Linear vs Nonlinear Which of the following are linear first- and second-order DEs with constant coefficients?\n$y’ + x^2 y = 2x$ $5y’’ - 2y’ - 4x = 3y$ $y^4 + 2y’’ + 3y’ = 0$ $\\sin x, y’’ - y = 0$ $y’’ - x^5 = 2$ $2y’’ - y’ + \\frac{3}{2}y = 0$ Exercise 2 : Homogeneity and Order Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?\n$y’’ + ax = 0$ $\\frac{5}{4}y’’ + \\frac{2}{3}y’ = \\frac{1}{2}y$ $2y’ = 3y$ $\\frac{3}{10}y’’ + \\frac{2}{5}y’ + \\frac{1}{6}y - \\sin x = 0$ $3y’’ + y’ = 2y$ Exercise 10.3 : Characteristic Equations — Homogeneous Linear ODEs Solve the following DEs. In the case of complex roots give the real solution.\n$2y’’ - 12y’ + 10y = 0$ $4y’’ - 12y’ + 9y = 0$ $y’’ + 2y’ + 5y = 0$ $y’’ - \\frac{1}{2}y’ + \\frac{5}{8}y = 0$ $\\frac{1}{4}y’’ + \\frac{1}{2}y’ - 2y = 0$ $5y’’ - 2y’ + y = 0$ Exercise 4 : First-Order Linear — Separable and Exponential Solutions Solve the following DEs:\n$2y’ + 8y = 0$ $\\frac{1}{5}y’ = 6y$ $3y’ = 6y$ Exercise 5 : Simple Second-Order Integrations Obtain the general solution of the following second-order DEs:\n$S’’(t) = 2t$ $x’’(t) = -\\omega^2 \\cos \\omega t$ Exercise 6 : Non-homogeneous Second-Order — Method of Undetermined Coefficients $y’’ + y’ + y = 2x + 3$ $y’’ + 4y’ + 2y = 2x + 3$ Exercise 7 : Non-homogeneous Examples — Polynomial and Trigonometric Forcing $7y’’ - 4y’ - 3y = 6$ $y’’ - 10y’ + 9y = 9x$ $3y’’ - y’ - 4y = x^2$ $y’’ + 2y’ + 5y = \\cos 2x$ Exercise 8 : Verify Particular Integral and General Solution A particular integral $y_p(x)$ of the following non-homogeneous DE is known. Check that it is a solution and obtain the general solution of the DE.\n$$ \\frac{1}{2}y'' - 3y' + \\frac{5}{2}y = \\frac{3}{4}x^2 - 1, \\,\\quad y_p(x) = \\frac{3}{10}x^2 + \\frac{18}{25}x + \\frac{43}{125} $$Exercise 9 : Initial Value Problems — First-Order Linear $\\frac{1}{2}y’ + 2y = 0$ (given that $y(0) = 3$) $\\frac{4}{7}y’ - \\frac{6}{5}y = 0$ (given that $y(10) = 1$) Exercise 10 : Parameter Determination — Using Initial/Boundary Values The DE $\\frac{1}{3}y’ - \\frac{2}{3}y = 0$ has for its general solution $y(x) = Ce^{2x}$. Calculate the value of the constant if\n$y(0) = 0$ $y(0) = -2$ $y(-1) = 1$ $y’(-1) = 2e^{-2}$ Exercise 11 : Boundary Value Problems — Simple Harmonic Solutions Solve $y’’ + 4y = 0$ for the following boundary conditions:\n$y(0) = 0$, $y\\left(\\frac{\\pi}{4}\\right) = 1$ $y\\left(\\frac{\\pi}{2}\\right) = -1$, $y’\\left(\\frac{\\pi}{2}\\right) = 1$ $y(0) = 0$, $y’(0) = 1$ $y\\left(\\frac{\\pi}{4}\\right) = a$, $y’’(0) = b$ Exercise 12 : Constant-Coefficient IVP — Reduction to Standard Form Solve $y’’ + y = 2y’$, given that $y(0) = 1$ and $y(1) = 0$.\nExercise 13 : First-Order Linear — Integrating Factor and Nonhomogeneous Terms Solve the following first-order linear DEs:\n$xy’ = 2y - x\\frac{y}{x}$ $y’ = \\frac{y}{x} + x$ $y’ + y\\tan x = \\sin 2x$ $xy’ + (1+x)y = xe^{-x}$ Exercise 14 : Bernoulli-Type Equations Verify that the following DEs can be brought into the form of Bernoulli-type equations and solve them.\n$y’ + xy = xy^3$ $y’ - \\frac{2}{x^2 - 1}y = -y^2$ $x^2y’ + xy^3 = 1$ $yy’ + \\frac{y^2}{x} + x = 0$ Exercise 15 : Separable Equations In the following DEs, the variables can be separated. Solve\n$y’ = e^{x-2y}$ $y’ + xy’ + \\frac{x}{y} = 0$ $xy’ + (\\ln x)y^2 = 0$ $(y’)^2 + xe^x y’ + xe^x = 1$ Exercise 16 : Exact Equations — Potential Functions Verify that the following are exact DEs. Find $F$ and solve.\n$2y’ + (4 - y^2) = 0$ $(1 - xe^{-y})y’ + e^{-y} = 0$ $2y - x^2 \\sin 2y$ $y’ + 2x \\cos^2 y = 0$ $(2x - 3)y’ + 3x^2 + 2y = 0$ Exercise 17 : Integrating Factors — Make Equations Exact You will remember that the integrating factor $\\mu(x, y)$ for a DE $p(x, y)y’ + q(x, y) = 0$ is easy to find in special cases. Solve the following equations by finding an integrating factor, $\\mu$, and then solving the exact equation.\n$\\sin y \\cdot y’ - \\cos y = -e^{2x}$ $(e^y - x)y’ + 1 = 0$ Exercise 18 : Systems of Linear ODEs — Eigenvalue Methods Solve the following simultaneous DEs:\n$x’ - 7x + y = 0$ $y’ - 2x - 5y = 0$ $x’ + y’ + 2x + y = 0$ $y’ + 5x + 3y = 0$ Exercise 19 : Variation of Parameters Use variation of parameters to find a particular solution for each of the following non-homogeneous ODEs and hence write the general solution.\n$y’’ + y = \\tan x$ on an interval where $\\tan x$ is defined. $y’’ - y = e^x/x$ for $x\u003e0$. Exercise 20 : Reduction of Order Given one solution, reduce the order to find a second linearly independent solution.\nIf $y_1(x)=e^{2x}$ solves $y’’ - 4y’ + 4y=0$, find $y_2(x)$. If $y_1(x)=x$ solves $x^2y’’-x(x+2)y’+(x+2)y=0$, find $y_2(x)$ for $x\u003e0$. Exercise 21 : Power Series Solutions Find the power-series solution about $x=0$ (up to the first four nonzero terms) for:\n$y’’ - xy = 0$. $y’’ + xy’ + y = 0$. Exercise 22 : Laplace Transform Techniques Solve the following initial-value problems using Laplace transforms.\n$y’’ + 3y’ + 2y = u(t-1)$, $y(0)=0$, $y’(0)=0$, where $u$ is the unit step. $y’’ + 4y = \\delta(t-\\pi)$, $y(0)=0$, $y’(0)=0$, where $\\delta$ is the Dirac delta. Exercise 23 : Sturm–Liouville / Eigenvalue Problems Find eigenvalues and eigenfunctions for the following boundary-value problems.\n$y’’ + \\lambda y = 0$, $y(0)=0$, $y(\\pi)=0$. $y’’ + \\lambda y = 0$, $y’(0)=0$, $y’(L)=0$. Exercise 24 : Numerical Methods — Euler and Stability Implement (by hand or pseudocode) the explicit Euler method for $y’=f(t,y)$ and analyze local truncation error for $y’=\\lambda y$.\nApply one Euler step to $y’= -5y$ with $y(0)=1$ and step $h=0.1$. Discuss stability condition for the explicit Euler method applied to $y’=\\lambda y$. Exercise 25 : Green’s Functions and Forcing Construct the Green’s function for the BVP $y’’=f(x)$ with $y(0)=0$, $y(1)=0$, and use it to write the solution operator. Provide explicit formula for $f(x)=x$.\n",
+  "wordCount" : "1053",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T10:09:01+01:00",
+  "dateModified": "2026-01-08T10:09:01+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Differential Equations
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 10:09:01 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>1053 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--classification--linear-vs-nonlinear">Exercise 1 : Classification — Linear vs Nonlinear</a></li>
+    <li><a href="#exercise-2--homogeneity-and-order">Exercise 2 : Homogeneity and Order</a></li>
+    <li><a href="#exercise-103--characteristic-equations--homogeneous-linear-odes">Exercise 10.3 : Characteristic Equations — Homogeneous Linear ODEs</a></li>
+    <li><a href="#exercise-4--first-order-linear--separable-and-exponential-solutions">Exercise 4 : First-Order Linear — Separable and Exponential Solutions</a></li>
+    <li><a href="#exercise-5--simple-second-order-integrations">Exercise 5 : Simple Second-Order Integrations</a></li>
+    <li><a href="#exercise-6--non-homogeneous-second-order--method-of-undetermined-coefficients">Exercise 6 : Non-homogeneous Second-Order — Method of Undetermined Coefficients</a></li>
+    <li><a href="#exercise-7--non-homogeneous-examples--polynomial-and-trigonometric-forcing">Exercise 7 : Non-homogeneous Examples — Polynomial and Trigonometric Forcing</a></li>
+    <li><a href="#exercise-8--verify-particular-integral-and-general-solution">Exercise 8 : Verify Particular Integral and General Solution</a></li>
+    <li><a href="#exercise-9--initial-value-problems--first-order-linear">Exercise 9 : Initial Value Problems — First-Order Linear</a></li>
+    <li><a href="#exercise-10--parameter-determination--using-initialboundary-values">Exercise 10 : Parameter Determination — Using Initial/Boundary Values</a></li>
+    <li><a href="#exercise-11--boundary-value-problems--simple-harmonic-solutions">Exercise 11 : Boundary Value Problems — Simple Harmonic Solutions</a></li>
+    <li><a href="#exercise-12--constant-coefficient-ivp--reduction-to-standard-form">Exercise 12 : Constant-Coefficient IVP — Reduction to Standard Form</a></li>
+    <li><a href="#exercise-13--first-order-linear--integrating-factor-and-nonhomogeneous-terms">Exercise 13 : First-Order Linear — Integrating Factor and Nonhomogeneous Terms</a></li>
+    <li><a href="#exercise-14--bernoulli-type-equations">Exercise 14 : Bernoulli-Type Equations</a></li>
+    <li><a href="#exercise-15--separable-equations">Exercise 15 : Separable Equations</a></li>
+    <li><a href="#exercise-16--exact-equations--potential-functions">Exercise 16 : Exact Equations — Potential Functions</a></li>
+    <li><a href="#exercise-17--integrating-factors--make-equations-exact">Exercise 17 : Integrating Factors — Make Equations Exact</a></li>
+    <li><a href="#exercise-18--systems-of-linear-odes--eigenvalue-methods">Exercise 18 : Systems of Linear ODEs — Eigenvalue Methods</a></li>
+    <li><a href="#exercise-19--variation-of-parameters">Exercise 19 : Variation of Parameters</a></li>
+    <li><a href="#exercise-20--reduction-of-order">Exercise 20 : Reduction of Order</a></li>
+    <li><a href="#exercise-21--power-series-solutions">Exercise 21 : Power Series Solutions</a></li>
+    <li><a href="#exercise-22--laplace-transform-techniques">Exercise 22 : Laplace Transform Techniques</a></li>
+    <li><a href="#exercise-23--sturmliouville--eigenvalue-problems">Exercise 23 : Sturm–Liouville / Eigenvalue Problems</a></li>
+    <li><a href="#exercise-24--numerical-methods--euler-and-stability">Exercise 24 : Numerical Methods — Euler and Stability</a></li>
+    <li><a href="#exercise-25--greens-functions-and-forcing">Exercise 25 : Green&rsquo;s Functions and Forcing</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="differential-equations">Differential Equations<a hidden class="anchor" aria-hidden="true" href="#differential-equations">#</a></h1>
+<h2 id="exercise-1--classification--linear-vs-nonlinear">Exercise 1 : Classification — Linear vs Nonlinear<a hidden class="anchor" aria-hidden="true" href="#exercise-1--classification--linear-vs-nonlinear">#</a></h2>
+<p>Which of the following are linear first- and second-order DEs with constant coefficients?</p>
+<ol>
+<li>$y&rsquo; + x^2 y = 2x$</li>
+<li>$5y&rsquo;&rsquo; - 2y&rsquo; - 4x = 3y$</li>
+<li>$y^4 + 2y&rsquo;&rsquo; + 3y&rsquo; = 0$</li>
+<li>$\sin x, y&rsquo;&rsquo; - y = 0$</li>
+<li>$y&rsquo;&rsquo; - x^5 = 2$</li>
+<li>$2y&rsquo;&rsquo; - y&rsquo; + \frac{3}{2}y = 0$</li>
+</ol>
+<h2 id="exercise-2--homogeneity-and-order">Exercise 2 : Homogeneity and Order<a hidden class="anchor" aria-hidden="true" href="#exercise-2--homogeneity-and-order">#</a></h2>
+<p>Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?</p>
+<ol>
+<li>$y&rsquo;&rsquo; + ax = 0$</li>
+<li>$\frac{5}{4}y&rsquo;&rsquo; + \frac{2}{3}y&rsquo; = \frac{1}{2}y$</li>
+<li>$2y&rsquo; = 3y$</li>
+<li>$\frac{3}{10}y&rsquo;&rsquo; + \frac{2}{5}y&rsquo; + \frac{1}{6}y - \sin x = 0$</li>
+<li>$3y&rsquo;&rsquo; + y&rsquo; = 2y$</li>
+</ol>
+<h2 id="exercise-103--characteristic-equations--homogeneous-linear-odes">Exercise 10.3 : Characteristic Equations — Homogeneous Linear ODEs<a hidden class="anchor" aria-hidden="true" href="#exercise-103--characteristic-equations--homogeneous-linear-odes">#</a></h2>
+<p>Solve the following DEs. In the case of complex roots give the real solution.</p>
+<ol>
+<li>$2y&rsquo;&rsquo; - 12y&rsquo; + 10y = 0$</li>
+<li>$4y&rsquo;&rsquo; - 12y&rsquo; + 9y = 0$</li>
+<li>$y&rsquo;&rsquo; + 2y&rsquo; + 5y = 0$</li>
+<li>$y&rsquo;&rsquo; - \frac{1}{2}y&rsquo; + \frac{5}{8}y = 0$</li>
+<li>$\frac{1}{4}y&rsquo;&rsquo; + \frac{1}{2}y&rsquo; - 2y = 0$</li>
+<li>$5y&rsquo;&rsquo; - 2y&rsquo; + y = 0$</li>
+</ol>
+<h2 id="exercise-4--first-order-linear--separable-and-exponential-solutions">Exercise 4 : First-Order Linear — Separable and Exponential Solutions<a hidden class="anchor" aria-hidden="true" href="#exercise-4--first-order-linear--separable-and-exponential-solutions">#</a></h2>
+<p>Solve the following DEs:</p>
+<ol>
+<li>$2y&rsquo; + 8y = 0$</li>
+<li>$\frac{1}{5}y&rsquo; = 6y$</li>
+<li>$3y&rsquo; = 6y$</li>
+</ol>
+<h2 id="exercise-5--simple-second-order-integrations">Exercise 5 : Simple Second-Order Integrations<a hidden class="anchor" aria-hidden="true" href="#exercise-5--simple-second-order-integrations">#</a></h2>
+<p>Obtain the general solution of the following second-order DEs:</p>
+<ol>
+<li>$S&rsquo;&rsquo;(t) = 2t$</li>
+<li>$x&rsquo;&rsquo;(t) = -\omega^2 \cos \omega t$</li>
+</ol>
+<h2 id="exercise-6--non-homogeneous-second-order--method-of-undetermined-coefficients">Exercise 6 : Non-homogeneous Second-Order — Method of Undetermined Coefficients<a hidden class="anchor" aria-hidden="true" href="#exercise-6--non-homogeneous-second-order--method-of-undetermined-coefficients">#</a></h2>
+<ol>
+<li>$y&rsquo;&rsquo; + y&rsquo; + y = 2x + 3$</li>
+<li>$y&rsquo;&rsquo; + 4y&rsquo; + 2y = 2x + 3$</li>
+</ol>
+<h2 id="exercise-7--non-homogeneous-examples--polynomial-and-trigonometric-forcing">Exercise 7 : Non-homogeneous Examples — Polynomial and Trigonometric Forcing<a hidden class="anchor" aria-hidden="true" href="#exercise-7--non-homogeneous-examples--polynomial-and-trigonometric-forcing">#</a></h2>
+<ol>
+<li>$7y&rsquo;&rsquo; - 4y&rsquo; - 3y = 6$</li>
+<li>$y&rsquo;&rsquo; - 10y&rsquo; + 9y = 9x$</li>
+<li>$3y&rsquo;&rsquo; - y&rsquo; - 4y = x^2$</li>
+<li>$y&rsquo;&rsquo; + 2y&rsquo; + 5y = \cos 2x$</li>
+</ol>
+<h2 id="exercise-8--verify-particular-integral-and-general-solution">Exercise 8 : Verify Particular Integral and General Solution<a hidden class="anchor" aria-hidden="true" href="#exercise-8--verify-particular-integral-and-general-solution">#</a></h2>
+<p>A particular integral $y_p(x)$ of the following non-homogeneous DE is known. Check that it is a solution and obtain the general solution of the DE.</p>
+$$
+\frac{1}{2}y'' - 3y' + \frac{5}{2}y = \frac{3}{4}x^2 - 1, \,\quad y_p(x) = \frac{3}{10}x^2 + \frac{18}{25}x + \frac{43}{125}
+$$<h2 id="exercise-9--initial-value-problems--first-order-linear">Exercise 9 : Initial Value Problems — First-Order Linear<a hidden class="anchor" aria-hidden="true" href="#exercise-9--initial-value-problems--first-order-linear">#</a></h2>
+<ol>
+<li>$\frac{1}{2}y&rsquo; + 2y = 0$ (given that $y(0) = 3$)</li>
+<li>$\frac{4}{7}y&rsquo; - \frac{6}{5}y = 0$ (given that $y(10) = 1$)</li>
+</ol>
+<h2 id="exercise-10--parameter-determination--using-initialboundary-values">Exercise 10 : Parameter Determination — Using Initial/Boundary Values<a hidden class="anchor" aria-hidden="true" href="#exercise-10--parameter-determination--using-initialboundary-values">#</a></h2>
+<p>The DE $\frac{1}{3}y&rsquo; - \frac{2}{3}y = 0$ has for its general solution $y(x) = Ce^{2x}$. Calculate the value of the constant if</p>
+<ol>
+<li>$y(0) = 0$</li>
+<li>$y(0) = -2$</li>
+<li>$y(-1) = 1$</li>
+<li>$y&rsquo;(-1) = 2e^{-2}$</li>
+</ol>
+<h2 id="exercise-11--boundary-value-problems--simple-harmonic-solutions">Exercise 11 : Boundary Value Problems — Simple Harmonic Solutions<a hidden class="anchor" aria-hidden="true" href="#exercise-11--boundary-value-problems--simple-harmonic-solutions">#</a></h2>
+<p>Solve $y&rsquo;&rsquo; + 4y = 0$ for the following boundary conditions:</p>
+<ol>
+<li>$y(0) = 0$, $y\left(\frac{\pi}{4}\right) = 1$</li>
+<li>$y\left(\frac{\pi}{2}\right) = -1$, $y&rsquo;\left(\frac{\pi}{2}\right) = 1$</li>
+<li>$y(0) = 0$, $y&rsquo;(0) = 1$</li>
+<li>$y\left(\frac{\pi}{4}\right) = a$, $y&rsquo;&rsquo;(0) = b$</li>
+</ol>
+<h2 id="exercise-12--constant-coefficient-ivp--reduction-to-standard-form">Exercise 12 : Constant-Coefficient IVP — Reduction to Standard Form<a hidden class="anchor" aria-hidden="true" href="#exercise-12--constant-coefficient-ivp--reduction-to-standard-form">#</a></h2>
+<p>Solve $y&rsquo;&rsquo; + y = 2y&rsquo;$, given that $y(0) = 1$ and $y(1) = 0$.</p>
+<h2 id="exercise-13--first-order-linear--integrating-factor-and-nonhomogeneous-terms">Exercise 13 : First-Order Linear — Integrating Factor and Nonhomogeneous Terms<a hidden class="anchor" aria-hidden="true" href="#exercise-13--first-order-linear--integrating-factor-and-nonhomogeneous-terms">#</a></h2>
+<p>Solve the following first-order linear DEs:</p>
+<ol>
+<li>$xy&rsquo; = 2y - x\frac{y}{x}$</li>
+<li>$y&rsquo; = \frac{y}{x} + x$</li>
+<li>$y&rsquo; + y\tan x = \sin 2x$</li>
+<li>$xy&rsquo; + (1+x)y = xe^{-x}$</li>
+</ol>
+<h2 id="exercise-14--bernoulli-type-equations">Exercise 14 : Bernoulli-Type Equations<a hidden class="anchor" aria-hidden="true" href="#exercise-14--bernoulli-type-equations">#</a></h2>
+<p>Verify that the following DEs can be brought into the form of Bernoulli-type equations and solve them.</p>
+<ol>
+<li>$y&rsquo; + xy = xy^3$</li>
+<li>$y&rsquo; - \frac{2}{x^2 - 1}y = -y^2$</li>
+<li>$x^2y&rsquo; + xy^3 = 1$</li>
+<li>$yy&rsquo; + \frac{y^2}{x} + x = 0$</li>
+</ol>
+<h2 id="exercise-15--separable-equations">Exercise 15 : Separable Equations<a hidden class="anchor" aria-hidden="true" href="#exercise-15--separable-equations">#</a></h2>
+<p>In the following DEs, the variables can be separated. Solve</p>
+<ol>
+<li>$y&rsquo; = e^{x-2y}$</li>
+<li>$y&rsquo; + xy&rsquo; + \frac{x}{y} = 0$</li>
+<li>$xy&rsquo; + (\ln x)y^2 = 0$</li>
+<li>$(y&rsquo;)^2 + xe^x y&rsquo; + xe^x = 1$</li>
+</ol>
+<h2 id="exercise-16--exact-equations--potential-functions">Exercise 16 : Exact Equations — Potential Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-16--exact-equations--potential-functions">#</a></h2>
+<p>Verify that the following are exact DEs. Find $F$ and solve.</p>
+<ol>
+<li>$2y&rsquo; + (4 - y^2) = 0$</li>
+<li>$(1 - xe^{-y})y&rsquo; + e^{-y} = 0$</li>
+<li>$2y - x^2 \sin 2y$ $y&rsquo; + 2x \cos^2 y = 0$</li>
+<li>$(2x - 3)y&rsquo; + 3x^2 + 2y = 0$</li>
+</ol>
+<h2 id="exercise-17--integrating-factors--make-equations-exact">Exercise 17 : Integrating Factors — Make Equations Exact<a hidden class="anchor" aria-hidden="true" href="#exercise-17--integrating-factors--make-equations-exact">#</a></h2>
+<p>You will remember that the integrating factor $\mu(x, y)$ for a DE $p(x, y)y&rsquo; + q(x, y) = 0$ is easy to find in special cases. Solve the following equations by finding an integrating factor, $\mu$, and then solving the exact equation.</p>
+<ol>
+<li>$\sin y \cdot y&rsquo; - \cos y = -e^{2x}$</li>
+<li>$(e^y - x)y&rsquo; + 1 = 0$</li>
+</ol>
+<h2 id="exercise-18--systems-of-linear-odes--eigenvalue-methods">Exercise 18 : Systems of Linear ODEs — Eigenvalue Methods<a hidden class="anchor" aria-hidden="true" href="#exercise-18--systems-of-linear-odes--eigenvalue-methods">#</a></h2>
+<p>Solve the following simultaneous DEs:</p>
+<ol>
+<li>$x&rsquo; - 7x + y = 0$
+$y&rsquo; - 2x - 5y = 0$</li>
+<li>$x&rsquo; + y&rsquo; + 2x + y = 0$
+$y&rsquo; + 5x + 3y = 0$</li>
+</ol>
+<h2 id="exercise-19--variation-of-parameters">Exercise 19 : Variation of Parameters<a hidden class="anchor" aria-hidden="true" href="#exercise-19--variation-of-parameters">#</a></h2>
+<p>Use variation of parameters to find a particular solution for each of the following non-homogeneous ODEs and hence write the general solution.</p>
+<ol>
+<li>$y&rsquo;&rsquo; + y = \tan x$ on an interval where $\tan x$ is defined.</li>
+<li>$y&rsquo;&rsquo; - y = e^x/x$ for $x&gt;0$.</li>
+</ol>
+<h2 id="exercise-20--reduction-of-order">Exercise 20 : Reduction of Order<a hidden class="anchor" aria-hidden="true" href="#exercise-20--reduction-of-order">#</a></h2>
+<p>Given one solution, reduce the order to find a second linearly independent solution.</p>
+<ol>
+<li>If $y_1(x)=e^{2x}$ solves $y&rsquo;&rsquo; - 4y&rsquo; + 4y=0$, find $y_2(x)$.</li>
+<li>If $y_1(x)=x$ solves $x^2y&rsquo;&rsquo;-x(x+2)y&rsquo;+(x+2)y=0$, find $y_2(x)$ for $x&gt;0$.</li>
+</ol>
+<h2 id="exercise-21--power-series-solutions">Exercise 21 : Power Series Solutions<a hidden class="anchor" aria-hidden="true" href="#exercise-21--power-series-solutions">#</a></h2>
+<p>Find the power-series solution about $x=0$ (up to the first four nonzero terms) for:</p>
+<ol>
+<li>$y&rsquo;&rsquo; - xy = 0$.</li>
+<li>$y&rsquo;&rsquo; + xy&rsquo; + y = 0$.</li>
+</ol>
+<h2 id="exercise-22--laplace-transform-techniques">Exercise 22 : Laplace Transform Techniques<a hidden class="anchor" aria-hidden="true" href="#exercise-22--laplace-transform-techniques">#</a></h2>
+<p>Solve the following initial-value problems using Laplace transforms.</p>
+<ol>
+<li>$y&rsquo;&rsquo; + 3y&rsquo; + 2y = u(t-1)$, $y(0)=0$, $y&rsquo;(0)=0$, where $u$ is the unit step.</li>
+<li>$y&rsquo;&rsquo; + 4y = \delta(t-\pi)$, $y(0)=0$, $y&rsquo;(0)=0$, where $\delta$ is the Dirac delta.</li>
+</ol>
+<h2 id="exercise-23--sturmliouville--eigenvalue-problems">Exercise 23 : Sturm–Liouville / Eigenvalue Problems<a hidden class="anchor" aria-hidden="true" href="#exercise-23--sturmliouville--eigenvalue-problems">#</a></h2>
+<p>Find eigenvalues and eigenfunctions for the following boundary-value problems.</p>
+<ol>
+<li>$y&rsquo;&rsquo; + \lambda y = 0$, $y(0)=0$, $y(\pi)=0$.</li>
+<li>$y&rsquo;&rsquo; + \lambda y = 0$, $y&rsquo;(0)=0$, $y&rsquo;(L)=0$.</li>
+</ol>
+<h2 id="exercise-24--numerical-methods--euler-and-stability">Exercise 24 : Numerical Methods — Euler and Stability<a hidden class="anchor" aria-hidden="true" href="#exercise-24--numerical-methods--euler-and-stability">#</a></h2>
+<p>Implement (by hand or pseudocode) the explicit Euler method for $y&rsquo;=f(t,y)$ and analyze local truncation error for $y&rsquo;=\lambda y$.</p>
+<ol>
+<li>Apply one Euler step to $y&rsquo;= -5y$ with $y(0)=1$ and step $h=0.1$.</li>
+<li>Discuss stability condition for the explicit Euler method applied to $y&rsquo;=\lambda y$.</li>
+</ol>
+<h2 id="exercise-25--greens-functions-and-forcing">Exercise 25 : Green&rsquo;s Functions and Forcing<a hidden class="anchor" aria-hidden="true" href="#exercise-25--greens-functions-and-forcing">#</a></h2>
+<p>Construct the Green&rsquo;s function for the BVP $y&rsquo;&rsquo;=f(x)$ with $y(0)=0$, $y(1)=0$, and use it to write the solution operator. Provide explicit formula for $f(x)=x$.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/calculus/">Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/differential-equations/">Differential Equations</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Eigenvalues and Eigenvectors of Real Matrices</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/calculus/en/differential-calculus/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Differential Calculus</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

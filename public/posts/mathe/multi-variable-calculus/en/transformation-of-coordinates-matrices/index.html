@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Transformation of Coordinates; Matrices | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Multi Variable Calculus, Matrices, Coordinate Systems, Applied Mathematics">
+<meta name="description" content="Transformation of Coordinates; Matrices
+Exercise 1 : Shift Paraboloid
+The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 &#43; x^2 &#43; y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?
+Exercise 2 : Line Under Translation
+The equation of a certain straight line is $y = -3x &#43; 5$. What will its equation be in a new $x&rsquo;$-$y&rsquo;$ coordinate system due to a shift of the origin of $(-2,3)$?">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Transformation of Coordinates; Matrices">
+  <meta property="og:description" content="Transformation of Coordinates; Matrices Exercise 1 : Shift Paraboloid The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 &#43; x^2 &#43; y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?
+Exercise 2 : Line Under Translation The equation of a certain straight line is $y = -3x &#43; 5$. What will its equation be in a new $x’$-$y’$ coordinate system due to a shift of the origin of $(-2,3)$?">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T11:36:28+01:00">
+    <meta property="article:modified_time" content="2026-01-08T11:36:28+01:00">
+    <meta property="article:tag" content="Multi Variable Calculus">
+    <meta property="article:tag" content="Matrices">
+    <meta property="article:tag" content="Coordinate Systems">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Transformation of Coordinates; Matrices">
+<meta name="twitter:description" content="Transformation of Coordinates; Matrices
+Exercise 1 : Shift Paraboloid
+The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 &#43; x^2 &#43; y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?
+Exercise 2 : Line Under Translation
+The equation of a certain straight line is $y = -3x &#43; 5$. What will its equation be in a new $x&rsquo;$-$y&rsquo;$ coordinate system due to a shift of the origin of $(-2,3)$?">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Transformation of Coordinates; Matrices",
+      "item": "http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Transformation of Coordinates; Matrices",
+  "name": "Transformation of Coordinates; Matrices",
+  "description": "Transformation of Coordinates; Matrices Exercise 1 : Shift Paraboloid The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 + x^2 + y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?\nExercise 2 : Line Under Translation The equation of a certain straight line is $y = -3x + 5$. What will its equation be in a new $x\u0026rsquo;$-$y\u0026rsquo;$ coordinate system due to a shift of the origin of $(-2,3)$?\n",
+  "keywords": [
+    "Multi Variable Calculus", "Matrices", "Coordinate Systems", "Applied Mathematics"
+  ],
+  "articleBody": "Transformation of Coordinates; Matrices Exercise 1 : Shift Paraboloid The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 + x^2 + y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?\nExercise 2 : Line Under Translation The equation of a certain straight line is $y = -3x + 5$. What will its equation be in a new $x’$-$y’$ coordinate system due to a shift of the origin of $(-2,3)$?\nExercise 3 : Rotation (2D) A two-dimensional system of coordinates is rotated through an angle of $\\pi/3$. The transformation matrix is:\n$$ \\begin{pmatrix} \\frac{1}{2} \u0026 \\frac{\\sqrt{3}}{2} \\\\ -\\frac{\\sqrt{3}}{2} \u0026 \\frac{1}{2} \\end{pmatrix} $$What is the new vector $\\mathbf{r}’$ if $\\mathbf{r} = (2,4)$?\nExercise 4 : Rotated Line Equation Given the equation $y = -x/\\sqrt{3} + 2$, if the system of coordinates is rotated through an angle of $60^\\circ$ obtain an expression for the equation in the rotated system.\nExercise 5 : Rotation About z-Axis (3D) A three-dimensional system of coordinates is rotated about the $z$-axis through an angle of $30^\\circ$. Obtain the transformed vector $\\mathbf{r}’$ if $\\mathbf{r} = (3,3,3)$.\nExercise 6 : Matrix Addition and Subtraction Given the two matrices $A$ and $B$ where:\n$$ A = \\begin{pmatrix} 1 \u0026 3 \\\\ 2 \u0026 5 \\end{pmatrix} \\quad \\text{and} \\quad B = \\begin{pmatrix} 2 \u0026 0 \\\\ -1 \u0026 3 \\end{pmatrix} $$ evaluate\n$A + B$, $A - B$. Exercise 7 : Scalar Multiplication and Noncommutativity Let $$ A = \\begin{pmatrix} 2 \u0026 7 \\\\ 3 \u0026 0 \\end{pmatrix} \\quad \\text{and} \\quad B = \\begin{pmatrix} 9 \u0026 3 \\\\ 1 \u0026 -2 \\end{pmatrix} $$ Evaluate the matrix $6A$. Show that the expression $AB \\neq BA$. Exercise 8 : Matrix Multiplication Given $$ A = \\begin{pmatrix} 1 \u0026 2 \\\\ 7 \u0026 3 \\end{pmatrix} \\quad \\text{and} \\quad B = \\begin{pmatrix} -1 \u0026 0 \\\\ 2 \u0026 3 \\end{pmatrix} $$ evaluate $AB$.\nExercise 9 : Matrix-Vector Product Evaluate the product $A \\mathbf{r}$ if $$ A = \\begin{pmatrix} 1 \u0026 -2 \\\\ 5 \u0026 7 \\end{pmatrix}, \\quad \\mathbf{r} = \\begin{pmatrix} x \\\\ y \\end{pmatrix} $$Exercise 10 : Transpose Properties Given $$ A = \\begin{pmatrix} 1 \u0026 2 \\\\ 4 \u0026 -3 \\\\ 3 \u0026 0 \\end{pmatrix} $$ evaluate\n$A^T$ $(A^T)^T$ Exercise 11 : Skew-Symmetric Matrix How many independent entries are there in a skew-symmetric $3 \\times 3$ matrix?\nExercise 12 : Skew-Symmetric Matrix Decomposition Decompose into a symmetric and a skew-symmetric matrix: $$ \\begin{pmatrix} 54 \u0026 1 \u0026 1 \\\\ 0 \u0026 26 \u0026 20 \\\\ 8 \u0026 84 \u0026 9 \\end{pmatrix} $$Exercise 13 : Inverse Matrix If $$ A = \\begin{pmatrix} 1 \u0026 0 \u0026 3 \\\\ 2 \u0026 -3 \u0026 1 \\\\ 1 \u0026 2 \u0026 2 \\end{pmatrix} \\quad \\text{and} \\quad A^{-1} = \\frac{1}{13} \\begin{pmatrix} -8 \u0026 6 \u0026 9 \\\\ -3 \u0026 -1 \u0026 5 \\\\ 7 \u0026 -2 \u0026 -3 \\end{pmatrix} $$ show that $A A^{-1} = A^{-1} A = I$.\nExercise 14 : Determinant and Volume Compute the determinant of $$ B = \\begin{pmatrix} 2 \u0026 1 \u0026 0 \\\\ 1 \u0026 3 \u0026 4 \\\\ 0 \u0026 -1 \u0026 2 \\end{pmatrix} $$ and interpret the absolute value of $\\det(B)$ as the volume scaling factor of the linear map in $\\mathbb{R}^3$.\nExercise 15 : Rank and Linear Independence Find the rank of $$ C = \\begin{pmatrix} 1 \u0026 2 \u0026 3 \\\\ 2 \u0026 4 \u0026 6 \\\\ 1 \u0026 0 \u0026 1 \\end{pmatrix} $$ and determine whether its columns are linearly independent.\nExercise 16 : Eigenvalues and Eigenvectors Find the eigenvalues and eigenvectors of $$ D = \\begin{pmatrix} 4 \u0026 1 \\\\ 2 \u0026 3 \\end{pmatrix} $$ Compute the characteristic polynomial and diagonalize if possible.\nExercise 17 : Diagonalization Determine whether $$ E = \\begin{pmatrix} 3 \u0026 1 \u0026 0 \\\\ 0 \u0026 3 \u0026 0 \\\\ 0 \u0026 0 \u0026 2 \\end{pmatrix} $$ is diagonalizable. If so, find an invertible $P$ and diagonal $\\Lambda$ such that $E = P \\Lambda P^{-1}$.\nExercise 18 : Orthogonal Projection Find the matrix that projects vectors in $\\mathbb{R}^3$ orthogonally onto the line spanned by $\\mathbf{u} = (1,2,2)$.\nExercise 19 : Gram-Schmidt Orthonormalization Apply the Gram–Schmidt process to the vectors $\\mathbf{v}_1 = (1,1,0)$, $\\mathbf{v}_2 = (1,0,1)$ to produce an orthonormal set.\nExercise 20 : Change of Basis Let $\\mathcal{B} = {(1,1),(1,-1)}$ be a basis of $\\mathbb{R}^2$. Find the change-of-basis matrix from $\\mathcal{B}$-coordinates to standard coordinates, and compute the coordinates of $(3,1)$ in the $\\mathcal{B}$ basis.\nExercise 21 : Composition of Transformations Consider a rotation in the plane by $45^\\circ$ followed by a reflection in the $x$-axis. Write down the matrices for each transformation, compute their product, and describe the resulting transformation.\n",
+  "wordCount" : "794",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T11:36:28+01:00",
+  "dateModified": "2026-01-08T11:36:28+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Transformation of Coordinates; Matrices
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 11:36:28 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>794 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--shift-paraboloid">Exercise 1 : Shift Paraboloid</a></li>
+    <li><a href="#exercise-2--line-under-translation">Exercise 2 : Line Under Translation</a></li>
+    <li><a href="#exercise-3--rotation-2d">Exercise 3 : Rotation (2D)</a></li>
+    <li><a href="#exercise-4--rotated-line-equation">Exercise 4 : Rotated Line Equation</a></li>
+    <li><a href="#exercise-5--rotation-about-z-axis-3d">Exercise 5 : Rotation About z-Axis (3D)</a></li>
+    <li><a href="#exercise-6--matrix-addition-and-subtraction">Exercise 6 : Matrix Addition and Subtraction</a></li>
+    <li><a href="#exercise-7--scalar-multiplication-and-noncommutativity">Exercise 7 : Scalar Multiplication and Noncommutativity</a></li>
+    <li><a href="#exercise-8--matrix-multiplication">Exercise 8 : Matrix Multiplication</a></li>
+    <li><a href="#exercise-9--matrix-vector-product">Exercise 9 : Matrix-Vector Product</a></li>
+    <li><a href="#exercise-10--transpose-properties">Exercise 10 : Transpose Properties</a></li>
+    <li><a href="#exercise-11--skew-symmetric-matrix">Exercise 11 : Skew-Symmetric Matrix</a></li>
+    <li><a href="#exercise-12--skew-symmetric-matrix-decomposition">Exercise 12 : Skew-Symmetric Matrix Decomposition</a></li>
+    <li><a href="#exercise-13--inverse-matrix">Exercise 13 : Inverse Matrix</a></li>
+    <li><a href="#exercise-14--determinant-and-volume">Exercise 14 : Determinant and Volume</a></li>
+    <li><a href="#exercise-15--rank-and-linear-independence">Exercise 15 : Rank and Linear Independence</a></li>
+    <li><a href="#exercise-16--eigenvalues-and-eigenvectors">Exercise 16 : Eigenvalues and Eigenvectors</a></li>
+    <li><a href="#exercise-17--diagonalization">Exercise 17 : Diagonalization</a></li>
+    <li><a href="#exercise-18--orthogonal-projection">Exercise 18 : Orthogonal Projection</a></li>
+    <li><a href="#exercise-19--gram-schmidt-orthonormalization">Exercise 19 : Gram-Schmidt Orthonormalization</a></li>
+    <li><a href="#exercise-20--change-of-basis">Exercise 20 : Change of Basis</a></li>
+    <li><a href="#exercise-21--composition-of-transformations">Exercise 21 : Composition of Transformations</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="transformation-of-coordinates-matrices">Transformation of Coordinates; Matrices<a hidden class="anchor" aria-hidden="true" href="#transformation-of-coordinates-matrices">#</a></h1>
+<h2 id="exercise-1--shift-paraboloid">Exercise 1 : Shift Paraboloid<a hidden class="anchor" aria-hidden="true" href="#exercise-1--shift-paraboloid">#</a></h2>
+<p>The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 + x^2 + y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?</p>
+<h2 id="exercise-2--line-under-translation">Exercise 2 : Line Under Translation<a hidden class="anchor" aria-hidden="true" href="#exercise-2--line-under-translation">#</a></h2>
+<p>The equation of a certain straight line is $y = -3x + 5$. What will its equation be in a new $x&rsquo;$-$y&rsquo;$ coordinate system due to a shift of the origin of $(-2,3)$?</p>
+<h2 id="exercise-3--rotation-2d">Exercise 3 : Rotation (2D)<a hidden class="anchor" aria-hidden="true" href="#exercise-3--rotation-2d">#</a></h2>
+<p>A two-dimensional system of coordinates is rotated through an angle of $\pi/3$. The transformation matrix is:</p>
+$$
+\begin{pmatrix}
+\frac{1}{2} & \frac{\sqrt{3}}{2} \\
+-\frac{\sqrt{3}}{2} & \frac{1}{2}
+\end{pmatrix}
+$$<p>What is the new vector $\mathbf{r}&rsquo;$ if $\mathbf{r} = (2,4)$?</p>
+<h2 id="exercise-4--rotated-line-equation">Exercise 4 : Rotated Line Equation<a hidden class="anchor" aria-hidden="true" href="#exercise-4--rotated-line-equation">#</a></h2>
+<p>Given the equation $y = -x/\sqrt{3} + 2$, if the system of coordinates is rotated through an angle of $60^\circ$ obtain an expression for the equation in the rotated system.</p>
+<h2 id="exercise-5--rotation-about-z-axis-3d">Exercise 5 : Rotation About z-Axis (3D)<a hidden class="anchor" aria-hidden="true" href="#exercise-5--rotation-about-z-axis-3d">#</a></h2>
+<p>A three-dimensional system of coordinates is rotated about the $z$-axis through an angle of $30^\circ$. Obtain the transformed vector $\mathbf{r}&rsquo;$ if $\mathbf{r} = (3,3,3)$.</p>
+<h2 id="exercise-6--matrix-addition-and-subtraction">Exercise 6 : Matrix Addition and Subtraction<a hidden class="anchor" aria-hidden="true" href="#exercise-6--matrix-addition-and-subtraction">#</a></h2>
+<p>Given the two matrices $A$ and $B$ where:</p>
+$$
+A = \begin{pmatrix}
+1 & 3 \\
+2 & 5
+\end{pmatrix}
+\quad \text{and} \quad
+B = \begin{pmatrix}
+2 & 0 \\
+-1 & 3
+\end{pmatrix}
+$$<p>
+evaluate</p>
+<ol>
+<li>$A + B$,</li>
+<li>$A - B$.</li>
+</ol>
+<h2 id="exercise-7--scalar-multiplication-and-noncommutativity">Exercise 7 : Scalar Multiplication and Noncommutativity<a hidden class="anchor" aria-hidden="true" href="#exercise-7--scalar-multiplication-and-noncommutativity">#</a></h2>
+<p>Let
+</p>
+$$
+A = \begin{pmatrix}
+2 & 7 \\
+3 & 0
+\end{pmatrix}
+\quad \text{and} \quad
+B = \begin{pmatrix}
+9 & 3 \\
+1 & -2
+\end{pmatrix}
+$$<ol>
+<li>Evaluate the matrix $6A$.</li>
+<li>Show that the expression $AB \neq BA$.</li>
+</ol>
+<h2 id="exercise-8--matrix-multiplication">Exercise 8 : Matrix Multiplication<a hidden class="anchor" aria-hidden="true" href="#exercise-8--matrix-multiplication">#</a></h2>
+<p>Given
+</p>
+$$
+A = \begin{pmatrix}
+1 & 2 \\
+7 & 3
+\end{pmatrix}
+\quad \text{and} \quad
+B = \begin{pmatrix}
+-1 & 0 \\
+2 & 3
+\end{pmatrix}
+$$<p>
+evaluate $AB$.</p>
+<h2 id="exercise-9--matrix-vector-product">Exercise 9 : Matrix-Vector Product<a hidden class="anchor" aria-hidden="true" href="#exercise-9--matrix-vector-product">#</a></h2>
+<p>Evaluate the product $A \mathbf{r}$ if
+</p>
+$$
+A = \begin{pmatrix} 1 & -2 \\
+5 & 7 \end{pmatrix}, \quad \mathbf{r} = \begin{pmatrix} x \\
+y \end{pmatrix}
+$$<h2 id="exercise-10--transpose-properties">Exercise 10 : Transpose Properties<a hidden class="anchor" aria-hidden="true" href="#exercise-10--transpose-properties">#</a></h2>
+<p>Given
+</p>
+$$
+A = \begin{pmatrix} 1 & 2 \\
+4 & -3 \\
+3 & 0 \end{pmatrix}
+$$<p>
+evaluate</p>
+<ol>
+<li>$A^T$</li>
+<li>$(A^T)^T$</li>
+</ol>
+<h2 id="exercise-11--skew-symmetric-matrix">Exercise 11 : Skew-Symmetric Matrix<a hidden class="anchor" aria-hidden="true" href="#exercise-11--skew-symmetric-matrix">#</a></h2>
+<p>How many independent entries are there in a skew-symmetric $3 \times 3$ matrix?</p>
+<h2 id="exercise-12--skew-symmetric-matrix-decomposition">Exercise 12 : Skew-Symmetric Matrix Decomposition<a hidden class="anchor" aria-hidden="true" href="#exercise-12--skew-symmetric-matrix-decomposition">#</a></h2>
+<p>Decompose into a symmetric and a skew-symmetric matrix:
+</p>
+$$
+\begin{pmatrix} 54 & 1 & 1 \\
+0 & 26 & 20 \\
+8 & 84 & 9 \end{pmatrix}
+$$<h2 id="exercise-13--inverse-matrix">Exercise 13 : Inverse Matrix<a hidden class="anchor" aria-hidden="true" href="#exercise-13--inverse-matrix">#</a></h2>
+<p>If
+</p>
+$$
+A = \begin{pmatrix} 1 & 0 & 3 \\
+2 & -3 & 1 \\
+1 & 2 & 2 \end{pmatrix} \quad \text{and} \quad A^{-1} = \frac{1}{13} \begin{pmatrix} -8 & 6 & 9 \\
+-3 & -1 & 5 \\
+7 & -2 & -3 \end{pmatrix}
+$$<p>
+show that $A A^{-1} = A^{-1} A = I$.</p>
+<h2 id="exercise-14--determinant-and-volume">Exercise 14 : Determinant and Volume<a hidden class="anchor" aria-hidden="true" href="#exercise-14--determinant-and-volume">#</a></h2>
+<p>Compute the determinant of
+</p>
+$$
+B = \begin{pmatrix} 2 & 1 & 0 \\
+1 & 3 & 4 \\
+0 & -1 & 2 \end{pmatrix}
+$$<p>
+and interpret the absolute value of $\det(B)$ as the volume scaling factor of the linear map in $\mathbb{R}^3$.</p>
+<h2 id="exercise-15--rank-and-linear-independence">Exercise 15 : Rank and Linear Independence<a hidden class="anchor" aria-hidden="true" href="#exercise-15--rank-and-linear-independence">#</a></h2>
+<p>Find the rank of
+</p>
+$$
+C = \begin{pmatrix} 1 & 2 & 3 \\
+2 & 4 & 6 \\
+1 & 0 & 1 \end{pmatrix}
+$$<p>
+and determine whether its columns are linearly independent.</p>
+<h2 id="exercise-16--eigenvalues-and-eigenvectors">Exercise 16 : Eigenvalues and Eigenvectors<a hidden class="anchor" aria-hidden="true" href="#exercise-16--eigenvalues-and-eigenvectors">#</a></h2>
+<p>Find the eigenvalues and eigenvectors of
+</p>
+$$
+D = \begin{pmatrix} 4 & 1 \\
+2 & 3 \end{pmatrix}
+$$<p>
+Compute the characteristic polynomial and diagonalize if possible.</p>
+<h2 id="exercise-17--diagonalization">Exercise 17 : Diagonalization<a hidden class="anchor" aria-hidden="true" href="#exercise-17--diagonalization">#</a></h2>
+<p>Determine whether
+</p>
+$$
+E = \begin{pmatrix} 3 & 1 & 0 \\
+0 & 3 & 0 \\
+0 & 0 & 2 \end{pmatrix}
+$$<p>
+is diagonalizable. If so, find an invertible $P$ and diagonal $\Lambda$ such that $E = P \Lambda P^{-1}$.</p>
+<h2 id="exercise-18--orthogonal-projection">Exercise 18 : Orthogonal Projection<a hidden class="anchor" aria-hidden="true" href="#exercise-18--orthogonal-projection">#</a></h2>
+<p>Find the matrix that projects vectors in $\mathbb{R}^3$ orthogonally onto the line spanned by $\mathbf{u} = (1,2,2)$.</p>
+<h2 id="exercise-19--gram-schmidt-orthonormalization">Exercise 19 : Gram-Schmidt Orthonormalization<a hidden class="anchor" aria-hidden="true" href="#exercise-19--gram-schmidt-orthonormalization">#</a></h2>
+<p>Apply the Gram&ndash;Schmidt process to the vectors $\mathbf{v}_1 = (1,1,0)$, $\mathbf{v}_2 = (1,0,1)$ to produce an orthonormal set.</p>
+<h2 id="exercise-20--change-of-basis">Exercise 20 : Change of Basis<a hidden class="anchor" aria-hidden="true" href="#exercise-20--change-of-basis">#</a></h2>
+<p>Let $\mathcal{B} = {(1,1),(1,-1)}$ be a basis of $\mathbb{R}^2$. Find the change-of-basis matrix from $\mathcal{B}$-coordinates to standard coordinates, and compute the coordinates of $(3,1)$ in the $\mathcal{B}$ basis.</p>
+<h2 id="exercise-21--composition-of-transformations">Exercise 21 : Composition of Transformations<a hidden class="anchor" aria-hidden="true" href="#exercise-21--composition-of-transformations">#</a></h2>
+<p>Consider a rotation in the plane by $45^\circ$ followed by a reflection in the $x$-axis. Write down the matrices for each transformation, compute their product, and describe the resulting transformation.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/multi-variable-calculus/">Multi Variable Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/matrices/">Matrices</a></li>
+      <li><a href="http://localhost:1313/tags/coordinate-systems/">Coordinate Systems</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Taylor Series and Power Series</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

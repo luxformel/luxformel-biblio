@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Multiple Integrals; Coordinate Systems | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Multi Variable Calculus, Coordinate Systems, Integrals, Applied Mathematics">
+<meta name="description" content="Multiple Integrals; Coordinate Systems
+Exercise 1 : Multiple Integrals with Constant Limits
+Evaluate the following multiple integrals:
+
+$\int_{y=0}^{b} \int_{x=0}^{a} dx dy$
+$\int_{y=0}^{2} \int_{x=0}^{1} x^2 dx dy$
+$\int_{x=0}^{\pi} \int_{y=0}^{\pi} \sin x \sin y dx dy$
+$\int_{n=1}^{2} \int_{v=2}^{4} n(1&#43;v) dv dn$
+$\int_{x=-1/2}^{1/2} \int_{y=-1}^{1} \int_{z=0}^{2} dx dy dz$
+$\int_{x=0}^{1} \int_{y=0}^{y_1} \int_{z=0}^{z_1} e^{az} dx dy dz$
+
+Exercise 2 : Multiple Integrals with Variable Limits
+Evaluate the integrals:
+
+$\int_{x=0}^{2} \int_{y=x-1}^{3x} x^2 dy dx$
+$\int_{x=0}^{1} \int_{y=0}^{2x} \int_{z=0}^{x&#43;y} dx dy dz$
+Using a double integral, obtain the area of an ellipse and the position of the center of mass of the half ellipse $(x \geq 0)$. The equation of an ellipse is $\frac{x^2}{a^2} &#43; \frac{y^2}{b^2} = 1$.
+
+Exercise 3 : Coordinate Systems
+
+A point has Cartesian coordinates $P = (3, 3)$. What are its polar coordinates?
+Give the equation of a circle of radius $R$ in Cartesian coordinates and polar coordinates.
+Obtain the equation of the spiral shown in Fig. 13.22 in polar coordinates.
+Evaluate $\int_{\theta=0}^{\pi/4} \int_{r=0}^{a} r^2 \cos \theta , dr , d\theta$.
+
+Exercise 4 : Cylindrical Coordinates
+
+Compute the volume of the hollow cylinder shown in Fig. 13.23 using cylindrical coordinates.
+Evaluate the volume of a cone of radius $R$ and height $h$. Obtain the moment of inertia of the cone about its center axis. The density $\rho$ is a constant.
+
+Exercise 5 : Moment of Inertia
+Calculate the moment of inertia of a sphere of radius $R$ and of constant density $\rho$ about an axis through its center, using spherical coordinates.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Multiple Integrals; Coordinate Systems">
+  <meta property="og:description" content="Multiple Integrals; Coordinate Systems Exercise 1 : Multiple Integrals with Constant Limits Evaluate the following multiple integrals:
+$\int_{y=0}^{b} \int_{x=0}^{a} dx dy$ $\int_{y=0}^{2} \int_{x=0}^{1} x^2 dx dy$ $\int_{x=0}^{\pi} \int_{y=0}^{\pi} \sin x \sin y dx dy$ $\int_{n=1}^{2} \int_{v=2}^{4} n(1&#43;v) dv dn$ $\int_{x=-1/2}^{1/2} \int_{y=-1}^{1} \int_{z=0}^{2} dx dy dz$ $\int_{x=0}^{1} \int_{y=0}^{y_1} \int_{z=0}^{z_1} e^{az} dx dy dz$ Exercise 2 : Multiple Integrals with Variable Limits Evaluate the integrals:
+$\int_{x=0}^{2} \int_{y=x-1}^{3x} x^2 dy dx$ $\int_{x=0}^{1} \int_{y=0}^{2x} \int_{z=0}^{x&#43;y} dx dy dz$ Using a double integral, obtain the area of an ellipse and the position of the center of mass of the half ellipse $(x \geq 0)$. The equation of an ellipse is $\frac{x^2}{a^2} &#43; \frac{y^2}{b^2} = 1$. Exercise 3 : Coordinate Systems A point has Cartesian coordinates $P = (3, 3)$. What are its polar coordinates? Give the equation of a circle of radius $R$ in Cartesian coordinates and polar coordinates. Obtain the equation of the spiral shown in Fig. 13.22 in polar coordinates. Evaluate $\int_{\theta=0}^{\pi/4} \int_{r=0}^{a} r^2 \cos \theta , dr , d\theta$. Exercise 4 : Cylindrical Coordinates Compute the volume of the hollow cylinder shown in Fig. 13.23 using cylindrical coordinates. Evaluate the volume of a cone of radius $R$ and height $h$. Obtain the moment of inertia of the cone about its center axis. The density $\rho$ is a constant. Exercise 5 : Moment of Inertia Calculate the moment of inertia of a sphere of radius $R$ and of constant density $\rho$ about an axis through its center, using spherical coordinates.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T11:07:40+01:00">
+    <meta property="article:modified_time" content="2026-01-08T11:07:40+01:00">
+    <meta property="article:tag" content="Multi Variable Calculus">
+    <meta property="article:tag" content="Coordinate Systems">
+    <meta property="article:tag" content="Integrals">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Multiple Integrals; Coordinate Systems">
+<meta name="twitter:description" content="Multiple Integrals; Coordinate Systems
+Exercise 1 : Multiple Integrals with Constant Limits
+Evaluate the following multiple integrals:
+
+$\int_{y=0}^{b} \int_{x=0}^{a} dx dy$
+$\int_{y=0}^{2} \int_{x=0}^{1} x^2 dx dy$
+$\int_{x=0}^{\pi} \int_{y=0}^{\pi} \sin x \sin y dx dy$
+$\int_{n=1}^{2} \int_{v=2}^{4} n(1&#43;v) dv dn$
+$\int_{x=-1/2}^{1/2} \int_{y=-1}^{1} \int_{z=0}^{2} dx dy dz$
+$\int_{x=0}^{1} \int_{y=0}^{y_1} \int_{z=0}^{z_1} e^{az} dx dy dz$
+
+Exercise 2 : Multiple Integrals with Variable Limits
+Evaluate the integrals:
+
+$\int_{x=0}^{2} \int_{y=x-1}^{3x} x^2 dy dx$
+$\int_{x=0}^{1} \int_{y=0}^{2x} \int_{z=0}^{x&#43;y} dx dy dz$
+Using a double integral, obtain the area of an ellipse and the position of the center of mass of the half ellipse $(x \geq 0)$. The equation of an ellipse is $\frac{x^2}{a^2} &#43; \frac{y^2}{b^2} = 1$.
+
+Exercise 3 : Coordinate Systems
+
+A point has Cartesian coordinates $P = (3, 3)$. What are its polar coordinates?
+Give the equation of a circle of radius $R$ in Cartesian coordinates and polar coordinates.
+Obtain the equation of the spiral shown in Fig. 13.22 in polar coordinates.
+Evaluate $\int_{\theta=0}^{\pi/4} \int_{r=0}^{a} r^2 \cos \theta , dr , d\theta$.
+
+Exercise 4 : Cylindrical Coordinates
+
+Compute the volume of the hollow cylinder shown in Fig. 13.23 using cylindrical coordinates.
+Evaluate the volume of a cone of radius $R$ and height $h$. Obtain the moment of inertia of the cone about its center axis. The density $\rho$ is a constant.
+
+Exercise 5 : Moment of Inertia
+Calculate the moment of inertia of a sphere of radius $R$ and of constant density $\rho$ about an axis through its center, using spherical coordinates.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Multiple Integrals; Coordinate Systems",
+      "item": "http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Multiple Integrals; Coordinate Systems",
+  "name": "Multiple Integrals; Coordinate Systems",
+  "description": "Multiple Integrals; Coordinate Systems Exercise 1 : Multiple Integrals with Constant Limits Evaluate the following multiple integrals:\n$\\int_{y=0}^{b} \\int_{x=0}^{a} dx dy$ $\\int_{y=0}^{2} \\int_{x=0}^{1} x^2 dx dy$ $\\int_{x=0}^{\\pi} \\int_{y=0}^{\\pi} \\sin x \\sin y dx dy$ $\\int_{n=1}^{2} \\int_{v=2}^{4} n(1+v) dv dn$ $\\int_{x=-1/2}^{1/2} \\int_{y=-1}^{1} \\int_{z=0}^{2} dx dy dz$ $\\int_{x=0}^{1} \\int_{y=0}^{y_1} \\int_{z=0}^{z_1} e^{az} dx dy dz$ Exercise 2 : Multiple Integrals with Variable Limits Evaluate the integrals:\n$\\int_{x=0}^{2} \\int_{y=x-1}^{3x} x^2 dy dx$ $\\int_{x=0}^{1} \\int_{y=0}^{2x} \\int_{z=0}^{x+y} dx dy dz$ Using a double integral, obtain the area of an ellipse and the position of the center of mass of the half ellipse $(x \\geq 0)$. The equation of an ellipse is $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. Exercise 3 : Coordinate Systems A point has Cartesian coordinates $P = (3, 3)$. What are its polar coordinates? Give the equation of a circle of radius $R$ in Cartesian coordinates and polar coordinates. Obtain the equation of the spiral shown in Fig. 13.22 in polar coordinates. Evaluate $\\int_{\\theta=0}^{\\pi/4} \\int_{r=0}^{a} r^2 \\cos \\theta , dr , d\\theta$. Exercise 4 : Cylindrical Coordinates Compute the volume of the hollow cylinder shown in Fig. 13.23 using cylindrical coordinates. Evaluate the volume of a cone of radius $R$ and height $h$. Obtain the moment of inertia of the cone about its center axis. The density $\\rho$ is a constant. Exercise 5 : Moment of Inertia Calculate the moment of inertia of a sphere of radius $R$ and of constant density $\\rho$ about an axis through its center, using spherical coordinates.\n",
+  "keywords": [
+    "Multi Variable Calculus", "Coordinate Systems", "Integrals", "Applied Mathematics"
+  ],
+  "articleBody": "Multiple Integrals; Coordinate Systems Exercise 1 : Multiple Integrals with Constant Limits Evaluate the following multiple integrals:\n$\\int_{y=0}^{b} \\int_{x=0}^{a} dx dy$ $\\int_{y=0}^{2} \\int_{x=0}^{1} x^2 dx dy$ $\\int_{x=0}^{\\pi} \\int_{y=0}^{\\pi} \\sin x \\sin y dx dy$ $\\int_{n=1}^{2} \\int_{v=2}^{4} n(1+v) dv dn$ $\\int_{x=-1/2}^{1/2} \\int_{y=-1}^{1} \\int_{z=0}^{2} dx dy dz$ $\\int_{x=0}^{1} \\int_{y=0}^{y_1} \\int_{z=0}^{z_1} e^{az} dx dy dz$ Exercise 2 : Multiple Integrals with Variable Limits Evaluate the integrals:\n$\\int_{x=0}^{2} \\int_{y=x-1}^{3x} x^2 dy dx$ $\\int_{x=0}^{1} \\int_{y=0}^{2x} \\int_{z=0}^{x+y} dx dy dz$ Using a double integral, obtain the area of an ellipse and the position of the center of mass of the half ellipse $(x \\geq 0)$. The equation of an ellipse is $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$. Exercise 3 : Coordinate Systems A point has Cartesian coordinates $P = (3, 3)$. What are its polar coordinates? Give the equation of a circle of radius $R$ in Cartesian coordinates and polar coordinates. Obtain the equation of the spiral shown in Fig. 13.22 in polar coordinates. Evaluate $\\int_{\\theta=0}^{\\pi/4} \\int_{r=0}^{a} r^2 \\cos \\theta , dr , d\\theta$. Exercise 4 : Cylindrical Coordinates Compute the volume of the hollow cylinder shown in Fig. 13.23 using cylindrical coordinates. Evaluate the volume of a cone of radius $R$ and height $h$. Obtain the moment of inertia of the cone about its center axis. The density $\\rho$ is a constant. Exercise 5 : Moment of Inertia Calculate the moment of inertia of a sphere of radius $R$ and of constant density $\\rho$ about an axis through its center, using spherical coordinates.\n",
+  "wordCount" : "247",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T11:07:40+01:00",
+  "dateModified": "2026-01-08T11:07:40+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Multiple Integrals; Coordinate Systems
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 11:07:40 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>247 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--multiple-integrals-with-constant-limits">Exercise 1 : Multiple Integrals with Constant Limits</a></li>
+    <li><a href="#exercise-2--multiple-integrals-with-variable-limits">Exercise 2 : Multiple Integrals with Variable Limits</a></li>
+    <li><a href="#exercise-3--coordinate-systems">Exercise 3 : Coordinate Systems</a></li>
+    <li><a href="#exercise-4--cylindrical-coordinates">Exercise 4 : Cylindrical Coordinates</a></li>
+    <li><a href="#exercise-5--moment-of-inertia">Exercise 5 : Moment of Inertia</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="multiple-integrals-coordinate-systems">Multiple Integrals; Coordinate Systems<a hidden class="anchor" aria-hidden="true" href="#multiple-integrals-coordinate-systems">#</a></h1>
+<h2 id="exercise-1--multiple-integrals-with-constant-limits">Exercise 1 : Multiple Integrals with Constant Limits<a hidden class="anchor" aria-hidden="true" href="#exercise-1--multiple-integrals-with-constant-limits">#</a></h2>
+<p>Evaluate the following multiple integrals:</p>
+<ol>
+<li>$\int_{y=0}^{b} \int_{x=0}^{a} dx dy$</li>
+<li>$\int_{y=0}^{2} \int_{x=0}^{1} x^2 dx dy$</li>
+<li>$\int_{x=0}^{\pi} \int_{y=0}^{\pi} \sin x \sin y dx dy$</li>
+<li>$\int_{n=1}^{2} \int_{v=2}^{4} n(1+v) dv dn$</li>
+<li>$\int_{x=-1/2}^{1/2} \int_{y=-1}^{1} \int_{z=0}^{2} dx dy dz$</li>
+<li>$\int_{x=0}^{1} \int_{y=0}^{y_1} \int_{z=0}^{z_1} e^{az} dx dy dz$</li>
+</ol>
+<h2 id="exercise-2--multiple-integrals-with-variable-limits">Exercise 2 : Multiple Integrals with Variable Limits<a hidden class="anchor" aria-hidden="true" href="#exercise-2--multiple-integrals-with-variable-limits">#</a></h2>
+<p>Evaluate the integrals:</p>
+<ol>
+<li>$\int_{x=0}^{2} \int_{y=x-1}^{3x} x^2 dy dx$</li>
+<li>$\int_{x=0}^{1} \int_{y=0}^{2x} \int_{z=0}^{x+y} dx dy dz$</li>
+<li>Using a double integral, obtain the area of an ellipse and the position of the center of mass of the half ellipse $(x \geq 0)$. The equation of an ellipse is $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$.</li>
+</ol>
+<h2 id="exercise-3--coordinate-systems">Exercise 3 : Coordinate Systems<a hidden class="anchor" aria-hidden="true" href="#exercise-3--coordinate-systems">#</a></h2>
+<ol>
+<li>A point has Cartesian coordinates $P = (3, 3)$. What are its polar coordinates?</li>
+<li>Give the equation of a circle of radius $R$ in Cartesian coordinates and polar coordinates.</li>
+<li>Obtain the equation of the spiral shown in Fig. 13.22 in polar coordinates.</li>
+<li>Evaluate $\int_{\theta=0}^{\pi/4} \int_{r=0}^{a} r^2 \cos \theta , dr , d\theta$.</li>
+</ol>
+<h2 id="exercise-4--cylindrical-coordinates">Exercise 4 : Cylindrical Coordinates<a hidden class="anchor" aria-hidden="true" href="#exercise-4--cylindrical-coordinates">#</a></h2>
+<ol>
+<li>Compute the volume of the hollow cylinder shown in Fig. 13.23 using cylindrical coordinates.</li>
+<li>Evaluate the volume of a cone of radius $R$ and height $h$. Obtain the moment of inertia of the cone about its center axis. The density $\rho$ is a constant.</li>
+</ol>
+<h2 id="exercise-5--moment-of-inertia">Exercise 5 : Moment of Inertia<a hidden class="anchor" aria-hidden="true" href="#exercise-5--moment-of-inertia">#</a></h2>
+<p>Calculate the moment of inertia of a sphere of radius $R$ and of constant density $\rho$ about an axis through its center, using spherical coordinates.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/multi-variable-calculus/">Multi Variable Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/coordinate-systems/">Coordinate Systems</a></li>
+      <li><a href="http://localhost:1313/tags/integrals/">Integrals</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Scalar and Vector Products</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Laplace Transforms</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

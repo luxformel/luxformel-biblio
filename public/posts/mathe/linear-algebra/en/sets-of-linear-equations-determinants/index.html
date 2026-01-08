@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Sets of Linear Equations; Determinants | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Linear Algebra, Linear Equations">
+<meta name="description" content="Sets of Linear Equations; Determinants
+Exercise 1 : Gaussian and Gauss-Jordan elimination
+Solve the following equations using either Gaussian or Gauss-Jordan elimination. Use matrix notation.
+
+
+
+$$
+   \begin{cases}
+   2x_1 &#43; x_2 &#43; 5x_3 = -21 \\
+   x_1 &#43; 5x_2 &#43; 2x_3 = 19 \\
+   5x_1 &#43; 2x_2 &#43; x_3 = 2
+   \end{cases}
+   $$
+
+$$
+   \begin{cases}
+   x - y &#43; 3z = 4 \\
+   23x &#43; 2y &#43; 4z = 13 \\
+   11.5x &#43; y &#43; 2z = 6.5
+   \end{cases}
+   $$
+
+$$
+   \begin{cases}
+   3x_1 &#43; 2x_2 &#43; x_3 = 49 \\
+   x_1 &#43; x_2 &#43; x_3 = 8 \\
+   5x_1 - 3x_2 &#43; x_3 = 0
+   \end{cases}
+   $$
+
+$$
+   \begin{cases}
+   1.2x - 0.9y &#43; 1.5z = 2.4 \\
+   0.8x - 0.5y &#43; 2.5z = 1.8 \\
+   1.6x - 1.2y &#43; 2z = 3.2
+   \end{cases}
+   $$
+
+Exercise 2 : Inverse Matrices
+Obtain the inverse of the following matrices:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Sets of Linear Equations; Determinants">
+  <meta property="og:description" content="Sets of Linear Equations; Determinants Exercise 1 : Gaussian and Gauss-Jordan elimination Solve the following equations using either Gaussian or Gauss-Jordan elimination. Use matrix notation.
+$$ \begin{cases} 2x_1 &#43; x_2 &#43; 5x_3 = -21 \\ x_1 &#43; 5x_2 &#43; 2x_3 = 19 \\ 5x_1 &#43; 2x_2 &#43; x_3 = 2 \end{cases} $$ $$ \begin{cases} x - y &#43; 3z = 4 \\ 23x &#43; 2y &#43; 4z = 13 \\ 11.5x &#43; y &#43; 2z = 6.5 \end{cases} $$ $$ \begin{cases} 3x_1 &#43; 2x_2 &#43; x_3 = 49 \\ x_1 &#43; x_2 &#43; x_3 = 8 \\ 5x_1 - 3x_2 &#43; x_3 = 0 \end{cases} $$ $$ \begin{cases} 1.2x - 0.9y &#43; 1.5z = 2.4 \\ 0.8x - 0.5y &#43; 2.5z = 1.8 \\ 1.6x - 1.2y &#43; 2z = 3.2 \end{cases} $$ Exercise 2 : Inverse Matrices Obtain the inverse of the following matrices:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T11:16:59+01:00">
+    <meta property="article:modified_time" content="2026-01-08T11:16:59+01:00">
+    <meta property="article:tag" content="Linear Algebra">
+    <meta property="article:tag" content="Linear Equations">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Sets of Linear Equations; Determinants">
+<meta name="twitter:description" content="Sets of Linear Equations; Determinants
+Exercise 1 : Gaussian and Gauss-Jordan elimination
+Solve the following equations using either Gaussian or Gauss-Jordan elimination. Use matrix notation.
+
+
+
+$$
+   \begin{cases}
+   2x_1 &#43; x_2 &#43; 5x_3 = -21 \\
+   x_1 &#43; 5x_2 &#43; 2x_3 = 19 \\
+   5x_1 &#43; 2x_2 &#43; x_3 = 2
+   \end{cases}
+   $$
+
+$$
+   \begin{cases}
+   x - y &#43; 3z = 4 \\
+   23x &#43; 2y &#43; 4z = 13 \\
+   11.5x &#43; y &#43; 2z = 6.5
+   \end{cases}
+   $$
+
+$$
+   \begin{cases}
+   3x_1 &#43; 2x_2 &#43; x_3 = 49 \\
+   x_1 &#43; x_2 &#43; x_3 = 8 \\
+   5x_1 - 3x_2 &#43; x_3 = 0
+   \end{cases}
+   $$
+
+$$
+   \begin{cases}
+   1.2x - 0.9y &#43; 1.5z = 2.4 \\
+   0.8x - 0.5y &#43; 2.5z = 1.8 \\
+   1.6x - 1.2y &#43; 2z = 3.2
+   \end{cases}
+   $$
+
+Exercise 2 : Inverse Matrices
+Obtain the inverse of the following matrices:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Sets of Linear Equations; Determinants",
+      "item": "http://localhost:1313/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Sets of Linear Equations; Determinants",
+  "name": "Sets of Linear Equations; Determinants",
+  "description": "Sets of Linear Equations; Determinants Exercise 1 : Gaussian and Gauss-Jordan elimination Solve the following equations using either Gaussian or Gauss-Jordan elimination. Use matrix notation.\n$$ \\begin{cases} 2x_1 + x_2 + 5x_3 = -21 \\\\ x_1 + 5x_2 + 2x_3 = 19 \\\\ 5x_1 + 2x_2 + x_3 = 2 \\end{cases} $$ $$ \\begin{cases} x - y + 3z = 4 \\\\ 23x + 2y + 4z = 13 \\\\ 11.5x + y + 2z = 6.5 \\end{cases} $$ $$ \\begin{cases} 3x_1 + 2x_2 + x_3 = 49 \\\\ x_1 + x_2 + x_3 = 8 \\\\ 5x_1 - 3x_2 + x_3 = 0 \\end{cases} $$ $$ \\begin{cases} 1.2x - 0.9y + 1.5z = 2.4 \\\\ 0.8x - 0.5y + 2.5z = 1.8 \\\\ 1.6x - 1.2y + 2z = 3.2 \\end{cases} $$ Exercise 2 : Inverse Matrices Obtain the inverse of the following matrices:\n",
+  "keywords": [
+    "Linear Algebra", "Linear Equations"
+  ],
+  "articleBody": "Sets of Linear Equations; Determinants Exercise 1 : Gaussian and Gauss-Jordan elimination Solve the following equations using either Gaussian or Gauss-Jordan elimination. Use matrix notation.\n$$ \\begin{cases} 2x_1 + x_2 + 5x_3 = -21 \\\\ x_1 + 5x_2 + 2x_3 = 19 \\\\ 5x_1 + 2x_2 + x_3 = 2 \\end{cases} $$ $$ \\begin{cases} x - y + 3z = 4 \\\\ 23x + 2y + 4z = 13 \\\\ 11.5x + y + 2z = 6.5 \\end{cases} $$ $$ \\begin{cases} 3x_1 + 2x_2 + x_3 = 49 \\\\ x_1 + x_2 + x_3 = 8 \\\\ 5x_1 - 3x_2 + x_3 = 0 \\end{cases} $$ $$ \\begin{cases} 1.2x - 0.9y + 1.5z = 2.4 \\\\ 0.8x - 0.5y + 2.5z = 1.8 \\\\ 1.6x - 1.2y + 2z = 3.2 \\end{cases} $$ Exercise 2 : Inverse Matrices Obtain the inverse of the following matrices:\n$$ \\begin{pmatrix} 2 \u0026 1 \u0026 0 \\\\ 1 \u0026 1 \u0026 -2 \\\\ 0 \u0026 3 \u0026 -4 \\end{pmatrix} $$ $$ \\begin{pmatrix} -4 \u0026 8 \\\\ -6 \u0026 7 \\end{pmatrix} $$ Exercise 3 : Homogeneous Equations Investigate the following sets of homogeneous equations and obtain their solutions.\n$$ \\begin{cases} x_1 + x_2 - x_3 = 0 \\\\ -x_1 + 3x_2 + x_3 = 0 \\\\ x_2 + x_3 = 0 \\end{cases} $$ $$ \\begin{cases} 2x - 3y + z = 0 \\\\ 4x + 4y - z = 0 \\\\ x - \\frac{3}{2}y + \\frac{1}{2}z = 0 \\end{cases} $$ Exercise 4 : Determinants Evaluate the following determinants:\n$$ \\begin{vmatrix} 4 \u0026 3 \u0026 2 \\\\ 1 \u0026 0 \u0026 -1 \\\\ 5 \u0026 2 \u0026 2 \\end{vmatrix} $$ $$ \\begin{vmatrix} 1 \u0026 7 \u0026 4 \u0026 12 \\\\ 5 \u0026 5 \u0026 4 \u0026 3 \\\\ 3 \u0026 4 \u0026 0 \u0026 2 \\\\ 5 \u0026 35 \u0026 20 \u0026 60 \\end{vmatrix} $$ $$ \\begin{vmatrix} 6 \u0026 1 \u0026 -3 \u0026 1 \\\\ 0 \u0026 0 \u0026 4 \u0026 0 \\\\ 4 \u0026 6 \u0026 0 \u0026 7 \\\\ -3 \u0026 0 \u0026 2 \u0026 8 \\end{vmatrix} $$ $$ \\begin{vmatrix} 4 \u0026 6 \u0026 0 \u0026 7 \\\\ -3 \u0026 0 \u0026 2 \u0026 8 \\\\ 10 \u0026 1 \u0026 0 \u0026 2 \\\\ 5 \u0026 2 \u0026 0 \u0026 1 \\end{vmatrix} $$ $$ \\begin{vmatrix} -1 \u0026 4 \u0026 1 \u0026 3 \\\\ 2 \u0026 -2 \u0026 -2 \u0026 0 \\\\ 0 \u0026 0 \u0026 -4 \u0026 -2 \\\\ 1 \u0026 0 \u0026 1 \u0026 4 \\end{vmatrix} $$ Exercise 5 : Rank of a Matrix Determine the rank $r$ of the following matrices:\n$$ A = \\begin{pmatrix} -1 \u0026 4 \u0026 1 \u0026 3 \\\\ 2 \u0026 -2 \u0026 -2 \u0026 0 \\\\ 0 \u0026 0 \u0026 -4 \u0026 -2 \\\\ 1 \u0026 0 \u0026 1 \u0026 4 \\end{pmatrix} $$ $$ B = \\begin{pmatrix} 3 \u0026 2 \u0026 2 \u0026 2 \\\\ 4 \u0026 2 \u0026 4 \u0026 2 \\\\ 3 \u0026 1 \u0026 3 \u0026 1 \\\\ 2 \u0026 1 \u0026 2 \u0026 1 \\end{pmatrix} $$ ",
+  "wordCount" : "503",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T11:16:59+01:00",
+  "dateModified": "2026-01-08T11:16:59+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Sets of Linear Equations; Determinants
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 11:16:59 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>503 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--gaussian-and-gauss-jordan-elimination">Exercise 1 : Gaussian and Gauss-Jordan elimination</a></li>
+    <li><a href="#exercise-2--inverse-matrices">Exercise 2 : Inverse Matrices</a></li>
+    <li><a href="#exercise-3--homogeneous-equations">Exercise 3 : Homogeneous Equations</a></li>
+    <li><a href="#exercise-4--determinants">Exercise 4 : Determinants</a></li>
+    <li><a href="#exercise-5--rank-of-a-matrix">Exercise 5 : Rank of a Matrix</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="sets-of-linear-equations-determinants">Sets of Linear Equations; Determinants<a hidden class="anchor" aria-hidden="true" href="#sets-of-linear-equations-determinants">#</a></h1>
+<h2 id="exercise-1--gaussian-and-gauss-jordan-elimination">Exercise 1 : Gaussian and Gauss-Jordan elimination<a hidden class="anchor" aria-hidden="true" href="#exercise-1--gaussian-and-gauss-jordan-elimination">#</a></h2>
+<p>Solve the following equations using either Gaussian or Gauss-Jordan elimination. Use matrix notation.</p>
+<ol>
+<li></li>
+</ol>
+$$
+   \begin{cases}
+   2x_1 + x_2 + 5x_3 = -21 \\
+   x_1 + 5x_2 + 2x_3 = 19 \\
+   5x_1 + 2x_2 + x_3 = 2
+   \end{cases}
+   $$<ol start="2">
+<li>
+$$
+   \begin{cases}
+   x - y + 3z = 4 \\
+   23x + 2y + 4z = 13 \\
+   11.5x + y + 2z = 6.5
+   \end{cases}
+   $$</li>
+<li>
+$$
+   \begin{cases}
+   3x_1 + 2x_2 + x_3 = 49 \\
+   x_1 + x_2 + x_3 = 8 \\
+   5x_1 - 3x_2 + x_3 = 0
+   \end{cases}
+   $$</li>
+<li>
+$$
+   \begin{cases}
+   1.2x - 0.9y + 1.5z = 2.4 \\
+   0.8x - 0.5y + 2.5z = 1.8 \\
+   1.6x - 1.2y + 2z = 3.2
+   \end{cases}
+   $$</li>
+</ol>
+<h2 id="exercise-2--inverse-matrices">Exercise 2 : Inverse Matrices<a hidden class="anchor" aria-hidden="true" href="#exercise-2--inverse-matrices">#</a></h2>
+<p>Obtain the inverse of the following matrices:</p>
+<ol>
+<li>
+$$
+   \begin{pmatrix}
+   2 & 1 & 0 \\
+   1 & 1 & -2 \\
+   0 & 3 & -4
+   \end{pmatrix}
+   $$</li>
+<li>
+$$
+   \begin{pmatrix}
+   -4 & 8 \\
+   -6 & 7
+   \end{pmatrix}
+   $$</li>
+</ol>
+<h2 id="exercise-3--homogeneous-equations">Exercise 3 : Homogeneous Equations<a hidden class="anchor" aria-hidden="true" href="#exercise-3--homogeneous-equations">#</a></h2>
+<p>Investigate the following sets of homogeneous equations and obtain their solutions.</p>
+<ol>
+<li>
+$$
+   \begin{cases}
+   x_1 + x_2 - x_3 = 0 \\
+   -x_1 + 3x_2 + x_3 = 0 \\
+   x_2 + x_3 = 0
+   \end{cases}
+   $$</li>
+<li>
+$$
+   \begin{cases}
+   2x - 3y + z = 0 \\
+   4x + 4y - z = 0 \\
+   x - \frac{3}{2}y + \frac{1}{2}z = 0
+   \end{cases}
+   $$</li>
+</ol>
+<h2 id="exercise-4--determinants">Exercise 4 : Determinants<a hidden class="anchor" aria-hidden="true" href="#exercise-4--determinants">#</a></h2>
+<p>Evaluate the following determinants:</p>
+<ol>
+<li>
+$$
+   \begin{vmatrix}
+   4 & 3 & 2 \\
+   1 & 0 & -1 \\
+   5 & 2 & 2
+   \end{vmatrix}
+   $$</li>
+<li>
+$$
+   \begin{vmatrix}
+   1 & 7 & 4 & 12 \\
+   5 & 5 & 4 & 3 \\
+   3 & 4 & 0 & 2 \\
+   5 & 35 & 20 & 60
+   \end{vmatrix}
+   $$</li>
+<li>
+$$
+   \begin{vmatrix}
+   6 & 1 & -3 & 1 \\
+   0 & 0 & 4 & 0 \\
+   4 & 6 & 0 & 7 \\
+   -3 & 0 & 2 & 8
+   \end{vmatrix}
+   $$</li>
+<li>
+$$
+   \begin{vmatrix}
+   4 & 6 & 0 & 7 \\
+   -3 & 0 & 2 & 8 \\
+   10 & 1 & 0 & 2 \\
+   5 & 2 & 0 & 1
+   \end{vmatrix}
+   $$</li>
+<li>
+$$
+   \begin{vmatrix}
+   -1 & 4 & 1 & 3 \\
+   2 & -2 & -2 & 0 \\
+   0 & 0 & -4 & -2 \\
+   1 & 0 & 1 & 4
+   \end{vmatrix}
+   $$</li>
+</ol>
+<h2 id="exercise-5--rank-of-a-matrix">Exercise 5 : Rank of a Matrix<a hidden class="anchor" aria-hidden="true" href="#exercise-5--rank-of-a-matrix">#</a></h2>
+<p>Determine the rank $r$ of the following matrices:</p>
+<ol>
+<li>
+$$
+   A = \begin{pmatrix}
+   -1 & 4 & 1 & 3 \\
+   2 & -2 & -2 & 0 \\
+   0 & 0 & -4 & -2 \\
+   1 & 0 & 1 & 4
+   \end{pmatrix}
+   $$</li>
+<li>
+$$
+   B = \begin{pmatrix}
+   3 & 2 & 2 & 2 \\
+   4 & 2 & 4 & 2 \\
+   3 & 1 & 3 & 1 \\
+   2 & 1 & 2 & 1
+   \end{pmatrix}
+   $$</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/linear-algebra/">Linear Algebra</a></li>
+      <li><a href="http://localhost:1313/tags/linear-equations/">Linear Equations</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Surface Integrals, Divergence, Curl and Potential</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Scalar and Vector Products</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

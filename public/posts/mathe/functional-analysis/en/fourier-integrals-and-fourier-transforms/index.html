@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Fourier Integrals and Fourier Transforms | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Functional Analysis, Fourier Integrals, Fourier Transforms, Applied Mathematics">
+<meta name="description" content="Fourier Integrals and Fourier Transforms
+Exercise 1 : Fourier Series
+For the following periodic function:
+
+$$
+f(t) = 
+\begin{cases} 
+-1 & \text{for } -\frac{T}{2} \leq t &lt; 0 \\
+1 & \text{for } 0 &lt; t \leq \frac{T}{2}
+\end{cases}
+$$
+Calculate the Fourier series for
+
+$$
+f(t) = 
+\begin{cases} 
+0 & \text{for } -\frac{T}{2} \leq t &lt; -\frac{t_0}{2} \\
+-1 & \text{for } -\frac{t_0}{2} \leq t &lt; 0 \\
+1 & \text{for } 0 &lt; t \leq \frac{t_0}{2} \\
+0 & \text{for } \frac{t_0}{2} &lt; t \leq \frac{T}{2}
+\end{cases}
+$$Exercise 2 : Limiting Spectrum (T \to \infty)
+Now perform the limiting process for $T \to \infty$ and obtain the amplitude spectrum.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Fourier Integrals and Fourier Transforms">
+  <meta property="og:description" content="Fourier Integrals and Fourier Transforms Exercise 1 : Fourier Series For the following periodic function: $$ f(t) = \begin{cases} -1 &amp; \text{for } -\frac{T}{2} \leq t &lt; 0 \\ 1 &amp; \text{for } 0 &lt; t \leq \frac{T}{2} \end{cases} $$ Calculate the Fourier series for $$ f(t) = \begin{cases} 0 &amp; \text{for } -\frac{T}{2} \leq t &lt; -\frac{t_0}{2} \\ -1 &amp; \text{for } -\frac{t_0}{2} \leq t &lt; 0 \\ 1 &amp; \text{for } 0 &lt; t \leq \frac{t_0}{2} \\ 0 &amp; \text{for } \frac{t_0}{2} &lt; t \leq \frac{T}{2} \end{cases} $$Exercise 2 : Limiting Spectrum (T \to \infty) Now perform the limiting process for $T \to \infty$ and obtain the amplitude spectrum.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T08:39:41+01:00">
+    <meta property="article:modified_time" content="2026-01-08T08:39:41+01:00">
+    <meta property="article:tag" content="Functional Analysis">
+    <meta property="article:tag" content="Fourier Integrals">
+    <meta property="article:tag" content="Fourier Transforms">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Fourier Integrals and Fourier Transforms">
+<meta name="twitter:description" content="Fourier Integrals and Fourier Transforms
+Exercise 1 : Fourier Series
+For the following periodic function:
+
+$$
+f(t) = 
+\begin{cases} 
+-1 & \text{for } -\frac{T}{2} \leq t &lt; 0 \\
+1 & \text{for } 0 &lt; t \leq \frac{T}{2}
+\end{cases}
+$$
+Calculate the Fourier series for
+
+$$
+f(t) = 
+\begin{cases} 
+0 & \text{for } -\frac{T}{2} \leq t &lt; -\frac{t_0}{2} \\
+-1 & \text{for } -\frac{t_0}{2} \leq t &lt; 0 \\
+1 & \text{for } 0 &lt; t \leq \frac{t_0}{2} \\
+0 & \text{for } \frac{t_0}{2} &lt; t \leq \frac{T}{2}
+\end{cases}
+$$Exercise 2 : Limiting Spectrum (T \to \infty)
+Now perform the limiting process for $T \to \infty$ and obtain the amplitude spectrum.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Fourier Integrals and Fourier Transforms",
+      "item": "http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fourier Integrals and Fourier Transforms",
+  "name": "Fourier Integrals and Fourier Transforms",
+  "description": "Fourier Integrals and Fourier Transforms Exercise 1 : Fourier Series For the following periodic function: $$ f(t) = \\begin{cases} -1 \u0026 \\text{for } -\\frac{T}{2} \\leq t \u003c 0 \\\\ 1 \u0026 \\text{for } 0 \u003c t \\leq \\frac{T}{2} \\end{cases} $$ Calculate the Fourier series for $$ f(t) = \\begin{cases} 0 \u0026 \\text{for } -\\frac{T}{2} \\leq t \u003c -\\frac{t_0}{2} \\\\ -1 \u0026 \\text{for } -\\frac{t_0}{2} \\leq t \u003c 0 \\\\ 1 \u0026 \\text{for } 0 \u003c t \\leq \\frac{t_0}{2} \\\\ 0 \u0026 \\text{for } \\frac{t_0}{2} \u003c t \\leq \\frac{T}{2} \\end{cases} $$Exercise 2 : Limiting Spectrum (T \\to \\infty) Now perform the limiting process for $T \\to \\infty$ and obtain the amplitude spectrum.\n",
+  "keywords": [
+    "Functional Analysis", "Fourier Integrals", "Fourier Transforms", "Applied Mathematics"
+  ],
+  "articleBody": "Fourier Integrals and Fourier Transforms Exercise 1 : Fourier Series For the following periodic function: $$ f(t) = \\begin{cases} -1 \u0026 \\text{for } -\\frac{T}{2} \\leq t \u003c 0 \\\\ 1 \u0026 \\text{for } 0 \u003c t \\leq \\frac{T}{2} \\end{cases} $$ Calculate the Fourier series for $$ f(t) = \\begin{cases} 0 \u0026 \\text{for } -\\frac{T}{2} \\leq t \u003c -\\frac{t_0}{2} \\\\ -1 \u0026 \\text{for } -\\frac{t_0}{2} \\leq t \u003c 0 \\\\ 1 \u0026 \\text{for } 0 \u003c t \\leq \\frac{t_0}{2} \\\\ 0 \u0026 \\text{for } \\frac{t_0}{2} \u003c t \\leq \\frac{T}{2} \\end{cases} $$Exercise 2 : Limiting Spectrum (T \\to \\infty) Now perform the limiting process for $T \\to \\infty$ and obtain the amplitude spectrum.\nExercise 3 : Spectral Sketches for Varying Periods Sketch the frequency spectrum of the Fourier series for $T = t_0$ and $T = 2t_0$, $T = 4t_0$ and $T = 8t_0$ and then the amplitude spectrum of the Fourier integral.\nExercise 4 : Complex Fourier Transform of the Pulse Perform the Fourier transform in the complex representation for the function given in exercise 1 and obtain the amplitude function and the amplitude spectrum:\n$$ f(t) = \\begin{cases} -1 \u0026 \\text{for } -\\frac{t_0}{2} \\leq t \u003c 0 \\\\ 1 \u0026 \\text{for } 0 \u003c t \\leq \\frac{t_0}{2} \\end{cases} $$Exercise 5 : Amplitude Spectra for Different $t_0$ Sketch the function and the amplitude spectrum for the preceding exercise for $t_0 = 1$, $t_0 = 2$ and $t_0 = 4$.\nExercise 6 : Shifted Pulse — Arbitrary Position Determine amplitude function and amplitude spectrum for the function of the preceding exercise in an arbitrary position:\n$$ f(t) = \\begin{cases} 1 \u0026 \\text{for } t_1 \u003c t \\leq t_1 + \\frac{t_0}{2} \\end{cases} $$Exercise 7 : Convolution and Triangular Pulse Let $g(t)$ be the rectangular pulse of width $t_0$ and unit amplitude centered at the origin (the pulse from Exercise 4 with $t_1=0$).\nCompute the convolution $h(t)=g(t)*g(t)$ and show that $h(t)$ is a triangular pulse. Give an explicit expression for $h(t)$. Using the Fourier transform, derive the amplitude function $H(\\omega)$ and show how it relates to $G(\\omega)$ (the transform of $g$). Sketch the amplitude spectrum of $h(t)$ and compare it to the squared magnitude $|G(\\omega)|^2$. Exercise 8 : Parseval’s Theorem — Energy Equality For the rectangular pulse $g(t)$ of width $t_0$ and unit amplitude:\nCompute the signal energy $E=\\int_{-\\infty}^{\\infty} |g(t)|^2,dt$ directly. Compute the energy using the Fourier transform via Parseval’s theorem and verify both results agree. Exercise 9 : Modulation and Frequency Shifting Let $g(t)$ be a finite-duration signal with Fourier transform $G(\\omega)$.\nShow that the modulated signal $g_m(t)=g(t)\\cos(\\omega_0 t)$ has a Fourier transform consisting of two shifted copies of $G(\\omega)$ and write the expression for $G_m(\\omega)$. For the rectangular pulse from Exercise 4, compute and sketch the amplitude spectrum of $g_m(t)$ for $\\omega_0 = 2\\pi,,4\\pi$. Exercise 10 : Time Scaling and Bandwidth Consider the time-scaled signal $g_a(t)=g(at)$ for real nonzero $a$.\nDerive the relation between $G_a(\\omega)$ and $G(\\omega)$, and explain how time compression/expansion affects the amplitude spectrum and effective bandwidth. For the rectangular pulse with $t_0=1$, sketch amplitude spectra for $a=0.5,;1,;2$. Exercise 11 : Sampling, Aliasing and the Poisson Summation Formula Let $g(t)$ be bandlimited with transform $G(\\omega)$ supported in $|\\omega|\\leq \\Omega_m$.\nDescribe ideal sampling at period $T_s$ (multiplying by a comb) and derive the sampled-spectrum using the Poisson summation formula. Determine the sampling condition to avoid aliasing and illustrate with sketches when $T_s$ is too large and when $T_s$ satisfies the Nyquist requirement. Exercise 12 : Gaussian Pulse — Transform and Properties Let $g(t)=e^{-\\alpha t^2}$ with $\\alpha\u003e0$.\nCompute the Fourier transform $G(\\omega)$ in closed form (you may use standard integrals) and show that it is a Gaussian in $\\omega$. Discuss the time–bandwidth product for this pulse and show that scaling $\\alpha$ trades time-spread for frequency-spread. Exercise 13 : Hilbert Transform and Analytic Signal Define the Hilbert transform $\\mathcal{H}{g}(t)$ and the analytic signal $g_a(t)=g(t)+i,\\mathcal{H}{g}(t)$.\nFor a simple cosine $g(t)=\\cos(\\omega_0 t)$, compute the Hilbert transform and the analytic signal explicitly. For a one-sided rectangular pulse (nonzero only for $t\u003e0$), discuss qualitatively how the Hilbert transform affects the phase of the Fourier spectrum. Exercise 14 : Windowing, Spectral Leakage and Resolution Take the infinite-duration sinusoid $s(t)=\\cos(\\omega_0 t)$ and multiply it by a finite window $w(t)$ (rectangular, Hamming, and Hann windows of duration $T_w$).\nFor each window, compute or sketch the resulting amplitude spectrum and point out main-lobe width and side-lobe behavior. Discuss how window choice and window length $T_w$ affect frequency resolution and leakage. Provide sketches for $T_w=1,;2,;4$ and $\\omega_0=5$. ",
+  "wordCount" : "745",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T08:39:41+01:00",
+  "dateModified": "2026-01-08T08:39:41+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Fourier Integrals and Fourier Transforms
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 08:39:41 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>745 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--fourier-series">Exercise 1 : Fourier Series</a></li>
+    <li><a href="#exercise-2--limiting-spectrum-t-to-infty">Exercise 2 : Limiting Spectrum (T \to \infty)</a></li>
+    <li><a href="#exercise-3--spectral-sketches-for-varying-periods">Exercise 3 : Spectral Sketches for Varying Periods</a></li>
+    <li><a href="#exercise-4--complex-fourier-transform-of-the-pulse">Exercise 4 : Complex Fourier Transform of the Pulse</a></li>
+    <li><a href="#exercise-5--amplitude-spectra-for-different-t_0">Exercise 5 : Amplitude Spectra for Different $t_0$</a></li>
+    <li><a href="#exercise-6--shifted-pulse--arbitrary-position">Exercise 6 : Shifted Pulse — Arbitrary Position</a></li>
+    <li><a href="#exercise-7--convolution-and-triangular-pulse">Exercise 7 : Convolution and Triangular Pulse</a></li>
+    <li><a href="#exercise-8--parsevals-theorem--energy-equality">Exercise 8 : Parseval&rsquo;s Theorem — Energy Equality</a></li>
+    <li><a href="#exercise-9--modulation-and-frequency-shifting">Exercise 9 : Modulation and Frequency Shifting</a></li>
+    <li><a href="#exercise-10--time-scaling-and-bandwidth">Exercise 10 : Time Scaling and Bandwidth</a></li>
+    <li><a href="#exercise-11--sampling-aliasing-and-the-poisson-summation-formula">Exercise 11 : Sampling, Aliasing and the Poisson Summation Formula</a></li>
+    <li><a href="#exercise-12--gaussian-pulse--transform-and-properties">Exercise 12 : Gaussian Pulse — Transform and Properties</a></li>
+    <li><a href="#exercise-13--hilbert-transform-and-analytic-signal">Exercise 13 : Hilbert Transform and Analytic Signal</a></li>
+    <li><a href="#exercise-14--windowing-spectral-leakage-and-resolution">Exercise 14 : Windowing, Spectral Leakage and Resolution</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="fourier-integrals-and-fourier-transforms">Fourier Integrals and Fourier Transforms<a hidden class="anchor" aria-hidden="true" href="#fourier-integrals-and-fourier-transforms">#</a></h1>
+<h2 id="exercise-1--fourier-series">Exercise 1 : Fourier Series<a hidden class="anchor" aria-hidden="true" href="#exercise-1--fourier-series">#</a></h2>
+<p>For the following periodic function:
+</p>
+$$
+f(t) = 
+\begin{cases} 
+-1 & \text{for } -\frac{T}{2} \leq t < 0 \\
+1 & \text{for } 0 < t \leq \frac{T}{2}
+\end{cases}
+$$<p>
+Calculate the Fourier series for
+</p>
+$$
+f(t) = 
+\begin{cases} 
+0 & \text{for } -\frac{T}{2} \leq t < -\frac{t_0}{2} \\
+-1 & \text{for } -\frac{t_0}{2} \leq t < 0 \\
+1 & \text{for } 0 < t \leq \frac{t_0}{2} \\
+0 & \text{for } \frac{t_0}{2} < t \leq \frac{T}{2}
+\end{cases}
+$$<h2 id="exercise-2--limiting-spectrum-t-to-infty">Exercise 2 : Limiting Spectrum (T \to \infty)<a hidden class="anchor" aria-hidden="true" href="#exercise-2--limiting-spectrum-t-to-infty">#</a></h2>
+<p>Now perform the limiting process for $T \to \infty$ and obtain the amplitude spectrum.</p>
+<h2 id="exercise-3--spectral-sketches-for-varying-periods">Exercise 3 : Spectral Sketches for Varying Periods<a hidden class="anchor" aria-hidden="true" href="#exercise-3--spectral-sketches-for-varying-periods">#</a></h2>
+<p>Sketch the frequency spectrum of the Fourier series for $T = t_0$ and $T = 2t_0$, $T = 4t_0$ and $T = 8t_0$ and then the amplitude spectrum of the Fourier integral.</p>
+<h2 id="exercise-4--complex-fourier-transform-of-the-pulse">Exercise 4 : Complex Fourier Transform of the Pulse<a hidden class="anchor" aria-hidden="true" href="#exercise-4--complex-fourier-transform-of-the-pulse">#</a></h2>
+<p>Perform the Fourier transform in the complex representation for the function given in exercise 1 and obtain the amplitude function and the amplitude spectrum:</p>
+$$
+f(t) = 
+\begin{cases} 
+-1 & \text{for } -\frac{t_0}{2} \leq t < 0 \\
+1 & \text{for } 0 < t \leq \frac{t_0}{2}
+\end{cases}
+$$<h2 id="exercise-5--amplitude-spectra-for-different-t_0">Exercise 5 : Amplitude Spectra for Different $t_0$<a hidden class="anchor" aria-hidden="true" href="#exercise-5--amplitude-spectra-for-different-t_0">#</a></h2>
+<p>Sketch the function and the amplitude spectrum for the preceding exercise for $t_0 = 1$, $t_0 = 2$ and $t_0 = 4$.</p>
+<h2 id="exercise-6--shifted-pulse--arbitrary-position">Exercise 6 : Shifted Pulse — Arbitrary Position<a hidden class="anchor" aria-hidden="true" href="#exercise-6--shifted-pulse--arbitrary-position">#</a></h2>
+<p>Determine amplitude function and amplitude spectrum for the function of the preceding exercise in an arbitrary position:</p>
+$$
+f(t) = 
+\begin{cases} 
+1 & \text{for } t_1 < t \leq t_1 + \frac{t_0}{2}
+\end{cases}
+$$<h2 id="exercise-7--convolution-and-triangular-pulse">Exercise 7 : Convolution and Triangular Pulse<a hidden class="anchor" aria-hidden="true" href="#exercise-7--convolution-and-triangular-pulse">#</a></h2>
+<p>Let $g(t)$ be the rectangular pulse of width $t_0$ and unit amplitude centered at the origin (the pulse from Exercise 4 with $t_1=0$).</p>
+<ol>
+<li>Compute the convolution $h(t)=g(t)*g(t)$ and show that $h(t)$ is a triangular pulse. Give an explicit expression for $h(t)$.</li>
+<li>Using the Fourier transform, derive the amplitude function $H(\omega)$ and show how it relates to $G(\omega)$ (the transform of $g$).</li>
+<li>Sketch the amplitude spectrum of $h(t)$ and compare it to the squared magnitude $|G(\omega)|^2$.</li>
+</ol>
+<h2 id="exercise-8--parsevals-theorem--energy-equality">Exercise 8 : Parseval&rsquo;s Theorem — Energy Equality<a hidden class="anchor" aria-hidden="true" href="#exercise-8--parsevals-theorem--energy-equality">#</a></h2>
+<p>For the rectangular pulse $g(t)$ of width $t_0$ and unit amplitude:</p>
+<ol>
+<li>Compute the signal energy $E=\int_{-\infty}^{\infty} |g(t)|^2,dt$ directly.</li>
+<li>Compute the energy using the Fourier transform via Parseval&rsquo;s theorem and verify both results agree.</li>
+</ol>
+<h2 id="exercise-9--modulation-and-frequency-shifting">Exercise 9 : Modulation and Frequency Shifting<a hidden class="anchor" aria-hidden="true" href="#exercise-9--modulation-and-frequency-shifting">#</a></h2>
+<p>Let $g(t)$ be a finite-duration signal with Fourier transform $G(\omega)$.</p>
+<ol>
+<li>Show that the modulated signal $g_m(t)=g(t)\cos(\omega_0 t)$ has a Fourier transform consisting of two shifted copies of $G(\omega)$ and write the expression for $G_m(\omega)$.</li>
+<li>For the rectangular pulse from Exercise 4, compute and sketch the amplitude spectrum of $g_m(t)$ for $\omega_0 = 2\pi,,4\pi$.</li>
+</ol>
+<h2 id="exercise-10--time-scaling-and-bandwidth">Exercise 10 : Time Scaling and Bandwidth<a hidden class="anchor" aria-hidden="true" href="#exercise-10--time-scaling-and-bandwidth">#</a></h2>
+<p>Consider the time-scaled signal $g_a(t)=g(at)$ for real nonzero $a$.</p>
+<ol>
+<li>Derive the relation between $G_a(\omega)$ and $G(\omega)$, and explain how time compression/expansion affects the amplitude spectrum and effective bandwidth.</li>
+<li>For the rectangular pulse with $t_0=1$, sketch amplitude spectra for $a=0.5,;1,;2$.</li>
+</ol>
+<h2 id="exercise-11--sampling-aliasing-and-the-poisson-summation-formula">Exercise 11 : Sampling, Aliasing and the Poisson Summation Formula<a hidden class="anchor" aria-hidden="true" href="#exercise-11--sampling-aliasing-and-the-poisson-summation-formula">#</a></h2>
+<p>Let $g(t)$ be bandlimited with transform $G(\omega)$ supported in $|\omega|\leq \Omega_m$.</p>
+<ol>
+<li>Describe ideal sampling at period $T_s$ (multiplying by a comb) and derive the sampled-spectrum using the Poisson summation formula.</li>
+<li>Determine the sampling condition to avoid aliasing and illustrate with sketches when $T_s$ is too large and when $T_s$ satisfies the Nyquist requirement.</li>
+</ol>
+<h2 id="exercise-12--gaussian-pulse--transform-and-properties">Exercise 12 : Gaussian Pulse — Transform and Properties<a hidden class="anchor" aria-hidden="true" href="#exercise-12--gaussian-pulse--transform-and-properties">#</a></h2>
+<p>Let $g(t)=e^{-\alpha t^2}$ with $\alpha&gt;0$.</p>
+<ol>
+<li>Compute the Fourier transform $G(\omega)$ in closed form (you may use standard integrals) and show that it is a Gaussian in $\omega$.</li>
+<li>Discuss the time–bandwidth product for this pulse and show that scaling $\alpha$ trades time-spread for frequency-spread.</li>
+</ol>
+<h2 id="exercise-13--hilbert-transform-and-analytic-signal">Exercise 13 : Hilbert Transform and Analytic Signal<a hidden class="anchor" aria-hidden="true" href="#exercise-13--hilbert-transform-and-analytic-signal">#</a></h2>
+<p>Define the Hilbert transform $\mathcal{H}{g}(t)$ and the analytic signal $g_a(t)=g(t)+i,\mathcal{H}{g}(t)$.</p>
+<ol>
+<li>For a simple cosine $g(t)=\cos(\omega_0 t)$, compute the Hilbert transform and the analytic signal explicitly.</li>
+<li>For a one-sided rectangular pulse (nonzero only for $t&gt;0$), discuss qualitatively how the Hilbert transform affects the phase of the Fourier spectrum.</li>
+</ol>
+<h2 id="exercise-14--windowing-spectral-leakage-and-resolution">Exercise 14 : Windowing, Spectral Leakage and Resolution<a hidden class="anchor" aria-hidden="true" href="#exercise-14--windowing-spectral-leakage-and-resolution">#</a></h2>
+<p>Take the infinite-duration sinusoid $s(t)=\cos(\omega_0 t)$ and multiply it by a finite window $w(t)$ (rectangular, Hamming, and Hann windows of duration $T_w$).</p>
+<ol>
+<li>For each window, compute or sketch the resulting amplitude spectrum and point out main-lobe width and side-lobe behavior.</li>
+<li>Discuss how window choice and window length $T_w$ affect frequency resolution and leakage. Provide sketches for $T_w=1,;2,;4$ and $\omega_0=5$.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/functional-analysis/">Functional Analysis</a></li>
+      <li><a href="http://localhost:1313/tags/fourier-integrals/">Fourier Integrals</a></li>
+      <li><a href="http://localhost:1313/tags/fourier-transforms/">Fourier Transforms</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/probability/en/probability-calculus/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Probability Calculus</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Fourier Series; Harmonic Analysis</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

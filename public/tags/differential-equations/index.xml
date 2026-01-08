@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Differential Equations on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/differential-equations/</link>
+    <description>Recent content in Differential Equations on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Thu, 08 Jan 2026 11:04:12 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/differential-equations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laplace Transforms</title>
+      <link>http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/</link>
+      <pubDate>Thu, 08 Jan 2026 11:04:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/</guid>
+      <description>&lt;h1 id=&#34;laplace-transforms&#34;&gt;Laplace Transforms&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--applying-laplace-transforms&#34;&gt;Exercise 1 : Applying Laplace Transforms&lt;/h2&gt;
+&lt;p&gt;Obtain the Laplace transforms for the following functions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\frac{1}{4}t^3$&lt;/li&gt;
+&lt;li&gt;$5e^{-2t}$&lt;/li&gt;
+&lt;li&gt;$4\cos 3t$&lt;/li&gt;
+&lt;li&gt;$\sin^2 t$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--inverse-laplace-transforms&#34;&gt;Exercise 2 : Inverse Laplace Transforms&lt;/h2&gt;
+&lt;p&gt;Obtain the inverse transforms for the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\frac{1}{4s^2 + 1}$&lt;/li&gt;
+&lt;li&gt;$\frac{1}{s(s + 4)}$&lt;/li&gt;
+&lt;li&gt;$\frac{2}{s(s^2 + 9)}$&lt;/li&gt;
+&lt;li&gt;$\frac{6}{1 - s^2}$&lt;/li&gt;
+&lt;li&gt;$\frac{1}{s^2(s^2 + 1)}$&lt;/li&gt;
+&lt;li&gt;$\frac{4}{s(s^2 - 6s + 8)}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--solving-linear-odes-via-laplace&#34;&gt;Exercise 3 : Solving Linear ODEs via Laplace&lt;/h2&gt;
+&lt;p&gt;Solve the following linear differential equations with constant coefficients:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Differential Equations</title>
+      <link>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</link>
+      <pubDate>Thu, 08 Jan 2026 10:09:01 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</guid>
+      <description>&lt;h1 id=&#34;differential-equations&#34;&gt;Differential Equations&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--classification--linear-vs-nonlinear&#34;&gt;Exercise 1 : Classification — Linear vs Nonlinear&lt;/h2&gt;
+&lt;p&gt;Which of the following are linear first- and second-order DEs with constant coefficients?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$y&amp;rsquo; + x^2 y = 2x$&lt;/li&gt;
+&lt;li&gt;$5y&amp;rsquo;&amp;rsquo; - 2y&amp;rsquo; - 4x = 3y$&lt;/li&gt;
+&lt;li&gt;$y^4 + 2y&amp;rsquo;&amp;rsquo; + 3y&amp;rsquo; = 0$&lt;/li&gt;
+&lt;li&gt;$\sin x, y&amp;rsquo;&amp;rsquo; - y = 0$&lt;/li&gt;
+&lt;li&gt;$y&amp;rsquo;&amp;rsquo; - x^5 = 2$&lt;/li&gt;
+&lt;li&gt;$2y&amp;rsquo;&amp;rsquo; - y&amp;rsquo; + \frac{3}{2}y = 0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--homogeneity-and-order&#34;&gt;Exercise 2 : Homogeneity and Order&lt;/h2&gt;
+&lt;p&gt;Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

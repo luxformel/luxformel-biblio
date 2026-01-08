@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Theory of Errors | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Statistics, Applied Mathematics">
+<meta name="description" content="Theory of Errors
+Exercise 1 : Types of Errors
+In the following examples, state whether the error is systematic (constant $S$) or random $R$.
+
+A 100-metre race is held in a school during a sports day. The judges start their stopwatches when the sound of the starting pistol reaches them. What type of error arises in this case?
+The timing of the start and end of the 100-metre race is subject to individual fluctuations, e.g. reaction time. What kind of error is it?
+The zero point of a voltmeter has been wrongly set. The measurements are therefore subject to an error. What kind of error is it?
+The resistance of a copper coil is obtained by measuring the current flowing through when a voltage is applied to it. As the coil warms up the resistance increases. What kind of error will ensue?
+
+Exercise 2 : Sample Statistics
+
+Nine different rock samples are taken from a crater on the moon whose densities are determined with the following results: $3.6, 3.3, 3.2, 3.0, 3.2, 3.1, 3.0, 3.1, 3.3 \frac{g}{cm^3}$. Calculate the mean value and standard deviation of the parent population.
+The velocity of a body travelling along a straight line is measured 10 times. The results are $1.30, 1.27, 1.25, 1.26, 1.29, 1.31, 1.23, 1.33, 1.24 \frac{m}{s}$. Calculate the mean value and the standard deviation.
+
+Exercise 3 : Uniform Distribution Moments
+A continuous random variable has the following density function:
+">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Theory of Errors">
+  <meta property="og:description" content="Theory of Errors Exercise 1 : Types of Errors In the following examples, state whether the error is systematic (constant $S$) or random $R$.
+A 100-metre race is held in a school during a sports day. The judges start their stopwatches when the sound of the starting pistol reaches them. What type of error arises in this case? The timing of the start and end of the 100-metre race is subject to individual fluctuations, e.g. reaction time. What kind of error is it? The zero point of a voltmeter has been wrongly set. The measurements are therefore subject to an error. What kind of error is it? The resistance of a copper coil is obtained by measuring the current flowing through when a voltage is applied to it. As the coil warms up the resistance increases. What kind of error will ensue? Exercise 2 : Sample Statistics Nine different rock samples are taken from a crater on the moon whose densities are determined with the following results: $3.6, 3.3, 3.2, 3.0, 3.2, 3.1, 3.0, 3.1, 3.3 \frac{g}{cm^3}$. Calculate the mean value and standard deviation of the parent population. The velocity of a body travelling along a straight line is measured 10 times. The results are $1.30, 1.27, 1.25, 1.26, 1.29, 1.31, 1.23, 1.33, 1.24 \frac{m}{s}$. Calculate the mean value and the standard deviation. Exercise 3 : Uniform Distribution Moments A continuous random variable has the following density function: ">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T09:35:29+01:00">
+    <meta property="article:modified_time" content="2026-01-08T09:35:29+01:00">
+    <meta property="article:tag" content="Statistics">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Theory of Errors">
+<meta name="twitter:description" content="Theory of Errors
+Exercise 1 : Types of Errors
+In the following examples, state whether the error is systematic (constant $S$) or random $R$.
+
+A 100-metre race is held in a school during a sports day. The judges start their stopwatches when the sound of the starting pistol reaches them. What type of error arises in this case?
+The timing of the start and end of the 100-metre race is subject to individual fluctuations, e.g. reaction time. What kind of error is it?
+The zero point of a voltmeter has been wrongly set. The measurements are therefore subject to an error. What kind of error is it?
+The resistance of a copper coil is obtained by measuring the current flowing through when a voltage is applied to it. As the coil warms up the resistance increases. What kind of error will ensue?
+
+Exercise 2 : Sample Statistics
+
+Nine different rock samples are taken from a crater on the moon whose densities are determined with the following results: $3.6, 3.3, 3.2, 3.0, 3.2, 3.1, 3.0, 3.1, 3.3 \frac{g}{cm^3}$. Calculate the mean value and standard deviation of the parent population.
+The velocity of a body travelling along a straight line is measured 10 times. The results are $1.30, 1.27, 1.25, 1.26, 1.29, 1.31, 1.23, 1.33, 1.24 \frac{m}{s}$. Calculate the mean value and the standard deviation.
+
+Exercise 3 : Uniform Distribution Moments
+A continuous random variable has the following density function:
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Theory of Errors",
+      "item": "http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Theory of Errors",
+  "name": "Theory of Errors",
+  "description": "Theory of Errors Exercise 1 : Types of Errors In the following examples, state whether the error is systematic (constant $S$) or random $R$.\nA 100-metre race is held in a school during a sports day. The judges start their stopwatches when the sound of the starting pistol reaches them. What type of error arises in this case? The timing of the start and end of the 100-metre race is subject to individual fluctuations, e.g. reaction time. What kind of error is it? The zero point of a voltmeter has been wrongly set. The measurements are therefore subject to an error. What kind of error is it? The resistance of a copper coil is obtained by measuring the current flowing through when a voltage is applied to it. As the coil warms up the resistance increases. What kind of error will ensue? Exercise 2 : Sample Statistics Nine different rock samples are taken from a crater on the moon whose densities are determined with the following results: $3.6, 3.3, 3.2, 3.0, 3.2, 3.1, 3.0, 3.1, 3.3 \\frac{g}{cm^3}$. Calculate the mean value and standard deviation of the parent population. The velocity of a body travelling along a straight line is measured 10 times. The results are $1.30, 1.27, 1.25, 1.26, 1.29, 1.31, 1.23, 1.33, 1.24 \\frac{m}{s}$. Calculate the mean value and the standard deviation. Exercise 3 : Uniform Distribution Moments A continuous random variable has the following density function: ",
+  "keywords": [
+    "Statistics", "Applied Mathematics"
+  ],
+  "articleBody": "Theory of Errors Exercise 1 : Types of Errors In the following examples, state whether the error is systematic (constant $S$) or random $R$.\nA 100-metre race is held in a school during a sports day. The judges start their stopwatches when the sound of the starting pistol reaches them. What type of error arises in this case? The timing of the start and end of the 100-metre race is subject to individual fluctuations, e.g. reaction time. What kind of error is it? The zero point of a voltmeter has been wrongly set. The measurements are therefore subject to an error. What kind of error is it? The resistance of a copper coil is obtained by measuring the current flowing through when a voltage is applied to it. As the coil warms up the resistance increases. What kind of error will ensue? Exercise 2 : Sample Statistics Nine different rock samples are taken from a crater on the moon whose densities are determined with the following results: $3.6, 3.3, 3.2, 3.0, 3.2, 3.1, 3.0, 3.1, 3.3 \\frac{g}{cm^3}$. Calculate the mean value and standard deviation of the parent population. The velocity of a body travelling along a straight line is measured 10 times. The results are $1.30, 1.27, 1.25, 1.26, 1.29, 1.31, 1.23, 1.33, 1.24 \\frac{m}{s}$. Calculate the mean value and the standard deviation. Exercise 3 : Uniform Distribution Moments A continuous random variable has the following density function: $$ f(x) = \\begin{cases} 1, \u0026 0 \\leq x \\leq 1 \\\\ 0, \u0026 \\text{otherwise} \\end{cases} $$ Calculate the mean value and the variance.\nExercise 4 : Normal Probability A measured variable is normally distributed with a mean value $\\mu = 8$ and a standard deviation $\\sigma = 1$. What percentage of all test data are smaller than 7?\nExercise 5 : Error Propagation — Area and Density The sides of a rectangle are $x = 120 \\pm 0.2 cm$ and $y = 90 \\pm 0.1 cm$. Calculate the area and the standard deviation. Calculate the density and the standard deviation of a sphere of diameter $6.2 \\pm 0.1 mm$ and mass $1000 \\pm 0.1 g$. Exercise 6 : Linear Fit (Spring Balance) The sensitivity of a spring balance is to be determined. To achieve this we place different masses $m$ on the balance and record the deflection $S$. The results are:\nmass (mg): 2000 3000 4000 5000 6000 deflection (mm): 16 27 32 35 40 If a straight line is to be fitted through these data points, i.e. $S = am + b$, calculate the values of $a$ and $b$.\nExercise 7 : Linear Regression with Uncertainties In the spring-balance experiment you may instead have measured additional points with small known uncertainties. Suppose the measured deflections (mm) and their standard uncertainties are: $(16\\pm0.5),(27\\pm0.5),(32\\pm0.5),(35\\pm0.5),(40\\pm0.5)$. Perform a weighted least-squares fit to $S=am+b$ and compute $a,b$ and their standard uncertainties.\nExercise 8 : Weighted Angle Average An angle has been measured several times with two theodolites and the following values were obtained: $73^\\circ 2'7’’ \\pm 10’$ and $73^\\circ 2'12’’ \\pm 20’’$. Calculate the weighted average.\nExercise 9 : Chi-square Test for Calibration A calibration experiment yields counts in 5 bins: [102, 98, 95, 105, 100]. The expected (ideal) distribution is uniform. Perform a chi-square goodness-of-fit test at the 5% level and state whether the instrument agrees with the expected uniform response.\nExercise 10 : Monte Carlo Error Propagation Let $z=\\dfrac{xy}{x+y}$ where $x=1.23\\pm0.02$ and $y=2.34\\pm0.03$ (independent). Estimate the value and standard uncertainty of $z$ using (a) first-order error propagation and (b) a Monte Carlo simulation (draw 10,000 samples from Gaussian distributions and compute the empirical mean and standard deviation).\nExercise 11 : Significant Figures and Rounding Effects Discuss how rounding to different numbers of significant figures influences propagated results. As a concrete example, compute the area of a rectangle with sides $x=12.34,cm$ and $y=5.678,cm$, (a) using full precision then rounding only the final result to 3 s.f., and (b) rounding each side to 3 s.f. before computing the area. Compare differences.\nExercise 12 : Maximum Likelihood Estimation for Normal Errors You measure a quantity several times: $8.1,8.0,8.3,7.9,8.2$. Assuming independent Gaussian measurement errors with unknown mean $\\mu$ and known standard deviation $\\sigma=0.1$, derive the maximum likelihood estimator for $\\mu$ and compute its value and standard error.\n",
+  "wordCount" : "710",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T09:35:29+01:00",
+  "dateModified": "2026-01-08T09:35:29+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Theory of Errors
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 09:35:29 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>710 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--types-of-errors">Exercise 1 : Types of Errors</a></li>
+    <li><a href="#exercise-2--sample-statistics">Exercise 2 : Sample Statistics</a></li>
+    <li><a href="#exercise-3--uniform-distribution-moments">Exercise 3 : Uniform Distribution Moments</a></li>
+    <li><a href="#exercise-4--normal-probability">Exercise 4 : Normal Probability</a></li>
+    <li><a href="#exercise-5--error-propagation--area-and-density">Exercise 5 : Error Propagation — Area and Density</a></li>
+    <li><a href="#exercise-6--linear-fit-spring-balance">Exercise 6 : Linear Fit (Spring Balance)</a></li>
+    <li><a href="#exercise-7--linear-regression-with-uncertainties">Exercise 7 : Linear Regression with Uncertainties</a></li>
+    <li><a href="#exercise-8--weighted-angle-average">Exercise 8 : Weighted Angle Average</a></li>
+    <li><a href="#exercise-9--chi-square-test-for-calibration">Exercise 9 : Chi-square Test for Calibration</a></li>
+    <li><a href="#exercise-10--monte-carlo-error-propagation">Exercise 10 : Monte Carlo Error Propagation</a></li>
+    <li><a href="#exercise-11--significant-figures-and-rounding-effects">Exercise 11 : Significant Figures and Rounding Effects</a></li>
+    <li><a href="#exercise-12--maximum-likelihood-estimation-for-normal-errors">Exercise 12 : Maximum Likelihood Estimation for Normal Errors</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="theory-of-errors">Theory of Errors<a hidden class="anchor" aria-hidden="true" href="#theory-of-errors">#</a></h1>
+<h2 id="exercise-1--types-of-errors">Exercise 1 : Types of Errors<a hidden class="anchor" aria-hidden="true" href="#exercise-1--types-of-errors">#</a></h2>
+<p>In the following examples, state whether the error is systematic (constant $S$) or random $R$.</p>
+<ol>
+<li>A 100-metre race is held in a school during a sports day. The judges start their stopwatches when the sound of the starting pistol reaches them. What type of error arises in this case?</li>
+<li>The timing of the start and end of the 100-metre race is subject to individual fluctuations, e.g. reaction time. What kind of error is it?</li>
+<li>The zero point of a voltmeter has been wrongly set. The measurements are therefore subject to an error. What kind of error is it?</li>
+<li>The resistance of a copper coil is obtained by measuring the current flowing through when a voltage is applied to it. As the coil warms up the resistance increases. What kind of error will ensue?</li>
+</ol>
+<h2 id="exercise-2--sample-statistics">Exercise 2 : Sample Statistics<a hidden class="anchor" aria-hidden="true" href="#exercise-2--sample-statistics">#</a></h2>
+<ol>
+<li>Nine different rock samples are taken from a crater on the moon whose densities are determined with the following results: $3.6, 3.3, 3.2, 3.0, 3.2, 3.1, 3.0, 3.1, 3.3 \frac{g}{cm^3}$. Calculate the mean value and standard deviation of the parent population.</li>
+<li>The velocity of a body travelling along a straight line is measured 10 times. The results are $1.30, 1.27, 1.25, 1.26, 1.29, 1.31, 1.23, 1.33, 1.24 \frac{m}{s}$. Calculate the mean value and the standard deviation.</li>
+</ol>
+<h2 id="exercise-3--uniform-distribution-moments">Exercise 3 : Uniform Distribution Moments<a hidden class="anchor" aria-hidden="true" href="#exercise-3--uniform-distribution-moments">#</a></h2>
+<p>A continuous random variable has the following density function:
+</p>
+$$
+f(x) = 
+\begin{cases} 
+1, & 0 \leq x \leq 1 \\
+0, & \text{otherwise}
+\end{cases}
+$$<p>
+Calculate the mean value and the variance.</p>
+<h2 id="exercise-4--normal-probability">Exercise 4 : Normal Probability<a hidden class="anchor" aria-hidden="true" href="#exercise-4--normal-probability">#</a></h2>
+<p>A measured variable is normally distributed with a mean value $\mu = 8$ and a standard deviation $\sigma = 1$. What percentage of all test data are smaller than 7?</p>
+<h2 id="exercise-5--error-propagation--area-and-density">Exercise 5 : Error Propagation — Area and Density<a hidden class="anchor" aria-hidden="true" href="#exercise-5--error-propagation--area-and-density">#</a></h2>
+<ol>
+<li>The sides of a rectangle are $x = 120 \pm 0.2  cm$ and $y = 90 \pm 0.1 cm$. Calculate the area and the standard deviation.</li>
+<li>Calculate the density and the standard deviation of a sphere of diameter $6.2 \pm 0.1 mm$ and mass $1000 \pm 0.1  g$.</li>
+</ol>
+<h2 id="exercise-6--linear-fit-spring-balance">Exercise 6 : Linear Fit (Spring Balance)<a hidden class="anchor" aria-hidden="true" href="#exercise-6--linear-fit-spring-balance">#</a></h2>
+<p>The sensitivity of a spring balance is to be determined. To achieve this we place different masses $m$ on the balance and record the deflection $S$. The results are:</p>
+<table>
+  <thead>
+      <tr>
+          <th>mass (mg):</th>
+          <th>2000</th>
+          <th>3000</th>
+          <th>4000</th>
+          <th>5000</th>
+          <th>6000</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>deflection (mm):</td>
+          <td>16</td>
+          <td>27</td>
+          <td>32</td>
+          <td>35</td>
+          <td>40</td>
+      </tr>
+  </tbody>
+</table>
+<p>If a straight line is to be fitted through these data points, i.e. $S = am + b$, calculate the values of $a$ and $b$.</p>
+<h2 id="exercise-7--linear-regression-with-uncertainties">Exercise 7 : Linear Regression with Uncertainties<a hidden class="anchor" aria-hidden="true" href="#exercise-7--linear-regression-with-uncertainties">#</a></h2>
+<p>In the spring-balance experiment you may instead have measured additional points with small known uncertainties. Suppose the measured deflections (mm) and their standard uncertainties are: $(16\pm0.5),(27\pm0.5),(32\pm0.5),(35\pm0.5),(40\pm0.5)$. Perform a weighted least-squares fit to $S=am+b$ and compute $a,b$ and their standard uncertainties.</p>
+<h2 id="exercise-8--weighted-angle-average">Exercise 8 : Weighted Angle Average<a hidden class="anchor" aria-hidden="true" href="#exercise-8--weighted-angle-average">#</a></h2>
+<p>An angle has been measured several times with two theodolites and the following values were obtained: $73^\circ 2'7&rsquo;&rsquo; \pm 10&rsquo;$ and $73^\circ 2'12&rsquo;&rsquo; \pm 20&rsquo;&rsquo;$. Calculate the weighted average.</p>
+<h2 id="exercise-9--chi-square-test-for-calibration">Exercise 9 : Chi-square Test for Calibration<a hidden class="anchor" aria-hidden="true" href="#exercise-9--chi-square-test-for-calibration">#</a></h2>
+<p>A calibration experiment yields counts in 5 bins: [102, 98, 95, 105, 100]. The expected (ideal) distribution is uniform. Perform a chi-square goodness-of-fit test at the 5% level and state whether the instrument agrees with the expected uniform response.</p>
+<h2 id="exercise-10--monte-carlo-error-propagation">Exercise 10 : Monte Carlo Error Propagation<a hidden class="anchor" aria-hidden="true" href="#exercise-10--monte-carlo-error-propagation">#</a></h2>
+<p>Let $z=\dfrac{xy}{x+y}$ where $x=1.23\pm0.02$ and $y=2.34\pm0.03$ (independent). Estimate the value and standard uncertainty of $z$ using (a) first-order error propagation and (b) a Monte Carlo simulation (draw 10,000 samples from Gaussian distributions and compute the empirical mean and standard deviation).</p>
+<h2 id="exercise-11--significant-figures-and-rounding-effects">Exercise 11 : Significant Figures and Rounding Effects<a hidden class="anchor" aria-hidden="true" href="#exercise-11--significant-figures-and-rounding-effects">#</a></h2>
+<p>Discuss how rounding to different numbers of significant figures influences propagated results. As a concrete example, compute the area of a rectangle with sides $x=12.34,cm$ and $y=5.678,cm$, (a) using full precision then rounding only the final result to 3 s.f., and (b) rounding each side to 3 s.f. before computing the area. Compare differences.</p>
+<h2 id="exercise-12--maximum-likelihood-estimation-for-normal-errors">Exercise 12 : Maximum Likelihood Estimation for Normal Errors<a hidden class="anchor" aria-hidden="true" href="#exercise-12--maximum-likelihood-estimation-for-normal-errors">#</a></h2>
+<p>You measure a quantity several times: $8.1,8.0,8.3,7.9,8.2$. Assuming independent Gaussian measurement errors with unknown mean $\mu$ and known standard deviation $\sigma=0.1$, derive the maximum likelihood estimator for $\mu$ and compute its value and standard error.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/statistics/">Statistics</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Applications of Integration</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/probability/en/probability-distributions/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Probability Distributions</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

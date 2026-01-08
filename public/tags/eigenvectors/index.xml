@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 07 Sep 2025 08:35:20 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 10:36:10 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/eigenvectors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eigenvalues and Eigenvectors of Real Matrices</title>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
+      <pubDate>Thu, 08 Jan 2026 10:36:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
+      <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors-of-real-matrices&#34;&gt;Eigenvalues and Eigenvectors of Real Matrices&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--eigenvalues--2x2-real-matrix&#34;&gt;Exercise 1 : Eigenvalues — 2x2 real matrix&lt;/h2&gt;
+&lt;p&gt;For $A = \begin{pmatrix} 4 &amp;amp; 2 \ 1 &amp;amp; 3 \end{pmatrix}$ find the eigenvalues.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--real-vs-complex-eigenvalues--2x2-question&#34;&gt;Exercise 2 : Real vs Complex Eigenvalues — 2x2 question&lt;/h2&gt;
+&lt;p&gt;Is it possible for a real $2 \times 2$ matrix to have one real and one complex eigenvalue?&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3--no-real-eigenvalues--rotation-like-matrix&#34;&gt;Exercise 3 : No Real Eigenvalues — rotation-like matrix&lt;/h2&gt;
+&lt;p&gt;Prove that there are no real eigenvalues of the matrix $A = \begin{pmatrix} 3 &amp;amp; 2 \ -2 &amp;amp; 1 \end{pmatrix}$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Eigenvalues and Eigenvectors</title>
       <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>

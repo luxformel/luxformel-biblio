@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Laplace Transforms | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Differential Equations, Applied Mathematics">
+<meta name="description" content="Laplace Transforms
+Exercise 1 : Applying Laplace Transforms
+Obtain the Laplace transforms for the following functions:
+
+$\frac{1}{4}t^3$
+$5e^{-2t}$
+$4\cos 3t$
+$\sin^2 t$
+
+Exercise 2 : Inverse Laplace Transforms
+Obtain the inverse transforms for the following:
+
+$\frac{1}{4s^2 &#43; 1}$
+$\frac{1}{s(s &#43; 4)}$
+$\frac{2}{s(s^2 &#43; 9)}$
+$\frac{6}{1 - s^2}$
+$\frac{1}{s^2(s^2 &#43; 1)}$
+$\frac{4}{s(s^2 - 6s &#43; 8)}$
+
+Exercise 3 : Solving Linear ODEs via Laplace
+Solve the following linear differential equations with constant coefficients:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Laplace Transforms">
+  <meta property="og:description" content="Laplace Transforms Exercise 1 : Applying Laplace Transforms Obtain the Laplace transforms for the following functions:
+$\frac{1}{4}t^3$ $5e^{-2t}$ $4\cos 3t$ $\sin^2 t$ Exercise 2 : Inverse Laplace Transforms Obtain the inverse transforms for the following:
+$\frac{1}{4s^2 &#43; 1}$ $\frac{1}{s(s &#43; 4)}$ $\frac{2}{s(s^2 &#43; 9)}$ $\frac{6}{1 - s^2}$ $\frac{1}{s^2(s^2 &#43; 1)}$ $\frac{4}{s(s^2 - 6s &#43; 8)}$ Exercise 3 : Solving Linear ODEs via Laplace Solve the following linear differential equations with constant coefficients:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T11:04:12+01:00">
+    <meta property="article:modified_time" content="2026-01-08T11:04:12+01:00">
+    <meta property="article:tag" content="Differential Equations">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Laplace Transforms">
+<meta name="twitter:description" content="Laplace Transforms
+Exercise 1 : Applying Laplace Transforms
+Obtain the Laplace transforms for the following functions:
+
+$\frac{1}{4}t^3$
+$5e^{-2t}$
+$4\cos 3t$
+$\sin^2 t$
+
+Exercise 2 : Inverse Laplace Transforms
+Obtain the inverse transforms for the following:
+
+$\frac{1}{4s^2 &#43; 1}$
+$\frac{1}{s(s &#43; 4)}$
+$\frac{2}{s(s^2 &#43; 9)}$
+$\frac{6}{1 - s^2}$
+$\frac{1}{s^2(s^2 &#43; 1)}$
+$\frac{4}{s(s^2 - 6s &#43; 8)}$
+
+Exercise 3 : Solving Linear ODEs via Laplace
+Solve the following linear differential equations with constant coefficients:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Laplace Transforms",
+      "item": "http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Laplace Transforms",
+  "name": "Laplace Transforms",
+  "description": "Laplace Transforms Exercise 1 : Applying Laplace Transforms Obtain the Laplace transforms for the following functions:\n$\\frac{1}{4}t^3$ $5e^{-2t}$ $4\\cos 3t$ $\\sin^2 t$ Exercise 2 : Inverse Laplace Transforms Obtain the inverse transforms for the following:\n$\\frac{1}{4s^2 + 1}$ $\\frac{1}{s(s + 4)}$ $\\frac{2}{s(s^2 + 9)}$ $\\frac{6}{1 - s^2}$ $\\frac{1}{s^2(s^2 + 1)}$ $\\frac{4}{s(s^2 - 6s + 8)}$ Exercise 3 : Solving Linear ODEs via Laplace Solve the following linear differential equations with constant coefficients:\n",
+  "keywords": [
+    "Differential Equations", "Applied Mathematics"
+  ],
+  "articleBody": "Laplace Transforms Exercise 1 : Applying Laplace Transforms Obtain the Laplace transforms for the following functions:\n$\\frac{1}{4}t^3$ $5e^{-2t}$ $4\\cos 3t$ $\\sin^2 t$ Exercise 2 : Inverse Laplace Transforms Obtain the inverse transforms for the following:\n$\\frac{1}{4s^2 + 1}$ $\\frac{1}{s(s + 4)}$ $\\frac{2}{s(s^2 + 9)}$ $\\frac{6}{1 - s^2}$ $\\frac{1}{s^2(s^2 + 1)}$ $\\frac{4}{s(s^2 - 6s + 8)}$ Exercise 3 : Solving Linear ODEs via Laplace Solve the following linear differential equations with constant coefficients:\n$\\ddot{y} + 5\\dot{y} + 4y = 0$ (initial conditions: $y = 0$, $\\dot{y} = 2$ at $t = 0$) $\\ddot{y} + 9y = \\sin 2t$ (initial conditions: $y = 1$, $\\dot{y} = -1$ at $t = 0$) $\\ddot{y} + 2\\dot{y} = \\cos t$ (initial conditions: $y = 1$ at $t = 0$) Exercise 4 : Transform and Solve (Verification) If $\\ddot{y} - 3\\dot{y} + 2y = 4$ and $y = 2$, $\\dot{y} = 3$ at $t = 0$, show that $\\bar{y} = \\frac{2s^2 - 3s + 4}{s(s - 1)(s - 2)}$, and hence find the solution for $y$.\nExercise 5 : Nonhomogeneous Forcing (Exponentials and Polynomials) Given $\\ddot{y} + \\dot{y} = e^t + t + 1$ with the initial conditions $y = 0$, $\\dot{y} = 0$ at $t = 0$, obtain $y$.\nExercise 6 : Coupled First-Order System (Forced) Solve the following simultaneous equations for $y$:\n$\\dot{y} + 2\\dot{x} + y - x = 25e^t$ $2\\dot{y} + x = 25e^t$ Initial conditions: $y = 0$, $x = 25$ at $t = 0$.\nExercise 7 : Coupled Homogeneous System Solve for $y$ and $x$ given:\n$4\\dot{x} - \\dot{y} + x = 1$ $4\\dot{x} - 4\\dot{y} - y = 0$ Initial conditions: $x = 0$, $y = 0$ at $t = 0$.\nExercise 8 : Series LC Circuit (Forced Sinusoid) An electrical circuit consists of a capacitor, $C$ farads, and an inductor, $L$ henries, in series, to which a voltage $E \\sin \\omega t$ is applied. If $Q$ is the charge on the capacitor in coulombs, show that $$ Q = \\frac{E}{L(\\omega^2 - 1/LC)} \\left[ \\frac{\\omega}{s^2 + 1/LC} - \\frac{\\omega}{s^2 + \\omega^2} \\right], \\quad \\omega^2 LC \\neq 1 $$ and hence calculate $Q$ given that $C = 50 \\times 10^{-6}F$, $L = 0.1H$, $\\omega = 500 \\frac{rad}{s}$, $E = 2V$, and $Q = \\dot{Q} = 0$ at $t = 0$.\nExercise 9 : Unit Step and Time-Shifting (Heaviside) Find the Laplace transforms of $u(t-a)$ and $u(t-a)f(t-a)$ where $u$ is the unit step and $a\u003e0$. Compute the inverse transform of $\\frac{e^{-2s}}{s(s+1)}$ and write the piecewise time-domain expression. Solve $\\ddot{y}+y = u(t-\\pi)$ with zero initial conditions using Laplace transforms. Exercise 10 : Dirac Delta and Impulse Response Compute $\\mathcal{L}{\\delta(t-a)}$ and $\\mathcal{L}{\\delta’(t)}$. Solve $\\ddot{y}+3\\dot{y}+2y=\\delta(t-1)$ with zero initial conditions; interpret the solution as an impulse response. If a system has impulse response $h(t)=e^{-t}u(t)$, find its response to input $x(t)=\\delta(t-2)$. Exercise 11 : Convolution Theorem and System Response Use convolution to find the inverse Laplace transform of $\\frac{1}{(s+1)(s^2+1)}$. Given $H(s)=\\frac{1}{s^2+2s+2}$ and input $x(t)=\\sin t,u(t)$, compute the output $y(t)=h*x$ using Laplace-domain multiplication and inverse transform. Exercise 12 : Initial and Final Value Theorems Use the initial and final value theorems to evaluate $\\lim_{t\\to0^+}f(t)$ and $\\lim_{t\\to\\infty}f(t)$ for $F(s)=\\frac{s+2}{s^2+3s+2}$, if the limits exist. Apply the theorems to determine the steady-state value of the solution of $\\dot{y}+2y=5$ with $y(0)=0$ via Laplace transforms. Exercise 13 : Transfer Functions, Poles and Stability For the ODE $\\ddot{y}+4\\dot{y}+5y = u(t)$, find the transfer function $H(s)=Y(s)/U(s)$ and list its poles. Is the system stable? Find the natural response and comment on damping. Exercise 14 : Periodic Forcing and Steady-State Response A square-wave of period $T$ with amplitude 1 can be expressed as a Fourier series. Briefly outline how Laplace transforms and the series combine to find the steady-state response of a linear system. As a concrete task, find the Laplace transform of a periodic pulse train of period $2$ consisting of unit pulses of width $0.5$. Exercise 15 : Advanced Partial Fractions Practice Compute inverse Laplace transforms for the following using partial fractions: $\\frac{3s^2+2s+1}{s(s^2+2s+2)}$ $\\frac{s^3+2s^2+s+1}{s^2(s+1)(s^2+1)}$ Solve $\\dddot{y}+\\ddot{y}+\\dot{y}+y=\\sin t$ with zero initial conditions using transforms and partial fractions. ",
+  "wordCount" : "673",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T11:04:12+01:00",
+  "dateModified": "2026-01-08T11:04:12+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Laplace Transforms
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 11:04:12 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>673 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--applying-laplace-transforms">Exercise 1 : Applying Laplace Transforms</a></li>
+    <li><a href="#exercise-2--inverse-laplace-transforms">Exercise 2 : Inverse Laplace Transforms</a></li>
+    <li><a href="#exercise-3--solving-linear-odes-via-laplace">Exercise 3 : Solving Linear ODEs via Laplace</a></li>
+    <li><a href="#exercise-4--transform-and-solve-verification">Exercise 4 : Transform and Solve (Verification)</a></li>
+    <li><a href="#exercise-5--nonhomogeneous-forcing-exponentials-and-polynomials">Exercise 5 : Nonhomogeneous Forcing (Exponentials and Polynomials)</a></li>
+    <li><a href="#exercise-6--coupled-first-order-system-forced">Exercise 6 : Coupled First-Order System (Forced)</a></li>
+    <li><a href="#exercise-7--coupled-homogeneous-system">Exercise 7 : Coupled Homogeneous System</a></li>
+    <li><a href="#exercise-8--series-lc-circuit-forced-sinusoid">Exercise 8 : Series LC Circuit (Forced Sinusoid)</a></li>
+    <li><a href="#exercise-9--unit-step-and-time-shifting-heaviside">Exercise 9 : Unit Step and Time-Shifting (Heaviside)</a></li>
+    <li><a href="#exercise-10--dirac-delta-and-impulse-response">Exercise 10 : Dirac Delta and Impulse Response</a></li>
+    <li><a href="#exercise-11--convolution-theorem-and-system-response">Exercise 11 : Convolution Theorem and System Response</a></li>
+    <li><a href="#exercise-12--initial-and-final-value-theorems">Exercise 12 : Initial and Final Value Theorems</a></li>
+    <li><a href="#exercise-13--transfer-functions-poles-and-stability">Exercise 13 : Transfer Functions, Poles and Stability</a></li>
+    <li><a href="#exercise-14--periodic-forcing-and-steady-state-response">Exercise 14 : Periodic Forcing and Steady-State Response</a></li>
+    <li><a href="#exercise-15--advanced-partial-fractions-practice">Exercise 15 : Advanced Partial Fractions Practice</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="laplace-transforms">Laplace Transforms<a hidden class="anchor" aria-hidden="true" href="#laplace-transforms">#</a></h1>
+<h2 id="exercise-1--applying-laplace-transforms">Exercise 1 : Applying Laplace Transforms<a hidden class="anchor" aria-hidden="true" href="#exercise-1--applying-laplace-transforms">#</a></h2>
+<p>Obtain the Laplace transforms for the following functions:</p>
+<ol>
+<li>$\frac{1}{4}t^3$</li>
+<li>$5e^{-2t}$</li>
+<li>$4\cos 3t$</li>
+<li>$\sin^2 t$</li>
+</ol>
+<h2 id="exercise-2--inverse-laplace-transforms">Exercise 2 : Inverse Laplace Transforms<a hidden class="anchor" aria-hidden="true" href="#exercise-2--inverse-laplace-transforms">#</a></h2>
+<p>Obtain the inverse transforms for the following:</p>
+<ol>
+<li>$\frac{1}{4s^2 + 1}$</li>
+<li>$\frac{1}{s(s + 4)}$</li>
+<li>$\frac{2}{s(s^2 + 9)}$</li>
+<li>$\frac{6}{1 - s^2}$</li>
+<li>$\frac{1}{s^2(s^2 + 1)}$</li>
+<li>$\frac{4}{s(s^2 - 6s + 8)}$</li>
+</ol>
+<h2 id="exercise-3--solving-linear-odes-via-laplace">Exercise 3 : Solving Linear ODEs via Laplace<a hidden class="anchor" aria-hidden="true" href="#exercise-3--solving-linear-odes-via-laplace">#</a></h2>
+<p>Solve the following linear differential equations with constant coefficients:</p>
+<ol>
+<li>$\ddot{y} + 5\dot{y} + 4y = 0$ (initial conditions: $y = 0$, $\dot{y} = 2$ at $t = 0$)</li>
+<li>$\ddot{y} + 9y = \sin 2t$ (initial conditions: $y = 1$, $\dot{y} = -1$ at $t = 0$)</li>
+<li>$\ddot{y} + 2\dot{y} = \cos t$ (initial conditions: $y = 1$ at $t = 0$)</li>
+</ol>
+<h2 id="exercise-4--transform-and-solve-verification">Exercise 4 : Transform and Solve (Verification)<a hidden class="anchor" aria-hidden="true" href="#exercise-4--transform-and-solve-verification">#</a></h2>
+<p>If $\ddot{y} - 3\dot{y} + 2y = 4$ and $y = 2$, $\dot{y} = 3$ at $t = 0$, show that $\bar{y} = \frac{2s^2 - 3s + 4}{s(s - 1)(s - 2)}$, and hence find the solution for $y$.</p>
+<h2 id="exercise-5--nonhomogeneous-forcing-exponentials-and-polynomials">Exercise 5 : Nonhomogeneous Forcing (Exponentials and Polynomials)<a hidden class="anchor" aria-hidden="true" href="#exercise-5--nonhomogeneous-forcing-exponentials-and-polynomials">#</a></h2>
+<p>Given $\ddot{y} + \dot{y} = e^t + t + 1$ with the initial conditions $y = 0$, $\dot{y} = 0$ at $t = 0$, obtain $y$.</p>
+<h2 id="exercise-6--coupled-first-order-system-forced">Exercise 6 : Coupled First-Order System (Forced)<a hidden class="anchor" aria-hidden="true" href="#exercise-6--coupled-first-order-system-forced">#</a></h2>
+<p>Solve the following simultaneous equations for $y$:</p>
+<p>$\dot{y} + 2\dot{x} + y - x = 25e^t$
+$2\dot{y} + x = 25e^t$
+Initial conditions: $y = 0$, $x = 25$ at $t = 0$.</p>
+<h2 id="exercise-7--coupled-homogeneous-system">Exercise 7 : Coupled Homogeneous System<a hidden class="anchor" aria-hidden="true" href="#exercise-7--coupled-homogeneous-system">#</a></h2>
+<p>Solve for $y$ and $x$ given:</p>
+<p>$4\dot{x} - \dot{y} + x = 1$
+$4\dot{x} - 4\dot{y} - y = 0$
+Initial conditions: $x = 0$, $y = 0$ at $t = 0$.</p>
+<h2 id="exercise-8--series-lc-circuit-forced-sinusoid">Exercise 8 : Series LC Circuit (Forced Sinusoid)<a hidden class="anchor" aria-hidden="true" href="#exercise-8--series-lc-circuit-forced-sinusoid">#</a></h2>
+<p>An electrical circuit consists of a capacitor, $C$ farads, and an inductor, $L$ henries, in series, to which a voltage $E \sin \omega t$ is applied. If $Q$ is the charge on the capacitor in coulombs, show that
+</p>
+$$
+Q = \frac{E}{L(\omega^2 - 1/LC)} \left[ \frac{\omega}{s^2 + 1/LC} - \frac{\omega}{s^2 + \omega^2} \right], \quad \omega^2 LC \neq 1
+$$<p>
+and hence calculate $Q$ given that $C = 50 \times 10^{-6}F$, $L = 0.1H$, $\omega = 500  \frac{rad}{s}$, $E = 2V$, and $Q = \dot{Q} = 0$ at $t = 0$.</p>
+<h2 id="exercise-9--unit-step-and-time-shifting-heaviside">Exercise 9 : Unit Step and Time-Shifting (Heaviside)<a hidden class="anchor" aria-hidden="true" href="#exercise-9--unit-step-and-time-shifting-heaviside">#</a></h2>
+<ol>
+<li>Find the Laplace transforms of $u(t-a)$ and $u(t-a)f(t-a)$ where $u$ is the unit step and $a&gt;0$.</li>
+<li>Compute the inverse transform of $\frac{e^{-2s}}{s(s+1)}$ and write the piecewise time-domain expression.</li>
+<li>Solve $\ddot{y}+y = u(t-\pi)$ with zero initial conditions using Laplace transforms.</li>
+</ol>
+<h2 id="exercise-10--dirac-delta-and-impulse-response">Exercise 10 : Dirac Delta and Impulse Response<a hidden class="anchor" aria-hidden="true" href="#exercise-10--dirac-delta-and-impulse-response">#</a></h2>
+<ol>
+<li>Compute $\mathcal{L}{\delta(t-a)}$ and $\mathcal{L}{\delta&rsquo;(t)}$.</li>
+<li>Solve $\ddot{y}+3\dot{y}+2y=\delta(t-1)$ with zero initial conditions; interpret the solution as an impulse response.</li>
+<li>If a system has impulse response $h(t)=e^{-t}u(t)$, find its response to input $x(t)=\delta(t-2)$.</li>
+</ol>
+<h2 id="exercise-11--convolution-theorem-and-system-response">Exercise 11 : Convolution Theorem and System Response<a hidden class="anchor" aria-hidden="true" href="#exercise-11--convolution-theorem-and-system-response">#</a></h2>
+<ol>
+<li>Use convolution to find the inverse Laplace transform of $\frac{1}{(s+1)(s^2+1)}$.</li>
+<li>Given $H(s)=\frac{1}{s^2+2s+2}$ and input $x(t)=\sin t,u(t)$, compute the output $y(t)=h*x$ using Laplace-domain multiplication and inverse transform.</li>
+</ol>
+<h2 id="exercise-12--initial-and-final-value-theorems">Exercise 12 : Initial and Final Value Theorems<a hidden class="anchor" aria-hidden="true" href="#exercise-12--initial-and-final-value-theorems">#</a></h2>
+<ol>
+<li>Use the initial and final value theorems to evaluate $\lim_{t\to0^+}f(t)$ and $\lim_{t\to\infty}f(t)$ for $F(s)=\frac{s+2}{s^2+3s+2}$, if the limits exist.</li>
+<li>Apply the theorems to determine the steady-state value of the solution of $\dot{y}+2y=5$ with $y(0)=0$ via Laplace transforms.</li>
+</ol>
+<h2 id="exercise-13--transfer-functions-poles-and-stability">Exercise 13 : Transfer Functions, Poles and Stability<a hidden class="anchor" aria-hidden="true" href="#exercise-13--transfer-functions-poles-and-stability">#</a></h2>
+<ol>
+<li>For the ODE $\ddot{y}+4\dot{y}+5y = u(t)$, find the transfer function $H(s)=Y(s)/U(s)$ and list its poles. Is the system stable?</li>
+<li>Find the natural response and comment on damping.</li>
+</ol>
+<h2 id="exercise-14--periodic-forcing-and-steady-state-response">Exercise 14 : Periodic Forcing and Steady-State Response<a hidden class="anchor" aria-hidden="true" href="#exercise-14--periodic-forcing-and-steady-state-response">#</a></h2>
+<ol>
+<li>A square-wave of period $T$ with amplitude 1 can be expressed as a Fourier series. Briefly outline how Laplace transforms and the series combine to find the steady-state response of a linear system.</li>
+<li>As a concrete task, find the Laplace transform of a periodic pulse train of period $2$ consisting of unit pulses of width $0.5$.</li>
+</ol>
+<h2 id="exercise-15--advanced-partial-fractions-practice">Exercise 15 : Advanced Partial Fractions Practice<a hidden class="anchor" aria-hidden="true" href="#exercise-15--advanced-partial-fractions-practice">#</a></h2>
+<ol>
+<li>Compute inverse Laplace transforms for the following using partial fractions:
+<ul>
+<li>$\frac{3s^2+2s+1}{s(s^2+2s+2)}$</li>
+<li>$\frac{s^3+2s^2+s+1}{s^2(s+1)(s^2+1)}$</li>
+</ul>
+</li>
+<li>Solve $\dddot{y}+\ddot{y}+\dot{y}+y=\sin t$ with zero initial conditions using transforms and partial fractions.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/differential-equations/">Differential Equations</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Multiple Integrals; Coordinate Systems</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Functions of Several Variables; Partial Differentiation; and Total Differentiation</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

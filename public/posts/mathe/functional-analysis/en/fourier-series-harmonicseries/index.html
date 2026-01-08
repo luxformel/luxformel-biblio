@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Fourier Series; Harmonic Analysis | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Functional Analysis, Fourier Series, Harmonic Analysis, Applied Mathematics">
+<meta name="description" content="Fourier Series; Harmonic Analysis
+Exercise 1 : Symmetric rectangular pulse
+Obtain the Fourier series of the 2\pi-periodic function
+$$
+f(x)=\begin{cases}
+0, & -\pi\le x&lt; -\tfrac{\pi}{2},\\
+1, & -\tfrac{\pi}{2}\le x&lt; \tfrac{\pi}{2},\\
+0, & \tfrac{\pi}{2}\le x\le \pi,
+\end{cases}
+$$State whether the periodic extension is even or odd, compute the nonzero Fourier coefficients, and write the series in sine/cosine form.
+Exercise 2 : Odd square wave
+For the 2\pi-periodic function
+$$
+f(x)=\begin{cases}
+1, & -\pi\le x&lt;0,\\
+-1, & 0\le x\le\pi,
+\end{cases}
+$$Compute the Fourier series, indicate whether only sine terms appear, and derive the explicit formula for the coefficients.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Fourier Series; Harmonic Analysis">
+  <meta property="og:description" content="Fourier Series; Harmonic Analysis Exercise 1 : Symmetric rectangular pulse Obtain the Fourier series of the 2\pi-periodic function
+$$ f(x)=\begin{cases} 0, &amp; -\pi\le x&lt; -\tfrac{\pi}{2},\\ 1, &amp; -\tfrac{\pi}{2}\le x&lt; \tfrac{\pi}{2},\\ 0, &amp; \tfrac{\pi}{2}\le x\le \pi, \end{cases} $$State whether the periodic extension is even or odd, compute the nonzero Fourier coefficients, and write the series in sine/cosine form.
+Exercise 2 : Odd square wave For the 2\pi-periodic function
+$$ f(x)=\begin{cases} 1, &amp; -\pi\le x&lt;0,\\ -1, &amp; 0\le x\le\pi, \end{cases} $$Compute the Fourier series, indicate whether only sine terms appear, and derive the explicit formula for the coefficients.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T08:34:49+01:00">
+    <meta property="article:modified_time" content="2026-01-08T08:34:49+01:00">
+    <meta property="article:tag" content="Functional Analysis">
+    <meta property="article:tag" content="Fourier Series">
+    <meta property="article:tag" content="Harmonic Analysis">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Fourier Series; Harmonic Analysis">
+<meta name="twitter:description" content="Fourier Series; Harmonic Analysis
+Exercise 1 : Symmetric rectangular pulse
+Obtain the Fourier series of the 2\pi-periodic function
+$$
+f(x)=\begin{cases}
+0, & -\pi\le x&lt; -\tfrac{\pi}{2},\\
+1, & -\tfrac{\pi}{2}\le x&lt; \tfrac{\pi}{2},\\
+0, & \tfrac{\pi}{2}\le x\le \pi,
+\end{cases}
+$$State whether the periodic extension is even or odd, compute the nonzero Fourier coefficients, and write the series in sine/cosine form.
+Exercise 2 : Odd square wave
+For the 2\pi-periodic function
+$$
+f(x)=\begin{cases}
+1, & -\pi\le x&lt;0,\\
+-1, & 0\le x\le\pi,
+\end{cases}
+$$Compute the Fourier series, indicate whether only sine terms appear, and derive the explicit formula for the coefficients.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Fourier Series; Harmonic Analysis",
+      "item": "http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fourier Series; Harmonic Analysis",
+  "name": "Fourier Series; Harmonic Analysis",
+  "description": "Fourier Series; Harmonic Analysis Exercise 1 : Symmetric rectangular pulse Obtain the Fourier series of the 2\\pi-periodic function\n$$ f(x)=\\begin{cases} 0, \u0026 -\\pi\\le x\u003c -\\tfrac{\\pi}{2},\\\\ 1, \u0026 -\\tfrac{\\pi}{2}\\le x\u003c \\tfrac{\\pi}{2},\\\\ 0, \u0026 \\tfrac{\\pi}{2}\\le x\\le \\pi, \\end{cases} $$State whether the periodic extension is even or odd, compute the nonzero Fourier coefficients, and write the series in sine/cosine form.\nExercise 2 : Odd square wave For the 2\\pi-periodic function\n$$ f(x)=\\begin{cases} 1, \u0026 -\\pi\\le x\u003c0,\\\\ -1, \u0026 0\\le x\\le\\pi, \\end{cases} $$Compute the Fourier series, indicate whether only sine terms appear, and derive the explicit formula for the coefficients.\n",
+  "keywords": [
+    "Functional Analysis", "Fourier Series", "Harmonic Analysis", "Applied Mathematics"
+  ],
+  "articleBody": "Fourier Series; Harmonic Analysis Exercise 1 : Symmetric rectangular pulse Obtain the Fourier series of the 2\\pi-periodic function\n$$ f(x)=\\begin{cases} 0, \u0026 -\\pi\\le x\u003c -\\tfrac{\\pi}{2},\\\\ 1, \u0026 -\\tfrac{\\pi}{2}\\le x\u003c \\tfrac{\\pi}{2},\\\\ 0, \u0026 \\tfrac{\\pi}{2}\\le x\\le \\pi, \\end{cases} $$State whether the periodic extension is even or odd, compute the nonzero Fourier coefficients, and write the series in sine/cosine form.\nExercise 2 : Odd square wave For the 2\\pi-periodic function\n$$ f(x)=\\begin{cases} 1, \u0026 -\\pi\\le x\u003c0,\\\\ -1, \u0026 0\\le x\\le\\pi, \\end{cases} $$Compute the Fourier series, indicate whether only sine terms appear, and derive the explicit formula for the coefficients.\nExercise 3 : Full-wave rectified sine Find the Fourier series of\n$$ f(x)=|\\sin x|=\\begin{cases} -\\sin x, \u0026 -\\pi",
+  "wordCount" : "114",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T08:34:49+01:00",
+  "dateModified": "2026-01-08T08:34:49+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Fourier Series; Harmonic Analysis
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 08:34:49 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>114 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--symmetric-rectangular-pulse">Exercise 1 : Symmetric rectangular pulse</a></li>
+    <li><a href="#exercise-2--odd-square-wave">Exercise 2 : Odd square wave</a></li>
+    <li><a href="#exercise-3--full-wave-rectified-sine">Exercise 3 : Full-wave rectified sine</a></li>
+    <li><a href="#exercise-4--pulse-with-period-4pi">Exercise 4 : Pulse with period 4/pi</a></li>
+    <li><a href="#exercise-5--general-rectangular-pulse">Exercise 5 : General rectangular pulse</a></li>
+    <li><a href="#exercise-6--triangular-wave-continuous-even">Exercise 6 : Triangular wave (continuous, even)</a></li>
+    <li><a href="#exercise-7--sawtooth-wave-odd">Exercise 7 : Sawtooth wave (odd)</a></li>
+    <li><a href="#exercise-8--half-wave-rectified-sine">Exercise 8 : Half-wave rectified sine</a></li>
+    <li><a href="#exercise-9--even-and-odd-extensions">Exercise 9 : Even and odd extensions</a></li>
+    <li><a href="#exercise-10--parseval-identity-application">Exercise 10 : Parseval identity application</a></li>
+    <li><a href="#exercise-11--gibbs-phenomenon">Exercise 11 : Gibbs phenomenon</a></li>
+    <li><a href="#exercise-12--complex-fourier-coefficients-for-pulses">Exercise 12 : Complex Fourier coefficients for pulses</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="fourier-series-harmonic-analysis">Fourier Series; Harmonic Analysis<a hidden class="anchor" aria-hidden="true" href="#fourier-series-harmonic-analysis">#</a></h1>
+<h2 id="exercise-1--symmetric-rectangular-pulse">Exercise 1 : Symmetric rectangular pulse<a hidden class="anchor" aria-hidden="true" href="#exercise-1--symmetric-rectangular-pulse">#</a></h2>
+<p>Obtain the Fourier series of the 2\pi-periodic function</p>
+$$
+f(x)=\begin{cases}
+0, & -\pi\le x< -\tfrac{\pi}{2},\\
+1, & -\tfrac{\pi}{2}\le x< \tfrac{\pi}{2},\\
+0, & \tfrac{\pi}{2}\le x\le \pi,
+\end{cases}
+$$<p>State whether the periodic extension is even or odd, compute the nonzero Fourier coefficients, and write the series in sine/cosine form.</p>
+<h2 id="exercise-2--odd-square-wave">Exercise 2 : Odd square wave<a hidden class="anchor" aria-hidden="true" href="#exercise-2--odd-square-wave">#</a></h2>
+<p>For the 2\pi-periodic function</p>
+$$
+f(x)=\begin{cases}
+1, & -\pi\le x<0,\\
+-1, & 0\le x\le\pi,
+\end{cases}
+$$<p>Compute the Fourier series, indicate whether only sine terms appear, and derive the explicit formula for the coefficients.</p>
+<h2 id="exercise-3--full-wave-rectified-sine">Exercise 3 : Full-wave rectified sine<a hidden class="anchor" aria-hidden="true" href="#exercise-3--full-wave-rectified-sine">#</a></h2>
+<p>Find the Fourier series of</p>
+$$
+f(x)=|\sin x|=\begin{cases}
+-\sin x, & -\pi<x<0,\\
+\sin x, & 0<x<\pi.
+\end{cases}
+$$<p>Determine whether the function is even or odd, compute the cosine-series coefficients, and write the series in closed form.</p>
+<h2 id="exercise-4--pulse-with-period-4pi">Exercise 4 : Pulse with period 4/pi<a hidden class="anchor" aria-hidden="true" href="#exercise-4--pulse-with-period-4pi">#</a></h2>
+<p>Obtain the Fourier series for the function with period $4\pi$:</p>
+$$
+f(x)=\begin{cases}
+0, & -2\pi\le x< -\pi,\\
+1, & -\pi\le x< \pi,\\
+0, & \pi\le x<2\pi.
+\end{cases}
+$$<p>Give the Fourier coefficients and express the series.</p>
+<h2 id="exercise-5--general-rectangular-pulse">Exercise 5 : General rectangular pulse<a hidden class="anchor" aria-hidden="true" href="#exercise-5--general-rectangular-pulse">#</a></h2>
+<p>Let $f$ be the $T$-periodic rectangular pulse of width $t_0$ and unit height:</p>
+$$
+f(t)=\begin{cases}
+0, & -\tfrac{T}{2}\le t< -\tfrac{t_0}{2},\\
+1, & -\tfrac{t_0}{2}\le t\le \tfrac{t_0}{2},\\
+0, & \tfrac{t_0}{2}<t<\tfrac{T}{2}.
+\end{cases}
+$$<p>Derive the Fourier series (both real and complex forms) and simplify the coefficients to closed form (sinc-type expressions).</p>
+<h2 id="exercise-6--triangular-wave-continuous-even">Exercise 6 : Triangular wave (continuous, even)<a hidden class="anchor" aria-hidden="true" href="#exercise-6--triangular-wave-continuous-even">#</a></h2>
+<p>Consider the even, 2\pi-periodic triangular wave defined on $[-\pi,\pi]$ by</p>
+$$
+f(x)=1-\frac{|x|}{\pi},\qquad -\pi\le x\le\pi.
+$$<p>Compute the Fourier cosine series and show that coefficients decay as $1/n^2$.</p>
+<h2 id="exercise-7--sawtooth-wave-odd">Exercise 7 : Sawtooth wave (odd)<a hidden class="anchor" aria-hidden="true" href="#exercise-7--sawtooth-wave-odd">#</a></h2>
+<p>For the 2\pi-periodic sawtooth function</p>
+$$
+f(x)=\frac{x}{\pi},\qquad -\pi<x<\pi
+$$<p>obtain the Fourier sine series (odd extension) and derive the coefficient formula; discuss convergence at discontinuities.</p>
+<h2 id="exercise-8--half-wave-rectified-sine">Exercise 8 : Half-wave rectified sine<a hidden class="anchor" aria-hidden="true" href="#exercise-8--half-wave-rectified-sine">#</a></h2>
+<p>Define the half-wave rectified sine with period $2\pi$ by</p>
+$$
+f(x)=\begin{cases}
+\sin x, & 0<x<\pi,\\
+0, & -\pi<x<0.
+\end{cases}
+$$<p>Find the Fourier series (both sine and cosine terms may appear) and compute the coefficients explicitly.</p>
+<h2 id="exercise-9--even-and-odd-extensions">Exercise 9 : Even and odd extensions<a hidden class="anchor" aria-hidden="true" href="#exercise-9--even-and-odd-extensions">#</a></h2>
+<p>Given a function $g(x)$ defined on $[0,\pi]$, explain how to form the even and odd $2\pi$-periodic extensions. Then, for $g(x)=x$ on $[0,\pi]$, compute both the Fourier cosine series (even extension) and the Fourier sine series (odd extension).</p>
+<h2 id="exercise-10--parseval-identity-application">Exercise 10 : Parseval identity application<a hidden class="anchor" aria-hidden="true" href="#exercise-10--parseval-identity-application">#</a></h2>
+<p>Use Parseval&rsquo;s identity to compute the sum of squared Fourier coefficients. As a concrete task, compute the Fourier series of $|\sin x|$ and use Parseval&rsquo;s identity to evaluate a related infinite sum (state which sum you evaluate and show the steps).</p>
+<h2 id="exercise-11--gibbs-phenomenon">Exercise 11 : Gibbs phenomenon<a hidden class="anchor" aria-hidden="true" href="#exercise-11--gibbs-phenomenon">#</a></h2>
+<p>For the 2\pi-periodic square wave defined by
+</p>
+$$
+f(x)=\begin{cases}
+1, & -\pi\le x<0,\\
+-1, & 0\le x\le\pi,
+\end{cases}
+$$<p>
+compute the $N$-term partial sums of the Fourier series near a jump and numerically or analytically show the overshoot (Gibbs phenomenon). Quantify the limiting overshoot as $N\to\infty$.</p>
+<h2 id="exercise-12--complex-fourier-coefficients-for-pulses">Exercise 12 : Complex Fourier coefficients for pulses<a hidden class="anchor" aria-hidden="true" href="#exercise-12--complex-fourier-coefficients-for-pulses">#</a></h2>
+<p>Consider the $T$-periodic rectangular pulse of width $t_0$ and unit height:</p>
+$$
+f(t)=\begin{cases}
+0, & -\tfrac{T}{2}\le t< -\tfrac{t_0}{2},\\
+1, & -\tfrac{t_0}{2}\le t\le \tfrac{t_0}{2},\\
+0, & \tfrac{t_0}{2}<t<\tfrac{T}{2}.
+\end{cases}
+$$<p>Derive its complex Fourier coefficients $c_n$. Show equivalence between the complex form and the real sine/cosine form.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/functional-analysis/">Functional Analysis</a></li>
+      <li><a href="http://localhost:1313/tags/fourier-series/">Fourier Series</a></li>
+      <li><a href="http://localhost:1313/tags/harmonic-analysis/">Harmonic Analysis</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Fourier Integrals and Fourier Transforms</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/calculus/en/integral-calculus/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Integral Calculus</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

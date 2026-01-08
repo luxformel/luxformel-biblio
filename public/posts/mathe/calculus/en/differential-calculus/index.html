@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Differential Calculus | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Calculus, Differentiation, Applied Mathematics">
+<meta name="description" content="Differential Calculus
+Exercise 1 : Sequences and Limits of Sequences
+Calculate the limiting value of the following sequences for $n \to \infty$.
+
+$a_n = \frac{\sqrt{n}}{n}$
+$a_n = \frac{5 &#43; n}{2n}$
+$a_n = \left(-\frac{1}{4}\right)^n - 1$
+$a_n = \frac{2}{n} &#43; 1$
+$a_n = \frac{n^3 &#43; 1}{2n^3 &#43; n^2 &#43; n}$
+$a_n = 2 &#43; 2^{-n}$
+$a_n = \frac{n^2 - 1}{(n &#43; 1)^2} &#43; 5$
+
+Exercise 2 : Limits of Functions
+Calculate the following limits:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/calculus/en/differential-calculus/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/calculus/en/differential-calculus/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Differential Calculus">
+  <meta property="og:description" content="Differential Calculus Exercise 1 : Sequences and Limits of Sequences Calculate the limiting value of the following sequences for $n \to \infty$.
+$a_n = \frac{\sqrt{n}}{n}$ $a_n = \frac{5 &#43; n}{2n}$ $a_n = \left(-\frac{1}{4}\right)^n - 1$ $a_n = \frac{2}{n} &#43; 1$ $a_n = \frac{n^3 &#43; 1}{2n^3 &#43; n^2 &#43; n}$ $a_n = 2 &#43; 2^{-n}$ $a_n = \frac{n^2 - 1}{(n &#43; 1)^2} &#43; 5$ Exercise 2 : Limits of Functions Calculate the following limits:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T09:57:06+01:00">
+    <meta property="article:modified_time" content="2026-01-08T09:57:06+01:00">
+    <meta property="article:tag" content="Calculus">
+    <meta property="article:tag" content="Differentiation">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Differential Calculus">
+<meta name="twitter:description" content="Differential Calculus
+Exercise 1 : Sequences and Limits of Sequences
+Calculate the limiting value of the following sequences for $n \to \infty$.
+
+$a_n = \frac{\sqrt{n}}{n}$
+$a_n = \frac{5 &#43; n}{2n}$
+$a_n = \left(-\frac{1}{4}\right)^n - 1$
+$a_n = \frac{2}{n} &#43; 1$
+$a_n = \frac{n^3 &#43; 1}{2n^3 &#43; n^2 &#43; n}$
+$a_n = 2 &#43; 2^{-n}$
+$a_n = \frac{n^2 - 1}{(n &#43; 1)^2} &#43; 5$
+
+Exercise 2 : Limits of Functions
+Calculate the following limits:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Differential Calculus",
+      "item": "http://localhost:1313/posts/mathe/calculus/en/differential-calculus/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Differential Calculus",
+  "name": "Differential Calculus",
+  "description": "Differential Calculus Exercise 1 : Sequences and Limits of Sequences Calculate the limiting value of the following sequences for $n \\to \\infty$.\n$a_n = \\frac{\\sqrt{n}}{n}$ $a_n = \\frac{5 + n}{2n}$ $a_n = \\left(-\\frac{1}{4}\\right)^n - 1$ $a_n = \\frac{2}{n} + 1$ $a_n = \\frac{n^3 + 1}{2n^3 + n^2 + n}$ $a_n = 2 + 2^{-n}$ $a_n = \\frac{n^2 - 1}{(n + 1)^2} + 5$ Exercise 2 : Limits of Functions Calculate the following limits:\n",
+  "keywords": [
+    "Calculus", "Differentiation", "Applied Mathematics"
+  ],
+  "articleBody": "Differential Calculus Exercise 1 : Sequences and Limits of Sequences Calculate the limiting value of the following sequences for $n \\to \\infty$.\n$a_n = \\frac{\\sqrt{n}}{n}$ $a_n = \\frac{5 + n}{2n}$ $a_n = \\left(-\\frac{1}{4}\\right)^n - 1$ $a_n = \\frac{2}{n} + 1$ $a_n = \\frac{n^3 + 1}{2n^3 + n^2 + n}$ $a_n = 2 + 2^{-n}$ $a_n = \\frac{n^2 - 1}{(n + 1)^2} + 5$ Exercise 2 : Limits of Functions Calculate the following limits:\n$\\lim_{x \\to 0} \\frac{x^2 + 1}{x - 1}$ $\\lim_{x \\to 2} \\frac{1}{x}$ $\\lim_{x \\to 0} \\frac{x^2 + 10x}{2x}$ $\\lim_{x \\to \\infty} e^{-x}$ $\\lim_{x \\to 0} \\frac{\\sqrt{1 + x} - \\sqrt{1 - x}}{x}$ $\\lim_{x \\to 0} \\frac{1 - \\cos x}{x}$ Exercise 3 : Continuity Is the function $y = 1 + |x|$ continuous at the point $x = 0$? Determine the points for which the following function is discontinuous: $$ f(x) = \\begin{cases} 1 \u0026 \\text{for } 2k \\leq x \\leq 2k+1 \\\\ -1 \u0026 \\text{for } 2k+1 \u003c x \u003c 2(k+1) \\end{cases}, \\quad k = 0, 1, 2, \\ldots $$ Exercise 4 : Series and Finite Sums Obtain the values of the following sums:\n$S_5 = \\sum_{v=1}^{5} \\left(1 + \\frac{1}{v}\\right)$ $S_{10} = \\sum_{n=0}^{9} 3 \\left(\\frac{1}{2}\\right)^n$ What is the value of the sum $S = \\sum_{n=0}^{\\infty} \\left(\\frac{1}{2}\\right)^n$? Exercise 5 : Secants, Tangents and Differentials Given the curve $y = x^3 - 2x$, calculate the slope of the secant to the curve between the points $x_1 = 1$ and $x_2 = 3/2$. Compare the slope of the secant with that of the tangent at the point $x_1 = 1$.\nThe distance-time law for a particular motion is given by $s(t) = 3t^2 - 8t$ m. Evaluate the velocity at $t = 3$ s.\nDetermine the differential $dy$ of the following functions:\n$f(x) = x^2 + 7x$ $f(x) = x^5 - 2x^4 + 3$ $f(x) = 2(x^2 + 3)$ Exercise 6 : Basic Differentiation Practice Differentiate with respect to $x$ the following expressions:\n$3x^5$ $8x - 3$ $x^{7/3}$ $7x^3 - 4x^{3/2}$ $\\frac{x^3 - 2x}{5x^2}$ Exercise 7 : Differentiation Rules and Quotients Obtain the derivatives of the following:\n$y = 2x^3$ $y = \\sqrt[3]{x^2}$ $y = \\frac{1}{x^2}$ $y = \\frac{2x}{4 + x}$ $y = (x^2 + 2)^3$ $y = x^4 + \\frac{1}{x}$ $y = \\sqrt{1 + x^2}$ $y = \\left(a - \\frac{b}{x}\\right)^3$ Exercise 8 : Chain Rule and Trigonometric Derivatives Differentiate:\n$y = 3\\cos(6x)$ $y = 4\\sin(2\\pi x)$ $y = Ae^{-x}\\sin(2\\pi x)$ $y = \\ln(x + 1)$ $y = \\sin x \\cos x$ $y = \\sin x^2$ $y = (3x^2 + 2)^2$ $y = a\\sin(bx + c)$ Exercise 9 : Inverse Trigonometric Derivatives Differentiate inverse trigonometric functions:\n$y = \\cos^{-1}(cx)$ $y = A\\tan^{-1}(x + 2)$ $y = \\sin^{-1}(x^2)$ $y = \\coth^{-1}(\\sqrt{x})$ Exercise 10 : Hyperbolic Functions Differentiate hyperbolic trigonometric functions:\n$y = C\\sinh(0.1x)$ $u = \\pi\\tanh(v + 1)$ $\\eta = \\ln(\\cosh \\xi)$ $s = \\ln(\\cosh t)$ $y = \\sinh^2 x - \\cosh^2 x$ $y = 2x\\coth x - x^2$ Exercise 11 : Inverse Hyperbolic Derivatives Differentiate inverse hyperbolic trigonometric functions:\n$y = A\\sinh^{-1}(10x)$ $u = C\\coth^{-1}(v + 1)$ $\\eta = \\tanh^{-1}(\\sin \\xi)$ $y = \\sinh^{-1}\\left(\\frac{x - 1}{x}\\right)$ Exercise 12 : Higher Derivatives and Orders $g(\\phi) = a\\sin\\phi + \\tan\\phi$, required $g’(\\phi)$, 1st derivative $v(u) = u e^u$, required $v’’(u)$, 2nd derivative $f(x) = \\ln x$, required $f’’(x)$, 2nd derivative $h(x) = x^5 + 2x^2$, required $h^{(iv)}(x)$, 4th derivative Exercise 13 : Zeros and Extrema Find the zeros and the extreme values for the following functions:\n$y = 2x^4 - 8x^2$ $y = 3 \\sin \\phi$ $y = \\sin(0.5x)$ $y = 2 + \\frac{1}{2}x^3$ $y = 2 \\cos(\\phi + 2)$ $y = \\frac{2}{3}x^3 - 2x^2 - 6x$ Exercise 14 : Points of Inflexion Show that the following functions have a point of inflexion. Calculate the value of the function at such a point.\n$y = x^3 - 9x^2 + 24x - 7$ $y = x^4 - 8x^2$ Exercise 15 : Curve Sketching Sketch the following functions:\n$y = x^2 + \\frac{1}{x^3}$ $y = \\frac{4x + 1}{2x + 3}$ $y = \\frac{x^2 - 6x + 8}{x^2 - 6x + 5}$ Exercise 16 : Applications of Differential Calculus A tray in the form of a cube is to be manufactured out of sheet metal. It is to have a cubic capacity of $0.05 \\text{ m}^3$. If the tolerance on the linear dimensions is not to exceed $3 \\text{ mm}$, calculate the change in the volume and in the area of metal as a percentage. The height of a tower is calculated from its angles of elevation of $35^\\circ$ and $28^\\circ$, observed at two points $100 \\text{ m}$ apart in a horizontal straight line through its base. If the measurement of the larger angle is found to have an error of $0.5^\\circ$, what will be the error in the calculated height? Exercise 17 : Curvature Calculate the radius of curvature for the following functions:\n$y = x^3$ at $x = 1$ $y^2 = 10x$ at $x = 2.5$ Exercise 18 : L’Hôpital’s Rule $\\lim_{x \\to 0} \\frac{\\sin x}{x}$ $\\lim_{x \\to 0^+} \\frac{\\ln(1 + 1/x)}{1/x}$ $\\lim_{x \\to +0} x \\sin x$ $\\lim_{x \\to 0} \\frac{1}{x} \\left( \\frac{1}{\\sinh x} - \\frac{1}{\\tanh x} \\right)$ $\\lim_{x \\to 1} x^{\\tan(\\pi/2)x}$ $\\lim_{x \\to \\infty} \\frac{\\ln x^3}{\\sqrt[3]{x}}$ $\\lim_{\\theta \\to 0} \\frac{\\cos a\\theta - \\cos b\\theta}{\\theta^2}$ Exercise 19 : Implicit Functions Obtain the derivative $y’$ for the following expressions:\n$2x^2 + 3y^2 = 5$ $3x^3y^2 + x \\cos y = 0$ $(x + y)^2 + 2x + y = 1$ at $x = 1, y = -1$ Exercise 20 : Logarithmic Differentiation Obtain $y’$ for the following expressions:\n$y = (5x + 2)(3x - 7)$ $y = x^{\\sin x}$ $y = x^x$ Exercise 21 : Parametric Equations Obtain $dy/dx$ for the following expressions:\n$x = ut$ and $y = vt - \\frac{1}{2}gt^2$ where $u, v$ and $g$ are constants $x = a(\\cos t + t \\sin t)$, $y = a(\\sin t - t \\cos t)$ Exercise 22 : Circular Motion Parametrisation A point rotates in the $x-y$ plane with a radius $R$ around the origin of the coordinate system with constant angular velocity. In $2 \\text{ s}$ it completes $3$ revolutions. Give the parametric form of the movement.\nExercise 23 : Parametric Curve Identification The parametric form of a curve is $x(t) = t$, $y(t) = t$, $z(t) = t$. What curve is it? What curve is described by the following equations? $x(t) = a \\cos t$, $y(t) = b \\sin t$ Exercise 24 : Kinematics and Vector Derivatives Calculate the acceleration vector if $v_x(t) = -v_0 \\sin \\omega t$, $v_y(t) = v_0 \\cos \\omega t$. The position of a point in three-dimensional space is given by $r(t) = (R \\cos \\omega t, R \\sin \\omega t, t)$. Calculate the velocity for $t = \\frac{2\\pi}{\\omega}$. The acceleration of a freely falling body is $a = (0, 0, -g)$. Calculate the velocity $v(t)$ if $v(0) = (v_0, 0, 0)$. Exercise 25 : Line Integral on a Semicircle Given the force $\\mathbf{F} = \\left(\\frac{x}{\\sqrt{x^2 + y^2}}, \\frac{y}{\\sqrt{x^2 + y^2}}\\right)$, evaluate the line integral along a semicircle around the origin of the coordinate system with radius $R$. Can you give the answer without computing?\nExercise 26 : Line Integral in 3D Given a force $\\mathbf{F} = (0, -z, y)$, calculate the line integral along the curve $\\mathbf{r}(t) = (\\sqrt{2}\\cos t, \\cos 2t, \\frac{2t}{\\pi})$ from $t = 0$ to $t = \\frac{\\pi}{2}$.\nExercise 27 : Taylor Polynomials and Remainder Find the Taylor polynomial of degree 3 about $x=0$ for $f(x)=\\ln(1+x)$ and estimate the remainder for $|x|\\le 0.5$. Compute the Taylor series up to order 4 for $e^{2x}$ about $x=0$. Exercise 28 : Mean Value Theorem and Rolle State and apply Rolle’s theorem to the function $f(x)=x^3-3x$ on $[-2,2]$. Use the Mean Value Theorem to show there exists $c\\in(0,1)$ such that $f’(c)=f(1)-f(0)$ for $f(x)=\\sqrt{x+1}$. Exercise 29 : Related Rates and Optimization A ladder 5 m long slides down a wall. When the foot is 3 m from the wall, how fast is the top descending? Find the dimensions of a rectangle of maximum area that can be inscribed under the curve $y=4-x^2$ above the $x$-axis. Exercise 30 : Introduction to First-order ODEs Solve the separable differential equation $\\frac{dy}{dx}=xy^2$ with $y(0)=1$. Solve the linear first-order equation $\\frac{dy}{dx}+2y=\\sin x$. ",
+  "wordCount" : "1369",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T09:57:06+01:00",
+  "dateModified": "2026-01-08T09:57:06+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/calculus/en/differential-calculus/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Differential Calculus
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 09:57:06 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>1369 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--sequences-and-limits-of-sequences">Exercise 1 : Sequences and Limits of Sequences</a></li>
+    <li><a href="#exercise-2--limits-of-functions">Exercise 2 : Limits of Functions</a></li>
+    <li><a href="#exercise-3--continuity">Exercise 3 : Continuity</a></li>
+    <li><a href="#exercise-4--series-and-finite-sums">Exercise 4 : Series and Finite Sums</a></li>
+    <li><a href="#exercise-5--secants-tangents-and-differentials">Exercise 5 : Secants, Tangents and Differentials</a></li>
+    <li><a href="#exercise-6--basic-differentiation-practice">Exercise 6 : Basic Differentiation Practice</a></li>
+    <li><a href="#exercise-7--differentiation-rules-and-quotients">Exercise 7 : Differentiation Rules and Quotients</a></li>
+    <li><a href="#exercise-8--chain-rule-and-trigonometric-derivatives">Exercise 8 : Chain Rule and Trigonometric Derivatives</a></li>
+    <li><a href="#exercise-9--inverse-trigonometric-derivatives">Exercise 9 : Inverse Trigonometric Derivatives</a></li>
+    <li><a href="#exercise-10--hyperbolic-functions">Exercise 10 : Hyperbolic Functions</a></li>
+    <li><a href="#exercise-11--inverse-hyperbolic-derivatives">Exercise 11 : Inverse Hyperbolic Derivatives</a></li>
+    <li><a href="#exercise-12--higher-derivatives-and-orders">Exercise 12 : Higher Derivatives and Orders</a></li>
+    <li><a href="#exercise-13--zeros-and-extrema">Exercise 13 : Zeros and Extrema</a></li>
+    <li><a href="#exercise-14--points-of-inflexion">Exercise 14 : Points of Inflexion</a></li>
+    <li><a href="#exercise-15--curve-sketching">Exercise 15 : Curve Sketching</a></li>
+    <li><a href="#exercise-16--applications-of-differential-calculus">Exercise 16 : Applications of Differential Calculus</a></li>
+    <li><a href="#exercise-17--curvature">Exercise 17 : Curvature</a></li>
+    <li><a href="#exercise-18--lhôpitals-rule">Exercise 18 : L&rsquo;Hôpital&rsquo;s Rule</a></li>
+    <li><a href="#exercise-19--implicit-functions">Exercise 19 : Implicit Functions</a></li>
+    <li><a href="#exercise-20--logarithmic-differentiation">Exercise 20 : Logarithmic Differentiation</a></li>
+    <li><a href="#exercise-21--parametric-equations">Exercise 21 : Parametric Equations</a></li>
+    <li><a href="#exercise-22--circular-motion-parametrisation">Exercise 22 : Circular Motion Parametrisation</a></li>
+    <li><a href="#exercise-23--parametric-curve-identification">Exercise 23 : Parametric Curve Identification</a></li>
+    <li><a href="#exercise-24--kinematics-and-vector-derivatives">Exercise 24 : Kinematics and Vector Derivatives</a></li>
+    <li><a href="#exercise-25--line-integral-on-a-semicircle">Exercise 25 : Line Integral on a Semicircle</a></li>
+    <li><a href="#exercise-26--line-integral-in-3d">Exercise 26 : Line Integral in 3D</a></li>
+    <li><a href="#exercise-27--taylor-polynomials-and-remainder">Exercise 27 : Taylor Polynomials and Remainder</a></li>
+    <li><a href="#exercise-28--mean-value-theorem-and-rolle">Exercise 28 : Mean Value Theorem and Rolle</a></li>
+    <li><a href="#exercise-29--related-rates-and-optimization">Exercise 29 : Related Rates and Optimization</a></li>
+    <li><a href="#exercise-30--introduction-to-first-order-odes">Exercise 30 : Introduction to First-order ODEs</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="differential-calculus">Differential Calculus<a hidden class="anchor" aria-hidden="true" href="#differential-calculus">#</a></h1>
+<h2 id="exercise-1--sequences-and-limits-of-sequences">Exercise 1 : Sequences and Limits of Sequences<a hidden class="anchor" aria-hidden="true" href="#exercise-1--sequences-and-limits-of-sequences">#</a></h2>
+<p>Calculate the limiting value of the following sequences for $n \to \infty$.</p>
+<ol>
+<li>$a_n = \frac{\sqrt{n}}{n}$</li>
+<li>$a_n = \frac{5 + n}{2n}$</li>
+<li>$a_n = \left(-\frac{1}{4}\right)^n - 1$</li>
+<li>$a_n = \frac{2}{n} + 1$</li>
+<li>$a_n = \frac{n^3 + 1}{2n^3 + n^2 + n}$</li>
+<li>$a_n = 2 + 2^{-n}$</li>
+<li>$a_n = \frac{n^2 - 1}{(n + 1)^2} + 5$</li>
+</ol>
+<h2 id="exercise-2--limits-of-functions">Exercise 2 : Limits of Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-2--limits-of-functions">#</a></h2>
+<p>Calculate the following limits:</p>
+<ol>
+<li>$\lim_{x \to 0} \frac{x^2 + 1}{x - 1}$</li>
+<li>$\lim_{x \to 2} \frac{1}{x}$</li>
+<li>$\lim_{x \to 0} \frac{x^2 + 10x}{2x}$</li>
+<li>$\lim_{x \to \infty} e^{-x}$</li>
+<li>$\lim_{x \to 0} \frac{\sqrt{1 + x} - \sqrt{1 - x}}{x}$</li>
+<li>$\lim_{x \to 0} \frac{1 - \cos x}{x}$</li>
+</ol>
+<h2 id="exercise-3--continuity">Exercise 3 : Continuity<a hidden class="anchor" aria-hidden="true" href="#exercise-3--continuity">#</a></h2>
+<ol>
+<li>Is the function $y = 1 + |x|$ continuous at the point $x = 0$?</li>
+<li>Determine the points for which the following function is discontinuous:
+$$
+   f(x) = \begin{cases}
+   1 & \text{for } 2k \leq x \leq 2k+1 \\
+   -1 & \text{for } 2k+1 < x < 2(k+1)
+   \end{cases}, \quad k = 0, 1, 2, \ldots
+   $$</li>
+</ol>
+<h2 id="exercise-4--series-and-finite-sums">Exercise 4 : Series and Finite Sums<a hidden class="anchor" aria-hidden="true" href="#exercise-4--series-and-finite-sums">#</a></h2>
+<p>Obtain the values of the following sums:</p>
+<ol>
+<li>$S_5 = \sum_{v=1}^{5} \left(1 + \frac{1}{v}\right)$</li>
+<li>$S_{10} = \sum_{n=0}^{9} 3 \left(\frac{1}{2}\right)^n$</li>
+<li>What is the value of the sum $S = \sum_{n=0}^{\infty} \left(\frac{1}{2}\right)^n$?</li>
+</ol>
+<h2 id="exercise-5--secants-tangents-and-differentials">Exercise 5 : Secants, Tangents and Differentials<a hidden class="anchor" aria-hidden="true" href="#exercise-5--secants-tangents-and-differentials">#</a></h2>
+<ol>
+<li>
+<p>Given the curve $y = x^3 - 2x$, calculate the slope of the secant to the curve between the points $x_1 = 1$ and $x_2 = 3/2$. Compare the slope of the secant with that of the tangent at the point $x_1 = 1$.</p>
+</li>
+<li>
+<p>The distance-time law for a particular motion is given by $s(t) = 3t^2 - 8t$ m. Evaluate the velocity at $t = 3$ s.</p>
+</li>
+<li>
+<p>Determine the differential $dy$ of the following functions:</p>
+<ul>
+<li>$f(x) = x^2 + 7x$</li>
+<li>$f(x) = x^5 - 2x^4 + 3$</li>
+<li>$f(x) = 2(x^2 + 3)$</li>
+</ul>
+</li>
+</ol>
+<h2 id="exercise-6--basic-differentiation-practice">Exercise 6 : Basic Differentiation Practice<a hidden class="anchor" aria-hidden="true" href="#exercise-6--basic-differentiation-practice">#</a></h2>
+<p>Differentiate with respect to $x$ the following expressions:</p>
+<ol>
+<li>$3x^5$</li>
+<li>$8x - 3$</li>
+<li>$x^{7/3}$</li>
+<li>$7x^3 - 4x^{3/2}$</li>
+<li>$\frac{x^3 - 2x}{5x^2}$</li>
+</ol>
+<h2 id="exercise-7--differentiation-rules-and-quotients">Exercise 7 : Differentiation Rules and Quotients<a hidden class="anchor" aria-hidden="true" href="#exercise-7--differentiation-rules-and-quotients">#</a></h2>
+<p>Obtain the derivatives of the following:</p>
+<ol>
+<li>$y = 2x^3$</li>
+<li>$y = \sqrt[3]{x^2}$</li>
+<li>$y = \frac{1}{x^2}$</li>
+<li>$y = \frac{2x}{4 + x}$</li>
+<li>$y = (x^2 + 2)^3$</li>
+<li>$y = x^4 + \frac{1}{x}$</li>
+<li>$y = \sqrt{1 + x^2}$</li>
+<li>$y = \left(a - \frac{b}{x}\right)^3$</li>
+</ol>
+<h2 id="exercise-8--chain-rule-and-trigonometric-derivatives">Exercise 8 : Chain Rule and Trigonometric Derivatives<a hidden class="anchor" aria-hidden="true" href="#exercise-8--chain-rule-and-trigonometric-derivatives">#</a></h2>
+<p>Differentiate:</p>
+<ol>
+<li>$y = 3\cos(6x)$</li>
+<li>$y = 4\sin(2\pi x)$</li>
+<li>$y = Ae^{-x}\sin(2\pi x)$</li>
+<li>$y = \ln(x + 1)$</li>
+<li>$y = \sin x \cos x$</li>
+<li>$y = \sin x^2$</li>
+<li>$y = (3x^2 + 2)^2$</li>
+<li>$y = a\sin(bx + c)$</li>
+</ol>
+<h2 id="exercise-9--inverse-trigonometric-derivatives">Exercise 9 : Inverse Trigonometric Derivatives<a hidden class="anchor" aria-hidden="true" href="#exercise-9--inverse-trigonometric-derivatives">#</a></h2>
+<p>Differentiate inverse trigonometric functions:</p>
+<ol>
+<li>$y = \cos^{-1}(cx)$</li>
+<li>$y = A\tan^{-1}(x + 2)$</li>
+<li>$y = \sin^{-1}(x^2)$</li>
+<li>$y = \coth^{-1}(\sqrt{x})$</li>
+</ol>
+<h2 id="exercise-10--hyperbolic-functions">Exercise 10 : Hyperbolic Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-10--hyperbolic-functions">#</a></h2>
+<p>Differentiate hyperbolic trigonometric functions:</p>
+<ol>
+<li>$y = C\sinh(0.1x)$</li>
+<li>$u = \pi\tanh(v + 1)$</li>
+<li>$\eta = \ln(\cosh \xi)$</li>
+<li>$s = \ln(\cosh t)$</li>
+<li>$y = \sinh^2 x - \cosh^2 x$</li>
+<li>$y = 2x\coth x - x^2$</li>
+</ol>
+<h2 id="exercise-11--inverse-hyperbolic-derivatives">Exercise 11 : Inverse Hyperbolic Derivatives<a hidden class="anchor" aria-hidden="true" href="#exercise-11--inverse-hyperbolic-derivatives">#</a></h2>
+<p>Differentiate inverse hyperbolic trigonometric functions:</p>
+<ol>
+<li>$y = A\sinh^{-1}(10x)$</li>
+<li>$u = C\coth^{-1}(v + 1)$</li>
+<li>$\eta = \tanh^{-1}(\sin \xi)$</li>
+<li>$y = \sinh^{-1}\left(\frac{x - 1}{x}\right)$</li>
+</ol>
+<h2 id="exercise-12--higher-derivatives-and-orders">Exercise 12 : Higher Derivatives and Orders<a hidden class="anchor" aria-hidden="true" href="#exercise-12--higher-derivatives-and-orders">#</a></h2>
+<ol>
+<li>$g(\phi) = a\sin\phi + \tan\phi$, required $g&rsquo;(\phi)$, 1st derivative</li>
+<li>$v(u) = u e^u$, required $v&rsquo;&rsquo;(u)$, 2nd derivative</li>
+<li>$f(x) = \ln x$, required $f&rsquo;&rsquo;(x)$, 2nd derivative</li>
+<li>$h(x) = x^5 + 2x^2$, required $h^{(iv)}(x)$, 4th derivative</li>
+</ol>
+<h2 id="exercise-13--zeros-and-extrema">Exercise 13 : Zeros and Extrema<a hidden class="anchor" aria-hidden="true" href="#exercise-13--zeros-and-extrema">#</a></h2>
+<p>Find the zeros and the extreme values for the following functions:</p>
+<ol>
+<li>$y = 2x^4 - 8x^2$</li>
+<li>$y = 3 \sin \phi$</li>
+<li>$y = \sin(0.5x)$</li>
+<li>$y = 2 + \frac{1}{2}x^3$</li>
+<li>$y = 2 \cos(\phi + 2)$</li>
+<li>$y = \frac{2}{3}x^3 - 2x^2 - 6x$</li>
+</ol>
+<h2 id="exercise-14--points-of-inflexion">Exercise 14 : Points of Inflexion<a hidden class="anchor" aria-hidden="true" href="#exercise-14--points-of-inflexion">#</a></h2>
+<p>Show that the following functions have a point of inflexion. Calculate the value of the function at such a point.</p>
+<ol>
+<li>$y = x^3 - 9x^2 + 24x - 7$</li>
+<li>$y = x^4 - 8x^2$</li>
+</ol>
+<h2 id="exercise-15--curve-sketching">Exercise 15 : Curve Sketching<a hidden class="anchor" aria-hidden="true" href="#exercise-15--curve-sketching">#</a></h2>
+<p>Sketch the following functions:</p>
+<ol>
+<li>$y = x^2 + \frac{1}{x^3}$</li>
+<li>$y = \frac{4x + 1}{2x + 3}$</li>
+<li>$y = \frac{x^2 - 6x + 8}{x^2 - 6x + 5}$</li>
+</ol>
+<h2 id="exercise-16--applications-of-differential-calculus">Exercise 16 : Applications of Differential Calculus<a hidden class="anchor" aria-hidden="true" href="#exercise-16--applications-of-differential-calculus">#</a></h2>
+<ol>
+<li>A tray in the form of a cube is to be manufactured out of sheet metal. It is to have a cubic capacity of $0.05 \text{ m}^3$. If the tolerance on the linear dimensions is not to exceed $3 \text{ mm}$, calculate the change in the volume and in the area of metal as a percentage.</li>
+<li>The height of a tower is calculated from its angles of elevation of $35^\circ$ and $28^\circ$, observed at two points $100 \text{ m}$ apart in a horizontal straight line through its base. If the measurement of the larger angle is found to have an error of $0.5^\circ$, what will be the error in the calculated height?</li>
+</ol>
+<h2 id="exercise-17--curvature">Exercise 17 : Curvature<a hidden class="anchor" aria-hidden="true" href="#exercise-17--curvature">#</a></h2>
+<p>Calculate the radius of curvature for the following functions:</p>
+<ol>
+<li>$y = x^3$ at $x = 1$</li>
+<li>$y^2 = 10x$ at $x = 2.5$</li>
+</ol>
+<h2 id="exercise-18--lhôpitals-rule">Exercise 18 : L&rsquo;Hôpital&rsquo;s Rule<a hidden class="anchor" aria-hidden="true" href="#exercise-18--lhôpitals-rule">#</a></h2>
+<ol>
+<li>$\lim_{x \to 0} \frac{\sin x}{x}$</li>
+<li>$\lim_{x \to 0^+} \frac{\ln(1 + 1/x)}{1/x}$</li>
+<li>$\lim_{x \to +0} x \sin x$</li>
+<li>$\lim_{x \to 0} \frac{1}{x} \left( \frac{1}{\sinh x} - \frac{1}{\tanh x} \right)$</li>
+<li>$\lim_{x \to 1} x^{\tan(\pi/2)x}$</li>
+<li>$\lim_{x \to \infty} \frac{\ln x^3}{\sqrt[3]{x}}$</li>
+<li>$\lim_{\theta \to 0} \frac{\cos a\theta - \cos b\theta}{\theta^2}$</li>
+</ol>
+<h2 id="exercise-19--implicit-functions">Exercise 19 : Implicit Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-19--implicit-functions">#</a></h2>
+<p>Obtain the derivative $y&rsquo;$ for the following expressions:</p>
+<ol>
+<li>$2x^2 + 3y^2 = 5$</li>
+<li>$3x^3y^2 + x \cos y = 0$</li>
+<li>$(x + y)^2 + 2x + y = 1$ at $x = 1, y = -1$</li>
+</ol>
+<h2 id="exercise-20--logarithmic-differentiation">Exercise 20 : Logarithmic Differentiation<a hidden class="anchor" aria-hidden="true" href="#exercise-20--logarithmic-differentiation">#</a></h2>
+<p>Obtain $y&rsquo;$ for the following expressions:</p>
+<ol>
+<li>$y = (5x + 2)(3x - 7)$</li>
+<li>$y = x^{\sin x}$</li>
+<li>$y = x^x$</li>
+</ol>
+<h2 id="exercise-21--parametric-equations">Exercise 21 : Parametric Equations<a hidden class="anchor" aria-hidden="true" href="#exercise-21--parametric-equations">#</a></h2>
+<p>Obtain $dy/dx$ for the following expressions:</p>
+<ol>
+<li>$x = ut$ and $y = vt - \frac{1}{2}gt^2$ where $u, v$ and $g$ are constants</li>
+<li>$x = a(\cos t + t \sin t)$, $y = a(\sin t - t \cos t)$</li>
+</ol>
+<h2 id="exercise-22--circular-motion-parametrisation">Exercise 22 : Circular Motion Parametrisation<a hidden class="anchor" aria-hidden="true" href="#exercise-22--circular-motion-parametrisation">#</a></h2>
+<p>A point rotates in the $x-y$ plane with a radius $R$ around the origin of the coordinate system with constant angular velocity. In $2 \text{ s}$ it completes $3$ revolutions. Give the parametric form of the movement.</p>
+<h2 id="exercise-23--parametric-curve-identification">Exercise 23 : Parametric Curve Identification<a hidden class="anchor" aria-hidden="true" href="#exercise-23--parametric-curve-identification">#</a></h2>
+<ol>
+<li>The parametric form of a curve is $x(t) = t$, $y(t) = t$, $z(t) = t$. What curve is it?</li>
+<li>What curve is described by the following equations? $x(t) = a \cos t$, $y(t) = b \sin t$</li>
+</ol>
+<h2 id="exercise-24--kinematics-and-vector-derivatives">Exercise 24 : Kinematics and Vector Derivatives<a hidden class="anchor" aria-hidden="true" href="#exercise-24--kinematics-and-vector-derivatives">#</a></h2>
+<ol>
+<li>Calculate the acceleration vector if $v_x(t) = -v_0 \sin \omega t$, $v_y(t) = v_0 \cos \omega t$.</li>
+<li>The position of a point in three-dimensional space is given by $r(t) = (R \cos \omega t, R \sin \omega t, t)$. Calculate the velocity for $t = \frac{2\pi}{\omega}$.</li>
+<li>The acceleration of a freely falling body is $a = (0, 0, -g)$. Calculate the velocity $v(t)$ if $v(0) = (v_0, 0, 0)$.</li>
+</ol>
+<h2 id="exercise-25--line-integral-on-a-semicircle">Exercise 25 : Line Integral on a Semicircle<a hidden class="anchor" aria-hidden="true" href="#exercise-25--line-integral-on-a-semicircle">#</a></h2>
+<p>Given the force $\mathbf{F} = \left(\frac{x}{\sqrt{x^2 + y^2}}, \frac{y}{\sqrt{x^2 + y^2}}\right)$, evaluate the line integral along a semicircle around the origin of the coordinate system with radius $R$. Can you give the answer without computing?</p>
+<h2 id="exercise-26--line-integral-in-3d">Exercise 26 : Line Integral in 3D<a hidden class="anchor" aria-hidden="true" href="#exercise-26--line-integral-in-3d">#</a></h2>
+<p>Given a force $\mathbf{F} = (0, -z, y)$, calculate the line integral along the curve $\mathbf{r}(t) = (\sqrt{2}\cos t, \cos 2t, \frac{2t}{\pi})$ from $t = 0$ to $t = \frac{\pi}{2}$.</p>
+<h2 id="exercise-27--taylor-polynomials-and-remainder">Exercise 27 : Taylor Polynomials and Remainder<a hidden class="anchor" aria-hidden="true" href="#exercise-27--taylor-polynomials-and-remainder">#</a></h2>
+<ol>
+<li>Find the Taylor polynomial of degree 3 about $x=0$ for $f(x)=\ln(1+x)$ and estimate the remainder for $|x|\le 0.5$.</li>
+<li>Compute the Taylor series up to order 4 for $e^{2x}$ about $x=0$.</li>
+</ol>
+<h2 id="exercise-28--mean-value-theorem-and-rolle">Exercise 28 : Mean Value Theorem and Rolle<a hidden class="anchor" aria-hidden="true" href="#exercise-28--mean-value-theorem-and-rolle">#</a></h2>
+<ol>
+<li>State and apply Rolle&rsquo;s theorem to the function $f(x)=x^3-3x$ on $[-2,2]$.</li>
+<li>Use the Mean Value Theorem to show there exists $c\in(0,1)$ such that $f&rsquo;(c)=f(1)-f(0)$ for $f(x)=\sqrt{x+1}$.</li>
+</ol>
+<h2 id="exercise-29--related-rates-and-optimization">Exercise 29 : Related Rates and Optimization<a hidden class="anchor" aria-hidden="true" href="#exercise-29--related-rates-and-optimization">#</a></h2>
+<ol>
+<li>A ladder 5 m long slides down a wall. When the foot is 3 m from the wall, how fast is the top descending?</li>
+<li>Find the dimensions of a rectangle of maximum area that can be inscribed under the curve $y=4-x^2$ above the $x$-axis.</li>
+</ol>
+<h2 id="exercise-30--introduction-to-first-order-odes">Exercise 30 : Introduction to First-order ODEs<a hidden class="anchor" aria-hidden="true" href="#exercise-30--introduction-to-first-order-odes">#</a></h2>
+<ol>
+<li>Solve the separable differential equation $\frac{dy}{dx}=xy^2$ with $y(0)=1$.</li>
+<li>Solve the linear first-order equation $\frac{dy}{dx}+2y=\sin x$.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/calculus/">Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/differentiation/">Differentiation</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Differential Equations</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Applications of Integration</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

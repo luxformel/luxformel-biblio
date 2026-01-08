@@ -3,7 +3,7 @@ title: "Curvilinear Coordinates"
 date: 2025-12-18T14:00:11+01:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Vector Calculus", "Coordinates"]
+tags: ["Vector Calculus", "Coordinate Systems"]
 categories: ["Mathé"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors

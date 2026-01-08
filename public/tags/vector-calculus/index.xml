@@ -11,8 +11,27 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Fri, 19 Dec 2025 23:06:37 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 11:24:52 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/vector-calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Surface Integrals, Divergence, Curl and Potential</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</link>
+      <pubDate>Thu, 08 Jan 2026 11:24:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</guid>
+      <description>&lt;h1 id=&#34;surface-integrals-divergence-curl-and-potential&#34;&gt;Surface Integrals, Divergence, Curl and Potential&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--coordinate-planes&#34;&gt;Exercise 1 : Coordinate Planes&lt;/h2&gt;
+&lt;p&gt;Given three squares with an area of 4 units each. They are placed:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;in the x-yplane,&lt;/li&gt;
+&lt;li&gt;in the x-zplane, and&lt;/li&gt;
+&lt;li&gt;in the y-zplane.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Determine the surface elements.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--rectangle-vector-element&#34;&gt;Exercise 2 : Rectangle Vector Element&lt;/h2&gt;
+&lt;p&gt;Given a rectangle with area $a \cdot b$, determine the vector element.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3--flux-through-given-surface-elements&#34;&gt;Exercise 3 : Flux Through Given Surface Elements&lt;/h2&gt;
+&lt;p&gt;Compute the flow of the vector field $\mathbf{F}(x, y, z) = (5, 3, 0)$ through the surfaces given by the respective surface elements:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Theory of Vector Fields</title>
       <link>http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/</link>
@@ -36,49 +55,32 @@
 &lt;p&gt;For a vector field $\mathbf{F}$ in 3D, prove the following implications:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Dirac Delta Function</title>
-      <link>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-functions/</link>
-      <pubDate>Fri, 19 Dec 2025 22:19:16 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-functions/</guid>
-      <description>&lt;h1 id=&#34;dirac-delta-function&#34;&gt;Dirac Delta Function&lt;/h1&gt;
-&lt;h2 id=&#34;exercise-1-basic-delta-integrals&#34;&gt;Exercise 1: Basic Delta Integrals&lt;/h2&gt;
-&lt;p&gt;Evaluate the following integrals:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$\displaystyle \int_{2}^{6} (3x^2 - 2x - 1) , \delta(x - 3) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle \int_{0}^{5} \cos x ; \delta(x - \pi) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle \int_{-1}^{3} x^3 , \delta(x + 1) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle \int_{-\infty}^{\infty} \ln(x + 3) , \delta(x + 2) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle \int_{0}^{\infty} e^{-x} , \delta(x - 2) , dx$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;exercise-2-delta-with-scaled--shifted-arguments&#34;&gt;Exercise 2: Delta with Scaled &amp;amp; Shifted Arguments&lt;/h2&gt;
-&lt;p&gt;Evaluate the following integrals:&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Vector Algebra</title>
       <link>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</link>
       <pubDate>Fri, 19 Dec 2025 18:12:08 +0100</pubDate>
       <guid>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</guid>
       <description>&lt;h1 id=&#34;vector-algebra&#34;&gt;Vector Algebra&lt;/h1&gt;
-&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;h2 id=&#34;exercise-1--distributivity-of-dot-and-cross&#34;&gt;Exercise 1 : Distributivity of Dot and Cross&lt;/h2&gt;
 &lt;p&gt;Prove that the dot and cross products are distributive, using definitions and diagrams:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;for three coplanar vectors&lt;/li&gt;
 &lt;li&gt;in the general case&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
-&lt;p&gt;Is the cross product associative? That is, does &lt;/p&gt;
-$$(\mathbf{A} \times \mathbf{B}) \times \mathbf{C} = \mathbf{A} \times (\mathbf{B} \times \mathbf{C})$$&lt;p&gt; hold? Prove or provide a counterexample.&lt;/p&gt;
-&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
-&lt;p&gt;Prove the vector identity:&lt;br&gt;
+&lt;h2 id=&#34;exercise-2--cross-product-associativity&#34;&gt;Exercise 2 : Cross Product Associativity?&lt;/h2&gt;
+&lt;p&gt;Is the cross product associative? That is, does the following hold?
 &lt;/p&gt;
-$$\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = \mathbf{B}(\mathbf{A} \cdot \mathbf{C}) - \mathbf{C}(\mathbf{A} \cdot \mathbf{B})$$&lt;p&gt; (the &lt;em&gt;BAC-CAB&lt;/em&gt; rule) by writing both sides in component form.&lt;/p&gt;</description>
+$$ (A \times B) \times C = A \times (B \times C) $$&lt;p&gt;
+Prove or provide a counterexample.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3--bac-cab-identity&#34;&gt;Exercise 3 : BAC-CAB Identity&lt;/h2&gt;
+&lt;p&gt;Prove the vector identity:&lt;br&gt;
+$A \times (B \times C) = B,(A \cdot C) - C,(A \cdot B)$ (the &lt;em&gt;BAC-CAB&lt;/em&gt; rule) by writing both sides in component form.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Integral Calculus</title>
-      <link>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</link>
+      <title>Line, Volume and Surface Integrals</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</link>
       <pubDate>Thu, 18 Dec 2025 15:08:39 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/integral-calculus/</guid>
-      <description>&lt;h1 id=&#34;integral-calculus&#34;&gt;Integral Calculus&lt;/h1&gt;
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</guid>
+      <description>&lt;h1 id=&#34;line-volume-and-surface-integrals&#34;&gt;Line, Volume and Surface Integrals&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--basic-line-integral&#34;&gt;Exercise 1 : Basic Line Integral&lt;/h2&gt;
 &lt;p&gt;For $\mathbf{v} = x^2,\hat{\mathbf{x}} + 2yz,\hat{\mathbf{y}} + y^2,\hat{\mathbf{z}}$, compute $\int_C \mathbf{v} \cdot d\mathbf{l}$ from $(0,0,0)$ to $(1,1,1)$ along:&lt;/p&gt;
 &lt;ol&gt;
@@ -98,30 +100,24 @@ for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.
       <pubDate>Thu, 18 Dec 2025 14:58:07 +0100</pubDate>
       <guid>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-function/</guid>
       <description>&lt;h1 id=&#34;dirac-delta-function&#34;&gt;Dirac Delta Function&lt;/h1&gt;
-&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
-&lt;p&gt;Evaluate:&lt;/p&gt;
+&lt;h2 id=&#34;exercise-1--basic-delta-integrals&#34;&gt;Exercise 1 : Basic Delta Integrals&lt;/h2&gt;
+&lt;p&gt;Evaluate the following integrals:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;$\displaystyle\int_{2}^{6} (3x^2 - 2x - 1),\delta(x - 3) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle\int_{0}^{5} \cos x ,\delta(x - \pi) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle\int_{-1}^{3} x^3 ,\delta(x + 1) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle\int_{-\infty}^{\infty} \ln(x + 3) ,\delta(x + 2) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle \int_{2}^{6} (3x^2 - 2x - 1) , \delta(x - 3) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle \int_{0}^{5} \cos x ; \delta(x - \pi) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle \int_{-1}^{3} x^3 , \delta(x + 1) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle \int_{-\infty}^{\infty} \ln(x + 3) , \delta(x + 2) , dx$&lt;/li&gt;
+&lt;li&gt;$\displaystyle \int_{0}^{\infty} e^{-x} , \delta(x - 2) , dx$&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
-&lt;p&gt;Use $\delta(ax) = \frac{1}{|a|}\delta(x)$ to evaluate:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$\displaystyle\int_{-2}^{2} (2x + 3),\delta(3x) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle\int_{0}^{2} (x^3 + 3x + 2),\delta(1 - x) , dx$&lt;/li&gt;
-&lt;li&gt;$\displaystyle\int_{-1}^{1} 9x^2 ,\delta(3x + 1) , dx$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
-&lt;p&gt;Let $\delta(x - b)$ be a Dirac delta centered at $x = b$.&lt;/p&gt;</description>
+&lt;h2 id=&#34;exercise-2--delta-with-scaled--shifted-arguments&#34;&gt;Exercise 2 : Delta with Scaled &amp;amp; Shifted Arguments&lt;/h2&gt;
+&lt;p&gt;Use $\delta(ax) = \frac{1}{|a|}\delta(x)$ and similar properties to evaluate:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Differential Calculus</title>
-      <link>http://localhost:1313/posts/mathe/vector-calculus/en/differential-calculus/</link>
+      <title>Gradient, Divergence, Curl, and Identities</title>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/gradient-divergence-curl-and-identities/</link>
       <pubDate>Thu, 18 Dec 2025 14:35:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/differential-calculus/</guid>
-      <description>&lt;h1 id=&#34;differential-calculus&#34;&gt;Differential Calculus&lt;/h1&gt;
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/gradient-divergence-curl-and-identities/</guid>
+      <description>&lt;h1 id=&#34;gradient-divergence-curl-and-identities&#34;&gt;Gradient, Divergence, Curl, and Identities&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Calculate the directional derivative of $f(x,y,z) = x^2y + y^2z$ in the direction of $\hat{\mathbf{n}} = (\hat{\mathbf{x}} + \hat{\mathbf{y}} + \hat{\mathbf{z}})\sqrt{3}$ at point $(1,2,3)$.&lt;/p&gt;
 &lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
@@ -140,14 +136,17 @@ for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.
       <pubDate>Thu, 18 Dec 2025 14:00:11 +0100</pubDate>
       <guid>http://localhost:1313/posts/mathe/vector-calculus/en/curvilinear-coordinates/</guid>
       <description>&lt;h1 id=&#34;curvilinear-coordinates&#34;&gt;Curvilinear Coordinates&lt;/h1&gt;
-&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
-&lt;p&gt;Invert the transformation $x = r\sin\theta\cos\phi, y = r\sin\theta\sin\phi, z = r\cos\theta$ to express $(r, \theta, \phi)$ in terms of $(x, y, z)$.&lt;/p&gt;
-&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
-&lt;p&gt;Express the point $(x, y, z) = (2, -2, 1)$ in spherical and cylindrical coordinates.&lt;/p&gt;
-&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
-&lt;p&gt;Express $(r, \theta, \phi) = (3, \pi/3, \pi/4)$ in Cartesian coordinates.&lt;/p&gt;
-&lt;h2 id=&#34;exercise-4&#34;&gt;Exercise 4&lt;/h2&gt;
-&lt;p&gt;Express $(s, \phi, z) = (4, 5\pi/6, -2)$ in Cartesian coordinates.&lt;/p&gt;</description>
+&lt;h2 id=&#34;exercise-1--inverting-spherical-coordinates&#34;&gt;Exercise 1 : Inverting Spherical Coordinates&lt;/h2&gt;
+&lt;p&gt;Invert the transformation $x = r\sin\theta\cos\phi$, $y = r\sin\theta\sin\phi$, $z = r\cos\theta$ to express $(r, \theta, \phi)$ in terms of $(x, y, z)$.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--coordinate-examples-conversions&#34;&gt;Exercise 2 : Coordinate Examples (Conversions)&lt;/h2&gt;
+&lt;p&gt;Invert the transformation $x = r\sin\theta\cos\phi$, $y = r\sin\theta\sin\phi$, $z = r\cos\theta$ to express $(r, \theta, \phi)$ in terms of $(x, y, z)$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the point $(x, y, z) = (2, -2, 1)$ in spherical and cylindrical coordinates.&lt;/li&gt;
+&lt;li&gt;Express $(r, \theta, \phi) = (3, \pi/3, \pi/4)$ in Cartesian coordinates.&lt;/li&gt;
+&lt;li&gt;Express $(s, \phi, z) = (4, 5\pi/6, -2)$ in Cartesian coordinates.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--spherical-unit-vectors&#34;&gt;Exercise 3 : Spherical Unit Vectors&lt;/h2&gt;
+&lt;p&gt;Express the spherical unit vectors $\hat{\mathbf{r}}$, $\hat{\boldsymbol{\theta}}$, $\hat{\boldsymbol{\phi}}$ in terms of the Cartesian unit vectors $\hat{\mathbf{x}}$, $\hat{\mathbf{y}}$, $\hat{\mathbf{z}}$, i.e., derive:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

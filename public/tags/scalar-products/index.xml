@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Scalar Products on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/scalar-products/</link>
+    <description>Recent content in Scalar Products on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Thu, 08 Jan 2026 11:11:27 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scalar-products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scalar and Vector Products</title>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/</link>
+      <pubDate>Thu, 08 Jan 2026 11:11:27 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/</guid>
+      <description>&lt;h1 id=&#34;scalar-and-vector-products&#34;&gt;Scalar and Vector Products&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--scalar-products&#34;&gt;Exercise 1 : Scalar Products&lt;/h2&gt;
+&lt;p&gt;Calculate the scalar products of the vectors $\mathbf{a}$ and $\mathbf{b}$ given below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$a = 3$, $b = 2$, $\alpha = \pi/3$&lt;/li&gt;
+&lt;li&gt;$a = 2$, $b = 5$, $\alpha = 0$&lt;/li&gt;
+&lt;li&gt;$a = 1$, $b = 4$, $\alpha = \pi/4$&lt;/li&gt;
+&lt;li&gt;$a = 2.5$, $b = 3$, $\alpha = 120^\circ$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--angle-from-scalar-product&#34;&gt;Exercise 2 : Angle from Scalar Product&lt;/h2&gt;
+&lt;p&gt;Considering the scalar products, what can you say about the angle between the vectors $\mathbf{a}$ and $\mathbf{b}$?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -11,8 +11,32 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 09 Nov 2025 17:55:30 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 11:36:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/matrices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transformation of Coordinates; Matrices</title>
+      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</link>
+      <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</guid>
+      <description>&lt;h1 id=&#34;transformation-of-coordinates-matrices&#34;&gt;Transformation of Coordinates; Matrices&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--shift-paraboloid&#34;&gt;Exercise 1 : Shift Paraboloid&lt;/h2&gt;
+&lt;p&gt;The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 + x^2 + y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--line-under-translation&#34;&gt;Exercise 2 : Line Under Translation&lt;/h2&gt;
+&lt;p&gt;The equation of a certain straight line is $y = -3x + 5$. What will its equation be in a new $x&amp;rsquo;$-$y&amp;rsquo;$ coordinate system due to a shift of the origin of $(-2,3)$?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eigenvalues and Eigenvectors of Real Matrices</title>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
+      <pubDate>Thu, 08 Jan 2026 10:36:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
+      <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors-of-real-matrices&#34;&gt;Eigenvalues and Eigenvectors of Real Matrices&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--eigenvalues--2x2-real-matrix&#34;&gt;Exercise 1 : Eigenvalues — 2x2 real matrix&lt;/h2&gt;
+&lt;p&gt;For $A = \begin{pmatrix} 4 &amp;amp; 2 \ 1 &amp;amp; 3 \end{pmatrix}$ find the eigenvalues.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--real-vs-complex-eigenvalues--2x2-question&#34;&gt;Exercise 2 : Real vs Complex Eigenvalues — 2x2 question&lt;/h2&gt;
+&lt;p&gt;Is it possible for a real $2 \times 2$ matrix to have one real and one complex eigenvalue?&lt;/p&gt;
+&lt;h2 id=&#34;exercise-3--no-real-eigenvalues--rotation-like-matrix&#34;&gt;Exercise 3 : No Real Eigenvalues — rotation-like matrix&lt;/h2&gt;
+&lt;p&gt;Prove that there are no real eigenvalues of the matrix $A = \begin{pmatrix} 3 &amp;amp; 2 \ -2 &amp;amp; 1 \end{pmatrix}$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vectors and Matrices in Python Solutions</title>
       <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>

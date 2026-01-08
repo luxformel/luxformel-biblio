@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Coordinate Systems | Luxformel Bibliothéik</title>
+<meta name="keywords" content="">
+<meta name="description" content="Luxformel Bibliothéik description">
+<meta name="author" content="">
+<link rel="canonical"
+    href="http://localhost:1313/tags/coordinate-systems/">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/coordinate-systems/index.xml">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/tags/coordinate-systems/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/tags/coordinate-systems/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Coordinate Systems">
+  <meta property="og:description" content="Luxformel Bibliothéik description">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Coordinate Systems">
+<meta name="twitter:description" content="Luxformel Bibliothéik description">
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
+  <h1>
+    Coordinate Systems
+    <a href="/tags/coordinate-systems/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Transformation of Coordinates; Matrices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Transformation of Coordinates; Matrices Exercise 1 : Shift Paraboloid The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 &#43; x^2 &#43; y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?
+Exercise 2 : Line Under Translation The equation of a certain straight line is $y = -3x &#43; 5$. What will its equation be in a new $x’$-$y’$ coordinate system due to a shift of the origin of $(-2,3)$?
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-01-08 11:36:28 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>794 wierder</span></footer>
+  <a class="entry-link" aria-label="post link to Transformation of Coordinates; Matrices" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Multiple Integrals; Coordinate Systems
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Multiple Integrals; Coordinate Systems Exercise 1 : Multiple Integrals with Constant Limits Evaluate the following multiple integrals:
+$\int_{y=0}^{b} \int_{x=0}^{a} dx dy$ $\int_{y=0}^{2} \int_{x=0}^{1} x^2 dx dy$ $\int_{x=0}^{\pi} \int_{y=0}^{\pi} \sin x \sin y dx dy$ $\int_{n=1}^{2} \int_{v=2}^{4} n(1&#43;v) dv dn$ $\int_{x=-1/2}^{1/2} \int_{y=-1}^{1} \int_{z=0}^{2} dx dy dz$ $\int_{x=0}^{1} \int_{y=0}^{y_1} \int_{z=0}^{z_1} e^{az} dx dy dz$ Exercise 2 : Multiple Integrals with Variable Limits Evaluate the integrals:
+$\int_{x=0}^{2} \int_{y=x-1}^{3x} x^2 dy dx$ $\int_{x=0}^{1} \int_{y=0}^{2x} \int_{z=0}^{x&#43;y} dx dy dz$ Using a double integral, obtain the area of an ellipse and the position of the center of mass of the half ellipse $(x \geq 0)$. The equation of an ellipse is $\frac{x^2}{a^2} &#43; \frac{y^2}{b^2} = 1$. Exercise 3 : Coordinate Systems A point has Cartesian coordinates $P = (3, 3)$. What are its polar coordinates? Give the equation of a circle of radius $R$ in Cartesian coordinates and polar coordinates. Obtain the equation of the spiral shown in Fig. 13.22 in polar coordinates. Evaluate $\int_{\theta=0}^{\pi/4} \int_{r=0}^{a} r^2 \cos \theta , dr , d\theta$. Exercise 4 : Cylindrical Coordinates Compute the volume of the hollow cylinder shown in Fig. 13.23 using cylindrical coordinates. Evaluate the volume of a cone of radius $R$ and height $h$. Obtain the moment of inertia of the cone about its center axis. The density $\rho$ is a constant. Exercise 5 : Moment of Inertia Calculate the moment of inertia of a sphere of radius $R$ and of constant density $\rho$ about an axis through its center, using spherical coordinates.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-01-08 11:07:40 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>247 wierder</span></footer>
+  <a class="entry-link" aria-label="post link to Multiple Integrals; Coordinate Systems" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Curvilinear Coordinates
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Curvilinear Coordinates Exercise 1 : Inverting Spherical Coordinates Invert the transformation $x = r\sin\theta\cos\phi$, $y = r\sin\theta\sin\phi$, $z = r\cos\theta$ to express $(r, \theta, \phi)$ in terms of $(x, y, z)$.
+Exercise 2 : Coordinate Examples (Conversions) Invert the transformation $x = r\sin\theta\cos\phi$, $y = r\sin\theta\sin\phi$, $z = r\cos\theta$ to express $(r, \theta, \phi)$ in terms of $(x, y, z)$.
+Express the point $(x, y, z) = (2, -2, 1)$ in spherical and cylindrical coordinates. Express $(r, \theta, \phi) = (3, \pi/3, \pi/4)$ in Cartesian coordinates. Express $(s, \phi, z) = (4, 5\pi/6, -2)$ in Cartesian coordinates. Exercise 3 : Spherical Unit Vectors Express the spherical unit vectors $\hat{\mathbf{r}}$, $\hat{\boldsymbol{\theta}}$, $\hat{\boldsymbol{\phi}}$ in terms of the Cartesian unit vectors $\hat{\mathbf{x}}$, $\hat{\mathbf{y}}$, $\hat{\mathbf{z}}$, i.e., derive:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-18 14:00:11 +0100 CET'>Dezember 18, 2025</span>&nbsp;·&nbsp;<span>831 wierder</span></footer>
+  <a class="entry-link" aria-label="post link to Curvilinear Coordinates" href="http://localhost:1313/posts/mathe/vector-calculus/en/curvilinear-coordinates/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script></body>
+
+</html>

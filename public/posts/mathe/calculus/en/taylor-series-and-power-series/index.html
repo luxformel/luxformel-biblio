@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Taylor Series and Power Series | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Calculus, Taylor Series, Power Series, Applied Mathematics">
+<meta name="description" content="Taylor Series and Power Series
+Exercise 1 : Expansion of a Function in a Power Series
+Expand the following functions at $x_0 = 0$ in a series up to the first four terms:
+
+$f(x) = \sqrt{1 - x}$
+$f(t) = \sin(\omega t &#43; \pi)$
+$f(x) = \ln[(1 &#43; x)^5]$
+$f(x) = \cos x$
+$f(x) = \cosh x$
+
+Exercise 2 : Interval of Convergence of a Power Series
+Obtain the radius of convergence of the following series:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Taylor Series and Power Series">
+  <meta property="og:description" content="Taylor Series and Power Series Exercise 1 : Expansion of a Function in a Power Series Expand the following functions at $x_0 = 0$ in a series up to the first four terms:
+$f(x) = \sqrt{1 - x}$ $f(t) = \sin(\omega t &#43; \pi)$ $f(x) = \ln[(1 &#43; x)^5]$ $f(x) = \cos x$ $f(x) = \cosh x$ Exercise 2 : Interval of Convergence of a Power Series Obtain the radius of convergence of the following series:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T11:27:35+01:00">
+    <meta property="article:modified_time" content="2026-01-08T11:27:35+01:00">
+    <meta property="article:tag" content="Calculus">
+    <meta property="article:tag" content="Taylor Series">
+    <meta property="article:tag" content="Power Series">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Taylor Series and Power Series">
+<meta name="twitter:description" content="Taylor Series and Power Series
+Exercise 1 : Expansion of a Function in a Power Series
+Expand the following functions at $x_0 = 0$ in a series up to the first four terms:
+
+$f(x) = \sqrt{1 - x}$
+$f(t) = \sin(\omega t &#43; \pi)$
+$f(x) = \ln[(1 &#43; x)^5]$
+$f(x) = \cos x$
+$f(x) = \cosh x$
+
+Exercise 2 : Interval of Convergence of a Power Series
+Obtain the radius of convergence of the following series:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Taylor Series and Power Series",
+      "item": "http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Taylor Series and Power Series",
+  "name": "Taylor Series and Power Series",
+  "description": "Taylor Series and Power Series Exercise 1 : Expansion of a Function in a Power Series Expand the following functions at $x_0 = 0$ in a series up to the first four terms:\n$f(x) = \\sqrt{1 - x}$ $f(t) = \\sin(\\omega t + \\pi)$ $f(x) = \\ln[(1 + x)^5]$ $f(x) = \\cos x$ $f(x) = \\cosh x$ Exercise 2 : Interval of Convergence of a Power Series Obtain the radius of convergence of the following series:\n",
+  "keywords": [
+    "Calculus", "Taylor Series", "Power Series", "Applied Mathematics"
+  ],
+  "articleBody": "Taylor Series and Power Series Exercise 1 : Expansion of a Function in a Power Series Expand the following functions at $x_0 = 0$ in a series up to the first four terms:\n$f(x) = \\sqrt{1 - x}$ $f(t) = \\sin(\\omega t + \\pi)$ $f(x) = \\ln[(1 + x)^5]$ $f(x) = \\cos x$ $f(x) = \\cosh x$ Exercise 2 : Interval of Convergence of a Power Series Obtain the radius of convergence of the following series:\n$f(x) = \\sin x = \\sum_{n=0}^{\\infty} \\frac{(-1)^n}{(2n+1)!} x^{2n+1}$ $f(x) = \\frac{1}{1 - 3x} = \\sum_{n=0}^{\\infty} 3^n x^n$ Exercise 3 : Approximate Value of Functions Sketch in the neighbourhood of $x_0 = 0$ the function $f(x)$ and the graphs of the approximate polynomials $P_1(x)$, $P_2(x)$ and $P_3(x)$.\n$y = \\tan x$ $y = \\frac{x}{4 - x}$ Exercise 4 : Taylor Expansion Around $\\pi$ Expand the following functions at $x_0 = \\pi$:\n$y = \\sin x$ $y = \\cos x$ Exercise 5 : Logarithm Expansion at 1 Expand the function $f(x) = \\ln x$ at $x_0 = 1$.\nExercise 6 : Rational Function Expansion at 2 Expand the function $f(x) = \\frac{4}{x}$ at $x_0 = 2$. Obtain the first four terms.\nExercise 7 : Intersection and Cubic Approximations Determine the intersection – which lies in the first quadrant – of the functions $e^x - 1$ and $2 \\sin x$. Approximate both functions by a polynomial of the third degree, $P_3(x)$. Exercise 8 : Numerical Square-root Approximation Calculate $\\sqrt{42} = \\sqrt{36 + 6}$ to 4 decimal places.\nExercise 9 : Approximation with 1% Error Replace the function $f(x)$ by an approximate polynomial in the interval $(0, 0.3)$. The error should not exceed $1%$.\n$f(x) = \\ln(1 + x)$ $f(x) = \\frac{1}{\\sqrt{1 + x}}$ Exercise 10 : Quarter-point Approximations Given the functions $f(x)$, compute approximately (see Table 8.1) the value of $f(1/4)$. The value obtained should have an accuracy of $10%$.\n$f(x) = e^x$ $f(x) = \\ln(1 + x)$ $f(x) = \\sqrt{1 + x}$ Exercise 11 : Integrating Power Series Let the series for the function $f(x) = \\sum_{n=0}^{\\infty} a_n x^n$ be given. Obtain a series expansion for the integral $\\int f(x) , dx$ by integrating the series term by term for the following functions:\n$f(x) = \\frac{1}{1 + x} = \\sum_{n=0}^{\\infty} (-1)^n x^n = 1 - x + x^2 - x^3 + x^4 - \\cdots \\quad (|x| \u003c 1)$ $f(x) = \\cos x = \\sum_{n=0}^{\\infty} (-1)^n \\frac{x^{2n}}{(2n)!} = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\frac{x^6}{6!} + \\cdots$ Exercise 12 : Integrals via Series Solve the following integrals using a series expansion:\n$\\int_0^{0.58} \\sqrt{1 + x^2} , dx$ $\\int_0^x \\frac{\\sin t}{t} , dt$ (Integral (b) cannot be evaluated by any other method.) Exercise 13 : Inverse Sine and $\\pi$ Series Obtain a power series for $\\sin^{-1} x$ by first expanding $1/\\sqrt{1 - x^2}$, which is the derivative of $\\sin^{-1} x$, and second, integrating term by term. Since $\\sin^{-1}(1) = \\pi/2$, by inserting $x = 1$ into the series one obtains a series for $\\pi/2$. Compute the value of this series up to the fifth term and compare it with the correct numerical value. Exercise 14 : Binomial Series for Fractional Powers Expand the following using the generalized binomial theorem up to the first four nonzero terms and state the interval of validity:\n$(1 + x)^{1/2}$ about $x_0 = 0$ $(1 + x)^{-3/2}$ about $x_0 = 0$ Exercise 15 : Laurent-Type Expansion and Singularities Find a series expansion (Taylor or Laurent as appropriate) for the following about the indicated point and identify the singularity type if any:\n$f(x)=\\dfrac{1}{x(1-x)}$ about $x_0=0$ (write as power series valid for $|x|\u003c1$) $g(x)=\\dfrac{1}{(x-1)^2}$ about $x_0=1$ (express principal part up to order $(x-1)^{-2}$) Exercise 16 : Fourier Series — Basic Computation Compute the Fourier series (half-range or full as appropriate) for the 2$\\pi$-periodic extension of the function:\n$f(x)=x$ on $(-\\pi,\\pi)$ write the first three nonzero terms Exercise 17 : Series Solution of an ODE Find a power-series solution about $x_0=0$ up to order $x^3$ for the ODE:\n$y’(x)-y(x)=x$, with $y(0)=1$ Exercise 18 : Multivariable Taylor Polynomial Find the second-order Taylor polynomial about $(0,0)$ for:\n$f(x,y)=e^{x}\\cos y$ Exercise 19 : Radius of Convergence Practice Determine the radius of convergence for the following series and justify your answer:\n$\\sum_{n=0}^{\\infty} n!,x^n$ $\\sum_{n=0}^{\\infty} \\dfrac{x^n}{n!}$ Exercise 20 : Error Bounds for Taylor Approximation Use the Lagrange remainder to bound the error when approximating $e^x$ on $[0,1]$ by its Taylor polynomial of degree 3 about $0$. Provide a numerical upper bound.\nExercise 21 : Generating Functions — Fibonacci Show that the generating function for the Fibonacci sequence $F_n$ is $G(x)=\\dfrac{x}{1-x-x^2}$, expand $G(x)$ to obtain the first six terms of the sequence, and comment on radius of convergence.\n",
+  "wordCount" : "776",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T11:27:35+01:00",
+  "dateModified": "2026-01-08T11:27:35+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Taylor Series and Power Series
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 11:27:35 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>776 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--expansion-of-a-function-in-a-power-series">Exercise 1 : Expansion of a Function in a Power Series</a></li>
+    <li><a href="#exercise-2--interval-of-convergence-of-a-power-series">Exercise 2 : Interval of Convergence of a Power Series</a></li>
+    <li><a href="#exercise-3--approximate-value-of-functions">Exercise 3 : Approximate Value of Functions</a></li>
+    <li><a href="#exercise-4--taylor-expansion-around-pi">Exercise 4 : Taylor Expansion Around $\pi$</a></li>
+    <li><a href="#exercise-5--logarithm-expansion-at-1">Exercise 5 : Logarithm Expansion at 1</a></li>
+    <li><a href="#exercise-6--rational-function-expansion-at-2">Exercise 6 : Rational Function Expansion at 2</a></li>
+    <li><a href="#exercise-7--intersection-and-cubic-approximations">Exercise 7 : Intersection and Cubic Approximations</a></li>
+    <li><a href="#exercise-8--numerical-square-root-approximation">Exercise 8 : Numerical Square-root Approximation</a></li>
+    <li><a href="#exercise-9--approximation-with-1-error">Exercise 9 : Approximation with 1% Error</a></li>
+    <li><a href="#exercise-10--quarter-point-approximations">Exercise 10 : Quarter-point Approximations</a></li>
+    <li><a href="#exercise-11--integrating-power-series">Exercise 11 : Integrating Power Series</a></li>
+    <li><a href="#exercise-12--integrals-via-series">Exercise 12 : Integrals via Series</a></li>
+    <li><a href="#exercise-13--inverse-sine-and-pi-series">Exercise 13 : Inverse Sine and $\pi$ Series</a></li>
+    <li><a href="#exercise-14--binomial-series-for-fractional-powers">Exercise 14 : Binomial Series for Fractional Powers</a></li>
+    <li><a href="#exercise-15--laurent-type-expansion-and-singularities">Exercise 15 : Laurent-Type Expansion and Singularities</a></li>
+    <li><a href="#exercise-16--fourier-series--basic-computation">Exercise 16 : Fourier Series — Basic Computation</a></li>
+    <li><a href="#exercise-17--series-solution-of-an-ode">Exercise 17 : Series Solution of an ODE</a></li>
+    <li><a href="#exercise-18--multivariable-taylor-polynomial">Exercise 18 : Multivariable Taylor Polynomial</a></li>
+    <li><a href="#exercise-19--radius-of-convergence-practice">Exercise 19 : Radius of Convergence Practice</a></li>
+    <li><a href="#exercise-20--error-bounds-for-taylor-approximation">Exercise 20 : Error Bounds for Taylor Approximation</a></li>
+    <li><a href="#exercise-21--generating-functions--fibonacci">Exercise 21 : Generating Functions — Fibonacci</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="taylor-series-and-power-series">Taylor Series and Power Series<a hidden class="anchor" aria-hidden="true" href="#taylor-series-and-power-series">#</a></h1>
+<h2 id="exercise-1--expansion-of-a-function-in-a-power-series">Exercise 1 : Expansion of a Function in a Power Series<a hidden class="anchor" aria-hidden="true" href="#exercise-1--expansion-of-a-function-in-a-power-series">#</a></h2>
+<p>Expand the following functions at $x_0 = 0$ in a series up to the first four terms:</p>
+<ol>
+<li>$f(x) = \sqrt{1 - x}$</li>
+<li>$f(t) = \sin(\omega t + \pi)$</li>
+<li>$f(x) = \ln[(1 + x)^5]$</li>
+<li>$f(x) = \cos x$</li>
+<li>$f(x) = \cosh x$</li>
+</ol>
+<h2 id="exercise-2--interval-of-convergence-of-a-power-series">Exercise 2 : Interval of Convergence of a Power Series<a hidden class="anchor" aria-hidden="true" href="#exercise-2--interval-of-convergence-of-a-power-series">#</a></h2>
+<p>Obtain the radius of convergence of the following series:</p>
+<ol>
+<li>$f(x) = \sin x = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} x^{2n+1}$</li>
+<li>$f(x) = \frac{1}{1 - 3x} = \sum_{n=0}^{\infty} 3^n x^n$</li>
+</ol>
+<h2 id="exercise-3--approximate-value-of-functions">Exercise 3 : Approximate Value of Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-3--approximate-value-of-functions">#</a></h2>
+<p>Sketch in the neighbourhood of $x_0 = 0$ the function $f(x)$ and the graphs of the approximate polynomials $P_1(x)$, $P_2(x)$ and $P_3(x)$.</p>
+<ol>
+<li>$y = \tan x$</li>
+<li>$y = \frac{x}{4 - x}$</li>
+</ol>
+<h2 id="exercise-4--taylor-expansion-around-pi">Exercise 4 : Taylor Expansion Around $\pi$<a hidden class="anchor" aria-hidden="true" href="#exercise-4--taylor-expansion-around-pi">#</a></h2>
+<p>Expand the following functions at $x_0 = \pi$:</p>
+<ol>
+<li>$y = \sin x$</li>
+<li>$y = \cos x$</li>
+</ol>
+<h2 id="exercise-5--logarithm-expansion-at-1">Exercise 5 : Logarithm Expansion at 1<a hidden class="anchor" aria-hidden="true" href="#exercise-5--logarithm-expansion-at-1">#</a></h2>
+<p>Expand the function $f(x) = \ln x$ at $x_0 = 1$.</p>
+<h2 id="exercise-6--rational-function-expansion-at-2">Exercise 6 : Rational Function Expansion at 2<a hidden class="anchor" aria-hidden="true" href="#exercise-6--rational-function-expansion-at-2">#</a></h2>
+<p>Expand the function $f(x) = \frac{4}{x}$ at $x_0 = 2$. Obtain the first four terms.</p>
+<h2 id="exercise-7--intersection-and-cubic-approximations">Exercise 7 : Intersection and Cubic Approximations<a hidden class="anchor" aria-hidden="true" href="#exercise-7--intersection-and-cubic-approximations">#</a></h2>
+<ol>
+<li>Determine the intersection – which lies in the first quadrant – of the functions $e^x - 1$ and $2 \sin x$. Approximate both functions by a polynomial of the third degree, $P_3(x)$.</li>
+</ol>
+<h2 id="exercise-8--numerical-square-root-approximation">Exercise 8 : Numerical Square-root Approximation<a hidden class="anchor" aria-hidden="true" href="#exercise-8--numerical-square-root-approximation">#</a></h2>
+<p>Calculate $\sqrt{42} = \sqrt{36 + 6}$ to 4 decimal places.</p>
+<h2 id="exercise-9--approximation-with-1-error">Exercise 9 : Approximation with 1% Error<a hidden class="anchor" aria-hidden="true" href="#exercise-9--approximation-with-1-error">#</a></h2>
+<p>Replace the function $f(x)$ by an approximate polynomial in the interval $(0, 0.3)$. The error should not exceed $1%$.</p>
+<ol>
+<li>$f(x) = \ln(1 + x)$</li>
+<li>$f(x) = \frac{1}{\sqrt{1 + x}}$</li>
+</ol>
+<h2 id="exercise-10--quarter-point-approximations">Exercise 10 : Quarter-point Approximations<a hidden class="anchor" aria-hidden="true" href="#exercise-10--quarter-point-approximations">#</a></h2>
+<p>Given the functions $f(x)$, compute approximately (see Table 8.1) the value of $f(1/4)$. The value obtained should have an accuracy of $10%$.</p>
+<ol>
+<li>$f(x) = e^x$</li>
+<li>$f(x) = \ln(1 + x)$</li>
+<li>$f(x) = \sqrt{1 + x}$</li>
+</ol>
+<h2 id="exercise-11--integrating-power-series">Exercise 11 : Integrating Power Series<a hidden class="anchor" aria-hidden="true" href="#exercise-11--integrating-power-series">#</a></h2>
+<p>Let the series for the function $f(x) = \sum_{n=0}^{\infty} a_n x^n$ be given. Obtain a series expansion for the integral $\int f(x) , dx$ by integrating the series term by term for the following functions:</p>
+<ol>
+<li>$f(x) = \frac{1}{1 + x} = \sum_{n=0}^{\infty} (-1)^n x^n = 1 - x + x^2 - x^3 + x^4 - \cdots \quad (|x| &lt; 1)$</li>
+<li>$f(x) = \cos x = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots$</li>
+</ol>
+<h2 id="exercise-12--integrals-via-series">Exercise 12 : Integrals via Series<a hidden class="anchor" aria-hidden="true" href="#exercise-12--integrals-via-series">#</a></h2>
+<p>Solve the following integrals using a series expansion:</p>
+<ol>
+<li>$\int_0^{0.58} \sqrt{1 + x^2} , dx$</li>
+<li>$\int_0^x \frac{\sin t}{t} , dt$ (Integral (b) cannot be evaluated by any other method.)</li>
+</ol>
+<h2 id="exercise-13--inverse-sine-and-pi-series">Exercise 13 : Inverse Sine and $\pi$ Series<a hidden class="anchor" aria-hidden="true" href="#exercise-13--inverse-sine-and-pi-series">#</a></h2>
+<ol>
+<li>Obtain a power series for $\sin^{-1} x$ by first expanding $1/\sqrt{1 - x^2}$, which is the derivative of $\sin^{-1} x$, and second, integrating term by term.</li>
+<li>Since $\sin^{-1}(1) = \pi/2$, by inserting $x = 1$ into the series one obtains a series for $\pi/2$. Compute the value of this series up to the fifth term and compare it with the correct numerical value.</li>
+</ol>
+<h2 id="exercise-14--binomial-series-for-fractional-powers">Exercise 14 : Binomial Series for Fractional Powers<a hidden class="anchor" aria-hidden="true" href="#exercise-14--binomial-series-for-fractional-powers">#</a></h2>
+<p>Expand the following using the generalized binomial theorem up to the first four nonzero terms and state the interval of validity:</p>
+<ol>
+<li>$(1 + x)^{1/2}$ about $x_0 = 0$</li>
+<li>$(1 + x)^{-3/2}$ about $x_0 = 0$</li>
+</ol>
+<h2 id="exercise-15--laurent-type-expansion-and-singularities">Exercise 15 : Laurent-Type Expansion and Singularities<a hidden class="anchor" aria-hidden="true" href="#exercise-15--laurent-type-expansion-and-singularities">#</a></h2>
+<p>Find a series expansion (Taylor or Laurent as appropriate) for the following about the indicated point and identify the singularity type if any:</p>
+<ol>
+<li>$f(x)=\dfrac{1}{x(1-x)}$ about $x_0=0$ (write as power series valid for $|x|&lt;1$)</li>
+<li>$g(x)=\dfrac{1}{(x-1)^2}$ about $x_0=1$ (express principal part up to order $(x-1)^{-2}$)</li>
+</ol>
+<h2 id="exercise-16--fourier-series--basic-computation">Exercise 16 : Fourier Series — Basic Computation<a hidden class="anchor" aria-hidden="true" href="#exercise-16--fourier-series--basic-computation">#</a></h2>
+<p>Compute the Fourier series (half-range or full as appropriate) for the 2$\pi$-periodic extension of the function:</p>
+<ol>
+<li>$f(x)=x$ on $(-\pi,\pi)$ write the first three nonzero terms</li>
+</ol>
+<h2 id="exercise-17--series-solution-of-an-ode">Exercise 17 : Series Solution of an ODE<a hidden class="anchor" aria-hidden="true" href="#exercise-17--series-solution-of-an-ode">#</a></h2>
+<p>Find a power-series solution about $x_0=0$ up to order $x^3$ for the ODE:</p>
+<ol>
+<li>$y&rsquo;(x)-y(x)=x$, with $y(0)=1$</li>
+</ol>
+<h2 id="exercise-18--multivariable-taylor-polynomial">Exercise 18 : Multivariable Taylor Polynomial<a hidden class="anchor" aria-hidden="true" href="#exercise-18--multivariable-taylor-polynomial">#</a></h2>
+<p>Find the second-order Taylor polynomial about $(0,0)$ for:</p>
+<ol>
+<li>$f(x,y)=e^{x}\cos y$</li>
+</ol>
+<h2 id="exercise-19--radius-of-convergence-practice">Exercise 19 : Radius of Convergence Practice<a hidden class="anchor" aria-hidden="true" href="#exercise-19--radius-of-convergence-practice">#</a></h2>
+<p>Determine the radius of convergence for the following series and justify your answer:</p>
+<ol>
+<li>$\sum_{n=0}^{\infty} n!,x^n$</li>
+<li>$\sum_{n=0}^{\infty} \dfrac{x^n}{n!}$</li>
+</ol>
+<h2 id="exercise-20--error-bounds-for-taylor-approximation">Exercise 20 : Error Bounds for Taylor Approximation<a hidden class="anchor" aria-hidden="true" href="#exercise-20--error-bounds-for-taylor-approximation">#</a></h2>
+<p>Use the Lagrange remainder to bound the error when approximating $e^x$ on $[0,1]$ by its Taylor polynomial of degree 3 about $0$. Provide a numerical upper bound.</p>
+<h2 id="exercise-21--generating-functions--fibonacci">Exercise 21 : Generating Functions — Fibonacci<a hidden class="anchor" aria-hidden="true" href="#exercise-21--generating-functions--fibonacci">#</a></h2>
+<p>Show that the generating function for the Fibonacci sequence $F_n$ is $G(x)=\dfrac{x}{1-x-x^2}$, expand $G(x)$ to obtain the first six terms of the sequence, and comment on radius of convergence.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/calculus/">Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/taylor-series/">Taylor Series</a></li>
+      <li><a href="http://localhost:1313/tags/power-series/">Power Series</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Transformation of Coordinates; Matrices</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Surface Integrals, Divergence, Curl and Potential</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

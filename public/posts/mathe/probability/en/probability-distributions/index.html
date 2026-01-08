@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Probability Distributions | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Probability, Applied Mathematics">
+<meta name="description" content="Probability Distributions
+Exercise 1 : Random Variable
+Two dice are thrown. Calculate the mean value of the random variable &lsquo;sum of the number of spots&rsquo;.
+Exercise 2 : Linear Continuous Distribution
+A random variable has the probability distribution:
+$$
+  f(x) = 
+  \begin{cases}
+  \frac{x}{2}, & 0 \leq x \leq 2 \\
+  0, & \text{otherwise}
+  \end{cases}
+$$
+Compute the mean value of the random variable.
+Exercise 3 : Binomial Probability
+60% of the students who start to study for an engineering degree complete their studies and obtain a degree. What is the probability that in a group of 10 arbitrarily chosen students in the first term of study 8 will obtain a degree?">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/probability/en/probability-distributions/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/probability/en/probability-distributions/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Probability Distributions">
+  <meta property="og:description" content="Probability Distributions Exercise 1 : Random Variable Two dice are thrown. Calculate the mean value of the random variable ‘sum of the number of spots’.
+Exercise 2 : Linear Continuous Distribution A random variable has the probability distribution:
+$$ f(x) = \begin{cases} \frac{x}{2}, &amp; 0 \leq x \leq 2 \\ 0, &amp; \text{otherwise} \end{cases} $$ Compute the mean value of the random variable.
+Exercise 3 : Binomial Probability 60% of the students who start to study for an engineering degree complete their studies and obtain a degree. What is the probability that in a group of 10 arbitrarily chosen students in the first term of study 8 will obtain a degree?">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T09:15:23+01:00">
+    <meta property="article:modified_time" content="2026-01-08T09:15:23+01:00">
+    <meta property="article:tag" content="Probability">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Probability Distributions">
+<meta name="twitter:description" content="Probability Distributions
+Exercise 1 : Random Variable
+Two dice are thrown. Calculate the mean value of the random variable &lsquo;sum of the number of spots&rsquo;.
+Exercise 2 : Linear Continuous Distribution
+A random variable has the probability distribution:
+$$
+  f(x) = 
+  \begin{cases}
+  \frac{x}{2}, & 0 \leq x \leq 2 \\
+  0, & \text{otherwise}
+  \end{cases}
+$$
+Compute the mean value of the random variable.
+Exercise 3 : Binomial Probability
+60% of the students who start to study for an engineering degree complete their studies and obtain a degree. What is the probability that in a group of 10 arbitrarily chosen students in the first term of study 8 will obtain a degree?">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Probability Distributions",
+      "item": "http://localhost:1313/posts/mathe/probability/en/probability-distributions/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Probability Distributions",
+  "name": "Probability Distributions",
+  "description": "Probability Distributions Exercise 1 : Random Variable Two dice are thrown. Calculate the mean value of the random variable \u0026lsquo;sum of the number of spots\u0026rsquo;.\nExercise 2 : Linear Continuous Distribution A random variable has the probability distribution:\n$$ f(x) = \\begin{cases} \\frac{x}{2}, \u0026 0 \\leq x \\leq 2 \\\\ 0, \u0026 \\text{otherwise} \\end{cases} $$ Compute the mean value of the random variable.\nExercise 3 : Binomial Probability 60% of the students who start to study for an engineering degree complete their studies and obtain a degree. What is the probability that in a group of 10 arbitrarily chosen students in the first term of study 8 will obtain a degree?\n",
+  "keywords": [
+    "Probability", "Applied Mathematics"
+  ],
+  "articleBody": "Probability Distributions Exercise 1 : Random Variable Two dice are thrown. Calculate the mean value of the random variable ‘sum of the number of spots’.\nExercise 2 : Linear Continuous Distribution A random variable has the probability distribution:\n$$ f(x) = \\begin{cases} \\frac{x}{2}, \u0026 0 \\leq x \\leq 2 \\\\ 0, \u0026 \\text{otherwise} \\end{cases} $$ Compute the mean value of the random variable.\nExercise 3 : Binomial Probability 60% of the students who start to study for an engineering degree complete their studies and obtain a degree. What is the probability that in a group of 10 arbitrarily chosen students in the first term of study 8 will obtain a degree?\nExercise 4 : Normal Distributions — Means Evaluate the mean values of the random variable $x$ which have the following normal distributions:\n$f(x) = \\frac{1}{3\\sqrt{2\\pi}} e^{-(x-2)^2/18}$ $f(x) = \\frac{1}{\\sqrt{2\\pi}} e^{-(x+4)^2/2}$ Exercise 5 : Binomial Mean and Variance Let $X\\sim\\mathrm{Bin}(n=20,p=0.3)$. Compute the mean $E[X]$ and variance $\\mathrm{Var}(X)$. What is $P(X\\ge 8)$? Use an exact sum and approximate using a normal approximation with continuity correction.\nExercise 6 : Poisson Approximation For rare events with probability $p$ and large $n$, the binomial can be approximated by a Poisson distribution. Suppose on average 2 events occur per hour. What is the probability of observing 5 events in an hour? Show how this approximates a binomial with $n=1000$ and $p=0.002$.\nExercise 7 : Exponential Distribution and Memoryless Property Let $T$ be exponentially distributed with rate $\\lambda=0.5\\ \\mathrm{hr}^{-1}$. Compute $E[T]$, $\\mathrm{Var}(T)$ and $P(15\\mid T\u003e2)$.\nExercise 8 : Continuous Uniform Distribution Let $X\\sim U(a=1,b=4)$. Compute the mean, variance and the distribution of $Y=2X+3$. Find $P(2",
+  "wordCount" : "694",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T09:15:23+01:00",
+  "dateModified": "2026-01-08T09:15:23+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/probability/en/probability-distributions/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Probability Distributions
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 09:15:23 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>694 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--random-variable">Exercise 1 : Random Variable</a></li>
+    <li><a href="#exercise-2--linear-continuous-distribution">Exercise 2 : Linear Continuous Distribution</a></li>
+    <li><a href="#exercise-3--binomial-probability">Exercise 3 : Binomial Probability</a></li>
+    <li><a href="#exercise-4--normal-distributions--means">Exercise 4 : Normal Distributions — Means</a></li>
+    <li><a href="#exercise-5--binomial-mean-and-variance">Exercise 5 : Binomial Mean and Variance</a></li>
+    <li><a href="#exercise-6--poisson-approximation">Exercise 6 : Poisson Approximation</a></li>
+    <li><a href="#exercise-7--exponential-distribution-and-memoryless-property">Exercise 7 : Exponential Distribution and Memoryless Property</a></li>
+    <li><a href="#exercise-8--continuous-uniform-distribution">Exercise 8 : Continuous Uniform Distribution</a></li>
+    <li><a href="#exercise-9--chi-square-and-students">Exercise 9 : Chi-square and Student&rsquo;s</a></li>
+    <li><a href="#exercise-10--sampling-distribution-and-central-limit-theorem">Exercise 10 : Sampling Distribution and Central Limit Theorem</a></li>
+    <li><a href="#exercise-11--confidence-interval-for-a-mean">Exercise 11 : Confidence Interval for a Mean</a></li>
+    <li><a href="#exercise-12--hypothesis-test-for-a-proportion">Exercise 12 : Hypothesis Test for a Proportion</a></li>
+    <li><a href="#exercise-13--joint-distribution-marginals-and-independence">Exercise 13 : Joint Distribution, Marginals and Independence</a></li>
+    <li><a href="#exercise-14--covariance-and-correlation">Exercise 14 : Covariance and Correlation</a></li>
+    <li><a href="#exercise-15--moment-generating-functions">Exercise 15 : Moment Generating Functions</a></li>
+    <li><a href="#exercise-16--transformation-of-variables">Exercise 16 : Transformation of Variables</a></li>
+    <li><a href="#exercise-17--law-of-large-numbers">Exercise 17 : Law of Large Numbers</a></li>
+    <li><a href="#exercise-18--bayesian-update-with-beta-prior">Exercise 18 : Bayesian Update with Beta Prior</a></li>
+    <li><a href="#exercise-19--multivariate-normal--marginal-and-conditional">Exercise 19 : Multivariate Normal — Marginal and Conditional</a></li>
+    <li><a href="#exercise-20--goodness-of-fit-chi-square-test">Exercise 20 : Goodness-of-Fit (Chi-square Test)</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="probability-distributions">Probability Distributions<a hidden class="anchor" aria-hidden="true" href="#probability-distributions">#</a></h1>
+<h2 id="exercise-1--random-variable">Exercise 1 : Random Variable<a hidden class="anchor" aria-hidden="true" href="#exercise-1--random-variable">#</a></h2>
+<p>Two dice are thrown. Calculate the mean value of the random variable &lsquo;sum of the number of spots&rsquo;.</p>
+<h2 id="exercise-2--linear-continuous-distribution">Exercise 2 : Linear Continuous Distribution<a hidden class="anchor" aria-hidden="true" href="#exercise-2--linear-continuous-distribution">#</a></h2>
+<p>A random variable has the probability distribution:</p>
+$$
+  f(x) = 
+  \begin{cases}
+  \frac{x}{2}, & 0 \leq x \leq 2 \\
+  0, & \text{otherwise}
+  \end{cases}
+$$<p>
+Compute the mean value of the random variable.</p>
+<h2 id="exercise-3--binomial-probability">Exercise 3 : Binomial Probability<a hidden class="anchor" aria-hidden="true" href="#exercise-3--binomial-probability">#</a></h2>
+<p>60% of the students who start to study for an engineering degree complete their studies and obtain a degree. What is the probability that in a group of 10 arbitrarily chosen students in the first term of study 8 will obtain a degree?</p>
+<h2 id="exercise-4--normal-distributions--means">Exercise 4 : Normal Distributions — Means<a hidden class="anchor" aria-hidden="true" href="#exercise-4--normal-distributions--means">#</a></h2>
+<p>Evaluate the mean values of the random variable $x$ which have the following normal distributions:</p>
+<ol>
+<li>$f(x) = \frac{1}{3\sqrt{2\pi}} e^{-(x-2)^2/18}$</li>
+<li>$f(x) = \frac{1}{\sqrt{2\pi}} e^{-(x+4)^2/2}$</li>
+</ol>
+<h2 id="exercise-5--binomial-mean-and-variance">Exercise 5 : Binomial Mean and Variance<a hidden class="anchor" aria-hidden="true" href="#exercise-5--binomial-mean-and-variance">#</a></h2>
+<p>Let $X\sim\mathrm{Bin}(n=20,p=0.3)$. Compute the mean $E[X]$ and variance $\mathrm{Var}(X)$. What is $P(X\ge 8)$? Use an exact sum and approximate using a normal approximation with continuity correction.</p>
+<h2 id="exercise-6--poisson-approximation">Exercise 6 : Poisson Approximation<a hidden class="anchor" aria-hidden="true" href="#exercise-6--poisson-approximation">#</a></h2>
+<p>For rare events with probability $p$ and large $n$, the binomial can be approximated by a Poisson distribution. Suppose on average 2 events occur per hour. What is the probability of observing 5 events in an hour? Show how this approximates a binomial with $n=1000$ and $p=0.002$.</p>
+<h2 id="exercise-7--exponential-distribution-and-memoryless-property">Exercise 7 : Exponential Distribution and Memoryless Property<a hidden class="anchor" aria-hidden="true" href="#exercise-7--exponential-distribution-and-memoryless-property">#</a></h2>
+<p>Let $T$ be exponentially distributed with rate $\lambda=0.5\ \mathrm{hr}^{-1}$. Compute $E[T]$, $\mathrm{Var}(T)$ and $P(1&lt;T\le 3)$. Show the memoryless property by computing $P(T&gt;5\mid T&gt;2)$.</p>
+<h2 id="exercise-8--continuous-uniform-distribution">Exercise 8 : Continuous Uniform Distribution<a hidden class="anchor" aria-hidden="true" href="#exercise-8--continuous-uniform-distribution">#</a></h2>
+<p>Let $X\sim U(a=1,b=4)$. Compute the mean, variance and the distribution of $Y=2X+3$. Find $P(2&lt;X&lt;3.5)$.</p>
+<h2 id="exercise-9--chi-square-and-students">Exercise 9 : Chi-square and Student&rsquo;s<a hidden class="anchor" aria-hidden="true" href="#exercise-9--chi-square-and-students">#</a></h2>
+<p>Let $Z_1,\dots,Z_n\stackrel{\text{iid}}{\sim}N(0,1)$. Define $Q=\sum_{i=1}^n Z_i^2$ and $T=Z_1/\sqrt{(Q-Z_1^2)/(n-1)}$. Show that $Q\sim\chi^2_n$ and $T$ has Student&rsquo;s $t$ distribution with $n-1$ degrees of freedom. Compute numeric examples for $n=10$.</p>
+<h2 id="exercise-10--sampling-distribution-and-central-limit-theorem">Exercise 10 : Sampling Distribution and Central Limit Theorem<a hidden class="anchor" aria-hidden="true" href="#exercise-10--sampling-distribution-and-central-limit-theorem">#</a></h2>
+<p>Suppose $X_1,\dots,X_{36}$ are iid with mean $\mu=10$ and variance $\sigma^2=9$. Let $\bar X$ be the sample mean. Use the CLT to approximate $P(9.2&lt;\bar X&lt;10.8)$. Compare with exact result if $X_i$ are normal.</p>
+<h2 id="exercise-11--confidence-interval-for-a-mean">Exercise 11 : Confidence Interval for a Mean<a hidden class="anchor" aria-hidden="true" href="#exercise-11--confidence-interval-for-a-mean">#</a></h2>
+<p>A sample of size $n=25$ from a normal population yields sample mean $\bar x=50$ and sample standard deviation $s=4$. Construct a 95% confidence interval for the population mean.</p>
+<h2 id="exercise-12--hypothesis-test-for-a-proportion">Exercise 12 : Hypothesis Test for a Proportion<a hidden class="anchor" aria-hidden="true" href="#exercise-12--hypothesis-test-for-a-proportion">#</a></h2>
+<p>A poll of 200 voters finds 118 in favor of proposition A. Test at the 5% level whether the true proportion exceeds 0.5. State null and alternative hypotheses, test statistic and conclusion.</p>
+<h2 id="exercise-13--joint-distribution-marginals-and-independence">Exercise 13 : Joint Distribution, Marginals and Independence<a hidden class="anchor" aria-hidden="true" href="#exercise-13--joint-distribution-marginals-and-independence">#</a></h2>
+<p>Let the joint pdf of $(X,Y)$ be</p>
+$$
+f_{X,Y}(x,y)=\begin{cases}c(x+y),&0\le x\le1,\ 0\le y\le1,\\0,&\text{otherwise.}\end{cases}
+$$<ol>
+<li>Determine $c$.</li>
+<li>Find marginal densities $f_X,f_Y$.</li>
+<li>Are $X$ and $Y$ independent?</li>
+<li>Compute $E[XY]$.</li>
+</ol>
+<h2 id="exercise-14--covariance-and-correlation">Exercise 14 : Covariance and Correlation<a hidden class="anchor" aria-hidden="true" href="#exercise-14--covariance-and-correlation">#</a></h2>
+<p>Given two random variables with $E[X]=2,E[Y]=3,\mathrm{Var}(X)=4,\mathrm{Var}(Y)=9$ and $\mathrm{Cov}(X,Y)=3$, compute the correlation coefficient and interpret its value. If $Z=4X-2Y$, compute $E[Z]$ and $\mathrm{Var}(Z)$.</p>
+<h2 id="exercise-15--moment-generating-functions">Exercise 15 : Moment Generating Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-15--moment-generating-functions">#</a></h2>
+<p>Find the moment generating function $M_X(t)$ for an exponential random variable with rate $\lambda$. Use $M_X$ to compute $E[X]$ and $\mathrm{Var}(X)$.</p>
+<h2 id="exercise-16--transformation-of-variables">Exercise 16 : Transformation of Variables<a hidden class="anchor" aria-hidden="true" href="#exercise-16--transformation-of-variables">#</a></h2>
+<p>Let $X\sim N(0,1)$ and let $Y=X^2$. Find the pdf of $Y$ and identify its distribution. Compute $E[Y]$.</p>
+<h2 id="exercise-17--law-of-large-numbers">Exercise 17 : Law of Large Numbers<a hidden class="anchor" aria-hidden="true" href="#exercise-17--law-of-large-numbers">#</a></h2>
+<p>State and illustrate the (weak) law of large numbers: for iid $X_i$ with $E[X_i]=\mu$, show numerically how $\bar X_n$ concentrates near $\mu$ as $n$ increases for a chosen non-normal distribution (e.g., exponential).</p>
+<h2 id="exercise-18--bayesian-update-with-beta-prior">Exercise 18 : Bayesian Update with Beta Prior<a hidden class="anchor" aria-hidden="true" href="#exercise-18--bayesian-update-with-beta-prior">#</a></h2>
+<p>Suppose prior for a probability $p$ is $\mathrm{Beta}(\alpha=2,\beta=2)$. After observing 7 successes and 3 failures, find the posterior distribution and its mean. Compute a 90% credible interval for $p$.</p>
+<h2 id="exercise-19--multivariate-normal--marginal-and-conditional">Exercise 19 : Multivariate Normal — Marginal and Conditional<a hidden class="anchor" aria-hidden="true" href="#exercise-19--multivariate-normal--marginal-and-conditional">#</a></h2>
+<p>Let $(X,Y)$ be jointly normal with mean vector $(\mu_X,\mu_Y)$ and covariance matrix $\Sigma$. Write formulas for the marginal distribution of $X$ and the conditional distribution $X\mid Y=y$. Provide a simple numeric example and compute the conditional mean and variance.</p>
+<h2 id="exercise-20--goodness-of-fit-chi-square-test">Exercise 20 : Goodness-of-Fit (Chi-square Test)<a hidden class="anchor" aria-hidden="true" href="#exercise-20--goodness-of-fit-chi-square-test">#</a></h2>
+<p>Given categorical data with observed counts in 4 categories: [25, 30, 20, 25] and expected equal proportions, perform a chi-square goodness-of-fit test at the 5% level.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/probability/">Probability</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Theory of Errors</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/probability/en/probability-calculus/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Probability Calculus</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

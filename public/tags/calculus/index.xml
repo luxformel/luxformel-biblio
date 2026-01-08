@@ -11,8 +11,98 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 07 Sep 2025 07:04:16 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 11:27:35 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taylor Series and Power Series</title>
+      <link>http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/</link>
+      <pubDate>Thu, 08 Jan 2026 11:27:35 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/taylor-series-and-power-series/</guid>
+      <description>&lt;h1 id=&#34;taylor-series-and-power-series&#34;&gt;Taylor Series and Power Series&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--expansion-of-a-function-in-a-power-series&#34;&gt;Exercise 1 : Expansion of a Function in a Power Series&lt;/h2&gt;
+&lt;p&gt;Expand the following functions at $x_0 = 0$ in a series up to the first four terms:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f(x) = \sqrt{1 - x}$&lt;/li&gt;
+&lt;li&gt;$f(t) = \sin(\omega t + \pi)$&lt;/li&gt;
+&lt;li&gt;$f(x) = \ln[(1 + x)^5]$&lt;/li&gt;
+&lt;li&gt;$f(x) = \cos x$&lt;/li&gt;
+&lt;li&gt;$f(x) = \cosh x$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--interval-of-convergence-of-a-power-series&#34;&gt;Exercise 2 : Interval of Convergence of a Power Series&lt;/h2&gt;
+&lt;p&gt;Obtain the radius of convergence of the following series:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Differential Equations</title>
+      <link>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</link>
+      <pubDate>Thu, 08 Jan 2026 10:09:01 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/differential-equations/en/differential-equations/</guid>
+      <description>&lt;h1 id=&#34;differential-equations&#34;&gt;Differential Equations&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--classification--linear-vs-nonlinear&#34;&gt;Exercise 1 : Classification — Linear vs Nonlinear&lt;/h2&gt;
+&lt;p&gt;Which of the following are linear first- and second-order DEs with constant coefficients?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$y&amp;rsquo; + x^2 y = 2x$&lt;/li&gt;
+&lt;li&gt;$5y&amp;rsquo;&amp;rsquo; - 2y&amp;rsquo; - 4x = 3y$&lt;/li&gt;
+&lt;li&gt;$y^4 + 2y&amp;rsquo;&amp;rsquo; + 3y&amp;rsquo; = 0$&lt;/li&gt;
+&lt;li&gt;$\sin x, y&amp;rsquo;&amp;rsquo; - y = 0$&lt;/li&gt;
+&lt;li&gt;$y&amp;rsquo;&amp;rsquo; - x^5 = 2$&lt;/li&gt;
+&lt;li&gt;$2y&amp;rsquo;&amp;rsquo; - y&amp;rsquo; + \frac{3}{2}y = 0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--homogeneity-and-order&#34;&gt;Exercise 2 : Homogeneity and Order&lt;/h2&gt;
+&lt;p&gt;Which of the following are homogeneous and non-homogeneous DEs and what is the order in each case?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Differential Calculus</title>
+      <link>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</link>
+      <pubDate>Thu, 08 Jan 2026 09:57:06 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</guid>
+      <description>&lt;h1 id=&#34;differential-calculus&#34;&gt;Differential Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--sequences-and-limits-of-sequences&#34;&gt;Exercise 1 : Sequences and Limits of Sequences&lt;/h2&gt;
+&lt;p&gt;Calculate the limiting value of the following sequences for $n \to \infty$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$a_n = \frac{\sqrt{n}}{n}$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{5 + n}{2n}$&lt;/li&gt;
+&lt;li&gt;$a_n = \left(-\frac{1}{4}\right)^n - 1$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{2}{n} + 1$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{n^3 + 1}{2n^3 + n^2 + n}$&lt;/li&gt;
+&lt;li&gt;$a_n = 2 + 2^{-n}$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{n^2 - 1}{(n + 1)^2} + 5$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--limits-of-functions&#34;&gt;Exercise 2 : Limits of Functions&lt;/h2&gt;
+&lt;p&gt;Calculate the following limits:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Applications of Integration</title>
+      <link>http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/</link>
+      <pubDate>Thu, 08 Jan 2026 09:46:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/</guid>
+      <description>&lt;h1 id=&#34;applications-of-integration&#34;&gt;Applications of Integration&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--area-bounded-by-parabola&#34;&gt;Exercise 1 : Area Bounded by Parabola&lt;/h2&gt;
+&lt;p&gt;Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--area-between-a-symmetric-curve-and-the-x-axis&#34;&gt;Exercise 2 : Area Between a Symmetric Curve and the x-axis&lt;/h2&gt;
+&lt;p&gt;Calculate the area bounded by the positive branch of the curve $y^2 = (7 - x)(5 + x)$, the $x$-axis and the ordinates where $x = -5$ and $x = 1$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Integral Calculus</title>
+      <link>http://localhost:1313/posts/mathe/calculus/en/integral-calculus/</link>
+      <pubDate>Thu, 08 Jan 2026 07:50:31 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/integral-calculus/</guid>
+      <description>&lt;h1 id=&#34;integral-calculus&#34;&gt;Integral Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--primitives&#34;&gt;Exercise 1 : Primitives&lt;/h2&gt;
+&lt;p&gt;Find the primitives of the following functions and the value of the constant:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$f(x) = 3x$ given $F(1) = 2$&lt;/li&gt;
+&lt;li&gt;$f(x) = 2x + 3$ given $F(1) = 0$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--definite-integrals-cosine&#34;&gt;Exercise 2 : Definite Integrals (Cosine)&lt;/h2&gt;
+&lt;p&gt;Evaluate the following definite integrals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\int_{0}^{\pi/2} 3 \cos x , dx$&lt;/li&gt;
+&lt;li&gt;$\int_{-\pi/2}^{\pi/2} 3 \cos x , dx$&lt;/li&gt;
+&lt;li&gt;$\int_{0}^{\pi} 3 \cos x , dx$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--absolute-areas&#34;&gt;Exercise 3 : Absolute Areas&lt;/h2&gt;
+&lt;p&gt;Obtain the absolute values of the areas corresponding to the following integrals:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Derivatives</title>
       <link>http://localhost:1313/posts/mathe/calculus/en/derivatives/</link>

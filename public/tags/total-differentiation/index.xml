@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Total Differentiation on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/total-differentiation/</link>
+    <description>Recent content in Total Differentiation on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Thu, 08 Jan 2026 10:54:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/total-differentiation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Functions of Several Variables; Partial Differentiation; and Total Differentiation</title>
+      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</link>
+      <pubDate>Thu, 08 Jan 2026 10:54:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</guid>
+      <description>&lt;h1 id=&#34;functions-of-several-variables-partial-differentiation-and-total-differentiation&#34;&gt;Functions of Several Variables; Partial Differentiation; and Total Differentiation&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--table-of-variables&#34;&gt;Exercise 1 : Table of Variables&lt;/h2&gt;
+&lt;p&gt;Construct a table of values for the function $f(x, y) = x^2 y + 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.&lt;/p&gt;
+&lt;h2 id=&#34;exercise-2--plane-and-quadratic-surfaces&#34;&gt;Exercise 2 : Plane and Quadratic Surfaces&lt;/h2&gt;
+&lt;p&gt;What surfaces are represented by the following functions? Sketch them!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$z = -x - 2y + 2$&lt;/li&gt;
+&lt;li&gt;$z = x^2 + y^2$&lt;/li&gt;
+&lt;li&gt;$z = \sqrt{1 - \frac{x^2}{4} - \frac{y^2}{9}}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--partial-derivatives--practice&#34;&gt;Exercise 3 : Partial Derivatives — Practice&lt;/h2&gt;
+&lt;p&gt;Obtain the partial derivatives of&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

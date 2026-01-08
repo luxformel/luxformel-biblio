@@ -11,13 +11,223 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Fri, 19 Dec 2025 23:06:37 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 11:36:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applied Mathematics</title>
+      <link>http://localhost:1313/tags/applied-mathematics/</link>
+      <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
+      <guid>http://localhost:1313/tags/applied-mathematics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coordinate Systems</title>
+      <link>http://localhost:1313/tags/coordinate-systems/</link>
+      <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
+      <guid>http://localhost:1313/tags/coordinate-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrices</title>
+      <link>http://localhost:1313/tags/matrices/</link>
+      <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
+      <guid>http://localhost:1313/tags/matrices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi Variable Calculus</title>
+      <link>http://localhost:1313/tags/multi-variable-calculus/</link>
+      <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
+      <guid>http://localhost:1313/tags/multi-variable-calculus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calculus</title>
+      <link>http://localhost:1313/tags/calculus/</link>
+      <pubDate>Thu, 08 Jan 2026 11:27:35 +0100</pubDate>
+      <guid>http://localhost:1313/tags/calculus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Series</title>
+      <link>http://localhost:1313/tags/power-series/</link>
+      <pubDate>Thu, 08 Jan 2026 11:27:35 +0100</pubDate>
+      <guid>http://localhost:1313/tags/power-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taylor Series</title>
+      <link>http://localhost:1313/tags/taylor-series/</link>
+      <pubDate>Thu, 08 Jan 2026 11:27:35 +0100</pubDate>
+      <guid>http://localhost:1313/tags/taylor-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integrals</title>
+      <link>http://localhost:1313/tags/integrals/</link>
+      <pubDate>Thu, 08 Jan 2026 11:24:52 +0100</pubDate>
+      <guid>http://localhost:1313/tags/integrals/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Vector Calculus</title>
       <link>http://localhost:1313/tags/vector-calculus/</link>
-      <pubDate>Fri, 19 Dec 2025 23:06:37 +0100</pubDate>
+      <pubDate>Thu, 08 Jan 2026 11:24:52 +0100</pubDate>
       <guid>http://localhost:1313/tags/vector-calculus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Algebra</title>
+      <link>http://localhost:1313/tags/linear-algebra/</link>
+      <pubDate>Thu, 08 Jan 2026 11:16:59 +0100</pubDate>
+      <guid>http://localhost:1313/tags/linear-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Equations</title>
+      <link>http://localhost:1313/tags/linear-equations/</link>
+      <pubDate>Thu, 08 Jan 2026 11:16:59 +0100</pubDate>
+      <guid>http://localhost:1313/tags/linear-equations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scalar Products</title>
+      <link>http://localhost:1313/tags/scalar-products/</link>
+      <pubDate>Thu, 08 Jan 2026 11:11:27 +0100</pubDate>
+      <guid>http://localhost:1313/tags/scalar-products/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vector Products</title>
+      <link>http://localhost:1313/tags/vector-products/</link>
+      <pubDate>Thu, 08 Jan 2026 11:11:27 +0100</pubDate>
+      <guid>http://localhost:1313/tags/vector-products/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Differential Equations</title>
+      <link>http://localhost:1313/tags/differential-equations/</link>
+      <pubDate>Thu, 08 Jan 2026 11:04:12 +0100</pubDate>
+      <guid>http://localhost:1313/tags/differential-equations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partial Differentiation</title>
+      <link>http://localhost:1313/tags/partial-differentiation/</link>
+      <pubDate>Thu, 08 Jan 2026 10:54:10 +0100</pubDate>
+      <guid>http://localhost:1313/tags/partial-differentiation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Total Differentiation</title>
+      <link>http://localhost:1313/tags/total-differentiation/</link>
+      <pubDate>Thu, 08 Jan 2026 10:54:10 +0100</pubDate>
+      <guid>http://localhost:1313/tags/total-differentiation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exponentials</title>
+      <link>http://localhost:1313/tags/exponentials/</link>
+      <pubDate>Thu, 08 Jan 2026 10:43:26 +0100</pubDate>
+      <guid>http://localhost:1313/tags/exponentials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>http://localhost:1313/tags/functions/</link>
+      <pubDate>Thu, 08 Jan 2026 10:43:26 +0100</pubDate>
+      <guid>http://localhost:1313/tags/functions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logarithms</title>
+      <link>http://localhost:1313/tags/logarithms/</link>
+      <pubDate>Thu, 08 Jan 2026 10:43:26 +0100</pubDate>
+      <guid>http://localhost:1313/tags/logarithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigenvalues</title>
+      <link>http://localhost:1313/tags/eigenvalues/</link>
+      <pubDate>Thu, 08 Jan 2026 10:36:10 +0100</pubDate>
+      <guid>http://localhost:1313/tags/eigenvalues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigenvectors</title>
+      <link>http://localhost:1313/tags/eigenvectors/</link>
+      <pubDate>Thu, 08 Jan 2026 10:36:10 +0100</pubDate>
+      <guid>http://localhost:1313/tags/eigenvectors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Differentiation</title>
+      <link>http://localhost:1313/tags/differentiation/</link>
+      <pubDate>Thu, 08 Jan 2026 09:57:06 +0100</pubDate>
+      <guid>http://localhost:1313/tags/differentiation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Integration</title>
+      <link>http://localhost:1313/tags/integration/</link>
+      <pubDate>Thu, 08 Jan 2026 09:46:25 +0100</pubDate>
+      <guid>http://localhost:1313/tags/integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>http://localhost:1313/tags/statistics/</link>
+      <pubDate>Thu, 08 Jan 2026 09:35:29 +0100</pubDate>
+      <guid>http://localhost:1313/tags/statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability</title>
+      <link>http://localhost:1313/tags/probability/</link>
+      <pubDate>Thu, 08 Jan 2026 09:15:23 +0100</pubDate>
+      <guid>http://localhost:1313/tags/probability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basics</title>
+      <link>http://localhost:1313/tags/basics/</link>
+      <pubDate>Thu, 08 Jan 2026 09:13:24 +0100</pubDate>
+      <guid>http://localhost:1313/tags/basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier Integrals</title>
+      <link>http://localhost:1313/tags/fourier-integrals/</link>
+      <pubDate>Thu, 08 Jan 2026 08:39:41 +0100</pubDate>
+      <guid>http://localhost:1313/tags/fourier-integrals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier Transforms</title>
+      <link>http://localhost:1313/tags/fourier-transforms/</link>
+      <pubDate>Thu, 08 Jan 2026 08:39:41 +0100</pubDate>
+      <guid>http://localhost:1313/tags/fourier-transforms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional Analysis</title>
+      <link>http://localhost:1313/tags/functional-analysis/</link>
+      <pubDate>Thu, 08 Jan 2026 08:39:41 +0100</pubDate>
+      <guid>http://localhost:1313/tags/functional-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier Series</title>
+      <link>http://localhost:1313/tags/fourier-series/</link>
+      <pubDate>Thu, 08 Jan 2026 08:34:49 +0100</pubDate>
+      <guid>http://localhost:1313/tags/fourier-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harmonic Analysis</title>
+      <link>http://localhost:1313/tags/harmonic-analysis/</link>
+      <pubDate>Thu, 08 Jan 2026 08:34:49 +0100</pubDate>
+      <guid>http://localhost:1313/tags/harmonic-analysis/</guid>
       <description></description>
     </item>
     <item>
@@ -35,13 +245,6 @@
       <description></description>
     </item>
     <item>
-      <title>Integrals</title>
-      <link>http://localhost:1313/tags/integrals/</link>
-      <pubDate>Thu, 18 Dec 2025 15:08:39 +0100</pubDate>
-      <guid>http://localhost:1313/tags/integrals/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Dirac</title>
       <link>http://localhost:1313/tags/dirac/</link>
       <pubDate>Thu, 18 Dec 2025 14:58:07 +0100</pubDate>
@@ -49,38 +252,10 @@
       <description></description>
     </item>
     <item>
-      <title>Functions</title>
-      <link>http://localhost:1313/tags/functions/</link>
-      <pubDate>Thu, 18 Dec 2025 14:58:07 +0100</pubDate>
-      <guid>http://localhost:1313/tags/functions/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Coordinates</title>
-      <link>http://localhost:1313/tags/coordinates/</link>
-      <pubDate>Thu, 18 Dec 2025 14:00:11 +0100</pubDate>
-      <guid>http://localhost:1313/tags/coordinates/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Léisungen</title>
       <link>http://localhost:1313/tags/l%C3%A9isungen/</link>
       <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
       <guid>http://localhost:1313/tags/l%C3%A9isungen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linear Algebra</title>
-      <link>http://localhost:1313/tags/linear-algebra/</link>
-      <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
-      <guid>http://localhost:1313/tags/linear-algebra/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Matrices</title>
-      <link>http://localhost:1313/tags/matrices/</link>
-      <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
-      <guid>http://localhost:1313/tags/matrices/</guid>
       <description></description>
     </item>
     <item>
@@ -189,20 +364,6 @@
       <description></description>
     </item>
     <item>
-      <title>Eigenvalues</title>
-      <link>http://localhost:1313/tags/eigenvalues/</link>
-      <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/eigenvalues/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eigenvectors</title>
-      <link>http://localhost:1313/tags/eigenvectors/</link>
-      <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/eigenvectors/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Lagrange</title>
       <link>http://localhost:1313/tags/lagrange/</link>
       <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
@@ -294,13 +455,6 @@
       <description></description>
     </item>
     <item>
-      <title>Calculus</title>
-      <link>http://localhost:1313/tags/calculus/</link>
-      <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/calculus/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Derivatives</title>
       <link>http://localhost:1313/tags/derivatives/</link>
       <pubDate>Sun, 07 Sep 2025 07:04:16 +0200</pubDate>
@@ -347,13 +501,6 @@
       <link>http://localhost:1313/tags/convexity/</link>
       <pubDate>Sun, 07 Sep 2025 06:52:52 +0200</pubDate>
       <guid>http://localhost:1313/tags/convexity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Differentiation</title>
-      <link>http://localhost:1313/tags/differentiation/</link>
-      <pubDate>Sun, 07 Sep 2025 06:50:32 +0200</pubDate>
-      <guid>http://localhost:1313/tags/differentiation/</guid>
       <description></description>
     </item>
     <item>

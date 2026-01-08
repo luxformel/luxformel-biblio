@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Functions of Several Variables; Partial Differentiation; and Total Differentiation | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Multi Variable Calculus, Partial Differentiation, Total Differentiation, Applied Mathematics">
+<meta name="description" content="Functions of Several Variables; Partial Differentiation; and Total Differentiation
+Exercise 1 : Table of Variables
+Construct a table of values for the function $f(x, y) = x^2 y &#43; 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.
+Exercise 2 : Plane and Quadratic Surfaces
+What surfaces are represented by the following functions? Sketch them!
+
+$z = -x - 2y &#43; 2$
+$z = x^2 &#43; y^2$
+$z = \sqrt{1 - \frac{x^2}{4} - \frac{y^2}{9}}$
+
+Exercise 3 : Partial Derivatives — Practice
+Obtain the partial derivatives of">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Functions of Several Variables; Partial Differentiation; and Total Differentiation">
+  <meta property="og:description" content="Functions of Several Variables; Partial Differentiation; and Total Differentiation Exercise 1 : Table of Variables Construct a table of values for the function $f(x, y) = x^2 y &#43; 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.
+Exercise 2 : Plane and Quadratic Surfaces What surfaces are represented by the following functions? Sketch them!
+$z = -x - 2y &#43; 2$ $z = x^2 &#43; y^2$ $z = \sqrt{1 - \frac{x^2}{4} - \frac{y^2}{9}}$ Exercise 3 : Partial Derivatives — Practice Obtain the partial derivatives of">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T10:54:10+01:00">
+    <meta property="article:modified_time" content="2026-01-08T10:54:10+01:00">
+    <meta property="article:tag" content="Multi Variable Calculus">
+    <meta property="article:tag" content="Partial Differentiation">
+    <meta property="article:tag" content="Total Differentiation">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Functions of Several Variables; Partial Differentiation; and Total Differentiation">
+<meta name="twitter:description" content="Functions of Several Variables; Partial Differentiation; and Total Differentiation
+Exercise 1 : Table of Variables
+Construct a table of values for the function $f(x, y) = x^2 y &#43; 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.
+Exercise 2 : Plane and Quadratic Surfaces
+What surfaces are represented by the following functions? Sketch them!
+
+$z = -x - 2y &#43; 2$
+$z = x^2 &#43; y^2$
+$z = \sqrt{1 - \frac{x^2}{4} - \frac{y^2}{9}}$
+
+Exercise 3 : Partial Derivatives — Practice
+Obtain the partial derivatives of">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Functions of Several Variables; Partial Differentiation; and Total Differentiation",
+      "item": "http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Functions of Several Variables; Partial Differentiation; and Total Differentiation",
+  "name": "Functions of Several Variables; Partial Differentiation; and Total Differentiation",
+  "description": "Functions of Several Variables; Partial Differentiation; and Total Differentiation Exercise 1 : Table of Variables Construct a table of values for the function $f(x, y) = x^2 y + 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.\nExercise 2 : Plane and Quadratic Surfaces What surfaces are represented by the following functions? Sketch them!\n$z = -x - 2y + 2$ $z = x^2 + y^2$ $z = \\sqrt{1 - \\frac{x^2}{4} - \\frac{y^2}{9}}$ Exercise 3 : Partial Derivatives — Practice Obtain the partial derivatives of\n",
+  "keywords": [
+    "Multi Variable Calculus", "Partial Differentiation", "Total Differentiation", "Applied Mathematics"
+  ],
+  "articleBody": "Functions of Several Variables; Partial Differentiation; and Total Differentiation Exercise 1 : Table of Variables Construct a table of values for the function $f(x, y) = x^2 y + 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.\nExercise 2 : Plane and Quadratic Surfaces What surfaces are represented by the following functions? Sketch them!\n$z = -x - 2y + 2$ $z = x^2 + y^2$ $z = \\sqrt{1 - \\frac{x^2}{4} - \\frac{y^2}{9}}$ Exercise 3 : Partial Derivatives — Practice Obtain the partial derivatives of\n$f(x, y) = \\sin x + \\cos y$ $f(x, y) = x^2 \\sqrt{1 - y^2}$ $f(x, y) = e^{-(x^2 + y^2)}$ $f(x, y, z) = xyz + x \\cos(x + y)$ $f(x, y) = e^x \\ln y + z^4$ Exercise 4 : Tangent Slopes to a Paraboloid Determine the slope of the tangent in the $x$- and $y$-directions to the surface $z = x^2 + y^2$ at the point $P = (0, 1)$.\nExercise 5 : Second Partial Derivatives (Mixed Partials) Determine the partial derivatives $f_{xx}$, $f_{xy}$, $f_{yx}$, and $f_{yy}$ of the function $z = R^2 - x^2 - y^2$.\nExercise 6 : Euler-Type Relation Show that the function $z = e^{(x/y)^2}$ satisfies the relation $x f_x + y f_y = 0$.\nExercise 7 : Total Differentials — Linear Approximations Determine the total differential of the functions:\n$z = \\sqrt{1 - x^2 - y^2}$ $z = x^2 + y^2$ $f(x, y, z) = \\frac{1}{x^2 + y^2 + z^2}$ Exercise 8 : Error Propagation in a Conical Tank A container in the form of an inverted right circular cone has a radius of $1.75$ m and a height of $4$ m. The radius is subject to a tolerance of $50$ mm and the height to a tolerance of $75$ mm.\nCalculate the total percentage tolerance in the volume. Calculate the total percentage tolerance in the surface area of the container. Exercise 9 : Contour Lines and Gradients Find the contour lines and calculate the gradient for the following functions:\n$f(x, y) = -x - 2y + 2$ $f(x, y) = \\sqrt{1 - \\frac{x^2}{4} - \\frac{y^2}{9}}$ $f(x, y) = \\frac{10}{\\sqrt{x^2 + y^2}}$ Exercise 10 : Level Surfaces and Gradient Vectors Find the surfaces of constant functional values and calculate the gradient.\n$f(x, y, z) = x + y - 3z$ $f(x, y, z) = x^2 + y^2$ $f(x, y, z) = (x^2 + y^2 + z^2)^{3/2}$ Exercise 11 : Chain Rule — Time Derivatives Obtain $du/dt$ when:\n$u = x^2 - 3xy + 2y^2$ and $x = \\cos t$, $y = \\sin t$ $u = x + 4\\sqrt{xy} - 3y$, $x = t^3$, $y = 1/t$ Exercise 12 : Implicit Differentiation — Practice Obtain $dy/dx$:\n$x^3 - y^3 + 4xy = 0$ at $x = 2$, $y = -2$ $xy + \\sin y = 2$ at $x = 4$, $y = \\pi/2$ Exercise 13 : Maxima and Minima — Critical Point Tests Examine the following functions for maxima and minima:\n$f(x, y) = x^3 - 3xy + y^3$ $f(x, y) = 12x + 6y - x^2 + xy - y^2$ Exercise 14 : Traveling Wave Functions Two cables considered as being infinitely long are excited at the left-hand end with an amplitude $A$ and a frequency $f$. Write down the wave function for\n$A = 0.5 \\text{ m}$, $f = 5 \\text{ Hz}$, $\\lambda = 1.2 \\text{ m}$ $A = 0.2 \\text{ m}$, $f = 0.8 \\text{ Hz}$, $\\lambda = 4.0 \\text{ m}$ Exercise 15 : Wave Equation Verification Verify that the function $f(x, t) = e^{-(vt - x)^2}$ satisfies the wave equation $$ \\frac{\\partial^2 f}{\\partial t^2} = v^2 \\frac{\\partial^2 f}{\\partial x^2} $$Exercise 16 : Directional Derivative and Unit Direction Compute the directional derivative of $f(x,y)=x^2y+e^{xy}$ at the point $(1,0)$ in the direction of the vector $(2,1)$. First normalize the direction.\nExercise 17 : Jacobian and Change of Variables Let $u=x-y$, $v=x+y$. Compute the Jacobian $\\frac{\\partial(u,v)}{\\partial(x,y)}$ and use it to transform the integral $\\iint_R (x^2-y^2),dx,dy$ where $R$ is the square $-1\\le x,y\\le1$ into $u,v$ coordinates.\nExercise 18 : Second-Order Taylor Polynomial Find the second-order Taylor polynomial of $f(x,y)=\\ln(1+x^2+y^2)$ about the origin and estimate the remainder order.\nExercise 19 : Constrained Extrema (Lagrange Multipliers) Use Lagrange multipliers to find the extrema of $f(x,y)=x^2+2y^2$ subject to the constraint $x+2y=3$.\nExercise 20 : Hessian Matrix and Classification Compute the Hessian of $f(x,y)=x^3-3xy+y^3$ at its critical points and classify each as local min, local max, or saddle.\nExercise 21 : Implicit Function Theorem Application For the equation $x^2+y^2+z^2-1=0$, show locally near $(0,0,1)$ that $z$ is a function of $(x,y)$ and compute $\\partial z/\\partial x$ and $\\partial z/\\partial y$ at the origin.\nExercise 22 : Laplacian and Harmonic Functions Compute the Laplacian $\\Delta f$ for $f(x,y)=\\ln(x^2+y^2)$ (on its domain) and determine whether $f$ is harmonic where defined.\nExercise 23 : One Step of Gradient Descent For $f(x,y)=x^2+4y^2$, compute the gradient at $(1,1)$ and give the point after one gradient descent step with learning rate $\\alpha=0.1$.\nExercise 24 : Differentiability versus Partial Derivatives Give an example of a function $f(x,y)$ which has partial derivatives at $(0,0)$ but is not differentiable there, and briefly explain why.\nExercise 25 : Equality of Mixed Partials Verify whether $f_{xy}=f_{yx}$ for $f(x,y)=\\begin{cases} \\dfrac{xy(x^2-y^2)}{x^2+y^2} \u0026 (x,y)\\ne(0,0)\\ 0 \u0026 (x,y)=(0,0) \\end{cases}$ by computing the mixed partials at the origin.\n",
+  "wordCount" : "887",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T10:54:10+01:00",
+  "dateModified": "2026-01-08T10:54:10+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Functions of Several Variables; Partial Differentiation; and Total Differentiation
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 10:54:10 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>887 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--table-of-variables">Exercise 1 : Table of Variables</a></li>
+    <li><a href="#exercise-2--plane-and-quadratic-surfaces">Exercise 2 : Plane and Quadratic Surfaces</a></li>
+    <li><a href="#exercise-3--partial-derivatives--practice">Exercise 3 : Partial Derivatives — Practice</a></li>
+    <li><a href="#exercise-4--tangent-slopes-to-a-paraboloid">Exercise 4 : Tangent Slopes to a Paraboloid</a></li>
+    <li><a href="#exercise-5--second-partial-derivatives-mixed-partials">Exercise 5 : Second Partial Derivatives (Mixed Partials)</a></li>
+    <li><a href="#exercise-6--euler-type-relation">Exercise 6 : Euler-Type Relation</a></li>
+    <li><a href="#exercise-7--total-differentials--linear-approximations">Exercise 7 : Total Differentials — Linear Approximations</a></li>
+    <li><a href="#exercise-8--error-propagation-in-a-conical-tank">Exercise 8 : Error Propagation in a Conical Tank</a></li>
+    <li><a href="#exercise-9--contour-lines-and-gradients">Exercise 9 : Contour Lines and Gradients</a></li>
+    <li><a href="#exercise-10--level-surfaces-and-gradient-vectors">Exercise 10 : Level Surfaces and Gradient Vectors</a></li>
+    <li><a href="#exercise-11--chain-rule--time-derivatives">Exercise 11 : Chain Rule — Time Derivatives</a></li>
+    <li><a href="#exercise-12--implicit-differentiation--practice">Exercise 12 : Implicit Differentiation — Practice</a></li>
+    <li><a href="#exercise-13--maxima-and-minima--critical-point-tests">Exercise 13 : Maxima and Minima — Critical Point Tests</a></li>
+    <li><a href="#exercise-14--traveling-wave-functions">Exercise 14 : Traveling Wave Functions</a></li>
+    <li><a href="#exercise-15--wave-equation-verification">Exercise 15 : Wave Equation Verification</a></li>
+    <li><a href="#exercise-16--directional-derivative-and-unit-direction">Exercise 16 : Directional Derivative and Unit Direction</a></li>
+    <li><a href="#exercise-17--jacobian-and-change-of-variables">Exercise 17 : Jacobian and Change of Variables</a></li>
+    <li><a href="#exercise-18--second-order-taylor-polynomial">Exercise 18 : Second-Order Taylor Polynomial</a></li>
+    <li><a href="#exercise-19--constrained-extrema-lagrange-multipliers">Exercise 19 : Constrained Extrema (Lagrange Multipliers)</a></li>
+    <li><a href="#exercise-20--hessian-matrix-and-classification">Exercise 20 : Hessian Matrix and Classification</a></li>
+    <li><a href="#exercise-21--implicit-function-theorem-application">Exercise 21 : Implicit Function Theorem Application</a></li>
+    <li><a href="#exercise-22--laplacian-and-harmonic-functions">Exercise 22 : Laplacian and Harmonic Functions</a></li>
+    <li><a href="#exercise-23--one-step-of-gradient-descent">Exercise 23 : One Step of Gradient Descent</a></li>
+    <li><a href="#exercise-24--differentiability-versus-partial-derivatives">Exercise 24 : Differentiability versus Partial Derivatives</a></li>
+    <li><a href="#exercise-25--equality-of-mixed-partials">Exercise 25 : Equality of Mixed Partials</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="functions-of-several-variables-partial-differentiation-and-total-differentiation">Functions of Several Variables; Partial Differentiation; and Total Differentiation<a hidden class="anchor" aria-hidden="true" href="#functions-of-several-variables-partial-differentiation-and-total-differentiation">#</a></h1>
+<h2 id="exercise-1--table-of-variables">Exercise 1 : Table of Variables<a hidden class="anchor" aria-hidden="true" href="#exercise-1--table-of-variables">#</a></h2>
+<p>Construct a table of values for the function $f(x, y) = x^2 y + 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.</p>
+<h2 id="exercise-2--plane-and-quadratic-surfaces">Exercise 2 : Plane and Quadratic Surfaces<a hidden class="anchor" aria-hidden="true" href="#exercise-2--plane-and-quadratic-surfaces">#</a></h2>
+<p>What surfaces are represented by the following functions? Sketch them!</p>
+<ol>
+<li>$z = -x - 2y + 2$</li>
+<li>$z = x^2 + y^2$</li>
+<li>$z = \sqrt{1 - \frac{x^2}{4} - \frac{y^2}{9}}$</li>
+</ol>
+<h2 id="exercise-3--partial-derivatives--practice">Exercise 3 : Partial Derivatives — Practice<a hidden class="anchor" aria-hidden="true" href="#exercise-3--partial-derivatives--practice">#</a></h2>
+<p>Obtain the partial derivatives of</p>
+<ol>
+<li>$f(x, y) = \sin x + \cos y$</li>
+<li>$f(x, y) = x^2 \sqrt{1 - y^2}$</li>
+<li>$f(x, y) = e^{-(x^2 + y^2)}$</li>
+<li>$f(x, y, z) = xyz + x \cos(x + y)$</li>
+<li>$f(x, y) = e^x \ln y + z^4$</li>
+</ol>
+<h2 id="exercise-4--tangent-slopes-to-a-paraboloid">Exercise 4 : Tangent Slopes to a Paraboloid<a hidden class="anchor" aria-hidden="true" href="#exercise-4--tangent-slopes-to-a-paraboloid">#</a></h2>
+<p>Determine the slope of the tangent in the $x$- and $y$-directions to the surface $z = x^2 + y^2$ at the point $P = (0, 1)$.</p>
+<h2 id="exercise-5--second-partial-derivatives-mixed-partials">Exercise 5 : Second Partial Derivatives (Mixed Partials)<a hidden class="anchor" aria-hidden="true" href="#exercise-5--second-partial-derivatives-mixed-partials">#</a></h2>
+<p>Determine the partial derivatives $f_{xx}$, $f_{xy}$, $f_{yx}$, and $f_{yy}$ of the function $z = R^2 - x^2 - y^2$.</p>
+<h2 id="exercise-6--euler-type-relation">Exercise 6 : Euler-Type Relation<a hidden class="anchor" aria-hidden="true" href="#exercise-6--euler-type-relation">#</a></h2>
+<p>Show that the function $z = e^{(x/y)^2}$ satisfies the relation $x f_x + y f_y = 0$.</p>
+<h2 id="exercise-7--total-differentials--linear-approximations">Exercise 7 : Total Differentials — Linear Approximations<a hidden class="anchor" aria-hidden="true" href="#exercise-7--total-differentials--linear-approximations">#</a></h2>
+<p>Determine the total differential of the functions:</p>
+<ol>
+<li>$z = \sqrt{1 - x^2 - y^2}$</li>
+<li>$z = x^2 + y^2$</li>
+<li>$f(x, y, z) = \frac{1}{x^2 + y^2 + z^2}$</li>
+</ol>
+<h2 id="exercise-8--error-propagation-in-a-conical-tank">Exercise 8 : Error Propagation in a Conical Tank<a hidden class="anchor" aria-hidden="true" href="#exercise-8--error-propagation-in-a-conical-tank">#</a></h2>
+<p>A container in the form of an inverted right circular cone has a radius of $1.75$ m and a height of $4$ m. The radius is subject to a tolerance of $50$ mm and the height to a tolerance of $75$ mm.</p>
+<ol>
+<li>Calculate the total percentage tolerance in the volume.</li>
+<li>Calculate the total percentage tolerance in the surface area of the container.</li>
+</ol>
+<h2 id="exercise-9--contour-lines-and-gradients">Exercise 9 : Contour Lines and Gradients<a hidden class="anchor" aria-hidden="true" href="#exercise-9--contour-lines-and-gradients">#</a></h2>
+<p>Find the contour lines and calculate the gradient for the following functions:</p>
+<ol>
+<li>$f(x, y) = -x - 2y + 2$</li>
+<li>$f(x, y) = \sqrt{1 - \frac{x^2}{4} - \frac{y^2}{9}}$</li>
+<li>$f(x, y) = \frac{10}{\sqrt{x^2 + y^2}}$</li>
+</ol>
+<h2 id="exercise-10--level-surfaces-and-gradient-vectors">Exercise 10 : Level Surfaces and Gradient Vectors<a hidden class="anchor" aria-hidden="true" href="#exercise-10--level-surfaces-and-gradient-vectors">#</a></h2>
+<p>Find the surfaces of constant functional values and calculate the gradient.</p>
+<ol>
+<li>$f(x, y, z) = x + y - 3z$</li>
+<li>$f(x, y, z) = x^2 + y^2$</li>
+<li>$f(x, y, z) = (x^2 + y^2 + z^2)^{3/2}$</li>
+</ol>
+<h2 id="exercise-11--chain-rule--time-derivatives">Exercise 11 : Chain Rule — Time Derivatives<a hidden class="anchor" aria-hidden="true" href="#exercise-11--chain-rule--time-derivatives">#</a></h2>
+<p>Obtain $du/dt$ when:</p>
+<ol>
+<li>$u = x^2 - 3xy + 2y^2$ and $x = \cos t$, $y = \sin t$</li>
+<li>$u = x + 4\sqrt{xy} - 3y$, $x = t^3$, $y = 1/t$</li>
+</ol>
+<h2 id="exercise-12--implicit-differentiation--practice">Exercise 12 : Implicit Differentiation — Practice<a hidden class="anchor" aria-hidden="true" href="#exercise-12--implicit-differentiation--practice">#</a></h2>
+<p>Obtain $dy/dx$:</p>
+<ol>
+<li>$x^3 - y^3 + 4xy = 0$ at $x = 2$, $y = -2$</li>
+<li>$xy + \sin y = 2$ at $x = 4$, $y = \pi/2$</li>
+</ol>
+<h2 id="exercise-13--maxima-and-minima--critical-point-tests">Exercise 13 : Maxima and Minima — Critical Point Tests<a hidden class="anchor" aria-hidden="true" href="#exercise-13--maxima-and-minima--critical-point-tests">#</a></h2>
+<p>Examine the following functions for maxima and minima:</p>
+<ol>
+<li>$f(x, y) = x^3 - 3xy + y^3$</li>
+<li>$f(x, y) = 12x + 6y - x^2 + xy - y^2$</li>
+</ol>
+<h2 id="exercise-14--traveling-wave-functions">Exercise 14 : Traveling Wave Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-14--traveling-wave-functions">#</a></h2>
+<p>Two cables considered as being infinitely long are excited at the left-hand end with an amplitude $A$ and a frequency $f$. Write down the wave function for</p>
+<ol>
+<li>$A = 0.5 \text{ m}$, $f = 5 \text{ Hz}$, $\lambda = 1.2 \text{ m}$</li>
+<li>$A = 0.2 \text{ m}$, $f = 0.8 \text{ Hz}$, $\lambda = 4.0 \text{ m}$</li>
+</ol>
+<h2 id="exercise-15--wave-equation-verification">Exercise 15 : Wave Equation Verification<a hidden class="anchor" aria-hidden="true" href="#exercise-15--wave-equation-verification">#</a></h2>
+<p>Verify that the function $f(x, t) = e^{-(vt - x)^2}$ satisfies the wave equation
+</p>
+$$ \frac{\partial^2 f}{\partial t^2} = v^2 \frac{\partial^2 f}{\partial x^2} $$<h2 id="exercise-16--directional-derivative-and-unit-direction">Exercise 16 : Directional Derivative and Unit Direction<a hidden class="anchor" aria-hidden="true" href="#exercise-16--directional-derivative-and-unit-direction">#</a></h2>
+<p>Compute the directional derivative of $f(x,y)=x^2y+e^{xy}$ at the point $(1,0)$ in the direction of the vector $(2,1)$. First normalize the direction.</p>
+<h2 id="exercise-17--jacobian-and-change-of-variables">Exercise 17 : Jacobian and Change of Variables<a hidden class="anchor" aria-hidden="true" href="#exercise-17--jacobian-and-change-of-variables">#</a></h2>
+<p>Let $u=x-y$, $v=x+y$. Compute the Jacobian $\frac{\partial(u,v)}{\partial(x,y)}$ and use it to transform the integral $\iint_R (x^2-y^2),dx,dy$ where $R$ is the square $-1\le x,y\le1$ into $u,v$ coordinates.</p>
+<h2 id="exercise-18--second-order-taylor-polynomial">Exercise 18 : Second-Order Taylor Polynomial<a hidden class="anchor" aria-hidden="true" href="#exercise-18--second-order-taylor-polynomial">#</a></h2>
+<p>Find the second-order Taylor polynomial of $f(x,y)=\ln(1+x^2+y^2)$ about the origin and estimate the remainder order.</p>
+<h2 id="exercise-19--constrained-extrema-lagrange-multipliers">Exercise 19 : Constrained Extrema (Lagrange Multipliers)<a hidden class="anchor" aria-hidden="true" href="#exercise-19--constrained-extrema-lagrange-multipliers">#</a></h2>
+<p>Use Lagrange multipliers to find the extrema of $f(x,y)=x^2+2y^2$ subject to the constraint $x+2y=3$.</p>
+<h2 id="exercise-20--hessian-matrix-and-classification">Exercise 20 : Hessian Matrix and Classification<a hidden class="anchor" aria-hidden="true" href="#exercise-20--hessian-matrix-and-classification">#</a></h2>
+<p>Compute the Hessian of $f(x,y)=x^3-3xy+y^3$ at its critical points and classify each as local min, local max, or saddle.</p>
+<h2 id="exercise-21--implicit-function-theorem-application">Exercise 21 : Implicit Function Theorem Application<a hidden class="anchor" aria-hidden="true" href="#exercise-21--implicit-function-theorem-application">#</a></h2>
+<p>For the equation $x^2+y^2+z^2-1=0$, show locally near $(0,0,1)$ that $z$ is a function of $(x,y)$ and compute $\partial z/\partial x$ and $\partial z/\partial y$ at the origin.</p>
+<h2 id="exercise-22--laplacian-and-harmonic-functions">Exercise 22 : Laplacian and Harmonic Functions<a hidden class="anchor" aria-hidden="true" href="#exercise-22--laplacian-and-harmonic-functions">#</a></h2>
+<p>Compute the Laplacian $\Delta f$ for $f(x,y)=\ln(x^2+y^2)$ (on its domain) and determine whether $f$ is harmonic where defined.</p>
+<h2 id="exercise-23--one-step-of-gradient-descent">Exercise 23 : One Step of Gradient Descent<a hidden class="anchor" aria-hidden="true" href="#exercise-23--one-step-of-gradient-descent">#</a></h2>
+<p>For $f(x,y)=x^2+4y^2$, compute the gradient at $(1,1)$ and give the point after one gradient descent step with learning rate $\alpha=0.1$.</p>
+<h2 id="exercise-24--differentiability-versus-partial-derivatives">Exercise 24 : Differentiability versus Partial Derivatives<a hidden class="anchor" aria-hidden="true" href="#exercise-24--differentiability-versus-partial-derivatives">#</a></h2>
+<p>Give an example of a function $f(x,y)$ which has partial derivatives at $(0,0)$ but is not differentiable there, and briefly explain why.</p>
+<h2 id="exercise-25--equality-of-mixed-partials">Exercise 25 : Equality of Mixed Partials<a hidden class="anchor" aria-hidden="true" href="#exercise-25--equality-of-mixed-partials">#</a></h2>
+<p>Verify whether $f_{xy}=f_{yx}$ for $f(x,y)=\begin{cases} \dfrac{xy(x^2-y^2)}{x^2+y^2} &amp; (x,y)\ne(0,0)\ 0 &amp; (x,y)=(0,0) \end{cases}$ by computing the mixed partials at the origin.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/multi-variable-calculus/">Multi Variable Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/partial-differentiation/">Partial Differentiation</a></li>
+      <li><a href="http://localhost:1313/tags/total-differentiation/">Total Differentiation</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/differential-equations/en/laplace-transforms/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Laplace Transforms</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/functions/en/exponetial-logarithmic-and-hyperbolic-functions/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Exponential, Logarithmic and Hyperbolic Functions</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

@@ -1,5 +1,5 @@
 ---
-title: "Integral Calculus"
+title: "Line, Volume and Surface Integrals"
 date: 2025-12-18T15:08:39+01:00
 # weight: 1
 # aliases: ["/first"]
@@ -27,7 +27,7 @@ UseHugoToc: true
 math: true
 ---
 
-# Integral Calculus
+# Line, Volume and Surface Integrals
 
 ## Exercise 1 : Basic Line Integral
 
@@ -98,12 +98,5 @@ Let $\mathbf{F} = (y^2, xz, z^3)$
 
 Prove the following:
 
-1. $$
-\int_S f(\nabla \times \mathbf{A}) \cdot d\mathbf{a} 
-= \int_S [ \mathbf{A} \times (\nabla f) ] \cdot d\mathbf{a} + \oint_{\partial S} f\mathbf{A} \cdot d\mathbf{l}
-$$
-
-2. $$
-\int_V \mathbf{B} \cdot ( \nabla \times \mathbf{A}) \, d\tau 
-= \int_V \mathbf{A} \cdot (\nabla \times \mathbf{B}) \, d\tau + \oint_{\partial V} ( \mathbf{A} \times \mathbf{B}) \cdot d\mathbf{a}
-$$
+1. $$ \int_S f(\nabla \times \mathbf{A}) \cdot d\mathbf{a} = \int_S [ \mathbf{A} \times (\nabla f) ] \cdot d\mathbf{a} + \oint_{\partial S} f\mathbf{A} \cdot d\mathbf{l} $$
+2. $$ \int_V \mathbf{B} \cdot ( \nabla \times \mathbf{A}) \, d\tau = \int_V \mathbf{A} \cdot (\nabla \times \mathbf{B}) \, d\tau + \oint_{\partial V} ( \mathbf{A} \times \mathbf{B}) \cdot d\mathbf{a} $$

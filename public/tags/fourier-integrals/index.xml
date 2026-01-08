@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fourier Integrals on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/fourier-integrals/</link>
+    <description>Recent content in Fourier Integrals on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Thu, 08 Jan 2026 08:39:41 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fourier-integrals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fourier Integrals and Fourier Transforms</title>
+      <link>http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/</link>
+      <pubDate>Thu, 08 Jan 2026 08:39:41 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/functional-analysis/en/fourier-integrals-and-fourier-transforms/</guid>
+      <description>&lt;h1 id=&#34;fourier-integrals-and-fourier-transforms&#34;&gt;Fourier Integrals and Fourier Transforms&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--fourier-series&#34;&gt;Exercise 1 : Fourier Series&lt;/h2&gt;
+&lt;p&gt;For the following periodic function:
+&lt;/p&gt;
+$$
+f(t) = 
+\begin{cases} 
+-1 &amp; \text{for } -\frac{T}{2} \leq t &lt; 0 \\
+1 &amp; \text{for } 0 &lt; t \leq \frac{T}{2}
+\end{cases}
+$$&lt;p&gt;
+Calculate the Fourier series for
+&lt;/p&gt;
+$$
+f(t) = 
+\begin{cases} 
+0 &amp; \text{for } -\frac{T}{2} \leq t &lt; -\frac{t_0}{2} \\
+-1 &amp; \text{for } -\frac{t_0}{2} \leq t &lt; 0 \\
+1 &amp; \text{for } 0 &lt; t \leq \frac{t_0}{2} \\
+0 &amp; \text{for } \frac{t_0}{2} &lt; t \leq \frac{T}{2}
+\end{cases}
+$$&lt;h2 id=&#34;exercise-2--limiting-spectrum-t-to-infty&#34;&gt;Exercise 2 : Limiting Spectrum (T \to \infty)&lt;/h2&gt;
+&lt;p&gt;Now perform the limiting process for $T \to \infty$ and obtain the amplitude spectrum.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,5 +1,5 @@
 ---
-title: "Differential Calculus"
+title: "Gradient, Divergence, Curl, and Identities"
 date: 2025-12-18T14:35:07+01:00
 # weight: 1
 # aliases: ["/first"]
@@ -27,7 +27,8 @@ UseHugoToc: true
 math: true
 ---
 
-# Differential Calculus
+
+# Gradient, Divergence, Curl, and Identities
 
 ## Exercise 1
 

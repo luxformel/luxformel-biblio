@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Applications of Integration | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Calculus, Applied Mathematics, Integration">
+<meta name="description" content="Applications of Integration
+Exercise 1 : Area Bounded by Parabola
+Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.
+Exercise 2 : Area Between a Symmetric Curve and the x-axis
+Calculate the area bounded by the positive branch of the curve $y^2 = (7 - x)(5 &#43; x)$, the $x$-axis and the ordinates where $x = -5$ and $x = 1$.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Applications of Integration">
+  <meta property="og:description" content="Applications of Integration Exercise 1 : Area Bounded by Parabola Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.
+Exercise 2 : Area Between a Symmetric Curve and the x-axis Calculate the area bounded by the positive branch of the curve $y^2 = (7 - x)(5 &#43; x)$, the $x$-axis and the ordinates where $x = -5$ and $x = 1$.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T09:46:25+01:00">
+    <meta property="article:modified_time" content="2026-01-08T09:46:25+01:00">
+    <meta property="article:tag" content="Calculus">
+    <meta property="article:tag" content="Applied Mathematics">
+    <meta property="article:tag" content="Integration">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Applications of Integration">
+<meta name="twitter:description" content="Applications of Integration
+Exercise 1 : Area Bounded by Parabola
+Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.
+Exercise 2 : Area Between a Symmetric Curve and the x-axis
+Calculate the area bounded by the positive branch of the curve $y^2 = (7 - x)(5 &#43; x)$, the $x$-axis and the ordinates where $x = -5$ and $x = 1$.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Applications of Integration",
+      "item": "http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Applications of Integration",
+  "name": "Applications of Integration",
+  "description": "Applications of Integration Exercise 1 : Area Bounded by Parabola Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.\nExercise 2 : Area Between a Symmetric Curve and the x-axis Calculate the area bounded by the positive branch of the curve $y^2 = (7 - x)(5 + x)$, the $x$-axis and the ordinates where $x = -5$ and $x = 1$.\n",
+  "keywords": [
+    "Calculus", "Applied Mathematics", "Integration"
+  ],
+  "articleBody": "Applications of Integration Exercise 1 : Area Bounded by Parabola Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.\nExercise 2 : Area Between a Symmetric Curve and the x-axis Calculate the area bounded by the positive branch of the curve $y^2 = (7 - x)(5 + x)$, the $x$-axis and the ordinates where $x = -5$ and $x = 1$.\nExercise 3 : Area Under a Parabola between Roots Calculate the area bounded by the parabola $20y = 3(2x^2 - 3x - 5)$ and the $x$-axis between the points where the curve cuts the $x$-axis.\nExercise 4 : Area under a Reciprocal Quadratic Curve Calculate the area bounded by the curve $y^2(x^2 + 6x - 55) = 1$, the $x$-axis and the ordinates where $x = 7$ and $x = 14$.\nExercise 5 : Sketch and Area of a Cubic Polynomial Sketch the curve $y = 2x^3 - 15x^2 + 24x + 25$ between $x = 0$ and $x = 4$ and then calculate the area enclosed by the ordinates at these points, the $x$-axis and the portion of the curve.\nExercise 6 : Polar Area for a Rectangular Hyperbola Calculate the area bounded by the hyperbola $r^2 \\cos 2\\theta = 9$ and the radial lines $\\theta = 0$ and $\\theta = 30^\\circ$.\nExercise 7 : Area of a Rose Curve Calculate the entire area of the curve $r = 3.5 \\sin 2\\theta$.\nExercise 8 : Intersection Areas Calculate the area bounded by the following curves:\n$y^2 = 4x$ and $x^2 = 6y$ $y = 4 - x^2$, $y = 4 - 4x$ and the line joining the points $(-2, -6)$ and $(4, 6)$ $y = 6 + 4x - x^2$ and the line joining the points $(-2, -6)$ and $(4, 6)$ Exercise 9 : Surface Area of Revolution — Cubic Calculate the area of the surface generated by the revolution of the curve $y = x^3$ about the $x$-axis between the ordinates $x = 0.5$ and $x = 0$.\nExercise 10 : Surface Area and Volume from a Shifted Parabola The curve $y = x(6 - x) - 7.56$ is rotated about the $x$-axis between the points where it crosses the $x$-axis. Calculate the surface area and the volume of the solid thus generated.\nExercise 11 : Surface Area and Volume of a Cycloid of Revolution Calculate the surface area and the volume generated by rotating the cycloid $x = \\theta - \\sin \\theta$, $y = 1 - \\cos \\theta$ about the $x$-axis.\nExercise 12 : Volume from Revolving an Ellipse (Ellipsoid) Calculate the volume generated by revolving the ellipse $x^2/9 + y^2/25 = 1$ about the $x$-axis.\nExercise 13 : Centroid of a Quarter Ellipse Find the position of the centroid of the area of one quarter of an ellipse. The equation of the ellipse is $x^2/a^2 + y^2/b^2 = 1$.\nExercise 14 : Centroid of a Circular Sector A plate is cut into a circular sector of $375 mm$ radius and $65^\\circ$ included angle. Find the position of the centroid along the axis of symmetry.\nExercise 15 : Center of Mass with Radial Density Variation The density of the material of which a right circular cone is made varies as the square of the distance from the vertex. Find the position of the center of mass.\nExercise 16 : Centroid of a Hemisphere A hemisphere has a radius of $125mm$. Calculate the position of its centroid.\nExercise 17 : Moments of Inertia of a Cylindrical Shell A cylindrical shell has a mass $M$, a radius $R$ and a length $L$. Calculate its moment of inertia about\na central axis an axis about a diameter at one end an axis through its centroid and along a diameter Exercise 18 : Moment of Inertia of a Steel Rod A steel rod is $3.75m$ long and has a circular cross-section of $35mm$ diameter. The density of steel is $7800 \\frac{kg}{m}^3$. Calculate the moment of inertia about:\nthe centroid one end Exercise 19 : Moment of Inertia of a Solid Cone A solid right circular cone has a mass of $165kg$, a base radius of $175mm$, and a height of $650mm$. Calculate its moment of inertia about a central axis.\nExercise 20 : Hydrostatic Force on a Triangular Plate A triangular plate of base 5 m and height $8m$ is immersed in a lake with its base along the water level. Calculate the total pressure on the plate and the depth of the center of pressure if the plate is vertical. Density of water $\\rho_{W}= 1000 \\frac{kg}{m}^3$\nExercise 21 : Work Done by a Variable Force Calculate the work done in stretching a spring whose force obeys Hooke’s law with constant $k$, from an initial extension $x_1$ to a final extension $x_2$. Then generalize to a non-linear spring with force $F(x)=ax+bx^3$.\nExercise 22 : Volume by Pappus’ Theorem (Torus) Using Pappus’ centroid theorem, find the volume of the torus generated by revolving a circle of radius $r$ whose centre is at a distance $R(\u003er)$ from the axis of revolution.\nExercise 23 : Hydrostatic Force on a Circular Plate Find the total hydrostatic force on a vertical circular plate of radius $a$ whose centre is submerged at depth $h$ (measured to the centre). Determine also the centre of pressure.\nExercise 24 : Arc Length and Curvature of a Cycloid Segment Find the arc length and curvature of the cycloid $x=\\theta-\\sin\\theta$, $y=1-\\cos\\theta$ between $\\theta=0$ and $\\theta=2\\pi$ and identify any cusps.\nExercise 25 : Surface Area of a Catenary of Revolution Find the surface area generated by revolving the catenary $y=a\\cosh(x/a)$ about the $x$-axis between two given ordinates $x=\\pm b$.\nExercise 26 : Polar Area of a Cardioid Calculate the area enclosed by the cardioid $r = a(1+\\cos\\theta)$.\nExercise 27 : Numerical Integration — Simpson’s Rule Application Use Simpson’s rule with $n=4$ to approximate $\\int_0^2 \\frac{1}{1+x^2},dx$. Compare the result with the exact value.\nExercise 28 : Centroid of a Composite Plate Find the centroid of the plane region bounded by $y=x^2$ and $y=4$ (between their intersections). Treat as a composite area and compute coordinates of the centroid.\nExercise 29 : Improper Integrals — Convergence and Evaluation Investigate the convergence of $\\int_1^{\\infty} \\frac{1}{x^p},dx$ and evaluate it for $p\u003e1$. Also determine whether $\\int_0^1 \\frac{1}{x^p},dx$ converges and for which $p$.\n",
+  "wordCount" : "1062",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T09:46:25+01:00",
+  "dateModified": "2026-01-08T09:46:25+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/calculus/en/applications-of-integration/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Applications of Integration
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 09:46:25 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>1062 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--area-bounded-by-parabola">Exercise 1 : Area Bounded by Parabola</a></li>
+    <li><a href="#exercise-2--area-between-a-symmetric-curve-and-the-x-axis">Exercise 2 : Area Between a Symmetric Curve and the x-axis</a></li>
+    <li><a href="#exercise-3--area-under-a-parabola-between-roots">Exercise 3 : Area Under a Parabola between Roots</a></li>
+    <li><a href="#exercise-4--area-under-a-reciprocal-quadratic-curve">Exercise 4 : Area under a Reciprocal Quadratic Curve</a></li>
+    <li><a href="#exercise-5--sketch-and-area-of-a-cubic-polynomial">Exercise 5 : Sketch and Area of a Cubic Polynomial</a></li>
+    <li><a href="#exercise-6--polar-area-for-a-rectangular-hyperbola">Exercise 6 : Polar Area for a Rectangular Hyperbola</a></li>
+    <li><a href="#exercise-7--area-of-a-rose-curve">Exercise 7 : Area of a Rose Curve</a></li>
+    <li><a href="#exercise-8--intersection-areas">Exercise 8 : Intersection Areas</a></li>
+    <li><a href="#exercise-9--surface-area-of-revolution--cubic">Exercise 9 : Surface Area of Revolution — Cubic</a></li>
+    <li><a href="#exercise-10--surface-area-and-volume-from-a-shifted-parabola">Exercise 10 : Surface Area and Volume from a Shifted Parabola</a></li>
+    <li><a href="#exercise-11--surface-area-and-volume-of-a-cycloid-of-revolution">Exercise 11 : Surface Area and Volume of a Cycloid of Revolution</a></li>
+    <li><a href="#exercise-12--volume-from-revolving-an-ellipse-ellipsoid">Exercise 12 : Volume from Revolving an Ellipse (Ellipsoid)</a></li>
+    <li><a href="#exercise-13--centroid-of-a-quarter-ellipse">Exercise 13 : Centroid of a Quarter Ellipse</a></li>
+    <li><a href="#exercise-14--centroid-of-a-circular-sector">Exercise 14 : Centroid of a Circular Sector</a></li>
+    <li><a href="#exercise-15--center-of-mass-with-radial-density-variation">Exercise 15 : Center of Mass with Radial Density Variation</a></li>
+    <li><a href="#exercise-16--centroid-of-a-hemisphere">Exercise 16 : Centroid of a Hemisphere</a></li>
+    <li><a href="#exercise-17--moments-of-inertia-of-a-cylindrical-shell">Exercise 17 : Moments of Inertia of a Cylindrical Shell</a></li>
+    <li><a href="#exercise-18--moment-of-inertia-of-a-steel-rod">Exercise 18 : Moment of Inertia of a Steel Rod</a></li>
+    <li><a href="#exercise-19--moment-of-inertia-of-a-solid-cone">Exercise 19 : Moment of Inertia of a Solid Cone</a></li>
+    <li><a href="#exercise-20--hydrostatic-force-on-a-triangular-plate">Exercise 20 : Hydrostatic Force on a Triangular Plate</a></li>
+    <li><a href="#exercise-21--work-done-by-a-variable-force">Exercise 21 : Work Done by a Variable Force</a></li>
+    <li><a href="#exercise-22--volume-by-pappus-theorem-torus">Exercise 22 : Volume by Pappus&rsquo; Theorem (Torus)</a></li>
+    <li><a href="#exercise-23--hydrostatic-force-on-a-circular-plate">Exercise 23 : Hydrostatic Force on a Circular Plate</a></li>
+    <li><a href="#exercise-24--arc-length-and-curvature-of-a-cycloid-segment">Exercise 24 : Arc Length and Curvature of a Cycloid Segment</a></li>
+    <li><a href="#exercise-25--surface-area-of-a-catenary-of-revolution">Exercise 25 : Surface Area of a Catenary of Revolution</a></li>
+    <li><a href="#exercise-26--polar-area-of-a-cardioid">Exercise 26 : Polar Area of a Cardioid</a></li>
+    <li><a href="#exercise-27--numerical-integration--simpsons-rule-application">Exercise 27 : Numerical Integration — Simpson&rsquo;s Rule Application</a></li>
+    <li><a href="#exercise-28--centroid-of-a-composite-plate">Exercise 28 : Centroid of a Composite Plate</a></li>
+    <li><a href="#exercise-29--improper-integrals--convergence-and-evaluation">Exercise 29 : Improper Integrals — Convergence and Evaluation</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="applications-of-integration">Applications of Integration<a hidden class="anchor" aria-hidden="true" href="#applications-of-integration">#</a></h1>
+<h2 id="exercise-1--area-bounded-by-parabola">Exercise 1 : Area Bounded by Parabola<a hidden class="anchor" aria-hidden="true" href="#exercise-1--area-bounded-by-parabola">#</a></h2>
+<p>Calculate the area bounded by the positive branch of the parabola $y^2 = 25x$, the $x$-axis and the ordinates where $x = 0$ and $x = 36$.</p>
+<h2 id="exercise-2--area-between-a-symmetric-curve-and-the-x-axis">Exercise 2 : Area Between a Symmetric Curve and the x-axis<a hidden class="anchor" aria-hidden="true" href="#exercise-2--area-between-a-symmetric-curve-and-the-x-axis">#</a></h2>
+<p>Calculate the area bounded by the positive branch of the curve $y^2 = (7 - x)(5 + x)$, the $x$-axis and the ordinates where $x = -5$ and $x = 1$.</p>
+<h2 id="exercise-3--area-under-a-parabola-between-roots">Exercise 3 : Area Under a Parabola between Roots<a hidden class="anchor" aria-hidden="true" href="#exercise-3--area-under-a-parabola-between-roots">#</a></h2>
+<p>Calculate the area bounded by the parabola $20y = 3(2x^2 - 3x - 5)$ and the $x$-axis between the points where the curve cuts the $x$-axis.</p>
+<h2 id="exercise-4--area-under-a-reciprocal-quadratic-curve">Exercise 4 : Area under a Reciprocal Quadratic Curve<a hidden class="anchor" aria-hidden="true" href="#exercise-4--area-under-a-reciprocal-quadratic-curve">#</a></h2>
+<p>Calculate the area bounded by the curve $y^2(x^2 + 6x - 55) = 1$, the $x$-axis and the ordinates where $x = 7$ and $x = 14$.</p>
+<h2 id="exercise-5--sketch-and-area-of-a-cubic-polynomial">Exercise 5 : Sketch and Area of a Cubic Polynomial<a hidden class="anchor" aria-hidden="true" href="#exercise-5--sketch-and-area-of-a-cubic-polynomial">#</a></h2>
+<p>Sketch the curve $y = 2x^3 - 15x^2 + 24x + 25$ between $x = 0$ and $x = 4$ and then calculate the area enclosed by the ordinates at these points, the $x$-axis and the portion of the curve.</p>
+<h2 id="exercise-6--polar-area-for-a-rectangular-hyperbola">Exercise 6 : Polar Area for a Rectangular Hyperbola<a hidden class="anchor" aria-hidden="true" href="#exercise-6--polar-area-for-a-rectangular-hyperbola">#</a></h2>
+<p>Calculate the area bounded by the hyperbola $r^2 \cos 2\theta = 9$ and the radial lines $\theta = 0$ and $\theta = 30^\circ$.</p>
+<h2 id="exercise-7--area-of-a-rose-curve">Exercise 7 : Area of a Rose Curve<a hidden class="anchor" aria-hidden="true" href="#exercise-7--area-of-a-rose-curve">#</a></h2>
+<p>Calculate the entire area of the curve $r = 3.5 \sin 2\theta$.</p>
+<h2 id="exercise-8--intersection-areas">Exercise 8 : Intersection Areas<a hidden class="anchor" aria-hidden="true" href="#exercise-8--intersection-areas">#</a></h2>
+<p>Calculate the area bounded by the following curves:</p>
+<ol>
+<li>$y^2 = 4x$ and $x^2 = 6y$</li>
+<li>$y = 4 - x^2$, $y = 4 - 4x$ and the line joining the points $(-2, -6)$ and $(4, 6)$</li>
+<li>$y = 6 + 4x - x^2$ and the line joining the points $(-2, -6)$ and $(4, 6)$</li>
+</ol>
+<h2 id="exercise-9--surface-area-of-revolution--cubic">Exercise 9 : Surface Area of Revolution — Cubic<a hidden class="anchor" aria-hidden="true" href="#exercise-9--surface-area-of-revolution--cubic">#</a></h2>
+<p>Calculate the area of the surface generated by the revolution of the curve $y = x^3$ about the $x$-axis between the ordinates $x = 0.5$ and $x = 0$.</p>
+<h2 id="exercise-10--surface-area-and-volume-from-a-shifted-parabola">Exercise 10 : Surface Area and Volume from a Shifted Parabola<a hidden class="anchor" aria-hidden="true" href="#exercise-10--surface-area-and-volume-from-a-shifted-parabola">#</a></h2>
+<p>The curve $y = x(6 - x) - 7.56$ is rotated about the $x$-axis between the points where it crosses the $x$-axis. Calculate the surface area and the volume of the solid thus generated.</p>
+<h2 id="exercise-11--surface-area-and-volume-of-a-cycloid-of-revolution">Exercise 11 : Surface Area and Volume of a Cycloid of Revolution<a hidden class="anchor" aria-hidden="true" href="#exercise-11--surface-area-and-volume-of-a-cycloid-of-revolution">#</a></h2>
+<p>Calculate the surface area and the volume generated by rotating the cycloid $x = \theta - \sin \theta$, $y = 1 - \cos \theta$ about the $x$-axis.</p>
+<h2 id="exercise-12--volume-from-revolving-an-ellipse-ellipsoid">Exercise 12 : Volume from Revolving an Ellipse (Ellipsoid)<a hidden class="anchor" aria-hidden="true" href="#exercise-12--volume-from-revolving-an-ellipse-ellipsoid">#</a></h2>
+<p>Calculate the volume generated by revolving the ellipse $x^2/9 + y^2/25 = 1$ about the $x$-axis.</p>
+<h2 id="exercise-13--centroid-of-a-quarter-ellipse">Exercise 13 : Centroid of a Quarter Ellipse<a hidden class="anchor" aria-hidden="true" href="#exercise-13--centroid-of-a-quarter-ellipse">#</a></h2>
+<p>Find the position of the centroid of the area of one quarter of an ellipse. The equation of the ellipse is $x^2/a^2 + y^2/b^2 = 1$.</p>
+<h2 id="exercise-14--centroid-of-a-circular-sector">Exercise 14 : Centroid of a Circular Sector<a hidden class="anchor" aria-hidden="true" href="#exercise-14--centroid-of-a-circular-sector">#</a></h2>
+<p>A plate is cut into a circular sector of $375 mm$ radius and $65^\circ$ included angle. Find the position of the centroid along the axis of symmetry.</p>
+<h2 id="exercise-15--center-of-mass-with-radial-density-variation">Exercise 15 : Center of Mass with Radial Density Variation<a hidden class="anchor" aria-hidden="true" href="#exercise-15--center-of-mass-with-radial-density-variation">#</a></h2>
+<p>The density of the material of which a right circular cone is made varies as the square of the distance from the vertex. Find the position of the center of mass.</p>
+<h2 id="exercise-16--centroid-of-a-hemisphere">Exercise 16 : Centroid of a Hemisphere<a hidden class="anchor" aria-hidden="true" href="#exercise-16--centroid-of-a-hemisphere">#</a></h2>
+<p>A hemisphere has a radius of $125mm$. Calculate the position of its centroid.</p>
+<h2 id="exercise-17--moments-of-inertia-of-a-cylindrical-shell">Exercise 17 : Moments of Inertia of a Cylindrical Shell<a hidden class="anchor" aria-hidden="true" href="#exercise-17--moments-of-inertia-of-a-cylindrical-shell">#</a></h2>
+<p>A cylindrical shell has a mass $M$, a radius $R$ and a length $L$. Calculate its moment of inertia about</p>
+<ol>
+<li>a central axis</li>
+<li>an axis about a diameter at one end</li>
+<li>an axis through its centroid and along a diameter</li>
+</ol>
+<h2 id="exercise-18--moment-of-inertia-of-a-steel-rod">Exercise 18 : Moment of Inertia of a Steel Rod<a hidden class="anchor" aria-hidden="true" href="#exercise-18--moment-of-inertia-of-a-steel-rod">#</a></h2>
+<p>A steel rod is $3.75m$ long and has a circular cross-section of $35mm$ diameter. The density of steel is $7800  \frac{kg}{m}^3$. Calculate the moment of inertia about:</p>
+<ol>
+<li>the centroid</li>
+<li>one end</li>
+</ol>
+<h2 id="exercise-19--moment-of-inertia-of-a-solid-cone">Exercise 19 : Moment of Inertia of a Solid Cone<a hidden class="anchor" aria-hidden="true" href="#exercise-19--moment-of-inertia-of-a-solid-cone">#</a></h2>
+<p>A solid right circular cone has a mass of $165kg$, a base radius of $175mm$, and a height of $650mm$. Calculate its moment of inertia about a central axis.</p>
+<h2 id="exercise-20--hydrostatic-force-on-a-triangular-plate">Exercise 20 : Hydrostatic Force on a Triangular Plate<a hidden class="anchor" aria-hidden="true" href="#exercise-20--hydrostatic-force-on-a-triangular-plate">#</a></h2>
+<p>A triangular plate of base 5 m and height $8m$ is immersed in a lake with its
+base along the water level. Calculate the total pressure on the plate and the
+depth of the center of pressure if the plate is vertical.
+Density of water $\rho_{W}= 1000 \frac{kg}{m}^3$</p>
+<h2 id="exercise-21--work-done-by-a-variable-force">Exercise 21 : Work Done by a Variable Force<a hidden class="anchor" aria-hidden="true" href="#exercise-21--work-done-by-a-variable-force">#</a></h2>
+<p>Calculate the work done in stretching a spring whose force obeys Hooke&rsquo;s law with constant $k$, from an initial extension $x_1$ to a final extension $x_2$. Then generalize to a non-linear spring with force $F(x)=ax+bx^3$.</p>
+<h2 id="exercise-22--volume-by-pappus-theorem-torus">Exercise 22 : Volume by Pappus&rsquo; Theorem (Torus)<a hidden class="anchor" aria-hidden="true" href="#exercise-22--volume-by-pappus-theorem-torus">#</a></h2>
+<p>Using Pappus&rsquo; centroid theorem, find the volume of the torus generated by revolving a circle of radius $r$ whose centre is at a distance $R(&gt;r)$ from the axis of revolution.</p>
+<h2 id="exercise-23--hydrostatic-force-on-a-circular-plate">Exercise 23 : Hydrostatic Force on a Circular Plate<a hidden class="anchor" aria-hidden="true" href="#exercise-23--hydrostatic-force-on-a-circular-plate">#</a></h2>
+<p>Find the total hydrostatic force on a vertical circular plate of radius $a$ whose centre is submerged at depth $h$ (measured to the centre). Determine also the centre of pressure.</p>
+<h2 id="exercise-24--arc-length-and-curvature-of-a-cycloid-segment">Exercise 24 : Arc Length and Curvature of a Cycloid Segment<a hidden class="anchor" aria-hidden="true" href="#exercise-24--arc-length-and-curvature-of-a-cycloid-segment">#</a></h2>
+<p>Find the arc length and curvature of the cycloid $x=\theta-\sin\theta$, $y=1-\cos\theta$ between $\theta=0$ and $\theta=2\pi$ and identify any cusps.</p>
+<h2 id="exercise-25--surface-area-of-a-catenary-of-revolution">Exercise 25 : Surface Area of a Catenary of Revolution<a hidden class="anchor" aria-hidden="true" href="#exercise-25--surface-area-of-a-catenary-of-revolution">#</a></h2>
+<p>Find the surface area generated by revolving the catenary $y=a\cosh(x/a)$ about the $x$-axis between two given ordinates $x=\pm b$.</p>
+<h2 id="exercise-26--polar-area-of-a-cardioid">Exercise 26 : Polar Area of a Cardioid<a hidden class="anchor" aria-hidden="true" href="#exercise-26--polar-area-of-a-cardioid">#</a></h2>
+<p>Calculate the area enclosed by the cardioid $r = a(1+\cos\theta)$.</p>
+<h2 id="exercise-27--numerical-integration--simpsons-rule-application">Exercise 27 : Numerical Integration — Simpson&rsquo;s Rule Application<a hidden class="anchor" aria-hidden="true" href="#exercise-27--numerical-integration--simpsons-rule-application">#</a></h2>
+<p>Use Simpson&rsquo;s rule with $n=4$ to approximate $\int_0^2 \frac{1}{1+x^2},dx$. Compare the result with the exact value.</p>
+<h2 id="exercise-28--centroid-of-a-composite-plate">Exercise 28 : Centroid of a Composite Plate<a hidden class="anchor" aria-hidden="true" href="#exercise-28--centroid-of-a-composite-plate">#</a></h2>
+<p>Find the centroid of the plane region bounded by $y=x^2$ and $y=4$ (between their intersections). Treat as a composite area and compute coordinates of the centroid.</p>
+<h2 id="exercise-29--improper-integrals--convergence-and-evaluation">Exercise 29 : Improper Integrals — Convergence and Evaluation<a hidden class="anchor" aria-hidden="true" href="#exercise-29--improper-integrals--convergence-and-evaluation">#</a></h2>
+<p>Investigate the convergence of $\int_1^{\infty} \frac{1}{x^p},dx$ and evaluate it for $p&gt;1$. Also determine whether $\int_0^1 \frac{1}{x^p},dx$ converges and for which $p$.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/calculus/">Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+      <li><a href="http://localhost:1313/tags/integration/">Integration</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/calculus/en/differential-calculus/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Differential Calculus</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Theory of Errors</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

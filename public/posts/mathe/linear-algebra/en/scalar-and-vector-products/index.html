@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Scalar and Vector Products | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Linear Algebra, Scalar Products, Vector Products">
+<meta name="description" content="Scalar and Vector Products
+Exercise 1 : Scalar Products
+Calculate the scalar products of the vectors $\mathbf{a}$ and $\mathbf{b}$ given below:
+
+$a = 3$, $b = 2$, $\alpha = \pi/3$
+$a = 2$, $b = 5$, $\alpha = 0$
+$a = 1$, $b = 4$, $\alpha = \pi/4$
+$a = 2.5$, $b = 3$, $\alpha = 120^\circ$
+
+Exercise 2 : Angle from Scalar Product
+Considering the scalar products, what can you say about the angle between the vectors $\mathbf{a}$ and $\mathbf{b}$?">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Scalar and Vector Products">
+  <meta property="og:description" content="Scalar and Vector Products Exercise 1 : Scalar Products Calculate the scalar products of the vectors $\mathbf{a}$ and $\mathbf{b}$ given below:
+$a = 3$, $b = 2$, $\alpha = \pi/3$ $a = 2$, $b = 5$, $\alpha = 0$ $a = 1$, $b = 4$, $\alpha = \pi/4$ $a = 2.5$, $b = 3$, $\alpha = 120^\circ$ Exercise 2 : Angle from Scalar Product Considering the scalar products, what can you say about the angle between the vectors $\mathbf{a}$ and $\mathbf{b}$?">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T11:11:27+01:00">
+    <meta property="article:modified_time" content="2026-01-08T11:11:27+01:00">
+    <meta property="article:tag" content="Linear Algebra">
+    <meta property="article:tag" content="Scalar Products">
+    <meta property="article:tag" content="Vector Products">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Scalar and Vector Products">
+<meta name="twitter:description" content="Scalar and Vector Products
+Exercise 1 : Scalar Products
+Calculate the scalar products of the vectors $\mathbf{a}$ and $\mathbf{b}$ given below:
+
+$a = 3$, $b = 2$, $\alpha = \pi/3$
+$a = 2$, $b = 5$, $\alpha = 0$
+$a = 1$, $b = 4$, $\alpha = \pi/4$
+$a = 2.5$, $b = 3$, $\alpha = 120^\circ$
+
+Exercise 2 : Angle from Scalar Product
+Considering the scalar products, what can you say about the angle between the vectors $\mathbf{a}$ and $\mathbf{b}$?">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Scalar and Vector Products",
+      "item": "http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Scalar and Vector Products",
+  "name": "Scalar and Vector Products",
+  "description": "Scalar and Vector Products Exercise 1 : Scalar Products Calculate the scalar products of the vectors $\\mathbf{a}$ and $\\mathbf{b}$ given below:\n$a = 3$, $b = 2$, $\\alpha = \\pi/3$ $a = 2$, $b = 5$, $\\alpha = 0$ $a = 1$, $b = 4$, $\\alpha = \\pi/4$ $a = 2.5$, $b = 3$, $\\alpha = 120^\\circ$ Exercise 2 : Angle from Scalar Product Considering the scalar products, what can you say about the angle between the vectors $\\mathbf{a}$ and $\\mathbf{b}$?\n",
+  "keywords": [
+    "Linear Algebra", "Scalar Products", "Vector Products"
+  ],
+  "articleBody": "Scalar and Vector Products Exercise 1 : Scalar Products Calculate the scalar products of the vectors $\\mathbf{a}$ and $\\mathbf{b}$ given below:\n$a = 3$, $b = 2$, $\\alpha = \\pi/3$ $a = 2$, $b = 5$, $\\alpha = 0$ $a = 1$, $b = 4$, $\\alpha = \\pi/4$ $a = 2.5$, $b = 3$, $\\alpha = 120^\\circ$ Exercise 2 : Angle from Scalar Product Considering the scalar products, what can you say about the angle between the vectors $\\mathbf{a}$ and $\\mathbf{b}$?\n$\\mathbf{a} \\cdot \\mathbf{b} = 0$ $\\mathbf{a} \\cdot \\mathbf{b} = ab$ $\\mathbf{a} \\cdot \\mathbf{b} = \\dfrac{ab}{2}$ $\\mathbf{a} \\cdot \\mathbf{b} \u003c 0$ Exercise 3 : Component-wise Scalar Products Calculate the scalar product of the following vectors:\n$\\mathbf{a} = (3, -1, 4)$, $\\mathbf{b} = (-1, 2, 5)$ $\\mathbf{a} = (3/2, 1/4, -1/3)$, $\\mathbf{b} = (1/6, -2, 3)$ $\\mathbf{a} = (-1/4, 2, -1)$, $\\mathbf{b} = (1, 1/2, 5/3)$ $\\mathbf{a} = (1, -6, 1)$, $\\mathbf{b} = (-1, -1, -1)$ Exercise 4 : Perpendicular Vectors (Orthogonality) Which of the following vectors $\\mathbf{a}$ and $\\mathbf{b}$ are perpendicular?\n$\\mathbf{a} = (0, -1, 1)$, $\\mathbf{b} = (1, 0, 0)$ $\\mathbf{a} = (2, -3, 1)$, $\\mathbf{b} = (-1, 4, 2)$ $\\mathbf{a} = (-1, 2, -5)$, $\\mathbf{b} = (-8, 1, 2)$ $\\mathbf{a} = (4, -3, 1)$, $\\mathbf{b} = (-1, -2, -2)$ $\\mathbf{a} = (2, 1, -2)$, $\\mathbf{b} = (-1, 3, -2)$ $\\mathbf{a} = (4, 2, 2)$, $\\mathbf{b} = (1, -4, 2)$ Exercise 5 : Angle Between Vectors Calculate the angle between the two vectors $\\mathbf{a}$ and $\\mathbf{b}$:\n$\\mathbf{a} = (1, -1, 1)$, $\\mathbf{b} = (-1, 1, -1)$ $\\mathbf{a} = (-2, 2, -1)$, $\\mathbf{b} = (0, 3, 0)$ Exercise 6 : Work Done by a Force A force $\\mathbf{F} = (0,\\text{N}, 5,\\text{N})$ is applied to a body and moves it through a distance $\\mathbf{s}$. Calculate the work done by the force.\n$\\mathbf{s}_1 = (3,\\text{m}, 3,\\text{m})$ $\\mathbf{s}_2 = (2,\\text{m}, 1,\\text{m})$ $\\mathbf{s}_3 = (2,\\text{m}, 0,\\text{m})$ Exercise 7 : Direction of the Cross Product Indicate in figures 2.22 and 2.23 the direction of the vector $\\mathbf{c}$ if $\\mathbf{c} = \\mathbf{a} \\times \\mathbf{b}$:\nwhen $\\mathbf{a}$ and $\\mathbf{b}$ lie in the $x$-$y$ plane when $\\mathbf{a}$ and $\\mathbf{b}$ lie in the $y$-$z$ plane Exercise 8 : Magnitude of the Vector Product Calculate the magnitude of the vector product of the following vectors:\n$a = 2$, $b = 3$, $\\alpha = 60^\\circ$ $a = 1/2$, $b = 4$, $\\alpha = 0^\\circ$ $a = 8$, $b = 3/4$, $\\alpha = 90^\\circ$ Exercise 9 : Scalar Triple Product and Volume Use the scalar triple product to compute the signed volume of the parallelepiped defined by the three vectors.\n$\\mathbf{a}=(1,0,1)$, $\\mathbf{b}=(0,2,1)$, $\\mathbf{c}=(1,1,0)$ $\\mathbf{a}=(2,-1,0)$, $\\mathbf{b}=(1,1,1)$, $\\mathbf{c}=(0,1,2)$ $\\mathbf{a}=(1,2,3)$, $\\mathbf{b}=(-1,0,1)$, $\\mathbf{c}=(2,1,-1)$ Exercise 10 : Projection and Components Compute the projection of $\\mathbf{a}$ onto $\\mathbf{b}$ and the perpendicular component $\\mathbf{a}\\perp = \\mathbf{a}-\\text{proj}{\\mathbf{b}}(\\mathbf{a})$.\n$\\mathbf{a}=(3,4,0)$, $\\mathbf{b}=(1,0,0)$ $\\mathbf{a}=(1,2,2)$, $\\mathbf{b}=(2,1,0)$ $\\mathbf{a}=(-1,1,3)$, $\\mathbf{b}=(1,1,1)$ Exercise 11 : Torque (Cross Product Application) Calculate the torque $\\boldsymbol{\\tau}=\\mathbf{r}\\times\\mathbf{F}$ and its magnitude for the given position and force vectors.\n$\\mathbf{r}=(0.5,0,0)$ m, $\\mathbf{F}=(0,10,0)$ N $\\mathbf{r}=(1,1,0)$ m, $\\mathbf{F}=(0,5,5)$ N $\\mathbf{r}=(0,2,-1)$ m, $\\mathbf{F}=(3,0,4)$ N Exercise 12 : Area of a Parallelogram from Cross Product Use $|\\mathbf{a}\\times\\mathbf{b}|$ to compute the area of the parallelogram spanned by $\\mathbf{a}$ and $\\mathbf{b}$.\n$\\mathbf{a}=(2,0,0)$, $\\mathbf{b}=(0,3,0)$ $\\mathbf{a}=(1,2,2)$, $\\mathbf{b}=(2,-1,1)$ $\\mathbf{a}=(1,1,0)$, $\\mathbf{b}=(1,0,1)$ Exercise 13 : Gram–Schmidt Orthonormalization Apply Gram–Schmidt to orthonormalize the given set of vectors.\n${(1,1,0),(1,0,1)}$ ${(1,2,2),(2,1,1)}$ Exercise 14 : True/False and Properties Decide whether the statements are true or false; justify briefly.\n$(\\mathbf{a}\\times\\mathbf{b})\\cdot\\mathbf{c}=(\\mathbf{b}\\times\\mathbf{c})\\cdot\\mathbf{a}$ (cyclic permutation). $\\mathbf{a}\\times\\mathbf{b}=\\mathbf{b}\\times\\mathbf{a}$. $(k\\mathbf{a})\\times\\mathbf{b}=k(\\mathbf{a}\\times\\mathbf{b})$ for scalar $k$. $\\mathbf{a}\\cdot(\\mathbf{b}+\\mathbf{c})=\\mathbf{a}\\cdot\\mathbf{b}+\\mathbf{a}\\cdot\\mathbf{c}$. ",
+  "wordCount" : "567",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T11:11:27+01:00",
+  "dateModified": "2026-01-08T11:11:27+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Scalar and Vector Products
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 11:11:27 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>567 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--scalar-products">Exercise 1 : Scalar Products</a></li>
+    <li><a href="#exercise-2--angle-from-scalar-product">Exercise 2 : Angle from Scalar Product</a></li>
+    <li><a href="#exercise-3--component-wise-scalar-products">Exercise 3 : Component-wise Scalar Products</a></li>
+    <li><a href="#exercise-4--perpendicular-vectors-orthogonality">Exercise 4 : Perpendicular Vectors (Orthogonality)</a></li>
+    <li><a href="#exercise-5--angle-between-vectors">Exercise 5 : Angle Between Vectors</a></li>
+    <li><a href="#exercise-6--work-done-by-a-force">Exercise 6 : Work Done by a Force</a></li>
+    <li><a href="#exercise-7--direction-of-the-cross-product">Exercise 7 : Direction of the Cross Product</a></li>
+    <li><a href="#exercise-8--magnitude-of-the-vector-product">Exercise 8 : Magnitude of the Vector Product</a></li>
+    <li><a href="#exercise-9--scalar-triple-product-and-volume">Exercise 9 : Scalar Triple Product and Volume</a></li>
+    <li><a href="#exercise-10--projection-and-components">Exercise 10 : Projection and Components</a></li>
+    <li><a href="#exercise-11--torque-cross-product-application">Exercise 11 : Torque (Cross Product Application)</a></li>
+    <li><a href="#exercise-12--area-of-a-parallelogram-from-cross-product">Exercise 12 : Area of a Parallelogram from Cross Product</a></li>
+    <li><a href="#exercise-13--gramschmidt-orthonormalization">Exercise 13 : Gram–Schmidt Orthonormalization</a></li>
+    <li><a href="#exercise-14--truefalse-and-properties">Exercise 14 : True/False and Properties</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="scalar-and-vector-products">Scalar and Vector Products<a hidden class="anchor" aria-hidden="true" href="#scalar-and-vector-products">#</a></h1>
+<h2 id="exercise-1--scalar-products">Exercise 1 : Scalar Products<a hidden class="anchor" aria-hidden="true" href="#exercise-1--scalar-products">#</a></h2>
+<p>Calculate the scalar products of the vectors $\mathbf{a}$ and $\mathbf{b}$ given below:</p>
+<ol>
+<li>$a = 3$, $b = 2$, $\alpha = \pi/3$</li>
+<li>$a = 2$, $b = 5$, $\alpha = 0$</li>
+<li>$a = 1$, $b = 4$, $\alpha = \pi/4$</li>
+<li>$a = 2.5$, $b = 3$, $\alpha = 120^\circ$</li>
+</ol>
+<h2 id="exercise-2--angle-from-scalar-product">Exercise 2 : Angle from Scalar Product<a hidden class="anchor" aria-hidden="true" href="#exercise-2--angle-from-scalar-product">#</a></h2>
+<p>Considering the scalar products, what can you say about the angle between the vectors $\mathbf{a}$ and $\mathbf{b}$?</p>
+<ol>
+<li>$\mathbf{a} \cdot \mathbf{b} = 0$</li>
+<li>$\mathbf{a} \cdot \mathbf{b} = ab$</li>
+<li>$\mathbf{a} \cdot \mathbf{b} = \dfrac{ab}{2}$</li>
+<li>$\mathbf{a} \cdot \mathbf{b} &lt; 0$</li>
+</ol>
+<h2 id="exercise-3--component-wise-scalar-products">Exercise 3 : Component-wise Scalar Products<a hidden class="anchor" aria-hidden="true" href="#exercise-3--component-wise-scalar-products">#</a></h2>
+<p>Calculate the scalar product of the following vectors:</p>
+<ol>
+<li>$\mathbf{a} = (3, -1, 4)$, $\mathbf{b} = (-1, 2, 5)$</li>
+<li>$\mathbf{a} = (3/2, 1/4, -1/3)$, $\mathbf{b} = (1/6, -2, 3)$</li>
+<li>$\mathbf{a} = (-1/4, 2, -1)$, $\mathbf{b} = (1, 1/2, 5/3)$</li>
+<li>$\mathbf{a} = (1, -6, 1)$, $\mathbf{b} = (-1, -1, -1)$</li>
+</ol>
+<h2 id="exercise-4--perpendicular-vectors-orthogonality">Exercise 4 : Perpendicular Vectors (Orthogonality)<a hidden class="anchor" aria-hidden="true" href="#exercise-4--perpendicular-vectors-orthogonality">#</a></h2>
+<p>Which of the following vectors $\mathbf{a}$ and $\mathbf{b}$ are perpendicular?</p>
+<ol>
+<li>$\mathbf{a} = (0, -1, 1)$, $\mathbf{b} = (1, 0, 0)$</li>
+<li>$\mathbf{a} = (2, -3, 1)$, $\mathbf{b} = (-1, 4, 2)$</li>
+<li>$\mathbf{a} = (-1, 2, -5)$, $\mathbf{b} = (-8, 1, 2)$</li>
+<li>$\mathbf{a} = (4, -3, 1)$, $\mathbf{b} = (-1, -2, -2)$</li>
+<li>$\mathbf{a} = (2, 1, -2)$, $\mathbf{b} = (-1, 3, -2)$</li>
+<li>$\mathbf{a} = (4, 2, 2)$, $\mathbf{b} = (1, -4, 2)$</li>
+</ol>
+<h2 id="exercise-5--angle-between-vectors">Exercise 5 : Angle Between Vectors<a hidden class="anchor" aria-hidden="true" href="#exercise-5--angle-between-vectors">#</a></h2>
+<p>Calculate the angle between the two vectors $\mathbf{a}$ and $\mathbf{b}$:</p>
+<ol>
+<li>$\mathbf{a} = (1, -1, 1)$, $\mathbf{b} = (-1, 1, -1)$</li>
+<li>$\mathbf{a} = (-2, 2, -1)$, $\mathbf{b} = (0, 3, 0)$</li>
+</ol>
+<h2 id="exercise-6--work-done-by-a-force">Exercise 6 : Work Done by a Force<a hidden class="anchor" aria-hidden="true" href="#exercise-6--work-done-by-a-force">#</a></h2>
+<p>A force $\mathbf{F} = (0,\text{N}, 5,\text{N})$ is applied to a body and moves it through a distance $\mathbf{s}$. Calculate the work done by the force.</p>
+<ol>
+<li>$\mathbf{s}_1 = (3,\text{m}, 3,\text{m})$</li>
+<li>$\mathbf{s}_2 = (2,\text{m}, 1,\text{m})$</li>
+<li>$\mathbf{s}_3 = (2,\text{m}, 0,\text{m})$</li>
+</ol>
+<h2 id="exercise-7--direction-of-the-cross-product">Exercise 7 : Direction of the Cross Product<a hidden class="anchor" aria-hidden="true" href="#exercise-7--direction-of-the-cross-product">#</a></h2>
+<p>Indicate in figures 2.22 and 2.23 the direction of the vector $\mathbf{c}$ if $\mathbf{c} = \mathbf{a} \times \mathbf{b}$:</p>
+<ol>
+<li>when $\mathbf{a}$ and $\mathbf{b}$ lie in the $x$-$y$ plane</li>
+<li>when $\mathbf{a}$ and $\mathbf{b}$ lie in
+the $y$-$z$ plane</li>
+</ol>
+<h2 id="exercise-8--magnitude-of-the-vector-product">Exercise 8 : Magnitude of the Vector Product<a hidden class="anchor" aria-hidden="true" href="#exercise-8--magnitude-of-the-vector-product">#</a></h2>
+<p>Calculate the magnitude of the vector product of the following vectors:</p>
+<ol>
+<li>$a = 2$, $b = 3$, $\alpha = 60^\circ$</li>
+<li>$a = 1/2$, $b = 4$, $\alpha = 0^\circ$</li>
+<li>$a = 8$, $b = 3/4$, $\alpha = 90^\circ$</li>
+</ol>
+<h2 id="exercise-9--scalar-triple-product-and-volume">Exercise 9 : Scalar Triple Product and Volume<a hidden class="anchor" aria-hidden="true" href="#exercise-9--scalar-triple-product-and-volume">#</a></h2>
+<p>Use the scalar triple product to compute the signed volume of the parallelepiped defined by the three vectors.</p>
+<ol>
+<li>$\mathbf{a}=(1,0,1)$, $\mathbf{b}=(0,2,1)$, $\mathbf{c}=(1,1,0)$</li>
+<li>$\mathbf{a}=(2,-1,0)$, $\mathbf{b}=(1,1,1)$, $\mathbf{c}=(0,1,2)$</li>
+<li>$\mathbf{a}=(1,2,3)$, $\mathbf{b}=(-1,0,1)$, $\mathbf{c}=(2,1,-1)$</li>
+</ol>
+<h2 id="exercise-10--projection-and-components">Exercise 10 : Projection and Components<a hidden class="anchor" aria-hidden="true" href="#exercise-10--projection-and-components">#</a></h2>
+<p>Compute the projection of $\mathbf{a}$ onto $\mathbf{b}$ and the perpendicular component $\mathbf{a}<em>\perp = \mathbf{a}-\text{proj}</em>{\mathbf{b}}(\mathbf{a})$.</p>
+<ol>
+<li>$\mathbf{a}=(3,4,0)$, $\mathbf{b}=(1,0,0)$</li>
+<li>$\mathbf{a}=(1,2,2)$, $\mathbf{b}=(2,1,0)$</li>
+<li>$\mathbf{a}=(-1,1,3)$, $\mathbf{b}=(1,1,1)$</li>
+</ol>
+<h2 id="exercise-11--torque-cross-product-application">Exercise 11 : Torque (Cross Product Application)<a hidden class="anchor" aria-hidden="true" href="#exercise-11--torque-cross-product-application">#</a></h2>
+<p>Calculate the torque $\boldsymbol{\tau}=\mathbf{r}\times\mathbf{F}$ and its magnitude for the given position and force vectors.</p>
+<ol>
+<li>$\mathbf{r}=(0.5,0,0)$ m, $\mathbf{F}=(0,10,0)$ N</li>
+<li>$\mathbf{r}=(1,1,0)$ m, $\mathbf{F}=(0,5,5)$ N</li>
+<li>$\mathbf{r}=(0,2,-1)$ m, $\mathbf{F}=(3,0,4)$ N</li>
+</ol>
+<h2 id="exercise-12--area-of-a-parallelogram-from-cross-product">Exercise 12 : Area of a Parallelogram from Cross Product<a hidden class="anchor" aria-hidden="true" href="#exercise-12--area-of-a-parallelogram-from-cross-product">#</a></h2>
+<p>Use $|\mathbf{a}\times\mathbf{b}|$ to compute the area of the parallelogram spanned by $\mathbf{a}$ and $\mathbf{b}$.</p>
+<ol>
+<li>$\mathbf{a}=(2,0,0)$, $\mathbf{b}=(0,3,0)$</li>
+<li>$\mathbf{a}=(1,2,2)$, $\mathbf{b}=(2,-1,1)$</li>
+<li>$\mathbf{a}=(1,1,0)$, $\mathbf{b}=(1,0,1)$</li>
+</ol>
+<h2 id="exercise-13--gramschmidt-orthonormalization">Exercise 13 : Gram–Schmidt Orthonormalization<a hidden class="anchor" aria-hidden="true" href="#exercise-13--gramschmidt-orthonormalization">#</a></h2>
+<p>Apply Gram–Schmidt to orthonormalize the given set of vectors.</p>
+<ol>
+<li>${(1,1,0),(1,0,1)}$</li>
+<li>${(1,2,2),(2,1,1)}$</li>
+</ol>
+<h2 id="exercise-14--truefalse-and-properties">Exercise 14 : True/False and Properties<a hidden class="anchor" aria-hidden="true" href="#exercise-14--truefalse-and-properties">#</a></h2>
+<p>Decide whether the statements are true or false; justify briefly.</p>
+<ol>
+<li>$(\mathbf{a}\times\mathbf{b})\cdot\mathbf{c}=(\mathbf{b}\times\mathbf{c})\cdot\mathbf{a}$ (cyclic permutation).</li>
+<li>$\mathbf{a}\times\mathbf{b}=\mathbf{b}\times\mathbf{a}$.</li>
+<li>$(k\mathbf{a})\times\mathbf{b}=k(\mathbf{a}\times\mathbf{b})$ for scalar $k$.</li>
+<li>$\mathbf{a}\cdot(\mathbf{b}+\mathbf{c})=\mathbf{a}\cdot\mathbf{b}+\mathbf{a}\cdot\mathbf{c}$.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/linear-algebra/">Linear Algebra</a></li>
+      <li><a href="http://localhost:1313/tags/scalar-products/">Scalar Products</a></li>
+      <li><a href="http://localhost:1313/tags/vector-products/">Vector Products</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Sets of Linear Equations; Determinants</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Multiple Integrals; Coordinate Systems</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

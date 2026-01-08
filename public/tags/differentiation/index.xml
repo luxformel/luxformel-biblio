@@ -11,8 +11,28 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 07 Sep 2025 06:50:32 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 09:57:06 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/differentiation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Differential Calculus</title>
+      <link>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</link>
+      <pubDate>Thu, 08 Jan 2026 09:57:06 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</guid>
+      <description>&lt;h1 id=&#34;differential-calculus&#34;&gt;Differential Calculus&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--sequences-and-limits-of-sequences&#34;&gt;Exercise 1 : Sequences and Limits of Sequences&lt;/h2&gt;
+&lt;p&gt;Calculate the limiting value of the following sequences for $n \to \infty$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$a_n = \frac{\sqrt{n}}{n}$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{5 + n}{2n}$&lt;/li&gt;
+&lt;li&gt;$a_n = \left(-\frac{1}{4}\right)^n - 1$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{2}{n} + 1$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{n^3 + 1}{2n^3 + n^2 + n}$&lt;/li&gt;
+&lt;li&gt;$a_n = 2 + 2^{-n}$&lt;/li&gt;
+&lt;li&gt;$a_n = \frac{n^2 - 1}{(n + 1)^2} + 5$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--limits-of-functions&#34;&gt;Exercise 2 : Limits of Functions&lt;/h2&gt;
+&lt;p&gt;Calculate the following limits:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Differentiation</title>
       <link>http://localhost:1313/posts/mathe/calculus/en/differentiation/</link>

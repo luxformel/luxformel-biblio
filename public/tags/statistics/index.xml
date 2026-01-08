@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Statistics on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/statistics/</link>
+    <description>Recent content in Statistics on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Thu, 08 Jan 2026 09:35:29 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theory of Errors</title>
+      <link>http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/</link>
+      <pubDate>Thu, 08 Jan 2026 09:35:29 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/statistics/en/theory-of-errors/</guid>
+      <description>&lt;h1 id=&#34;theory-of-errors&#34;&gt;Theory of Errors&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--types-of-errors&#34;&gt;Exercise 1 : Types of Errors&lt;/h2&gt;
+&lt;p&gt;In the following examples, state whether the error is systematic (constant $S$) or random $R$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A 100-metre race is held in a school during a sports day. The judges start their stopwatches when the sound of the starting pistol reaches them. What type of error arises in this case?&lt;/li&gt;
+&lt;li&gt;The timing of the start and end of the 100-metre race is subject to individual fluctuations, e.g. reaction time. What kind of error is it?&lt;/li&gt;
+&lt;li&gt;The zero point of a voltmeter has been wrongly set. The measurements are therefore subject to an error. What kind of error is it?&lt;/li&gt;
+&lt;li&gt;The resistance of a copper coil is obtained by measuring the current flowing through when a voltage is applied to it. As the coil warms up the resistance increases. What kind of error will ensue?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--sample-statistics&#34;&gt;Exercise 2 : Sample Statistics&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Nine different rock samples are taken from a crater on the moon whose densities are determined with the following results: $3.6, 3.3, 3.2, 3.0, 3.2, 3.1, 3.0, 3.1, 3.3 \frac{g}{cm^3}$. Calculate the mean value and standard deviation of the parent population.&lt;/li&gt;
+&lt;li&gt;The velocity of a body travelling along a straight line is measured 10 times. The results are $1.30, 1.27, 1.25, 1.26, 1.29, 1.31, 1.23, 1.33, 1.24 \frac{m}{s}$. Calculate the mean value and the standard deviation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--uniform-distribution-moments&#34;&gt;Exercise 3 : Uniform Distribution Moments&lt;/h2&gt;
+&lt;p&gt;A continuous random variable has the following density function:
+&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

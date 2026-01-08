@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Integral Calculus | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Calculus, Integrals, Applied Mathematics">
+<meta name="description" content="Integral Calculus
+Exercise 1 : Primitives
+Find the primitives of the following functions and the value of the constant:
+
+$f(x) = 3x$ given $F(1) = 2$
+$f(x) = 2x &#43; 3$ given $F(1) = 0$
+
+Exercise 2 : Definite Integrals (Cosine)
+Evaluate the following definite integrals:
+
+$\int_{0}^{\pi/2} 3 \cos x , dx$
+$\int_{-\pi/2}^{\pi/2} 3 \cos x , dx$
+$\int_{0}^{\pi} 3 \cos x , dx$
+
+Exercise 3 : Absolute Areas
+Obtain the absolute values of the areas corresponding to the following integrals:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/calculus/en/integral-calculus/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/calculus/en/integral-calculus/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Integral Calculus">
+  <meta property="og:description" content="Integral Calculus Exercise 1 : Primitives Find the primitives of the following functions and the value of the constant:
+$f(x) = 3x$ given $F(1) = 2$ $f(x) = 2x &#43; 3$ given $F(1) = 0$ Exercise 2 : Definite Integrals (Cosine) Evaluate the following definite integrals:
+$\int_{0}^{\pi/2} 3 \cos x , dx$ $\int_{-\pi/2}^{\pi/2} 3 \cos x , dx$ $\int_{0}^{\pi} 3 \cos x , dx$ Exercise 3 : Absolute Areas Obtain the absolute values of the areas corresponding to the following integrals:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-08T07:50:31+01:00">
+    <meta property="article:modified_time" content="2026-01-08T07:50:31+01:00">
+    <meta property="article:tag" content="Calculus">
+    <meta property="article:tag" content="Integrals">
+    <meta property="article:tag" content="Applied Mathematics">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Integral Calculus">
+<meta name="twitter:description" content="Integral Calculus
+Exercise 1 : Primitives
+Find the primitives of the following functions and the value of the constant:
+
+$f(x) = 3x$ given $F(1) = 2$
+$f(x) = 2x &#43; 3$ given $F(1) = 0$
+
+Exercise 2 : Definite Integrals (Cosine)
+Evaluate the following definite integrals:
+
+$\int_{0}^{\pi/2} 3 \cos x , dx$
+$\int_{-\pi/2}^{\pi/2} 3 \cos x , dx$
+$\int_{0}^{\pi} 3 \cos x , dx$
+
+Exercise 3 : Absolute Areas
+Obtain the absolute values of the areas corresponding to the following integrals:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Integral Calculus",
+      "item": "http://localhost:1313/posts/mathe/calculus/en/integral-calculus/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Integral Calculus",
+  "name": "Integral Calculus",
+  "description": "Integral Calculus Exercise 1 : Primitives Find the primitives of the following functions and the value of the constant:\n$f(x) = 3x$ given $F(1) = 2$ $f(x) = 2x + 3$ given $F(1) = 0$ Exercise 2 : Definite Integrals (Cosine) Evaluate the following definite integrals:\n$\\int_{0}^{\\pi/2} 3 \\cos x , dx$ $\\int_{-\\pi/2}^{\\pi/2} 3 \\cos x , dx$ $\\int_{0}^{\\pi} 3 \\cos x , dx$ Exercise 3 : Absolute Areas Obtain the absolute values of the areas corresponding to the following integrals:\n",
+  "keywords": [
+    "Calculus", "Integrals", "Applied Mathematics"
+  ],
+  "articleBody": "Integral Calculus Exercise 1 : Primitives Find the primitives of the following functions and the value of the constant:\n$f(x) = 3x$ given $F(1) = 2$ $f(x) = 2x + 3$ given $F(1) = 0$ Exercise 2 : Definite Integrals (Cosine) Evaluate the following definite integrals:\n$\\int_{0}^{\\pi/2} 3 \\cos x , dx$ $\\int_{-\\pi/2}^{\\pi/2} 3 \\cos x , dx$ $\\int_{0}^{\\pi} 3 \\cos x , dx$ Exercise 3 : Absolute Areas Obtain the absolute values of the areas corresponding to the following integrals:\n$\\int_{-2}^{0} (x - 2) , dx$ $\\int_{0}^{2} (x - 2) , dx$ $\\int_{0}^{4} (x - 2) , dx$ Exercise 4 : Integrate and Verify Integrate and verify the result by differentiating:\n$\\int \\frac{2 , dx}{(x + 1)^2} = \\frac{x - 1}{x + 1} + C$ $2 \\int \\sin^2 (4x - 1) , dx = x - \\frac{1}{8} \\sin(8x - 2) + C$ $\\int \\frac{1 - x^2}{(1 + x^2)^2} , dx = \\frac{x}{1 + x^2} + C$ Exercise 5 : Standard Integrals (Table) Evaluate the following integrals by using the table of standard integrals:\n$\\int \\frac{dx}{x - a}$ $\\int \\frac{1}{\\cos^2 x} , dx$ $\\int \\frac{a}{\\sqrt{x^2 + a^2}} , dx$ $\\int \\sin^2 \\alpha , d\\alpha$ $\\int a^t , dt$ $\\int \\sqrt[3]{x^7} , dx$ $\\int 5(x^2 + x^3) , dx$ $\\int \\left(\\frac{3}{2}t^3 + 4t\\right) , dt$ Exercise 6 : Integration by Parts and Reduction Integrate by parts the following integrals:\n$\\int x \\ln x , dx$ $\\int x^2 \\cos x , dx$ $\\int x^2 \\ln x , dx$ $\\int x^2 \\cosh \\frac{x}{a} , dx$ Find the reduction formula for $\\int \\cos^n x , dx$ ($n \\neq 0$) Find the general formula for $\\int x^n \\ln x , dx$ Exercise 7 : Substitution Techniques Use a suitable substitution to evaluate the following integrals:\n$\\int \\sin(\\pi x) , dx$ $\\int 3e^{3x-6} , dx$ $\\int \\frac{dx}{2x + a}$ $\\int (ax + b)^5 , dx$ Exercise 8 : Trig and Rational Integrals Evaluate the following integrals:\n$\\int \\cot 2x , dx$ $\\int \\frac{2x}{a + x^2} , dx$ $\\int \\frac{x^{39}}{x^{40} + 21} , dx$ $\\int \\frac{\\sinh u}{\\cosh^2 u} , du$ Exercise 9 : Composite Integrals Evaluate the following integrals:\n$\\int (\\sin^4 x + 8 \\sin^3 x + \\sin x) \\cos x , dx$ $\\int x^4 \\sqrt{3x^5 - 1} , dx$ $\\int \\frac{-x}{\\sqrt{a - x^2}} , dx$ $\\int x \\cos x^2 , dx$ Exercise 10 : Mixed Problems Mixed questions:\n$\\int \\frac{e^x}{e^x + 1} , dx$ $\\int \\cos \\left(x - \\frac{\\pi}{2}\\right) , dx$ $\\int \\cos^3 x , dx$ $\\int \\frac{1}{x \\ln x} , dx$ $\\int \\frac{3x^2 - 1}{x^3 - x} , dx$ $\\int \\frac{1}{(1 + x^2) \\tan^{-1} x} , dx$ Exercise 11 : Partial Fractions Using partial fractions, integrate the following functions:\n$\\int \\frac{1}{2 - x - x^2} , dx$ $\\int \\frac{2x + 3}{x(x - 1)(x + 2)} , dx$ $\\int \\frac{x^2}{(x - 1)(x - 2)(x - 3)} , dx$ $\\int \\frac{x}{x^4 - x^2 - 2} , dx$ $\\int \\frac{1}{x^3 + 3x^2 - 4} , dx$ $\\int \\frac{x^2 - 1}{x^4 + x^2 + 1} , dx$ $\\int \\frac{x}{(x - 1)(x^2 + 2x + 5)} , dx$ Exercise 12 : Definite Integrals — Practice Evaluate the following definite integrals:\n$\\int_{-2}^{2} (x^5 - 8x^3 + x + 7) , dx$ $\\int_{0}^{1} \\frac{1}{1 + x} , dx$ $\\int_{0}^{2} \\sin t , dt$ $3 \\int_{100}^{125} dt$ Exercise 13 : Areas Between Curves Find the value of the absolute area between the following boundary lines:\n$y = x^3$; $x$-axis; $a = \\frac{1}{2}$; $b = 2$ $y = \\cos x$; $x$-axis; $a = -\\frac{3\\pi}{2}$; $b = \\frac{5\\pi}{6}$ What is the value of the area between the curves $y = 4x^3$ and $y = 6x^2 - 2$? (Hint: Sketch the graphs of both functions first. Note that for $x = 1$ both curves have a point in common, but do not intersect.) Exercise 14 : Improper Integrals Integrate the following:\n$\\int_{4}^{\\infty} \\frac{d\\rho}{\\rho^2}$ $\\int_{10}^{\\infty} \\frac{dx}{x}$ $\\int_{r_0}^{\\infty} \\frac{dr}{r^2}$ $\\int_{1}^{\\infty} \\frac{d\\lambda}{\\lambda}$ $\\int_{1}^{\\infty} \\frac{dr}{r^3}$ $\\int_{1}^{\\infty} \\left(1 + \\frac{1}{x^2}\\right) dx$ $\\int_{-\\infty}^{-1} \\frac{dx}{x^2}$ $\\int_{1}^{\\infty} \\frac{1}{\\sqrt{x}} , dx$ Exercise 15 : Work — Constant Force A force in a conservative field is given by $\\mathbf{F} = (2, 6, 1) , \\text{N}$. A body is moved along the line given by $\\mathbf{r}(t) = \\mathbf{r}_0 + t\\mathbf{i}$ from point $\\mathbf{r}(0) = \\mathbf{r}_0$ to point $\\mathbf{r}(2) = \\mathbf{r}_0 + 2\\mathbf{i}$. Calculate the work done.\nExercise 16 : Work — Variable Force A force in a conservative field is given by $\\mathbf{F} = (x, y, z) , \\text{N}$. A body moves from the origin of the coordinate system to the point $P = (5, 0, 0)$. Calculate the work done.\nExercise 17 : Trigonometric Substitution Use trigonometric substitutions to evaluate the following integrals:\n$\\displaystyle \\int \\frac{dx}{\\sqrt{a^2 - x^2}}$ $\\displaystyle \\int \\frac{x^2}{\\sqrt{x^2 + a^2}},dx$ $\\displaystyle \\int \\frac{dx}{x^2\\sqrt{x^2 - a^2}}$ Exercise 18 : Numerical Integration (Trapezoid and Simpson) Approximate the following integrals numerically and compare methods:\nApproximate $\\displaystyle \\int_{0}^{1} e^{-x^2} ;dx$ using the trapezoidal rule with $n=4$. Approximate the same integral using Simpson’s rule with $n=4$. Give a brief error estimate for both methods (order of magnitude suffices). Exercise 19 : Arc Length and Surface Area Compute arc lengths and surface areas:\nFind the arc length of $y=\\ln(\\cos x)$ for $x\\in[0,\\pi/4]$. Find the surface area generated by rotating $y=\\sqrt{x}$ about the $x$-axis for $x\\in[0,1]$. Exercise 20 : Centers of Mass Find centroids and moments for planar regions and rods:\nFind the centroid (center of area) of the region bounded by $y=x^2$ and $y=2x$ for $x\\in[0,2]$. A thin rod occupies $[0,1]$ with linear density $\\rho(x)=x$. Find the mass and the center of mass. Exercise 21 : Polar Coordinates and Areas Evaluate areas and integrals in polar form:\nFind the area enclosed by the cardioid $r=1+\\cos\\theta$. Find the area enclosed by $r=a\\sin(2\\theta)$ for the appropriate interval of $\\theta$. Exercise 22 : Convergence of Improper Integrals Determine convergence or divergence (justify your test):\n$\\displaystyle \\int_{1}^{\\infty} \\frac{1}{x^{p}},dx$ (state for which $p$ it converges). $\\displaystyle \\int_{0}^{1} \\frac{1}{x^{p}},dx$ (state for which $p$ it converges). Exercise 23 : Beta and Gamma — Basics Short exercises on special integrals:\nShow that $\\Gamma\\left(\\frac{1}{2}\\right)=\\sqrt{\\pi}$ using the substitution $x=t^2$. Evaluate $B(3,2)$ and express it in terms of factorials. Exercise 24 : Applications to Probability Compute expectations and variances using integrals:\nFor an exponential distribution with parameter $\\lambda\u003e0$, compute $E[X]=\\int_{0}^{\\infty} \\lambda x e^{-\\lambda x} ,dx$. Compute $\\operatorname{Var}(X)$ for the same distribution. ",
+  "wordCount" : "1041",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-08T07:50:31+01:00",
+  "dateModified": "2026-01-08T07:50:31+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/calculus/en/integral-calculus/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Integral Calculus
+    </h1>
+    <div class="post-meta"><span title='2026-01-08 07:50:31 +0100 CET'>Januar 8, 2026</span>&nbsp;·&nbsp;<span>1041 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--primitives">Exercise 1 : Primitives</a></li>
+    <li><a href="#exercise-2--definite-integrals-cosine">Exercise 2 : Definite Integrals (Cosine)</a></li>
+    <li><a href="#exercise-3--absolute-areas">Exercise 3 : Absolute Areas</a></li>
+    <li><a href="#exercise-4--integrate-and-verify">Exercise 4 : Integrate and Verify</a></li>
+    <li><a href="#exercise-5--standard-integrals-table">Exercise 5 : Standard Integrals (Table)</a></li>
+    <li><a href="#exercise-6--integration-by-parts-and-reduction">Exercise 6 : Integration by Parts and Reduction</a></li>
+    <li><a href="#exercise-7--substitution-techniques">Exercise 7 : Substitution Techniques</a></li>
+    <li><a href="#exercise-8--trig-and-rational-integrals">Exercise 8 : Trig and Rational Integrals</a></li>
+    <li><a href="#exercise-9--composite-integrals">Exercise 9 : Composite Integrals</a></li>
+    <li><a href="#exercise-10--mixed-problems">Exercise 10 : Mixed Problems</a></li>
+    <li><a href="#exercise-11--partial-fractions">Exercise 11 : Partial Fractions</a></li>
+    <li><a href="#exercise-12--definite-integrals--practice">Exercise 12 : Definite Integrals — Practice</a></li>
+    <li><a href="#exercise-13--areas-between-curves">Exercise 13 : Areas Between Curves</a></li>
+    <li><a href="#exercise-14--improper-integrals">Exercise 14 : Improper Integrals</a></li>
+    <li><a href="#exercise-15--work--constant-force">Exercise 15 : Work — Constant Force</a></li>
+    <li><a href="#exercise-16--work--variable-force">Exercise 16 : Work — Variable Force</a></li>
+    <li><a href="#exercise-17--trigonometric-substitution">Exercise 17 : Trigonometric Substitution</a></li>
+    <li><a href="#exercise-18--numerical-integration-trapezoid-and-simpson">Exercise 18 : Numerical Integration (Trapezoid and Simpson)</a></li>
+    <li><a href="#exercise-19--arc-length-and-surface-area">Exercise 19 : Arc Length and Surface Area</a></li>
+    <li><a href="#exercise-20--centers-of-mass">Exercise 20 : Centers of Mass</a></li>
+    <li><a href="#exercise-21--polar-coordinates-and-areas">Exercise 21 : Polar Coordinates and Areas</a></li>
+    <li><a href="#exercise-22--convergence-of-improper-integrals">Exercise 22 : Convergence of Improper Integrals</a></li>
+    <li><a href="#exercise-23--beta-and-gamma--basics">Exercise 23 : Beta and Gamma — Basics</a></li>
+    <li><a href="#exercise-24--applications-to-probability">Exercise 24 : Applications to Probability</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="integral-calculus">Integral Calculus<a hidden class="anchor" aria-hidden="true" href="#integral-calculus">#</a></h1>
+<h2 id="exercise-1--primitives">Exercise 1 : Primitives<a hidden class="anchor" aria-hidden="true" href="#exercise-1--primitives">#</a></h2>
+<p>Find the primitives of the following functions and the value of the constant:</p>
+<ol>
+<li>$f(x) = 3x$ given $F(1) = 2$</li>
+<li>$f(x) = 2x + 3$ given $F(1) = 0$</li>
+</ol>
+<h2 id="exercise-2--definite-integrals-cosine">Exercise 2 : Definite Integrals (Cosine)<a hidden class="anchor" aria-hidden="true" href="#exercise-2--definite-integrals-cosine">#</a></h2>
+<p>Evaluate the following definite integrals:</p>
+<ol>
+<li>$\int_{0}^{\pi/2} 3 \cos x , dx$</li>
+<li>$\int_{-\pi/2}^{\pi/2} 3 \cos x , dx$</li>
+<li>$\int_{0}^{\pi} 3 \cos x , dx$</li>
+</ol>
+<h2 id="exercise-3--absolute-areas">Exercise 3 : Absolute Areas<a hidden class="anchor" aria-hidden="true" href="#exercise-3--absolute-areas">#</a></h2>
+<p>Obtain the absolute values of the areas corresponding to the following integrals:</p>
+<ol>
+<li>$\int_{-2}^{0} (x - 2) , dx$</li>
+<li>$\int_{0}^{2} (x - 2) , dx$</li>
+<li>$\int_{0}^{4} (x - 2) , dx$</li>
+</ol>
+<h2 id="exercise-4--integrate-and-verify">Exercise 4 : Integrate and Verify<a hidden class="anchor" aria-hidden="true" href="#exercise-4--integrate-and-verify">#</a></h2>
+<p>Integrate and verify the result by differentiating:</p>
+<ol>
+<li>$\int \frac{2 , dx}{(x + 1)^2} = \frac{x - 1}{x + 1} + C$</li>
+<li>$2 \int \sin^2 (4x - 1) , dx = x - \frac{1}{8} \sin(8x - 2) + C$</li>
+<li>$\int \frac{1 - x^2}{(1 + x^2)^2} , dx = \frac{x}{1 + x^2} + C$</li>
+</ol>
+<h2 id="exercise-5--standard-integrals-table">Exercise 5 : Standard Integrals (Table)<a hidden class="anchor" aria-hidden="true" href="#exercise-5--standard-integrals-table">#</a></h2>
+<p>Evaluate the following integrals by using the table of standard integrals:</p>
+<ol>
+<li>$\int \frac{dx}{x - a}$</li>
+<li>$\int \frac{1}{\cos^2 x} , dx$</li>
+<li>$\int \frac{a}{\sqrt{x^2 + a^2}} , dx$</li>
+<li>$\int \sin^2 \alpha , d\alpha$</li>
+<li>$\int a^t , dt$</li>
+<li>$\int \sqrt[3]{x^7} , dx$</li>
+<li>$\int 5(x^2 + x^3) , dx$</li>
+<li>$\int \left(\frac{3}{2}t^3 + 4t\right) , dt$</li>
+</ol>
+<h2 id="exercise-6--integration-by-parts-and-reduction">Exercise 6 : Integration by Parts and Reduction<a hidden class="anchor" aria-hidden="true" href="#exercise-6--integration-by-parts-and-reduction">#</a></h2>
+<p>Integrate by parts the following integrals:</p>
+<ol>
+<li>$\int x \ln x , dx$</li>
+<li>$\int x^2 \cos x , dx$</li>
+<li>$\int x^2 \ln x , dx$</li>
+<li>$\int x^2 \cosh \frac{x}{a} , dx$</li>
+<li>Find the reduction formula for $\int \cos^n x , dx$ ($n \neq 0$)</li>
+<li>Find the general formula for $\int x^n \ln x , dx$</li>
+</ol>
+<h2 id="exercise-7--substitution-techniques">Exercise 7 : Substitution Techniques<a hidden class="anchor" aria-hidden="true" href="#exercise-7--substitution-techniques">#</a></h2>
+<p>Use a suitable substitution to evaluate the following integrals:</p>
+<ol>
+<li>$\int \sin(\pi x) , dx$</li>
+<li>$\int 3e^{3x-6} , dx$</li>
+<li>$\int \frac{dx}{2x + a}$</li>
+<li>$\int (ax + b)^5 , dx$</li>
+</ol>
+<h2 id="exercise-8--trig-and-rational-integrals">Exercise 8 : Trig and Rational Integrals<a hidden class="anchor" aria-hidden="true" href="#exercise-8--trig-and-rational-integrals">#</a></h2>
+<p>Evaluate the following integrals:</p>
+<ol>
+<li>$\int \cot 2x , dx$</li>
+<li>$\int \frac{2x}{a + x^2} , dx$</li>
+<li>$\int \frac{x^{39}}{x^{40} + 21} , dx$</li>
+<li>$\int \frac{\sinh u}{\cosh^2 u} , du$</li>
+</ol>
+<h2 id="exercise-9--composite-integrals">Exercise 9 : Composite Integrals<a hidden class="anchor" aria-hidden="true" href="#exercise-9--composite-integrals">#</a></h2>
+<p>Evaluate the following integrals:</p>
+<ol>
+<li>$\int (\sin^4 x + 8 \sin^3 x + \sin x) \cos x , dx$</li>
+<li>$\int x^4 \sqrt{3x^5 - 1} , dx$</li>
+<li>$\int \frac{-x}{\sqrt{a - x^2}} , dx$</li>
+<li>$\int x \cos x^2 , dx$</li>
+</ol>
+<h2 id="exercise-10--mixed-problems">Exercise 10 : Mixed Problems<a hidden class="anchor" aria-hidden="true" href="#exercise-10--mixed-problems">#</a></h2>
+<p>Mixed questions:</p>
+<ol>
+<li>$\int \frac{e^x}{e^x + 1} , dx$</li>
+<li>$\int \cos \left(x - \frac{\pi}{2}\right) , dx$</li>
+<li>$\int \cos^3 x , dx$</li>
+<li>$\int \frac{1}{x \ln x} , dx$</li>
+<li>$\int \frac{3x^2 - 1}{x^3 - x} , dx$</li>
+<li>$\int \frac{1}{(1 + x^2) \tan^{-1} x} , dx$</li>
+</ol>
+<h2 id="exercise-11--partial-fractions">Exercise 11 : Partial Fractions<a hidden class="anchor" aria-hidden="true" href="#exercise-11--partial-fractions">#</a></h2>
+<p>Using partial fractions, integrate the following functions:</p>
+<ol>
+<li>$\int \frac{1}{2 - x - x^2} , dx$</li>
+<li>$\int \frac{2x + 3}{x(x - 1)(x + 2)} , dx$</li>
+<li>$\int \frac{x^2}{(x - 1)(x - 2)(x - 3)} , dx$</li>
+<li>$\int \frac{x}{x^4 - x^2 - 2} , dx$</li>
+<li>$\int \frac{1}{x^3 + 3x^2 - 4} , dx$</li>
+<li>$\int \frac{x^2 - 1}{x^4 + x^2 + 1} , dx$</li>
+<li>$\int \frac{x}{(x - 1)(x^2 + 2x + 5)} , dx$</li>
+</ol>
+<h2 id="exercise-12--definite-integrals--practice">Exercise 12 : Definite Integrals — Practice<a hidden class="anchor" aria-hidden="true" href="#exercise-12--definite-integrals--practice">#</a></h2>
+<p>Evaluate the following definite integrals:</p>
+<ol>
+<li>$\int_{-2}^{2} (x^5 - 8x^3 + x + 7) , dx$</li>
+<li>$\int_{0}^{1} \frac{1}{1 + x} , dx$</li>
+<li>$\int_{0}^{2} \sin t , dt$</li>
+<li>$3 \int_{100}^{125} dt$</li>
+</ol>
+<h2 id="exercise-13--areas-between-curves">Exercise 13 : Areas Between Curves<a hidden class="anchor" aria-hidden="true" href="#exercise-13--areas-between-curves">#</a></h2>
+<p>Find the value of the absolute area between the following boundary lines:</p>
+<ol>
+<li>$y = x^3$; $x$-axis; $a = \frac{1}{2}$; $b = 2$</li>
+<li>$y = \cos x$; $x$-axis; $a = -\frac{3\pi}{2}$; $b = \frac{5\pi}{6}$</li>
+<li>What is the value of the area between the curves $y = 4x^3$ and $y = 6x^2 - 2$? (Hint: Sketch the graphs of both functions first. Note that for $x = 1$ both curves have a point in common, but do not intersect.)</li>
+</ol>
+<h2 id="exercise-14--improper-integrals">Exercise 14 : Improper Integrals<a hidden class="anchor" aria-hidden="true" href="#exercise-14--improper-integrals">#</a></h2>
+<p>Integrate the following:</p>
+<ol>
+<li>$\int_{4}^{\infty} \frac{d\rho}{\rho^2}$</li>
+<li>$\int_{10}^{\infty} \frac{dx}{x}$</li>
+<li>$\int_{r_0}^{\infty} \frac{dr}{r^2}$</li>
+<li>$\int_{1}^{\infty} \frac{d\lambda}{\lambda}$</li>
+<li>$\int_{1}^{\infty} \frac{dr}{r^3}$</li>
+<li>$\int_{1}^{\infty} \left(1 + \frac{1}{x^2}\right) dx$</li>
+<li>$\int_{-\infty}^{-1} \frac{dx}{x^2}$</li>
+<li>$\int_{1}^{\infty} \frac{1}{\sqrt{x}} , dx$</li>
+</ol>
+<h2 id="exercise-15--work--constant-force">Exercise 15 : Work — Constant Force<a hidden class="anchor" aria-hidden="true" href="#exercise-15--work--constant-force">#</a></h2>
+<p>A force in a conservative field is given by $\mathbf{F} = (2, 6, 1) , \text{N}$. A body is moved along the line given by $\mathbf{r}(t) = \mathbf{r}_0 + t\mathbf{i}$ from point $\mathbf{r}(0) = \mathbf{r}_0$ to point $\mathbf{r}(2) = \mathbf{r}_0 + 2\mathbf{i}$. Calculate the work done.</p>
+<h2 id="exercise-16--work--variable-force">Exercise 16 : Work — Variable Force<a hidden class="anchor" aria-hidden="true" href="#exercise-16--work--variable-force">#</a></h2>
+<p>A force in a conservative field is given by $\mathbf{F} = (x, y, z) , \text{N}$. A body moves from the origin of the coordinate system to the point $P = (5, 0, 0)$. Calculate the work done.</p>
+<h2 id="exercise-17--trigonometric-substitution">Exercise 17 : Trigonometric Substitution<a hidden class="anchor" aria-hidden="true" href="#exercise-17--trigonometric-substitution">#</a></h2>
+<p>Use trigonometric substitutions to evaluate the following integrals:</p>
+<ol>
+<li>$\displaystyle \int \frac{dx}{\sqrt{a^2 - x^2}}$</li>
+<li>$\displaystyle \int \frac{x^2}{\sqrt{x^2 + a^2}},dx$</li>
+<li>$\displaystyle \int \frac{dx}{x^2\sqrt{x^2 - a^2}}$</li>
+</ol>
+<h2 id="exercise-18--numerical-integration-trapezoid-and-simpson">Exercise 18 : Numerical Integration (Trapezoid and Simpson)<a hidden class="anchor" aria-hidden="true" href="#exercise-18--numerical-integration-trapezoid-and-simpson">#</a></h2>
+<p>Approximate the following integrals numerically and compare methods:</p>
+<ol>
+<li>Approximate $\displaystyle \int_{0}^{1} e^{-x^2} ;dx$ using the trapezoidal rule with $n=4$.</li>
+<li>Approximate the same integral using Simpson&rsquo;s rule with $n=4$.</li>
+<li>Give a brief error estimate for both methods (order of magnitude suffices).</li>
+</ol>
+<h2 id="exercise-19--arc-length-and-surface-area">Exercise 19 : Arc Length and Surface Area<a hidden class="anchor" aria-hidden="true" href="#exercise-19--arc-length-and-surface-area">#</a></h2>
+<p>Compute arc lengths and surface areas:</p>
+<ol>
+<li>Find the arc length of $y=\ln(\cos x)$ for $x\in[0,\pi/4]$.</li>
+<li>Find the surface area generated by rotating $y=\sqrt{x}$ about the $x$-axis for $x\in[0,1]$.</li>
+</ol>
+<h2 id="exercise-20--centers-of-mass">Exercise 20 : Centers of Mass<a hidden class="anchor" aria-hidden="true" href="#exercise-20--centers-of-mass">#</a></h2>
+<p>Find centroids and moments for planar regions and rods:</p>
+<ol>
+<li>Find the centroid (center of area) of the region bounded by $y=x^2$ and $y=2x$ for $x\in[0,2]$.</li>
+<li>A thin rod occupies $[0,1]$ with linear density $\rho(x)=x$. Find the mass and the center of mass.</li>
+</ol>
+<h2 id="exercise-21--polar-coordinates-and-areas">Exercise 21 : Polar Coordinates and Areas<a hidden class="anchor" aria-hidden="true" href="#exercise-21--polar-coordinates-and-areas">#</a></h2>
+<p>Evaluate areas and integrals in polar form:</p>
+<ol>
+<li>Find the area enclosed by the cardioid $r=1+\cos\theta$.</li>
+<li>Find the area enclosed by $r=a\sin(2\theta)$ for the appropriate interval of $\theta$.</li>
+</ol>
+<h2 id="exercise-22--convergence-of-improper-integrals">Exercise 22 : Convergence of Improper Integrals<a hidden class="anchor" aria-hidden="true" href="#exercise-22--convergence-of-improper-integrals">#</a></h2>
+<p>Determine convergence or divergence (justify your test):</p>
+<ol>
+<li>$\displaystyle \int_{1}^{\infty} \frac{1}{x^{p}},dx$ (state for which $p$ it converges).</li>
+<li>$\displaystyle \int_{0}^{1} \frac{1}{x^{p}},dx$ (state for which $p$ it converges).</li>
+</ol>
+<h2 id="exercise-23--beta-and-gamma--basics">Exercise 23 : Beta and Gamma — Basics<a hidden class="anchor" aria-hidden="true" href="#exercise-23--beta-and-gamma--basics">#</a></h2>
+<p>Short exercises on special integrals:</p>
+<ol>
+<li>Show that $\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi}$ using the substitution $x=t^2$.</li>
+<li>Evaluate $B(3,2)$ and express it in terms of factorials.</li>
+</ol>
+<h2 id="exercise-24--applications-to-probability">Exercise 24 : Applications to Probability<a hidden class="anchor" aria-hidden="true" href="#exercise-24--applications-to-probability">#</a></h2>
+<p>Compute expectations and variances using integrals:</p>
+<ol>
+<li>For an exponential distribution with parameter $\lambda&gt;0$, compute $E[X]=\int_{0}^{\infty} \lambda x e^{-\lambda x} ,dx$.</li>
+<li>Compute $\operatorname{Var}(X)$ for the same distribution.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/calculus/">Calculus</a></li>
+      <li><a href="http://localhost:1313/tags/integrals/">Integrals</a></li>
+      <li><a href="http://localhost:1313/tags/applied-mathematics/">Applied Mathematics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/functional-analysis/en/fourier-series-harmonicseries/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Fourier Series; Harmonic Analysis</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Theory of Vector Fields</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>
