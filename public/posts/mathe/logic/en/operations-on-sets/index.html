@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Operations on Sets | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Logic, Sets">
+<meta name="description" content="Operations on Sets
+Exercise 1 : Basic set operations with numbers
+Let \( A = \{1, 3, 12, 35\} \), \( B = \{3, 7, 12, 20\} \), and \( C = \{x \mid x \text{ is a prime number}\} \).
+List the elements of the following sets:
+
+\( A \cap B \)
+\( (A \cup B) \setminus C \)
+\( A \cup (B \setminus C) \)
+
+Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/logic/en/operations-on-sets/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/logic/en/operations-on-sets/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Operations on Sets">
+  <meta property="og:description" content="Operations on Sets Exercise 1 : Basic set operations with numbers Let \( A = \{1, 3, 12, 35\} \), \( B = \{3, 7, 12, 20\} \), and \( C = \{x \mid x \text{ is a prime number}\} \).
+List the elements of the following sets:
+\( A \cap B \) \( (A \cup B) \setminus C \) \( A \cup (B \setminus C) \) Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-17T18:30:38+01:00">
+    <meta property="article:modified_time" content="2026-01-17T18:30:38+01:00">
+    <meta property="article:tag" content="Logic">
+    <meta property="article:tag" content="Sets">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Operations on Sets">
+<meta name="twitter:description" content="Operations on Sets
+Exercise 1 : Basic set operations with numbers
+Let \( A = \{1, 3, 12, 35\} \), \( B = \{3, 7, 12, 20\} \), and \( C = \{x \mid x \text{ is a prime number}\} \).
+List the elements of the following sets:
+
+\( A \cap B \)
+\( (A \cup B) \setminus C \)
+\( A \cup (B \setminus C) \)
+
+Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Operations on Sets",
+      "item": "http://localhost:1313/posts/mathe/logic/en/operations-on-sets/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Operations on Sets",
+  "name": "Operations on Sets",
+  "description": "Operations on Sets Exercise 1 : Basic set operations with numbers Let \\( A = \\{1, 3, 12, 35\\} \\), \\( B = \\{3, 7, 12, 20\\} \\), and \\( C = \\{x \\mid x \\text{ is a prime number}\\} \\).\nList the elements of the following sets:\n\\( A \\cap B \\) \\( (A \\cup B) \\setminus C \\) \\( A \\cup (B \\setminus C) \\) Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?\n",
+  "keywords": [
+    "Logic", "Sets"
+  ],
+  "articleBody": "Operations on Sets Exercise 1 : Basic set operations with numbers Let \\( A = \\{1, 3, 12, 35\\} \\), \\( B = \\{3, 7, 12, 20\\} \\), and \\( C = \\{x \\mid x \\text{ is a prime number}\\} \\).\nList the elements of the following sets:\n\\( A \\cap B \\) \\( (A \\cup B) \\setminus C \\) \\( A \\cup (B \\setminus C) \\) Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?\nExercise 2 : Basic set operations Let \\( A = \\{\\text{United States, Germany, China, Australia}\\} \\), \\( B = \\{\\text{Germany, France, India, Brazil}\\} \\), and \\( C = \\{x \\mid x \\text{ is a country in Europe}\\} \\).\nList the elements of the following sets:\n\\( A \\cup B \\) \\( A \\cap B \\) \\( (A \\cap B) \\setminus C \\) Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?\nExercise 3 : Venn diagram verification Verify that the Venn diagrams for \\( (A \\cup B) \\setminus (A \\cap B) \\) and \\( (A \\setminus B) \\cup (B \\setminus A) \\) are identical. Explain why they both represent the symmetric difference \\( A \\Delta B \\).\nExercise 4 : Venn diagram proofs of basic identities Use Venn diagrams to verify the following identities:\n\\( A \\setminus (A \\cap B) = A \\setminus B \\) \\( A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C) \\) Exercise 5 : Logical proof of basic identities Verify the identities using logical symbols. Write out what it means for an object \\( x \\) to be an element of each set, then show the logical equivalences.\n\\( A \\setminus (A \\cap B) = A \\setminus B \\) \\( A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C) \\) Exercise 6 : Venn diagram proofs of set differences Use Venn diagrams to verify the following identities:\n\\( (A \\cup B) \\setminus C = (A \\setminus C) \\cup (B \\setminus C) \\) \\( A \\cup (B \\setminus C) = (A \\cup B) \\setminus (C \\setminus A) \\) Exercise 7 : Logical proof of set difference identities Verify the identities using logical symbols. Write out what it means for an object \\( x \\) to be an element of each set, then show the logical equivalences.\n\\( (A \\cup B) \\setminus C = (A \\setminus C) \\cup (B \\setminus C) \\) \\( A \\cup (B \\setminus C) = (A \\cup B) \\setminus (C \\setminus A) \\) Exercise 8 : Exploring set difference identities Use any method you wish to verify the following identities:\n\\( (A \\setminus B) \\setminus C = A \\setminus (B \\cup C) \\) \\( A \\setminus (B \\setminus C) = (A \\setminus B) \\cup (A \\cap C) \\) \\( (A \\setminus B) \\cup (A \\cap C) = A \\setminus (B \\setminus C) \\) \\( (A \\setminus B) \\cap (A \\setminus C) = A \\setminus (B \\cup C) \\) \\( A \\setminus (B \\cup C) = (A \\setminus B) \\cap (A \\setminus C) \\) Exercise 9 : Properties of \\( (A \\cup B) \\setminus B \\) It was shown that \\( (A \\cup B) \\setminus B \\subseteq A \\) for any sets \\( A \\) and \\( B \\).\nGive an example of two sets \\( A \\) and \\( B \\) for which \\( (A \\cup B) \\setminus B \\neq A \\). Prove that for all sets \\( A \\) and \\( B \\), \\( (A \\cup B) \\setminus B = A \\setminus B \\). Is \\( (A \\setminus B) \\cup B \\) always equal to \\( A \\setminus B \\), \\( A \\cup B \\), or neither? Investigate. Exercise 10 : When does \\( (A \\setminus B) \\cup B = A \\) hold? Suppose \\( A \\) and \\( B \\) are sets.\nIs it necessarily true that \\( (A \\setminus B) \\cup B = A \\)? Prove or provide a counterexample. Is one of these sets necessarily a subset of the other? Prove your claim. Exercise 11 : Venn diagrams for four sets It is claimed that you cannot make a Venn diagram for four sets using overlapping circles.\nWhat is wrong with a diagram using four overlapping circles? Explain why such a diagram cannot represent all possible intersections. Can you make a valid Venn diagram for four sets using shapes other than circles? Describe or sketch an approach. Exercise 12 : Comparing \\( (A \\cup B) \\setminus C \\) and \\( A \\cup (B \\setminus C) \\) Make Venn diagrams for \\( (A \\cup B) \\setminus C \\) and \\( A \\cup (B \\setminus C) \\). What can you conclude about whether one of these sets is necessarily a subset of the other? Give an example of sets \\( A \\), \\( B \\), and \\( C \\) for which \\( (A \\cup B) \\setminus C \\neq A \\cup (B \\setminus C) \\). Exercise 13 : Associativity of symmetric difference Use Venn diagrams to show that the associative law holds for symmetric difference; that is, for any sets \\( A \\), \\( B \\), and \\( C \\), \\( A \\Delta (B \\Delta C) = (A \\Delta B) \\Delta C \\).\nExercise 14 : Symmetric difference identities I Verify the following identities:\n\\( (A \\Delta B) \\cup C = (A \\cup C) \\Delta (B \\setminus C) \\) \\( (A \\Delta B) \\cap C = (A \\cap C) \\Delta (B \\cap C) \\) \\( (A \\Delta B) \\setminus C = (A \\setminus C) \\Delta (B \\setminus C) \\) Exercise 15 : Symmetric difference identities II Verify the following identities:\n\\( (A \\cup B) \\Delta C = (A \\Delta C) \\Delta (B \\setminus A) \\) \\( (A \\cap B) \\Delta C = (A \\Delta C) \\Delta (A \\setminus B) \\) \\( (A \\setminus B) \\Delta C = (A \\Delta C) \\Delta (A \\cap B) \\) Exercise 16 : Completing symmetric difference identities Fill in the blanks to make true identities:\n\\( (A \\Delta B) \\cap C = (C \\setminus A) \\Delta \\underline{\\hspace{1cm}} \\) \\( (B \\setminus A) \\Delta C = (A \\Delta C) \\Delta \\underline{\\hspace{1cm}} \\) Exercise 17 : Subset relationships Determine whether each statement is true or false. Prove or give a counterexample.\n\\( \\mathcal{F} \\subseteq \\mathcal{P}(A) \\) \\( A \\subseteq \\{2n+1 \\mid n \\in \\mathbb{N}\\} \\) \\( \\{n^2 + n \\mid n \\in \\mathbb{N}\\} \\subseteq \\{2n \\mid n \\in \\mathbb{N}\\} \\) \\( \\mathcal{P}(\\bigcup_{i \\in I} A_i) \\not\\subseteq \\bigcup_{i \\in I} \\mathcal{P}(A_i) \\) Exercise 18 : Translating set-builder notation Rewrite in simpler set notation if possible and determine truth:\n\\( x \\in \\mathcal{F} \\cup \\mathcal{G} \\) \\( \\{x \\in B \\mid x \\notin C\\} \\in \\mathcal{P}(A) \\) \\( x \\in \\bigcap_{i \\in I} (A_i \\cup B_i) \\) \\( x \\in (\\bigcap_{i \\in I} A_i) \\cup (\\bigcap_{i \\in I} B_i) \\) Exercise 19 : Power set of a singleton We know \\( \\mathcal{P}(\\emptyset) = \\{\\emptyset\\} \\), and \\( \\{\\emptyset\\} \\neq \\emptyset \\).\nFind \\( \\mathcal{P}(\\{\\emptyset\\}) \\). Find \\( \\mathcal{P}(\\mathcal{P}(\\emptyset)) \\). How many elements does \\( \\mathcal{P}^n(\\emptyset) \\) have, where \\( \\mathcal{P}^n \\) means applying \\( \\mathcal{P} \\) \\( n \\) times? Exercise 20 : Intersection and union of a family Let \\( \\mathcal{F} = \\{\\{\\text{red, green, blue}\\}, \\{\\text{orange, red, blue}\\}, \\{\\text{purple, red, green, blue}\\}\\} \\).\nFind \\( \\bigcap \\mathcal{F} \\) and \\( \\bigcup \\mathcal{F} \\). If we add \\( \\{\\text{yellow, purple}\\} \\) to \\( \\mathcal{F} \\), how do the answers change? Exercise 21 : Indexed family with numerical sets Let \\( I = \\{2, 3, 4, 5\\} \\), and for each \\( i \\in I \\) let \\( A_i = \\{i+1, i-1\\} \\).\nList all \\( A_i \\). Find \\( \\bigcap_{i \\in I} A_i \\) and \\( \\bigcup_{i \\in I} A_i \\). What is \\( \\bigcap_{i \\in I} A_i \\) if \\( I = \\mathbb{N} \\)? Exercise 22 : Historical indexed family Let \\( P = \\{\\text{Bach, Napoleon, Goethe, Hume, Newton, Washington}\\} \\) and \\( Y = \\{1750, 1751, \\dots, 1759\\} \\). For \\( y \\in Y \\), let \\( A_y = \\{p \\in P \\mid p \\text{ was alive in year } y\\} \\).\nFind \\( \\bigcup_{y \\in Y} A_y \\) and \\( \\bigcap_{y \\in Y} A_y \\). What do these represent in historical terms? Exercise 23 : Comparing \\( \\bigcap_{i \\in I} (A_i \\cup B_i) \\) Let \\( I = \\{2,3\\} \\), \\( A_i = \\{i, 2i\\} \\), \\( B_i = \\{i, i+1\\} \\).\nList \\( A_i \\) and \\( B_i \\) for \\( i \\in I \\). Find \\( \\bigcap_{i \\in I} (A_i \\cup B_i) \\) and \\( (\\bigcap_{i \\in I} A_i) \\cup (\\bigcap_{i \\in I} B_i) \\). Are they equal? Based on your answer, are the logical forms \\( x \\in \\bigcap_{i \\in I} (A_i \\cup B_i) \\) and \\( x \\in (\\bigcap_{i \\in I} A_i) \\cup (\\bigcap_{i \\in I} B_i) \\) equivalent? Exercise 24 : Distributive laws for indexed families Analyze the logical forms of: \\( x \\in \\bigcup_{i \\in I} (A_i \\setminus B_i) \\) \\( x \\in (\\bigcup_{i \\in I} A_i) \\setminus (\\bigcup_{i \\in I} B_i) \\) \\( x \\in (\\bigcup_{i \\in I} A_i) \\setminus (\\bigcap_{i \\in I} B_i) \\) Which pairs are equivalent? Let \\( I = \\{2,3\\} \\), \\( A_i = \\{i, 2i\\} \\), \\( B_i = \\{i, i+1\\} \\) compute the three sets above. Does this match your logical analysis? Exercise 25 : Counterexample for union distributing over intersection Give an example of an index set \\( I \\) and indexed families of sets \\( \\{A_i \\mid i \\in I\\} \\) and \\( \\{B_i \\mid i \\in I\\} \\) such that \\( \\bigcup_{i \\in I} (A_i \\cap B_i) \\neq (\\bigcup_{i \\in I} A_i) \\cap (\\bigcup_{i \\in I} B_i) \\).\nExercise 26 : Power set and intersection Show that for any sets \\( A \\) and \\( B \\), the statements \\( x \\in \\mathcal{P}(A \\cap B) \\) and \\( x \\in \\mathcal{P}(A) \\cap \\mathcal{P}(B) \\) are equivalent.\nExercise 27 : Power set and union Give examples of sets \\( A \\) and \\( B \\) for which \\( \\mathcal{P}(A \\cup B) \\neq \\mathcal{P}(A) \\cup \\mathcal{P}(B) \\).\nExercise 28 : Generalized distributive and De Morgan laws Verify the following identities by writing out what it means for an object \\( x \\) to be an element of each set and then using logical equivalences:\n\\( \\bigcup_{i \\in I} (A_i \\cup B_i) = (\\bigcup_{i \\in I} A_i) \\cup (\\bigcup_{i \\in I} B_i) \\) \\( \\bigcap_{i \\in I} (A_i \\cap B_i) = (\\bigcap_{i \\in I} A_i) \\cap (\\bigcap_{i \\in I} B_i) \\) \\( \\bigcap_{i \\in I} (A_i \\setminus B_i) = (\\bigcap_{i \\in I} A_i) \\setminus (\\bigcup_{i \\in I} B_i) \\) Exercise 29 : Double-indexed families Use the following definitions: \\( I = \\{1, 2\\} \\), \\( J = \\{3, 4\\} \\). For each \\( i \\in I \\) and \\( j \\in J \\), let \\( A_{i,j} = \\{i, j, i+j\\} \\).\nFor each \\( j \\in J \\), let \\( B_j = \\bigcup_{i \\in I} A_{i,j} \\). Find \\( B_3 \\) and \\( B_4 \\). Find \\( \\bigcap_{j \\in J} B_j \\). Find \\( \\bigcup_{i \\in I} (\\bigcap_{j \\in J} A_{i,j}) \\). Analyze the logical forms of \\( x \\in \\bigcap_{j \\in J} (\\bigcup_{i \\in I} A_{i,j}) \\) and \\( x \\in \\bigcup_{i \\in I} (\\bigcap_{j \\in J} A_{i,j}) \\). Are they equivalent? Exercise 30 : Empty family of sets Show that if \\( \\mathcal{F} = \\emptyset \\), then the statement \\( x \\in \\bigcup \\mathcal{F} \\) will be false no matter what \\( x \\) is. Show that if \\( \\mathcal{F} = \\emptyset \\), then the statement \\( x \\in \\bigcap \\mathcal{F} \\) will be true for all \\( x \\) in the universe of discourse. Discuss why mathematicians often avoid the notation \\( \\bigcap \\emptyset \\). Exercise 31 : Russell’s paradox Suppose \\( U \\) were the set of all sets. Let \\( R = \\{A \\in U \\mid A \\notin A\\} \\).\nShow that applying this definition to \\( R \\) itself leads to a contradiction (Russell’s paradox). What does this paradox tell us about the concept of a “set of all sets”? ",
+  "wordCount" : "2045",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-17T18:30:38+01:00",
+  "dateModified": "2026-01-17T18:30:38+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/logic/en/operations-on-sets/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Operations on Sets
+    </h1>
+    <div class="post-meta"><span title='2026-01-17 18:30:38 +0100 CET'>Januar 17, 2026</span>&nbsp;·&nbsp;<span>2045 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--basic-set-operations-with-numbers">Exercise 1 : Basic set operations with numbers</a></li>
+    <li><a href="#exercise-2--basic-set-operations">Exercise 2 : Basic set operations</a></li>
+    <li><a href="#exercise-3--venn-diagram-verification">Exercise 3 : Venn diagram verification</a></li>
+    <li><a href="#exercise-4--venn-diagram-proofs-of-basic-identities">Exercise 4 : Venn diagram proofs of basic identities</a></li>
+    <li><a href="#exercise-5--logical-proof-of-basic-identities">Exercise 5 : Logical proof of basic identities</a></li>
+    <li><a href="#exercise-6--venn-diagram-proofs-of-set-differences">Exercise 6 : Venn diagram proofs of set differences</a></li>
+    <li><a href="#exercise-7--logical-proof-of-set-difference-identities">Exercise 7 : Logical proof of set difference identities</a></li>
+    <li><a href="#exercise-8--exploring-set-difference-identities">Exercise 8 : Exploring set difference identities</a></li>
+    <li><a href="#exercise-9--properties-of">Exercise 9 : Properties of </a></li>
+    <li><a href="#exercise-10--when-does--hold">Exercise 10 : When does  hold?</a></li>
+    <li><a href="#exercise-11--venn-diagrams-for-four-sets">Exercise 11 : Venn diagrams for four sets</a></li>
+    <li><a href="#exercise-12--comparing--and">Exercise 12 : Comparing  and </a></li>
+    <li><a href="#exercise-13--associativity-of-symmetric-difference">Exercise 13 : Associativity of symmetric difference</a></li>
+    <li><a href="#exercise-14--symmetric-difference-identities-i">Exercise 14 : Symmetric difference identities I</a></li>
+    <li><a href="#exercise-15--symmetric-difference-identities-ii">Exercise 15 : Symmetric difference identities II</a></li>
+    <li><a href="#exercise-16--completing-symmetric-difference-identities">Exercise 16 : Completing symmetric difference identities</a></li>
+    <li><a href="#exercise-17--subset-relationships">Exercise 17 : Subset relationships</a></li>
+    <li><a href="#exercise-18--translating-set-builder-notation">Exercise 18 : Translating set-builder notation</a></li>
+    <li><a href="#exercise-19--power-set-of-a-singleton">Exercise 19 : Power set of a singleton</a></li>
+    <li><a href="#exercise-20--intersection-and-union-of-a-family">Exercise 20 : Intersection and union of a family</a></li>
+    <li><a href="#exercise-21--indexed-family-with-numerical-sets">Exercise 21 : Indexed family with numerical sets</a></li>
+    <li><a href="#exercise-22--historical-indexed-family">Exercise 22 : Historical indexed family</a></li>
+    <li><a href="#exercise-23--comparing">Exercise 23 : Comparing </a></li>
+    <li><a href="#exercise-24--distributive-laws-for-indexed-families">Exercise 24 : Distributive laws for indexed families</a></li>
+    <li><a href="#exercise-25--counterexample-for-union-distributing-over-intersection">Exercise 25 : Counterexample for union distributing over intersection</a></li>
+    <li><a href="#exercise-26--power-set-and-intersection">Exercise 26 : Power set and intersection</a></li>
+    <li><a href="#exercise-27--power-set-and-union">Exercise 27 : Power set and union</a></li>
+    <li><a href="#exercise-28--generalized-distributive-and-de-morgan-laws">Exercise 28 : Generalized distributive and De Morgan laws</a></li>
+    <li><a href="#exercise-29--double-indexed-families">Exercise 29 : Double-indexed families</a></li>
+    <li><a href="#exercise-30--empty-family-of-sets">Exercise 30 : Empty family of sets</a></li>
+    <li><a href="#exercise-31--russells-paradox">Exercise 31 : Russell’s paradox</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="operations-on-sets">Operations on Sets<a hidden class="anchor" aria-hidden="true" href="#operations-on-sets">#</a></h1>
+<h2 id="exercise-1--basic-set-operations-with-numbers">Exercise 1 : Basic set operations with numbers<a hidden class="anchor" aria-hidden="true" href="#exercise-1--basic-set-operations-with-numbers">#</a></h2>
+<p>Let \( A = \{1, 3, 12, 35\} \), \( B = \{3, 7, 12, 20\} \), and \( C = \{x \mid x \text{ is a prime number}\} \).<br>
+List the elements of the following sets:</p>
+<ol>
+<li>\( A \cap B \)</li>
+<li>\( (A \cup B) \setminus C \)</li>
+<li>\( A \cup (B \setminus C) \)</li>
+</ol>
+<p>Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?</p>
+<h2 id="exercise-2--basic-set-operations">Exercise 2 : Basic set operations<a hidden class="anchor" aria-hidden="true" href="#exercise-2--basic-set-operations">#</a></h2>
+<p>Let \( A = \{\text{United States, Germany, China, Australia}\} \), \( B = \{\text{Germany, France, India, Brazil}\} \), and \( C = \{x \mid x \text{ is a country in Europe}\} \).<br>
+List the elements of the following sets:</p>
+<ol>
+<li>\( A \cup B \)</li>
+<li>\( A \cap B \)</li>
+<li>\( (A \cap B) \setminus C \)</li>
+</ol>
+<p>Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?</p>
+<h2 id="exercise-3--venn-diagram-verification">Exercise 3 : Venn diagram verification<a hidden class="anchor" aria-hidden="true" href="#exercise-3--venn-diagram-verification">#</a></h2>
+<p>Verify that the Venn diagrams for \( (A \cup B) \setminus (A \cap B) \) and \( (A \setminus B) \cup (B \setminus A) \) are identical. Explain why they both represent the symmetric difference \( A \Delta B \).</p>
+<h2 id="exercise-4--venn-diagram-proofs-of-basic-identities">Exercise 4 : Venn diagram proofs of basic identities<a hidden class="anchor" aria-hidden="true" href="#exercise-4--venn-diagram-proofs-of-basic-identities">#</a></h2>
+<p>Use Venn diagrams to verify the following identities:</p>
+<ol>
+<li>\( A \setminus (A \cap B) = A \setminus B \)</li>
+<li>\( A \cup (B \cap C) = (A \cup B) \cap (A \cup C) \)</li>
+</ol>
+<h2 id="exercise-5--logical-proof-of-basic-identities">Exercise 5 : Logical proof of basic identities<a hidden class="anchor" aria-hidden="true" href="#exercise-5--logical-proof-of-basic-identities">#</a></h2>
+<p>Verify the identities using logical symbols. Write out what it means for an object \( x \) to be an element of each set, then show the logical equivalences.</p>
+<ol>
+<li>\( A \setminus (A \cap B) = A \setminus B \)</li>
+<li>\( A \cup (B \cap C) = (A \cup B) \cap (A \cup C) \)</li>
+</ol>
+<h2 id="exercise-6--venn-diagram-proofs-of-set-differences">Exercise 6 : Venn diagram proofs of set differences<a hidden class="anchor" aria-hidden="true" href="#exercise-6--venn-diagram-proofs-of-set-differences">#</a></h2>
+<p>Use Venn diagrams to verify the following identities:</p>
+<ol>
+<li>\( (A \cup B) \setminus C = (A \setminus C) \cup (B \setminus C) \)</li>
+<li>\( A \cup (B \setminus C) = (A \cup B) \setminus (C \setminus A) \)</li>
+</ol>
+<h2 id="exercise-7--logical-proof-of-set-difference-identities">Exercise 7 : Logical proof of set difference identities<a hidden class="anchor" aria-hidden="true" href="#exercise-7--logical-proof-of-set-difference-identities">#</a></h2>
+<p>Verify the identities using logical symbols. Write out what it means for an object \( x \) to be an element of each set, then show the logical equivalences.</p>
+<ol>
+<li>\( (A \cup B) \setminus C = (A \setminus C) \cup (B \setminus C) \)</li>
+<li>\( A \cup (B \setminus C) = (A \cup B) \setminus (C \setminus A) \)</li>
+</ol>
+<h2 id="exercise-8--exploring-set-difference-identities">Exercise 8 : Exploring set difference identities<a hidden class="anchor" aria-hidden="true" href="#exercise-8--exploring-set-difference-identities">#</a></h2>
+<p>Use any method you wish to verify the following identities:</p>
+<ol>
+<li>\( (A \setminus B) \setminus C = A \setminus (B \cup C) \)</li>
+<li>\( A \setminus (B \setminus C) = (A \setminus B) \cup (A \cap C) \)</li>
+<li>\( (A \setminus B) \cup (A \cap C) = A \setminus (B \setminus C) \)</li>
+<li>\( (A \setminus B) \cap (A \setminus C) = A \setminus (B \cup C) \)</li>
+<li>\( A \setminus (B \cup C) = (A \setminus B) \cap (A \setminus C) \)</li>
+</ol>
+<h2 id="exercise-9--properties-of">Exercise 9 : Properties of \( (A \cup B) \setminus B \)<a hidden class="anchor" aria-hidden="true" href="#exercise-9--properties-of">#</a></h2>
+<p>It was shown that \( (A \cup B) \setminus B \subseteq A \) for any sets \( A \) and \( B \).</p>
+<ol>
+<li>Give an example of two sets \( A \) and \( B \) for which \( (A \cup B) \setminus B \neq A \).</li>
+<li>Prove that for all sets \( A \) and \( B \), \( (A \cup B) \setminus B = A \setminus B \).</li>
+<li>Is \( (A \setminus B) \cup B \) always equal to \( A \setminus B \), \( A \cup B \), or neither? Investigate.</li>
+</ol>
+<h2 id="exercise-10--when-does--hold">Exercise 10 : When does \( (A \setminus B) \cup B = A \) hold?<a hidden class="anchor" aria-hidden="true" href="#exercise-10--when-does--hold">#</a></h2>
+<p>Suppose \( A \) and \( B \) are sets.</p>
+<ol>
+<li>Is it necessarily true that \( (A \setminus B) \cup B = A \)? Prove or provide a counterexample.</li>
+<li>Is one of these sets necessarily a subset of the other? Prove your claim.</li>
+</ol>
+<h2 id="exercise-11--venn-diagrams-for-four-sets">Exercise 11 : Venn diagrams for four sets<a hidden class="anchor" aria-hidden="true" href="#exercise-11--venn-diagrams-for-four-sets">#</a></h2>
+<p>It is claimed that you cannot make a Venn diagram for four sets using overlapping circles.</p>
+<ol>
+<li>What is wrong with a diagram using four overlapping circles? Explain why such a diagram cannot represent all possible intersections.</li>
+<li>Can you make a valid Venn diagram for four sets using shapes other than circles? Describe or sketch an approach.</li>
+</ol>
+<h2 id="exercise-12--comparing--and">Exercise 12 : Comparing \( (A \cup B) \setminus C \) and \( A \cup (B \setminus C) \)<a hidden class="anchor" aria-hidden="true" href="#exercise-12--comparing--and">#</a></h2>
+<ol>
+<li>Make Venn diagrams for \( (A \cup B) \setminus C \) and \( A \cup (B \setminus C) \). What can you conclude about whether one of these sets is necessarily a subset of the other?</li>
+<li>Give an example of sets \( A \), \( B \), and \( C \) for which \( (A \cup B) \setminus C \neq A \cup (B \setminus C) \).</li>
+</ol>
+<h2 id="exercise-13--associativity-of-symmetric-difference">Exercise 13 : Associativity of symmetric difference<a hidden class="anchor" aria-hidden="true" href="#exercise-13--associativity-of-symmetric-difference">#</a></h2>
+<p>Use Venn diagrams to show that the associative law holds for symmetric difference; that is, for any sets \( A \), \( B \), and \( C \), \( A \Delta (B \Delta C) = (A \Delta B) \Delta C \).</p>
+<h2 id="exercise-14--symmetric-difference-identities-i">Exercise 14 : Symmetric difference identities I<a hidden class="anchor" aria-hidden="true" href="#exercise-14--symmetric-difference-identities-i">#</a></h2>
+<p>Verify the following identities:</p>
+<ol>
+<li>\( (A \Delta B) \cup C = (A \cup C) \Delta (B \setminus C) \)</li>
+<li>\( (A \Delta B) \cap C = (A \cap C) \Delta (B \cap C) \)</li>
+<li>\( (A \Delta B) \setminus C = (A \setminus C) \Delta (B \setminus C) \)</li>
+</ol>
+<h2 id="exercise-15--symmetric-difference-identities-ii">Exercise 15 : Symmetric difference identities II<a hidden class="anchor" aria-hidden="true" href="#exercise-15--symmetric-difference-identities-ii">#</a></h2>
+<p>Verify the following identities:</p>
+<ol>
+<li>\( (A \cup B) \Delta C = (A \Delta C) \Delta (B \setminus A) \)</li>
+<li>\( (A \cap B) \Delta C = (A \Delta C) \Delta (A \setminus B) \)</li>
+<li>\( (A \setminus B) \Delta C = (A \Delta C) \Delta (A \cap B) \)</li>
+</ol>
+<h2 id="exercise-16--completing-symmetric-difference-identities">Exercise 16 : Completing symmetric difference identities<a hidden class="anchor" aria-hidden="true" href="#exercise-16--completing-symmetric-difference-identities">#</a></h2>
+<p>Fill in the blanks to make true identities:</p>
+<ol>
+<li>\( (A \Delta B) \cap C = (C \setminus A) \Delta \underline{\hspace{1cm}} \)</li>
+<li>\( (B \setminus A) \Delta C = (A \Delta C) \Delta \underline{\hspace{1cm}} \)</li>
+</ol>
+<h2 id="exercise-17--subset-relationships">Exercise 17 : Subset relationships<a hidden class="anchor" aria-hidden="true" href="#exercise-17--subset-relationships">#</a></h2>
+<p>Determine whether each statement is true or false. Prove or give a counterexample.</p>
+<ol>
+<li>\( \mathcal{F} \subseteq \mathcal{P}(A) \)</li>
+<li>\( A \subseteq \{2n+1 \mid n \in \mathbb{N}\} \)</li>
+<li>\( \{n^2 + n \mid n \in \mathbb{N}\} \subseteq \{2n \mid n \in \mathbb{N}\} \)</li>
+<li>\( \mathcal{P}(\bigcup_{i \in I} A_i) \not\subseteq \bigcup_{i \in I} \mathcal{P}(A_i) \)</li>
+</ol>
+<h2 id="exercise-18--translating-set-builder-notation">Exercise 18 : Translating set-builder notation<a hidden class="anchor" aria-hidden="true" href="#exercise-18--translating-set-builder-notation">#</a></h2>
+<p>Rewrite in simpler set notation if possible and determine truth:</p>
+<ol>
+<li>\( x \in \mathcal{F} \cup \mathcal{G} \)</li>
+<li>\( \{x \in B \mid x \notin C\} \in \mathcal{P}(A) \)</li>
+<li>\( x \in \bigcap_{i \in I} (A_i \cup B_i) \)</li>
+<li>\( x \in (\bigcap_{i \in I} A_i) \cup (\bigcap_{i \in I} B_i) \)</li>
+</ol>
+<h2 id="exercise-19--power-set-of-a-singleton">Exercise 19 : Power set of a singleton<a hidden class="anchor" aria-hidden="true" href="#exercise-19--power-set-of-a-singleton">#</a></h2>
+<p>We know \( \mathcal{P}(\emptyset) = \{\emptyset\} \), and \( \{\emptyset\} \neq \emptyset \).</p>
+<ol>
+<li>Find \( \mathcal{P}(\{\emptyset\}) \).</li>
+<li>Find \( \mathcal{P}(\mathcal{P}(\emptyset)) \).</li>
+<li>How many elements does \( \mathcal{P}^n(\emptyset) \) have, where \( \mathcal{P}^n \) means applying \( \mathcal{P} \) \( n \) times?</li>
+</ol>
+<h2 id="exercise-20--intersection-and-union-of-a-family">Exercise 20 : Intersection and union of a family<a hidden class="anchor" aria-hidden="true" href="#exercise-20--intersection-and-union-of-a-family">#</a></h2>
+<p>Let \( \mathcal{F} = \{\{\text{red, green, blue}\}, \{\text{orange, red, blue}\}, \{\text{purple, red, green, blue}\}\} \).</p>
+<ol>
+<li>Find \( \bigcap \mathcal{F} \) and \( \bigcup \mathcal{F} \).</li>
+<li>If we add \( \{\text{yellow, purple}\} \) to \( \mathcal{F} \), how do the answers change?</li>
+</ol>
+<h2 id="exercise-21--indexed-family-with-numerical-sets">Exercise 21 : Indexed family with numerical sets<a hidden class="anchor" aria-hidden="true" href="#exercise-21--indexed-family-with-numerical-sets">#</a></h2>
+<p>Let \( I = \{2, 3, 4, 5\} \), and for each \( i \in I \) let \( A_i = \{i+1, i-1\} \).</p>
+<ol>
+<li>List all \( A_i \).</li>
+<li>Find \( \bigcap_{i \in I} A_i \) and \( \bigcup_{i \in I} A_i \).</li>
+<li>What is \( \bigcap_{i \in I} A_i \) if \( I = \mathbb{N} \)?</li>
+</ol>
+<h2 id="exercise-22--historical-indexed-family">Exercise 22 : Historical indexed family<a hidden class="anchor" aria-hidden="true" href="#exercise-22--historical-indexed-family">#</a></h2>
+<p>Let \( P = \{\text{Bach, Napoleon, Goethe, Hume, Newton, Washington}\} \) and \( Y = \{1750, 1751, \dots, 1759\} \). For \( y \in Y \), let \( A_y = \{p \in P \mid p \text{ was alive in year } y\} \).</p>
+<ol>
+<li>Find \( \bigcup_{y \in Y} A_y \) and \( \bigcap_{y \in Y} A_y \).</li>
+<li>What do these represent in historical terms?</li>
+</ol>
+<h2 id="exercise-23--comparing">Exercise 23 : Comparing \( \bigcap_{i \in I} (A_i \cup B_i) \)<a hidden class="anchor" aria-hidden="true" href="#exercise-23--comparing">#</a></h2>
+<p>Let \( I = \{2,3\} \), \( A_i = \{i, 2i\} \), \( B_i = \{i, i+1\} \).</p>
+<ol>
+<li>List \( A_i \) and \( B_i \) for \( i \in I \).</li>
+<li>Find \( \bigcap_{i \in I} (A_i \cup B_i) \) and \( (\bigcap_{i \in I} A_i) \cup (\bigcap_{i \in I} B_i) \). Are they equal?</li>
+<li>Based on your answer, are the logical forms \( x \in \bigcap_{i \in I} (A_i \cup B_i) \) and \( x \in (\bigcap_{i \in I} A_i) \cup (\bigcap_{i \in I} B_i) \) equivalent?</li>
+</ol>
+<h2 id="exercise-24--distributive-laws-for-indexed-families">Exercise 24 : Distributive laws for indexed families<a hidden class="anchor" aria-hidden="true" href="#exercise-24--distributive-laws-for-indexed-families">#</a></h2>
+<ol>
+<li>Analyze the logical forms of:
+\( x \in \bigcup_{i \in I} (A_i \setminus B_i) \)
+\( x \in (\bigcup_{i \in I} A_i) \setminus (\bigcup_{i \in I} B_i) \)
+\( x \in (\bigcup_{i \in I} A_i) \setminus (\bigcap_{i \in I} B_i) \)
+Which pairs are equivalent?</li>
+<li>Let \( I = \{2,3\} \), \( A_i = \{i, 2i\} \), \( B_i = \{i, i+1\} \) compute the three sets above. Does this match your logical analysis?</li>
+</ol>
+<h2 id="exercise-25--counterexample-for-union-distributing-over-intersection">Exercise 25 : Counterexample for union distributing over intersection<a hidden class="anchor" aria-hidden="true" href="#exercise-25--counterexample-for-union-distributing-over-intersection">#</a></h2>
+<p>Give an example of an index set \( I \) and indexed families of sets \( \{A_i \mid i \in I\} \) and \( \{B_i \mid i \in I\} \) such that \( \bigcup_{i \in I} (A_i \cap B_i) \neq (\bigcup_{i \in I} A_i) \cap (\bigcup_{i \in I} B_i) \).</p>
+<h2 id="exercise-26--power-set-and-intersection">Exercise 26 : Power set and intersection<a hidden class="anchor" aria-hidden="true" href="#exercise-26--power-set-and-intersection">#</a></h2>
+<p>Show that for any sets \( A \) and \( B \), the statements \( x \in \mathcal{P}(A \cap B) \) and \( x \in \mathcal{P}(A) \cap \mathcal{P}(B) \) are equivalent.</p>
+<h2 id="exercise-27--power-set-and-union">Exercise 27 : Power set and union<a hidden class="anchor" aria-hidden="true" href="#exercise-27--power-set-and-union">#</a></h2>
+<p>Give examples of sets \( A \) and \( B \) for which \( \mathcal{P}(A \cup B) \neq \mathcal{P}(A) \cup \mathcal{P}(B) \).</p>
+<h2 id="exercise-28--generalized-distributive-and-de-morgan-laws">Exercise 28 : Generalized distributive and De Morgan laws<a hidden class="anchor" aria-hidden="true" href="#exercise-28--generalized-distributive-and-de-morgan-laws">#</a></h2>
+<p>Verify the following identities by writing out what it means for an object \( x \) to be an element of each set and then using logical equivalences:</p>
+<ol>
+<li>\( \bigcup_{i \in I} (A_i \cup B_i) = (\bigcup_{i \in I} A_i) \cup (\bigcup_{i \in I} B_i) \)</li>
+<li>\( \bigcap_{i \in I} (A_i \cap B_i) = (\bigcap_{i \in I} A_i) \cap (\bigcap_{i \in I} B_i) \)</li>
+<li>\( \bigcap_{i \in I} (A_i \setminus B_i) = (\bigcap_{i \in I} A_i) \setminus (\bigcup_{i \in I} B_i) \)</li>
+</ol>
+<h2 id="exercise-29--double-indexed-families">Exercise 29 : Double-indexed families<a hidden class="anchor" aria-hidden="true" href="#exercise-29--double-indexed-families">#</a></h2>
+<p>Use the following definitions: \( I = \{1, 2\} \), \( J = \{3, 4\} \). For each \( i \in I \) and \( j \in J \), let \( A_{i,j} = \{i, j, i+j\} \).</p>
+<ol>
+<li>For each \( j \in J \), let \( B_j = \bigcup_{i \in I} A_{i,j} \). Find \( B_3 \) and \( B_4 \).</li>
+<li>Find \( \bigcap_{j \in J} B_j \).</li>
+<li>Find \( \bigcup_{i \in I} (\bigcap_{j \in J} A_{i,j}) \).</li>
+<li>Analyze the logical forms of \( x \in \bigcap_{j \in J} (\bigcup_{i \in I} A_{i,j}) \) and \( x \in \bigcup_{i \in I} (\bigcap_{j \in J} A_{i,j}) \). Are they equivalent?</li>
+</ol>
+<h2 id="exercise-30--empty-family-of-sets">Exercise 30 : Empty family of sets<a hidden class="anchor" aria-hidden="true" href="#exercise-30--empty-family-of-sets">#</a></h2>
+<ol>
+<li>Show that if \( \mathcal{F} = \emptyset \), then the statement \( x \in \bigcup \mathcal{F} \) will be false no matter what \( x \) is.</li>
+<li>Show that if \( \mathcal{F} = \emptyset \), then the statement \( x \in \bigcap \mathcal{F} \) will be true for all \( x \) in the universe of discourse. Discuss why mathematicians often avoid the notation \( \bigcap \emptyset \).</li>
+</ol>
+<h2 id="exercise-31--russells-paradox">Exercise 31 : Russell’s paradox<a hidden class="anchor" aria-hidden="true" href="#exercise-31--russells-paradox">#</a></h2>
+<p>Suppose \( U \) were the set of all sets. Let \( R = \{A \in U \mid A \notin A\} \).</p>
+<ol>
+<li>Show that applying this definition to \( R \) itself leads to a contradiction (Russell&rsquo;s paradox).</li>
+<li>What does this paradox tell us about the concept of a &ldquo;set of all sets&rdquo;?</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/logic/">Logic</a></li>
+      <li><a href="http://localhost:1313/tags/sets/">Sets</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/logic/en/proof-strategies/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>TITLE</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/logic/en/equivalences-involving-quantifiers/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Equivalences Involving Quantifiers</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

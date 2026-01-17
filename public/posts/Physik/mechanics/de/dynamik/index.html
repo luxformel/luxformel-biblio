@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Dynamik | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Mechanik">
+<meta name="description" content="Dynamik
+Aufgabe 1 : Abgeschlepptes Fahrzeug
+Beim Abschleppen eines Autos besteht die Gefahr, dass das gespannte Zugseil durch ruckartiges Anfahren reißt. Erkläre dieses Phänomen unter Anwendung der Grundgesetze der Dynamik (Trägheitsgesetz, Kraftbegriff). Gehe dabei auch auf die Begriffe „Masse“ und „Trägheit“ ein.
+Aufgabe 2 : Kugel auf einem Spielzeugwagen
+Eine Kugel liegt auf einem Spielzeugwagen. Beschreibe und erkläre die Bewegung der Kugel aus der Sicht eines ruhenden Beobachters
+
+während das Fahrzeug gleichmäßig beschleunigt (Anfahren).
+während das Fahrzeug mit konstanter Geschwindigkeit fährt.
+während das Fahrzeug bremst.
+während das Fahrzeug eine Kurve fährt.
+
+Verwende in deiner Erklärung die Begriffe Trägheitssatz, Kräftegleichgewicht und Zentripetalkraft.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/physik/mechanics/de/dynamik/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/physik/mechanics/de/dynamik/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Dynamik">
+  <meta property="og:description" content="Dynamik Aufgabe 1 : Abgeschlepptes Fahrzeug Beim Abschleppen eines Autos besteht die Gefahr, dass das gespannte Zugseil durch ruckartiges Anfahren reißt. Erkläre dieses Phänomen unter Anwendung der Grundgesetze der Dynamik (Trägheitsgesetz, Kraftbegriff). Gehe dabei auch auf die Begriffe „Masse“ und „Trägheit“ ein.
+Aufgabe 2 : Kugel auf einem Spielzeugwagen Eine Kugel liegt auf einem Spielzeugwagen. Beschreibe und erkläre die Bewegung der Kugel aus der Sicht eines ruhenden Beobachters
+während das Fahrzeug gleichmäßig beschleunigt (Anfahren). während das Fahrzeug mit konstanter Geschwindigkeit fährt. während das Fahrzeug bremst. während das Fahrzeug eine Kurve fährt. Verwende in deiner Erklärung die Begriffe Trägheitssatz, Kräftegleichgewicht und Zentripetalkraft.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-13T01:26:04+01:00">
+    <meta property="article:modified_time" content="2026-01-13T01:26:04+01:00">
+    <meta property="article:tag" content="Mechanik">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Dynamik">
+<meta name="twitter:description" content="Dynamik
+Aufgabe 1 : Abgeschlepptes Fahrzeug
+Beim Abschleppen eines Autos besteht die Gefahr, dass das gespannte Zugseil durch ruckartiges Anfahren reißt. Erkläre dieses Phänomen unter Anwendung der Grundgesetze der Dynamik (Trägheitsgesetz, Kraftbegriff). Gehe dabei auch auf die Begriffe „Masse“ und „Trägheit“ ein.
+Aufgabe 2 : Kugel auf einem Spielzeugwagen
+Eine Kugel liegt auf einem Spielzeugwagen. Beschreibe und erkläre die Bewegung der Kugel aus der Sicht eines ruhenden Beobachters
+
+während das Fahrzeug gleichmäßig beschleunigt (Anfahren).
+während das Fahrzeug mit konstanter Geschwindigkeit fährt.
+während das Fahrzeug bremst.
+während das Fahrzeug eine Kurve fährt.
+
+Verwende in deiner Erklärung die Begriffe Trägheitssatz, Kräftegleichgewicht und Zentripetalkraft.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Dynamik",
+      "item": "http://localhost:1313/posts/physik/mechanics/de/dynamik/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Dynamik",
+  "name": "Dynamik",
+  "description": "Dynamik Aufgabe 1 : Abgeschlepptes Fahrzeug Beim Abschleppen eines Autos besteht die Gefahr, dass das gespannte Zugseil durch ruckartiges Anfahren reißt. Erkläre dieses Phänomen unter Anwendung der Grundgesetze der Dynamik (Trägheitsgesetz, Kraftbegriff). Gehe dabei auch auf die Begriffe „Masse“ und „Trägheit“ ein.\nAufgabe 2 : Kugel auf einem Spielzeugwagen Eine Kugel liegt auf einem Spielzeugwagen. Beschreibe und erkläre die Bewegung der Kugel aus der Sicht eines ruhenden Beobachters\nwährend das Fahrzeug gleichmäßig beschleunigt (Anfahren). während das Fahrzeug mit konstanter Geschwindigkeit fährt. während das Fahrzeug bremst. während das Fahrzeug eine Kurve fährt. Verwende in deiner Erklärung die Begriffe Trägheitssatz, Kräftegleichgewicht und Zentripetalkraft.\n",
+  "keywords": [
+    "Mechanik"
+  ],
+  "articleBody": "Dynamik Aufgabe 1 : Abgeschlepptes Fahrzeug Beim Abschleppen eines Autos besteht die Gefahr, dass das gespannte Zugseil durch ruckartiges Anfahren reißt. Erkläre dieses Phänomen unter Anwendung der Grundgesetze der Dynamik (Trägheitsgesetz, Kraftbegriff). Gehe dabei auch auf die Begriffe „Masse“ und „Trägheit“ ein.\nAufgabe 2 : Kugel auf einem Spielzeugwagen Eine Kugel liegt auf einem Spielzeugwagen. Beschreibe und erkläre die Bewegung der Kugel aus der Sicht eines ruhenden Beobachters\nwährend das Fahrzeug gleichmäßig beschleunigt (Anfahren). während das Fahrzeug mit konstanter Geschwindigkeit fährt. während das Fahrzeug bremst. während das Fahrzeug eine Kurve fährt. Verwende in deiner Erklärung die Begriffe Trägheitssatz, Kräftegleichgewicht und Zentripetalkraft.\nAufgabe 3 : Kräfte und Gegenkräfte Ein Buch mit einer Masse von 510 g liegt ruhig auf einem horizontalen Tisch.\nZeichne ein vollständiges, beschriftetes Kräftediagramm (freier Körper) für das Buch. Wähle einen sinnvollen Kräftemaßstab. Kennzeichne in deiner Zeichnung alle Kräfte, die auf das Buch wirken (Angriffspunkt, Richtung, Bezeichnung). Gib für jede dieser Kräfte das dazugehörige Wechselwirkungspaar (Actio = Reactio) an. Beschreibe präzise: Auf welchen Körper wirkt die Gegenkraft? Von welchem Körper geht sie aus? Aufgabe 4 : Gleichförmig fliegendes Flugzeug Ein Flugzeug fliegt horizontal mit konstanter Geschwindigkeit und konstanter Flughöhe.\nFertige ein vollständiges, beschriftetes Kräftediagramm für das Flugzeug an. Erläutere die physikalische Bedeutung jeder eingezeichneten Kraft und erkläre, warum das Flugzeug trotz der auf es wirkenden Kräfte eine konstante Geschwindigkeit beibehält. Aufgabe 5 : Rückstoßprinzip Erkläre detailliert den Rückstoß (Raketenprinzip) beim Abfeuern einer Kugel aus einem Gewehr.\nBeschreibe die Kräfte, die auf das Projektil und auf das Gewehr wirken. Erkläre die daraus resultierenden Bewegungen unter Bezugnahme auf den Impulserhaltungssatz. Begründe, warum die Rückstoßgeschwindigkeit der Waffe viel kleiner ist als die Mündungsgeschwindigkeit des Projektils. Aufgabe 6 : Trägheit einer Flüssigkeit Eine mit Wasser gefüllte Schüssel steht zunächst in Ruhe auf einem Tisch. Plötzlich wird sie ruckartig nach rechts beschleunigt.\nFertige eine Skizze der Situation während dieser Beschleunigungsphase an. Markiere in der Skizze, wo das Wasser höchstwahrscheinlich überschwappen wird, und begründe deine Aussage. Erkläre das Phänomen mit dem Trägheitsgesetz. Aufgabe 7 : Start einer Rakete Beschreibe und erkläre den Startvorgang einer Rakete von der Startplattform bis in den freien Flug.\nNenne und beschreibe alle relevanten Kräfte, die während der Startphase auf die Rakete wirken. Erkläre das Prinzip des Raketenantriebs (Aktionsprinzip) und seine Bedeutung für die Beschleunigung. Beschreibe, wie sich das Kräfteverhältnis während des Aufstiegs durch den Treibstoffverbrauch und die abnehmende Luftdichte ändert. Aufgabe 8 : Voyager II – Bewegung im Weltraum Die Raumsonde Voyager II wurde am 20. August 1977 gestartet und hatte am 1. Juli 2014 eine Entfernung von etwa 15,7 Milliarden Kilometern von der Sonne erreicht.\nErkläre das physikalische Prinzip, das es der Sonde ermöglicht hat, diese enorme Strecke zurückzulegen, ohne dass ihr Antrieb permanent arbeitet. Diskutiere die Rolle der Anfangsbeschleunigung und der Gravitationskräfte der Planeten (Gravitationsschleuder-Effekt) für ihre Reise. Aufgabe 9 : Bremsvorgang eines Autos Ein Auto (Masse \\( m = 800 \\, \\text{kg} \\)) fährt mit einer konstanten Geschwindigkeit von \\( v = 108 \\, \\text{km/h} \\).\nBerechne die erforderliche (konstante) Bremskraft \\( F_B \\), um das Auto in einer Zeit von \\( \\Delta t = 15 \\, \\text{s} \\) zum Stillstand zu bringen. Berechne zusätzlich den Bremsweg \\( s \\). Aufgabe 10 : Start eines Flugzeugs Ein Flugzeug (Masse \\( m = 10 \\, \\text{t} \\)) wird aus dem Stand heraus beschleunigt und erreicht nach \\( t = 30 \\, \\text{s} \\) seine Startgeschwindigkeit von \\( v = 216 \\, \\text{km/h} \\).\nBerechne die erforderliche (konstante) Schubkraft \\( F_S \\) der Triebwerke unter Vernachlässigung von Reibung und Luftwiderstand. Berechne die nun erforderliche Schubkraft, wenn ein konstanter Luftwiderstand von \\( F_W = 1000 \\, \\text{N} \\) berücksichtigt wird. Berechne für beide Fälle (mit und ohne Luftwiderstand) die minimale Länge \\( s \\) der benötigten Startbahn. Aufgabe 11 : Bremsendes Schiff Ein Schiff (Masse \\( m = 10.000 \\, \\text{t} \\)) bewegt sich mit einer Geschwindigkeit von \\( v = 18 \\, \\text{km/h} \\). Es wird mit einer konstanten Bremskraft von \\( F_B = 100 \\, \\text{kN} \\) abgebremst.\nBerechne die Zeit \\( \\Delta t \\), die benötigt wird, um das Schiff bis zum Stillstand abzubremsen. Vernachlässige andere Kräfte wie Wasserwiderstand. Berechne den Bremsweg \\( s \\). Aufgabe 12 : Auto auf geneigter Straße Ein Auto (Masse \\( m = 1000 \\, \\text{kg} \\)) steht auf einer Straße, die gegenüber der Horizontalen um \\( \\alpha = 10^\\circ \\) geneigt ist. Plötzlich löst sich die Handbremse. Alle Reibungskräfte werden vernachlässigt.\nFertige eine beschriftete Skizze an und trage alle auf das Auto wirkenden Kräfte ein. Zerlege die Gewichtskraft in ihre Komponenten parallel und senkrecht zur schiefen Ebene. Berechne die Beschleunigung \\( a \\) des Autos entlang der Straße. Berechne die Geschwindigkeit \\( v \\) des Autos, nachdem es eine Strecke von \\( s = 10 \\, \\text{m} \\) zurückgelegt hat. Aufgabe 13 : Zwei Schleppschiffe Zwei Schleppschiffe ziehen ein Kreuzfahrtschiff (Masse \\( m_K = 150.000 \\, \\text{t} \\)) aus dem Hafen. Die Schleppkräfte betragen \\( F_1 = 200 \\, \\text{kN} \\) und \\( F_2 = 250 \\, \\text{kN} \\). Die Schleppseile schließen jeweils einen Winkel von \\( \\beta = 20^\\circ \\) mit der Bewegungsrichtung des Kreuzfahrtschiffes ein.\nBerechne die resultierende Kraft \\( F_{res} \\) in Bewegungsrichtung. Berechne die Zeit \\( \\Delta t \\), die benötigt wird, um das Kreuzfahrtschiff aus der Ruhe eine Strecke von \\( s = 2 \\, \\text{km} \\) zu ziehen. Gehe von einer konstanten Beschleunigung aus. Berechne die Endgeschwindigkeit \\( v \\), die das Kreuzfahrtschiff nach dieser Strecke erreicht hat. Aufgabe 14 : Atwoodsche Fallmaschine An einer über eine Rolle geführten, masselosen Schnur hängen zwei Körper mit den Massen \\( m_1 = 5 \\, \\text{kg} \\) und \\( m_2 = 15 \\, \\text{kg} \\). Die Rolle und die Schnur sind masselos und reibungsfrei.\nFertige eine Skizze an und trage alle wirkenden Kräfte für beide Körper ein. Stelle die Bewegungsgleichungen für beide Körper auf. Berechne die Beschleunigung \\( a \\) des Systems und die Zugkraft \\( F_Z \\) in der Schnur. Aufgabe 15 : Impuls und Kraft beim Baseball (Korrektur der Nummerierung) Berechne den Betrag der jeweils konstant angenommenen Kraft, die auf einen Baseball (Masse \\( m = 150 \\, \\text{g} \\)) wirkt:\nBeim Wurf: Der Ball wird auf einer Strecke von \\( s = 2 \\, \\text{m} \\) auf eine Geschwindigkeit von \\( v = 25 \\, \\text{m/s} \\) beschleunigt. Beim Schlag: Ein Schläger kehrt die Bewegungsrichtung des ankommenden Balles um und beschleunigt ihn in \\( \\Delta t = 5 \\, \\text{ms} \\) auf \\( v = 35 \\, \\text{m/s} \\) in die Gegenrichtung. (Hinweis: Berücksichtige die Impulsänderung.) Beim Fang: Ein Fänger fängt den Ball, wobei seine Hand mit dem Handschuh um \\( s = 15 \\, \\text{cm} \\) nachgibt. Der Ball wird dabei von \\( v = 20 \\, \\text{m/s} \\) auf 0 abgebremst. Aufgabe 16 : Aufzugsfahrt (Korrektur der Nummerierung) Die Kabine eines Aufzugs hat eine Masse von \\( m_K = 350 \\, \\text{kg} \\). Zusätzlich befinden sich zwei Personen mit je \\( m_P = 70 \\, \\text{kg} \\) darin. Die Gesamtmasse beträgt also \\( m_{ges} = 490 \\, \\text{kg} \\).\nBeschleunigungsphase nach oben: Zum Anfahren wirkt 5 Sekunden lang eine nach oben gerichtete Kraft \\( F = 5,1 \\, \\text{kN} \\) (von Seil auf Kabine). Berechne die Beschleunigung \\( a_1 \\) der Kabine. Berechne die erreichte Geschwindigkeit \\( v \\) am Ende dieser Phase. Konstante Fahrt nach oben: Die Kabine fährt 60 Sekunden lang mit konstanter Geschwindigkeit. Welche Kraft ist nun nötig? Begründe deine Antwort mit dem ersten newtonschen Gesetz. Bremsphase: Die Kabine wird nun beim Anhalten nach oben in \\( \\Delta t = 1,8 \\, \\text{s} \\) auf \\( v = 0 \\) abgebremst. Berechne die hierfür notwendige (konstante) Kraft \\( F_{Br} \\), die vom Seil auf die Kabine ausgeübt wird. Zusatzaufgabe: Skizziere qualitativ den Verlauf der Seilkraft über die gesamte Fahrt (beschleunigen, konstant fahren, bremsen). Aufgabe 17 : Aufzug Die Kabine eines Aufzugs hat eine Masse von 350 $kg$. Es fahren 2 Personen mit je einer Masse von 70 $kg$ im Aufzug.\nUm die Kabine in Bewegung zu setzen, wirkt während 5 $s$ eine Kraft von 5,1 $kN$ nach oben. Berechne die Beschleunigung der Kabine und die Geschwindigkeit, welche die Kabine erreicht! Die Kabine bewegt sich dann während einer Minute mit konstanter Geschwindigkeit nach oben. Welche Kraft ist hierzu nötig? Begründe die Antwort! Berechne den Betrag der Kraft, welche auf den Aufzug wirken muss, damit dieser in 1,8 $s$ zum Stillstand kommt. Hier ist eine überarbeitete und erweiterte Version der Aufgaben, die die Themen vertieft, präzisiert und die Sprache klarer formuliert, während das ursprüngliche Layout weitgehend beibehalten wurde.\nAufgabe 18 : Güterzug auf geneigter Strecke Ein Güterzug mit einer Masse von \\( m = 625 \\, \\text{t} \\) fährt auf einer Strecke mit konstanter Neigung bergab. Die Strecke ist um \\( \\alpha = 0{,}5^\\circ \\) gegenüber der Horizontalen geneigt. Der Zugführer bremst permanent, sodass der Zug mit einer konstanten Geschwindigkeit von \\( v = 10{,}8 \\, \\frac{\\text{km}}{\\text{h}} \\) fährt.\nFertige eine klare, beschriftete Skizze des Zuges auf der schiefen Ebene an und trage alle auf den Zug wirkenden Kräfte mit ihren Richtungen ein! Erläutere kurz, warum es sich um eine gleichförmige Bewegung handelt. Stelle die Gleichgewichtsbedingung der Kräfte in Fahrtrichtung auf und bestimme den Betrag der Bremskraft \\( F_B \\) in Newton! Der Zugführer löst die Bremse komplett. Bestimme die Beschleunigung \\( a \\) des Zuges, mit der er nun bergab rollt! (Hinweis: Reibung zwischen Rad und Schiene wird vernachlässigt.) Aufgabe 19 : Beschleunigung eines Wagens Ein Wagen der Masse \\( m = 2 \\, \\text{t} \\) soll auf einer waagerechten Straße aus dem Stand mit einer konstanten Beschleunigung von \\( a = 0{,}4 \\, \\frac{\\text{m}}{\\text{s}^2} \\) anfahren.\nBerechne die dafür erforderliche resultierende Kraft \\( F \\) in Newton! Erkläre kurz, ob dies auch die Kraft ist, die der Motor aufbringen muss, wenn Reibungskräfte vernachlässigt werden. Aufgabe 20 : Unterschiedliche Massen unter gleicher Kraft Auf zwei Körper mit den Massen \\( m_1 = 200 \\, \\text{kg} \\) und \\( m_2 = 300 \\, \\text{kg} \\) wirkt jeweils die gleiche konstante Beschleunigungskraft von \\( F = 50 \\, \\text{N} \\).\nBerechne die Beschleunigungen \\( a_1 \\) und \\( a_2 \\)** der beiden Körper! Bestimme die theoretischen Endgeschwindigkeiten \\( v_1 \\) und \\( v_2 \\)** nach einer Wirkdauer von \\( t = 1 \\, \\text{min} \\), wenn sie aus der Ruhe starten. Berechne die in dieser Zeit zurückgelegten Strecken \\( s_1 \\) und \\( s_2 \\)**! Begründe mit deinen Ergebnissen den Zusammenhang zwischen Masse und Beschleunigung bei konstanter Kraft. Aufgabe 21 : Bewegungsphasen eines Laufkrans Ein elektrisch angetriebener Laufkran hat eine Masse von \\( m = 3{,}5 \\, \\text{t} \\). Er startet aus dem Stand und fährt gleichmäßig beschleunigt an. Nach einer Zeit von \\( t_1 = 3 \\, \\text{s} \\) erreicht er eine Geschwindigkeit von \\( v_1 = 2 \\, \\frac{\\text{m}}{\\text{s}} \\). Anschließend fährt er gleichförmig mit dieser Geschwindigkeit für \\( t_2 = 0{,}5 \\, \\text{min} \\) weiter. Alle Reibungskräfte werden vernachlässigt.\nBerechne die Beschleunigung \\( a \\) in der ersten Phase und daraus die beschleunigende Kraft \\( F \\) des Motors! Begründe, welche Kraft (theoretisch) während der gleichförmigen Fahrt aufgebracht werden muss. Berechne die gesamte Strecke \\( s_{\\text{ges}} \\), die der Kran vom Stillstand aus bis zum Ende der gleichförmigen Phase zurückgelegt hat! Aufgabe 22 : Beschleunigung eines Motorrads Ein Motorrad der Masse \\( m = 150 \\, \\text{kg} \\) wird auf waagerechter Straße von einer Geschwindigkeit \\( v_1 = 30 \\, \\frac{\\text{km}}{\\text{h}} \\) auf \\( v_2 = 120 \\, \\frac{\\text{km}}{\\text{h}} \\) beschleunigt. Dieser Vorgang dauert \\( \\Delta t = 8 \\, \\text{s} \\).\nRechne die Geschwindigkeiten in \\( \\frac{\\text{m}}{\\text{s}} \\) um und berechne die mittlere Beschleunigung \\( a \\)! Berechne die für diese Beschleunigung erforderliche (resultierende) Kraft \\( F \\)! (Hinweis: Reibung wird hier vernachlässigt.) Aufgabe 23 : Elfmeter – Kraft und Impuls Ein Fußballspieler schießt einen Elfmeter. Der Fußball hat eine Masse von \\( m = 430 \\, \\text{g} \\). Der Spieler beschleunigt den Ball dabei mit dem \\( 12 \\)-fachen der Erdbeschleunigung.\nBerechne, mit welcher mittleren Kraft \\( F \\) der Spieler auf den Ball einwirkt! Die Einwirkzeit (Kontaktzeit zwischen Schuh und Ball) beträgt \\( \\Delta t = 250 \\, \\text{ms} \\). Berechne die Endgeschwindigkeit \\( v \\) des Balles unter der Annahme, dass der Ball aus der Ruhe startet! (Tipp: Nutze den Zusammenhang zwischen Kraft, Zeit und Impulsänderung.) Aufgabe 24 : Trägheit in der Schwerelosigkeit Erkläre das physikalische Prinzip, mit dem man im schwerelosen Umfeld eines Weltraumlabors eine leere von einer vollen Coladose (beide ungeöffnet) unterscheiden kann, ohne sie zu wiegen. (Hinweis: Denke an die Eigenschaft der Masse, sich Änderungen des Bewegungszustands zu widersetzen.)\nAufgabe 25 : Golfschlag – Extremkurzer Kraftstoß Ein Golfspieler schlägt einen Ball der Masse \\( m = 47 \\, \\text{g} \\) ab. Dabei wirkt eine mittlere Kraft von \\( F = 6{,}0 \\, \\text{kN} \\) auf den Ball. Die Kontaktzeit zwischen Schläger und Ball beträgt nur \\( \\Delta t = 0{,}50 \\, \\text{ms} \\).\nBerechne die auf den Ball übertragene Impulsänderung! Bestimme daraus die Abschlaggeschwindigkeit \\( v \\) des Balles in \\( \\frac{\\text{km}}{\\text{h}} \\)! (Der Ball startet aus der Ruhe.) Aufgabe 26 : Zugbeschleunigung mit unterschiedlicher Last Eine Lokomotive der Masse \\( m_L = 200 \\, \\text{t} \\) kann eine maximale Antriebskraft von \\( F = 200 \\, \\text{kN} \\) auf die Schienen übertragen. Sie zieht zunächst \\( 8 \\) Waggons von jeweils \\( m_W = 40 \\, \\text{t} \\).\nBerechne die Beschleunigung \\( a_1 \\) des vollständigen Zuges beim Anfahren aus dem Stand! Berechne die theoretische Geschwindigkeit \\( v_1 \\) nach einer Beschleunigungsdauer von \\( t = 1 \\, \\text{min} \\)! Nun werden 6 weitere Waggons des gleichen Typs angekoppelt. Berechne erneut die Beschleunigung \\( a_2 \\) und die nach einer Minute erreichte Geschwindigkeit \\( v_2 \\)! Aufgabe 27 : Masse und Beschleunigung im Vergleich Eine Kraft von \\( F = 7{,}6 \\, \\text{N} \\) erteilt einem Körper der (unbekannten) Masse \\( m_1 \\) eine Beschleunigung von \\( a_1 = 5{,}7 \\, \\frac{\\text{m}}{\\text{s}^2} \\). Einem anderen Körper der Masse \\( m_2 \\) erteilt dieselbe Kraft eine Beschleunigung von \\( a_2 = 19{,}6 \\, \\frac{\\text{m}}{\\text{s}^2} \\).\nBerechne die beiden Massen \\( m_1 \\) und \\( m_2 \\)**! Die beiden Körper werden zu einem neuen Körper der Masse \\( M = m_1 + m_2 \\) verbunden. Welche Beschleunigung \\( a_3 \\) erfährt dieser Körper, wenn dieselbe Kraft \\( F \\) wirkt? Berechne die Geschwindigkeit \\( v_3 \\), die dieser vereinte Körper aus der Ruhe nach \\( t = 15 \\, \\text{s} \\) Beschleunigung erreicht! Aufgabe 28 : Start eines Airbus A380 Ein voll beladener Airbus A380 hat eine Startmasse von \\( m = 560 \\, \\text{t} \\). Zum Abheben beschleunigt er auf einer Strecke von \\( s = 3 \\, \\text{km} \\). Dabei wirkt eine konstante Beschleunigungskraft (Schub) von \\( F = 312 \\, \\text{kN} \\).\nBerechne die Beschleunigung \\( a \\) des Flugzeugs während des Starts! Berechne die Geschwindigkeit \\( v \\), die es am Ende der Startbahn erreicht! Gehe von einem Start aus dem Stand aus. Aufgabe 29 : Bremsweg eines Autos Ein Auto der Masse \\( m = 600 \\, \\text{kg} \\) wird auf einer Strecke von \\( s = 50 \\, \\text{m} \\) durch eine konstante Bremskraft von \\( F = 900 \\, \\text{N} \\) bis zum Stillstand abgebremst.\nBerechne die Verzögerung (negative Beschleunigung) \\( a \\)! Bestimme die Anfangsgeschwindigkeit \\( v_0 \\) des Autos in \\( \\frac{\\text{m}}{\\text{s}} \\) und \\( \\frac{\\text{km}}{\\text{h}} \\). Aufgabe 30 : Crashtest – Frontalaufprall Bei einem Crashtest prallt ein Pkw mit einer Geschwindigkeit von \\( v_0 = 90 \\, \\frac{\\text{km}}{\\text{h}} \\) frontal gegen eine feste Betonwand. Die Knautschzone des Fahrzeugs wird dabei um \\( s = 25 \\, \\text{cm} \\) deformiert, bis der Wagen zum Stillstand kommt.\nBerechne die (konstante) Verzögerung \\( a \\) während des Abbruchs! (Hinweis: Es handelt sich um eine gleichmäßig verzögerte Bewegung bis zum Stillstand.) Welche (Brems-)Kraft \\( F_S \\) muss der Sicherheitsgurt auf einen Fahrer der Masse \\( m_F = 80 \\, \\text{kg} \\) ausüben, um ihn mit dieser Verzögerung abzubremsen? Aufgabe 31 : Beschleunigung über eine gegebene Strecke Ein Auto (\\( m = 600 \\, \\text{kg} \\)) soll auf einer Strecke von \\( s = 150 \\, \\text{m} \\) von \\( v_1 = 10 \\, \\frac{\\text{m}}{\\text{s}} \\) auf \\( v_2 = 40 \\, \\frac{\\text{m}}{\\text{s}} \\) beschleunigt werden.\nBerechne die hierfür notwendige konstante Beschleunigung \\( a \\)! Bestimme die erforderliche Zeit \\( t \\) für diesen Vorgang! Berechne die dazu notwendige konstante (resultierende) Kraft \\( F \\) des Motors! (Reibung vernachlässigt) Aufgabe 32 : Abbremsen durch konstante Bremskraft Durch eine konstante Bremskraft \\( F \\) wird die Geschwindigkeit eines Autos (\\( m = 800 \\, \\text{kg} \\)) innerhalb von \\( t = 5 \\, \\text{s} \\) von \\( v_1 = 90 \\, \\frac{\\text{km}}{\\text{h}} \\) auf \\( v_2 = 60 \\, \\frac{\\text{km}}{\\text{h}} \\) verringert.\nBerechne die Verzögerung \\( a \\) in \\( \\frac{\\text{m}}{\\text{s}^2} \\). Bestimme den Betrag der wirkenden konstanten Bremskraft \\( F \\). Aufgabe 33 : Start einer Saturn-V-Rakete Die Saturn-V-Rakete hatte eine Startmasse von \\( m = 2{,}7 \\cdot 10^6 \\, \\text{kg} \\). Ihre Triebwerke erzeugten eine (Schub-)Kraft von \\( F = 3{,}3 \\cdot 10^7 \\, \\text{N} \\).\nBerechne die anfängliche Beschleunigung \\( a \\) der Rakete direkt beim Abheben von der Startrampe! Diskutiere kurz: Warum wird diese Beschleunigung im weiteren Flug größer, obwohl der Schub konstant bleibt? Aufgabe 34 : Seife auf schiefer Ebene (ohne Reibung) Eine Seife der Masse \\( m = 50 \\, \\text{g} \\) gleitet reibungsfrei eine Ebene hinunter, die um \\( \\alpha = 15^\\circ \\) zur Horizontalen geneigt ist.\nFertige eine Kräfteskizze an und bestimme die Beschleunigung \\( a \\) der Seife! Bestimme die Kraft \\( F_N \\), mit der die Seife auf die Ebene drückt (Normalkraft/Bodendruckkraft). Aufgabe 35 : Rollerblader auf geneigter Ebene (ohne Reibung) Eine Person (\\( m = 30 \\, \\text{kg} \\)) fährt mit Inlinern eine um \\( \\alpha = 10^\\circ \\) geneigte Ebene bergauf. Ihre Anfangsgeschwindigkeit beträgt \\( v_0 = 15 \\, \\frac{\\text{km}}{\\text{h}} \\). Sie macht keine weiteren Antriebsbewegungen. Reibung wird vernachlässigt.\nBestimme die Beschleunigung \\( a \\) der Person. Berechne, nach welcher Strecke \\( s \\) die Person zum Stillstand kommt. Berechne die Zeit \\( t \\) bis zum Stillstand. Aufgabe 36 : Beschleunigung unter verschiedenen Bedingungen Ein Auto (\\( m = 850 \\, \\text{kg} \\)) beschleunigt von \\( v_1 = 72 \\, \\frac{\\text{km}}{\\text{h}} \\) auf \\( v_2 = 90 \\, \\frac{\\text{km}}{\\text{h}} \\). Dies dauert \\( \\Delta t = 5 \\, \\text{s} \\).\nBestimme jeweils die hierfür notwendige konstante Antriebskraft \\( F_A \\) (Kraft in Fahrtrichtung), die der Motor aufbringen muss, in folgenden Fällen:\nDie Straße ist waagerecht und reibungsfrei. Das Auto beschleunigt bergauf auf einer Straße mit \\( 15^\\circ \\) Neigung, jedoch immer noch ohne Reibung. Das Auto beschleunigt bergauf (\\( 15^\\circ \\)) und es wirkt eine zusätzliche, konstante Reibungskraft von \\( F_R = 1500 \\, \\text{N} \\) (z.B. aus Roll- und Luftwiderstand). Aufgabe 37 : Fahrradfahrer – Antrieb und Gefälle Ein Fahrradfahrer startet auf horizontaler Straße aus dem Stand und erreicht nach \\( t_1 = 20 \\, \\text{s} \\) eine Geschwindigkeit von \\( v_1 = 36 \\, \\frac{\\text{km}}{\\text{h}} \\).\nBerechne seine (mittlere) Beschleunigung \\( a_1 \\). Die Gesamtmasse aus Fahrer und Rad beträgt \\( m = 95 \\, \\text{kg} \\). Dem Beschleunigen wirkt eine konstante Widerstandskraft (Reibung, Luft) von \\( F_W = 40 \\, \\text{N} \\) entgegen. Welche Antriebskraft \\( F_A \\) muss der Fahrer im Mittel aufbringen? Nun fährt der Fahrer ohne zu treten (also antriebslos) eine geneigte Ebene hinunter. Ohne Anfangsgeschwindigkeit legt er \\( s = 200 \\, \\text{m} \\) zurück und erreicht dabei eine Geschwindigkeit von \\( v_2 = 10 \\, \\frac{\\text{m}}{\\text{s}} \\). Berechne den Neigungswinkel \\( \\alpha \\) der Ebene! (Reibung wird hier vernachlässigt.) Aufgabe 38 : Auto in der Steigung mit und ohne Antrieb Ein Auto (\\( m = 0{,}8 \\, \\text{t} \\)) fährt mit konstanter Geschwindigkeit von \\( v = 60 \\, \\frac{\\text{km}}{\\text{h}} \\) eine Steigung hinauf. Die Steigung beträgt 10% (d.h. ein Höhenunterschied von \\( 10 \\, \\text{m} \\) auf einer Strecke von \\( 100 \\, \\text{m} \\)). Eine konstante Reibungskraft (Roll- und Luftwiderstand) von \\( F_R = 500 \\, \\text{N} \\) wirkt der Bewegung entgegen.\nFertige ein vollständiges Kräftebild für das Auto an und benenne alle wirkenden Kräfte. Berechne die Motorkraft \\( F_M \\), die notwendig ist, um diese gleichförmige Bergfahrt zu ermöglichen. Nun nimmt der Fahrer den Fuß vom Gaspedal (\\( F_M = 0 \\)). Bestimme die nun wirkende Beschleunigung \\( a \\) (Verzögerung) des Autos. Berechne, nach welcher Strecke \\( s \\) das Auto bergauf zum Stillstand kommt (unter der Annahme, dass die Reibungskraft konstant bleibt). ",
+  "wordCount" : "3409",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-13T01:26:04+01:00",
+  "dateModified": "2026-01-13T01:26:04+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/physik/mechanics/de/dynamik/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Dynamik
+    </h1>
+    <div class="post-meta"><span title='2026-01-13 01:26:04 +0100 CET'>Januar 13, 2026</span>&nbsp;·&nbsp;<span>3409 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#aufgabe-1--abgeschlepptes-fahrzeug">Aufgabe 1 : Abgeschlepptes Fahrzeug</a></li>
+    <li><a href="#aufgabe-2--kugel-auf-einem-spielzeugwagen">Aufgabe 2 : Kugel auf einem Spielzeugwagen</a></li>
+    <li><a href="#aufgabe-3--kräfte-und-gegenkräfte">Aufgabe 3 : Kräfte und Gegenkräfte</a></li>
+    <li><a href="#aufgabe-4--gleichförmig-fliegendes-flugzeug">Aufgabe 4 : Gleichförmig fliegendes Flugzeug</a></li>
+    <li><a href="#aufgabe-5--rückstoßprinzip">Aufgabe 5 : Rückstoßprinzip</a></li>
+    <li><a href="#aufgabe-6--trägheit-einer-flüssigkeit">Aufgabe 6 : Trägheit einer Flüssigkeit</a></li>
+    <li><a href="#aufgabe-7--start-einer-rakete">Aufgabe 7 : Start einer Rakete</a></li>
+    <li><a href="#aufgabe-8--voyager-ii--bewegung-im-weltraum">Aufgabe 8 : Voyager II – Bewegung im Weltraum</a></li>
+    <li><a href="#aufgabe-9--bremsvorgang-eines-autos">Aufgabe 9 : Bremsvorgang eines Autos</a></li>
+    <li><a href="#aufgabe-10--start-eines-flugzeugs">Aufgabe 10 : Start eines Flugzeugs</a></li>
+    <li><a href="#aufgabe-11--bremsendes-schiff">Aufgabe 11 : Bremsendes Schiff</a></li>
+    <li><a href="#aufgabe-12--auto-auf-geneigter-straße">Aufgabe 12 : Auto auf geneigter Straße</a></li>
+    <li><a href="#aufgabe-13--zwei-schleppschiffe">Aufgabe 13 : Zwei Schleppschiffe</a></li>
+    <li><a href="#aufgabe-14--atwoodsche-fallmaschine">Aufgabe 14 : Atwoodsche Fallmaschine</a></li>
+    <li><a href="#aufgabe-15--impuls-und-kraft-beim-baseball-korrektur-der-nummerierung">Aufgabe 15 : Impuls und Kraft beim Baseball (Korrektur der Nummerierung)</a></li>
+    <li><a href="#aufgabe-16--aufzugsfahrt-korrektur-der-nummerierung">Aufgabe 16 : Aufzugsfahrt (Korrektur der Nummerierung)</a></li>
+    <li><a href="#aufgabe-17--aufzug">Aufgabe 17 : Aufzug</a></li>
+    <li><a href="#aufgabe-18--güterzug-auf-geneigter-strecke">Aufgabe 18 : Güterzug auf geneigter Strecke</a></li>
+    <li><a href="#aufgabe-19--beschleunigung-eines-wagens">Aufgabe 19 : Beschleunigung eines Wagens</a></li>
+    <li><a href="#aufgabe-20--unterschiedliche-massen-unter-gleicher-kraft">Aufgabe 20 : Unterschiedliche Massen unter gleicher Kraft</a></li>
+    <li><a href="#aufgabe-21--bewegungsphasen-eines-laufkrans">Aufgabe 21 : Bewegungsphasen eines Laufkrans</a></li>
+    <li><a href="#aufgabe-22--beschleunigung-eines-motorrads">Aufgabe 22 : Beschleunigung eines Motorrads</a></li>
+    <li><a href="#aufgabe-23--elfmeter--kraft-und-impuls">Aufgabe 23 : Elfmeter – Kraft und Impuls</a></li>
+    <li><a href="#aufgabe-24--trägheit-in-der-schwerelosigkeit">Aufgabe 24 : Trägheit in der Schwerelosigkeit</a></li>
+    <li><a href="#aufgabe-25--golfschlag--extremkurzer-kraftstoß">Aufgabe 25 : Golfschlag – Extremkurzer Kraftstoß</a></li>
+    <li><a href="#aufgabe-26--zugbeschleunigung-mit-unterschiedlicher-last">Aufgabe 26 : Zugbeschleunigung mit unterschiedlicher Last</a></li>
+    <li><a href="#aufgabe-27--masse-und-beschleunigung-im-vergleich">Aufgabe 27 : Masse und Beschleunigung im Vergleich</a></li>
+    <li><a href="#aufgabe-28--start-eines-airbus-a380">Aufgabe 28 : Start eines Airbus A380</a></li>
+    <li><a href="#aufgabe-29--bremsweg-eines-autos">Aufgabe 29 : Bremsweg eines Autos</a></li>
+    <li><a href="#aufgabe-30--crashtest--frontalaufprall">Aufgabe 30 : Crashtest – Frontalaufprall</a></li>
+    <li><a href="#aufgabe-31--beschleunigung-über-eine-gegebene-strecke">Aufgabe 31 : Beschleunigung über eine gegebene Strecke</a></li>
+    <li><a href="#aufgabe-32--abbremsen-durch-konstante-bremskraft">Aufgabe 32 : Abbremsen durch konstante Bremskraft</a></li>
+    <li><a href="#aufgabe-33--start-einer-saturn-v-rakete">Aufgabe 33 : Start einer Saturn-V-Rakete</a></li>
+    <li><a href="#aufgabe-34--seife-auf-schiefer-ebene-ohne-reibung">Aufgabe 34 : Seife auf schiefer Ebene (ohne Reibung)</a></li>
+    <li><a href="#aufgabe-35--rollerblader-auf-geneigter-ebene-ohne-reibung">Aufgabe 35 : Rollerblader auf geneigter Ebene (ohne Reibung)</a></li>
+    <li><a href="#aufgabe-36--beschleunigung-unter-verschiedenen-bedingungen">Aufgabe 36 : Beschleunigung unter verschiedenen Bedingungen</a></li>
+    <li><a href="#aufgabe-37--fahrradfahrer--antrieb-und-gefälle">Aufgabe 37 : Fahrradfahrer – Antrieb und Gefälle</a></li>
+    <li><a href="#aufgabe-38--auto-in-der-steigung-mit-und-ohne-antrieb">Aufgabe 38 : Auto in der Steigung mit und ohne Antrieb</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="dynamik">Dynamik<a hidden class="anchor" aria-hidden="true" href="#dynamik">#</a></h1>
+<h2 id="aufgabe-1--abgeschlepptes-fahrzeug">Aufgabe 1 : Abgeschlepptes Fahrzeug<a hidden class="anchor" aria-hidden="true" href="#aufgabe-1--abgeschlepptes-fahrzeug">#</a></h2>
+<p>Beim Abschleppen eines Autos besteht die Gefahr, dass das gespannte Zugseil durch ruckartiges Anfahren reißt. Erkläre dieses Phänomen unter Anwendung der Grundgesetze der Dynamik (Trägheitsgesetz, Kraftbegriff). Gehe dabei auch auf die Begriffe „Masse“ und „Trägheit“ ein.</p>
+<h2 id="aufgabe-2--kugel-auf-einem-spielzeugwagen">Aufgabe 2 : Kugel auf einem Spielzeugwagen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-2--kugel-auf-einem-spielzeugwagen">#</a></h2>
+<p>Eine Kugel liegt auf einem Spielzeugwagen. Beschreibe und erkläre die Bewegung der Kugel aus der Sicht eines ruhenden Beobachters</p>
+<ol>
+<li>während das Fahrzeug gleichmäßig beschleunigt (Anfahren).</li>
+<li>während das Fahrzeug mit konstanter Geschwindigkeit fährt.</li>
+<li>während das Fahrzeug bremst.</li>
+<li>während das Fahrzeug eine Kurve fährt.</li>
+</ol>
+<p>Verwende in deiner Erklärung die Begriffe Trägheitssatz, Kräftegleichgewicht und Zentripetalkraft.</p>
+<h2 id="aufgabe-3--kräfte-und-gegenkräfte">Aufgabe 3 : Kräfte und Gegenkräfte<a hidden class="anchor" aria-hidden="true" href="#aufgabe-3--kräfte-und-gegenkräfte">#</a></h2>
+<p>Ein Buch mit einer Masse von 510 g liegt ruhig auf einem horizontalen Tisch.</p>
+<ol>
+<li>Zeichne ein vollständiges, beschriftetes Kräftediagramm (freier Körper) für das Buch. Wähle einen sinnvollen Kräftemaßstab.</li>
+<li>Kennzeichne in deiner Zeichnung alle Kräfte, die <strong>auf das Buch</strong> wirken (Angriffspunkt, Richtung, Bezeichnung).</li>
+<li>Gib für jede dieser Kräfte das dazugehörige Wechselwirkungspaar (Actio = Reactio) an. Beschreibe präzise: Auf welchen Körper wirkt die Gegenkraft? Von welchem Körper geht sie aus?</li>
+</ol>
+<h2 id="aufgabe-4--gleichförmig-fliegendes-flugzeug">Aufgabe 4 : Gleichförmig fliegendes Flugzeug<a hidden class="anchor" aria-hidden="true" href="#aufgabe-4--gleichförmig-fliegendes-flugzeug">#</a></h2>
+<p>Ein Flugzeug fliegt horizontal mit konstanter Geschwindigkeit und konstanter Flughöhe.</p>
+<ol>
+<li>Fertige ein vollständiges, beschriftetes Kräftediagramm für das Flugzeug an.</li>
+<li>Erläutere die physikalische Bedeutung jeder eingezeichneten Kraft und erkläre, warum das Flugzeug trotz der auf es wirkenden Kräfte eine konstante Geschwindigkeit beibehält.</li>
+</ol>
+<h2 id="aufgabe-5--rückstoßprinzip">Aufgabe 5 : Rückstoßprinzip<a hidden class="anchor" aria-hidden="true" href="#aufgabe-5--rückstoßprinzip">#</a></h2>
+<p>Erkläre detailliert den Rückstoß (Raketenprinzip) beim Abfeuern einer Kugel aus einem Gewehr.</p>
+<ol>
+<li>Beschreibe die Kräfte, die auf das Projektil und auf das Gewehr wirken.</li>
+<li>Erkläre die daraus resultierenden Bewegungen unter Bezugnahme auf den Impulserhaltungssatz.</li>
+<li>Begründe, warum die Rückstoßgeschwindigkeit der Waffe viel kleiner ist als die Mündungsgeschwindigkeit des Projektils.</li>
+</ol>
+<h2 id="aufgabe-6--trägheit-einer-flüssigkeit">Aufgabe 6 : Trägheit einer Flüssigkeit<a hidden class="anchor" aria-hidden="true" href="#aufgabe-6--trägheit-einer-flüssigkeit">#</a></h2>
+<p>Eine mit Wasser gefüllte Schüssel steht zunächst in Ruhe auf einem Tisch. Plötzlich wird sie ruckartig nach rechts beschleunigt.</p>
+<ol>
+<li>Fertige eine Skizze der Situation <strong>während</strong> dieser Beschleunigungsphase an.</li>
+<li>Markiere in der Skizze, wo das Wasser höchstwahrscheinlich überschwappen wird, und begründe deine Aussage.</li>
+<li>Erkläre das Phänomen mit dem Trägheitsgesetz.</li>
+</ol>
+<h2 id="aufgabe-7--start-einer-rakete">Aufgabe 7 : Start einer Rakete<a hidden class="anchor" aria-hidden="true" href="#aufgabe-7--start-einer-rakete">#</a></h2>
+<p>Beschreibe und erkläre den Startvorgang einer Rakete von der Startplattform bis in den freien Flug.</p>
+<ol>
+<li>Nenne und beschreibe alle relevanten Kräfte, die während der Startphase auf die Rakete wirken.</li>
+<li>Erkläre das Prinzip des Raketenantriebs (Aktionsprinzip) und seine Bedeutung für die Beschleunigung.</li>
+<li>Beschreibe, wie sich das Kräfteverhältnis während des Aufstiegs durch den Treibstoffverbrauch und die abnehmende Luftdichte ändert.</li>
+</ol>
+<h2 id="aufgabe-8--voyager-ii--bewegung-im-weltraum">Aufgabe 8 : Voyager II – Bewegung im Weltraum<a hidden class="anchor" aria-hidden="true" href="#aufgabe-8--voyager-ii--bewegung-im-weltraum">#</a></h2>
+<p>Die Raumsonde Voyager II wurde am 20. August 1977 gestartet und hatte am 1. Juli 2014 eine Entfernung von etwa 15,7 Milliarden Kilometern von der Sonne erreicht.</p>
+<ol>
+<li>Erkläre das physikalische Prinzip, das es der Sonde ermöglicht hat, diese enorme Strecke zurückzulegen, ohne dass ihr Antrieb permanent arbeitet.</li>
+<li>Diskutiere die Rolle der Anfangsbeschleunigung und der Gravitationskräfte der Planeten (Gravitationsschleuder-Effekt) für ihre Reise.</li>
+</ol>
+<h2 id="aufgabe-9--bremsvorgang-eines-autos">Aufgabe 9 : Bremsvorgang eines Autos<a hidden class="anchor" aria-hidden="true" href="#aufgabe-9--bremsvorgang-eines-autos">#</a></h2>
+<p>Ein Auto (Masse \( m = 800 \, \text{kg} \)) fährt mit einer konstanten Geschwindigkeit von \( v = 108 \, \text{km/h} \).</p>
+<ol>
+<li>Berechne die erforderliche (konstante) Bremskraft \( F_B \), um das Auto in einer Zeit von \( \Delta t = 15 \, \text{s} \) zum Stillstand zu bringen.</li>
+<li>Berechne zusätzlich den Bremsweg \( s \).</li>
+</ol>
+<h2 id="aufgabe-10--start-eines-flugzeugs">Aufgabe 10 : Start eines Flugzeugs<a hidden class="anchor" aria-hidden="true" href="#aufgabe-10--start-eines-flugzeugs">#</a></h2>
+<p>Ein Flugzeug (Masse \( m = 10 \, \text{t} \)) wird aus dem Stand heraus beschleunigt und erreicht nach \( t = 30 \, \text{s} \) seine Startgeschwindigkeit von \( v = 216 \, \text{km/h} \).</p>
+<ol>
+<li>Berechne die erforderliche (konstante) Schubkraft \( F_S \) der Triebwerke unter Vernachlässigung von Reibung und Luftwiderstand.</li>
+<li>Berechne die nun erforderliche Schubkraft, wenn ein konstanter Luftwiderstand von \( F_W = 1000 \, \text{N} \) berücksichtigt wird.</li>
+<li>Berechne für <strong>beide Fälle</strong> (mit und ohne Luftwiderstand) die minimale Länge \( s \) der benötigten Startbahn.</li>
+</ol>
+<h2 id="aufgabe-11--bremsendes-schiff">Aufgabe 11 : Bremsendes Schiff<a hidden class="anchor" aria-hidden="true" href="#aufgabe-11--bremsendes-schiff">#</a></h2>
+<p>Ein Schiff (Masse \( m = 10.000 \, \text{t} \)) bewegt sich mit einer Geschwindigkeit von \( v = 18 \, \text{km/h} \). Es wird mit einer konstanten Bremskraft von \( F_B = 100 \, \text{kN} \) abgebremst.</p>
+<ol>
+<li>Berechne die Zeit \( \Delta t \), die benötigt wird, um das Schiff bis zum Stillstand abzubremsen. Vernachlässige andere Kräfte wie Wasserwiderstand.</li>
+<li>Berechne den Bremsweg \( s \).</li>
+</ol>
+<h2 id="aufgabe-12--auto-auf-geneigter-straße">Aufgabe 12 : Auto auf geneigter Straße<a hidden class="anchor" aria-hidden="true" href="#aufgabe-12--auto-auf-geneigter-straße">#</a></h2>
+<p>Ein Auto (Masse \( m = 1000 \, \text{kg} \)) steht auf einer Straße, die gegenüber der Horizontalen um \( \alpha = 10^\circ \) geneigt ist. Plötzlich löst sich die Handbremse. Alle Reibungskräfte werden vernachlässigt.</p>
+<ol>
+<li>Fertige eine beschriftete Skizze an und trage alle auf das Auto wirkenden Kräfte ein. Zerlege die Gewichtskraft in ihre Komponenten parallel und senkrecht zur schiefen Ebene.</li>
+<li>Berechne die Beschleunigung \( a \) des Autos entlang der Straße.</li>
+<li>Berechne die Geschwindigkeit \( v \) des Autos, nachdem es eine Strecke von \( s = 10 \, \text{m} \) zurückgelegt hat.</li>
+</ol>
+<h2 id="aufgabe-13--zwei-schleppschiffe">Aufgabe 13 : Zwei Schleppschiffe<a hidden class="anchor" aria-hidden="true" href="#aufgabe-13--zwei-schleppschiffe">#</a></h2>
+<p>Zwei Schleppschiffe ziehen ein Kreuzfahrtschiff (Masse \( m_K = 150.000 \, \text{t} \)) aus dem Hafen. Die Schleppkräfte betragen \( F_1 = 200 \, \text{kN} \) und \( F_2 = 250 \, \text{kN} \). Die Schleppseile schließen jeweils einen Winkel von \( \beta = 20^\circ \) mit der Bewegungsrichtung des Kreuzfahrtschiffes ein.</p>
+<ol>
+<li>Berechne die resultierende Kraft \( F_{res} \) in Bewegungsrichtung.</li>
+<li>Berechne die Zeit \( \Delta t \), die benötigt wird, um das Kreuzfahrtschiff aus der Ruhe eine Strecke von \( s = 2 \, \text{km} \) zu ziehen. Gehe von einer konstanten Beschleunigung aus.</li>
+<li>Berechne die Endgeschwindigkeit \( v \), die das Kreuzfahrtschiff nach dieser Strecke erreicht hat.</li>
+</ol>
+<h2 id="aufgabe-14--atwoodsche-fallmaschine">Aufgabe 14 : Atwoodsche Fallmaschine<a hidden class="anchor" aria-hidden="true" href="#aufgabe-14--atwoodsche-fallmaschine">#</a></h2>
+<p>An einer über eine Rolle geführten, masselosen Schnur hängen zwei Körper mit den Massen \( m_1 = 5 \, \text{kg} \) und \( m_2 = 15 \, \text{kg} \). Die Rolle und die Schnur sind masselos und reibungsfrei.</p>
+<ol>
+<li>Fertige eine Skizze an und trage alle wirkenden Kräfte für beide Körper ein.</li>
+<li>Stelle die Bewegungsgleichungen für beide Körper auf.</li>
+<li>Berechne die Beschleunigung \( a \) des Systems und die Zugkraft \( F_Z \) in der Schnur.</li>
+</ol>
+<h2 id="aufgabe-15--impuls-und-kraft-beim-baseball-korrektur-der-nummerierung">Aufgabe 15 : Impuls und Kraft beim Baseball (Korrektur der Nummerierung)<a hidden class="anchor" aria-hidden="true" href="#aufgabe-15--impuls-und-kraft-beim-baseball-korrektur-der-nummerierung">#</a></h2>
+<p>Berechne den Betrag der jeweils konstant angenommenen Kraft, die auf einen Baseball (Masse \( m = 150 \, \text{g} \)) wirkt:</p>
+<ol>
+<li>Beim Wurf: Der Ball wird auf einer Strecke von \( s = 2 \, \text{m} \) auf eine Geschwindigkeit von \( v = 25 \, \text{m/s} \) beschleunigt.</li>
+<li>Beim Schlag: Ein Schläger kehrt die Bewegungsrichtung des ankommenden Balles um und beschleunigt ihn in \( \Delta t = 5 \, \text{ms} \) auf \( v = 35 \, \text{m/s} \) in die Gegenrichtung. <em>(Hinweis: Berücksichtige die Impulsänderung.)</em></li>
+<li>Beim Fang: Ein Fänger fängt den Ball, wobei seine Hand mit dem Handschuh um \( s = 15 \, \text{cm} \) nachgibt. Der Ball wird dabei von \( v = 20 \, \text{m/s} \) auf 0 abgebremst.</li>
+</ol>
+<h2 id="aufgabe-16--aufzugsfahrt-korrektur-der-nummerierung">Aufgabe 16 : Aufzugsfahrt (Korrektur der Nummerierung)<a hidden class="anchor" aria-hidden="true" href="#aufgabe-16--aufzugsfahrt-korrektur-der-nummerierung">#</a></h2>
+<p>Die Kabine eines Aufzugs hat eine Masse von \( m_K = 350 \, \text{kg} \). Zusätzlich befinden sich zwei Personen mit je \( m_P = 70 \, \text{kg} \) darin. Die Gesamtmasse beträgt also \( m_{ges} = 490 \, \text{kg} \).</p>
+<ol>
+<li><strong>Beschleunigungsphase nach oben</strong>: Zum Anfahren wirkt 5 Sekunden lang eine nach oben gerichtete Kraft \( F = 5,1 \, \text{kN} \) (von Seil auf Kabine).
+<ul>
+<li>Berechne die Beschleunigung \( a_1 \) der Kabine.</li>
+<li>Berechne die erreichte Geschwindigkeit \( v \) am Ende dieser Phase.</li>
+</ul>
+</li>
+<li><strong>Konstante Fahrt nach oben</strong>: Die Kabine fährt 60 Sekunden lang mit konstanter Geschwindigkeit.
+<ul>
+<li>Welche Kraft ist nun nötig? Begründe deine Antwort mit dem ersten newtonschen Gesetz.</li>
+</ul>
+</li>
+<li><strong>Bremsphase</strong>: Die Kabine wird nun beim Anhalten nach oben in \( \Delta t = 1,8 \, \text{s} \) auf \( v = 0 \) abgebremst.
+<ul>
+<li>Berechne die hierfür notwendige (konstante) Kraft \( F_{Br} \), die vom Seil auf die Kabine ausgeübt wird.</li>
+<li><em>Zusatzaufgabe:</em> Skizziere qualitativ den Verlauf der Seilkraft über die gesamte Fahrt (beschleunigen, konstant fahren, bremsen).</li>
+</ul>
+</li>
+</ol>
+<h2 id="aufgabe-17--aufzug">Aufgabe 17 : Aufzug<a hidden class="anchor" aria-hidden="true" href="#aufgabe-17--aufzug">#</a></h2>
+<p>Die Kabine eines Aufzugs hat eine Masse von 350 $kg$. Es fahren 2 Personen mit je einer Masse von 70 $kg$ im Aufzug.</p>
+<ol>
+<li>Um die Kabine in Bewegung zu setzen, wirkt während 5 $s$ eine Kraft von 5,1 $kN$ nach oben. Berechne die Beschleunigung der Kabine und die Geschwindigkeit, welche die Kabine erreicht!</li>
+<li>Die Kabine bewegt sich dann während einer Minute mit konstanter Geschwindigkeit nach oben. Welche Kraft ist hierzu nötig? Begründe die Antwort!</li>
+<li>Berechne den Betrag der Kraft, welche auf den Aufzug wirken muss, damit dieser in 1,8 $s$ zum Stillstand kommt.</li>
+</ol>
+<p>Hier ist eine überarbeitete und erweiterte Version der Aufgaben, die die Themen vertieft, präzisiert und die Sprache klarer formuliert, während das ursprüngliche Layout weitgehend beibehalten wurde.</p>
+<h2 id="aufgabe-18--güterzug-auf-geneigter-strecke">Aufgabe 18 : Güterzug auf geneigter Strecke<a hidden class="anchor" aria-hidden="true" href="#aufgabe-18--güterzug-auf-geneigter-strecke">#</a></h2>
+<p>Ein Güterzug mit einer Masse von \( m = 625 \, \text{t} \) fährt auf einer Strecke mit konstanter Neigung bergab. Die Strecke ist um \( \alpha = 0{,}5^\circ \) gegenüber der Horizontalen geneigt. Der Zugführer bremst permanent, sodass der Zug mit einer konstanten Geschwindigkeit von \( v = 10{,}8 \, \frac{\text{km}}{\text{h}} \) fährt.</p>
+<ol>
+<li>Fertige eine klare, beschriftete <strong>Skizze</strong> des Zuges auf der schiefen Ebene an und trage <strong>alle</strong> auf den Zug wirkenden Kräfte mit ihren Richtungen ein! Erläutere kurz, warum es sich um eine gleichförmige Bewegung handelt.</li>
+<li>Stelle die Gleichgewichtsbedingung der Kräfte in Fahrtrichtung auf und bestimme den <strong>Betrag der Bremskraft</strong> \( F_B \) in Newton!</li>
+<li>Der Zugführer löst die Bremse komplett. Bestimme die <strong>Beschleunigung \( a \)</strong> des Zuges, mit der er nun bergab rollt! (Hinweis: Reibung zwischen Rad und Schiene wird vernachlässigt.)</li>
+</ol>
+<h2 id="aufgabe-19--beschleunigung-eines-wagens">Aufgabe 19 : Beschleunigung eines Wagens<a hidden class="anchor" aria-hidden="true" href="#aufgabe-19--beschleunigung-eines-wagens">#</a></h2>
+<p>Ein Wagen der Masse \( m = 2 \, \text{t} \) soll auf einer <strong>waagerechten</strong> Straße aus dem Stand mit einer konstanten Beschleunigung von \( a = 0{,}4 \, \frac{\text{m}}{\text{s}^2} \) anfahren.</p>
+<ol>
+<li>Berechne die dafür erforderliche <strong>resultierende Kraft \( F \)</strong> in Newton!</li>
+<li>Erkläre kurz, ob dies auch die Kraft ist, die der Motor aufbringen muss, wenn Reibungskräfte vernachlässigt werden.</li>
+</ol>
+<h2 id="aufgabe-20--unterschiedliche-massen-unter-gleicher-kraft">Aufgabe 20 : Unterschiedliche Massen unter gleicher Kraft<a hidden class="anchor" aria-hidden="true" href="#aufgabe-20--unterschiedliche-massen-unter-gleicher-kraft">#</a></h2>
+<p>Auf zwei Körper mit den Massen \( m_1 = 200 \, \text{kg} \) und \( m_2 = 300 \, \text{kg} \) wirkt jeweils die <strong>gleiche konstante</strong> Beschleunigungskraft von \( F = 50 \, \text{N} \).</p>
+<ol>
+<li>Berechne die <strong>Beschleunigungen \( a_1 \)</strong> und \( a_2 \)** der beiden Körper!</li>
+<li>Bestimme die theoretischen <strong>Endgeschwindigkeiten \( v_1 \)</strong> und \( v_2 \)** nach einer Wirkdauer von \( t = 1 \, \text{min} \), wenn sie aus der Ruhe starten.</li>
+<li>Berechne die in dieser Zeit zurückgelegten <strong>Strecken \( s_1 \)</strong> und \( s_2 \)**!</li>
+<li>Begründe mit deinen Ergebnissen den Zusammenhang zwischen Masse und Beschleunigung bei konstanter Kraft.</li>
+</ol>
+<h2 id="aufgabe-21--bewegungsphasen-eines-laufkrans">Aufgabe 21 : Bewegungsphasen eines Laufkrans<a hidden class="anchor" aria-hidden="true" href="#aufgabe-21--bewegungsphasen-eines-laufkrans">#</a></h2>
+<p>Ein elektrisch angetriebener Laufkran hat eine Masse von \( m = 3{,}5 \, \text{t} \). Er startet aus dem Stand und fährt <strong>gleichmäßig beschleunigt</strong> an. Nach einer Zeit von \( t_1 = 3 \, \text{s} \) erreicht er eine Geschwindigkeit von \( v_1 = 2 \, \frac{\text{m}}{\text{s}} \). Anschließend fährt er <strong>gleichförmig</strong> mit dieser Geschwindigkeit für \( t_2 = 0{,}5 \, \text{min} \) weiter. Alle Reibungskräfte werden vernachlässigt.</p>
+<ol>
+<li>Berechne die <strong>Beschleunigung \( a \)</strong> in der ersten Phase und daraus die <strong>beschleunigende Kraft \( F \)</strong> des Motors!</li>
+<li>Begründe, welche Kraft (theoretisch) während der <strong>gleichförmigen Fahrt</strong> aufgebracht werden muss.</li>
+<li>Berechne die <strong>gesamte Strecke \( s_{\text{ges}} \)</strong>, die der Kran vom Stillstand aus bis zum Ende der gleichförmigen Phase zurückgelegt hat!</li>
+</ol>
+<h2 id="aufgabe-22--beschleunigung-eines-motorrads">Aufgabe 22 : Beschleunigung eines Motorrads<a hidden class="anchor" aria-hidden="true" href="#aufgabe-22--beschleunigung-eines-motorrads">#</a></h2>
+<p>Ein Motorrad der Masse \( m = 150 \, \text{kg} \) wird auf waagerechter Straße von einer Geschwindigkeit \( v_1 = 30 \, \frac{\text{km}}{\text{h}} \) auf \( v_2 = 120 \, \frac{\text{km}}{\text{h}} \) beschleunigt. Dieser Vorgang dauert \( \Delta t = 8 \, \text{s} \).</p>
+<ol>
+<li>Rechne die Geschwindigkeiten in \( \frac{\text{m}}{\text{s}} \) um und berechne die <strong>mittlere Beschleunigung \( a \)</strong>!</li>
+<li>Berechne die für diese Beschleunigung <strong>erforderliche (resultierende) Kraft \( F \)</strong>! (Hinweis: Reibung wird hier vernachlässigt.)</li>
+</ol>
+<h2 id="aufgabe-23--elfmeter--kraft-und-impuls">Aufgabe 23 : Elfmeter – Kraft und Impuls<a hidden class="anchor" aria-hidden="true" href="#aufgabe-23--elfmeter--kraft-und-impuls">#</a></h2>
+<p>Ein Fußballspieler schießt einen Elfmeter. Der Fußball hat eine Masse von \( m = 430 \, \text{g} \). Der Spieler beschleunigt den Ball dabei mit dem \( 12 \)-fachen der Erdbeschleunigung.</p>
+<ol>
+<li>Berechne, mit welcher <strong>mittleren Kraft \( F \)</strong> der Spieler auf den Ball einwirkt!</li>
+<li>Die Einwirkzeit (Kontaktzeit zwischen Schuh und Ball) beträgt \( \Delta t = 250 \, \text{ms} \). Berechne die <strong>Endgeschwindigkeit \( v \)</strong> des Balles unter der Annahme, dass der Ball aus der Ruhe startet! (Tipp: Nutze den Zusammenhang zwischen Kraft, Zeit und Impulsänderung.)</li>
+</ol>
+<h2 id="aufgabe-24--trägheit-in-der-schwerelosigkeit">Aufgabe 24 : Trägheit in der Schwerelosigkeit<a hidden class="anchor" aria-hidden="true" href="#aufgabe-24--trägheit-in-der-schwerelosigkeit">#</a></h2>
+<p>Erkläre das physikalische Prinzip, mit dem man im <strong>schwerelosen</strong> Umfeld eines Weltraumlabors eine leere von einer vollen Coladose (beide ungeöffnet) unterscheiden kann, ohne sie zu wiegen. (Hinweis: Denke an die Eigenschaft der Masse, sich Änderungen des Bewegungszustands zu widersetzen.)</p>
+<h2 id="aufgabe-25--golfschlag--extremkurzer-kraftstoß">Aufgabe 25 : Golfschlag – Extremkurzer Kraftstoß<a hidden class="anchor" aria-hidden="true" href="#aufgabe-25--golfschlag--extremkurzer-kraftstoß">#</a></h2>
+<p>Ein Golfspieler schlägt einen Ball der Masse \( m = 47 \, \text{g} \) ab. Dabei wirkt eine mittlere Kraft von \( F = 6{,}0 \, \text{kN} \) auf den Ball. Die Kontaktzeit zwischen Schläger und Ball beträgt nur \( \Delta t = 0{,}50 \, \text{ms} \).</p>
+<ol>
+<li>Berechne die auf den Ball übertragene <strong>Impulsänderung</strong>!</li>
+<li>Bestimme daraus die <strong>Abschlaggeschwindigkeit \( v \)</strong> des Balles in \( \frac{\text{km}}{\text{h}} \)! (Der Ball startet aus der Ruhe.)</li>
+</ol>
+<h2 id="aufgabe-26--zugbeschleunigung-mit-unterschiedlicher-last">Aufgabe 26 : Zugbeschleunigung mit unterschiedlicher Last<a hidden class="anchor" aria-hidden="true" href="#aufgabe-26--zugbeschleunigung-mit-unterschiedlicher-last">#</a></h2>
+<p>Eine Lokomotive der Masse \( m_L = 200 \, \text{t} \) kann eine maximale Antriebskraft von \( F = 200 \, \text{kN} \) auf die Schienen übertragen. Sie zieht zunächst \( 8 \) Waggons von jeweils \( m_W = 40 \, \text{t} \).</p>
+<ol>
+<li>Berechne die <strong>Beschleunigung \( a_1 \)</strong> des vollständigen Zuges beim Anfahren aus dem Stand!</li>
+<li>Berechne die theoretische <strong>Geschwindigkeit \( v_1 \)</strong> nach einer Beschleunigungsdauer von \( t = 1 \, \text{min} \)!</li>
+<li>Nun werden <strong>6 weitere</strong> Waggons des gleichen Typs angekoppelt. Berechne erneut die <strong>Beschleunigung \( a_2 \)</strong> und die nach einer Minute erreichte <strong>Geschwindigkeit \( v_2 \)</strong>!</li>
+</ol>
+<h2 id="aufgabe-27--masse-und-beschleunigung-im-vergleich">Aufgabe 27 : Masse und Beschleunigung im Vergleich<a hidden class="anchor" aria-hidden="true" href="#aufgabe-27--masse-und-beschleunigung-im-vergleich">#</a></h2>
+<p>Eine Kraft von \( F = 7{,}6 \, \text{N} \) erteilt einem Körper der (unbekannten) Masse \( m_1 \) eine Beschleunigung von \( a_1 = 5{,}7 \, \frac{\text{m}}{\text{s}^2} \). Einem anderen Körper der Masse \( m_2 \) erteilt dieselbe Kraft eine Beschleunigung von \( a_2 = 19{,}6 \, \frac{\text{m}}{\text{s}^2} \).</p>
+<ol>
+<li>Berechne die <strong>beiden Massen \( m_1 \)</strong> und \( m_2 \)**!</li>
+<li>Die beiden Körper werden zu einem neuen Körper der Masse \( M = m_1 + m_2 \) verbunden. Welche <strong>Beschleunigung \( a_3 \)</strong> erfährt dieser Körper, wenn dieselbe Kraft \( F \) wirkt?</li>
+<li>Berechne die <strong>Geschwindigkeit \( v_3 \)</strong>, die dieser vereinte Körper aus der Ruhe nach \( t = 15 \, \text{s} \) Beschleunigung erreicht!</li>
+</ol>
+<h2 id="aufgabe-28--start-eines-airbus-a380">Aufgabe 28 : Start eines Airbus A380<a hidden class="anchor" aria-hidden="true" href="#aufgabe-28--start-eines-airbus-a380">#</a></h2>
+<p>Ein voll beladener Airbus A380 hat eine Startmasse von \( m = 560 \, \text{t} \). Zum Abheben beschleunigt er auf einer Strecke von \( s = 3 \, \text{km} \). Dabei wirkt eine konstante Beschleunigungskraft (Schub) von \( F = 312 \, \text{kN} \).</p>
+<ol>
+<li>Berechne die <strong>Beschleunigung \( a \)</strong> des Flugzeugs während des Starts!</li>
+<li>Berechne die <strong>Geschwindigkeit \( v \)</strong>, die es am Ende der Startbahn erreicht! Gehe von einem Start aus dem Stand aus.</li>
+</ol>
+<h2 id="aufgabe-29--bremsweg-eines-autos">Aufgabe 29 : Bremsweg eines Autos<a hidden class="anchor" aria-hidden="true" href="#aufgabe-29--bremsweg-eines-autos">#</a></h2>
+<p>Ein Auto der Masse \( m = 600 \, \text{kg} \) wird auf einer Strecke von \( s = 50 \, \text{m} \) durch eine <strong>konstante Bremskraft</strong> von \( F = 900 \, \text{N} \) bis zum Stillstand abgebremst.</p>
+<ol>
+<li>Berechne die <strong>Verzögerung (negative Beschleunigung) \( a \)</strong>!</li>
+<li>Bestimme die <strong>Anfangsgeschwindigkeit \( v_0 \)</strong> des Autos in \( \frac{\text{m}}{\text{s}} \) und \( \frac{\text{km}}{\text{h}} \).</li>
+</ol>
+<h2 id="aufgabe-30--crashtest--frontalaufprall">Aufgabe 30 : Crashtest – Frontalaufprall<a hidden class="anchor" aria-hidden="true" href="#aufgabe-30--crashtest--frontalaufprall">#</a></h2>
+<p>Bei einem Crashtest prallt ein Pkw mit einer Geschwindigkeit von \( v_0 = 90 \, \frac{\text{km}}{\text{h}} \) frontal gegen eine feste Betonwand. Die Knautschzone des Fahrzeugs wird dabei um \( s = 25 \, \text{cm} \) deformiert, bis der Wagen zum Stillstand kommt.</p>
+<ol>
+<li>Berechne die (konstante) <strong>Verzögerung \( a \)</strong> während des Abbruchs! (Hinweis: Es handelt sich um eine gleichmäßig verzögerte Bewegung bis zum Stillstand.)</li>
+<li>Welche (Brems-)Kraft \( F_S \) muss der Sicherheitsgurt auf einen Fahrer der Masse \( m_F = 80 \, \text{kg} \) ausüben, um ihn mit dieser Verzögerung abzubremsen?</li>
+</ol>
+<h2 id="aufgabe-31--beschleunigung-über-eine-gegebene-strecke">Aufgabe 31 : Beschleunigung über eine gegebene Strecke<a hidden class="anchor" aria-hidden="true" href="#aufgabe-31--beschleunigung-über-eine-gegebene-strecke">#</a></h2>
+<p>Ein Auto (\( m = 600 \, \text{kg} \)) soll auf einer Strecke von \( s = 150 \, \text{m} \) von \( v_1 = 10 \, \frac{\text{m}}{\text{s}} \) auf \( v_2 = 40 \, \frac{\text{m}}{\text{s}} \) beschleunigt werden.</p>
+<ol>
+<li>Berechne die hierfür notwendige <strong>konstante Beschleunigung \( a \)</strong>!</li>
+<li>Bestimme die <strong>erforderliche Zeit \( t \)</strong> für diesen Vorgang!</li>
+<li>Berechne die dazu notwendige <strong>konstante (resultierende) Kraft \( F \)</strong> des Motors! (Reibung vernachlässigt)</li>
+</ol>
+<h2 id="aufgabe-32--abbremsen-durch-konstante-bremskraft">Aufgabe 32 : Abbremsen durch konstante Bremskraft<a hidden class="anchor" aria-hidden="true" href="#aufgabe-32--abbremsen-durch-konstante-bremskraft">#</a></h2>
+<p>Durch eine konstante Bremskraft \( F \) wird die Geschwindigkeit eines Autos (\( m = 800 \, \text{kg} \)) innerhalb von \( t = 5 \, \text{s} \) von \( v_1 = 90 \, \frac{\text{km}}{\text{h}} \) auf \( v_2 = 60 \, \frac{\text{km}}{\text{h}} \) verringert.</p>
+<ol>
+<li>Berechne die <strong>Verzögerung \( a \)</strong> in \( \frac{\text{m}}{\text{s}^2} \).</li>
+<li>Bestimme den Betrag der wirkenden <strong>konstanten Bremskraft \( F \)</strong>.</li>
+</ol>
+<h2 id="aufgabe-33--start-einer-saturn-v-rakete">Aufgabe 33 : Start einer Saturn-V-Rakete<a hidden class="anchor" aria-hidden="true" href="#aufgabe-33--start-einer-saturn-v-rakete">#</a></h2>
+<p>Die Saturn-V-Rakete hatte eine Startmasse von \( m = 2{,}7 \cdot 10^6 \, \text{kg} \). Ihre Triebwerke erzeugten eine (Schub-)Kraft von \( F = 3{,}3 \cdot 10^7 \, \text{N} \).</p>
+<ol>
+<li>Berechne die <strong>anfängliche Beschleunigung \( a \)</strong> der Rakete direkt beim Abheben von der Startrampe!</li>
+<li>Diskutiere kurz: Warum wird diese Beschleunigung im weiteren Flug größer, obwohl der Schub konstant bleibt?</li>
+</ol>
+<h2 id="aufgabe-34--seife-auf-schiefer-ebene-ohne-reibung">Aufgabe 34 : Seife auf schiefer Ebene (ohne Reibung)<a hidden class="anchor" aria-hidden="true" href="#aufgabe-34--seife-auf-schiefer-ebene-ohne-reibung">#</a></h2>
+<p>Eine Seife der Masse \( m = 50 \, \text{g} \) gleitet reibungsfrei eine Ebene hinunter, die um \( \alpha = 15^\circ \) zur Horizontalen geneigt ist.</p>
+<ol>
+<li>Fertige eine <strong>Kräfteskizze</strong> an und bestimme die <strong>Beschleunigung \( a \)</strong> der Seife!</li>
+<li>Bestimme die <strong>Kraft \( F_N \)</strong>, mit der die Seife auf die Ebene drückt (Normalkraft/Bodendruckkraft).</li>
+</ol>
+<h2 id="aufgabe-35--rollerblader-auf-geneigter-ebene-ohne-reibung">Aufgabe 35 : Rollerblader auf geneigter Ebene (ohne Reibung)<a hidden class="anchor" aria-hidden="true" href="#aufgabe-35--rollerblader-auf-geneigter-ebene-ohne-reibung">#</a></h2>
+<p>Eine Person (\( m = 30 \, \text{kg} \)) fährt mit Inlinern eine um \( \alpha = 10^\circ \) geneigte Ebene <strong>bergauf</strong>. Ihre Anfangsgeschwindigkeit beträgt \( v_0 = 15 \, \frac{\text{km}}{\text{h}} \). Sie macht keine weiteren Antriebsbewegungen. Reibung wird vernachlässigt.</p>
+<ol>
+<li>Bestimme die <strong>Beschleunigung \( a \)</strong> der Person.</li>
+<li>Berechne, nach welcher <strong>Strecke \( s \)</strong> die Person zum Stillstand kommt.</li>
+<li>Berechne die <strong>Zeit \( t \)</strong> bis zum Stillstand.</li>
+</ol>
+<h2 id="aufgabe-36--beschleunigung-unter-verschiedenen-bedingungen">Aufgabe 36 : Beschleunigung unter verschiedenen Bedingungen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-36--beschleunigung-unter-verschiedenen-bedingungen">#</a></h2>
+<p>Ein Auto (\( m = 850 \, \text{kg} \)) beschleunigt von \( v_1 = 72 \, \frac{\text{km}}{\text{h}} \) auf \( v_2 = 90 \, \frac{\text{km}}{\text{h}} \). Dies dauert \( \Delta t = 5 \, \text{s} \).</p>
+<p>Bestimme jeweils die hierfür notwendige <strong>konstante Antriebskraft \( F_A \)</strong> (Kraft in Fahrtrichtung), die der Motor aufbringen muss, in folgenden Fällen:</p>
+<ol>
+<li>Die Straße ist <strong>waagerecht</strong> und reibungsfrei.</li>
+<li>Das Auto beschleunigt <strong>bergauf</strong> auf einer Straße mit \( 15^\circ \) Neigung, jedoch immer noch ohne Reibung.</li>
+<li>Das Auto beschleunigt <strong>bergauf</strong> (\( 15^\circ \)) und es wirkt eine zusätzliche, konstante Reibungskraft von \( F_R = 1500 \, \text{N} \) (z.B. aus Roll- und Luftwiderstand).</li>
+</ol>
+<h2 id="aufgabe-37--fahrradfahrer--antrieb-und-gefälle">Aufgabe 37 : Fahrradfahrer – Antrieb und Gefälle<a hidden class="anchor" aria-hidden="true" href="#aufgabe-37--fahrradfahrer--antrieb-und-gefälle">#</a></h2>
+<p>Ein Fahrradfahrer startet auf horizontaler Straße aus dem Stand und erreicht nach \( t_1 = 20 \, \text{s} \) eine Geschwindigkeit von \( v_1 = 36 \, \frac{\text{km}}{\text{h}} \).</p>
+<ol>
+<li>Berechne seine (mittlere) <strong>Beschleunigung \( a_1 \)</strong>.</li>
+<li>Die Gesamtmasse aus Fahrer und Rad beträgt \( m = 95 \, \text{kg} \). Dem Beschleunigen wirkt eine konstante Widerstandskraft (Reibung, Luft) von \( F_W = 40 \, \text{N} \) entgegen. Welche <strong>Antriebskraft \( F_A \)</strong> muss der Fahrer im Mittel aufbringen?</li>
+<li>Nun fährt der Fahrer ohne zu treten (also antriebslos) eine geneigte Ebene hinunter. Ohne Anfangsgeschwindigkeit legt er \( s = 200 \, \text{m} \) zurück und erreicht dabei eine Geschwindigkeit von \( v_2 = 10 \, \frac{\text{m}}{\text{s}} \). Berechne den <strong>Neigungswinkel \( \alpha \)</strong> der Ebene! (Reibung wird hier vernachlässigt.)</li>
+</ol>
+<h2 id="aufgabe-38--auto-in-der-steigung-mit-und-ohne-antrieb">Aufgabe 38 : Auto in der Steigung mit und ohne Antrieb<a hidden class="anchor" aria-hidden="true" href="#aufgabe-38--auto-in-der-steigung-mit-und-ohne-antrieb">#</a></h2>
+<p>Ein Auto (\( m = 0{,}8 \, \text{t} \)) fährt mit <strong>konstanter Geschwindigkeit</strong> von \( v = 60 \, \frac{\text{km}}{\text{h}} \) eine Steigung hinauf. Die Steigung beträgt <strong>10%</strong> (d.h. ein Höhenunterschied von \( 10 \, \text{m} \) auf einer Strecke von \( 100 \, \text{m} \)). Eine konstante Reibungskraft (Roll- und Luftwiderstand) von \( F_R = 500 \, \text{N} \) wirkt der Bewegung entgegen.</p>
+<ol>
+<li>Fertige ein vollständiges <strong>Kräftebild</strong> für das Auto an und benenne alle wirkenden Kräfte.</li>
+<li>Berechne die <strong>Motorkraft \( F_M \)</strong>, die notwendig ist, um diese gleichförmige Bergfahrt zu ermöglichen.</li>
+<li>Nun nimmt der Fahrer den Fuß vom Gaspedal (\( F_M = 0 \)). Bestimme die nun wirkende <strong>Beschleunigung \( a \)</strong> (Verzögerung) des Autos.</li>
+<li>Berechne, nach welcher <strong>Strecke \( s \)</strong> das Auto bergauf zum Stillstand kommt (unter der Annahme, dass die Reibungskraft konstant bleibt).</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/mechanik/">Mechanik</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Truth Tables and Logical Equivalences</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/physik/mechanics/de/kinematik/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Kinematik</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

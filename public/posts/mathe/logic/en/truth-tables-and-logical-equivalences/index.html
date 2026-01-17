@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Truth Tables and Logical Equivalences | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Logic, Truth Tables">
+<meta name="description" content="Truth Tables and Logical Equivalences
+Exercise 1 : Basic Truth Tables
+Construct complete truth tables for the following formulas. Show all intermediate columns.
+
+$\neg P \vee Q$
+$(S \vee G) \wedge (\neg S \vee \neg G)$
+Bonus: $\neg(P \rightarrow Q) \wedge (P \vee Q)$
+
+Exercise 2 : Complex Truth Tables with Intermediate Steps
+Construct truth tables for these formulas, showing columns for each subexpression:
+
+$\neg [P \wedge (Q \vee \neg P)]$
+$(P \vee Q) \wedge (\neg P \vee R)$
+Bonus: $P \rightarrow (Q \rightarrow R)$ and $(P \rightarrow Q) \rightarrow R$ (Are they equivalent?)
+
+Exercise 3 : Exclusive OR
+The symbol $&#43;$ represents exclusive OR (XOR), where $P &#43; Q$ is true when exactly one of $P$ or $Q$ is true.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Truth Tables and Logical Equivalences">
+  <meta property="og:description" content="Truth Tables and Logical Equivalences Exercise 1 : Basic Truth Tables Construct complete truth tables for the following formulas. Show all intermediate columns.
+$\neg P \vee Q$ $(S \vee G) \wedge (\neg S \vee \neg G)$ Bonus: $\neg(P \rightarrow Q) \wedge (P \vee Q)$ Exercise 2 : Complex Truth Tables with Intermediate Steps Construct truth tables for these formulas, showing columns for each subexpression:
+$\neg [P \wedge (Q \vee \neg P)]$ $(P \vee Q) \wedge (\neg P \vee R)$ Bonus: $P \rightarrow (Q \rightarrow R)$ and $(P \rightarrow Q) \rightarrow R$ (Are they equivalent?) Exercise 3 : Exclusive OR The symbol $&#43;$ represents exclusive OR (XOR), where $P &#43; Q$ is true when exactly one of $P$ or $Q$ is true.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-16T18:54:11+01:00">
+    <meta property="article:modified_time" content="2026-01-16T18:54:11+01:00">
+    <meta property="article:tag" content="Logic">
+    <meta property="article:tag" content="Truth Tables">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Truth Tables and Logical Equivalences">
+<meta name="twitter:description" content="Truth Tables and Logical Equivalences
+Exercise 1 : Basic Truth Tables
+Construct complete truth tables for the following formulas. Show all intermediate columns.
+
+$\neg P \vee Q$
+$(S \vee G) \wedge (\neg S \vee \neg G)$
+Bonus: $\neg(P \rightarrow Q) \wedge (P \vee Q)$
+
+Exercise 2 : Complex Truth Tables with Intermediate Steps
+Construct truth tables for these formulas, showing columns for each subexpression:
+
+$\neg [P \wedge (Q \vee \neg P)]$
+$(P \vee Q) \wedge (\neg P \vee R)$
+Bonus: $P \rightarrow (Q \rightarrow R)$ and $(P \rightarrow Q) \rightarrow R$ (Are they equivalent?)
+
+Exercise 3 : Exclusive OR
+The symbol $&#43;$ represents exclusive OR (XOR), where $P &#43; Q$ is true when exactly one of $P$ or $Q$ is true.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Truth Tables and Logical Equivalences",
+      "item": "http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Truth Tables and Logical Equivalences",
+  "name": "Truth Tables and Logical Equivalences",
+  "description": "Truth Tables and Logical Equivalences Exercise 1 : Basic Truth Tables Construct complete truth tables for the following formulas. Show all intermediate columns.\n$\\neg P \\vee Q$ $(S \\vee G) \\wedge (\\neg S \\vee \\neg G)$ Bonus: $\\neg(P \\rightarrow Q) \\wedge (P \\vee Q)$ Exercise 2 : Complex Truth Tables with Intermediate Steps Construct truth tables for these formulas, showing columns for each subexpression:\n$\\neg [P \\wedge (Q \\vee \\neg P)]$ $(P \\vee Q) \\wedge (\\neg P \\vee R)$ Bonus: $P \\rightarrow (Q \\rightarrow R)$ and $(P \\rightarrow Q) \\rightarrow R$ (Are they equivalent?) Exercise 3 : Exclusive OR The symbol $+$ represents exclusive OR (XOR), where $P + Q$ is true when exactly one of $P$ or $Q$ is true.\n",
+  "keywords": [
+    "Logic", "Truth Tables"
+  ],
+  "articleBody": "Truth Tables and Logical Equivalences Exercise 1 : Basic Truth Tables Construct complete truth tables for the following formulas. Show all intermediate columns.\n$\\neg P \\vee Q$ $(S \\vee G) \\wedge (\\neg S \\vee \\neg G)$ Bonus: $\\neg(P \\rightarrow Q) \\wedge (P \\vee Q)$ Exercise 2 : Complex Truth Tables with Intermediate Steps Construct truth tables for these formulas, showing columns for each subexpression:\n$\\neg [P \\wedge (Q \\vee \\neg P)]$ $(P \\vee Q) \\wedge (\\neg P \\vee R)$ Bonus: $P \\rightarrow (Q \\rightarrow R)$ and $(P \\rightarrow Q) \\rightarrow R$ (Are they equivalent?) Exercise 3 : Exclusive OR The symbol $+$ represents exclusive OR (XOR), where $P + Q$ is true when exactly one of $P$ or $Q$ is true.\nConstruct a truth table for $P + Q$. Find two different formulas using only $\\wedge$, $\\vee$, and $\\neg$ that are equivalent to $P + Q$. Verify each with a truth table. Show that $P + Q$ is equivalent to $\\neg(P \\leftrightarrow Q)$. Exercise 4 : Functional Completeness of ${\\wedge, \\neg}$ Prove that the set ${\\wedge, \\neg}$ is functionally complete by finding equivalents:\nFind a formula using only $\\wedge$ and $\\neg$ equivalent to $P \\vee Q$. Find a formula using only $\\wedge$ and $\\neg$ equivalent to $P \\rightarrow Q$. Challenge: Explain why being able to express $\\vee$ and $\\neg$ (or $\\rightarrow$ and $\\neg$) means you can express any truth function. Exercise 5 : NOR (Peirce Arrow / $\\downarrow$) $P \\downarrow Q$ means “neither P nor Q” (NOR). Its truth table matches $\\neg(P \\vee Q)$.\nConstruct the truth table for $P \\downarrow Q$. Find a formula using only $\\downarrow$ equivalent to: $\\neg P$ $P \\vee Q$ $P \\wedge Q$ $P \\rightarrow Q$ Discovery: Show that $\\downarrow$ alone is functionally complete. Exercise 6 : NAND (Sheffer Stroke / $\\mid$) $P \\mid Q$ means “not both P and Q” (NAND). Its truth table matches $\\neg(P \\wedge Q)$.\nConstruct the truth table for $P \\mid Q$. Express using $\\wedge$, $\\vee$, $\\neg$: $P \\mid Q$ Show $P \\mid Q \\equiv \\neg P \\vee \\neg Q$ Find formulas using only $\\mid$ equivalent to: $\\neg P$ $P \\vee Q$ $P \\wedge Q$ Discovery: Show that $\\mid$ alone is functionally complete. Exercise 7 : Identifying Equivalent Forms Use truth tables to determine which pairs among these formulas are equivalent:\n$(P \\wedge Q) \\vee (\\neg P \\wedge \\neg Q)$ (XNOR / biconditional) $\\neg P \\vee Q$ (implication) $(P \\vee \\neg Q) \\wedge (Q \\vee \\neg P)$ $\\neg (P \\vee Q)$ (NOR) $(Q \\wedge P) \\vee \\neg P$ $P \\rightarrow Q$ $\\neg(P \\oplus Q)$ (where $\\oplus$ is XOR) Follow-up: Group the equivalent formulas and name the logical operation each represents.\nExercise 8 : Tautologies, Contradictions, Contingencies Classify each formula as a tautology (always true), contradiction (always false), or contingency (sometimes true, sometimes false):\n$(P \\vee Q) \\wedge (\\neg P \\wedge \\neg Q)$ $(P \\wedge Q) \\vee (\\neg P \\vee \\neg Q)$ $(P \\vee Q) \\vee (\\neg P \\vee \\neg Q)$ $[P \\wedge (Q \\vee \\neg R)] \\vee (\\neg P \\vee R)$ $(P \\rightarrow Q) \\vee (Q \\rightarrow P)$ $(P \\wedge \\neg P) \\rightarrow Q$ Exercise 9 : Verifying Fundamental Laws Verify these logical laws using truth tables:\nDe Morgan’s Laws: $\\neg(P \\wedge Q) \\equiv \\neg P \\vee \\neg Q$ $\\neg(P \\vee Q) \\equiv \\neg P \\wedge \\neg Q$ Distributive Laws: $P \\wedge (Q \\vee R) \\equiv (P \\wedge Q) \\vee (P \\wedge R)$ $P \\vee (Q \\wedge R) \\equiv (P \\vee Q) \\wedge (P \\vee R)$ Implication Law: $P \\rightarrow Q \\equiv \\neg P \\vee Q$ Exercise 10 : Simplification Using Logical Laws Use logical equivalences (De Morgan’s, distributive, absorption, implication, double negation, etc.) to simplify:\n$\\neg (\\neg P \\wedge \\neg Q)$ $(P \\wedge \\neg Q) \\vee (\\neg P \\wedge Q)$ $(P \\wedge R) \\vee [\\neg R \\wedge (P \\vee Q)]$ $\\neg(P \\rightarrow Q) \\vee (P \\wedge \\neg R)$ Exercise 11 : Advanced Simplification Simplify using laws:\n$\\neg (\\neg P \\vee Q) \\vee (P \\wedge \\neg R)$ $(P \\wedge Q) \\vee (\\neg P \\wedge Q)$ $(P \\wedge Q) \\vee (\\neg P \\wedge \\neg Q)$ $(P \\rightarrow Q) \\wedge (P \\vee Q)$ Exercise 12 : Deriving De Morgan’s Second Law Use the first De Morgan’s law ($\\neg(P \\wedge Q) \\equiv \\neg P \\vee \\neg Q$) and double negation to derive the second De Morgan’s law: $\\neg(P \\vee Q) \\equiv \\neg P \\wedge \\neg Q$.\n(Hint: Apply the first law to $\\neg P$ and $\\neg Q$.)\nExercise 13 : Generalized Associativity Associative laws allow dropping parentheses for repeated $\\wedge$ or $\\vee$. Prove:\n$[P \\land (Q \\land R)] \\land S \\equiv (P \\land Q) \\land (R \\land S)$ $P \\lor (Q \\lor (R \\lor S)) \\equiv ((P \\lor Q) \\lor R) \\lor S$ Discussion: Why don’t we have associative laws for mixed connectives like $\\wedge$ and $\\vee$? Exercise 14 : Truth Table Size Analysis How many rows are in a truth table with $n$ propositional variables? How many possible truth functions exist for $n$ variables? If a formula contains 5 variables, how many columns might you need if you show every subexpression? Exercise 15 : Constructing Formulas from Truth Tables Find formulas (using $\\wedge$, $\\vee$, $\\neg$) that match these truth tables:\nTable A: $$ \\begin{array}{cc|c} P \u0026 Q \u0026 ? \\\\ \\hline F \u0026 F \u0026 T \\\\ F \u0026 T \u0026 F \\\\ T \u0026 F \u0026 T \\\\ T \u0026 T \u0026 T \\\\ \\end{array} $$ Table B: $$ \\begin{array}{cc|c} P \u0026 Q \u0026 ? \\\\ \\hline F \u0026 F \u0026 F \\\\ F \u0026 T \u0026 T \\\\ T \u0026 F \u0026 T \\\\ T \u0026 T \u0026 F \\\\ \\end{array} $$ Table C: $$ \\begin{array}{ccc|c} P \u0026 Q \u0026 R \u0026 ? \\\\ \\hline F \u0026 F \u0026 F \u0026 F \\\\ F \u0026 F \u0026 T \u0026 T \\\\ F \u0026 T \u0026 F \u0026 F \\\\ F \u0026 T \u0026 T \u0026 F \\\\ T \u0026 F \u0026 F \u0026 T \\\\ T \u0026 F \u0026 T \u0026 T \\\\ T \u0026 T \u0026 F \u0026 F \\\\ T \u0026 T \u0026 T \u0026 F \\\\ \\end{array} $$ Exercise 16 : Validity and Truth Conditions Analyze argument validity in relation to tautologies/contradictions:\nIf an argument’s conclusion is a tautology, what can you conclude about the argument’s validity? If an argument’s conclusion is a contradiction, what can you conclude? If a premise is a tautology, does it affect validity? What if a premise is a contradiction? Application: Determine if this argument is valid:\nPremises: $P \\rightarrow Q$, $\\neg Q$\nConclusion: $\\neg P \\vee Q$\n(Use truth tables to check.) Exercise 17 : Comprehensive Review Combine multiple concepts:\nShow that ${ \\rightarrow, \\neg }$ is functionally complete. Prove the absorption laws using truth tables and using logical equivalences. Find the simplest equivalent of $\\neg(P \\oplus Q) \\oplus (P \\rightarrow Q)$. How many of the 16 possible binary truth functions can be expressed using only $\\wedge$ and $\\vee$ (no $\\neg$)? ",
+  "wordCount" : "1150",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-16T18:54:11+01:00",
+  "dateModified": "2026-01-16T18:54:11+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Truth Tables and Logical Equivalences
+    </h1>
+    <div class="post-meta"><span title='2026-01-16 18:54:11 +0100 CET'>Januar 16, 2026</span>&nbsp;·&nbsp;<span>1150 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--basic-truth-tables">Exercise 1 : Basic Truth Tables</a></li>
+    <li><a href="#exercise-2--complex-truth-tables-with-intermediate-steps">Exercise 2 : Complex Truth Tables with Intermediate Steps</a></li>
+    <li><a href="#exercise-3--exclusive-or">Exercise 3 : Exclusive OR</a></li>
+    <li><a href="#exercise-4--functional-completeness-of-wedge-neg">Exercise 4 : Functional Completeness of ${\wedge, \neg}$</a></li>
+    <li><a href="#exercise-5--nor-peirce-arrow--downarrow">Exercise 5 : NOR (Peirce Arrow / $\downarrow$)</a></li>
+    <li><a href="#exercise-6--nand-sheffer-stroke--mid">Exercise 6 : NAND (Sheffer Stroke / $\mid$)</a></li>
+    <li><a href="#exercise-7--identifying-equivalent-forms">Exercise 7 : Identifying Equivalent Forms</a></li>
+    <li><a href="#exercise-8--tautologies-contradictions-contingencies">Exercise 8 : Tautologies, Contradictions, Contingencies</a></li>
+    <li><a href="#exercise-9--verifying-fundamental-laws">Exercise 9 : Verifying Fundamental Laws</a></li>
+    <li><a href="#exercise-10--simplification-using-logical-laws">Exercise 10 : Simplification Using Logical Laws</a></li>
+    <li><a href="#exercise-11--advanced-simplification">Exercise 11 : Advanced Simplification</a></li>
+    <li><a href="#exercise-12--deriving-de-morgans-second-law">Exercise 12 : Deriving De Morgan&rsquo;s Second Law</a></li>
+    <li><a href="#exercise-13--generalized-associativity">Exercise 13 : Generalized Associativity</a></li>
+    <li><a href="#exercise-14--truth-table-size-analysis">Exercise 14 : Truth Table Size Analysis</a></li>
+    <li><a href="#exercise-15--constructing-formulas-from-truth-tables">Exercise 15 : Constructing Formulas from Truth Tables</a></li>
+    <li><a href="#exercise-16--validity-and-truth-conditions">Exercise 16 : Validity and Truth Conditions</a></li>
+    <li><a href="#exercise-17--comprehensive-review">Exercise 17 : Comprehensive Review</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="truth-tables-and-logical-equivalences">Truth Tables and Logical Equivalences<a hidden class="anchor" aria-hidden="true" href="#truth-tables-and-logical-equivalences">#</a></h1>
+<h2 id="exercise-1--basic-truth-tables">Exercise 1 : Basic Truth Tables<a hidden class="anchor" aria-hidden="true" href="#exercise-1--basic-truth-tables">#</a></h2>
+<p>Construct complete truth tables for the following formulas. Show all intermediate columns.</p>
+<ol>
+<li>$\neg P \vee Q$</li>
+<li>$(S \vee G) \wedge (\neg S \vee \neg G)$</li>
+<li><strong>Bonus:</strong> $\neg(P \rightarrow Q) \wedge (P \vee Q)$</li>
+</ol>
+<h2 id="exercise-2--complex-truth-tables-with-intermediate-steps">Exercise 2 : Complex Truth Tables with Intermediate Steps<a hidden class="anchor" aria-hidden="true" href="#exercise-2--complex-truth-tables-with-intermediate-steps">#</a></h2>
+<p>Construct truth tables for these formulas, showing columns for each subexpression:</p>
+<ol>
+<li>$\neg [P \wedge (Q \vee \neg P)]$</li>
+<li>$(P \vee Q) \wedge (\neg P \vee R)$</li>
+<li><strong>Bonus:</strong> $P \rightarrow (Q \rightarrow R)$ and $(P \rightarrow Q) \rightarrow R$ (Are they equivalent?)</li>
+</ol>
+<h2 id="exercise-3--exclusive-or">Exercise 3 : Exclusive OR<a hidden class="anchor" aria-hidden="true" href="#exercise-3--exclusive-or">#</a></h2>
+<p>The symbol $+$ represents exclusive OR (XOR), where $P + Q$ is true when exactly one of $P$ or $Q$ is true.</p>
+<ol>
+<li>Construct a truth table for $P + Q$.</li>
+<li>Find <em>two different</em> formulas using only $\wedge$, $\vee$, and $\neg$ that are equivalent to $P + Q$. Verify each with a truth table.</li>
+<li>Show that $P + Q$ is equivalent to $\neg(P \leftrightarrow Q)$.</li>
+</ol>
+<h2 id="exercise-4--functional-completeness-of-wedge-neg">Exercise 4 : Functional Completeness of ${\wedge, \neg}$<a hidden class="anchor" aria-hidden="true" href="#exercise-4--functional-completeness-of-wedge-neg">#</a></h2>
+<p>Prove that the set ${\wedge, \neg}$ is functionally complete by finding equivalents:</p>
+<ol>
+<li>Find a formula using only $\wedge$ and $\neg$ equivalent to $P \vee Q$.</li>
+<li>Find a formula using only $\wedge$ and $\neg$ equivalent to $P \rightarrow Q$.</li>
+<li><strong>Challenge:</strong> Explain why being able to express $\vee$ and $\neg$ (or $\rightarrow$ and $\neg$) means you can express any truth function.</li>
+</ol>
+<h2 id="exercise-5--nor-peirce-arrow--downarrow">Exercise 5 : NOR (Peirce Arrow / $\downarrow$)<a hidden class="anchor" aria-hidden="true" href="#exercise-5--nor-peirce-arrow--downarrow">#</a></h2>
+<p>$P \downarrow Q$ means &ldquo;neither P nor Q&rdquo; (NOR). Its truth table matches $\neg(P \vee Q)$.</p>
+<ol>
+<li>Construct the truth table for $P \downarrow Q$.</li>
+<li>Find a formula using only $\downarrow$ equivalent to:
+<ul>
+<li>$\neg P$</li>
+<li>$P \vee Q$</li>
+<li>$P \wedge Q$</li>
+<li>$P \rightarrow Q$</li>
+</ul>
+</li>
+<li><strong>Discovery:</strong> Show that $\downarrow$ alone is functionally complete.</li>
+</ol>
+<h2 id="exercise-6--nand-sheffer-stroke--mid">Exercise 6 : NAND (Sheffer Stroke / $\mid$)<a hidden class="anchor" aria-hidden="true" href="#exercise-6--nand-sheffer-stroke--mid">#</a></h2>
+<p>$P \mid Q$ means &ldquo;not both P and Q&rdquo; (NAND). Its truth table matches $\neg(P \wedge Q)$.</p>
+<ol>
+<li>Construct the truth table for $P \mid Q$.</li>
+<li>Express using $\wedge$, $\vee$, $\neg$:
+<ul>
+<li>$P \mid Q$</li>
+<li>Show $P \mid Q \equiv \neg P \vee \neg Q$</li>
+</ul>
+</li>
+<li>Find formulas using only $\mid$ equivalent to:
+<ul>
+<li>$\neg P$</li>
+<li>$P \vee Q$</li>
+<li>$P \wedge Q$</li>
+</ul>
+</li>
+<li><strong>Discovery:</strong> Show that $\mid$ alone is functionally complete.</li>
+</ol>
+<h2 id="exercise-7--identifying-equivalent-forms">Exercise 7 : Identifying Equivalent Forms<a hidden class="anchor" aria-hidden="true" href="#exercise-7--identifying-equivalent-forms">#</a></h2>
+<p>Use truth tables to determine which pairs among these formulas are equivalent:</p>
+<ol>
+<li>$(P \wedge Q) \vee (\neg P \wedge \neg Q)$  (XNOR / biconditional)</li>
+<li>$\neg P \vee Q$  (implication)</li>
+<li>$(P \vee \neg Q) \wedge (Q \vee \neg P)$</li>
+<li>$\neg (P \vee Q)$  (NOR)</li>
+<li>$(Q \wedge P) \vee \neg P$</li>
+<li>$P \rightarrow Q$</li>
+<li>$\neg(P \oplus Q)$  (where $\oplus$ is XOR)</li>
+</ol>
+<p><strong>Follow-up:</strong> Group the equivalent formulas and name the logical operation each represents.</p>
+<h2 id="exercise-8--tautologies-contradictions-contingencies">Exercise 8 : Tautologies, Contradictions, Contingencies<a hidden class="anchor" aria-hidden="true" href="#exercise-8--tautologies-contradictions-contingencies">#</a></h2>
+<p>Classify each formula as a tautology (always true), contradiction (always false), or contingency (sometimes true, sometimes false):</p>
+<ol>
+<li>$(P \vee Q) \wedge (\neg P \wedge \neg Q)$</li>
+<li>$(P \wedge Q) \vee (\neg P \vee \neg Q)$</li>
+<li>$(P \vee Q) \vee (\neg P \vee \neg Q)$</li>
+<li>$[P \wedge (Q \vee \neg R)] \vee (\neg P \vee R)$</li>
+<li>$(P \rightarrow Q) \vee (Q \rightarrow P)$</li>
+<li>$(P \wedge \neg P) \rightarrow Q$</li>
+</ol>
+<h2 id="exercise-9--verifying-fundamental-laws">Exercise 9 : Verifying Fundamental Laws<a hidden class="anchor" aria-hidden="true" href="#exercise-9--verifying-fundamental-laws">#</a></h2>
+<p>Verify these logical laws using truth tables:</p>
+<ol>
+<li><strong>De Morgan&rsquo;s Laws:</strong>
+<ul>
+<li>$\neg(P \wedge Q) \equiv \neg P \vee \neg Q$</li>
+<li>$\neg(P \vee Q) \equiv \neg P \wedge \neg Q$</li>
+</ul>
+</li>
+<li><strong>Distributive Laws:</strong>
+<ul>
+<li>$P \wedge (Q \vee R) \equiv (P \wedge Q) \vee (P \wedge R)$</li>
+<li>$P \vee (Q \wedge R) \equiv (P \vee Q) \wedge (P \vee R)$</li>
+</ul>
+</li>
+<li><strong>Implication Law:</strong> $P \rightarrow Q \equiv \neg P \vee Q$</li>
+</ol>
+<h2 id="exercise-10--simplification-using-logical-laws">Exercise 10 : Simplification Using Logical Laws<a hidden class="anchor" aria-hidden="true" href="#exercise-10--simplification-using-logical-laws">#</a></h2>
+<p>Use logical equivalences (De Morgan&rsquo;s, distributive, absorption, implication, double negation, etc.) to simplify:</p>
+<ol>
+<li>$\neg (\neg P \wedge \neg Q)$</li>
+<li>$(P \wedge \neg Q) \vee (\neg P \wedge Q)$</li>
+<li>$(P \wedge R) \vee [\neg R \wedge (P \vee Q)]$</li>
+<li>$\neg(P \rightarrow Q) \vee (P \wedge \neg R)$</li>
+</ol>
+<h2 id="exercise-11--advanced-simplification">Exercise 11 : Advanced Simplification<a hidden class="anchor" aria-hidden="true" href="#exercise-11--advanced-simplification">#</a></h2>
+<p>Simplify using laws:</p>
+<ol>
+<li>$\neg (\neg P \vee Q) \vee (P \wedge \neg R)$</li>
+<li>$(P \wedge Q) \vee (\neg P \wedge Q)$</li>
+<li>$(P \wedge Q) \vee (\neg P \wedge \neg Q)$</li>
+<li>$(P \rightarrow Q) \wedge (P \vee Q)$</li>
+</ol>
+<h2 id="exercise-12--deriving-de-morgans-second-law">Exercise 12 : Deriving De Morgan&rsquo;s Second Law<a hidden class="anchor" aria-hidden="true" href="#exercise-12--deriving-de-morgans-second-law">#</a></h2>
+<p>Use the first De Morgan&rsquo;s law ($\neg(P \wedge Q) \equiv \neg P \vee \neg Q$) and double negation to derive the second De Morgan&rsquo;s law: $\neg(P \vee Q) \equiv \neg P \wedge \neg Q$.</p>
+<p><em>(Hint: Apply the first law to $\neg P$ and $\neg Q$.)</em></p>
+<h2 id="exercise-13--generalized-associativity">Exercise 13 : Generalized Associativity<a hidden class="anchor" aria-hidden="true" href="#exercise-13--generalized-associativity">#</a></h2>
+<p>Associative laws allow dropping parentheses for repeated $\wedge$ or $\vee$. Prove:</p>
+<ol>
+<li>$[P \land (Q \land R)] \land S \equiv (P \land Q) \land (R \land S)$</li>
+<li>$P \lor (Q \lor (R \lor S)) \equiv ((P \lor Q) \lor R) \lor S$</li>
+<li><strong>Discussion:</strong> Why don&rsquo;t we have associative laws for mixed connectives like $\wedge$ and $\vee$?</li>
+</ol>
+<h2 id="exercise-14--truth-table-size-analysis">Exercise 14 : Truth Table Size Analysis<a hidden class="anchor" aria-hidden="true" href="#exercise-14--truth-table-size-analysis">#</a></h2>
+<ol>
+<li>How many rows are in a truth table with $n$ propositional variables?</li>
+<li>How many possible truth functions exist for $n$ variables?</li>
+<li>If a formula contains 5 variables, how many columns might you need if you show every subexpression?</li>
+</ol>
+<h2 id="exercise-15--constructing-formulas-from-truth-tables">Exercise 15 : Constructing Formulas from Truth Tables<a hidden class="anchor" aria-hidden="true" href="#exercise-15--constructing-formulas-from-truth-tables">#</a></h2>
+<p>Find formulas (using $\wedge$, $\vee$, $\neg$) that match these truth tables:</p>
+<ol>
+<li>
+<p><strong>Table A:</strong>
+</p>
+$$
+   \begin{array}{cc|c}
+   P & Q & ? \\
+   \hline
+   F & F & T \\
+   F & T & F \\
+   T & F & T \\
+   T & T & T \\
+   \end{array}
+   $$</li>
+<li>
+<p><strong>Table B:</strong>
+</p>
+$$
+   \begin{array}{cc|c}
+   P & Q & ? \\
+   \hline
+   F & F & F \\
+   F & T & T \\
+   T & F & T \\
+   T & T & F \\
+   \end{array}
+   $$</li>
+<li>
+<p><strong>Table C:</strong>
+</p>
+$$
+   \begin{array}{ccc|c}
+   P & Q & R & ? \\
+   \hline
+   F & F & F & F \\
+   F & F & T & T \\
+   F & T & F & F \\
+   F & T & T & F \\
+   T & F & F & T \\
+   T & F & T & T \\
+   T & T & F & F \\
+   T & T & T & F \\
+   \end{array}
+   $$</li>
+</ol>
+<h2 id="exercise-16--validity-and-truth-conditions">Exercise 16 : Validity and Truth Conditions<a hidden class="anchor" aria-hidden="true" href="#exercise-16--validity-and-truth-conditions">#</a></h2>
+<p>Analyze argument validity in relation to tautologies/contradictions:</p>
+<ol>
+<li>If an argument&rsquo;s conclusion is a tautology, what can you conclude about the argument&rsquo;s validity?</li>
+<li>If an argument&rsquo;s conclusion is a contradiction, what can you conclude?</li>
+<li>If a premise is a tautology, does it affect validity? What if a premise is a contradiction?</li>
+<li><strong>Application:</strong> Determine if this argument is valid:<br>
+Premises: $P \rightarrow Q$, $\neg Q$<br>
+Conclusion: $\neg P \vee Q$<br>
+(Use truth tables to check.)</li>
+</ol>
+<h2 id="exercise-17--comprehensive-review">Exercise 17 : Comprehensive Review<a hidden class="anchor" aria-hidden="true" href="#exercise-17--comprehensive-review">#</a></h2>
+<p>Combine multiple concepts:</p>
+<ol>
+<li>Show that ${ \rightarrow, \neg }$ is functionally complete.</li>
+<li>Prove the absorption laws using truth tables and using logical equivalences.</li>
+<li>Find the simplest equivalent of $\neg(P \oplus Q) \oplus (P \rightarrow Q)$.</li>
+<li>How many of the 16 possible binary truth functions can be expressed using only $\wedge$ and $\vee$ (no $\neg$)?</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/logic/">Logic</a></li>
+      <li><a href="http://localhost:1313/tags/truth-tables/">Truth Tables</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/logic/en/conditional-and-biconditional-connectives/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Conditional and Biconditional Connectives</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/physik/mechanics/de/dynamik/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Dynamik</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

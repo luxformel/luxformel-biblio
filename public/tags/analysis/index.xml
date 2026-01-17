@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Analysis on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/analysis/</link>
+    <link>http://localhost:1313/tags/analysis/</link>
     <description>Recent content in Analysis on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 08:45:14 +0200</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preliminary Analysis</title>
-      <link>https://biblio.luxformel.info/posts/mathe/analysis/en/preliminary-analysis/</link>
+      <link>http://localhost:1313/posts/mathe/analysis/en/preliminary-analysis/</link>
       <pubDate>Sun, 07 Sep 2025 08:45:14 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/analysis/en/preliminary-analysis/</guid>
+      <guid>http://localhost:1313/posts/mathe/analysis/en/preliminary-analysis/</guid>
       <description>&lt;h1 id=&#34;preliminary-analysis&#34;&gt;Preliminary Analysis&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Prove that $\sqrt{3}$ is irrational. Does a similar argument work to show $\sqrt{6}$ is irrational?&lt;/p&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>Axiom Of Completeness</title>
-      <link>https://biblio.luxformel.info/posts/mathe/analysis/en/axiom-of-completeness/</link>
+      <link>http://localhost:1313/posts/mathe/analysis/en/axiom-of-completeness/</link>
       <pubDate>Sun, 07 Sep 2025 08:43:44 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/analysis/en/axiom-of-completeness/</guid>
+      <guid>http://localhost:1313/posts/mathe/analysis/en/axiom-of-completeness/</guid>
       <description>&lt;h1 id=&#34;axiom-of-completeness&#34;&gt;Axiom Of Completeness&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $ \mathbb{Z}_5 = {0, 1, 2, 3, 4} $ and define addition and multiplication modulo 5. In other words, compute the integer remainder when $ a + b $ and $ ab $ are divided by 5, and use this as the value for the sum and product, respectively.&lt;/p&gt;

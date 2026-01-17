@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Proof Strategies | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Logic, Proofs">
+<meta name="description" content="Proof Strategies
+Exercise 1 : Identifying Hypotheses and Conclusions
+Theorem
+Suppose \(n\) is an integer larger than 1 and \(n\) is not prime. Then \(2^n - 1\) is not prime.
+
+Identify the hypothesis and conclusion of the theorem. Are the hypotheses true when \(n = 6\)? If so, what does the theorem conclude for \(n=6\)? Check whether this conclusion is correct.
+What does the theorem conclude when \(n = 15\)? Verify this conclusion directly.
+What does the theorem conclude when \(n = 11\)? Does the theorem apply in this case? Why or why not?
+
+Exercise 2 : Understanding a Quadratic Theorem
+Theorem
+Suppose that \(b^2 &gt; 4ac\). Then the quadratic equation \(ax^2 &#43; bx &#43; c = 0\) has exactly two real solutions.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/logic/en/proof-strategies/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/logic/en/proof-strategies/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Proof Strategies">
+  <meta property="og:description" content="Proof Strategies Exercise 1 : Identifying Hypotheses and Conclusions Theorem
+Suppose \(n\) is an integer larger than 1 and \(n\) is not prime. Then \(2^n - 1\) is not prime.
+Identify the hypothesis and conclusion of the theorem. Are the hypotheses true when \(n = 6\)? If so, what does the theorem conclude for \(n=6\)? Check whether this conclusion is correct. What does the theorem conclude when \(n = 15\)? Verify this conclusion directly. What does the theorem conclude when \(n = 11\)? Does the theorem apply in this case? Why or why not? Exercise 2 : Understanding a Quadratic Theorem Theorem
+Suppose that \(b^2 &gt; 4ac\). Then the quadratic equation \(ax^2 &#43; bx &#43; c = 0\) has exactly two real solutions.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-17T18:50:40+01:00">
+    <meta property="article:modified_time" content="2026-01-17T18:50:40+01:00">
+    <meta property="article:tag" content="Logic">
+    <meta property="article:tag" content="Proofs">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Proof Strategies">
+<meta name="twitter:description" content="Proof Strategies
+Exercise 1 : Identifying Hypotheses and Conclusions
+Theorem
+Suppose \(n\) is an integer larger than 1 and \(n\) is not prime. Then \(2^n - 1\) is not prime.
+
+Identify the hypothesis and conclusion of the theorem. Are the hypotheses true when \(n = 6\)? If so, what does the theorem conclude for \(n=6\)? Check whether this conclusion is correct.
+What does the theorem conclude when \(n = 15\)? Verify this conclusion directly.
+What does the theorem conclude when \(n = 11\)? Does the theorem apply in this case? Why or why not?
+
+Exercise 2 : Understanding a Quadratic Theorem
+Theorem
+Suppose that \(b^2 &gt; 4ac\). Then the quadratic equation \(ax^2 &#43; bx &#43; c = 0\) has exactly two real solutions.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Proof Strategies",
+      "item": "http://localhost:1313/posts/mathe/logic/en/proof-strategies/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Proof Strategies",
+  "name": "Proof Strategies",
+  "description": "Proof Strategies Exercise 1 : Identifying Hypotheses and Conclusions Theorem\nSuppose \\(n\\) is an integer larger than 1 and \\(n\\) is not prime. Then \\(2^n - 1\\) is not prime.\nIdentify the hypothesis and conclusion of the theorem. Are the hypotheses true when \\(n = 6\\)? If so, what does the theorem conclude for \\(n=6\\)? Check whether this conclusion is correct. What does the theorem conclude when \\(n = 15\\)? Verify this conclusion directly. What does the theorem conclude when \\(n = 11\\)? Does the theorem apply in this case? Why or why not? Exercise 2 : Understanding a Quadratic Theorem Theorem\nSuppose that \\(b^2 \u003e 4ac\\). Then the quadratic equation \\(ax^2 + bx + c = 0\\) has exactly two real solutions.\n",
+  "keywords": [
+    "Logic", "Proofs"
+  ],
+  "articleBody": "Proof Strategies Exercise 1 : Identifying Hypotheses and Conclusions Theorem\nSuppose \\(n\\) is an integer larger than 1 and \\(n\\) is not prime. Then \\(2^n - 1\\) is not prime.\nIdentify the hypothesis and conclusion of the theorem. Are the hypotheses true when \\(n = 6\\)? If so, what does the theorem conclude for \\(n=6\\)? Check whether this conclusion is correct. What does the theorem conclude when \\(n = 15\\)? Verify this conclusion directly. What does the theorem conclude when \\(n = 11\\)? Does the theorem apply in this case? Why or why not? Exercise 2 : Understanding a Quadratic Theorem Theorem\nSuppose that \\(b^2 \u003e 4ac\\). Then the quadratic equation \\(ax^2 + bx + c = 0\\) has exactly two real solutions.\nIdentify the hypothesis and conclusion of the theorem. In giving an instance of the theorem, why do you specify values for \\(a\\), \\(b\\), and \\(c\\), but not for \\(x\\)? Let \\(a = 2\\), \\(b = -5\\), \\(c = 3\\). Does the hypothesis hold? What does the theorem conclude? Solve \\(2x^2 - 5x + 3 = 0\\) directly to verify. Let \\(a = 2\\), \\(b = 4\\), \\(c = 3\\). Does the hypothesis hold? What can you conclude from the theorem? Exercise 3 : Finding a Counterexample Incorrect Theorem\nSuppose \\(n\\) is a natural number larger than 2, and \\(n\\) is not prime. Then \\(2n + 13\\) is not prime.\nIdentify the hypothesis and conclusion. Show the theorem is false by finding a counterexample. Exercise 4 : Completing a Direct Proof Complete the following proof of the theorem:\nTheorem\nIf \\(0 \u003c a \u003c b\\), then \\(a^2 \u003c b^2\\).\nProof\nSuppose \\(0 \u003c a \u003c b\\). Then \\(b - a \u003e 0\\) and \\(b + a \u003e 0\\).\nMultiplying the inequalities, \\((b - a)(b + a) \u003e 0 \\cdot (b + a)\\) ⇒ \\(b^2 - a^2 \u003e 0\\).\nTherefore, \\(a^2 \u003c b^2\\). ∎\nJustify the step that \\(b + a \u003e 0\\). Explain why multiplying the inequalities is valid here. Rewrite the proof concisely in your own words. Exercise 5 : Proving an Inequality Suppose \\(a\\) and \\(b\\) are real numbers. Prove that if \\(a \u003c b \u003c 0\\), then \\(a^2 \u003e b^2\\).\nExercise 6 : Reciprocal Inequality Suppose \\(a\\) and \\(b\\) are real numbers. Prove that if \\(0 \u003c a \u003c b\\), then \\(\\frac{1}{b} \u003c \\frac{1}{a}\\).\nExercise 7 : Inequality Implication Suppose \\(a\\) is a real number. Prove that if \\(a^3 \u003e a\\), then \\(a^5 \u003e a\\).\nHint: One approach: \\(a^5 - a = (a^3 - a)(a^2 + 1)\\).\nExercise 8 : Set Logic Proof Suppose \\(A \\setminus B \\subseteq C \\cap D\\) and \\(x \\in A\\). Prove that if \\(x \\notin D\\), then \\(x \\in B\\).\nExercise 9 : Nested Conditional Proof Suppose \\(A \\cap B \\subseteq C \\setminus D\\). Prove that if \\(x \\in A\\), then if \\(x \\in D\\), then \\(x \\notin B\\).\nExercise 10 : Average Inequality Suppose \\(a\\) and \\(b\\) are real numbers. Prove that if \\(a \u003c b\\), then \\(\\frac{a + b}{2} \u003c b\\).\nExercise 11 : Rational Equation Constraint Suppose \\(x\\) is a real number and \\(x \\neq 0\\). Prove that if\n\\[ \\frac{\\sqrt[3]{x + 5}}{x^2 + 6} = \\frac{1}{x}, \\]\nthen \\(x \\neq 8\\).\nExercise 12 : Inequality Chain Proof Suppose \\(a, b, c, d\\) are real numbers, \\(0 \u003c a \u003c b\\), and \\(d \u003e 0\\). Prove that if \\(ac \\geq bd\\), then \\(c \u003e d\\).\nExercise 13 : Linear Inequality Implication Suppose \\(x\\) and \\(y\\) are real numbers, and \\(3x + 2y \\leq 5\\). Prove that if \\(x \u003e 1\\), then \\(y \u003c 1\\).\nExercise 14 : System of Equations Conclusion Suppose that \\(x\\) and \\(y\\) are real numbers. Prove that if\n\\(x^2 + y = -3\\) and \\(2x - y = 2\\),\nthen \\(x = -1\\).\nExercise 15 : Diagnosing and Correcting a Proof Theorem\nSuppose \\(x\\) is a real number and \\(x \\neq 4\\). If \\(\\frac{2x - 5}{x - 4} = 3\\), then \\(x = 7\\).\nThe following proof is incorrect. Why?\nProof Suppose \\(x = 7\\). Then \\(\\frac{2(7)-5}{7-4} = \\frac{9}{3} = 3\\). Therefore if \\(\\frac{2x-5}{x-4} = 3\\), then \\(x = 7\\). Provide a correct proof of the theorem. Exercise 16 : Another Incorrect Theorem Incorrect Theorem\nSuppose \\(x\\) and \\(y\\) are real numbers and \\(x \\neq 3\\). If \\(x^2 y = 9y\\), then \\(y = 0\\).\nWhy is the following proof invalid?\nProof Suppose \\(x^2 y = 9y\\). Then \\((x^2 - 9)y = 0\\). Since \\(x \\neq 3\\), \\(x^2 \\neq 9\\), so \\(x^2 - 9 \\neq 0\\). Dividing both sides by \\(x^2 - 9\\) gives \\(y = 0\\). Find a counterexample to the theorem. ",
+  "wordCount" : "770",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-17T18:50:40+01:00",
+  "dateModified": "2026-01-17T18:50:40+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/logic/en/proof-strategies/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Proof Strategies
+    </h1>
+    <div class="post-meta"><span title='2026-01-17 18:50:40 +0100 CET'>Januar 17, 2026</span>&nbsp;·&nbsp;<span>770 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--identifying-hypotheses-and-conclusions">Exercise 1 : Identifying Hypotheses and Conclusions</a></li>
+    <li><a href="#exercise-2--understanding-a-quadratic-theorem">Exercise 2 : Understanding a Quadratic Theorem</a></li>
+    <li><a href="#exercise-3--finding-a-counterexample">Exercise 3 : Finding a Counterexample</a></li>
+    <li><a href="#exercise-4--completing-a-direct-proof">Exercise 4 : Completing a Direct Proof</a></li>
+    <li><a href="#exercise-5--proving-an-inequality">Exercise 5 : Proving an Inequality</a></li>
+    <li><a href="#exercise-6--reciprocal-inequality">Exercise 6 : Reciprocal Inequality</a></li>
+    <li><a href="#exercise-7--inequality-implication">Exercise 7 : Inequality Implication</a></li>
+    <li><a href="#exercise-8--set-logic-proof">Exercise 8 : Set Logic Proof</a></li>
+    <li><a href="#exercise-9--nested-conditional-proof">Exercise 9 : Nested Conditional Proof</a></li>
+    <li><a href="#exercise-10--average-inequality">Exercise 10 : Average Inequality</a></li>
+    <li><a href="#exercise-11--rational-equation-constraint">Exercise 11 : Rational Equation Constraint</a></li>
+    <li><a href="#exercise-12--inequality-chain-proof">Exercise 12 : Inequality Chain Proof</a></li>
+    <li><a href="#exercise-13--linear-inequality-implication">Exercise 13 : Linear Inequality Implication</a></li>
+    <li><a href="#exercise-14--system-of-equations-conclusion">Exercise 14 : System of Equations Conclusion</a></li>
+    <li><a href="#exercise-15--diagnosing-and-correcting-a-proof">Exercise 15 : Diagnosing and Correcting a Proof</a></li>
+    <li><a href="#exercise-16--another-incorrect-theorem">Exercise 16 : Another Incorrect Theorem</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="proof-strategies">Proof Strategies<a hidden class="anchor" aria-hidden="true" href="#proof-strategies">#</a></h1>
+<h2 id="exercise-1--identifying-hypotheses-and-conclusions">Exercise 1 : Identifying Hypotheses and Conclusions<a hidden class="anchor" aria-hidden="true" href="#exercise-1--identifying-hypotheses-and-conclusions">#</a></h2>
+<p><strong>Theorem</strong><br>
+Suppose \(n\) is an integer larger than 1 and \(n\) is not prime. Then \(2^n - 1\) is not prime.</p>
+<ol>
+<li>Identify the hypothesis and conclusion of the theorem. Are the hypotheses true when \(n = 6\)? If so, what does the theorem conclude for \(n=6\)? Check whether this conclusion is correct.</li>
+<li>What does the theorem conclude when \(n = 15\)? Verify this conclusion directly.</li>
+<li>What does the theorem conclude when \(n = 11\)? Does the theorem apply in this case? Why or why not?</li>
+</ol>
+<h2 id="exercise-2--understanding-a-quadratic-theorem">Exercise 2 : Understanding a Quadratic Theorem<a hidden class="anchor" aria-hidden="true" href="#exercise-2--understanding-a-quadratic-theorem">#</a></h2>
+<p><strong>Theorem</strong><br>
+Suppose that \(b^2 > 4ac\). Then the quadratic equation \(ax^2 + bx + c = 0\) has exactly two real solutions.</p>
+<ol>
+<li>Identify the hypothesis and conclusion of the theorem.</li>
+<li>In giving an instance of the theorem, why do you specify values for \(a\), \(b\), and \(c\), but not for \(x\)?</li>
+<li>Let \(a = 2\), \(b = -5\), \(c = 3\).
+<ul>
+<li>Does the hypothesis hold?</li>
+<li>What does the theorem conclude?</li>
+<li>Solve \(2x^2 - 5x + 3 = 0\) directly to verify.</li>
+</ul>
+</li>
+<li>Let \(a = 2\), \(b = 4\), \(c = 3\).
+<ul>
+<li>Does the hypothesis hold?</li>
+<li>What can you conclude from the theorem?</li>
+</ul>
+</li>
+</ol>
+<h2 id="exercise-3--finding-a-counterexample">Exercise 3 : Finding a Counterexample<a hidden class="anchor" aria-hidden="true" href="#exercise-3--finding-a-counterexample">#</a></h2>
+<p><strong>Incorrect Theorem</strong><br>
+Suppose \(n\) is a natural number larger than 2, and \(n\) is not prime. Then \(2n + 13\) is not prime.</p>
+<ol>
+<li>Identify the hypothesis and conclusion.</li>
+<li>Show the theorem is false by finding a counterexample.</li>
+</ol>
+<h2 id="exercise-4--completing-a-direct-proof">Exercise 4 : Completing a Direct Proof<a hidden class="anchor" aria-hidden="true" href="#exercise-4--completing-a-direct-proof">#</a></h2>
+<p>Complete the following proof of the theorem:<br>
+<strong>Theorem</strong><br>
+If \(0 < a < b\), then \(a^2 < b^2\).</p>
+<p><strong>Proof</strong><br>
+Suppose \(0 < a < b\). Then \(b - a > 0\) and \(b + a > 0\).<br>
+Multiplying the inequalities, \((b - a)(b + a) > 0 \cdot (b + a)\) ⇒ \(b^2 - a^2 > 0\).<br>
+Therefore, \(a^2 < b^2\). ∎</p>
+<ol>
+<li>Justify the step that \(b + a > 0\).</li>
+<li>Explain why multiplying the inequalities is valid here.</li>
+<li>Rewrite the proof concisely in your own words.</li>
+</ol>
+<h2 id="exercise-5--proving-an-inequality">Exercise 5 : Proving an Inequality<a hidden class="anchor" aria-hidden="true" href="#exercise-5--proving-an-inequality">#</a></h2>
+<p>Suppose \(a\) and \(b\) are real numbers. Prove that if \(a < b < 0\), then \(a^2 > b^2\).</p>
+<h2 id="exercise-6--reciprocal-inequality">Exercise 6 : Reciprocal Inequality<a hidden class="anchor" aria-hidden="true" href="#exercise-6--reciprocal-inequality">#</a></h2>
+<p>Suppose \(a\) and \(b\) are real numbers. Prove that if \(0 < a < b\), then \(\frac{1}{b} < \frac{1}{a}\).</p>
+<h2 id="exercise-7--inequality-implication">Exercise 7 : Inequality Implication<a hidden class="anchor" aria-hidden="true" href="#exercise-7--inequality-implication">#</a></h2>
+<p>Suppose \(a\) is a real number. Prove that if \(a^3 > a\), then \(a^5 > a\).<br>
+<em>Hint:</em> One approach: \(a^5 - a = (a^3 - a)(a^2 + 1)\).</p>
+<h2 id="exercise-8--set-logic-proof">Exercise 8 : Set Logic Proof<a hidden class="anchor" aria-hidden="true" href="#exercise-8--set-logic-proof">#</a></h2>
+<p>Suppose \(A \setminus B \subseteq C \cap D\) and \(x \in A\). Prove that if \(x \notin D\), then \(x \in B\).</p>
+<h2 id="exercise-9--nested-conditional-proof">Exercise 9 : Nested Conditional Proof<a hidden class="anchor" aria-hidden="true" href="#exercise-9--nested-conditional-proof">#</a></h2>
+<p>Suppose \(A \cap B \subseteq C \setminus D\). Prove that if \(x \in A\), then if \(x \in D\), then \(x \notin B\).</p>
+<h2 id="exercise-10--average-inequality">Exercise 10 : Average Inequality<a hidden class="anchor" aria-hidden="true" href="#exercise-10--average-inequality">#</a></h2>
+<p>Suppose \(a\) and \(b\) are real numbers. Prove that if \(a < b\), then \(\frac{a + b}{2} < b\).</p>
+<h2 id="exercise-11--rational-equation-constraint">Exercise 11 : Rational Equation Constraint<a hidden class="anchor" aria-hidden="true" href="#exercise-11--rational-equation-constraint">#</a></h2>
+<p>Suppose \(x\) is a real number and \(x \neq 0\). Prove that if<br>
+</p>
+\[
+\frac{\sqrt[3]{x + 5}}{x^2 + 6} = \frac{1}{x},
+\]<p><br>
+then \(x \neq 8\).</p>
+<h2 id="exercise-12--inequality-chain-proof">Exercise 12 : Inequality Chain Proof<a hidden class="anchor" aria-hidden="true" href="#exercise-12--inequality-chain-proof">#</a></h2>
+<p>Suppose \(a, b, c, d\) are real numbers, \(0 < a < b\), and \(d > 0\). Prove that if \(ac \geq bd\), then \(c > d\).</p>
+<h2 id="exercise-13--linear-inequality-implication">Exercise 13 : Linear Inequality Implication<a hidden class="anchor" aria-hidden="true" href="#exercise-13--linear-inequality-implication">#</a></h2>
+<p>Suppose \(x\) and \(y\) are real numbers, and \(3x + 2y \leq 5\). Prove that if \(x > 1\), then \(y < 1\).</p>
+<h2 id="exercise-14--system-of-equations-conclusion">Exercise 14 : System of Equations Conclusion<a hidden class="anchor" aria-hidden="true" href="#exercise-14--system-of-equations-conclusion">#</a></h2>
+<p>Suppose that \(x\) and \(y\) are real numbers. Prove that if<br>
+\(x^2 + y = -3\) and \(2x - y = 2\),<br>
+then \(x = -1\).</p>
+<h2 id="exercise-15--diagnosing-and-correcting-a-proof">Exercise 15 : Diagnosing and Correcting a Proof<a hidden class="anchor" aria-hidden="true" href="#exercise-15--diagnosing-and-correcting-a-proof">#</a></h2>
+<p><strong>Theorem</strong><br>
+Suppose \(x\) is a real number and \(x \neq 4\). If \(\frac{2x - 5}{x - 4} = 3\), then \(x = 7\).</p>
+<ol>
+<li>The following proof is incorrect. Why?<br>
+<strong>Proof</strong> Suppose \(x = 7\). Then \(\frac{2(7)-5}{7-4} = \frac{9}{3} = 3\). Therefore if \(\frac{2x-5}{x-4} = 3\), then \(x = 7\).</li>
+<li>Provide a correct proof of the theorem.</li>
+</ol>
+<h2 id="exercise-16--another-incorrect-theorem">Exercise 16 : Another Incorrect Theorem<a hidden class="anchor" aria-hidden="true" href="#exercise-16--another-incorrect-theorem">#</a></h2>
+<p><strong>Incorrect Theorem</strong><br>
+Suppose \(x\) and \(y\) are real numbers and \(x \neq 3\). If \(x^2 y = 9y\), then \(y = 0\).</p>
+<ol>
+<li>Why is the following proof invalid?<br>
+<strong>Proof</strong> Suppose \(x^2 y = 9y\). Then \((x^2 - 9)y = 0\). Since \(x \neq 3\), \(x^2 \neq 9\), so \(x^2 - 9 \neq 0\). Dividing both sides by \(x^2 - 9\) gives \(y = 0\).</li>
+<li>Find a counterexample to the theorem.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/logic/">Logic</a></li>
+      <li><a href="http://localhost:1313/tags/proofs/">Proofs</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/logic/en/quantificational-logic/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Quantificational Logic</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/logic/en/operations-on-sets/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Operations on Sets</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

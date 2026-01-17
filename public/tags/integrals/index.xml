@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Integrals on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/integrals/</link>
+    <link>http://localhost:1313/tags/integrals/</link>
     <description>Recent content in Integrals on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 11:24:52 +0100</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/integrals/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/integrals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surface Integrals, Divergence, Curl and Potential</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</link>
       <pubDate>Thu, 08 Jan 2026 11:24:52 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</guid>
       <description>&lt;h1 id=&#34;surface-integrals-divergence-curl-and-potential&#34;&gt;Surface Integrals, Divergence, Curl and Potential&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--coordinate-planes&#34;&gt;Exercise 1 : Coordinate Planes&lt;/h2&gt;
 &lt;p&gt;Given three squares with an area of 4 units each. They are placed:&lt;/p&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>Multiple Integrals; Coordinate Systems</title>
-      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</link>
+      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</link>
       <pubDate>Thu, 08 Jan 2026 11:07:40 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</guid>
+      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</guid>
       <description>&lt;h1 id=&#34;multiple-integrals-coordinate-systems&#34;&gt;Multiple Integrals; Coordinate Systems&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--multiple-integrals-with-constant-limits&#34;&gt;Exercise 1 : Multiple Integrals with Constant Limits&lt;/h2&gt;
 &lt;p&gt;Evaluate the following multiple integrals:&lt;/p&gt;
@@ -72,9 +72,9 @@
     </item>
     <item>
       <title>Integral Calculus</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/integral-calculus/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/en/integral-calculus/</link>
       <pubDate>Thu, 08 Jan 2026 07:50:31 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/integral-calculus/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/integral-calculus/</guid>
       <description>&lt;h1 id=&#34;integral-calculus&#34;&gt;Integral Calculus&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--primitives&#34;&gt;Exercise 1 : Primitives&lt;/h2&gt;
 &lt;p&gt;Find the primitives of the following functions and the value of the constant:&lt;/p&gt;
@@ -94,9 +94,9 @@
     </item>
     <item>
       <title>Line, Volume and Surface Integrals</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</link>
       <pubDate>Thu, 18 Dec 2025 15:08:39 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</guid>
       <description>&lt;h1 id=&#34;line-volume-and-surface-integrals&#34;&gt;Line, Volume and Surface Integrals&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--basic-line-integral&#34;&gt;Exercise 1 : Basic Line Integral&lt;/h2&gt;
 &lt;p&gt;For $\mathbf{v} = x^2,\hat{\mathbf{x}} + 2yz,\hat{\mathbf{y}} + y^2,\hat{\mathbf{z}}$, compute $\int_C \mathbf{v} \cdot d\mathbf{l}$ from $(0,0,0)$ to $(1,1,1)$ along:&lt;/p&gt;
@@ -113,9 +113,9 @@ for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.
     </item>
     <item>
       <title>Integrals</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/en/integrals/</link>
       <pubDate>Sun, 07 Sep 2025 06:44:19 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/integrals/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/integrals/</guid>
       <description>&lt;h1 id=&#34;integrals&#34;&gt;Integrals&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--proofs&#34;&gt;Exercise 1 : Proofs&lt;/h2&gt;
 &lt;ol&gt;

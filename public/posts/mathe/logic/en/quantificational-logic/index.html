@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Quantificational Logic | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Logic">
+<meta name="description" content="Quantificational Logic
+Exercise 1 : Translating into quantificational logic I
+Let the domain be “all people.” Symbolize each sentence using quantifiers. Use the following predicates:
+
+\( S(x) \): \( x \) is a saint.
+\( F(x, y) \): \( x \) has forgiven \( y \).
+\( C(x) \): \( x \) is in the calculus class.
+\( D(x) \): \( x \) is in the discrete math class.
+\( Sm(x, y) \): \( x \) is smarter than \( y \).
+\( L(x, y) \): \( x \) likes \( y \).
+\( P(x) \): \( x \) is a police officer.
+\( S_a(x, y) \): \( x \) saw \( y \).
+
+
+Anyone who has forgiven at least one person is a saint.
+Nobody in the calculus class is smarter than everybody in the discrete math class.
+Everyone likes Mary, except Mary herself.
+Jane saw a police officer, and Roger saw one too.
+Jane saw a police officer, and Roger saw him too.
+
+Exercise 2 : Translating into quantificational logic II
+Use the following predicates:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/logic/en/quantificational-logic/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/logic/en/quantificational-logic/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Quantificational Logic">
+  <meta property="og:description" content="Quantificational Logic Exercise 1 : Translating into quantificational logic I Let the domain be “all people.” Symbolize each sentence using quantifiers. Use the following predicates:
+\( S(x) \): \( x \) is a saint. \( F(x, y) \): \( x \) has forgiven \( y \). \( C(x) \): \( x \) is in the calculus class. \( D(x) \): \( x \) is in the discrete math class. \( Sm(x, y) \): \( x \) is smarter than \( y \). \( L(x, y) \): \( x \) likes \( y \). \( P(x) \): \( x \) is a police officer. \( S_a(x, y) \): \( x \) saw \( y \). Anyone who has forgiven at least one person is a saint. Nobody in the calculus class is smarter than everybody in the discrete math class. Everyone likes Mary, except Mary herself. Jane saw a police officer, and Roger saw one too. Jane saw a police officer, and Roger saw him too. Exercise 2 : Translating into quantificational logic II Use the following predicates:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-17T18:53:41+01:00">
+    <meta property="article:modified_time" content="2026-01-17T18:53:41+01:00">
+    <meta property="article:tag" content="Logic">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Quantificational Logic">
+<meta name="twitter:description" content="Quantificational Logic
+Exercise 1 : Translating into quantificational logic I
+Let the domain be “all people.” Symbolize each sentence using quantifiers. Use the following predicates:
+
+\( S(x) \): \( x \) is a saint.
+\( F(x, y) \): \( x \) has forgiven \( y \).
+\( C(x) \): \( x \) is in the calculus class.
+\( D(x) \): \( x \) is in the discrete math class.
+\( Sm(x, y) \): \( x \) is smarter than \( y \).
+\( L(x, y) \): \( x \) likes \( y \).
+\( P(x) \): \( x \) is a police officer.
+\( S_a(x, y) \): \( x \) saw \( y \).
+
+
+Anyone who has forgiven at least one person is a saint.
+Nobody in the calculus class is smarter than everybody in the discrete math class.
+Everyone likes Mary, except Mary herself.
+Jane saw a police officer, and Roger saw one too.
+Jane saw a police officer, and Roger saw him too.
+
+Exercise 2 : Translating into quantificational logic II
+Use the following predicates:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Quantificational Logic",
+      "item": "http://localhost:1313/posts/mathe/logic/en/quantificational-logic/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Quantificational Logic",
+  "name": "Quantificational Logic",
+  "description": "Quantificational Logic Exercise 1 : Translating into quantificational logic I Let the domain be “all people.” Symbolize each sentence using quantifiers. Use the following predicates:\n\\( S(x) \\): \\( x \\) is a saint. \\( F(x, y) \\): \\( x \\) has forgiven \\( y \\). \\( C(x) \\): \\( x \\) is in the calculus class. \\( D(x) \\): \\( x \\) is in the discrete math class. \\( Sm(x, y) \\): \\( x \\) is smarter than \\( y \\). \\( L(x, y) \\): \\( x \\) likes \\( y \\). \\( P(x) \\): \\( x \\) is a police officer. \\( S_a(x, y) \\): \\( x \\) saw \\( y \\). Anyone who has forgiven at least one person is a saint. Nobody in the calculus class is smarter than everybody in the discrete math class. Everyone likes Mary, except Mary herself. Jane saw a police officer, and Roger saw one too. Jane saw a police officer, and Roger saw him too. Exercise 2 : Translating into quantificational logic II Use the following predicates:\n",
+  "keywords": [
+    "Logic"
+  ],
+  "articleBody": "Quantificational Logic Exercise 1 : Translating into quantificational logic I Let the domain be “all people.” Symbolize each sentence using quantifiers. Use the following predicates:\n\\( S(x) \\): \\( x \\) is a saint. \\( F(x, y) \\): \\( x \\) has forgiven \\( y \\). \\( C(x) \\): \\( x \\) is in the calculus class. \\( D(x) \\): \\( x \\) is in the discrete math class. \\( Sm(x, y) \\): \\( x \\) is smarter than \\( y \\). \\( L(x, y) \\): \\( x \\) likes \\( y \\). \\( P(x) \\): \\( x \\) is a police officer. \\( S_a(x, y) \\): \\( x \\) saw \\( y \\). Anyone who has forgiven at least one person is a saint. Nobody in the calculus class is smarter than everybody in the discrete math class. Everyone likes Mary, except Mary herself. Jane saw a police officer, and Roger saw one too. Jane saw a police officer, and Roger saw him too. Exercise 2 : Translating into quantificational logic II Use the following predicates:\n\\( B(x, y) \\): \\( x \\) has bought \\( y \\). \\( RR(x) \\): \\( x \\) is a Rolls Royce. \\( Cash(x) \\): \\( x \\) was paid in cash. \\( R(x) \\): \\( x \\) is rich. \\( U(x, y) \\): \\( x \\) is the uncle of \\( y \\). \\( D(x) \\): \\( x \\) lives in the dorm. \\( M(x) \\): \\( x \\) has the measles. \\( F(x, y) \\): \\( x \\) is a friend of \\( y \\). \\( Q(x) \\): \\( x \\) will be quarantined. \\( Test(x) \\): \\( x \\) failed the test. \\( A(x) \\): \\( x \\) got an A. \\( D_g(x) \\): \\( x \\) got a D. \\( T(x, y) \\): \\( x \\) will tutor \\( y \\). \\( Can(x) \\): \\( x \\) can do it. Anyone who has bought a Rolls Royce with cash must have a rich uncle. If anyone in the dorm has the measles, then everyone who has a friend in the dorm will have to be quarantined. If nobody failed the test, then everybody who got an A will tutor someone who got a D. If anyone can do it, Jones can. If Jones can do it, anyone can. Exercise 3 : Quantifiers with mathematical statements Domain: real numbers. Use \\( \u003e, \u003c, \\ge, \\le, = \\) as needed.\nEvery number that is larger than \\( x \\) is larger than \\( y \\). For every number \\( a \\), the equation \\( ax^2 + 4x - 2 = 0 \\) has at least one solution iff \\( a \\ge -2 \\). All solutions of the inequality \\( x^3 - 3x \u003c 3 \\) are smaller than \\( 10 \\). If there is a number \\( x \\) such that \\( x^2 + 5x = w \\) and there is a number \\( y \\) such that \\( 4 - y^2 = w \\), then \\( w \\) is strictly between \\( -10 \\) and \\( 10 \\). Exercise 4 : Translating from logic to English I Translate each formula into an English sentence, using the given interpretation.\n\\( \\forall x \\,[H(x) \\land \\neg \\exists y \\, M(x, y)] \\to U(x) \\),\nwhere \\( H(x) \\): “\\( x \\) is a man,”\n\\( M(x, y) \\): “\\( x \\) is married to \\( y \\),”\n\\( U(x) \\): “\\( x \\) is unhappy.” \\( \\exists z \\,[P(z, x) \\land S(z, y) \\land W(y)] \\),\nwhere \\( P(z, x) \\): “\\( z \\) is a parent of \\( x \\),”\n\\( S(z, y) \\): “\\( z \\) and \\( y \\) are siblings,”\n\\( W(y) \\): “\\( y \\) is a woman.” Exercise 5 : Translating from logic to English II Domain: natural numbers.\n\\( \\forall x \\,[P(x) \\land \\neg (x = 2)] \\to O(x) \\),\nwhere \\( P(x) \\): “\\( x \\) is a prime number,”\n\\( O(x) \\): “\\( x \\) is odd.” \\( \\exists x \\,[P(x) \\land \\forall y \\,(P(y) \\to y \\le x)] \\),\nwhere \\( P(x) \\): “\\( x \\) is a perfect number.” Exercise 6 : Scope and negation Domain: real numbers. Explain in English what each statement says and determine its truth value.\n\\( \\neg \\exists x \\,(x^2 + 2x + 3 = 0 \\land x^2 + 2x - 3 = 0) \\) \\( \\neg [\\exists x \\,(x^2 + 2x + 3 = 0) \\land \\exists x \\,(x^2 + 2x - 3 = 0)] \\) \\( \\neg \\exists x \\,(x^2 + 2x + 3 = 0) \\land \\neg \\exists x \\,(x^2 + 2x - 3 = 0) \\) Exercise 7 : Quantifier order and meaning Domain: all people. \\( P(x, y) \\): “\\( x \\) is a parent of \\( y \\).”\n\\( \\exists x \\forall y \\, P(x, y) \\) \\( \\forall x \\exists y \\, P(x, y) \\) \\( \\neg \\exists x \\exists y \\, P(x, y) \\) \\( \\exists x \\neg \\exists y \\, P(x, y) \\) \\( \\exists x \\exists y \\neg P(x, y) \\) Exercise 8 : Quantifiers over \\(\\mathbb{N}\\) Domain: natural numbers \\( \\mathbb{N} = \\{0,1,2,\\dots\\} \\). Determine the truth value of each statement.\n\\( \\forall x \\exists y \\,(2x - y = 0) \\) \\( \\exists y \\forall x \\,(2x - y = 0) \\) \\( \\forall x \\exists y \\,(x - 2y = 0) \\) \\( \\forall x \\,(x \u003c 10 \\to \\forall y \\,(y \u003c x \\to y \u003c 9)) \\) \\( \\exists y \\forall z \\,(y + z = 100) \\) \\( \\forall x \\exists y \\,(y \u003e x \\land y + z = 100) \\) Exercise 9 : Quantifiers over \\(\\mathbb{R}\\) Domain: natural numbers \\( \\mathbb{R} \\). Determine the truth value of each statement.\n\\( \\forall x \\exists y \\,(2x - y = 0) \\) \\( \\exists y \\forall x \\,(2x - y = 0) \\) \\( \\forall x \\exists y \\,(x - 2y = 0) \\) \\( \\forall x \\,(x \u003c 10 \\to \\forall y \\,(y \u003c x \\to y \u003c 9)) \\) \\( \\exists y \\forall z \\,(y + z = 100) \\) \\( \\forall x \\exists y \\,(y \u003e x \\land y + z = 100) \\) Exercise 10 : Quantifiers over \\(\\mathbb{Z}\\) Domain: natural numbers \\( \\mathbb{Z} = \\{ \\dots, -2, -1,0,1,2,\\dots\\} \\). Determine the truth value of each statement.\n\\( \\forall x \\exists y \\,(2x - y = 0) \\) \\( \\exists y \\forall x \\,(2x - y = 0) \\) \\( \\forall x \\exists y \\,(x - 2y = 0) \\) \\( \\forall x \\,(x \u003c 10 \\to \\forall y \\,(y \u003c x \\to y \u003c 9)) \\) \\( \\exists y \\forall z \\,(y + z = 100) \\) \\( \\forall x \\exists y \\,(y \u003e x \\land y + z = 100) \\) ",
+  "wordCount" : "1147",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-17T18:53:41+01:00",
+  "dateModified": "2026-01-17T18:53:41+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/logic/en/quantificational-logic/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Quantificational Logic
+    </h1>
+    <div class="post-meta"><span title='2026-01-17 18:53:41 +0100 CET'>Januar 17, 2026</span>&nbsp;·&nbsp;<span>1147 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--translating-into-quantificational-logic-i">Exercise 1 : Translating into quantificational logic I</a></li>
+    <li><a href="#exercise-2--translating-into-quantificational-logic-ii">Exercise 2 : Translating into quantificational logic II</a></li>
+    <li><a href="#exercise-3--quantifiers-with-mathematical-statements">Exercise 3 : Quantifiers with mathematical statements</a></li>
+    <li><a href="#exercise-4--translating-from-logic-to-english-i">Exercise 4 : Translating from logic to English I</a></li>
+    <li><a href="#exercise-5--translating-from-logic-to-english-ii">Exercise 5 : Translating from logic to English II</a></li>
+    <li><a href="#exercise-6--scope-and-negation">Exercise 6 : Scope and negation</a></li>
+    <li><a href="#exercise-7--quantifier-order-and-meaning">Exercise 7 : Quantifier order and meaning</a></li>
+    <li><a href="#exercise-8--quantifiers-over">Exercise 8 : Quantifiers over </a></li>
+    <li><a href="#exercise-9--quantifiers-over">Exercise 9 : Quantifiers over </a></li>
+    <li><a href="#exercise-10--quantifiers-over">Exercise 10 : Quantifiers over </a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="quantificational-logic">Quantificational Logic<a hidden class="anchor" aria-hidden="true" href="#quantificational-logic">#</a></h1>
+<h2 id="exercise-1--translating-into-quantificational-logic-i">Exercise 1 : Translating into quantificational logic I<a hidden class="anchor" aria-hidden="true" href="#exercise-1--translating-into-quantificational-logic-i">#</a></h2>
+<p>Let the domain be “all people.” Symbolize each sentence using quantifiers. Use the following predicates:</p>
+<ul>
+<li>\( S(x) \): \( x \) is a saint.</li>
+<li>\( F(x, y) \): \( x \) has forgiven \( y \).</li>
+<li>\( C(x) \): \( x \) is in the calculus class.</li>
+<li>\( D(x) \): \( x \) is in the discrete math class.</li>
+<li>\( Sm(x, y) \): \( x \) is smarter than \( y \).</li>
+<li>\( L(x, y) \): \( x \) likes \( y \).</li>
+<li>\( P(x) \): \( x \) is a police officer.</li>
+<li>\( S_a(x, y) \): \( x \) saw \( y \).</li>
+</ul>
+<ol>
+<li>Anyone who has forgiven at least one person is a saint.</li>
+<li>Nobody in the calculus class is smarter than everybody in the discrete math class.</li>
+<li>Everyone likes Mary, except Mary herself.</li>
+<li>Jane saw a police officer, and Roger saw one too.</li>
+<li>Jane saw a police officer, and Roger saw him too.</li>
+</ol>
+<h2 id="exercise-2--translating-into-quantificational-logic-ii">Exercise 2 : Translating into quantificational logic II<a hidden class="anchor" aria-hidden="true" href="#exercise-2--translating-into-quantificational-logic-ii">#</a></h2>
+<p>Use the following predicates:</p>
+<ul>
+<li>\( B(x, y) \): \( x \) has bought \( y \).</li>
+<li>\( RR(x) \): \( x \) is a Rolls Royce.</li>
+<li>\( Cash(x) \): \( x \) was paid in cash.</li>
+<li>\( R(x) \): \( x \) is rich.</li>
+<li>\( U(x, y) \): \( x \) is the uncle of \( y \).</li>
+<li>\( D(x) \): \( x \) lives in the dorm.</li>
+<li>\( M(x) \): \( x \) has the measles.</li>
+<li>\( F(x, y) \): \( x \) is a friend of \( y \).</li>
+<li>\( Q(x) \): \( x \) will be quarantined.</li>
+<li>\( Test(x) \): \( x \) failed the test.</li>
+<li>\( A(x) \): \( x \) got an A.</li>
+<li>\( D_g(x) \): \( x \) got a D.</li>
+<li>\( T(x, y) \): \( x \) will tutor \( y \).</li>
+<li>\( Can(x) \): \( x \) can do it.</li>
+</ul>
+<ol>
+<li>Anyone who has bought a Rolls Royce with cash must have a rich uncle.</li>
+<li>If anyone in the dorm has the measles, then everyone who has a friend in the dorm will have to be quarantined.</li>
+<li>If nobody failed the test, then everybody who got an A will tutor someone who got a D.</li>
+<li>If anyone can do it, Jones can.</li>
+<li>If Jones can do it, anyone can.</li>
+</ol>
+<h2 id="exercise-3--quantifiers-with-mathematical-statements">Exercise 3 : Quantifiers with mathematical statements<a hidden class="anchor" aria-hidden="true" href="#exercise-3--quantifiers-with-mathematical-statements">#</a></h2>
+<p>Domain: real numbers. Use \( >, <, \ge, \le, = \) as needed.</p>
+<ol>
+<li>Every number that is larger than \( x \) is larger than \( y \).</li>
+<li>For every number \( a \), the equation \( ax^2 + 4x - 2 = 0 \) has at least one solution <strong>iff</strong> \( a \ge -2 \).</li>
+<li>All solutions of the inequality \( x^3 - 3x < 3 \) are smaller than \( 10 \).</li>
+<li>If there is a number \( x \) such that \( x^2 + 5x = w \) and there is a number \( y \) such that \( 4 - y^2 = w \), then \( w \) is strictly between \( -10 \) and \( 10 \).</li>
+</ol>
+<h2 id="exercise-4--translating-from-logic-to-english-i">Exercise 4 : Translating from logic to English I<a hidden class="anchor" aria-hidden="true" href="#exercise-4--translating-from-logic-to-english-i">#</a></h2>
+<p>Translate each formula into an English sentence, using the given interpretation.</p>
+<ol>
+<li>\( \forall x \,[H(x) \land \neg \exists y \, M(x, y)] \to U(x) \),<br>
+where \( H(x) \): “\( x \) is a man,”<br>
+\( M(x, y) \): “\( x \) is married to \( y \),”<br>
+\( U(x) \): “\( x \) is unhappy.”</li>
+<li>\( \exists z \,[P(z, x) \land S(z, y) \land W(y)] \),<br>
+where \( P(z, x) \): “\( z \) is a parent of \( x \),”<br>
+\( S(z, y) \): “\( z \) and \( y \) are siblings,”<br>
+\( W(y) \): “\( y \) is a woman.”</li>
+</ol>
+<h2 id="exercise-5--translating-from-logic-to-english-ii">Exercise 5 : Translating from logic to English II<a hidden class="anchor" aria-hidden="true" href="#exercise-5--translating-from-logic-to-english-ii">#</a></h2>
+<p>Domain: natural numbers.</p>
+<ol>
+<li>\( \forall x \,[P(x) \land \neg (x = 2)] \to O(x) \),<br>
+where \( P(x) \): “\( x \) is a prime number,”<br>
+\( O(x) \): “\( x \) is odd.”</li>
+<li>\( \exists x \,[P(x) \land \forall y \,(P(y) \to y \le x)] \),<br>
+where \( P(x) \): “\( x \) is a perfect number.”</li>
+</ol>
+<h2 id="exercise-6--scope-and-negation">Exercise 6 : Scope and negation<a hidden class="anchor" aria-hidden="true" href="#exercise-6--scope-and-negation">#</a></h2>
+<p>Domain: real numbers. Explain in English what each statement says and determine its truth value.</p>
+<ol>
+<li>\( \neg \exists x \,(x^2 + 2x + 3 = 0 \land x^2 + 2x - 3 = 0) \)</li>
+<li>\( \neg [\exists x \,(x^2 + 2x + 3 = 0) \land \exists x \,(x^2 + 2x - 3 = 0)] \)</li>
+<li>\( \neg \exists x \,(x^2 + 2x + 3 = 0) \land \neg \exists x \,(x^2 + 2x - 3 = 0) \)</li>
+</ol>
+<h2 id="exercise-7--quantifier-order-and-meaning">Exercise 7 : Quantifier order and meaning<a hidden class="anchor" aria-hidden="true" href="#exercise-7--quantifier-order-and-meaning">#</a></h2>
+<p>Domain: all people. \( P(x, y) \): “\( x \) is a parent of \( y \).”</p>
+<ol>
+<li>\( \exists x \forall y \, P(x, y) \)</li>
+<li>\( \forall x \exists y \, P(x, y) \)</li>
+<li>\( \neg \exists x \exists y \, P(x, y) \)</li>
+<li>\( \exists x \neg \exists y \, P(x, y) \)</li>
+<li>\( \exists x \exists y \neg P(x, y) \)</li>
+</ol>
+<h2 id="exercise-8--quantifiers-over">Exercise 8 : Quantifiers over \(\mathbb{N}\)<a hidden class="anchor" aria-hidden="true" href="#exercise-8--quantifiers-over">#</a></h2>
+<p>Domain: natural numbers \( \mathbb{N} = \{0,1,2,\dots\} \). Determine the truth value of each statement.</p>
+<ol>
+<li>\( \forall x \exists y \,(2x - y = 0) \)</li>
+<li>\( \exists y \forall x \,(2x - y = 0) \)</li>
+<li>\( \forall x \exists y \,(x - 2y = 0) \)</li>
+<li>\( \forall x \,(x < 10 \to \forall y \,(y < x \to y < 9)) \)</li>
+<li>\( \exists y \forall z \,(y + z = 100) \)</li>
+<li>\( \forall x \exists y \,(y > x \land y + z = 100) \)</li>
+</ol>
+<h2 id="exercise-9--quantifiers-over">Exercise 9 : Quantifiers over \(\mathbb{R}\)<a hidden class="anchor" aria-hidden="true" href="#exercise-9--quantifiers-over">#</a></h2>
+<p>Domain: natural numbers \( \mathbb{R} \). Determine the truth value of each statement.</p>
+<ol>
+<li>\( \forall x \exists y \,(2x - y = 0) \)</li>
+<li>\( \exists y \forall x \,(2x - y = 0) \)</li>
+<li>\( \forall x \exists y \,(x - 2y = 0) \)</li>
+<li>\( \forall x \,(x < 10 \to \forall y \,(y < x \to y < 9)) \)</li>
+<li>\( \exists y \forall z \,(y + z = 100) \)</li>
+<li>\( \forall x \exists y \,(y > x \land y + z = 100) \)</li>
+</ol>
+<h2 id="exercise-10--quantifiers-over">Exercise 10 : Quantifiers over \(\mathbb{Z}\)<a hidden class="anchor" aria-hidden="true" href="#exercise-10--quantifiers-over">#</a></h2>
+<p>Domain: natural numbers \( \mathbb{Z} = \{ \dots, -2, -1,0,1,2,\dots\} \). Determine the truth value of each statement.</p>
+<ol>
+<li>\( \forall x \exists y \,(2x - y = 0) \)</li>
+<li>\( \exists y \forall x \,(2x - y = 0) \)</li>
+<li>\( \forall x \exists y \,(x - 2y = 0) \)</li>
+<li>\( \forall x \,(x < 10 \to \forall y \,(y < x \to y < 9)) \)</li>
+<li>\( \exists y \forall z \,(y + z = 100) \)</li>
+<li>\( \forall x \exists y \,(y > x \land y + z = 100) \)</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/logic/">Logic</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/mathe/logic/en/proof-strategies/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Proof Strategies</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

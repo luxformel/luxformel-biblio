@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Auftrieb | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Mechanik">
+<meta name="description" content="Auftrieb
+Aufgabe 1 : Prinzip eines U-Bootes
+Erkläre detailliert, wie ein U-Boot durch Veränderung seiner Gesamtdichte abtauchen, aufsteigen und in einer bestimmten Tiefe schweben kann. Gehe in deiner Erklärung auf die Rolle der Ballasttanks ein und nutze dabei zwingend folgende physikalische Größen und Konzepte: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.
+Aufgabe 2 : Regulation des Auftriebs bei Fischen
+Viele Fische besitzen eine Schwimmblase. Erläutere, wie ein Fisch durch aktives Verändern des Volumens seiner Schwimmblase im Wasser aufsteigen, sinken oder auf einer konstanten Tiefe verharren kann. Stelle den Zusammenhang zwischen der Volumenänderung und der resultierenden Dichteänderung des Fisches her. Begründe deine Antwort mit Hilfe der Begriffe: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/physik/mechanics/de/auftrieb/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/physik/mechanics/de/auftrieb/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Auftrieb">
+  <meta property="og:description" content="Auftrieb Aufgabe 1 : Prinzip eines U-Bootes Erkläre detailliert, wie ein U-Boot durch Veränderung seiner Gesamtdichte abtauchen, aufsteigen und in einer bestimmten Tiefe schweben kann. Gehe in deiner Erklärung auf die Rolle der Ballasttanks ein und nutze dabei zwingend folgende physikalische Größen und Konzepte: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.
+Aufgabe 2 : Regulation des Auftriebs bei Fischen Viele Fische besitzen eine Schwimmblase. Erläutere, wie ein Fisch durch aktives Verändern des Volumens seiner Schwimmblase im Wasser aufsteigen, sinken oder auf einer konstanten Tiefe verharren kann. Stelle den Zusammenhang zwischen der Volumenänderung und der resultierenden Dichteänderung des Fisches her. Begründe deine Antwort mit Hilfe der Begriffe: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-11T13:05:55+01:00">
+    <meta property="article:modified_time" content="2026-01-11T13:05:55+01:00">
+    <meta property="article:tag" content="Mechanik">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Auftrieb">
+<meta name="twitter:description" content="Auftrieb
+Aufgabe 1 : Prinzip eines U-Bootes
+Erkläre detailliert, wie ein U-Boot durch Veränderung seiner Gesamtdichte abtauchen, aufsteigen und in einer bestimmten Tiefe schweben kann. Gehe in deiner Erklärung auf die Rolle der Ballasttanks ein und nutze dabei zwingend folgende physikalische Größen und Konzepte: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.
+Aufgabe 2 : Regulation des Auftriebs bei Fischen
+Viele Fische besitzen eine Schwimmblase. Erläutere, wie ein Fisch durch aktives Verändern des Volumens seiner Schwimmblase im Wasser aufsteigen, sinken oder auf einer konstanten Tiefe verharren kann. Stelle den Zusammenhang zwischen der Volumenänderung und der resultierenden Dichteänderung des Fisches her. Begründe deine Antwort mit Hilfe der Begriffe: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Auftrieb",
+      "item": "http://localhost:1313/posts/physik/mechanics/de/auftrieb/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Auftrieb",
+  "name": "Auftrieb",
+  "description": "Auftrieb Aufgabe 1 : Prinzip eines U-Bootes Erkläre detailliert, wie ein U-Boot durch Veränderung seiner Gesamtdichte abtauchen, aufsteigen und in einer bestimmten Tiefe schweben kann. Gehe in deiner Erklärung auf die Rolle der Ballasttanks ein und nutze dabei zwingend folgende physikalische Größen und Konzepte: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.\nAufgabe 2 : Regulation des Auftriebs bei Fischen Viele Fische besitzen eine Schwimmblase. Erläutere, wie ein Fisch durch aktives Verändern des Volumens seiner Schwimmblase im Wasser aufsteigen, sinken oder auf einer konstanten Tiefe verharren kann. Stelle den Zusammenhang zwischen der Volumenänderung und der resultierenden Dichteänderung des Fisches her. Begründe deine Antwort mit Hilfe der Begriffe: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.\n",
+  "keywords": [
+    "Mechanik"
+  ],
+  "articleBody": "Auftrieb Aufgabe 1 : Prinzip eines U-Bootes Erkläre detailliert, wie ein U-Boot durch Veränderung seiner Gesamtdichte abtauchen, aufsteigen und in einer bestimmten Tiefe schweben kann. Gehe in deiner Erklärung auf die Rolle der Ballasttanks ein und nutze dabei zwingend folgende physikalische Größen und Konzepte: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.\nAufgabe 2 : Regulation des Auftriebs bei Fischen Viele Fische besitzen eine Schwimmblase. Erläutere, wie ein Fisch durch aktives Verändern des Volumens seiner Schwimmblase im Wasser aufsteigen, sinken oder auf einer konstanten Tiefe verharren kann. Stelle den Zusammenhang zwischen der Volumenänderung und der resultierenden Dichteänderung des Fisches her. Begründe deine Antwort mit Hilfe der Begriffe: Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft.\nAufgabe 3 : Auftrieb in verschiedenen Fluiden Ein Eisenwürfel mit einem Volumen von \\( V = 75 \\, cm^3 \\) wird nacheinander in zwei verschiedene Flüssigkeiten getaucht:\nLeitungswasser mit der Dichte \\( \\rho_W = 1{,}00 \\, \\frac{g}{cm^3} \\) Meerwasser mit der Dichte \\( \\rho_M = 1{,}03 \\, \\frac{g}{cm^3} \\) Berechne für beide Fälle die Auftriebskraft \\( F_A \\), die auf den Würfel wirkt. Würde sich die Auftriebskraft ändern, wenn stattdessen ein Aluminiumwürfel mit exakt demselben Volumen verwendet würde? Begründe deine Antwort physikalisch und beziehe dich dabei auf das Archimedische Prinzip. Aufgabe 4 : Haltekraft für einen Holz Körper Um eine Holzkugel mit einem Volumen von \\( V = 400 \\, cm^3 \\) vollständig unter Wasser zu halten, ist eine zusätzliche Kraft von \\( F = 1 \\, N \\) erforderlich.\nBerechne die Dichte \\( \\rho_{Holz} \\) des Holzes. Erkläre, warum zum Halten der Kugel überhaupt eine Kraft notwendig ist und welche Rolle die Auftriebskraft dabei spielt. Aufgabe 5 : Stoffbestimmung durch Auftrieb Ein Körper hat an Luft eine Gewichtskraft von \\( F_G = 10{,}7 \\, N \\). Wird er vollständig in Wasser eingetaucht, zeigt der Kraftmesser nur noch eine Kraft von \\( F_{app} = 9{,}5 \\, N \\) an.\nBerechne die Auftriebskraft \\( F_A \\), die im Wasser auf den Körper wirkt. Berechne das Volumen \\( V \\) und die Dichte \\( \\rho \\) des Körpers. Bestimme anhand der berechneten Dichte, aus welchem Stoff der Körper vermutlich besteht. Vergleiche dazu mit einer Dichtetabelle gängiger Materialien. Aufgabe 6 : Der schwimmende Eisberg Ein Eisberg schwimmt im Meerwasser. Berechne, welcher prozentuale Anteil des Eisberg-Volumens sichtbar über der Wasseroberfläche liegt.\nGegeben:\nDichte von Eis: \\( \\rho_{Eis} = 0{,}92 \\, \\frac{g}{cm^3} \\) Dichte von Meerwasser: \\( \\rho_{Meer} = 1{,}03 \\, \\frac{g}{cm^3} \\) (Hinweis: Dieser Wert muss für die Berechnung verwendet werden.) Aufgabe 7 : Tragfähigkeit einer Schwimmplattform Eine rechteckige Schwimmplattform aus Kunststoff hat die Abmessungen: Länge \\( l = 6 \\, m \\), Breite \\( b = 6 \\, m \\), Höhe \\( h = 0{,}5 \\, m \\). Ihre Masse beträgt \\( m_P = 11 \\, t \\) (Tonnen).\nSchwimmfähigkeit: Zeige durch eine Rechnung, dass diese Plattform im Süßwasser (\\( \\rho = 1{,}00 \\, \\frac{g}{cm^3} \\)) schwimmt. Berechne dazu die Eintauchtiefe im Leerzustand. Maximale Zuladung: Die Plattform soll als Steg genutzt werden. Berechne die maximale zusätzliche Masse (Last), die auf die Plattform geladen werden darf, bevor sie vollständig eintaucht und Wasser über die Oberfläche läuft. Aufgabe 8 : Vernachlässigbarer Auftrieb in Luft Die mittlere Dichte eines eingeatmeten Menschen beträgt \\( \\rho_{Mensch} = 0{,}98 \\, \\frac{g}{cm^3} \\).\nBerechne die Auftriebskraft \\( F_A \\) in Luft (\\( \\rho_{Luft} \\approx 1{,}29 \\, \\frac{g}{L} \\)) für einen Menschen der Masse \\( m = 70 \\, kg \\). Vergleiche den Betrag dieser Auftriebskraft mit der Gewichtskraft \\( F_G \\) der Person. Zeige damit, dass der Auftrieb in Luft für die meisten mechanischen Betrachtungen vernachlässigt werden kann. Aufgabe 9 : Steigkraft eines Heliumballons I Ein Ballon hat eine Hüllenmasse von \\( m_H = 600 \\, g \\). Am Boden wird er bei Normalbedingungen mit \\( V = 1000 \\, L \\) Helium gefüllt.\nGegeben:\nDichte Helium: \\( \\rho_{He} = 0{,}178 \\, \\frac{kg}{m^3} \\) Dichte Luft: \\( \\rho_{Luft} = 1{,}29 \\, \\frac{g}{L} \\) Berechne die resultierende Steigkraft \\( F_{steig} \\) des gefüllten Ballons am Boden.\nAufgabe 10 : Steigkraft eines Ballons II Ein Gasballon mit einem Gesamtvolumen von \\( V = 500 \\, m^3 \\) wird bei Normalbedingungen mit einem Gas der Dichte \\( \\rho_{Gas} = 0{,}49 \\, \\frac{g}{L} \\) gefüllt.\nWelche maximale Gesamtmasse (Hülle, Gondel, Besatzung, Zubehör) darf der Ballon haben, damit eine Steigkraft von \\( F_{steig} = 400 \\, N \\) erreicht wird?\nGegeben: \\( \\rho_{Luft} = 1{,}29 \\, \\frac{g}{L} \\)\nAufgabe 11 : Das Aräometer (Senk- oder Spindel) Ein Aräometer ist ein Messgerät zur Bestimmung der Dichte von Flüssigkeiten. Ein vereinfachtes Aräometer der Masse \\( m = 200 \\, dg \\) (= 20 g) hat einen zylindrischen Stiel mit einem Durchmesser von \\( d = 12 \\, mm \\).\nDas Aräometer wird in Wasser (\\( \\rho_W = 1{,}0 \\, \\frac{g}{cm^3} \\)) gebracht, bis es schwimmt. Berechne das verdrängte Flüssigkeitsvolumen \\( V_{verdr} \\). Berechne die Eintauchtiefe \\( h \\) im zylindrischen Stiel. Das gleiche Aräometer wird nun in Alkohol (\\( \\rho_A = 0{,}79 \\, \\frac{g}{cm^3} \\)) getaucht. Berechne erneut das verdrängte Volumen. Berechne die neue Eintauchtiefe. Wird sie größer oder kleiner sein als in Wasser? Begründe. Prinzip der Skala: Erkläre, wie man die Skala eines Aräometers für verschiedene Dichtebereiche anordnet. Warum zeigt das Gerät bei einer weniger dichten Flüssigkeit eine tiefere Eintauchtiefe an? Stabilität: Warum befindet sich die Beschwerung (z.B. Bleischrot) immer im unteren Teil des Aräometers? Bereichszuordnung: Ein Hersteller bietet drei Aräometer für folgende Bereiche an: Gerät A: 0,7 – 1,0 \\( \\frac{g}{ml} \\) Gerät B: 1,0 – 1,5 \\( \\frac{g}{ml} \\) Gerät C: 1,5 – 2,0 \\( \\frac{g}{ml} \\) Ordne die drei skizzierten Aräometer (mit unterschiedlich dicken/ langen Stielen) den Bereichen zu und begründe deine Entscheidung. Aufgabe 12 : Schwimmerventil Ein Kugelschwimmer aus Kork (\\( \\rho_{Kork} = 0{,}2 \\, \\frac{g}{cm^3} \\)) mit dem Radius \\( r = 4 \\, cm \\) ist über einen Hebelmechanismus mit einem Ventil verbunden, das ein Zuflussrohr (\\( d = 8 \\, mm \\)) verschließt. Die homogene Hebelstange hat eine Masse von \\( 50 \\, g \\). Der Atmosphärendruck beträgt \\( p_0 = 1 \\, bar \\).\nGegeben: \\( AB = 2 \\, dm \\); \\( BC = 5 \\, cm \\); Dichte der Flüssigkeit: \\( \\rho_F = 1{,}2 \\, \\frac{g}{cm^3} \\)\nBerechne den maximalen Überdruck \\( \\Delta p \\) im Zulaufrohr, gegen den das Ventil gerade noch schließt, wenn der Schwimmer vollständig eingetaucht ist. Vernachlässige die Masse des Ventils.\nAufgabe 13 : Person mit Heliumballons Eine Person (\\( m_P = 70 \\, kg \\)) möchte mit Heliumballons vom Boden abheben. Die Masse eines leeren Ballons beträgt \\( m_B = 3 \\, g \\). Es soll eine resultierende Steigkraft von \\( F_{steig} = 5 \\, N \\) erreicht werden.\nGegeben: \\( \\rho_{He} = 0{,}179 \\, \\frac{kg}{m^3} \\), \\( \\rho_{Luft} = 1{,}29 \\, \\frac{kg}{m^3} \\)\nZeichne ein Kräftediagramm (freier Körper), das alle auf das System “Person mit \\( n \\) Ballons” wirkenden Kräfte zeigt. Berechne die erforderliche Anzahl \\( n \\) der Heliumballons. Nehme an, dass jedes Ballonvolumen \\( V_B = 5 \\, L \\) beträgt. Aufgabe 14 : Containerschiff – Statik und Beladung Die Skizze zeigt den vereinfachten Querschnitt eines Containerschiffs (symmetrisches Trapez). Der Rumpf besteht aus Stahl (\\( \\rho_{St} = 7{,}7 \\, \\frac{g}{cm^3} \\)), wobei die Masse der verwendeten Platten durch ihre Dicke um \\( p = 5 \\% \\) erhöht wird. Der Grundriss ist über die gesamte Schifflänge \\( l \\) konstant.\nAngaben:\nSchifflänge: \\( l = 120 \\, m \\) Dichte Meerwasser: \\( \\rho_W = 1{,}03 \\, \\frac{g}{cm^3} \\) Trapez-Höhe (Rumpfhöhe): \\( H = 12 \\, m \\) Untere Breite: \\( b_u = 25 \\, m \\) Oberer Winkel: \\( \\alpha = 30^\\circ \\) Masse eines Containers: \\( m_C = 30 \\, t \\) Geforderter Freibord (Höhe über Wasserlinie): \\( h' = 4 \\, m \\) Leite eine Formel her und berechne dann die Masse \\( m_{Schiff} \\) des leeren Schiffs (nur Rumpf). Leite eine Formel her und berechne den Tiefgang \\( T \\) (Eintauchtiefe) des leeren Schiffs. Leite eine Formel her und berechne die maximale Anzahl \\( N \\) an Containern, die geladen werden darf, damit der Freibord von \\( h' = 4 \\, m \\) eingehalten wird. Aufgabe 15 : Physik des Heißluftballons Ein Heißluftballon (\\( V_{Ballon} = 1400 \\, m^3 \\)) startet in Luft der Temperatur \\( \\vartheta_a = 0 \\, ^{\\circ}C \\). Die Masse von Korb und Ausrüstung beträgt \\( m_A = 290 \\, kg \\). Die Dichte der Luft in Abhängigkeit von der Temperatur bei konstantem Druck kann dem Diagramm entnommen werden.\nStarttemperatur: Berechne, auf welche Temperatur \\( \\vartheta_i \\) die Luft im Ballon mindestens erhitzt werden muss, damit der Ballon mit Ausrüstung, aber ohne Passagiere, gerade schwerelos wird (Gleichgewicht). Steigkraft mit Passagieren: Die Innentemperatur wird auf \\( \\vartheta_i = 87 \\, ^{\\circ}C \\) erhöht. Zwei Passagiere (\\( m_{P,ges} = 150 \\, kg \\)) steigen ein. Berechne die resultierende Steigkraft \\( F_{steig} \\). Realitätsabschätzung: Wäre die in Teil 2 berechnete Steigkraft in der Realität eher größer oder kleiner? Begründe kurz (Stichworte: Temperaturverteilung, Wärmeverluste, Ballonform). Steigzeit: Wie lange würde der Ballon aus Teil 2 bei konstanter Steigkraft theoretisch benötigen, um eine Höhe von \\( \\Delta h = 50 \\, m \\) zu erreichen? Gehe von einer um \\( 10 \\% \\) geringeren Steigkraft aus. Höheneinfluss: Beschreibe qualitativ, wie sich die Steigkraft mit zunehmender Flughöhe verändern würde, wenn die Innentemperatur konstant auf \\( 87 \\, ^{\\circ}C \\) gehalten wird. Nenne die wesentlichen Einflussfaktoren. ",
+  "wordCount" : "1549",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-11T13:05:55+01:00",
+  "dateModified": "2026-01-11T13:05:55+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/physik/mechanics/de/auftrieb/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Auftrieb
+    </h1>
+    <div class="post-meta"><span title='2026-01-11 13:05:55 +0100 CET'>Januar 11, 2026</span>&nbsp;·&nbsp;<span>1549 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#aufgabe-1--prinzip-eines-u-bootes">Aufgabe 1 : Prinzip eines U-Bootes</a></li>
+    <li><a href="#aufgabe-2--regulation-des-auftriebs-bei-fischen">Aufgabe 2 : Regulation des Auftriebs bei Fischen</a></li>
+    <li><a href="#aufgabe-3--auftrieb-in-verschiedenen-fluiden">Aufgabe 3 : Auftrieb in verschiedenen Fluiden</a></li>
+    <li><a href="#aufgabe-4--haltekraft-für-einen-holz-körper">Aufgabe 4 : Haltekraft für einen Holz Körper</a></li>
+    <li><a href="#aufgabe-5--stoffbestimmung-durch-auftrieb">Aufgabe 5 : Stoffbestimmung durch Auftrieb</a></li>
+    <li><a href="#aufgabe-6--der-schwimmende-eisberg">Aufgabe 6 : Der schwimmende Eisberg</a></li>
+    <li><a href="#aufgabe-7--tragfähigkeit-einer-schwimmplattform">Aufgabe 7 : Tragfähigkeit einer Schwimmplattform</a></li>
+    <li><a href="#aufgabe-8--vernachlässigbarer-auftrieb-in-luft">Aufgabe 8 : Vernachlässigbarer Auftrieb in Luft</a></li>
+    <li><a href="#aufgabe-9--steigkraft-eines-heliumballons-i">Aufgabe 9 : Steigkraft eines Heliumballons I</a></li>
+    <li><a href="#aufgabe-10--steigkraft-eines-ballons-ii">Aufgabe 10 : Steigkraft eines Ballons II</a></li>
+    <li><a href="#aufgabe-11--das-aräometer-senk--oder-spindel">Aufgabe 11 : Das Aräometer (Senk- oder Spindel)</a></li>
+    <li><a href="#aufgabe-12--schwimmerventil">Aufgabe 12 : Schwimmerventil</a></li>
+    <li><a href="#aufgabe-13--person-mit-heliumballons">Aufgabe 13 : Person mit Heliumballons</a></li>
+    <li><a href="#aufgabe-14--containerschiff--statik-und-beladung">Aufgabe 14 : Containerschiff – Statik und Beladung</a></li>
+    <li><a href="#aufgabe-15--physik-des-heißluftballons">Aufgabe 15 : Physik des Heißluftballons</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="auftrieb">Auftrieb<a hidden class="anchor" aria-hidden="true" href="#auftrieb">#</a></h1>
+<h2 id="aufgabe-1--prinzip-eines-u-bootes">Aufgabe 1 : Prinzip eines U-Bootes<a hidden class="anchor" aria-hidden="true" href="#aufgabe-1--prinzip-eines-u-bootes">#</a></h2>
+<p>Erkläre detailliert, wie ein U-Boot durch Veränderung seiner Gesamtdichte abtauchen, aufsteigen und in einer bestimmten Tiefe schweben kann. Gehe in deiner Erklärung auf die Rolle der Ballasttanks ein und nutze dabei zwingend folgende physikalische Größen und Konzepte: <strong>Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft</strong>.</p>
+<h2 id="aufgabe-2--regulation-des-auftriebs-bei-fischen">Aufgabe 2 : Regulation des Auftriebs bei Fischen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-2--regulation-des-auftriebs-bei-fischen">#</a></h2>
+<p>Viele Fische besitzen eine <strong>Schwimmblase</strong>. Erläutere, wie ein Fisch durch aktives Verändern des Volumens seiner Schwimmblase im Wasser aufsteigen, sinken oder auf einer konstanten Tiefe verharren kann. Stelle den Zusammenhang zwischen der Volumenänderung und der resultierenden Dichteänderung des Fisches her. Begründe deine Antwort mit Hilfe der Begriffe: <strong>Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft</strong>.</p>
+<h2 id="aufgabe-3--auftrieb-in-verschiedenen-fluiden">Aufgabe 3 : Auftrieb in verschiedenen Fluiden<a hidden class="anchor" aria-hidden="true" href="#aufgabe-3--auftrieb-in-verschiedenen-fluiden">#</a></h2>
+<p>Ein Eisenwürfel mit einem Volumen von \( V = 75 \, cm^3 \) wird nacheinander in zwei verschiedene Flüssigkeiten getaucht:</p>
+<ul>
+<li>Leitungswasser mit der Dichte \( \rho_W = 1{,}00 \, \frac{g}{cm^3} \)</li>
+<li>Meerwasser mit der Dichte \( \rho_M = 1{,}03 \, \frac{g}{cm^3} \)</li>
+</ul>
+<ol>
+<li>Berechne für beide Fälle die <strong>Auftriebskraft</strong> \( F_A \), die auf den Würfel wirkt.</li>
+<li>Würde sich die Auftriebskraft ändern, wenn stattdessen ein <strong>Aluminiumwürfel mit exakt demselben Volumen</strong> verwendet würde? Begründe deine Antwort physikalisch und beziehe dich dabei auf das Archimedische Prinzip.</li>
+</ol>
+<h2 id="aufgabe-4--haltekraft-für-einen-holz-körper">Aufgabe 4 : Haltekraft für einen Holz Körper<a hidden class="anchor" aria-hidden="true" href="#aufgabe-4--haltekraft-für-einen-holz-körper">#</a></h2>
+<p>Um eine Holzkugel mit einem Volumen von \( V = 400 \, cm^3 \) <strong>vollständig unter Wasser</strong> zu halten, ist eine zusätzliche Kraft von \( F = 1 \, N \) erforderlich.</p>
+<ol>
+<li>Berechne die <strong>Dichte \( \rho_{Holz} \)</strong> des Holzes.</li>
+<li>Erkläre, warum zum Halten der Kugel überhaupt eine Kraft notwendig ist und welche Rolle die Auftriebskraft dabei spielt.</li>
+</ol>
+<h2 id="aufgabe-5--stoffbestimmung-durch-auftrieb">Aufgabe 5 : Stoffbestimmung durch Auftrieb<a hidden class="anchor" aria-hidden="true" href="#aufgabe-5--stoffbestimmung-durch-auftrieb">#</a></h2>
+<p>Ein Körper hat an Luft eine <strong>Gewichtskraft</strong> von \( F_G = 10{,}7 \, N \). Wird er vollständig in Wasser eingetaucht, zeigt der Kraftmesser nur noch eine Kraft von \( F_{app} = 9{,}5 \, N \) an.</p>
+<ol>
+<li>Berechne die <strong>Auftriebskraft</strong> \( F_A \), die im Wasser auf den Körper wirkt.</li>
+<li>Berechne das <strong>Volumen \( V \)</strong> und die <strong>Dichte \( \rho \)</strong> des Körpers.</li>
+<li>Bestimme anhand der berechneten Dichte, <strong>aus welchem Stoff</strong> der Körper vermutlich besteht. Vergleiche dazu mit einer Dichtetabelle gängiger Materialien.</li>
+</ol>
+<h2 id="aufgabe-6--der-schwimmende-eisberg">Aufgabe 6 : Der schwimmende Eisberg<a hidden class="anchor" aria-hidden="true" href="#aufgabe-6--der-schwimmende-eisberg">#</a></h2>
+<p>Ein Eisberg schwimmt im Meerwasser. Berechne, welcher <strong>prozentuale Anteil</strong> des Eisberg-Volumens <strong>sichtbar über der Wasseroberfläche</strong> liegt.</p>
+<p><strong>Gegeben:</strong></p>
+<ul>
+<li>Dichte von Eis: \( \rho_{Eis} = 0{,}92 \, \frac{g}{cm^3} \)</li>
+<li>Dichte von Meerwasser: \( \rho_{Meer} = 1{,}03 \, \frac{g}{cm^3} \) (Hinweis: Dieser Wert muss für die Berechnung verwendet werden.)</li>
+</ul>
+<h2 id="aufgabe-7--tragfähigkeit-einer-schwimmplattform">Aufgabe 7 : Tragfähigkeit einer Schwimmplattform<a hidden class="anchor" aria-hidden="true" href="#aufgabe-7--tragfähigkeit-einer-schwimmplattform">#</a></h2>
+<p>Eine rechteckige Schwimmplattform aus Kunststoff hat die Abmessungen: Länge \( l = 6 \, m \), Breite \( b = 6 \, m \), Höhe \( h = 0{,}5 \, m \). Ihre Masse beträgt \( m_P = 11 \, t \) (Tonnen).</p>
+<ol>
+<li><strong>Schwimmfähigkeit:</strong> Zeige durch eine Rechnung, dass diese Plattform im Süßwasser (\( \rho = 1{,}00 \, \frac{g}{cm^3} \)) schwimmt. Berechne dazu die Eintauchtiefe im Leerzustand.</li>
+<li><strong>Maximale Zuladung:</strong> Die Plattform soll als Steg genutzt werden. Berechne die <strong>maximale zusätzliche Masse</strong> (Last), die auf die Plattform geladen werden darf, <strong>bevor sie vollständig eintaucht</strong> und Wasser über die Oberfläche läuft.</li>
+</ol>
+<h2 id="aufgabe-8--vernachlässigbarer-auftrieb-in-luft">Aufgabe 8 : Vernachlässigbarer Auftrieb in Luft<a hidden class="anchor" aria-hidden="true" href="#aufgabe-8--vernachlässigbarer-auftrieb-in-luft">#</a></h2>
+<p>Die mittlere Dichte eines eingeatmeten Menschen beträgt \( \rho_{Mensch} = 0{,}98 \, \frac{g}{cm^3} \).</p>
+<ol>
+<li>Berechne die <strong>Auftriebskraft \( F_A \)</strong> in Luft (\( \rho_{Luft} \approx 1{,}29 \, \frac{g}{L} \)) für einen Menschen der Masse \( m = 70 \, kg \).</li>
+<li>Vergleiche den Betrag dieser Auftriebskraft mit der <strong>Gewichtskraft \( F_G \)</strong> der Person. Zeige damit, dass der Auftrieb in Luft für die meisten mechanischen Betrachtungen vernachlässigt werden kann.</li>
+</ol>
+<h2 id="aufgabe-9--steigkraft-eines-heliumballons-i">Aufgabe 9 : Steigkraft eines Heliumballons I<a hidden class="anchor" aria-hidden="true" href="#aufgabe-9--steigkraft-eines-heliumballons-i">#</a></h2>
+<p>Ein Ballon hat eine Hüllenmasse von \( m_H = 600 \, g \). Am Boden wird er bei Normalbedingungen mit \( V = 1000 \, L \) Helium gefüllt.</p>
+<p><strong>Gegeben:</strong></p>
+<ul>
+<li>Dichte Helium: \( \rho_{He} = 0{,}178 \, \frac{kg}{m^3} \)</li>
+<li>Dichte Luft: \( \rho_{Luft} = 1{,}29 \, \frac{g}{L} \)</li>
+</ul>
+<p>Berechne die <strong>resultierende Steigkraft \( F_{steig} \)</strong> des gefüllten Ballons am Boden.</p>
+<h2 id="aufgabe-10--steigkraft-eines-ballons-ii">Aufgabe 10 : Steigkraft eines Ballons II<a hidden class="anchor" aria-hidden="true" href="#aufgabe-10--steigkraft-eines-ballons-ii">#</a></h2>
+<p>Ein Gasballon mit einem <strong>Gesamtvolumen</strong> von \( V = 500 \, m^3 \) wird bei Normalbedingungen mit einem Gas der Dichte \( \rho_{Gas} = 0{,}49 \, \frac{g}{L} \) gefüllt.</p>
+<p>Welche <strong>maximale Gesamtmasse</strong> (Hülle, Gondel, Besatzung, Zubehör) darf der Ballon haben, damit eine <strong>Steigkraft von \( F_{steig} = 400 \, N \)</strong> erreicht wird?</p>
+<p><strong>Gegeben:</strong> \( \rho_{Luft} = 1{,}29 \, \frac{g}{L} \)</p>
+<h2 id="aufgabe-11--das-aräometer-senk--oder-spindel">Aufgabe 11 : Das Aräometer (Senk- oder Spindel)<a hidden class="anchor" aria-hidden="true" href="#aufgabe-11--das-aräometer-senk--oder-spindel">#</a></h2>
+<p>Ein Aräometer ist ein Messgerät zur Bestimmung der Dichte von Flüssigkeiten. Ein vereinfachtes Aräometer der Masse \( m = 200 \, dg \) (= 20 g) hat einen zylindrischen Stiel mit einem Durchmesser von \( d = 12 \, mm \).</p>
+<ol>
+<li>Das Aräometer wird in Wasser (\( \rho_W = 1{,}0 \, \frac{g}{cm^3} \)) gebracht, bis es schwimmt.
+<ul>
+<li>Berechne das <strong>verdrängte Flüssigkeitsvolumen \( V_{verdr} \)</strong>.</li>
+<li>Berechne die <strong>Eintauchtiefe \( h \)</strong> im zylindrischen Stiel.</li>
+</ul>
+</li>
+<li>Das gleiche Aräometer wird nun in Alkohol (\( \rho_A = 0{,}79 \, \frac{g}{cm^3} \)) getaucht.
+<ul>
+<li>Berechne erneut das <strong>verdrängte Volumen</strong>.</li>
+<li>Berechne die neue <strong>Eintauchtiefe</strong>. Wird sie größer oder kleiner sein als in Wasser? Begründe.</li>
+</ul>
+</li>
+<li><strong>Prinzip der Skala:</strong> Erkläre, wie man die Skala eines Aräometers für verschiedene Dichtebereiche anordnet. Warum zeigt das Gerät bei einer weniger dichten Flüssigkeit eine <em>tiefere</em> Eintauchtiefe an?</li>
+<li><strong>Stabilität:</strong> Warum befindet sich die Beschwerung (z.B. Bleischrot) immer im <strong>unteren Teil</strong> des Aräometers?</li>
+<li><strong>Bereichszuordnung:</strong> Ein Hersteller bietet drei Aräometer für folgende Bereiche an:
+<ul>
+<li>Gerät A: 0,7 – 1,0 \( \frac{g}{ml} \)</li>
+<li>Gerät B: 1,0 – 1,5 \( \frac{g}{ml} \)</li>
+<li>Gerät C: 1,5 – 2,0 \( \frac{g}{ml} \)
+Ordne die drei skizzierten Aräometer (mit unterschiedlich dicken/ langen Stielen) den Bereichen zu und begründe deine Entscheidung.</li>
+</ul>
+</li>
+</ol>
+<h2 id="aufgabe-12--schwimmerventil">Aufgabe 12 : Schwimmerventil<a hidden class="anchor" aria-hidden="true" href="#aufgabe-12--schwimmerventil">#</a></h2>
+<p>Ein Kugelschwimmer aus Kork (\( \rho_{Kork} = 0{,}2 \, \frac{g}{cm^3} \)) mit dem Radius \( r = 4 \, cm \) ist über einen Hebelmechanismus mit einem Ventil verbunden, das ein Zuflussrohr (\( d = 8 \, mm \)) verschließt. Die homogene Hebelstange hat eine Masse von \( 50 \, g \). Der Atmosphärendruck beträgt \( p_0 = 1 \, bar \).</p>
+<p><strong>Gegeben:</strong> \( AB = 2 \, dm \); \( BC = 5 \, cm \); Dichte der Flüssigkeit: \( \rho_F = 1{,}2 \, \frac{g}{cm^3} \)</p>
+<p>Berechne den <strong>maximalen Überdruck \( \Delta p \)</strong> im Zulaufrohr, gegen den das Ventil gerade noch schließt, wenn der Schwimmer vollständig eingetaucht ist. Vernachlässige die Masse des Ventils.</p>
+<h2 id="aufgabe-13--person-mit-heliumballons">Aufgabe 13 : Person mit Heliumballons<a hidden class="anchor" aria-hidden="true" href="#aufgabe-13--person-mit-heliumballons">#</a></h2>
+<p>Eine Person (\( m_P = 70 \, kg \)) möchte mit Heliumballons vom Boden abheben. Die <strong>Masse eines leeren Ballons</strong> beträgt \( m_B = 3 \, g \). Es soll eine <strong>resultierende Steigkraft von \( F_{steig} = 5 \, N \)</strong> erreicht werden.</p>
+<p><strong>Gegeben:</strong> \( \rho_{He} = 0{,}179 \, \frac{kg}{m^3} \), \( \rho_{Luft} = 1{,}29 \, \frac{kg}{m^3} \)</p>
+<ol>
+<li>Zeichne ein <strong>Kräftediagramm</strong> (freier Körper), das alle auf das System &ldquo;Person mit \( n \) Ballons&rdquo; wirkenden Kräfte zeigt.</li>
+<li>Berechne die <strong>erforderliche Anzahl \( n \)</strong> der Heliumballons. Nehme an, dass jedes Ballonvolumen \( V_B = 5 \, L \) beträgt.</li>
+</ol>
+<h2 id="aufgabe-14--containerschiff--statik-und-beladung">Aufgabe 14 : Containerschiff – Statik und Beladung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-14--containerschiff--statik-und-beladung">#</a></h2>
+<p>Die Skizze zeigt den vereinfachten Querschnitt eines Containerschiffs (symmetrisches Trapez). Der Rumpf besteht aus Stahl (\( \rho_{St} = 7{,}7 \, \frac{g}{cm^3} \)), wobei die Masse der verwendeten Platten durch ihre Dicke um \( p = 5 \% \) erhöht wird. Der Grundriss ist über die gesamte Schifflänge \( l \) konstant.</p>
+<p><strong>Angaben:</strong></p>
+<ul>
+<li>Schifflänge: \( l = 120 \, m \)</li>
+<li>Dichte Meerwasser: \( \rho_W = 1{,}03 \, \frac{g}{cm^3} \)</li>
+<li>Trapez-Höhe (Rumpfhöhe): \( H = 12 \, m \)</li>
+<li>Untere Breite: \( b_u = 25 \, m \)</li>
+<li>Oberer Winkel: \( \alpha = 30^\circ \)</li>
+<li>Masse eines Containers: \( m_C = 30 \, t \)</li>
+<li>Geforderter Freibord (Höhe über Wasserlinie): \( h' = 4 \, m \)</li>
+</ul>
+<ol>
+<li>Leite eine Formel her und berechne dann die <strong>Masse \( m_{Schiff} \)</strong> des leeren Schiffs (nur Rumpf).</li>
+<li>Leite eine Formel her und berechne den <strong>Tiefgang \( T \)</strong> (Eintauchtiefe) des leeren Schiffs.</li>
+<li>Leite eine Formel her und berechne die <strong>maximale Anzahl \( N \)</strong> an Containern, die geladen werden darf, damit der Freibord von \( h' = 4 \, m \) eingehalten wird.</li>
+</ol>
+<h2 id="aufgabe-15--physik-des-heißluftballons">Aufgabe 15 : Physik des Heißluftballons<a hidden class="anchor" aria-hidden="true" href="#aufgabe-15--physik-des-heißluftballons">#</a></h2>
+<p>Ein Heißluftballon (\( V_{Ballon} = 1400 \, m^3 \)) startet in Luft der Temperatur \( \vartheta_a = 0 \, ^{\circ}C \). Die Masse von Korb und Ausrüstung beträgt \( m_A = 290 \, kg \). Die Dichte der Luft in Abhängigkeit von der Temperatur bei konstantem Druck kann dem Diagramm entnommen werden.</p>
+<ol>
+<li><strong>Starttemperatur:</strong> Berechne, auf welche <strong>Temperatur \( \vartheta_i \)</strong> die Luft im Ballon mindestens erhitzt werden muss, damit der Ballon mit Ausrüstung, aber ohne Passagiere, <strong>gerade schwerelos</strong> wird (Gleichgewicht).</li>
+<li><strong>Steigkraft mit Passagieren:</strong> Die Innentemperatur wird auf \( \vartheta_i = 87 \, ^{\circ}C \) erhöht. Zwei Passagiere (\( m_{P,ges} = 150 \, kg \)) steigen ein. Berechne die <strong>resultierende Steigkraft \( F_{steig} \)</strong>.</li>
+<li><strong>Realitätsabschätzung:</strong> Wäre die in Teil 2 berechnete Steigkraft in der Realität eher <strong>größer oder kleiner</strong>? Begründe kurz (Stichworte: Temperaturverteilung, Wärmeverluste, Ballonform).</li>
+<li><strong>Steigzeit:</strong> Wie lange würde der Ballon aus Teil 2 bei konstanter Steigkraft theoretisch benötigen, um eine Höhe von \( \Delta h = 50 \, m \) zu erreichen? Gehe von einer um \( 10 \% \) geringeren Steigkraft aus.</li>
+<li><strong>Höheneinfluss:</strong> Beschreibe qualitativ, wie sich die Steigkraft mit zunehmender Flughöhe verändern würde, wenn die <strong>Innentemperatur konstant auf \( 87 \, ^{\circ}C \)</strong> gehalten wird. Nenne die wesentlichen Einflussfaktoren.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/mechanik/">Mechanik</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/physik/mechanics/de/kinematik/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Kinematik</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/physik/mechanics/de/schweredruck-in-fluessigkeiten/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Schweredruck in Flüssigkeiten</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

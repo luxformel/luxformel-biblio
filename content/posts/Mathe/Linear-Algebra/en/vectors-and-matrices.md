@@ -3,7 +3,7 @@ title: "Vectors and Matrices"
 date: 2025-11-06T20:08:06+01:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Linear Algebra", "Vectors", "Matrices"]
+tags: ["Linear Algebra", "Vectors", "Matrices", "Solved"]
 categories: ["Mathé"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
@@ -27,8 +27,9 @@ UseHugoToc: true
 math: true
 ---
 
-# Vectors and Matrices
+Léisung zu dësen Exercicer sinn am Archiv op [luxformel](https://luxformel.info/Archiv/Mathe/pdf/Linear-Algebra/Solutions/vectors-and-matrices-solutions.pdf) ze fannen. 
 
+# Vectors and Matrices
 
 ## Exercise 1
 
@@ -91,10 +92,14 @@ $$
 
 ## Exercise 5
 
-Consider the matrices of Exercise 3.
+Consider the following matrices: 
 
-1. Calculate the determinants of the matrices $ A $, $ B $, and $ AB $.  
-2. Calculate the determinants of the matrices $ C $ and $ D $.
+$$
+A = \begin{pmatrix} 2 & -2 \\ 0 & 1 \end{pmatrix}, \quad B = \begin{pmatrix} 3 & 1 \\ 6 & 2 \end{pmatrix}, \quad C = \begin{pmatrix} 4 & 1 & -1 \\ 2 & 5 & -2 \\ 1 & 1 & 2 \end{pmatrix}, \quad D = \begin{pmatrix} -3 & 1 & -1 \\ -7 & 5 & -1 \\ -6 & 6 & -2 \end{pmatrix}
+$$
+
+1. Calculate the determinants of the matrices $A$, $B$, and $AB$.  
+2. Calculate the determinants of the matrices $C$ and $D$.
 
 
 ## Exercise 6

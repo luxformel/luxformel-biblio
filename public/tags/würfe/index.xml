@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Würfe on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/w%C3%BCrfe/</link>
+    <description>Recent content in Würfe on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Sun, 11 Jan 2026 15:00:52 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/w%C3%BCrfe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kinematik</title>
+      <link>http://localhost:1313/posts/physik/mechanics/de/kinematik/</link>
+      <pubDate>Sun, 11 Jan 2026 15:00:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/physik/mechanics/de/kinematik/</guid>
+      <description>&lt;h1 id=&#34;kinematik&#34;&gt;Kinematik&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1--gleichförmige-bewegung--fahrt-eines-wagens&#34;&gt;Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens&lt;/h2&gt;
+&lt;p&gt;Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Berechne die Geschwindigkeit in $\frac{m}{s}$, $\frac{km}{h}$ und $\frac{m}{min}$.&lt;/li&gt;
+&lt;li&gt;Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;aufgabe-2--bahngeschwindigkeiten--erde-und-mond&#34;&gt;Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond&lt;/h2&gt;
+&lt;p&gt;Berechne die Geschwindigkeiten in $\frac{m}{s}$ und in $\frac{km}{h}$, mit denen&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;die Erde um die Sonne läuft.&lt;/li&gt;
+&lt;li&gt;der Mond um die Erde läuft.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;aufgabe-3--weg-zeit-analyse-diagramm-auswerten&#34;&gt;Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten)&lt;/h2&gt;
+&lt;p&gt;Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

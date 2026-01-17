@@ -3,7 +3,7 @@ title: "Complex Numbers and Vector Space"
 date: 2025-09-07T06:57:55+02:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Complex Numbers", "Vector Spaces", "Linear Algebra"]
+tags: ["Complex Numbers", "Vector Spaces", "Linear Algebra" , "Solved"]
 categories: ["Mathé"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors

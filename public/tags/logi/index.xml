@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Logi on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/logi/</link>
+    <description>Recent content in Logi on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Fri, 16 Jan 2026 18:54:11 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/logi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Truth Tables and Logical Equivalences</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/</link>
+      <pubDate>Fri, 16 Jan 2026 18:54:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/</guid>
+      <description>&lt;h1 id=&#34;truth-tables-and-logical-equivalences&#34;&gt;Truth Tables and Logical Equivalences&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--basic-truth-tables&#34;&gt;Exercise 1 : Basic Truth Tables&lt;/h2&gt;
+&lt;p&gt;Construct complete truth tables for the following formulas. Show all intermediate columns.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\neg P \vee Q$&lt;/li&gt;
+&lt;li&gt;$(S \vee G) \wedge (\neg S \vee \neg G)$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bonus:&lt;/strong&gt; $\neg(P \rightarrow Q) \wedge (P \vee Q)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--complex-truth-tables-with-intermediate-steps&#34;&gt;Exercise 2 : Complex Truth Tables with Intermediate Steps&lt;/h2&gt;
+&lt;p&gt;Construct truth tables for these formulas, showing columns for each subexpression:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\neg [P \wedge (Q \vee \neg P)]$&lt;/li&gt;
+&lt;li&gt;$(P \vee Q) \wedge (\neg P \vee R)$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bonus:&lt;/strong&gt; $P \rightarrow (Q \rightarrow R)$ and $(P \rightarrow Q) \rightarrow R$ (Are they equivalent?)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--exclusive-or&#34;&gt;Exercise 3 : Exclusive OR&lt;/h2&gt;
+&lt;p&gt;The symbol $+$ represents exclusive OR (XOR), where $P + Q$ is true when exactly one of $P$ or $Q$ is true.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

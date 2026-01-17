@@ -2,22 +2,114 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Physik on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/categories/physik/</link>
+    <link>http://localhost:1313/categories/physik/</link>
     <description>Recent content in Physik on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
-    <lastBuildDate>Sun, 07 Sep 2025 08:38:35 +0200</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/categories/physik/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jan 2026 01:26:04 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/physik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamik</title>
+      <link>http://localhost:1313/posts/physik/mechanics/de/dynamik/</link>
+      <pubDate>Tue, 13 Jan 2026 01:26:04 +0100</pubDate>
+      <guid>http://localhost:1313/posts/physik/mechanics/de/dynamik/</guid>
+      <description>&lt;h1 id=&#34;dynamik&#34;&gt;Dynamik&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1--abgeschlepptes-fahrzeug&#34;&gt;Aufgabe 1 : Abgeschlepptes Fahrzeug&lt;/h2&gt;
+&lt;p&gt;Beim Abschleppen eines Autos besteht die Gefahr, dass das gespannte Zugseil durch ruckartiges Anfahren reißt. Erkläre dieses Phänomen unter Anwendung der Grundgesetze der Dynamik (Trägheitsgesetz, Kraftbegriff). Gehe dabei auch auf die Begriffe „Masse“ und „Trägheit“ ein.&lt;/p&gt;
+&lt;h2 id=&#34;aufgabe-2--kugel-auf-einem-spielzeugwagen&#34;&gt;Aufgabe 2 : Kugel auf einem Spielzeugwagen&lt;/h2&gt;
+&lt;p&gt;Eine Kugel liegt auf einem Spielzeugwagen. Beschreibe und erkläre die Bewegung der Kugel aus der Sicht eines ruhenden Beobachters&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;während das Fahrzeug gleichmäßig beschleunigt (Anfahren).&lt;/li&gt;
+&lt;li&gt;während das Fahrzeug mit konstanter Geschwindigkeit fährt.&lt;/li&gt;
+&lt;li&gt;während das Fahrzeug bremst.&lt;/li&gt;
+&lt;li&gt;während das Fahrzeug eine Kurve fährt.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Verwende in deiner Erklärung die Begriffe Trägheitssatz, Kräftegleichgewicht und Zentripetalkraft.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kinematik</title>
+      <link>http://localhost:1313/posts/physik/mechanics/de/kinematik/</link>
+      <pubDate>Sun, 11 Jan 2026 15:00:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/physik/mechanics/de/kinematik/</guid>
+      <description>&lt;h1 id=&#34;kinematik&#34;&gt;Kinematik&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1--gleichförmige-bewegung--fahrt-eines-wagens&#34;&gt;Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens&lt;/h2&gt;
+&lt;p&gt;Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Berechne die Geschwindigkeit in $\frac{m}{s}$, $\frac{km}{h}$ und $\frac{m}{min}$.&lt;/li&gt;
+&lt;li&gt;Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;aufgabe-2--bahngeschwindigkeiten--erde-und-mond&#34;&gt;Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond&lt;/h2&gt;
+&lt;p&gt;Berechne die Geschwindigkeiten in $\frac{m}{s}$ und in $\frac{km}{h}$, mit denen&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;die Erde um die Sonne läuft.&lt;/li&gt;
+&lt;li&gt;der Mond um die Erde läuft.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;aufgabe-3--weg-zeit-analyse-diagramm-auswerten&#34;&gt;Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten)&lt;/h2&gt;
+&lt;p&gt;Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Auftrieb</title>
+      <link>http://localhost:1313/posts/physik/mechanics/de/auftrieb/</link>
+      <pubDate>Sun, 11 Jan 2026 13:05:55 +0100</pubDate>
+      <guid>http://localhost:1313/posts/physik/mechanics/de/auftrieb/</guid>
+      <description>&lt;h1 id=&#34;auftrieb&#34;&gt;Auftrieb&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1--prinzip-eines-u-bootes&#34;&gt;Aufgabe 1 : Prinzip eines U-Bootes&lt;/h2&gt;
+&lt;p&gt;Erkläre detailliert, wie ein U-Boot durch Veränderung seiner Gesamtdichte abtauchen, aufsteigen und in einer bestimmten Tiefe schweben kann. Gehe in deiner Erklärung auf die Rolle der Ballasttanks ein und nutze dabei zwingend folgende physikalische Größen und Konzepte: &lt;strong&gt;Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;aufgabe-2--regulation-des-auftriebs-bei-fischen&#34;&gt;Aufgabe 2 : Regulation des Auftriebs bei Fischen&lt;/h2&gt;
+&lt;p&gt;Viele Fische besitzen eine &lt;strong&gt;Schwimmblase&lt;/strong&gt;. Erläutere, wie ein Fisch durch aktives Verändern des Volumens seiner Schwimmblase im Wasser aufsteigen, sinken oder auf einer konstanten Tiefe verharren kann. Stelle den Zusammenhang zwischen der Volumenänderung und der resultierenden Dichteänderung des Fisches her. Begründe deine Antwort mit Hilfe der Begriffe: &lt;strong&gt;Masse, Volumen, Dichte, Gewichtskraft und Auftriebskraft&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Schweredruck in Flüssigkeiten</title>
+      <link>http://localhost:1313/posts/physik/mechanics/de/schweredruck-in-fluessigkeiten/</link>
+      <pubDate>Sun, 11 Jan 2026 12:51:45 +0100</pubDate>
+      <guid>http://localhost:1313/posts/physik/mechanics/de/schweredruck-in-fluessigkeiten/</guid>
+      <description>&lt;h1 id=&#34;schweredruck-in-flüssigkeiten&#34;&gt;Schweredruck in Flüssigkeiten&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1--bau-und-kräfte-an-einer-staumauer&#34;&gt;Aufgabe 1 : Bau und Kräfte an einer Staumauer&lt;/h2&gt;
+&lt;p&gt;Am unteren Ende einer Talsperre befindet sich ein rechteckiges Entnahmevertil mit einer Fläche von &lt;strong&gt;A = 2 m²&lt;/strong&gt;. Der Wasserspiegel des Stausees liegt &lt;strong&gt;200 m&lt;/strong&gt; über der Ventilöffnung.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Skizze und Bauweise:&lt;/strong&gt; Zeichnen Sie einen maßstabsgetreuen Querschnitt durch eine typische Schwergewichtsmauer (Bogen- oder Pfeilerstaumauer sind ebenfalls akzeptabel). Erklären Sie anhand Ihrer Skizze, warum die Mauerdicke zum Beckenboden hin stark zunimmt. Gehen Sie dabei auf die wirkenden Kräfte und die Stabilität ein.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Berechnung der Druckkraft:&lt;/strong&gt; Berechnen Sie die &lt;strong&gt;Druckkraft F&lt;/strong&gt;, die bei voll gefülltem Stausee auf das geschlossene Ventil wirkt.
+&lt;ul&gt;
+&lt;li&gt;Gehen Sie dabei vom hydrostatischen Druck aus.&lt;/li&gt;
+&lt;li&gt;Verwenden Sie: \( \rho_{Wasser} = 1000 \, \text{kg/m³} \) und \( g = 9.81 \, \text{N/kg} \).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analyse der Kraftabhängigkeit:&lt;/strong&gt; Diskutieren Sie, ob der &lt;strong&gt;Betrag und die Richtung&lt;/strong&gt; dieser Druckkraft von folgenden Faktoren abhängen:
+&lt;ul&gt;
+&lt;li&gt;Der Gesamtwassermenge bzw. der Oberfläche des Stausees.&lt;/li&gt;
+&lt;li&gt;Der Neigung des Ventils (z.B. senkrecht, schräg oder waagerecht eingebaut). Begründen Sie Ihre Antworten physikalisch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;aufgabe-2--druck-und-kraft-im-schwimmbecken&#34;&gt;Aufgabe 2 : Druck und Kraft im Schwimmbecken&lt;/h2&gt;
+&lt;p&gt;In einem Schwimmbecken soll der vom Wasser verursachte &lt;strong&gt;Schweredruck p&lt;/strong&gt; und die daraus resultierende &lt;strong&gt;Kraft F&lt;/strong&gt; auf ein menschliches Trommelfell in verschiedenen Tiefen berechnet werden. Die Fläche des Trommelfells beträgt etwa &lt;strong&gt;A = 0.5 cm²&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Druck</title>
+      <link>http://localhost:1313/posts/physik/mechanics/de/druck/</link>
+      <pubDate>Sun, 11 Jan 2026 12:51:28 +0100</pubDate>
+      <guid>http://localhost:1313/posts/physik/mechanics/de/druck/</guid>
+      <description>&lt;h1 id=&#34;druck&#34;&gt;Druck&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1--heronsball-kommunizierende-gefäße--luftdruck&#34;&gt;Aufgabe 1 : Heronsball (Kommunizierende Gefäße &amp;amp; Luftdruck)&lt;/h2&gt;
+&lt;p&gt;Die abgebildete Experimentieranleitung zeigt einen Heronsball. Zunächst wird durch das eingetauchte Rohr Luft hineingeblasen.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Erkläre, was mit dem Wasserstand im Ball und im äußeren Gefäß während des Hineinblasens passiert und warum.&lt;/li&gt;
+&lt;li&gt;Nach dem Hineinblasen wird die Öffnung des Rohrs mit einem Finger verschlossen. Begründe, welche Kräfte nun auf das Wasser wirken und warum es nicht ausfließt.&lt;/li&gt;
+&lt;li&gt;Beschreibe und begründe detailliert, was geschieht, wenn man den Finger von der Öffnung nimmt. Erkläre die Rolle des Luftdrucks in diesem Vorgang.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;aufgabe-2--druckeinheiten-umrechnen-und-verstehen&#34;&gt;Aufgabe 2 : Druckeinheiten umrechnen und verstehen&lt;/h2&gt;
+&lt;p&gt;Rechne folgende Druckeinheiten um und gib die Ergebnisse in der angegebenen Einheit an. Nimm dabei den Bezug zum Luftdruck (ca. 1 $bar$):&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Wave Function</title>
-      <link>https://biblio.luxformel.info/posts/physik/quantum-mechanics/de/wave-function/</link>
+      <link>http://localhost:1313/posts/physik/quantum-mechanics/de/wave-function/</link>
       <pubDate>Sun, 07 Sep 2025 08:38:35 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/physik/quantum-mechanics/de/wave-function/</guid>
+      <guid>http://localhost:1313/posts/physik/quantum-mechanics/de/wave-function/</guid>
       <description>&lt;h1 id=&#34;wave-function&#34;&gt;Wave Function&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Consider the Gaussian distribution&lt;br&gt;
@@ -37,15 +129,15 @@ where $ A, a, \lambda $ are positive real constants.&lt;/p&gt;
     </item>
     <item>
       <title>Lagrangeformalismus</title>
-      <link>https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</link>
+      <link>http://localhost:1313/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</link>
       <pubDate>Sun, 07 Sep 2025 07:38:46 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</guid>
+      <guid>http://localhost:1313/posts/physik/theoretical-mechanics/de/lagrangeformalismus/</guid>
       <description>&lt;h1 id=&#34;lagrangeformalismus&#34;&gt;Lagrangeformalismus&lt;/h1&gt;
 &lt;h2 id=&#34;aufgabe-1-massenpunkt-auf-kurve-im-schwerefeld&#34;&gt;Aufgabe 1: Massenpunkt auf Kurve im Schwerefeld&lt;/h2&gt;
 &lt;p&gt;Ein Massenpunkt gleitet reibungsfrei auf der Kurve $z = f(x)$ in der $z$-$x$-Ebene unter Schwerkraft $F = -mg\mathbf{e}_z$. Stellen Sie die Lagrangegleichungen 1. Art auf.&lt;/p&gt;
 &lt;h2 id=&#34;aufgabe-2-ablösung-von-kugeloberfläche&#34;&gt;Aufgabe 2: Ablösung von Kugeloberfläche&lt;/h2&gt;
 &lt;p&gt;Ein Massenpunkt startet vom obersten Punkt einer Kugel und gleitet reibungsfrei ab. Bestimmen Sie mit dem Energieerhaltungssatz den Ablösepunkt.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://biblio.luxformel.info/posts/physik/theoretical-mechanics/de/lagrangeformalismus/images/lagrangeformalismus-aufgabe2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/physik/theoretical-mechanics/de/lagrangeformalismus/images/lagrangeformalismus-aufgabe2.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;aufgabe-3-hantel-auf-konzentrischen-kreisen&#34;&gt;Aufgabe 3: Hantel auf konzentrischen Kreisen&lt;/h2&gt;
 &lt;p&gt;Zwei gleiche Massen $m$ sind durch eine Stange der Länge $L$ verbunden und bewegen sich reibungsfrei auf konzentrischen Kreisen mit Radien $r$ und $R$ ($R - r &amp;lt; L &amp;lt; R + r$). Unter Schwerkraft $g = -g\mathbf{e}_y$:&lt;/p&gt;</description>
     </item>

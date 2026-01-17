@@ -3,7 +3,7 @@ title: "Vectors and Matrices in Python"
 date: 2025-11-09T17:52:23+01:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Linear Algebra", "Vectors", "Matrices", "Python"]
+tags: ["Linear Algebra", "Vectors", "Matrices", "Python" , "Solved"]
 categories: ["Mathé"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
@@ -26,6 +26,8 @@ UseHugoToc: true
 
 math: true
 ---
+
+Léisung zu dësen Exercicer sinn an der [Bibliothéik](https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/) ze fannen. 
 
 # Vectors and Matrices in Python
 

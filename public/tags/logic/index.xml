@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Logic on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/logic/</link>
+    <description>Recent content in Logic on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Sat, 17 Jan 2026 18:53:41 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/logic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantificational Logic</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/quantificational-logic/</link>
+      <pubDate>Sat, 17 Jan 2026 18:53:41 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/quantificational-logic/</guid>
+      <description>&lt;h1 id=&#34;quantificational-logic&#34;&gt;Quantificational Logic&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--translating-into-quantificational-logic-i&#34;&gt;Exercise 1 : Translating into quantificational logic I&lt;/h2&gt;
+&lt;p&gt;Let the domain be “all people.” Symbolize each sentence using quantifiers. Use the following predicates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( S(x) \): \( x \) is a saint.&lt;/li&gt;
+&lt;li&gt;\( F(x, y) \): \( x \) has forgiven \( y \).&lt;/li&gt;
+&lt;li&gt;\( C(x) \): \( x \) is in the calculus class.&lt;/li&gt;
+&lt;li&gt;\( D(x) \): \( x \) is in the discrete math class.&lt;/li&gt;
+&lt;li&gt;\( Sm(x, y) \): \( x \) is smarter than \( y \).&lt;/li&gt;
+&lt;li&gt;\( L(x, y) \): \( x \) likes \( y \).&lt;/li&gt;
+&lt;li&gt;\( P(x) \): \( x \) is a police officer.&lt;/li&gt;
+&lt;li&gt;\( S_a(x, y) \): \( x \) saw \( y \).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Anyone who has forgiven at least one person is a saint.&lt;/li&gt;
+&lt;li&gt;Nobody in the calculus class is smarter than everybody in the discrete math class.&lt;/li&gt;
+&lt;li&gt;Everyone likes Mary, except Mary herself.&lt;/li&gt;
+&lt;li&gt;Jane saw a police officer, and Roger saw one too.&lt;/li&gt;
+&lt;li&gt;Jane saw a police officer, and Roger saw him too.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--translating-into-quantificational-logic-ii&#34;&gt;Exercise 2 : Translating into quantificational logic II&lt;/h2&gt;
+&lt;p&gt;Use the following predicates:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Operations on Sets</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/operations-on-sets/</link>
+      <pubDate>Sat, 17 Jan 2026 18:30:38 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/operations-on-sets/</guid>
+      <description>&lt;h1 id=&#34;operations-on-sets&#34;&gt;Operations on Sets&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--basic-set-operations-with-numbers&#34;&gt;Exercise 1 : Basic set operations with numbers&lt;/h2&gt;
+&lt;p&gt;Let \( A = \{1, 3, 12, 35\} \), \( B = \{3, 7, 12, 20\} \), and \( C = \{x \mid x \text{ is a prime number}\} \).&lt;br&gt;
+List the elements of the following sets:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;\( A \cap B \)&lt;/li&gt;
+&lt;li&gt;\( (A \cup B) \setminus C \)&lt;/li&gt;
+&lt;li&gt;\( A \cup (B \setminus C) \)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Then answer: Are any of the sets above disjoint from any of the others? Are any of the sets above subsets of any others?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equivalences Involving Quantifiers</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/equivalences-involving-quantifiers/</link>
+      <pubDate>Sat, 17 Jan 2026 18:23:24 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/equivalences-involving-quantifiers/</guid>
+      <description>&lt;h1 id=&#34;equivalences-involving-quantifiers&#34;&gt;Equivalences Involving Quantifiers&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--negations-and-positive-equivalents&#34;&gt;Exercise 1 : Negations and Positive Equivalents&lt;/h2&gt;
+&lt;p&gt;Negate each of the following statements. Then rewrite the negation as an equivalent positive statement (avoiding negation symbols in front of quantifiers or compound expressions where possible).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Everyone who is majoring in math has a friend who needs help with his or her homework.&lt;br&gt;
+&lt;em&gt;Hint: First write it formally with quantifiers and predicates.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Everyone has a roommate who dislikes everyone.&lt;br&gt;
+&lt;em&gt;Hint: Introduce predicates for “has as roommate” and “dislikes.”&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;\( A \cup B \subseteq C \setminus D \)&lt;br&gt;
+&lt;em&gt;Hint: Rewrite the subset condition in logical form before negating.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;\( \exists x \, \forall y &gt; x \; \exists z \, (z^2 + 5z = y) \)&lt;br&gt;
+&lt;em&gt;Clarification: Read as “There exists an \(x\) such that for every \(y &gt; x\), there exists a \(z\) satisfying \(z^2 + 5z = y\).”&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--more-negations-and-positive-reformulations&#34;&gt;Exercise 2 : More Negations and Positive Reformulations&lt;/h2&gt;
+&lt;p&gt;Negate each statement, then express the negation in a positive form.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deductive Reasoning and Logical Connectives</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/deductive-reasoning-and-logical-connectives/</link>
+      <pubDate>Sat, 17 Jan 2026 18:20:19 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/deductive-reasoning-and-logical-connectives/</guid>
+      <description>&lt;h1 id=&#34;deductive-reasoning-and-logical-connectives&#34;&gt;Deductive Reasoning and Logical Connectives&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--disjunction-conjunction-and-negation&#34;&gt;Exercise 1 : Disjunction, Conjunction, and Negation&lt;/h2&gt;
+&lt;p&gt;Analyze the logical forms of the following statements. Define your atomic components clearly.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We’ll have either a reading assignment or homework problems, but we won’t have both homework problems and a test.&lt;br&gt;
+&lt;em&gt;(Identify three atomic statements and express the sentence using ∨, ∧, and ¬.)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;You won’t go skiing, or you will and there won’t be any snow.&lt;br&gt;
+&lt;em&gt;(Pay attention to how “or” and “and” group together; use parentheses to show the structure.)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;\(\sqrt{7} \leq 2\).&lt;br&gt;
+&lt;em&gt;(Treat this as a single mathematical assertion. Could you also think of it as a negation of \(\sqrt{7} &gt; 2\)?)&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--complex-combinations&#34;&gt;Exercise 2 : Complex Combinations&lt;/h2&gt;
+&lt;p&gt;Analyze the logical forms of the following statements. Clearly label each atomic component.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conditional and Biconditional Connectives</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/conditional-and-biconditional-connectives/</link>
+      <pubDate>Fri, 16 Jan 2026 19:01:09 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/conditional-and-biconditional-connectives/</guid>
+      <description>&lt;h1 id=&#34;conditional-and-biconditional-connectives&#34;&gt;Conditional and Biconditional Connectives&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--translating-english-to-propositional-logic&#34;&gt;Exercise 1 : Translating English to Propositional Logic&lt;/h2&gt;
+&lt;p&gt;Express each statement in symbolic logic, defining your atomic propositions clearly.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If this gas either has an unpleasant smell or is not explosive, then it isn&amp;rsquo;t hydrogen.&lt;br&gt;
+&lt;em&gt;Let \( S \): The gas has an unpleasant smell, \( E \): The gas is explosive, \( H \): The gas is hydrogen.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Having both a fever and a headache is a &lt;strong&gt;sufficient condition&lt;/strong&gt; for George to go to the doctor.&lt;br&gt;
+&lt;em&gt;Let \( F \): George has a fever, \( H \): George has a headache, \( D \): George goes to the doctor.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Both&lt;/strong&gt; having a fever and having a headache are sufficient conditions for George to go to the doctor.&lt;br&gt;
+&lt;em&gt;(Note the subtle difference from #2. Write two separate conditional statements.)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;If \( x \neq 2 \), then a necessary condition for \( x \) to be prime is that \( x \) be odd.&lt;br&gt;
+&lt;em&gt;Let \( P_x \): \( x \) is prime, \( O_x \): \( x \) is odd. Assume universe of integers &amp;gt; 1.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--only-if-unless-and-necessary-conditions&#34;&gt;Exercise 2 : “Only if,” “Unless,” and Necessary Conditions&lt;/h2&gt;
+&lt;p&gt;Translate into symbolic logic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Truth Tables and Logical Equivalences</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/</link>
+      <pubDate>Fri, 16 Jan 2026 18:54:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/truth-tables-and-logical-equivalences/</guid>
+      <description>&lt;h1 id=&#34;truth-tables-and-logical-equivalences&#34;&gt;Truth Tables and Logical Equivalences&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--basic-truth-tables&#34;&gt;Exercise 1 : Basic Truth Tables&lt;/h2&gt;
+&lt;p&gt;Construct complete truth tables for the following formulas. Show all intermediate columns.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\neg P \vee Q$&lt;/li&gt;
+&lt;li&gt;$(S \vee G) \wedge (\neg S \vee \neg G)$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bonus:&lt;/strong&gt; $\neg(P \rightarrow Q) \wedge (P \vee Q)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--complex-truth-tables-with-intermediate-steps&#34;&gt;Exercise 2 : Complex Truth Tables with Intermediate Steps&lt;/h2&gt;
+&lt;p&gt;Construct truth tables for these formulas, showing columns for each subexpression:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\neg [P \wedge (Q \vee \neg P)]$&lt;/li&gt;
+&lt;li&gt;$(P \vee Q) \wedge (\neg P \vee R)$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bonus:&lt;/strong&gt; $P \rightarrow (Q \rightarrow R)$ and $(P \rightarrow Q) \rightarrow R$ (Are they equivalent?)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-3--exclusive-or&#34;&gt;Exercise 3 : Exclusive OR&lt;/h2&gt;
+&lt;p&gt;The symbol $+$ represents exclusive OR (XOR), where $P + Q$ is true when exactly one of $P$ or $Q$ is true.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

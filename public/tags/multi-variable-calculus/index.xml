@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Multi Variable Calculus on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/multi-variable-calculus/</link>
+    <link>http://localhost:1313/tags/multi-variable-calculus/</link>
     <description>Recent content in Multi Variable Calculus on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 11:36:28 +0100</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/multi-variable-calculus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/multi-variable-calculus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transformation of Coordinates; Matrices</title>
-      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</link>
+      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</link>
       <pubDate>Thu, 08 Jan 2026 11:36:28 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</guid>
+      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/transformation-of-coordinates-matrices/</guid>
       <description>&lt;h1 id=&#34;transformation-of-coordinates-matrices&#34;&gt;Transformation of Coordinates; Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--shift-paraboloid&#34;&gt;Exercise 1 : Shift Paraboloid&lt;/h2&gt;
 &lt;p&gt;The vertex of the paraboloid shown in Fig. 14.18 is at a distance 2 from the origin of the coordinates. The equation is $z = 2 + x^2 + y^2$. What is the transformation which will shift the paraboloid so that its vertex coincides with the origin O?&lt;/p&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>Multiple Integrals; Coordinate Systems</title>
-      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</link>
+      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</link>
       <pubDate>Thu, 08 Jan 2026 11:07:40 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</guid>
+      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/multiple-integrals-coordinate-systems/</guid>
       <description>&lt;h1 id=&#34;multiple-integrals-coordinate-systems&#34;&gt;Multiple Integrals; Coordinate Systems&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--multiple-integrals-with-constant-limits&#34;&gt;Exercise 1 : Multiple Integrals with Constant Limits&lt;/h2&gt;
 &lt;p&gt;Evaluate the following multiple integrals:&lt;/p&gt;
@@ -64,9 +64,9 @@
     </item>
     <item>
       <title>Functions of Several Variables; Partial Differentiation; and Total Differentiation</title>
-      <link>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</link>
+      <link>http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</link>
       <pubDate>Thu, 08 Jan 2026 10:54:10 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</guid>
+      <guid>http://localhost:1313/posts/mathe/multi-variable-calculus/en/functions-of-several-variables-partial-differentiation-and-total-differentiation/</guid>
       <description>&lt;h1 id=&#34;functions-of-several-variables-partial-differentiation-and-total-differentiation&#34;&gt;Functions of Several Variables; Partial Differentiation; and Total Differentiation&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--table-of-variables&#34;&gt;Exercise 1 : Table of Variables&lt;/h2&gt;
 &lt;p&gt;Construct a table of values for the function $f(x, y) = x^2 y + 6$ where $x = -2, -1, 0, 1$ and $y = -2, -1, 0, 1, 2$.&lt;/p&gt;

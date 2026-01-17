@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Kinematik | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Physik, Kinematik, Würfe">
+<meta name="description" content="Kinematik
+Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens
+Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.
+
+Berechne die Geschwindigkeit in $\frac{m}{s}$, $\frac{km}{h}$ und $\frac{m}{min}$.
+Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen?
+
+Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond
+Berechne die Geschwindigkeiten in $\frac{m}{s}$ und in $\frac{km}{h}$, mit denen
+
+die Erde um die Sonne läuft.
+der Mond um die Erde läuft.
+
+Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten)
+Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/physik/mechanics/de/kinematik/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/physik/mechanics/de/kinematik/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Kinematik">
+  <meta property="og:description" content="Kinematik Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.
+Berechne die Geschwindigkeit in $\frac{m}{s}$, $\frac{km}{h}$ und $\frac{m}{min}$. Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen? Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond Berechne die Geschwindigkeiten in $\frac{m}{s}$ und in $\frac{km}{h}$, mit denen
+die Erde um die Sonne läuft. der Mond um die Erde läuft. Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten) Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-11T15:00:52+01:00">
+    <meta property="article:modified_time" content="2026-01-11T15:00:52+01:00">
+    <meta property="article:tag" content="Physik">
+    <meta property="article:tag" content="Kinematik">
+    <meta property="article:tag" content="Würfe">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Kinematik">
+<meta name="twitter:description" content="Kinematik
+Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens
+Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.
+
+Berechne die Geschwindigkeit in $\frac{m}{s}$, $\frac{km}{h}$ und $\frac{m}{min}$.
+Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen?
+
+Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond
+Berechne die Geschwindigkeiten in $\frac{m}{s}$ und in $\frac{km}{h}$, mit denen
+
+die Erde um die Sonne läuft.
+der Mond um die Erde läuft.
+
+Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten)
+Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Kinematik",
+      "item": "http://localhost:1313/posts/physik/mechanics/de/kinematik/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kinematik",
+  "name": "Kinematik",
+  "description": "Kinematik Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.\nBerechne die Geschwindigkeit in $\\frac{m}{s}$, $\\frac{km}{h}$ und $\\frac{m}{min}$. Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen? Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond Berechne die Geschwindigkeiten in $\\frac{m}{s}$ und in $\\frac{km}{h}$, mit denen\ndie Erde um die Sonne läuft. der Mond um die Erde läuft. Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten) Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:\n",
+  "keywords": [
+    "Physik", "Kinematik", "Würfe"
+  ],
+  "articleBody": "Kinematik Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.\nBerechne die Geschwindigkeit in $\\frac{m}{s}$, $\\frac{km}{h}$ und $\\frac{m}{min}$. Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen? Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond Berechne die Geschwindigkeiten in $\\frac{m}{s}$ und in $\\frac{km}{h}$, mit denen\ndie Erde um die Sonne läuft. der Mond um die Erde läuft. Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten) Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:\nWie weit ist das Fahrzeug insgesamt gefahren? Wie lange stand das Fahrzeug? Berechne die Intervallgeschwindigkeiten! Zeichne das Geschwindigkeits-Zeit-Diagramm! Aufgabe 4 : Messwertanalyse — Position und Geschwindigkeit Die folgende Tabelle gibt die Position eines Fahrzeugs zu verschiedenen Zeitpunkten an. Zwischen den Punkten verläuft die Bewegung gleichförmig.\n$P_0$ $P_1$ $P_2$ $P_3$ $P_4$ $P_5$ $t$ (s) 0,0 1,5 4,5 6,0 9,0 $s$ (m) 4,0 5,0 6,0 6,0 3,0 Zeichne das Weg-Zeit-Diagramm der Bewegung. Berechne die Wege und die Zeiten zwischen je zwei aufeinanderfolgenden Punkten und die zugehörigen Geschwindigkeiten. Stelle die Weg-Zeit-Gesetze für die fünf Wegabschnitte auf. Beachte die Vorzeichen. Aufgabe 5 : Durchschnittsgeschwindigkeit Bei einem Autorennen über einen Kurs von 8,5 $km$ erreicht ein Fahrer auf den ersten 8 Runden eine Durchschnittsgeschwindigkeit von 192 $\\frac{km}{h}$. Die restlichen 4 Runden muss er wegen eines Schadens mit 171 $\\frac{km}{h}$ im Durchschnitt fahren. Hat er den Streckenrekord von 180 $\\frac{km}{h}$ für 12 Runden gebrochen?\nAufgabe 6 : Vergleichsbewegung Ein Lieferwagen fährt in 1,5 $h$ eine Strecke von 100 $km$. Dann steht er während 0,5 $h$. Anschließend fährt er während 60 $min$ mit einer konstanten Geschwindigkeit von 50 $\\frac{km}{h}$. Er steht dann wieder während 30 min. Schließlich fährt er während 1,5 $h$ mit einer Geschwindigkeit von 80 $\\frac{km}{h}$. Ein Auto startet 90 Minuten nach der Abfahrt des Lieferwagens am gleichen Ort und verfolgt diesen auf der gleichen Strecke. Das Auto fährt während 2 Stunden mit einer mittleren Geschwindigkeit von 87,5 $\\frac{km}{h}$; dann steht es still.\nFertige beide s-t-Diagramme auf der gleichen Graphik an! Bestimme mit Hilfe der Grafik, wo und wann sich der Lieferwagen und das Auto treffen! Aufgabe 7 : Relatives Bewegungsverhalten Bei einem Ruderrennen treten zwei Mannschaften (rot und blau) gegeneinander an. Durch unglückliche Umstände legt sich die rote Mannschaft erst 20 Sekunden nach der blauen starten. Um den Rückstand wieder wettzumachen, fährt die rote Mannschaft mit einer Durchschnittsgeschwindigkeit von 15 $\\frac{km}{h}$, wobei die blaue Mannschaft nur mit 12 $\\frac{km}{h}$ rudert.\nStelle die Weg-Zeit-Gesetze der beiden Ruderboote auf! Bestimme aus den Weg-Zeit-Gesetzen den Zeitpunkt, an dem sich die Ruderboote treffen! Überprüfe die Ergebnisse grafisch! Aufgabe 8 : Durchschnittsgeschwindigkeit Zwei Radfahrende unternehmen eine Tour durch Ösling. Vor dem Start wird die hängige Strecke von insgesamt 50 $km$ genannt. Ein Fahrer erklärt: “Da wir an den Ausgangspunkt zurückkehren, erzielen wir eine Durchschnittsgeschwindigkeit von 25 $\\frac{km}{h}$. Also, wenn wir mit 5 $\\frac{km}{h}$ bergauf fahren und mit 45 $\\frac{km}{h}$ bergab, ist diese Aussage richtig?” Begründe! Nach welcher Zeit sind sie zurück von ihrer Radtour? Wie groß ist die Durchschnittsgeschwindigkeit?\nAufgabe 9 : Begegnungsproblem In $A$ startet um 9.00 Uhr ein LKW und fährt mit der Geschwindigkeit $v_1 = 50$ $\\frac{km}{h}$ zum Kilometer 80 von $B$. 30 Minuten später startet ein zweiter LKW mit der Geschwindigkeit $v_2 = 78$ $\\frac{km}{h}$ von $B$ aus nach $A$.\nBerechne Zeit und Ort der Begegnung der LKWs. Hinweis: Schreibe zunächst die Weg-Zeit-Gesetze der beiden LKWs. Zeichne das Weg-Zeit-Diagramm und löse die Aufgabe auch grafisch. Aufgabe 10 : Gleichmäßig beschleunigte Bewegung Ein Bob hat, vereinfachend, vom Start an eine gleichbleibende Beschleunigung von 2,5 $\\frac{m}{s^2}$. Berechne:\nSeine Geschwindigkeit 5 Sekunden nach dem Start; Den bis zu diesem Zeitpunkt zurückgelegten Weg; Die Zeit bis er 100 $m$ gefahren ist; Den zurückgelegten Weg, wenn seine Geschwindigkeit auf $20,\\frac{m}{s}$ angewachsen ist. Zusatz: Zeichne das $v$-$t$-Diagramm der Bewegung.\nAufgabe 11 : Fahrbahnversuch Folgende Tabelle zeigt die Messwerte eines Fahrbahnversuchs.\nMess. 1 2 3 4 5 6 7 8 9 10 11 t (s) 0,0 0,2 0,4 0,6 0,8 1,0 1,2 1,4 1,6 1,8 2,0 s (cm) 3,2 4,5 8,4 14,8 23,8 35,4 49,6 65,1 80,6 96,0 111,5 Zeichne das Weg-Zeit-Diagramm der Bewegung! Berechne die Intervallgeschwindigkeiten und zeichne das zugehörige Geschwindigkeit-Zeit-Diagramm! Beschreibe diese Bewegung! Leite alle Bewegungsgesetze her! Aufgabe 12 : Geradlinige Beschleunigung Zwei Autos $A$ und $B$ starten gemeinsam an einer roten Ampel. Ihre Bewegung ist aus der Ruhe geradlinig beschleunigt. Fahrer $A$ erreicht nach $t_A = 8 s$ eine Fahrgeschwindigkeit $v_A = 57,6 \\frac{km}{h}$. Fahrer B nach $t_B = 15 s$ eine Geschwindigkeit $v_B = 86,4 \\frac{km}{h}$.\nWelcher Fahrer hat die größere Anfahrbeschleunigung? Begründe die Antwort! Berechne welche Wege die Autofahrer dabei zurückgelegt haben! Aufgabe 13 : Geneigte Luftkissenbahn Auf einer geneigten Luftkissenbahn erreicht ein Gleiter nach einer Strecke von 50 $cm$ aus der Ruhe heraus eine Geschwindigkeit von 24 $\\frac{cm}{s}$.\nBerechne die Beschleunigung und die Zeit, bis diese Geschwindigkeit erreicht wurde. Berechne die Zeit, die er für weitere 50 $cm$ braucht. Aufgabe 14 : Beschleunigung Zu einer bestimmten Zeit $t_1 = 3,0 s$ bewegt sich ein Körper mit der Geschwindigkeit $v_1 = 2,6 \\frac{m}{s}$ nach links; zur Zeit $t_2 = 8,0 s$ bewegt er sich mit einer Geschwindigkeit $v_2 = 1,5 \\frac{m}{s}$ nach rechts. Berechne die mittlere Beschleunigung.\nAufgabe 15 : Beschleunigung und Verzögerung Ein Auto wird aus dem Stand in 10,2 $s$ auf eine Geschwindigkeit von 100 $\\frac{km}{h}$ gleichförmig beschleunigt und dann nach einem Bremsweg von 96 $m$ wieder zum Stehen gebracht.\nBerechne die Beschleunigung! Bestimme den Weg beim Anfahren und die Zeit beim Bremsen! Aufgabe 16 : Beschleunigung und Strecke Die Geschwindigkeit eines Fahrzeugs wird bei einer Beschleunigung von $a = 2.5 \\frac{m}{s^2}$ von $v_1 = 180 \\frac{km}{h}$ auf $v_2 = 216 \\frac{km}{h}$ gleichmäßig beschleunigt.\nBerechne die dabei zurückgelegte Strecke! Zeichne das $v$-$t$-Diagramm! Aufgabe 17 : Diagramme Ein Körper ist zum Zeitpunkt $t = 0 s$ in Ruhe. Nach 2 Sekunden beträgt seine Geschwindigkeit $v_1 = 1.5 \\frac{m}{s}$, nach 4 Sekunden beträgt die Geschwindigkeit $v_2 = 3.0 \\frac{m}{s}$.\nZeichne das Geschwindigkeits-Zeit-Diagramm! Zeichne das Beschleunigungs-Zeit-Diagramm! Berechne die Fläche unter der $v$-Linie. Was stellt sie dar? Aufgabe 18 : Beschleunigung aus der Ruhe Ein Auto erhält aus der Ruhe gleichmäßig beschleunigt eine solche Beschleunigung, dass es nach $t = 16s$ einen Weg $s = 200 m$ zurücklegt.\nBerechne die Beschleunigung des Autos! Berechne die Endgeschwindigkeit in $\\frac{km}{h}$! Aufgabe 19 : Beschleunigung Ein PKW wird in 15 s von der Geschwindigkeit $90 \\frac{km}{h}$ auf $126 \\frac{km}{h}$ gleichmäßig beschleunigt.\nBerechne die Beschleunigung! Berechne den Gesamtweg der während der Beschleunigung zurückgelegt wird! Wie ändern sich Beschleunigung und Gesamtweg, wenn die Geschwindigkeitsänderung in der Hälfte der Zeit erreicht werden soll? Begründe die Antwort! Aufgabe 20 : Bewegungsanalyse Das Schema zeigt die Bewegung einer Kugel zwischen dem Startpunkt $A$ und dem Endpunkt $B$. Die Position der Kugel wurde in regelmäßigen Zeitintervallen eingetragen, das heißt zwischen zwei gezeigten Positionen der Kugel vergeht die gleiche Zeit.\nWelche Skizze der folgenden Geschwindigkeit-Zeit-Diagramme beschreibt am besten die Bewegung der Kugel? Erkläre!\nAufgabe 21 : Bewegungsgesetze Ein Körper bewegt sich mit konstanter Beschleunigung $a_0 = -3,0 \\frac{m}{s^2}$. Zu Beginn hat er die Ausgangslage $s_0 = 24 m$ und die Anfangsgeschwindigkeit $v_0 = 6 \\frac{m}{s}$.\nStelle die drei Bewegungsgleichungen auf! Bestimme Ort und Zeit, wenn sich die Bewegungsrichtung des Körpers umkehrt! Bestimme, wann er wieder die Ausgangslage erreicht! Zeichne das s-t-Diagramm, das v-t-Diagramm und das a-t-Diagramm. Aufgabe 22 : Bremsweg und Wegstrecke Eine U-Bahn legt zwischen zwei Stationen einen Weg von 3 km zurück. Berechne aus der mittleren Anfahr- und Bremsbeschleunigung $a = 0.6 \\frac{m}{s^2}$ und der Höchstgeschwindigkeit $v_{\\text{max}} = 90 \\frac{km}{h}$ Anfahrweg, Bremsweg, Wegstrecke der gleichförmigen Bewegung und die einzelnen Fahrzeiten.\nAufgabe 23 : Auswertung eines Diagramms Zu einer geradlinigen Bewegung gehört das Geschwindigkeit-Zeit-Diagramm der folgenden Abbildung:\nBerechne die Beschleunigungen in den drei Abschnitten und zeichne das zugehörige Beschleunigung-Zeit-Diagramm! Stelle die Geschwindigkeit-Zeit-Gesetze für die drei Abschnitte auf! Berechne die in den Abschnitten zurückgelegten Wege und den Gesamtweg! Aufgabe 24 : Reaktionsweg und Bremsweg Ein Autofahrer muss bei plötzlicher Gefahr sein Fahrzeug abbremser. Bis zur Betätigung der Bremsen vergeht eine Reaktionszeit von 1 $s$. Ermittle mit den Werten aus dem v-t-Diagramm:\nDie Fahrgeschwindigkeit, Die Strecke $s_1$, die er in der Reaktionszeit durchfährt, Die Bremsverzögerung $a$ und den Bremsweg $s_2$. Erkläre, wie sich die Wegstrecken $s_1$ und $s_2$ bei gleicher Verzögerung, jedoch zweifacher Fahrgeschwindigkeit verändern. Aufgabe 25 : Reaktionszeit Bei einer Geschwindigkeit von 108 $\\frac{km}{h}$ erblickt ein Autofahrer in 70 $m$ Entfernung ein Hindernis. Nach einer Schrecksekunde führt er eine Vollbremsung aus und erreicht dabei eine Verzögerung von $a = -4 \\frac{m}{s^2}$.\nBerechne mit welcher Geschwindigkeit der Wagen noch auf das Hindernis prallt! Berechne welche Verzögerung notwendig gewesen wäre, um den Wagen dicht vor dem Hindernis zum Stillstand zu bekommen! Aufgabe 26 : Aufprall Dargestellt ist ein Beispiel des Deutschen Verkehrssicherheitsrates zur Richtgeschwindigkeit 130 $\\frac{km}{h}$. Auf der Autobahn wird in 150 m Entfernung ein Hindernis entdeckt. Zeige, dass bei einer Reaktionszeit von 1 $s$ und einer Bremsverzögerung von $-6 \\frac{m}{s^2}$:\nbei Tempo 130 $\\frac{km}{h}$ der Anhalteweg $s$ ausreicht; es bei Tempo 150 $\\frac{km}{h}$ zu einem Aufprall mit einer Aufprallgeschwindigkeit von ungefähr 75 $\\frac{km}{h}$ kommt. Aufgabe 27 : Relative Bewegung Ein geparktes Auto beschleunigt innerorts mit $2,0 \\frac{m}{s^2}$ auf eine Geschwindigkeit von $40 \\frac{km}{h}$.\nBerechne, wie lange der Vorgang dauert und welche Strecke das Auto dabei zurücklegt! Die Geschwindigkeit behält der Fahrer nun bei. Plötzlich fällt 20 m vor ihm eine Kiste von einem Transporter auf die Fahrbahn. Der Fahrer macht nach einer Reaktionszeit von einer Sekunde eine Vollbremsung mit einer Verzögerung von $4,5 \\frac{m}{s^2}$.\nBestimme, ob er noch vor der Kiste zum Stehen kommt! Bestimme, wie hoch seine Geschwindigkeit sein müsste, damit er gerade noch vor der Kiste zum Stehen kommt! Aufgabe 28 : Relative Bewegung In dem Moment, in dem ein Auto anfährt, erkennt der Fahrer auf dem Radweg 10 m hinter sich einen Radfahrer, der mit der konstanten Geschwindigkeit von $20 \\frac{km}{h}$ in gleicher Richtung fährt. Das Auto beschleunigt mit $1,5 \\frac{m}{s^2}$.\nBestimme nach welcher Strecke der Radfahrer das Auto überholt und umkehrt! Skizziere das Weg-Zeit-Diagramm und das Geschwindigkeit-Zeit-Diagramm beider Fahrer auf der jeweils gleichen Grafik. Aufgabe 29 : Relative Bewegung Ein Auto mit einer Länge von $4m$ fährt auf der Landstraße in $50m$ Abstand hinter einem Lastzug von $17m$ Länge her. Bestimme mithilfe des unten abgebildeten $v-t$-Diagramms die Beschleunigung während des Überholvorgangs und die für den Überholvorgang benötigte Zeit, wenn das Auto $50m$ vor dem Lastzug wieder rechts einordnet!\nAufgabe 30 : Verfolgung Ein Autofahrer fährt mit konstanter Geschwindigkeit von 120 $\\frac{km}{h}$ auf einer geraden Strecke wo die Geschwindigkeit auf 90 $\\frac{km}{h}$ begrenzt ist. Ein Polizist auf seinem Motorrad startet zwei Sekunden nachdem der Autofahrer vorbeigefahren ist um die Verfolgung aufzunehmen. Die Bewegung des Motorrads ist geradlinig gleichförmig beschleunigt, so dass es in 10$s$ aus dem Stand 100 $\\frac{km}{h}$ erreicht.\nBerechne die Dauer der Verfolgung! Berechne die während der Verfolgung zurückgelegte Strecke! Berechne nach welcher Zeit und welcher Strecke das Motorrad die Geschwindigkeit des Autofahrers erreicht. Berechne dann die Entfernung zwischen dem Auto und dem Polizisten! Berechne die Geschwindigkeit des Motorrads, wenn es das Auto einholt! Interpretiere die Ergebnisse grafisch mithilfe eines s-t-Diagramms! Aufgabe 31 : Verfolgung Auf dem Bahnsteig eines Bahnhofes läuft ein verspäteter Reisender mit einer Geschwindigkeit von 8 $\\frac{m}{s}$ einem Zug hinterher. Als der Reisende in einer Entfernung $d$ vom Zug ist, beschleunigt der Zug aus dem Stand mit einer konstanten Beschleunigung von 0,5 $\\frac{m}{s^2}$.\nZeige, dass der Reisende den Zug nicht einholt wenn $d = 100$ m. Berechne den Zeitpunkt zu dem der Reisende den Zug einholt, wenn $d = 40m$. Fertige ein $s$-$t$-Diagramm auf dem du den Treffpunkt einzeichnest. Aufgabe 32 : Bewegungsarten Vor einem Zug, der mit einer Geschwindigkeit $v_1 = 120$ $\\frac{km}{h}$ dahinfährt, taucht plötzlich aus dem Nebel in 1 $km$ Entfernung ein Güterzug, der in derselben Richtung mit $v_2 = 40$ $\\frac{km}{h}$ fährt. Der Zug bremst mit konstanter Beschleunigung, sodass sein Bremsweg 4 $km$ beträgt.\nBerechne die Dauer des Bremsvorgangs! Berechne mit Hilfe der Lösung aus 1., ob es zu einem Zusammenstoß kommt! Bestimme mit Hilfe der Bewegungsgesetze den Ort und den Zeitpunkt des Zusammenpralls! Skizziere ein s-t-Diagramm der Bewegung der beiden Züge und trage den Zusammenprall ein! Aufgabe 33 : Zusammenprall Auf einer zweispurigen Landstraße bewegen sich zwei Autos $A$ und $B$ aufeinander zu, dabei beträgt $v_A = 108$ $\\frac{km}{h}$ und $v_B = 90$ $\\frac{km}{h}$. Die Entfernung zwischen beiden Autos beträgt 150 $m$, als sich sehen. Das Auto $A$ bremst mit einer betragsmäßigen Beschleunigung von $a_A = 6$ $\\frac{m}{s^2}$, die von Auto $B$ beträgt $a_B = 5$ $\\frac{m}{s^2}$.\nZeige rechnerisch, dass ein Unfall stattfindet! Berechne, welche Zeit nachdem die Fahrer gesehen haben, der Unfall stattfindet! Berechne die Geschwindigkeit der beiden Autos beim Zusammenprall! Aufgabe 34 : Verfolgen Ein Auto $A$ fährt mit konstanter Geschwindigkeit von 70 $\\frac{km}{h}$ eine Landstraße entlang. Als er sich in einer Entfernung $d$ befindet, fährt ein Auto $B$ in gleiche Richtung auf die Landstraße ein. Auto $B$ beschleunigt aus dem Stand in 10 Sekunden auf eine Geschwindigkeit von 90 $\\frac{km}{h}$.\nBerechne, wie viel die Entfernung $d$ mindestens sein muss, damit Auto $A$ das Auto $B$ einholt (Grenzfall). Berechne, wie viel Zeit vergeht, bis Auto $A$ das Auto $B$ einholt (Grenzfall). Skizzieren ein $s$-$t$-Diagramm für die Bewegung beider Fahrzeuge auf der gleichen Grafik. Berechne, welche Beschleunigung Auto $B$ haben müsste, damit es zu keinem Unfall kommt, wenn $d = 50$ m beträgt. Aufgabe 35 : Fallender Körper Ein Körper fällt aus einer Höhe von 130 $m$ frei, ohne Luftwiderstand, herab.\nBerechne die Fallstrecke und die Geschwindigkeit nach 2 beziehungsweise 4 Sekunden. Bestimme nach welcher Zeit und mit welcher Geschwindigkeit er auf den Boden trifft. Aufgabe 36 : Erdbeschleunigung Zur Bestimmung der Erdbeschleunigung wird mehrmals ein Stein von einem 19,85 $m$ hohen Turm herabfallen gelassen und mit verschiedenen Stoppuhren jeweils die Fallzeit bestimmt.\nBestimme die Fallbeschleunigung aus dem Mittel von neun Zeitmessungen: Messung Zeit (s) 1 2,00 2 2,04 3 1,99 4 2,02 5 2,06 6 1,96 7 2,01 8 2,07 9 2,00 Berechne die relative Abweichung, in Prozent, zum Referenzwert in Mitteleuropa. Aufgabe 37 : Aufprallgeschwindigkeit Ein Hammer wird auf der Erde aus einer gewissen Höhe auf den Boden fallen gelassen. Nach $1,3 s$ trifft er auf den Boden.\nBerechne die Fallhöhe und die Geschwindigkeit beim Aufprall. Der Versuch wird auf dem Mond ($g = 1,62 \\frac{m}{s^2}$), aus gleicher Höhe wiederholt. Berechne die Zeit bis zum Aufprall und die Aufprallgeschwindigkeit. Aufgabe 38 : Freier Fall Angenommen ein Fallschirmspringer fällt ohne Luftwiderstand nach unten.\nBerechne die Geschwindigkeit, die er nach 2 $km$ Fall erreichen würde! Vergleiche die wirkliche Geschwindigkeit mit dem unter 1. berechneten Wert! Erkläre! Skizzieren Sie das $v$-$t$-Diagramm und das $s$-$t$-Diagramm für einen vollständigen Fallschirmsprung (unter Berücksichtigung des Luftwiderstandes). Aufgabe 39 : Bestimmung einer Tiefe Um die Tiefe eines Brunnens zu bestimmen, lässt man einen Stein hineinfallen. Nach einer Zeit von $5,6 s$ hört man den Aufschlag des Steins.\nBerechne die Tiefe des Brunnens, wenn die Laufzeit des Schalls vernachlässigt wird. Berechne die Tiefe des Brunnens unter Berücksichtigung einer Schallgeschwindigkeit von 340 $\\frac{m}{s}$. Aufgabe 40 : Bestimmung einer Höhe Von der Spitze eines Turms wird ein Stein fallen gelassen. Nach 4 Sekunden sieht ein Beobachter ihn auf dem Erdboden auftreffen.\ndie Höhe des Turms; die Geschwindigkeit, mit welcher der Stein auf dem Erdboden auftrifft; die Zeit für die erste Hälfte des Fallweges; die Zeit (seit dem Loslassen), nach der man den Stein aufschlagen hört (Schallgeschwindigkeit 320 $\\frac{m}{s}$). Aufgabe 41 : Bewegungsgleichungen Ein Körper wird mit der Geschwindigkeit $v_0 = 18 , \\frac{m}{s}$ senkrecht nach oben geworfen (der Luftwiderstand wird vernachlässigt).\nStelle die speziellen Bewegungsgleichungen auf! Berechne die Wurfhöhe, die Wurfzeit und die Zeit bis zum Erreichen des höchsten Punktes der Bahn! Aufgabe 42 : Bewegungsgleichungen Welches der dargestellten Kurven zeigt das Geschwindigkeit-Zeit-Diagramm eines Steines der zur Zeit $t = 0s$ senkrecht in die Höhe geworfen wird und zur Zeit $t_e$ wieder den Boden erreicht? Begründe die Antwort! Beschreibe die Bewegungen in den beiden anderen Diagrammen! Aufgabe 43 : Wurf Ein Körper wird mit einer Abwurfgeschwindigkeit von $40 \\frac{m}{s}$ vom Boden aus senkrecht nach oben geworfen.\nBerechne seine Geschwindigkeit nach der 1ten, 2ten, 3ter Sekunde. Zeichne das entsprechende $v-t$-Diagramm! Berechne die Wurfhöhe. Berechne die Zeit, vom Zeitpunkt des Abwurfs aus gerechnet, nach welcher der Körper den Erdboden erreicht. Aufgabe 44 : Fall Eine Melone wird aus einem Hubschrauber aus einer Höhe von $150m$ mit einer Anfangsgeschwindigkeit von $40 \\frac{km}{h}$ senkrecht nach unten geschossen.\nBerechne die Zeit, nach der die Melone auf dem Boden auftrifft! Berechne die Aufschlaggeschwindigkeit! Aufgabe 45 : Senkrechter Wurf Eine Wasserfontäne soll einen Wasserstrahl $34m$ hoch spritzen. Der Querschnitt des Wasserrohres beträgt $7cm^2$.\nBerechne mit welcher mittleren Geschwindigkeit das Wasser dem Rohr entströmt! Berechne welches Volumen Wasser dafür in einer Minute benötigt wird! Aufgabe 46 : Waagerechte Wurf Eine Kugel rollt mit einer Geschwindigkeit von 3 $\\frac{m}{s}$ über das Ende einer 1 $m$ hohen Tischplatte.\nBerechne die Zeit, nach welcher die Kugel auf dem Boden aufschlägt. Berechne in welcher Entfernung zur Tischkante die Kugel aufschlägt. Aufgabe 47 : Waagerechte Wurf Berechne, welche Geschwindigkeit ein Tennisball haben muss, der waagerecht über das Netz fliegt und die Grundlinie berühren soll. Die Netzhöhe beträgt 0,915 $m$, die Entfernung Netz-Grundlinie beträgt 11,9 $m$.\nAufgabe 48 : Waagerechte Wurf Ein Gewehrschütze schießt waagerecht auf ein 150 $m$ entferntes Ziel. Die Mündungsgeschwindigkeit der Gewehrkugel beträgt 820 $\\frac{m}{s}$. Berechne um wie viel der Schütze das anvisierte Ziel verfehlen wird.\nAufgabe 49 : Fall Eine Kugel wird aus einer Fallhöhe $h$ fallen gelassen und landet wie auf dem Bild angegeben.\nBerechne die Fallhöhe $h$, damit die Kugel wie angegeben landet. Berechne die Länge des horizontalen Schlauchstücks, wenn die Kugel für den gesamten Weg 0,9 $s$ benötigt. Berechne die Geschwindigkeit der Kugel kurz vor dem Aufprall auf den Boden. Aufgabe 50 : Projektil Ein Projektil wird waagerecht mit einer Geschwindigkeit von 5 $\\frac{m}{s}$ beziehungsweise 10 $\\frac{m}{s}$ abgeschossen.\nBerechne jeweils die Wurfweite und die Fallwege nach $t = 0,1$ s, $t = 0,5$ s, $t = 1,0$ s, $t = 1,5$ s, $t = 2,0$ s. Zeichne jeweils die Bahnkurve! Aufgabe 51 : Schräger Wurf Ein Stein wird mit der Geschwindigkeit $v_0 = 20 \\frac{m}{s}$ horizontal aus der Höhe $h$ abgeworfen. Er erreicht in der Horizontalen eine Wurfweite von $x_E = 40m$.\nBerechne die Abwurfhöhe und die Flugzeit! Bestimme die Geschwindigkeit kurz vor dem Aufprall und den Winkel zur Horizontalen, unter welchem der Stein auf den Boden trifft! Aufgabe 52 : Zusammenprall Eine Kugel $A$ mit einer Masse von $50 g$ wird horizontal, in einer Höhe von $1,5 m$ über der Erde, mit einer Geschwindigkeit $v_0$ abgeschossen. Eine andere Kugel $B$ mit einer Masse von $150 g$ wird zur gleichen Zeit aus der gleichen Höhe und 3 $m$ von der Abschussmechanik der ersten Kugel fallen gelassen.\nFertige eine Skizze der Aufgabenbeschreibung an. Berechne die Anfangsgeschwindigkeit $v_0$ der Kugel $A$, damit sich beide Kugeln auf einer Höhe von $0,5 m$ über dem Boden treffen. Berechne die Geschwindigkeit der beiden Kugeln beim Zusammentreffen unter der Berücksichtigung der Ergebnisse bei 2. . Berechne die minimale Anfangsgeschwindigkeit $v_{0,\\text{min}}$, damit die beiden Kugeln überhaupt treffen, bevor sie auf den Boden auftreffen. Wie verändern sich die Ergebnisse, wenn die Massen der Kugeln verdoppelt werden? Erkläre! Wie verändern sich die Ergebnisse, wenn die Anfangshöhe der zweiten Kugel verdoppelt wird (die Höhe der ersten Kugel bleibt unverändert)? Erkläre! Aufgabe 53 : Waagerechter Wurf Ein Wasserstrahl, der unter einem Winkel von $40^{\\circ}$ zur Horizontalen die Düse eines Gartenschlauchs verlässt, erreicht in $30 m$ Entfernung eine Hecke in gleicher Höhe wie die Düse. Der Luftwiderstand wird vernachlässigt.\nBerechne die Geschwindigkeit des Wasserstrahls beim Verlassen der Düse! Berechne die Gipfelhöhe des Wasserstrahls! Berechne die Flugzeit eines Wassertropfens! Aufgabe 54 : Senkrechter Wurf Ein Stein wird unter einem Winkel von $45^{\\circ}$ mit einer Geschwindigkeit von 10 $\\frac{m}{s}$ nach oben abgeworfen. Berechne:\nDie Komponenten der Anfangsgeschwindigkeit nach vorn und senkrecht nach oben; Die Steighöhe; Die Steigzeit und die Fallzeit (Schlussfolgerung); Die Wurfweite. Aufgabe 55 : Wurf Ein Stein wird mit einer Abwurfgeschwindigkeit von 20 $\\frac{m}{s}$ unter einem Winkel von 75$^{\\circ}$, 45$^{\\circ}$ und 30$^{\\circ}$ schräg nach oben geworfen. Er trifft auf der gleichen Höhe wieder auf.\nBerechne jeweils die Wurfweite! Berechne jeweils die Steighöhe! Berechne die Geschwindigkeit des Steins am höchsten Punkt und kurz vor dem Einschlag! Aufgabe 56 : Waagerechter Wurf Die Kugeln eines Gewehrs verlassen die Mündung mit einer Geschwindigkeit von 450 $\\frac{m}{s}$. Soll eine Kugel ein Ziel treffen, das sich in 100 m Entfernung auf der Höhe der Mündung befindet, so muss der Schütze auf einen Punkt zielen, der höher liegt als das Ziel. Berechne, wie viel höher als das Ziel dieser Punkt ist!\nAufgabe 57 : Projektil Ein Projektil wird von einem 200 $m$ hohen Steilufer aus abgeschossen. Die Anfangsgeschwindigkeit beträgt 60 $\\frac{m}{s}$, und die Abschussrichtung ist 60$^{\\circ}$ zur Horizontalen geneigt. Berechne die Reichweite, wenn der Luftwiderstand unbeachtet bleibt.\nAufgabe 58 : Relative Bewegungen Ein Wildhüter möchte mit einem Betäubungsgewehr einen Affen am Ast eines Baumes hängen. Er zielt genau auf den Affen, ohne zu beachten, dass der abgeschossene Pfeil eine Parabel durchläuft und deshalb unter dem Affen vorbeifliegen wird. Der Affe sieht jedoch, wie der Pfeil vorbeifliegt, und lässt sich fallen, in Erwartung, so dem Pfeil zu entgehen.\nZeige, dass der Affe unabhängig von der Anfangsgeschwindigkeit des Pfeils getroffen wird, solange folgende Voraussetzungen erfüllt sind: Die Anfangsgeschwindigkeit des Pfeils ist so groß, dass er die Entfernung bis zum Baum zurücklegt, bevor er auf die Erde fällt; der Affe lässt sich in dem Augenblick fallen, in dem der Pfeil abgeschossen wird.\nAufgabe 59 : Gleichungen Ein Körper wird von einer Klippe der Höhe $h$ mit der Geschwindigkeit $v_0$ unter dem Winkel $\\alpha$ (von der Horizontalen nach unten) abgeschossen.\nStelle die Gleichungen auf, die die Bewegung in horizontaler und vertikaler Richtung beschreiben, und ermittle die Gleichung der Wurfparabel.\nAufgabe 60 : Sprung Ein Motorrad fährt mit der Geschwindigkeit $v_0$ auf eine unter dem Winkel $\\alpha$ gegen den Horizont ansteigende Rampe mit der Breite $b$ und landet auf der gegenüberliegenden Seite des Grabens, das um die Höhe $h$ höher gelegen ist.\nBestimme bei gegebener Endgeschwindigkeit $v_0 = 50 \\frac{km}{h}$ und Breite $b = 5,0m$ die obere Grenze für die Höhe $h$, bei der das Motorrad den Graben noch überspringen kann. Berechne, wie groß die Geschwindigkeit $v_0$ mindestens sein muss, wenn die Höhe $h = 1,0m$ beim Winkel $\\alpha = 20^\\circ$ und der Breite $b = 5,0m$ erreicht werden soll. ",
+  "wordCount" : "3683",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-11T15:00:52+01:00",
+  "dateModified": "2026-01-11T15:00:52+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/physik/mechanics/de/kinematik/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Kinematik
+    </h1>
+    <div class="post-meta"><span title='2026-01-11 15:00:52 +0100 CET'>Januar 11, 2026</span>&nbsp;·&nbsp;<span>3683 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#aufgabe-1--gleichförmige-bewegung--fahrt-eines-wagens">Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens</a></li>
+    <li><a href="#aufgabe-2--bahngeschwindigkeiten--erde-und-mond">Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond</a></li>
+    <li><a href="#aufgabe-3--weg-zeit-analyse-diagramm-auswerten">Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten)</a></li>
+    <li><a href="#aufgabe-4--messwertanalyse--position-und-geschwindigkeit">Aufgabe 4 : Messwertanalyse — Position und Geschwindigkeit</a></li>
+    <li><a href="#aufgabe-5--durchschnittsgeschwindigkeit">Aufgabe 5 : Durchschnittsgeschwindigkeit</a></li>
+    <li><a href="#aufgabe-6--vergleichsbewegung">Aufgabe 6 : Vergleichsbewegung</a></li>
+    <li><a href="#aufgabe-7--relatives-bewegungsverhalten">Aufgabe 7 : Relatives Bewegungsverhalten</a></li>
+    <li><a href="#aufgabe-8--durchschnittsgeschwindigkeit">Aufgabe 8 : Durchschnittsgeschwindigkeit</a></li>
+    <li><a href="#aufgabe-9--begegnungsproblem">Aufgabe 9 : Begegnungsproblem</a></li>
+    <li><a href="#aufgabe-10--gleichmäßig-beschleunigte-bewegung">Aufgabe 10 : Gleichmäßig beschleunigte Bewegung</a></li>
+    <li><a href="#aufgabe-11--fahrbahnversuch">Aufgabe 11 : Fahrbahnversuch</a></li>
+    <li><a href="#aufgabe-12--geradlinige-beschleunigung">Aufgabe 12 : Geradlinige Beschleunigung</a></li>
+    <li><a href="#aufgabe-13--geneigte-luftkissenbahn">Aufgabe 13 : Geneigte Luftkissenbahn</a></li>
+    <li><a href="#aufgabe-14--beschleunigung">Aufgabe 14 : Beschleunigung</a></li>
+    <li><a href="#aufgabe-15--beschleunigung-und-verzögerung">Aufgabe 15 : Beschleunigung und Verzögerung</a></li>
+    <li><a href="#aufgabe-16--beschleunigung-und-strecke">Aufgabe 16 : Beschleunigung und Strecke</a></li>
+    <li><a href="#aufgabe-17--diagramme">Aufgabe 17 : Diagramme</a></li>
+    <li><a href="#aufgabe-18--beschleunigung-aus-der-ruhe">Aufgabe 18 : Beschleunigung aus der Ruhe</a></li>
+    <li><a href="#aufgabe-19--beschleunigung">Aufgabe 19 : Beschleunigung</a></li>
+    <li><a href="#aufgabe-20--bewegungsanalyse">Aufgabe 20 : Bewegungsanalyse</a></li>
+    <li><a href="#aufgabe-21--bewegungsgesetze">Aufgabe 21 : Bewegungsgesetze</a></li>
+    <li><a href="#aufgabe-22--bremsweg-und-wegstrecke">Aufgabe 22 : Bremsweg und Wegstrecke</a></li>
+    <li><a href="#aufgabe-23--auswertung-eines-diagramms">Aufgabe 23 : Auswertung eines Diagramms</a></li>
+    <li><a href="#aufgabe-24--reaktionsweg-und-bremsweg">Aufgabe 24 : Reaktionsweg und Bremsweg</a></li>
+    <li><a href="#aufgabe-25--reaktionszeit">Aufgabe 25 : Reaktionszeit</a></li>
+    <li><a href="#aufgabe-26--aufprall">Aufgabe 26 : Aufprall</a></li>
+    <li><a href="#aufgabe-27--relative-bewegung">Aufgabe 27 : Relative Bewegung</a></li>
+    <li><a href="#aufgabe-28--relative-bewegung">Aufgabe 28 : Relative Bewegung</a></li>
+    <li><a href="#aufgabe-29--relative-bewegung">Aufgabe 29 : Relative Bewegung</a></li>
+    <li><a href="#aufgabe-30--verfolgung">Aufgabe 30 : Verfolgung</a></li>
+    <li><a href="#aufgabe-31--verfolgung">Aufgabe 31 : Verfolgung</a></li>
+    <li><a href="#aufgabe-32--bewegungsarten">Aufgabe 32 : Bewegungsarten</a></li>
+    <li><a href="#aufgabe-33--zusammenprall">Aufgabe 33 : Zusammenprall</a></li>
+    <li><a href="#aufgabe-34--verfolgen">Aufgabe 34 : Verfolgen</a></li>
+    <li><a href="#aufgabe-35--fallender-körper">Aufgabe 35 : Fallender Körper</a></li>
+    <li><a href="#aufgabe-36--erdbeschleunigung">Aufgabe 36 : Erdbeschleunigung</a></li>
+    <li><a href="#aufgabe-37--aufprallgeschwindigkeit">Aufgabe 37 : Aufprallgeschwindigkeit</a></li>
+    <li><a href="#aufgabe-38--freier-fall">Aufgabe 38 : Freier Fall</a></li>
+    <li><a href="#aufgabe-39--bestimmung-einer-tiefe">Aufgabe 39 : Bestimmung einer Tiefe</a></li>
+    <li><a href="#aufgabe-40--bestimmung-einer-höhe">Aufgabe 40 : Bestimmung einer Höhe</a></li>
+    <li><a href="#aufgabe-41--bewegungsgleichungen">Aufgabe 41 : Bewegungsgleichungen</a></li>
+    <li><a href="#aufgabe-42--bewegungsgleichungen">Aufgabe 42 : Bewegungsgleichungen</a></li>
+    <li><a href="#aufgabe-43--wurf">Aufgabe 43 : Wurf</a></li>
+    <li><a href="#aufgabe-44--fall">Aufgabe 44 : Fall</a></li>
+    <li><a href="#aufgabe-45--senkrechter-wurf">Aufgabe 45 : Senkrechter Wurf</a></li>
+    <li><a href="#aufgabe-46--waagerechte-wurf">Aufgabe 46 : Waagerechte Wurf</a></li>
+    <li><a href="#aufgabe-47--waagerechte-wurf">Aufgabe 47 : Waagerechte Wurf</a></li>
+    <li><a href="#aufgabe-48--waagerechte-wurf">Aufgabe 48 : Waagerechte Wurf</a></li>
+    <li><a href="#aufgabe-49--fall">Aufgabe 49 : Fall</a></li>
+    <li><a href="#aufgabe-50--projektil">Aufgabe 50 : Projektil</a></li>
+    <li><a href="#aufgabe-51--schräger-wurf">Aufgabe 51 : Schräger Wurf</a></li>
+    <li><a href="#aufgabe-52--zusammenprall">Aufgabe 52 : Zusammenprall</a></li>
+    <li><a href="#aufgabe-53--waagerechter-wurf">Aufgabe 53 : Waagerechter Wurf</a></li>
+    <li><a href="#aufgabe-54--senkrechter-wurf">Aufgabe 54 : Senkrechter Wurf</a></li>
+    <li><a href="#aufgabe-55--wurf">Aufgabe 55 : Wurf</a></li>
+    <li><a href="#aufgabe-56--waagerechter-wurf">Aufgabe 56 : Waagerechter Wurf</a></li>
+    <li><a href="#aufgabe-57--projektil">Aufgabe 57 : Projektil</a></li>
+    <li><a href="#aufgabe-58--relative-bewegungen">Aufgabe 58 : Relative Bewegungen</a></li>
+    <li><a href="#aufgabe-59--gleichungen">Aufgabe 59 : Gleichungen</a></li>
+    <li><a href="#aufgabe-60--sprung">Aufgabe 60 : Sprung</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="kinematik">Kinematik<a hidden class="anchor" aria-hidden="true" href="#kinematik">#</a></h1>
+<h2 id="aufgabe-1--gleichförmige-bewegung--fahrt-eines-wagens">Aufgabe 1 : Gleichförmige Bewegung — Fahrt eines Wagens<a hidden class="anchor" aria-hidden="true" href="#aufgabe-1--gleichförmige-bewegung--fahrt-eines-wagens">#</a></h2>
+<p>Ein Wagen durchfährt eine 1,6 $km$ lange Strecke in 24 $s$.</p>
+<ol>
+<li>Berechne die Geschwindigkeit in $\frac{m}{s}$, $\frac{km}{h}$ und $\frac{m}{min}$.</li>
+<li>Wie viele Minuten benötigt er bei dieser Geschwindigkeit um eine Strecke von 5250 $m$ zurückzulegen?</li>
+</ol>
+<h2 id="aufgabe-2--bahngeschwindigkeiten--erde-und-mond">Aufgabe 2 : Bahngeschwindigkeiten — Erde und Mond<a hidden class="anchor" aria-hidden="true" href="#aufgabe-2--bahngeschwindigkeiten--erde-und-mond">#</a></h2>
+<p>Berechne die Geschwindigkeiten in $\frac{m}{s}$ und in $\frac{km}{h}$, mit denen</p>
+<ol>
+<li>die Erde um die Sonne läuft.</li>
+<li>der Mond um die Erde läuft.</li>
+</ol>
+<h2 id="aufgabe-3--weg-zeit-analyse-diagramm-auswerten">Aufgabe 3 : Weg-Zeit-Analyse (Diagramm auswerten)<a hidden class="anchor" aria-hidden="true" href="#aufgabe-3--weg-zeit-analyse-diagramm-auswerten">#</a></h2>
+<p>Zu einer geradlinigen Bewegung gehört das folgende Weg-Zeit-Diagramm:</p>
+<ol>
+<li>Wie weit ist das Fahrzeug insgesamt gefahren?</li>
+<li>Wie lange stand das Fahrzeug?</li>
+<li>Berechne die Intervallgeschwindigkeiten!</li>
+<li>Zeichne das Geschwindigkeits-Zeit-Diagramm!</li>
+</ol>
+<h2 id="aufgabe-4--messwertanalyse--position-und-geschwindigkeit">Aufgabe 4 : Messwertanalyse — Position und Geschwindigkeit<a hidden class="anchor" aria-hidden="true" href="#aufgabe-4--messwertanalyse--position-und-geschwindigkeit">#</a></h2>
+<p>Die folgende Tabelle gibt die Position eines Fahrzeugs zu verschiedenen Zeitpunkten an. Zwischen den Punkten verläuft die Bewegung gleichförmig.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">$P_0$</th>
+          <th style="text-align: center">$P_1$</th>
+          <th style="text-align: center">$P_2$</th>
+          <th style="text-align: center">$P_3$</th>
+          <th style="text-align: center">$P_4$</th>
+          <th style="text-align: center">$P_5$</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">$t$ (s)</td>
+          <td style="text-align: center">0,0</td>
+          <td style="text-align: center">1,5</td>
+          <td style="text-align: center">4,5</td>
+          <td style="text-align: center">6,0</td>
+          <td style="text-align: center">9,0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">$s$ (m)</td>
+          <td style="text-align: center">4,0</td>
+          <td style="text-align: center">5,0</td>
+          <td style="text-align: center">6,0</td>
+          <td style="text-align: center">6,0</td>
+          <td style="text-align: center">3,0</td>
+      </tr>
+  </tbody>
+</table>
+<ol>
+<li>Zeichne das Weg-Zeit-Diagramm der Bewegung.</li>
+<li>Berechne die Wege und die Zeiten zwischen je zwei aufeinanderfolgenden Punkten und die zugehörigen Geschwindigkeiten.</li>
+<li>Stelle die Weg-Zeit-Gesetze für die fünf Wegabschnitte auf. Beachte die Vorzeichen.</li>
+</ol>
+<h2 id="aufgabe-5--durchschnittsgeschwindigkeit">Aufgabe 5 : Durchschnittsgeschwindigkeit<a hidden class="anchor" aria-hidden="true" href="#aufgabe-5--durchschnittsgeschwindigkeit">#</a></h2>
+<p>Bei einem Autorennen über einen Kurs von 8,5 $km$ erreicht ein Fahrer auf den ersten 8 Runden eine Durchschnittsgeschwindigkeit von 192 $\frac{km}{h}$. Die restlichen 4 Runden muss er wegen eines Schadens mit 171 $\frac{km}{h}$ im Durchschnitt fahren. Hat er den Streckenrekord von 180 $\frac{km}{h}$ für 12 Runden gebrochen?</p>
+<h2 id="aufgabe-6--vergleichsbewegung">Aufgabe 6 : Vergleichsbewegung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-6--vergleichsbewegung">#</a></h2>
+<p>Ein Lieferwagen fährt in 1,5 $h$ eine Strecke von 100 $km$. Dann steht er während 0,5 $h$. Anschließend fährt er während 60 $min$ mit einer konstanten Geschwindigkeit von 50 $\frac{km}{h}$. Er steht dann wieder während 30 min. Schließlich fährt er während 1,5 $h$ mit einer Geschwindigkeit von 80 $\frac{km}{h}$. Ein Auto startet 90 Minuten nach der Abfahrt des Lieferwagens am gleichen Ort und verfolgt diesen auf der gleichen Strecke. Das Auto fährt während 2 Stunden mit einer mittleren Geschwindigkeit von 87,5 $\frac{km}{h}$; dann steht es still.</p>
+<ol>
+<li>Fertige beide s-t-Diagramme auf der gleichen Graphik an!</li>
+<li>Bestimme mit Hilfe der Grafik, wo und wann sich der Lieferwagen und das Auto treffen!</li>
+</ol>
+<h2 id="aufgabe-7--relatives-bewegungsverhalten">Aufgabe 7 : Relatives Bewegungsverhalten<a hidden class="anchor" aria-hidden="true" href="#aufgabe-7--relatives-bewegungsverhalten">#</a></h2>
+<p>Bei einem Ruderrennen treten zwei Mannschaften (rot und blau) gegeneinander an. Durch unglückliche Umstände legt sich die rote Mannschaft erst 20 Sekunden nach der blauen starten. Um den Rückstand wieder wettzumachen, fährt die rote Mannschaft mit einer Durchschnittsgeschwindigkeit von 15 $\frac{km}{h}$, wobei die blaue Mannschaft nur mit 12 $\frac{km}{h}$ rudert.</p>
+<ol>
+<li>Stelle die Weg-Zeit-Gesetze der beiden Ruderboote auf!</li>
+<li>Bestimme aus den Weg-Zeit-Gesetzen den Zeitpunkt, an dem sich die Ruderboote treffen!</li>
+<li>Überprüfe die Ergebnisse grafisch!</li>
+</ol>
+<h2 id="aufgabe-8--durchschnittsgeschwindigkeit">Aufgabe 8 : Durchschnittsgeschwindigkeit<a hidden class="anchor" aria-hidden="true" href="#aufgabe-8--durchschnittsgeschwindigkeit">#</a></h2>
+<p>Zwei Radfahrende unternehmen eine Tour durch Ösling. Vor dem Start wird die hängige Strecke von insgesamt 50 $km$ genannt. Ein Fahrer erklärt: &ldquo;Da wir an den Ausgangspunkt zurückkehren, erzielen wir eine Durchschnittsgeschwindigkeit von 25 $\frac{km}{h}$. Also, wenn wir mit 5 $\frac{km}{h}$ bergauf fahren und mit 45 $\frac{km}{h}$ bergab, ist diese Aussage richtig?&rdquo; Begründe! Nach welcher Zeit sind sie zurück von ihrer Radtour? Wie groß ist die Durchschnittsgeschwindigkeit?</p>
+<h2 id="aufgabe-9--begegnungsproblem">Aufgabe 9 : Begegnungsproblem<a hidden class="anchor" aria-hidden="true" href="#aufgabe-9--begegnungsproblem">#</a></h2>
+<p>In $A$ startet um 9.00 Uhr ein LKW und fährt mit der Geschwindigkeit $v_1 = 50$ $\frac{km}{h}$ zum Kilometer 80 von $B$. 30 Minuten später startet ein zweiter LKW mit der Geschwindigkeit $v_2 = 78$ $\frac{km}{h}$ von $B$ aus nach $A$.</p>
+<ol>
+<li>Berechne Zeit und Ort der Begegnung der LKWs. Hinweis: Schreibe zunächst die Weg-Zeit-Gesetze der beiden LKWs.</li>
+<li>Zeichne das Weg-Zeit-Diagramm und löse die Aufgabe auch grafisch.</li>
+</ol>
+<h2 id="aufgabe-10--gleichmäßig-beschleunigte-bewegung">Aufgabe 10 : Gleichmäßig beschleunigte Bewegung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-10--gleichmäßig-beschleunigte-bewegung">#</a></h2>
+<p>Ein Bob hat, vereinfachend, vom Start an eine gleichbleibende Beschleunigung von 2,5 $\frac{m}{s^2}$. Berechne:</p>
+<ol>
+<li>Seine Geschwindigkeit 5 Sekunden nach dem Start;</li>
+<li>Den bis zu diesem Zeitpunkt zurückgelegten Weg;</li>
+<li>Die Zeit bis er 100 $m$ gefahren ist;</li>
+<li>Den zurückgelegten Weg, wenn seine Geschwindigkeit auf $20,\frac{m}{s}$ angewachsen ist.</li>
+</ol>
+<p>Zusatz: Zeichne das $v$-$t$-Diagramm der Bewegung.</p>
+<h2 id="aufgabe-11--fahrbahnversuch">Aufgabe 11 : Fahrbahnversuch<a hidden class="anchor" aria-hidden="true" href="#aufgabe-11--fahrbahnversuch">#</a></h2>
+<p>Folgende Tabelle zeigt die Messwerte eines Fahrbahnversuchs.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Mess.</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+          <th>7</th>
+          <th>8</th>
+          <th>9</th>
+          <th>10</th>
+          <th>11</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>t (s)</td>
+          <td>0,0</td>
+          <td>0,2</td>
+          <td>0,4</td>
+          <td>0,6</td>
+          <td>0,8</td>
+          <td>1,0</td>
+          <td>1,2</td>
+          <td>1,4</td>
+          <td>1,6</td>
+          <td>1,8</td>
+          <td>2,0</td>
+      </tr>
+      <tr>
+          <td>s (cm)</td>
+          <td>3,2</td>
+          <td>4,5</td>
+          <td>8,4</td>
+          <td>14,8</td>
+          <td>23,8</td>
+          <td>35,4</td>
+          <td>49,6</td>
+          <td>65,1</td>
+          <td>80,6</td>
+          <td>96,0</td>
+          <td>111,5</td>
+      </tr>
+  </tbody>
+</table>
+<ol>
+<li>Zeichne das Weg-Zeit-Diagramm der Bewegung!</li>
+<li>Berechne die Intervallgeschwindigkeiten und zeichne das zugehörige Geschwindigkeit-Zeit-Diagramm!</li>
+<li>Beschreibe diese Bewegung!</li>
+<li>Leite alle Bewegungsgesetze her!</li>
+</ol>
+<h2 id="aufgabe-12--geradlinige-beschleunigung">Aufgabe 12 : Geradlinige Beschleunigung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-12--geradlinige-beschleunigung">#</a></h2>
+<p>Zwei Autos $A$ und $B$ starten gemeinsam an einer roten Ampel. Ihre Bewegung ist aus der Ruhe geradlinig beschleunigt. Fahrer $A$ erreicht nach $t_A = 8 s$ eine Fahrgeschwindigkeit $v_A = 57,6 \frac{km}{h}$. Fahrer B nach $t_B = 15 s$ eine Geschwindigkeit $v_B = 86,4 \frac{km}{h}$.</p>
+<ol>
+<li>Welcher Fahrer hat die größere Anfahrbeschleunigung? Begründe die Antwort!</li>
+<li>Berechne welche Wege die Autofahrer dabei zurückgelegt haben!</li>
+</ol>
+<h2 id="aufgabe-13--geneigte-luftkissenbahn">Aufgabe 13 : Geneigte Luftkissenbahn<a hidden class="anchor" aria-hidden="true" href="#aufgabe-13--geneigte-luftkissenbahn">#</a></h2>
+<p>Auf einer geneigten Luftkissenbahn erreicht ein Gleiter nach einer Strecke von 50 $cm$ aus der Ruhe heraus eine Geschwindigkeit von 24 $\frac{cm}{s}$.</p>
+<ol>
+<li>Berechne die Beschleunigung und die Zeit, bis diese Geschwindigkeit erreicht wurde.</li>
+<li>Berechne die Zeit, die er für weitere 50 $cm$ braucht.</li>
+</ol>
+<h2 id="aufgabe-14--beschleunigung">Aufgabe 14 : Beschleunigung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-14--beschleunigung">#</a></h2>
+<p>Zu einer bestimmten Zeit $t_1 = 3,0 s$ bewegt sich ein Körper mit der Geschwindigkeit $v_1 = 2,6 \frac{m}{s}$ nach links; zur Zeit $t_2 = 8,0 s$ bewegt er sich mit einer Geschwindigkeit $v_2 = 1,5 \frac{m}{s}$ nach rechts. Berechne die mittlere Beschleunigung.</p>
+<h2 id="aufgabe-15--beschleunigung-und-verzögerung">Aufgabe 15 : Beschleunigung und Verzögerung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-15--beschleunigung-und-verzögerung">#</a></h2>
+<p>Ein Auto wird aus dem Stand in 10,2 $s$ auf eine Geschwindigkeit von 100 $\frac{km}{h}$ gleichförmig beschleunigt und dann nach einem Bremsweg von 96 $m$ wieder zum Stehen gebracht.</p>
+<ol>
+<li>Berechne die Beschleunigung!</li>
+<li>Bestimme den Weg beim Anfahren und die Zeit beim Bremsen!</li>
+</ol>
+<h2 id="aufgabe-16--beschleunigung-und-strecke">Aufgabe 16 : Beschleunigung und Strecke<a hidden class="anchor" aria-hidden="true" href="#aufgabe-16--beschleunigung-und-strecke">#</a></h2>
+<p>Die Geschwindigkeit eines Fahrzeugs wird bei einer Beschleunigung von $a = 2.5 \frac{m}{s^2}$ von $v_1 = 180 \frac{km}{h}$ auf $v_2 = 216 \frac{km}{h}$ gleichmäßig beschleunigt.</p>
+<ol>
+<li>Berechne die dabei zurückgelegte Strecke!</li>
+<li>Zeichne das $v$-$t$-Diagramm!</li>
+</ol>
+<h2 id="aufgabe-17--diagramme">Aufgabe 17 : Diagramme<a hidden class="anchor" aria-hidden="true" href="#aufgabe-17--diagramme">#</a></h2>
+<p>Ein Körper ist zum Zeitpunkt $t = 0 s$ in Ruhe. Nach 2 Sekunden beträgt seine Geschwindigkeit $v_1 = 1.5 \frac{m}{s}$, nach 4 Sekunden beträgt die Geschwindigkeit $v_2 = 3.0 \frac{m}{s}$.</p>
+<ol>
+<li>Zeichne das Geschwindigkeits-Zeit-Diagramm!</li>
+<li>Zeichne das Beschleunigungs-Zeit-Diagramm!</li>
+<li>Berechne die Fläche unter der $v$-Linie. Was stellt sie dar?</li>
+</ol>
+<h2 id="aufgabe-18--beschleunigung-aus-der-ruhe">Aufgabe 18 : Beschleunigung aus der Ruhe<a hidden class="anchor" aria-hidden="true" href="#aufgabe-18--beschleunigung-aus-der-ruhe">#</a></h2>
+<p>Ein Auto erhält aus der Ruhe gleichmäßig beschleunigt eine solche Beschleunigung, dass es nach $t = 16s$ einen Weg $s = 200 m$ zurücklegt.</p>
+<ol>
+<li>Berechne die Beschleunigung des Autos!</li>
+<li>Berechne die Endgeschwindigkeit in $\frac{km}{h}$!</li>
+</ol>
+<h2 id="aufgabe-19--beschleunigung">Aufgabe 19 : Beschleunigung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-19--beschleunigung">#</a></h2>
+<p>Ein PKW wird in 15 s von der Geschwindigkeit $90 \frac{km}{h}$ auf $126 \frac{km}{h}$ gleichmäßig beschleunigt.</p>
+<ol>
+<li>Berechne die Beschleunigung!</li>
+<li>Berechne den Gesamtweg der während der Beschleunigung zurückgelegt wird!</li>
+<li>Wie ändern sich Beschleunigung und Gesamtweg, wenn die Geschwindigkeitsänderung in der Hälfte der Zeit erreicht werden soll? Begründe die Antwort!</li>
+</ol>
+<h2 id="aufgabe-20--bewegungsanalyse">Aufgabe 20 : Bewegungsanalyse<a hidden class="anchor" aria-hidden="true" href="#aufgabe-20--bewegungsanalyse">#</a></h2>
+<p>Das Schema zeigt die Bewegung einer Kugel zwischen dem Startpunkt $A$ und dem Endpunkt $B$. Die Position der Kugel wurde in regelmäßigen Zeitintervallen eingetragen, das heißt zwischen zwei gezeigten Positionen der Kugel vergeht die gleiche Zeit.</p>
+<p>Welche Skizze der folgenden Geschwindigkeit-Zeit-Diagramme beschreibt am besten die Bewegung der Kugel? Erkläre!</p>
+<h2 id="aufgabe-21--bewegungsgesetze">Aufgabe 21 : Bewegungsgesetze<a hidden class="anchor" aria-hidden="true" href="#aufgabe-21--bewegungsgesetze">#</a></h2>
+<p>Ein Körper bewegt sich mit konstanter Beschleunigung $a_0 = -3,0 \frac{m}{s^2}$. Zu Beginn hat er die Ausgangslage $s_0 = 24 m$ und die Anfangsgeschwindigkeit $v_0 = 6 \frac{m}{s}$.</p>
+<ol>
+<li>Stelle die drei Bewegungsgleichungen auf!</li>
+<li>Bestimme Ort und Zeit, wenn sich die Bewegungsrichtung des Körpers umkehrt!</li>
+<li>Bestimme, wann er wieder die Ausgangslage erreicht!</li>
+<li>Zeichne das s-t-Diagramm, das v-t-Diagramm und das a-t-Diagramm.</li>
+</ol>
+<h2 id="aufgabe-22--bremsweg-und-wegstrecke">Aufgabe 22 : Bremsweg und Wegstrecke<a hidden class="anchor" aria-hidden="true" href="#aufgabe-22--bremsweg-und-wegstrecke">#</a></h2>
+<p>Eine U-Bahn legt zwischen zwei Stationen einen Weg von 3 km zurück. Berechne aus der mittleren Anfahr- und Bremsbeschleunigung $a = 0.6 \frac{m}{s^2}$ und der Höchstgeschwindigkeit $v_{\text{max}} = 90 \frac{km}{h}$ Anfahrweg, Bremsweg, Wegstrecke der gleichförmigen Bewegung und die einzelnen Fahrzeiten.</p>
+<h2 id="aufgabe-23--auswertung-eines-diagramms">Aufgabe 23 : Auswertung eines Diagramms<a hidden class="anchor" aria-hidden="true" href="#aufgabe-23--auswertung-eines-diagramms">#</a></h2>
+<p>Zu einer geradlinigen Bewegung gehört das Geschwindigkeit-Zeit-Diagramm der folgenden Abbildung:</p>
+<ol>
+<li>Berechne die Beschleunigungen in den drei Abschnitten und zeichne das zugehörige Beschleunigung-Zeit-Diagramm!</li>
+<li>Stelle die Geschwindigkeit-Zeit-Gesetze für die drei Abschnitte auf!</li>
+<li>Berechne die in den Abschnitten zurückgelegten Wege und den Gesamtweg!</li>
+</ol>
+<h2 id="aufgabe-24--reaktionsweg-und-bremsweg">Aufgabe 24 : Reaktionsweg und Bremsweg<a hidden class="anchor" aria-hidden="true" href="#aufgabe-24--reaktionsweg-und-bremsweg">#</a></h2>
+<p>Ein Autofahrer muss bei plötzlicher Gefahr sein Fahrzeug abbremser. Bis zur Betätigung der Bremsen vergeht eine Reaktionszeit von 1 $s$. Ermittle mit den Werten aus dem v-t-Diagramm:</p>
+<ol>
+<li>Die Fahrgeschwindigkeit,</li>
+<li>Die Strecke $s_1$, die er in der Reaktionszeit durchfährt,</li>
+<li>Die Bremsverzögerung $a$ und den Bremsweg $s_2$.</li>
+<li>Erkläre, wie sich die Wegstrecken $s_1$ und $s_2$ bei gleicher Verzögerung, jedoch zweifacher Fahrgeschwindigkeit verändern.</li>
+</ol>
+<h2 id="aufgabe-25--reaktionszeit">Aufgabe 25 : Reaktionszeit<a hidden class="anchor" aria-hidden="true" href="#aufgabe-25--reaktionszeit">#</a></h2>
+<p>Bei einer Geschwindigkeit von 108 $\frac{km}{h}$ erblickt ein Autofahrer in 70 $m$ Entfernung ein Hindernis. Nach einer Schrecksekunde führt er eine Vollbremsung aus und erreicht dabei eine Verzögerung von $a = -4 \frac{m}{s^2}$.</p>
+<ol>
+<li>Berechne mit welcher Geschwindigkeit der Wagen noch auf das Hindernis prallt!</li>
+<li>Berechne welche Verzögerung notwendig gewesen wäre, um den Wagen dicht vor dem Hindernis zum Stillstand zu bekommen!</li>
+</ol>
+<h2 id="aufgabe-26--aufprall">Aufgabe 26 : Aufprall<a hidden class="anchor" aria-hidden="true" href="#aufgabe-26--aufprall">#</a></h2>
+<p>Dargestellt ist ein Beispiel des Deutschen Verkehrssicherheitsrates zur Richtgeschwindigkeit 130 $\frac{km}{h}$. Auf der Autobahn wird in 150 m Entfernung ein Hindernis entdeckt. Zeige, dass bei einer Reaktionszeit von 1 $s$ und einer Bremsverzögerung von $-6 \frac{m}{s^2}$:</p>
+<ol>
+<li>bei Tempo 130 $\frac{km}{h}$ der Anhalteweg $s$ ausreicht;</li>
+<li>es bei Tempo 150 $\frac{km}{h}$ zu einem Aufprall mit einer Aufprallgeschwindigkeit von ungefähr 75 $\frac{km}{h}$ kommt.</li>
+</ol>
+<h2 id="aufgabe-27--relative-bewegung">Aufgabe 27 : Relative Bewegung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-27--relative-bewegung">#</a></h2>
+<p>Ein geparktes Auto beschleunigt innerorts mit $2,0 \frac{m}{s^2}$ auf eine Geschwindigkeit von $40 \frac{km}{h}$.</p>
+<ol>
+<li>Berechne, wie lange der Vorgang dauert und welche Strecke das Auto dabei zurücklegt!</li>
+</ol>
+<p>Die Geschwindigkeit behält der Fahrer nun bei. Plötzlich fällt 20 m vor ihm eine Kiste von einem Transporter auf die Fahrbahn. Der Fahrer macht nach einer Reaktionszeit von einer Sekunde eine Vollbremsung mit einer Verzögerung von $4,5 \frac{m}{s^2}$.</p>
+<ol start="2">
+<li>Bestimme, ob er noch vor der Kiste zum Stehen kommt!</li>
+<li>Bestimme, wie hoch seine Geschwindigkeit sein müsste, damit er gerade noch vor der Kiste zum Stehen kommt!</li>
+</ol>
+<h2 id="aufgabe-28--relative-bewegung">Aufgabe 28 : Relative Bewegung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-28--relative-bewegung">#</a></h2>
+<p>In dem Moment, in dem ein Auto anfährt, erkennt der Fahrer auf dem Radweg 10 m hinter sich einen Radfahrer, der mit der konstanten Geschwindigkeit von $20 \frac{km}{h}$ in gleicher Richtung fährt. Das Auto beschleunigt mit $1,5 \frac{m}{s^2}$.</p>
+<ol>
+<li>Bestimme nach welcher Strecke der Radfahrer das Auto überholt und umkehrt!</li>
+<li>Skizziere das Weg-Zeit-Diagramm und das Geschwindigkeit-Zeit-Diagramm beider Fahrer auf der jeweils gleichen Grafik.</li>
+</ol>
+<h2 id="aufgabe-29--relative-bewegung">Aufgabe 29 : Relative Bewegung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-29--relative-bewegung">#</a></h2>
+<p>Ein Auto mit einer Länge von $4m$ fährt auf der Landstraße in $50m$ Abstand hinter einem Lastzug von $17m$ Länge her. Bestimme mithilfe des unten abgebildeten $v-t$-Diagramms die Beschleunigung während des Überholvorgangs und die für den Überholvorgang benötigte Zeit, wenn das Auto $50m$ vor dem Lastzug wieder rechts einordnet!</p>
+<h2 id="aufgabe-30--verfolgung">Aufgabe 30 : Verfolgung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-30--verfolgung">#</a></h2>
+<p>Ein Autofahrer fährt mit konstanter Geschwindigkeit von 120 $\frac{km}{h}$ auf einer geraden Strecke wo die
+Geschwindigkeit auf 90 $\frac{km}{h}$ begrenzt ist. Ein Polizist auf seinem Motorrad startet zwei Sekunden
+nachdem der Autofahrer vorbeigefahren ist um die Verfolgung aufzunehmen. Die Bewegung des Motorrads
+ist geradlinig gleichförmig beschleunigt, so dass es in 10$s$ aus dem Stand 100 $\frac{km}{h}$ erreicht.</p>
+<ol>
+<li>Berechne die Dauer der Verfolgung!</li>
+<li>Berechne die während der Verfolgung zurückgelegte Strecke!</li>
+<li>Berechne nach welcher Zeit und welcher Strecke das Motorrad die Geschwindigkeit des Autofahrers
+erreicht. Berechne dann die Entfernung zwischen dem Auto und dem Polizisten!</li>
+<li>Berechne die Geschwindigkeit des Motorrads, wenn es das Auto einholt!</li>
+<li>Interpretiere die Ergebnisse grafisch mithilfe eines s-t-Diagramms!</li>
+</ol>
+<h2 id="aufgabe-31--verfolgung">Aufgabe 31 : Verfolgung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-31--verfolgung">#</a></h2>
+<p>Auf dem Bahnsteig eines Bahnhofes läuft ein verspäteter Reisender mit einer Geschwindigkeit von 8 $\frac{m}{s}$ einem Zug hinterher. Als der Reisende in einer Entfernung $d$ vom Zug ist, beschleunigt der Zug aus dem Stand mit einer konstanten Beschleunigung von 0,5 $\frac{m}{s^2}$.</p>
+<ol>
+<li>Zeige, dass der Reisende den Zug nicht einholt wenn $d = 100$ m.</li>
+<li>Berechne den Zeitpunkt zu dem der Reisende den Zug einholt, wenn $d = 40m$.</li>
+<li>Fertige ein $s$-$t$-Diagramm auf dem du den Treffpunkt einzeichnest.</li>
+</ol>
+<h2 id="aufgabe-32--bewegungsarten">Aufgabe 32 : Bewegungsarten<a hidden class="anchor" aria-hidden="true" href="#aufgabe-32--bewegungsarten">#</a></h2>
+<p>Vor einem Zug, der mit einer Geschwindigkeit $v_1 = 120$ $\frac{km}{h}$ dahinfährt, taucht plötzlich aus dem Nebel in 1 $km$ Entfernung ein Güterzug, der in derselben Richtung mit $v_2 = 40$ $\frac{km}{h}$ fährt. Der Zug bremst mit konstanter Beschleunigung, sodass sein Bremsweg 4 $km$ beträgt.</p>
+<ol>
+<li>Berechne die Dauer des Bremsvorgangs!</li>
+<li>Berechne mit Hilfe der Lösung aus 1., ob es zu einem Zusammenstoß kommt!</li>
+<li>Bestimme mit Hilfe der Bewegungsgesetze den Ort und den Zeitpunkt des Zusammenpralls!</li>
+<li>Skizziere ein s-t-Diagramm der Bewegung der beiden Züge und trage den Zusammenprall ein!</li>
+</ol>
+<h2 id="aufgabe-33--zusammenprall">Aufgabe 33 : Zusammenprall<a hidden class="anchor" aria-hidden="true" href="#aufgabe-33--zusammenprall">#</a></h2>
+<p>Auf einer zweispurigen Landstraße bewegen sich zwei Autos $A$ und $B$ aufeinander zu, dabei beträgt $v_A = 108$ $\frac{km}{h}$ und $v_B = 90$ $\frac{km}{h}$. Die Entfernung zwischen beiden Autos beträgt 150 $m$, als sich sehen. Das Auto $A$ bremst mit einer betragsmäßigen Beschleunigung von $a_A = 6$ $\frac{m}{s^2}$, die von Auto $B$ beträgt $a_B = 5$ $\frac{m}{s^2}$.</p>
+<ol>
+<li>Zeige rechnerisch, dass ein Unfall stattfindet!</li>
+<li>Berechne, welche Zeit nachdem die Fahrer gesehen haben, der Unfall stattfindet!</li>
+<li>Berechne die Geschwindigkeit der beiden Autos beim Zusammenprall!</li>
+</ol>
+<h2 id="aufgabe-34--verfolgen">Aufgabe 34 : Verfolgen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-34--verfolgen">#</a></h2>
+<p>Ein Auto $A$ fährt mit konstanter Geschwindigkeit von 70 $\frac{km}{h}$ eine Landstraße entlang. Als er sich in einer Entfernung $d$ befindet, fährt ein Auto $B$ in gleiche Richtung auf die Landstraße ein. Auto $B$ beschleunigt aus dem Stand in 10 Sekunden auf eine Geschwindigkeit von 90 $\frac{km}{h}$.</p>
+<ol>
+<li>Berechne, wie viel die Entfernung $d$ mindestens sein muss, damit Auto $A$ das Auto $B$ einholt (Grenzfall).</li>
+<li>Berechne, wie viel Zeit vergeht, bis Auto $A$ das Auto $B$ einholt (Grenzfall).</li>
+<li>Skizzieren ein $s$-$t$-Diagramm für die Bewegung beider Fahrzeuge auf der gleichen Grafik.</li>
+<li>Berechne, welche Beschleunigung Auto $B$ haben müsste, damit es zu keinem Unfall kommt, wenn $d = 50$ m beträgt.</li>
+</ol>
+<h2 id="aufgabe-35--fallender-körper">Aufgabe 35 : Fallender Körper<a hidden class="anchor" aria-hidden="true" href="#aufgabe-35--fallender-körper">#</a></h2>
+<p>Ein Körper fällt aus einer Höhe von 130 $m$ frei, ohne Luftwiderstand, herab.</p>
+<ol>
+<li>Berechne die Fallstrecke und die Geschwindigkeit nach 2 beziehungsweise 4 Sekunden.</li>
+<li>Bestimme nach welcher Zeit und mit welcher Geschwindigkeit er auf den Boden trifft.</li>
+</ol>
+<h2 id="aufgabe-36--erdbeschleunigung">Aufgabe 36 : Erdbeschleunigung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-36--erdbeschleunigung">#</a></h2>
+<p>Zur Bestimmung der Erdbeschleunigung wird mehrmals ein Stein von einem 19,85 $m$ hohen Turm herabfallen gelassen und mit verschiedenen Stoppuhren jeweils die Fallzeit bestimmt.</p>
+<ol>
+<li>Bestimme die Fallbeschleunigung aus dem Mittel von neun Zeitmessungen:</li>
+</ol>
+<table>
+  <thead>
+      <tr>
+          <th>Messung</th>
+          <th>Zeit (s)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>2,00</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>2,04</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>1,99</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>2,02</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>2,06</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>1,96</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>2,01</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>2,07</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>2,00</td>
+      </tr>
+  </tbody>
+</table>
+<ol start="2">
+<li>Berechne die relative Abweichung, in Prozent, zum Referenzwert in Mitteleuropa.</li>
+</ol>
+<h2 id="aufgabe-37--aufprallgeschwindigkeit">Aufgabe 37 : Aufprallgeschwindigkeit<a hidden class="anchor" aria-hidden="true" href="#aufgabe-37--aufprallgeschwindigkeit">#</a></h2>
+<p>Ein Hammer wird auf der Erde aus einer gewissen Höhe auf den Boden fallen gelassen. Nach $1,3 s$ trifft er auf den Boden.</p>
+<ol>
+<li>Berechne die Fallhöhe und die Geschwindigkeit beim Aufprall.</li>
+<li>Der Versuch wird auf dem Mond ($g = 1,62 \frac{m}{s^2}$), aus gleicher Höhe wiederholt. Berechne die Zeit bis zum Aufprall und die Aufprallgeschwindigkeit.</li>
+</ol>
+<h2 id="aufgabe-38--freier-fall">Aufgabe 38 : Freier Fall<a hidden class="anchor" aria-hidden="true" href="#aufgabe-38--freier-fall">#</a></h2>
+<p>Angenommen ein Fallschirmspringer fällt ohne Luftwiderstand nach unten.</p>
+<ol>
+<li>Berechne die Geschwindigkeit, die er nach 2 $km$ Fall erreichen würde!</li>
+<li>Vergleiche die wirkliche Geschwindigkeit mit dem unter 1. berechneten Wert! Erkläre!</li>
+<li>Skizzieren Sie das $v$-$t$-Diagramm und das $s$-$t$-Diagramm für einen vollständigen Fallschirmsprung (unter Berücksichtigung des Luftwiderstandes).</li>
+</ol>
+<h2 id="aufgabe-39--bestimmung-einer-tiefe">Aufgabe 39 : Bestimmung einer Tiefe<a hidden class="anchor" aria-hidden="true" href="#aufgabe-39--bestimmung-einer-tiefe">#</a></h2>
+<p>Um die Tiefe eines Brunnens zu bestimmen, lässt man einen Stein hineinfallen. Nach einer Zeit von $5,6 s$ hört man den Aufschlag des Steins.</p>
+<ol>
+<li>Berechne die Tiefe des Brunnens, wenn die Laufzeit des Schalls vernachlässigt wird.</li>
+<li>Berechne die Tiefe des Brunnens unter Berücksichtigung einer Schallgeschwindigkeit von 340 $\frac{m}{s}$.</li>
+</ol>
+<h2 id="aufgabe-40--bestimmung-einer-höhe">Aufgabe 40 : Bestimmung einer Höhe<a hidden class="anchor" aria-hidden="true" href="#aufgabe-40--bestimmung-einer-höhe">#</a></h2>
+<p>Von der Spitze eines Turms wird ein Stein fallen gelassen. Nach 4 Sekunden sieht ein Beobachter ihn auf dem Erdboden auftreffen.</p>
+<ol>
+<li>die Höhe des Turms;</li>
+<li>die Geschwindigkeit, mit welcher der Stein auf dem Erdboden auftrifft;</li>
+<li>die Zeit für die erste Hälfte des Fallweges;</li>
+<li>die Zeit (seit dem Loslassen), nach der man den Stein aufschlagen hört (Schallgeschwindigkeit 320 $\frac{m}{s}$).</li>
+</ol>
+<h2 id="aufgabe-41--bewegungsgleichungen">Aufgabe 41 : Bewegungsgleichungen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-41--bewegungsgleichungen">#</a></h2>
+<p>Ein Körper wird mit der Geschwindigkeit $v_0 = 18 , \frac{m}{s}$ senkrecht nach oben geworfen (der Luftwiderstand wird vernachlässigt).</p>
+<ol>
+<li>Stelle die speziellen Bewegungsgleichungen auf!</li>
+<li>Berechne die Wurfhöhe, die Wurfzeit und die Zeit bis zum Erreichen des höchsten Punktes der Bahn!</li>
+</ol>
+<h2 id="aufgabe-42--bewegungsgleichungen">Aufgabe 42 : Bewegungsgleichungen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-42--bewegungsgleichungen">#</a></h2>
+<ol>
+<li>Welches der dargestellten Kurven zeigt das Geschwindigkeit-Zeit-Diagramm eines Steines der zur Zeit $t = 0s$ senkrecht in die Höhe geworfen wird und zur Zeit $t_e$ wieder den Boden erreicht? Begründe die Antwort!</li>
+<li>Beschreibe die Bewegungen in den beiden anderen Diagrammen!</li>
+</ol>
+<h2 id="aufgabe-43--wurf">Aufgabe 43 : Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-43--wurf">#</a></h2>
+<p>Ein Körper wird mit einer Abwurfgeschwindigkeit von $40 \frac{m}{s}$ vom Boden aus senkrecht nach oben geworfen.</p>
+<ol>
+<li>Berechne seine Geschwindigkeit nach der 1ten, 2ten, 3ter Sekunde.</li>
+<li>Zeichne das entsprechende $v-t$-Diagramm!</li>
+<li>Berechne die Wurfhöhe.</li>
+<li>Berechne die Zeit, vom Zeitpunkt des Abwurfs aus gerechnet, nach welcher der Körper den Erdboden erreicht.</li>
+</ol>
+<h2 id="aufgabe-44--fall">Aufgabe 44 : Fall<a hidden class="anchor" aria-hidden="true" href="#aufgabe-44--fall">#</a></h2>
+<p>Eine Melone wird aus einem Hubschrauber aus einer Höhe von $150m$ mit einer Anfangsgeschwindigkeit von $40 \frac{km}{h}$ senkrecht nach unten geschossen.</p>
+<ol>
+<li>Berechne die Zeit, nach der die Melone auf dem Boden auftrifft!</li>
+<li>Berechne die Aufschlaggeschwindigkeit!</li>
+</ol>
+<h2 id="aufgabe-45--senkrechter-wurf">Aufgabe 45 : Senkrechter Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-45--senkrechter-wurf">#</a></h2>
+<p>Eine Wasserfontäne soll einen Wasserstrahl $34m$ hoch spritzen. Der Querschnitt des Wasserrohres beträgt $7cm^2$.</p>
+<ol>
+<li>Berechne mit welcher mittleren Geschwindigkeit das Wasser dem Rohr entströmt!</li>
+<li>Berechne welches Volumen Wasser dafür in einer Minute benötigt wird!</li>
+</ol>
+<h2 id="aufgabe-46--waagerechte-wurf">Aufgabe 46 : Waagerechte Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-46--waagerechte-wurf">#</a></h2>
+<p>Eine Kugel rollt mit einer Geschwindigkeit von 3 $\frac{m}{s}$ über das Ende einer 1 $m$ hohen Tischplatte.</p>
+<ol>
+<li>Berechne die Zeit, nach welcher die Kugel auf dem Boden aufschlägt.</li>
+<li>Berechne in welcher Entfernung zur Tischkante die Kugel aufschlägt.</li>
+</ol>
+<h2 id="aufgabe-47--waagerechte-wurf">Aufgabe 47 : Waagerechte Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-47--waagerechte-wurf">#</a></h2>
+<p>Berechne, welche Geschwindigkeit ein Tennisball haben muss, der waagerecht über das Netz fliegt und die Grundlinie berühren soll. Die Netzhöhe beträgt 0,915 $m$, die Entfernung Netz-Grundlinie beträgt 11,9 $m$.</p>
+<h2 id="aufgabe-48--waagerechte-wurf">Aufgabe 48 : Waagerechte Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-48--waagerechte-wurf">#</a></h2>
+<p>Ein Gewehrschütze schießt waagerecht auf ein 150 $m$ entferntes Ziel. Die Mündungsgeschwindigkeit der Gewehrkugel beträgt 820 $\frac{m}{s}$. Berechne um wie viel der Schütze das anvisierte Ziel verfehlen wird.</p>
+<h2 id="aufgabe-49--fall">Aufgabe 49 : Fall<a hidden class="anchor" aria-hidden="true" href="#aufgabe-49--fall">#</a></h2>
+<p>Eine Kugel wird aus einer Fallhöhe $h$ fallen gelassen und landet wie auf dem Bild angegeben.</p>
+<ol>
+<li>Berechne die Fallhöhe $h$, damit die Kugel wie angegeben landet.</li>
+<li>Berechne die Länge des horizontalen Schlauchstücks, wenn die Kugel für den gesamten Weg 0,9 $s$ benötigt.</li>
+<li>Berechne die Geschwindigkeit der Kugel kurz vor dem Aufprall auf den Boden.</li>
+</ol>
+<h2 id="aufgabe-50--projektil">Aufgabe 50 : Projektil<a hidden class="anchor" aria-hidden="true" href="#aufgabe-50--projektil">#</a></h2>
+<p>Ein Projektil wird waagerecht mit einer Geschwindigkeit von 5 $\frac{m}{s}$ beziehungsweise 10 $\frac{m}{s}$ abgeschossen.</p>
+<ol>
+<li>Berechne jeweils die Wurfweite und die Fallwege nach $t = 0,1$ s, $t = 0,5$ s, $t = 1,0$ s, $t = 1,5$ s, $t = 2,0$ s.</li>
+<li>Zeichne jeweils die Bahnkurve!</li>
+</ol>
+<h2 id="aufgabe-51--schräger-wurf">Aufgabe 51 : Schräger Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-51--schräger-wurf">#</a></h2>
+<p>Ein Stein wird mit der Geschwindigkeit $v_0 = 20 \frac{m}{s}$ horizontal aus der Höhe $h$ abgeworfen. Er erreicht in der Horizontalen eine Wurfweite von $x_E = 40m$.</p>
+<ol>
+<li>Berechne die Abwurfhöhe und die Flugzeit!</li>
+<li>Bestimme die Geschwindigkeit kurz vor dem Aufprall und den Winkel zur Horizontalen, unter welchem der Stein auf den Boden trifft!</li>
+</ol>
+<h2 id="aufgabe-52--zusammenprall">Aufgabe 52 : Zusammenprall<a hidden class="anchor" aria-hidden="true" href="#aufgabe-52--zusammenprall">#</a></h2>
+<p>Eine Kugel $A$ mit einer Masse von $50 g$ wird horizontal, in einer Höhe von $1,5 m$ über der Erde, mit einer Geschwindigkeit $v_0$ abgeschossen. Eine andere Kugel $B$ mit einer Masse von $150 g$ wird zur gleichen Zeit aus der gleichen Höhe und 3 $m$ von der Abschussmechanik der ersten Kugel fallen gelassen.</p>
+<ol>
+<li>Fertige eine Skizze der Aufgabenbeschreibung an.</li>
+<li>Berechne die Anfangsgeschwindigkeit $v_0$ der Kugel $A$, damit sich beide Kugeln auf einer Höhe von $0,5 m$ über dem Boden treffen.</li>
+<li>Berechne die Geschwindigkeit der beiden Kugeln beim Zusammentreffen unter der Berücksichtigung der Ergebnisse bei 2. .</li>
+<li>Berechne die minimale Anfangsgeschwindigkeit $v_{0,\text{min}}$, damit die beiden Kugeln überhaupt treffen, bevor sie auf den Boden auftreffen.</li>
+<li>Wie verändern sich die Ergebnisse, wenn die Massen der Kugeln verdoppelt werden? Erkläre!</li>
+<li>Wie verändern sich die Ergebnisse, wenn die Anfangshöhe der zweiten Kugel verdoppelt wird (die Höhe der ersten Kugel bleibt unverändert)? Erkläre!</li>
+</ol>
+<h2 id="aufgabe-53--waagerechter-wurf">Aufgabe 53 : Waagerechter Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-53--waagerechter-wurf">#</a></h2>
+<p>Ein Wasserstrahl, der unter einem Winkel von $40^{\circ}$ zur Horizontalen die Düse eines Gartenschlauchs verlässt, erreicht in $30 m$ Entfernung eine Hecke in gleicher Höhe wie die Düse. Der Luftwiderstand wird vernachlässigt.</p>
+<ol>
+<li>Berechne die Geschwindigkeit des Wasserstrahls beim Verlassen der Düse!</li>
+<li>Berechne die Gipfelhöhe des Wasserstrahls!</li>
+<li>Berechne die Flugzeit eines Wassertropfens!</li>
+</ol>
+<h2 id="aufgabe-54--senkrechter-wurf">Aufgabe 54 : Senkrechter Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-54--senkrechter-wurf">#</a></h2>
+<p>Ein Stein wird unter einem Winkel von $45^{\circ}$ mit einer Geschwindigkeit von 10 $\frac{m}{s}$ nach oben abgeworfen. Berechne:</p>
+<ol>
+<li>Die Komponenten der Anfangsgeschwindigkeit nach vorn und senkrecht nach oben;</li>
+<li>Die Steighöhe;</li>
+<li>Die Steigzeit und die Fallzeit (Schlussfolgerung);</li>
+<li>Die Wurfweite.</li>
+</ol>
+<h2 id="aufgabe-55--wurf">Aufgabe 55 : Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-55--wurf">#</a></h2>
+<p>Ein Stein wird mit einer Abwurfgeschwindigkeit von 20 $\frac{m}{s}$ unter einem Winkel von 75$^{\circ}$, 45$^{\circ}$ und 30$^{\circ}$ schräg nach oben geworfen. Er trifft auf der gleichen Höhe wieder auf.</p>
+<ol>
+<li>Berechne jeweils die Wurfweite!</li>
+<li>Berechne jeweils die Steighöhe!</li>
+<li>Berechne die Geschwindigkeit des Steins am höchsten Punkt und kurz vor dem Einschlag!</li>
+</ol>
+<h2 id="aufgabe-56--waagerechter-wurf">Aufgabe 56 : Waagerechter Wurf<a hidden class="anchor" aria-hidden="true" href="#aufgabe-56--waagerechter-wurf">#</a></h2>
+<p>Die Kugeln eines Gewehrs verlassen die Mündung mit einer Geschwindigkeit von 450 $\frac{m}{s}$. Soll eine Kugel ein Ziel treffen, das sich in 100 m Entfernung auf der Höhe der Mündung befindet, so muss der Schütze auf einen Punkt zielen, der höher liegt als das Ziel. Berechne, wie viel höher als das Ziel dieser Punkt ist!</p>
+<h2 id="aufgabe-57--projektil">Aufgabe 57 : Projektil<a hidden class="anchor" aria-hidden="true" href="#aufgabe-57--projektil">#</a></h2>
+<p>Ein Projektil wird von einem 200 $m$ hohen Steilufer aus abgeschossen. Die Anfangsgeschwindigkeit beträgt 60 $\frac{m}{s}$, und die Abschussrichtung ist 60$^{\circ}$ zur Horizontalen geneigt. Berechne die Reichweite, wenn der Luftwiderstand unbeachtet bleibt.</p>
+<h2 id="aufgabe-58--relative-bewegungen">Aufgabe 58 : Relative Bewegungen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-58--relative-bewegungen">#</a></h2>
+<p>Ein Wildhüter möchte mit einem Betäubungsgewehr einen Affen am Ast eines Baumes hängen. Er zielt genau auf den Affen, ohne zu beachten, dass der abgeschossene Pfeil eine Parabel durchläuft und deshalb unter dem Affen vorbeifliegen wird. Der Affe sieht jedoch, wie der Pfeil vorbeifliegt, und lässt sich fallen, in Erwartung, so dem Pfeil zu entgehen.</p>
+<p>Zeige, dass der Affe unabhängig von der Anfangsgeschwindigkeit des Pfeils getroffen wird, solange folgende Voraussetzungen erfüllt sind: Die Anfangsgeschwindigkeit des Pfeils ist so groß, dass er die Entfernung bis zum Baum zurücklegt, bevor er auf die Erde fällt; der Affe lässt sich in dem Augenblick fallen, in dem der Pfeil abgeschossen wird.</p>
+<h2 id="aufgabe-59--gleichungen">Aufgabe 59 : Gleichungen<a hidden class="anchor" aria-hidden="true" href="#aufgabe-59--gleichungen">#</a></h2>
+<p>Ein Körper wird von einer Klippe der Höhe $h$ mit der Geschwindigkeit $v_0$ unter dem Winkel $\alpha$ (von der Horizontalen nach unten) abgeschossen.</p>
+<p>Stelle die Gleichungen auf, die die Bewegung in horizontaler und vertikaler Richtung beschreiben, und ermittle die Gleichung der Wurfparabel.</p>
+<h2 id="aufgabe-60--sprung">Aufgabe 60 : Sprung<a hidden class="anchor" aria-hidden="true" href="#aufgabe-60--sprung">#</a></h2>
+<p>Ein Motorrad fährt mit der Geschwindigkeit $v_0$ auf eine unter dem Winkel $\alpha$ gegen den Horizont ansteigende Rampe mit der Breite $b$ und landet auf der gegenüberliegenden Seite des Grabens, das um die Höhe $h$ höher gelegen ist.</p>
+<ol>
+<li>Bestimme bei gegebener Endgeschwindigkeit $v_0 = 50 \frac{km}{h}$ und Breite $b = 5,0m$ die obere Grenze für die Höhe $h$, bei der das Motorrad den Graben noch überspringen kann.</li>
+<li>Berechne, wie groß die Geschwindigkeit $v_0$ mindestens sein muss, wenn die Höhe $h = 1,0m$ beim Winkel $\alpha = 20^\circ$ und der Breite $b = 5,0m$ erreicht werden soll.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/physik/">Physik</a></li>
+      <li><a href="http://localhost:1313/tags/kinematik/">Kinematik</a></li>
+      <li><a href="http://localhost:1313/tags/w%C3%BCrfe/">Würfe</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/physik/mechanics/de/dynamik/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Dynamik</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/physik/mechanics/de/auftrieb/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Auftrieb</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

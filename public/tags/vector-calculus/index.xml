@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vector Calculus on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/vector-calculus/</link>
+    <link>http://localhost:1313/tags/vector-calculus/</link>
     <description>Recent content in Vector Calculus on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 11:24:52 +0100</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/vector-calculus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vector-calculus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surface Integrals, Divergence, Curl and Potential</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</link>
       <pubDate>Thu, 08 Jan 2026 11:24:52 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/surface-integrals-divergence-curl-and-potential/</guid>
       <description>&lt;h1 id=&#34;surface-integrals-divergence-curl-and-potential&#34;&gt;Surface Integrals, Divergence, Curl and Potential&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--coordinate-planes&#34;&gt;Exercise 1 : Coordinate Planes&lt;/h2&gt;
 &lt;p&gt;Given three squares with an area of 4 units each. They are placed:&lt;/p&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>Theory of Vector Fields</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/theory-of-vector-fields/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/</link>
       <pubDate>Fri, 19 Dec 2025 23:06:37 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/theory-of-vector-fields/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/theory-of-vector-fields/</guid>
       <description>&lt;h1 id=&#34;theory-of-vector-fields&#34;&gt;Theory of Vector Fields&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--basic-operations-on-vector-fields&#34;&gt;Exercise 1 : Basic Operations on Vector Fields&lt;/h2&gt;
 &lt;p&gt;Given the vector fields:&lt;/p&gt;
@@ -56,9 +56,9 @@
     </item>
     <item>
       <title>Vector Algebra</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/vector-algebra/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</link>
       <pubDate>Fri, 19 Dec 2025 18:12:08 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/vector-algebra/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/vector-algebra/</guid>
       <description>&lt;h1 id=&#34;vector-algebra&#34;&gt;Vector Algebra&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--distributivity-of-dot-and-cross&#34;&gt;Exercise 1 : Distributivity of Dot and Cross&lt;/h2&gt;
 &lt;p&gt;Prove that the dot and cross products are distributive, using definitions and diagrams:&lt;/p&gt;
@@ -77,9 +77,9 @@ $A \times (B \times C) = B,(A \cdot C) - C,(A \cdot B)$ (the &lt;em&gt;BAC-CAB&l
     </item>
     <item>
       <title>Line, Volume and Surface Integrals</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</link>
       <pubDate>Thu, 18 Dec 2025 15:08:39 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/line-volume-and-surface-integrals/</guid>
       <description>&lt;h1 id=&#34;line-volume-and-surface-integrals&#34;&gt;Line, Volume and Surface Integrals&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--basic-line-integral&#34;&gt;Exercise 1 : Basic Line Integral&lt;/h2&gt;
 &lt;p&gt;For $\mathbf{v} = x^2,\hat{\mathbf{x}} + 2yz,\hat{\mathbf{y}} + y^2,\hat{\mathbf{z}}$, compute $\int_C \mathbf{v} \cdot d\mathbf{l}$ from $(0,0,0)$ to $(1,1,1)$ along:&lt;/p&gt;
@@ -96,9 +96,9 @@ for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.
     </item>
     <item>
       <title>Dirac Delta Function</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/dirac-delta-function/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-function/</link>
       <pubDate>Thu, 18 Dec 2025 14:58:07 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/dirac-delta-function/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/dirac-delta-function/</guid>
       <description>&lt;h1 id=&#34;dirac-delta-function&#34;&gt;Dirac Delta Function&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--basic-delta-integrals&#34;&gt;Exercise 1 : Basic Delta Integrals&lt;/h2&gt;
 &lt;p&gt;Evaluate the following integrals:&lt;/p&gt;
@@ -114,9 +114,9 @@ for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.
     </item>
     <item>
       <title>Gradient, Divergence, Curl, and Identities</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/gradient-divergence-curl-and-identities/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/gradient-divergence-curl-and-identities/</link>
       <pubDate>Thu, 18 Dec 2025 14:35:07 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/gradient-divergence-curl-and-identities/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/gradient-divergence-curl-and-identities/</guid>
       <description>&lt;h1 id=&#34;gradient-divergence-curl-and-identities&#34;&gt;Gradient, Divergence, Curl, and Identities&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Calculate the directional derivative of $f(x,y,z) = x^2y + y^2z$ in the direction of $\hat{\mathbf{n}} = (\hat{\mathbf{x}} + \hat{\mathbf{y}} + \hat{\mathbf{z}})\sqrt{3}$ at point $(1,2,3)$.&lt;/p&gt;
@@ -132,9 +132,9 @@ for $\mathbf{a} = (0,0,0)$ and $\mathbf{b} = (1,1,1)$ along two different paths.
     </item>
     <item>
       <title>Curvilinear Coordinates</title>
-      <link>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/curvilinear-coordinates/</link>
+      <link>http://localhost:1313/posts/mathe/vector-calculus/en/curvilinear-coordinates/</link>
       <pubDate>Thu, 18 Dec 2025 14:00:11 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/vector-calculus/en/curvilinear-coordinates/</guid>
+      <guid>http://localhost:1313/posts/mathe/vector-calculus/en/curvilinear-coordinates/</guid>
       <description>&lt;h1 id=&#34;curvilinear-coordinates&#34;&gt;Curvilinear Coordinates&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--inverting-spherical-coordinates&#34;&gt;Exercise 1 : Inverting Spherical Coordinates&lt;/h2&gt;
 &lt;p&gt;Invert the transformation $x = r\sin\theta\cos\phi$, $y = r\sin\theta\sin\phi$, $z = r\cos\theta$ to express $(r, \theta, \phi)$ in terms of $(x, y, z)$.&lt;/p&gt;

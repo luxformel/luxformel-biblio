@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linear Algebra on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/linear-algebra/</link>
+    <link>http://localhost:1313/tags/linear-algebra/</link>
     <description>Recent content in Linear Algebra on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 11:16:59 +0100</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/linear-algebra/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linear-algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sets of Linear Equations; Determinants</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/</link>
       <pubDate>Thu, 08 Jan 2026 11:16:59 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/sets-of-linear-equations-determinants/</guid>
       <description>&lt;h1 id=&#34;sets-of-linear-equations-determinants&#34;&gt;Sets of Linear Equations; Determinants&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--gaussian-and-gauss-jordan-elimination&#34;&gt;Exercise 1 : Gaussian and Gauss-Jordan elimination&lt;/h2&gt;
 &lt;p&gt;Solve the following equations using either Gaussian or Gauss-Jordan elimination. Use matrix notation.&lt;/p&gt;
@@ -61,9 +61,9 @@ $$
     </item>
     <item>
       <title>Scalar and Vector Products</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/scalar-and-vector-products/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/</link>
       <pubDate>Thu, 08 Jan 2026 11:11:27 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/scalar-and-vector-products/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/scalar-and-vector-products/</guid>
       <description>&lt;h1 id=&#34;scalar-and-vector-products&#34;&gt;Scalar and Vector Products&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--scalar-products&#34;&gt;Exercise 1 : Scalar Products&lt;/h2&gt;
 &lt;p&gt;Calculate the scalar products of the vectors $\mathbf{a}$ and $\mathbf{b}$ given below:&lt;/p&gt;
@@ -78,9 +78,9 @@ $$
     </item>
     <item>
       <title>Eigenvalues and Eigenvectors of Real Matrices</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</link>
       <pubDate>Thu, 08 Jan 2026 10:36:10 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors-of-real-matrices/</guid>
       <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors-of-real-matrices&#34;&gt;Eigenvalues and Eigenvectors of Real Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--eigenvalues--2x2-real-matrix&#34;&gt;Exercise 1 : Eigenvalues — 2x2 real matrix&lt;/h2&gt;
 &lt;p&gt;For $A = \begin{pmatrix} 4 &amp;amp; 2 \ 1 &amp;amp; 3 \end{pmatrix}$ find the eigenvalues.&lt;/p&gt;
@@ -91,9 +91,9 @@ $$
     </item>
     <item>
       <title>Vectors and Matrices in Python Solutions</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</link>
       <pubDate>Sun, 09 Nov 2025 17:55:30 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/</guid>
       <description>&lt;h1 id=&#34;vectors-and-matrices-in-python-solutions&#34;&gt;Vectors and Matrices in Python Solutions&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--vectors-in-mathbbr7&#34;&gt;Exercise 1 : Vectors in $\mathbb{R}^7$&lt;/h2&gt;
 &lt;p&gt;Consider the following vectors:
@@ -128,10 +128,11 @@ $$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
     </item>
     <item>
       <title>Vectors and Matrices in Python</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</link>
       <pubDate>Sun, 09 Nov 2025 17:52:23 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</guid>
-      <description>&lt;h1 id=&#34;vectors-and-matrices-in-python&#34;&gt;Vectors and Matrices in Python&lt;/h1&gt;
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python/</guid>
+      <description>&lt;p&gt;Léisung zu dësen Exercicer sinn an der &lt;a href=&#34;https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices-with-python-solutions/&#34;&gt;Bibliothéik&lt;/a&gt; ze fannen.&lt;/p&gt;
+&lt;h1 id=&#34;vectors-and-matrices-in-python&#34;&gt;Vectors and Matrices in Python&lt;/h1&gt;
 &lt;p&gt;In this worksheet, you will use &lt;strong&gt;Python (NumPy)&lt;/strong&gt; to perform vector and matrix operations.&lt;br&gt;
 For each exercise, write Python code to compute the required results and verify them numerically.&lt;/p&gt;
 &lt;hr&gt;
@@ -140,22 +141,15 @@ For each exercise, write Python code to compute the required results and verify 
 &lt;/p&gt;
 $$
 u = (0.5, 0.4, 0.4, 0.5, 0.1, 0.4, 0.1), \quad v = (-1, -2, 1, -2, 3, 1, -5)
-$$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Check whether $u$ and $v$ are unit vectors.&lt;/li&gt;
-&lt;li&gt;Compute the dot product of $u$ and $v$.&lt;/li&gt;
-&lt;li&gt;Determine if $u$ and $v$ are orthogonal.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;exercise-2--norms-and-orthogonality&#34;&gt;Exercise 2 : Norms and Orthogonality&lt;/h2&gt;
-&lt;p&gt;Consider the following vectors in $\mathbb{R}^9$:
-&lt;/p&gt;</description>
+$$&lt;p&gt;Using &lt;strong&gt;Python and NumPy&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vectors and Matrices</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</link>
       <pubDate>Thu, 06 Nov 2025 20:08:06 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vectors-and-matrices/</guid>
-      <description>&lt;h1 id=&#34;vectors-and-matrices&#34;&gt;Vectors and Matrices&lt;/h1&gt;
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vectors-and-matrices/</guid>
+      <description>&lt;p&gt;Léisung zu dësen Exercicer sinn am Archiv op &lt;a href=&#34;https://luxformel.info/Archiv/Mathe/pdf/Linear-Algebra/Solutions/vectors-and-matrices-solutions.pdf&#34;&gt;luxformel&lt;/a&gt; ze fannen.&lt;/p&gt;
+&lt;h1 id=&#34;vectors-and-matrices&#34;&gt;Vectors and Matrices&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Consider the following vectors in $ \mathbb{R}^7 $:
 &lt;/p&gt;
@@ -172,9 +166,9 @@ $$&lt;ol&gt;
     </item>
     <item>
       <title>Null Spaces and Ranges</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</link>
       <pubDate>Tue, 09 Sep 2025 08:35:31 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/null-spaces-and-ranges/</guid>
       <description>&lt;h1 id=&#34;null-spaces-and-ranges&#34;&gt;Null Spaces and Ranges&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Give an example of a linear map \( T \) such that \(\dim \text{null} \, T = 3\) and \(\dim \text{range} \, T = 2\).&lt;/p&gt;
@@ -189,9 +183,9 @@ Prove that \((ST)^2 = 0\).&lt;/p&gt;
     </item>
     <item>
       <title>Vector Space of Linear Maps</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</link>
       <pubDate>Tue, 09 Sep 2025 08:25:21 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/vector-space-of-linear-maps/</guid>
       <description>&lt;h1 id=&#34;vector-space-of-linear-maps&#34;&gt;Vector Space of Linear Maps&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Suppose \( b, c \in \mathbb{R} \). Define \( T: \mathbb{R}^3 \to \mathbb{R}^2 \) by&lt;br&gt;
@@ -204,9 +198,9 @@ Show that \( T \) is linear if and only if \( b = c = 0 \).&lt;/p&gt;
     </item>
     <item>
       <title>Dimension</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/dimension/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/dimension/</link>
       <pubDate>Tue, 09 Sep 2025 08:09:28 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/dimension/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/dimension/</guid>
       <description>&lt;h1 id=&#34;dimension&#34;&gt;Dimension&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Suppose \( V \) is finite-dimensional and \( U \) is a subspace of \( V \) such that&lt;br&gt;
@@ -220,9 +214,9 @@ Prove that \( U = V \)&lt;/p&gt;
     </item>
     <item>
       <title>Bases</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/bases/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/bases/</link>
       <pubDate>Tue, 09 Sep 2025 08:00:40 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/bases/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/bases/</guid>
       <description>&lt;h1 id=&#34;bases&#34;&gt;Bases&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find all vector spaces that have exactly one basis.&lt;/p&gt;
@@ -243,9 +237,9 @@ Prove that \( U = V \)&lt;/p&gt;
     </item>
     <item>
       <title>Subspaces</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/subspaces/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/subspaces/</link>
       <pubDate>Tue, 09 Sep 2025 07:37:21 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/subspaces/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/subspaces/</guid>
       <description>&lt;h1 id=&#34;subspaces&#34;&gt;Subspaces&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;For each of the following subsets of $\mathbb{F}^3$, determine whether it is a subspace of $\mathbb{F}^3$:&lt;/p&gt;
@@ -268,9 +262,9 @@ Prove that \( U = V \)&lt;/p&gt;
     </item>
     <item>
       <title>Span and Linear Independence</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/span-and-linear-independence/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/span-and-linear-independence/</link>
       <pubDate>Mon, 08 Sep 2025 04:12:27 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/span-and-linear-independence/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/span-and-linear-independence/</guid>
       <description>&lt;h1 id=&#34;span-and-linear-independence&#34;&gt;Span and Linear Independence&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Suppose $v_1, v_2, v_3, v_4$ spans $V$. Prove that the list&lt;br&gt;
@@ -288,9 +282,9 @@ also spans $V$.&lt;/p&gt;
     </item>
     <item>
       <title>Eigenvalues and Eigenvectors</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</link>
       <pubDate>Sun, 07 Sep 2025 08:35:20 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/eigenvalues-and-eigenvectors/</guid>
       <description>&lt;h1 id=&#34;eigenvalues-and-eigenvectors&#34;&gt;Eigenvalues and Eigenvectors&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Confirm by multiplication that &lt;strong&gt;x&lt;/strong&gt; is an eigenvector of &lt;strong&gt;A&lt;/strong&gt;, and find the corresponding eigenvalue.&lt;/p&gt;
@@ -305,9 +299,9 @@ also spans $V$.&lt;/p&gt;
     </item>
     <item>
       <title>Inner Product Spaces</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products-spaces/</link>
       <pubDate>Sun, 07 Sep 2025 07:28:08 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products-spaces/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products-spaces/</guid>
       <description>&lt;h1 id=&#34;inner-product-spaces&#34;&gt;Inner Product Spaces&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;In each part, determine whether the set of vectors is orthogonal and whether it is orthonormal with respect to the Euclidean inner product on ℝ².&lt;/p&gt;
@@ -322,9 +316,9 @@ also spans $V$.&lt;/p&gt;
     </item>
     <item>
       <title>Inner Products</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products/</link>
       <pubDate>Sun, 07 Sep 2025 07:26:03 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/inner-products/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/inner-products/</guid>
       <description>&lt;h1 id=&#34;inner-products&#34;&gt;Inner Products&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Let $\mathbb{R}^2$ have the weighted Euclidean inner product:
@@ -355,22 +349,21 @@ $$ \langle u, v \rangle = 2u_1v_1 + 3u_2v_2  $$&lt;p&gt;and let $u = (1, 1)$, $v
     </item>
     <item>
       <title>Definition of Vector Space</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/definition-of-vector-space/</link>
       <pubDate>Sun, 07 Sep 2025 07:07:06 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/definition-of-vector-space/</guid>
-      <description>&lt;h1 id=&#34;definition-of-vector-space&#34;&gt;Definition of Vector Space&lt;/h1&gt;
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/definition-of-vector-space/</guid>
+      <description>&lt;p&gt;Léisung zu dësen Exercicer sinn am Archiv op &lt;a href=&#34;https://luxformel.info/Archiv/Mathe/pdf/&#34;&gt;luxformel&lt;/a&gt; ze fannen.&lt;/p&gt;
+&lt;h1 id=&#34;definition-of-vector-space&#34;&gt;Definition of Vector Space&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1-double-additive-inverse&#34;&gt;Exercise 1: Double Additive Inverse&lt;/h2&gt;
 &lt;p&gt;Prove that $ -(-v) = v $ for every $ v \in V $, where $ V $ is a vector space.&lt;/p&gt;
 &lt;h2 id=&#34;exercise-2-zero-product-property&#34;&gt;Exercise 2: Zero Product Property&lt;/h2&gt;
-&lt;p&gt;Suppose $ a \in \mathbb{F} $ (a field), $ v \in V $, and $ av = 0 $. Prove that $ a = 0 $ or $ v = 0 $.&lt;/p&gt;
-&lt;h2 id=&#34;exercise-3-unique-solution-to-vector-equation&#34;&gt;Exercise 3: Unique Solution to Vector Equation&lt;/h2&gt;
-&lt;p&gt;Suppose $ v, w \in V $. Explain why there exists a unique $ x \in V $ such that $ v + 3x = w $.&lt;/p&gt;</description>
+&lt;p&gt;Suppose $ a \in \mathbb{F} $ (a field), $ v \in V $, and $ av = 0 $. Prove that $ a = 0 $ or $ v = 0 $.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Complex Numbers and Vector Space</title>
-      <link>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
+      <link>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</link>
       <pubDate>Sun, 07 Sep 2025 06:57:55 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
+      <guid>http://localhost:1313/posts/mathe/linear-algebra/en/complex-numbers-and-vector-space/</guid>
       <description>&lt;p&gt;Léisung zu dësen Exercicer sinn am Archiv op &lt;a href=&#34;https://luxformel.info/Archiv/Mathe/pdf/Vector-Spaces/Solutions/Complex-Numbers-and-Vector-Space-solutions.pdf&#34;&gt;luxformel&lt;/a&gt; ze fannen.&lt;/p&gt;
 &lt;h1 id=&#34;complex-numbers-and-vector-space&#34;&gt;Complex Numbers and Vector Space&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--complex-number-inverse&#34;&gt;Exercise 1 : Complex Number Inverse&lt;/h2&gt;

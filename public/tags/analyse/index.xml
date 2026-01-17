@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Analyse on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/analyse/</link>
+    <link>http://localhost:1313/tags/analyse/</link>
     <description>Recent content in Analyse on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Sun, 07 Sep 2025 07:21:58 +0200</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/analyse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/analyse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fonctions de plusieurs variables</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</link>
       <pubDate>Sun, 07 Sep 2025 07:21:58 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/fonctions-de-plusieurs-variables/</guid>
       <description>&lt;h1 id=&#34;fonctions-de-plusieurs-variables&#34;&gt;Fonctions de plusieurs variables&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--continuité-de-fonctions-de-deux-variables&#34;&gt;Exercice 1 : Continuité de fonctions de deux variables&lt;/h2&gt;
 &lt;p&gt;Étudier la continuité en $(0,0)$ des fonctions suivantes :&lt;/p&gt;
@@ -42,9 +42,9 @@ $$f(x, y) = \frac{x^2 + 2xy + y^2}{x^2 + y^2}, \quad f(0,0) = 0.$$&lt;/li&gt;
     </item>
     <item>
       <title>Séries numériques</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/series-numeriques/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/series-numeriques/</link>
       <pubDate>Sun, 07 Sep 2025 07:20:47 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/series-numeriques/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/series-numeriques/</guid>
       <description>&lt;h1 id=&#34;séries-numériques&#34;&gt;Séries numériques&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--calculs-de-séries&#34;&gt;Exercice 1 : Calculs de séries&lt;/h2&gt;
 &lt;p&gt;Calculer les sommes des séries suivantes :&lt;/p&gt;
@@ -97,9 +97,9 @@ $$ u_n = \frac{1}{\cos^2 n} $$&lt;/li&gt;
     </item>
     <item>
       <title>Convergence et calcul d&#39;intégrales impropres</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</link>
       <pubDate>Sun, 07 Sep 2025 07:18:16 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/convergence-et-calcul-integrale-impropres/</guid>
       <description>&lt;h1 id=&#34;convergence-et-calcul-dintégrales-impropres&#34;&gt;Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--convergence-et-calcul-dintégrales-impropres&#34;&gt;Exercice 1 : Convergence et calcul d&amp;rsquo;intégrales impropres&lt;/h2&gt;
 &lt;p&gt;Étudier la convergence des intégrales impropres suivantes et, lorsqu&amp;rsquo;elles sont convergentes, calculer leurs valeurs.&lt;/p&gt;
@@ -139,9 +139,9 @@ $$
     </item>
     <item>
       <title>Équations Différentielles</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/equations-differentielles/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/equations-differentielles/</link>
       <pubDate>Sun, 07 Sep 2025 07:12:52 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/equations-differentielles/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/equations-differentielles/</guid>
       <description>&lt;h1 id=&#34;équations-différentielles&#34;&gt;Équations Différentielles&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--applications-directes&#34;&gt;Exercice 1 : Applications Directes&lt;/h2&gt;
 &lt;p&gt;Résoudre les équations différentielles suivantes :&lt;/p&gt;
@@ -160,9 +160,9 @@ $$
     </item>
     <item>
       <title>Primitives</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/primitives/</link>
       <pubDate>Sun, 07 Sep 2025 07:11:27 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/primitives/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/primitives/</guid>
       <description>&lt;h1 id=&#34;primitives&#34;&gt;Primitives&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--calculs-dintégrales&#34;&gt;Exercice 1 : Calculs d’intégrales&lt;/h2&gt;
 &lt;p&gt;Calculer :&lt;/p&gt;
@@ -211,9 +211,9 @@ $$
     </item>
     <item>
       <title>L’intégrale au sens de Riemann</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</link>
       <pubDate>Sun, 07 Sep 2025 07:10:03 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/integrale-au-sense-de-riemann/</guid>
       <description>&lt;h1 id=&#34;lintégrale-au-sens-de-riemann&#34;&gt;L’intégrale au sens de Riemann&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--fonctions-dintégrale-nulle&#34;&gt;Exercice 1 : Fonctions d’intégrale nulle&lt;/h2&gt;
 &lt;ol&gt;
@@ -225,9 +225,9 @@ $$
     </item>
     <item>
       <title>Développements en séries de Taylor</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</link>
       <pubDate>Sun, 07 Sep 2025 07:08:24 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/fr/developpements-en-series-de-taylor/</guid>
       <description>&lt;h1 id=&#34;développements-en-séries-de-taylor&#34;&gt;Développements en séries de Taylor&lt;/h1&gt;
 &lt;h2 id=&#34;exercice-1--développements-limités-des-fonctions-paires-et-impaires&#34;&gt;Exercice 1 : Développements limités des fonctions paires et impaires&lt;/h2&gt;
 &lt;p&gt;Soit $ n \in \mathbb{N} $ et soit $ f : \mathbb{R} \to \mathbb{R} $ une fonction de classe $ C^{n+1} $.&lt;/p&gt;

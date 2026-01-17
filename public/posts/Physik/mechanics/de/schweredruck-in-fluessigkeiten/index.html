@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Schweredruck in Flüssigkeiten | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Mechanik">
+<meta name="description" content="Schweredruck in Flüssigkeiten
+Aufgabe 1 : Bau und Kräfte an einer Staumauer
+Am unteren Ende einer Talsperre befindet sich ein rechteckiges Entnahmevertil mit einer Fläche von A = 2 m². Der Wasserspiegel des Stausees liegt 200 m über der Ventilöffnung.
+
+Skizze und Bauweise: Zeichnen Sie einen maßstabsgetreuen Querschnitt durch eine typische Schwergewichtsmauer (Bogen- oder Pfeilerstaumauer sind ebenfalls akzeptabel). Erklären Sie anhand Ihrer Skizze, warum die Mauerdicke zum Beckenboden hin stark zunimmt. Gehen Sie dabei auf die wirkenden Kräfte und die Stabilität ein.
+Berechnung der Druckkraft: Berechnen Sie die Druckkraft F, die bei voll gefülltem Stausee auf das geschlossene Ventil wirkt.
+
+Gehen Sie dabei vom hydrostatischen Druck aus.
+Verwenden Sie: \( \rho_{Wasser} = 1000 \, \text{kg/m³} \) und \( g = 9.81 \, \text{N/kg} \).
+
+
+Analyse der Kraftabhängigkeit: Diskutieren Sie, ob der Betrag und die Richtung dieser Druckkraft von folgenden Faktoren abhängen:
+
+Der Gesamtwassermenge bzw. der Oberfläche des Stausees.
+Der Neigung des Ventils (z.B. senkrecht, schräg oder waagerecht eingebaut). Begründen Sie Ihre Antworten physikalisch.
+
+
+
+Aufgabe 2 : Druck und Kraft im Schwimmbecken
+In einem Schwimmbecken soll der vom Wasser verursachte Schweredruck p und die daraus resultierende Kraft F auf ein menschliches Trommelfell in verschiedenen Tiefen berechnet werden. Die Fläche des Trommelfells beträgt etwa A = 0.5 cm².">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/physik/mechanics/de/schweredruck-in-fluessigkeiten/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/physik/mechanics/de/schweredruck-in-fluessigkeiten/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Schweredruck in Flüssigkeiten">
+  <meta property="og:description" content="Schweredruck in Flüssigkeiten Aufgabe 1 : Bau und Kräfte an einer Staumauer Am unteren Ende einer Talsperre befindet sich ein rechteckiges Entnahmevertil mit einer Fläche von A = 2 m². Der Wasserspiegel des Stausees liegt 200 m über der Ventilöffnung.
+Skizze und Bauweise: Zeichnen Sie einen maßstabsgetreuen Querschnitt durch eine typische Schwergewichtsmauer (Bogen- oder Pfeilerstaumauer sind ebenfalls akzeptabel). Erklären Sie anhand Ihrer Skizze, warum die Mauerdicke zum Beckenboden hin stark zunimmt. Gehen Sie dabei auf die wirkenden Kräfte und die Stabilität ein. Berechnung der Druckkraft: Berechnen Sie die Druckkraft F, die bei voll gefülltem Stausee auf das geschlossene Ventil wirkt. Gehen Sie dabei vom hydrostatischen Druck aus. Verwenden Sie: \( \rho_{Wasser} = 1000 \, \text{kg/m³} \) und \( g = 9.81 \, \text{N/kg} \). Analyse der Kraftabhängigkeit: Diskutieren Sie, ob der Betrag und die Richtung dieser Druckkraft von folgenden Faktoren abhängen: Der Gesamtwassermenge bzw. der Oberfläche des Stausees. Der Neigung des Ventils (z.B. senkrecht, schräg oder waagerecht eingebaut). Begründen Sie Ihre Antworten physikalisch. Aufgabe 2 : Druck und Kraft im Schwimmbecken In einem Schwimmbecken soll der vom Wasser verursachte Schweredruck p und die daraus resultierende Kraft F auf ein menschliches Trommelfell in verschiedenen Tiefen berechnet werden. Die Fläche des Trommelfells beträgt etwa A = 0.5 cm².">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-11T12:51:45+01:00">
+    <meta property="article:modified_time" content="2026-01-11T12:51:45+01:00">
+    <meta property="article:tag" content="Mechanik">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Schweredruck in Flüssigkeiten">
+<meta name="twitter:description" content="Schweredruck in Flüssigkeiten
+Aufgabe 1 : Bau und Kräfte an einer Staumauer
+Am unteren Ende einer Talsperre befindet sich ein rechteckiges Entnahmevertil mit einer Fläche von A = 2 m². Der Wasserspiegel des Stausees liegt 200 m über der Ventilöffnung.
+
+Skizze und Bauweise: Zeichnen Sie einen maßstabsgetreuen Querschnitt durch eine typische Schwergewichtsmauer (Bogen- oder Pfeilerstaumauer sind ebenfalls akzeptabel). Erklären Sie anhand Ihrer Skizze, warum die Mauerdicke zum Beckenboden hin stark zunimmt. Gehen Sie dabei auf die wirkenden Kräfte und die Stabilität ein.
+Berechnung der Druckkraft: Berechnen Sie die Druckkraft F, die bei voll gefülltem Stausee auf das geschlossene Ventil wirkt.
+
+Gehen Sie dabei vom hydrostatischen Druck aus.
+Verwenden Sie: \( \rho_{Wasser} = 1000 \, \text{kg/m³} \) und \( g = 9.81 \, \text{N/kg} \).
+
+
+Analyse der Kraftabhängigkeit: Diskutieren Sie, ob der Betrag und die Richtung dieser Druckkraft von folgenden Faktoren abhängen:
+
+Der Gesamtwassermenge bzw. der Oberfläche des Stausees.
+Der Neigung des Ventils (z.B. senkrecht, schräg oder waagerecht eingebaut). Begründen Sie Ihre Antworten physikalisch.
+
+
+
+Aufgabe 2 : Druck und Kraft im Schwimmbecken
+In einem Schwimmbecken soll der vom Wasser verursachte Schweredruck p und die daraus resultierende Kraft F auf ein menschliches Trommelfell in verschiedenen Tiefen berechnet werden. Die Fläche des Trommelfells beträgt etwa A = 0.5 cm².">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Schweredruck in Flüssigkeiten",
+      "item": "http://localhost:1313/posts/physik/mechanics/de/schweredruck-in-fluessigkeiten/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Schweredruck in Flüssigkeiten",
+  "name": "Schweredruck in Flüssigkeiten",
+  "description": "Schweredruck in Flüssigkeiten Aufgabe 1 : Bau und Kräfte an einer Staumauer Am unteren Ende einer Talsperre befindet sich ein rechteckiges Entnahmevertil mit einer Fläche von A = 2 m². Der Wasserspiegel des Stausees liegt 200 m über der Ventilöffnung.\nSkizze und Bauweise: Zeichnen Sie einen maßstabsgetreuen Querschnitt durch eine typische Schwergewichtsmauer (Bogen- oder Pfeilerstaumauer sind ebenfalls akzeptabel). Erklären Sie anhand Ihrer Skizze, warum die Mauerdicke zum Beckenboden hin stark zunimmt. Gehen Sie dabei auf die wirkenden Kräfte und die Stabilität ein. Berechnung der Druckkraft: Berechnen Sie die Druckkraft F, die bei voll gefülltem Stausee auf das geschlossene Ventil wirkt. Gehen Sie dabei vom hydrostatischen Druck aus. Verwenden Sie: \\( \\rho_{Wasser} = 1000 \\, \\text{kg/m³} \\) und \\( g = 9.81 \\, \\text{N/kg} \\). Analyse der Kraftabhängigkeit: Diskutieren Sie, ob der Betrag und die Richtung dieser Druckkraft von folgenden Faktoren abhängen: Der Gesamtwassermenge bzw. der Oberfläche des Stausees. Der Neigung des Ventils (z.B. senkrecht, schräg oder waagerecht eingebaut). Begründen Sie Ihre Antworten physikalisch. Aufgabe 2 : Druck und Kraft im Schwimmbecken In einem Schwimmbecken soll der vom Wasser verursachte Schweredruck p und die daraus resultierende Kraft F auf ein menschliches Trommelfell in verschiedenen Tiefen berechnet werden. Die Fläche des Trommelfells beträgt etwa A = 0.5 cm².\n",
+  "keywords": [
+    "Mechanik"
+  ],
+  "articleBody": "Schweredruck in Flüssigkeiten Aufgabe 1 : Bau und Kräfte an einer Staumauer Am unteren Ende einer Talsperre befindet sich ein rechteckiges Entnahmevertil mit einer Fläche von A = 2 m². Der Wasserspiegel des Stausees liegt 200 m über der Ventilöffnung.\nSkizze und Bauweise: Zeichnen Sie einen maßstabsgetreuen Querschnitt durch eine typische Schwergewichtsmauer (Bogen- oder Pfeilerstaumauer sind ebenfalls akzeptabel). Erklären Sie anhand Ihrer Skizze, warum die Mauerdicke zum Beckenboden hin stark zunimmt. Gehen Sie dabei auf die wirkenden Kräfte und die Stabilität ein. Berechnung der Druckkraft: Berechnen Sie die Druckkraft F, die bei voll gefülltem Stausee auf das geschlossene Ventil wirkt. Gehen Sie dabei vom hydrostatischen Druck aus. Verwenden Sie: \\( \\rho_{Wasser} = 1000 \\, \\text{kg/m³} \\) und \\( g = 9.81 \\, \\text{N/kg} \\). Analyse der Kraftabhängigkeit: Diskutieren Sie, ob der Betrag und die Richtung dieser Druckkraft von folgenden Faktoren abhängen: Der Gesamtwassermenge bzw. der Oberfläche des Stausees. Der Neigung des Ventils (z.B. senkrecht, schräg oder waagerecht eingebaut). Begründen Sie Ihre Antworten physikalisch. Aufgabe 2 : Druck und Kraft im Schwimmbecken In einem Schwimmbecken soll der vom Wasser verursachte Schweredruck p und die daraus resultierende Kraft F auf ein menschliches Trommelfell in verschiedenen Tiefen berechnet werden. Die Fläche des Trommelfells beträgt etwa A = 0.5 cm².\nBerechnen Sie Druck und Kraft für die Tiefen h₁ = 1 m, h₂ = 2 m und h₃ = 5 m. Stellen Sie die Ergebnisse in einer Tabelle übersichtlich dar. Zusatzfrage: Warum spüren wir diesen enormen Druck unter Wasser auf unser Trommelfell nicht an Land (Luftdruck)? Erläutern Sie den Unterschied zwischen absolutem Druck und Überdruck. Aufgabe 3 : Das Prinzip der Schiffsschleuse Erklären Sie detailliert die Wirkungsweise einer Kammerschleuse, die es Schiffen ermöglicht, einen Höhenunterschied in einem Kanal oder Fluss zu überwinden.\nBeschreiben Sie den Ablauf in vier klar benannten Schritten (Schiff fährt ein, Schleuse füllt/leert sich, etc.). Erklären Sie dabei die Rolle der Schleusentore und der Ventile/Öffnungen im unteren Bereich. Nennen Sie das physikalische Prinzip, das genutzt wird, um das Wasser zwischen den unterschiedlichen Pegeln auszugleichen. Aufgabe 4 : Höhe von Flüssigkeitssäulen bei gegebenem Druck Alkoholsäule: Berechnen Sie die Höhe hₐ einer stehenden Säule aus Alkohol (Ethanol), damit der hydrostatische Druck am Gefäßboden p = 100 kPa beträgt. Dichte: \\( \\rho_{\\text{Alkohol}} = 0.79 \\, \\text{g/cm³} \\) Quecksilbersäule: Wiederholen Sie die Berechnung für eine Säule aus Quecksilber. Dichte: \\( \\rho_{\\text{Hg}} = 13.55 \\, \\text{g/cm³} \\) Vergleich und Anwendung: Vergleichen Sie die beiden Höhen. Welche praktische Anwendung (ein Messgerät) basiert auf genau diesem Prinzip? Nennen Sie es. Aufgabe 5 : Kräfte auf ein U-Boot Ein U-Boot befindet sich in h = 15 m Tiefe unter der Wasseroberfläche. Die kreisrunde Ausstiegsluke hat einen Durchmesser von d = 65 cm.\nBerechnen Sie die Kraft F, mit der das Meerwasser von außen gegen die geschlossene Luke drückt. Zusatzüberlegung: Erklären Sie, warum diese Luke von innen nach außen öffnet und nicht umgekehrt. Welche Sicherheitsvorkehrung ist hier physikalisch umgesetzt? Aufgabe 6 : Auftrieb und Haftung – Die schwimmende Glasröhre Eine dünnwandige, offene Glasröhre (Durchmesser d = 5 cm, Masse m_Rohr = 60 g) wird senkrecht h = 30 cm tief in Wasser getaucht und an der Oberfläche festgehalten. Anschließend wird ein Wägestück der Masse m_W auf die obere Öffnung gelegt.\nBerechnen Sie die maximale Masse m_W,max, die das Wägestück haben darf, ohne dass die Röhre im Wasser absinkt. Gehen Sie davon aus, dass die Röhre wasserfrei bleibt und die Haftkraft durch den hydrostatischen Druck an der unteren Kante entsteht. Vertiefung: Welches Prinzip – Schweredruck oder Auftrieb – ist für die Erklärung dieses Phänomens fundamentaler? Begründen Sie. Aufgabe 7 : Kommunizierende Röhren mit zwei Flüssigkeiten In ein U-Rohr werden zwei nicht mischbare Flüssigkeiten gefüllt: Benzol (Dichte \\( \\rho_B = 0.69 \\, \\text{kg/l} \\)) und Wasser ( \\( \\rho_W = 1.00 \\, \\text{kg/l} \\) ).\nPrinzip: Erklären Sie anhand einer Skizze, warum die Flüssigkeitsoberflächen in den beiden Schenkeln nicht auf gleicher Höhe stehen, obwohl es sich um kommunizierende Röhren handelt. Formulieren Sie die Bedingung für das Gleichgewicht. Berechnung: Eine Messung ergibt für die Höhe der Benzolsäule über der Trennfläche h_B = 12 cm. Berechnen Sie die Höhendifferenz Δh zwischen den beiden freien Oberflächen. Vergleich: Was würde passieren und wie würde die Anordnung aussehen, wenn man anstelle von Benzol Quecksilber ( \\( \\rho_{Hg} = 13.6 \\, \\text{g/cm³} \\) ) verwenden würde? Beschreiben Sie das erwartete Bild qualitativ. Aufgabe 8 : Druckübertragung – Die Wärmflaschen-Manometer Eine mit Wasser gefüllte, verschlossene Gummifläsche (z.B. eine Wärmflasche) wird über einen Schlauch mit einer senkrecht stehenden, offenen Glasröhre (Länge ≈ 1.5 m) verbunden. Das System ist zunächst im Gleichgewicht.\nÜberschlagsrechnung: Ein Schüler (Masse m ≈ 50 kg) setzt sich vollständig auf den Deckel der Flasche. Schätzen Sie ab, um welche Höhe Δh das Wasser in der Glasröhre ansteigen würde. Gehen Sie von einer kreisrunden, ebenen Auflagefläche der Flasche mit einem Durchmesser von d ≈ 20 cm aus. Prinzip: Nennen Sie das physikalische Gesetz, das dieser Druckübertragung in abgeschlossenen Flüssigkeiten zugrunde liegt. Analyse: Warum ist diese Anordnung ein einfaches Manometer (Druckmessgerät)? Welchen Druck (Überdruck/Unterdruck) misst es in diesem Versuch? ",
+  "wordCount" : "830",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-11T12:51:45+01:00",
+  "dateModified": "2026-01-11T12:51:45+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/physik/mechanics/de/schweredruck-in-fluessigkeiten/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Schweredruck in Flüssigkeiten
+    </h1>
+    <div class="post-meta"><span title='2026-01-11 12:51:45 +0100 CET'>Januar 11, 2026</span>&nbsp;·&nbsp;<span>830 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#aufgabe-1--bau-und-kräfte-an-einer-staumauer">Aufgabe 1 : Bau und Kräfte an einer Staumauer</a></li>
+    <li><a href="#aufgabe-2--druck-und-kraft-im-schwimmbecken">Aufgabe 2 : Druck und Kraft im Schwimmbecken</a></li>
+    <li><a href="#aufgabe-3--das-prinzip-der-schiffsschleuse">Aufgabe 3 : Das Prinzip der Schiffsschleuse</a></li>
+    <li><a href="#aufgabe-4--höhe-von-flüssigkeitssäulen-bei-gegebenem-druck">Aufgabe 4 : Höhe von Flüssigkeitssäulen bei gegebenem Druck</a></li>
+    <li><a href="#aufgabe-5--kräfte-auf-ein-u-boot">Aufgabe 5 : Kräfte auf ein U-Boot</a></li>
+    <li><a href="#aufgabe-6--auftrieb-und-haftung--die-schwimmende-glasröhre">Aufgabe 6 : Auftrieb und Haftung – Die schwimmende Glasröhre</a></li>
+    <li><a href="#aufgabe-7--kommunizierende-röhren-mit-zwei-flüssigkeiten">Aufgabe 7 : Kommunizierende Röhren mit zwei Flüssigkeiten</a></li>
+    <li><a href="#aufgabe-8--druckübertragung--die-wärmflaschen-manometer">Aufgabe 8 : Druckübertragung – Die Wärmflaschen-Manometer</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="schweredruck-in-flüssigkeiten">Schweredruck in Flüssigkeiten<a hidden class="anchor" aria-hidden="true" href="#schweredruck-in-flüssigkeiten">#</a></h1>
+<h2 id="aufgabe-1--bau-und-kräfte-an-einer-staumauer">Aufgabe 1 : Bau und Kräfte an einer Staumauer<a hidden class="anchor" aria-hidden="true" href="#aufgabe-1--bau-und-kräfte-an-einer-staumauer">#</a></h2>
+<p>Am unteren Ende einer Talsperre befindet sich ein rechteckiges Entnahmevertil mit einer Fläche von <strong>A = 2 m²</strong>. Der Wasserspiegel des Stausees liegt <strong>200 m</strong> über der Ventilöffnung.</p>
+<ol>
+<li><strong>Skizze und Bauweise:</strong> Zeichnen Sie einen maßstabsgetreuen Querschnitt durch eine typische Schwergewichtsmauer (Bogen- oder Pfeilerstaumauer sind ebenfalls akzeptabel). Erklären Sie anhand Ihrer Skizze, warum die Mauerdicke zum Beckenboden hin stark zunimmt. Gehen Sie dabei auf die wirkenden Kräfte und die Stabilität ein.</li>
+<li><strong>Berechnung der Druckkraft:</strong> Berechnen Sie die <strong>Druckkraft F</strong>, die bei voll gefülltem Stausee auf das geschlossene Ventil wirkt.
+<ul>
+<li>Gehen Sie dabei vom hydrostatischen Druck aus.</li>
+<li>Verwenden Sie: \( \rho_{Wasser} = 1000 \, \text{kg/m³} \) und \( g = 9.81 \, \text{N/kg} \).</li>
+</ul>
+</li>
+<li><strong>Analyse der Kraftabhängigkeit:</strong> Diskutieren Sie, ob der <strong>Betrag und die Richtung</strong> dieser Druckkraft von folgenden Faktoren abhängen:
+<ul>
+<li>Der Gesamtwassermenge bzw. der Oberfläche des Stausees.</li>
+<li>Der Neigung des Ventils (z.B. senkrecht, schräg oder waagerecht eingebaut). Begründen Sie Ihre Antworten physikalisch.</li>
+</ul>
+</li>
+</ol>
+<h2 id="aufgabe-2--druck-und-kraft-im-schwimmbecken">Aufgabe 2 : Druck und Kraft im Schwimmbecken<a hidden class="anchor" aria-hidden="true" href="#aufgabe-2--druck-und-kraft-im-schwimmbecken">#</a></h2>
+<p>In einem Schwimmbecken soll der vom Wasser verursachte <strong>Schweredruck p</strong> und die daraus resultierende <strong>Kraft F</strong> auf ein menschliches Trommelfell in verschiedenen Tiefen berechnet werden. Die Fläche des Trommelfells beträgt etwa <strong>A = 0.5 cm²</strong>.</p>
+<ol>
+<li>Berechnen Sie Druck und Kraft für die Tiefen <strong>h₁ = 1 m</strong>, <strong>h₂ = 2 m</strong> und <strong>h₃ = 5 m</strong>.</li>
+<li>Stellen Sie die Ergebnisse in einer Tabelle übersichtlich dar.</li>
+<li><strong>Zusatzfrage:</strong> Warum spüren wir diesen enormen Druck unter Wasser auf unser Trommelfell nicht an Land (Luftdruck)? Erläutern Sie den Unterschied zwischen <em>absolutem Druck</em> und <em>Überdruck</em>.</li>
+</ol>
+<h2 id="aufgabe-3--das-prinzip-der-schiffsschleuse">Aufgabe 3 : Das Prinzip der Schiffsschleuse<a hidden class="anchor" aria-hidden="true" href="#aufgabe-3--das-prinzip-der-schiffsschleuse">#</a></h2>
+<p>Erklären Sie detailliert die <strong>Wirkungsweise einer Kammerschleuse</strong>, die es Schiffen ermöglicht, einen Höhenunterschied in einem Kanal oder Fluss zu überwinden.</p>
+<ol>
+<li>Beschreiben Sie den Ablauf in <strong>vier klar benannten Schritten</strong> (Schiff fährt ein, Schleuse füllt/leert sich, etc.).</li>
+<li>Erklären Sie dabei die Rolle der <strong>Schleusentore</strong> und der <strong>Ventile/Öffnungen</strong> im unteren Bereich.</li>
+<li>Nennen Sie das physikalische Prinzip, das genutzt wird, um das Wasser zwischen den unterschiedlichen Pegeln auszugleichen.</li>
+</ol>
+<h2 id="aufgabe-4--höhe-von-flüssigkeitssäulen-bei-gegebenem-druck">Aufgabe 4 : Höhe von Flüssigkeitssäulen bei gegebenem Druck<a hidden class="anchor" aria-hidden="true" href="#aufgabe-4--höhe-von-flüssigkeitssäulen-bei-gegebenem-druck">#</a></h2>
+<ol>
+<li><strong>Alkoholsäule:</strong> Berechnen Sie die Höhe <strong>hₐ</strong> einer stehenden Säule aus Alkohol (Ethanol), damit der hydrostatische Druck am Gefäßboden <strong>p = 100 kPa</strong> beträgt.
+<ul>
+<li>Dichte: \( \rho_{\text{Alkohol}} = 0.79 \, \text{g/cm³} \)</li>
+</ul>
+</li>
+<li><strong>Quecksilbersäule:</strong> Wiederholen Sie die Berechnung für eine Säule aus Quecksilber.
+<ul>
+<li>Dichte: \( \rho_{\text{Hg}} = 13.55 \, \text{g/cm³} \)</li>
+</ul>
+</li>
+<li><strong>Vergleich und Anwendung:</strong> Vergleichen Sie die beiden Höhen. Welche praktische Anwendung (ein Messgerät) basiert auf genau diesem Prinzip? Nennen Sie es.</li>
+</ol>
+<h2 id="aufgabe-5--kräfte-auf-ein-u-boot">Aufgabe 5 : Kräfte auf ein U-Boot<a hidden class="anchor" aria-hidden="true" href="#aufgabe-5--kräfte-auf-ein-u-boot">#</a></h2>
+<p>Ein U-Boot befindet sich in <strong>h = 15 m</strong> Tiefe unter der Wasseroberfläche. Die kreisrunde Ausstiegsluke hat einen Durchmesser von <strong>d = 65 cm</strong>.</p>
+<ol>
+<li>Berechnen Sie die <strong>Kraft F</strong>, mit der das Meerwasser von außen gegen die geschlossene Luke drückt.</li>
+<li><strong>Zusatzüberlegung:</strong> Erklären Sie, warum diese Luke von innen nach außen öffnet und nicht umgekehrt. Welche Sicherheitsvorkehrung ist hier physikalisch umgesetzt?</li>
+</ol>
+<h2 id="aufgabe-6--auftrieb-und-haftung--die-schwimmende-glasröhre">Aufgabe 6 : Auftrieb und Haftung – Die schwimmende Glasröhre<a hidden class="anchor" aria-hidden="true" href="#aufgabe-6--auftrieb-und-haftung--die-schwimmende-glasröhre">#</a></h2>
+<p>Eine dünnwandige, offene Glasröhre (Durchmesser <strong>d = 5 cm</strong>, Masse <strong>m_Rohr = 60 g</strong>) wird senkrecht <strong>h = 30 cm</strong> tief in Wasser getaucht und an der Oberfläche festgehalten. Anschließend wird ein Wägestück der Masse <strong>m_W</strong> auf die obere Öffnung gelegt.</p>
+<ol>
+<li>Berechnen Sie die <strong>maximale Masse m_W,max</strong>, die das Wägestück haben darf, ohne dass die Röhre im Wasser absinkt. Gehen Sie davon aus, dass die Röhre wasserfrei bleibt und die Haftkraft durch den hydrostatischen Druck an der unteren Kante entsteht.</li>
+<li><strong>Vertiefung:</strong> Welches Prinzip – Schweredruck oder Auftrieb – ist für die Erklärung dieses Phänomens fundamentaler? Begründen Sie.</li>
+</ol>
+<h2 id="aufgabe-7--kommunizierende-röhren-mit-zwei-flüssigkeiten">Aufgabe 7 : Kommunizierende Röhren mit zwei Flüssigkeiten<a hidden class="anchor" aria-hidden="true" href="#aufgabe-7--kommunizierende-röhren-mit-zwei-flüssigkeiten">#</a></h2>
+<p>In ein U-Rohr werden zwei nicht mischbare Flüssigkeiten gefüllt: <strong>Benzol</strong> (Dichte \( \rho_B = 0.69 \, \text{kg/l} \)) und <strong>Wasser</strong> ( \( \rho_W = 1.00 \, \text{kg/l} \) ).</p>
+<ol>
+<li><strong>Prinzip:</strong> Erklären Sie anhand einer Skizze, warum die Flüssigkeitsoberflächen in den beiden Schenkeln <strong>nicht auf gleicher Höhe</strong> stehen, obwohl es sich um kommunizierende Röhren handelt. Formulieren Sie die Bedingung für das Gleichgewicht.</li>
+<li><strong>Berechnung:</strong> Eine Messung ergibt für die Höhe der Benzolsäule über der Trennfläche <strong>h_B = 12 cm</strong>.
+<ul>
+<li>Berechnen Sie die Höhendifferenz <strong>Δh</strong> zwischen den beiden freien Oberflächen.</li>
+</ul>
+</li>
+<li><strong>Vergleich:</strong> Was würde passieren und wie würde die Anordnung aussehen, wenn man anstelle von Benzol <strong>Quecksilber</strong> ( \( \rho_{Hg} = 13.6 \, \text{g/cm³} \) ) verwenden würde? Beschreiben Sie das erwartete Bild qualitativ.</li>
+</ol>
+<h2 id="aufgabe-8--druckübertragung--die-wärmflaschen-manometer">Aufgabe 8 : Druckübertragung – Die Wärmflaschen-Manometer<a hidden class="anchor" aria-hidden="true" href="#aufgabe-8--druckübertragung--die-wärmflaschen-manometer">#</a></h2>
+<p>Eine mit Wasser gefüllte, verschlossene Gummifläsche (z.B. eine Wärmflasche) wird über einen Schlauch mit einer senkrecht stehenden, offenen Glasröhre (Länge <strong>≈ 1.5 m</strong>) verbunden. Das System ist zunächst im Gleichgewicht.</p>
+<ol>
+<li><strong>Überschlagsrechnung:</strong> Ein Schüler (Masse <strong>m ≈ 50 kg</strong>) setzt sich vollständig auf den Deckel der Flasche. Schätzen Sie ab, um welche Höhe <strong>Δh</strong> das Wasser in der Glasröhre ansteigen würde. Gehen Sie von einer kreisrunden, ebenen Auflagefläche der Flasche mit einem Durchmesser von <strong>d ≈ 20 cm</strong> aus.</li>
+<li><strong>Prinzip:</strong> Nennen Sie das physikalische Gesetz, das dieser Druckübertragung in abgeschlossenen Flüssigkeiten zugrunde liegt.</li>
+<li><strong>Analyse:</strong> Warum ist diese Anordnung ein einfaches <strong>Manometer</strong> (Druckmessgerät)? Welchen Druck (Überdruck/Unterdruck) misst es in diesem Versuch?</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/mechanik/">Mechanik</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/physik/mechanics/de/auftrieb/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Auftrieb</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/physik/mechanics/de/druck/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Druck</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

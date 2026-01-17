@@ -3,7 +3,7 @@ title: "Definition of Vector Space"
 date: 2025-09-07T07:07:06+02:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Linear Algebra", "Vector Spaces"]
+tags: ["Linear Algebra", "Vector Spaces" , "Solved"]
 categories: ["Mathé"]
 author: "Luxformel"
 # author: ["Me", "You"] # multiple authors
@@ -26,6 +26,8 @@ UseHugoToc: true
 
 math: true
 ---
+
+Léisung zu dësen Exercicer sinn am Archiv op [luxformel](https://luxformel.info/Archiv/Mathe/pdf/) ze fannen. 
 
 # Definition of Vector Space
 

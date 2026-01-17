@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conditionals on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/conditionals/</link>
+    <description>Recent content in Conditionals on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Fri, 16 Jan 2026 19:01:09 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/conditionals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conditional and Biconditional Connectives</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/conditional-and-biconditional-connectives/</link>
+      <pubDate>Fri, 16 Jan 2026 19:01:09 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/conditional-and-biconditional-connectives/</guid>
+      <description>&lt;h1 id=&#34;conditional-and-biconditional-connectives&#34;&gt;Conditional and Biconditional Connectives&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--translating-english-to-propositional-logic&#34;&gt;Exercise 1 : Translating English to Propositional Logic&lt;/h2&gt;
+&lt;p&gt;Express each statement in symbolic logic, defining your atomic propositions clearly.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If this gas either has an unpleasant smell or is not explosive, then it isn&amp;rsquo;t hydrogen.&lt;br&gt;
+&lt;em&gt;Let \( S \): The gas has an unpleasant smell, \( E \): The gas is explosive, \( H \): The gas is hydrogen.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Having both a fever and a headache is a &lt;strong&gt;sufficient condition&lt;/strong&gt; for George to go to the doctor.&lt;br&gt;
+&lt;em&gt;Let \( F \): George has a fever, \( H \): George has a headache, \( D \): George goes to the doctor.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Both&lt;/strong&gt; having a fever and having a headache are sufficient conditions for George to go to the doctor.&lt;br&gt;
+&lt;em&gt;(Note the subtle difference from #2. Write two separate conditional statements.)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;If \( x \neq 2 \), then a necessary condition for \( x \) to be prime is that \( x \) be odd.&lt;br&gt;
+&lt;em&gt;Let \( P_x \): \( x \) is prime, \( O_x \): \( x \) is odd. Assume universe of integers &amp;gt; 1.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--only-if-unless-and-necessary-conditions&#34;&gt;Exercise 2 : “Only if,” “Unless,” and Necessary Conditions&lt;/h2&gt;
+&lt;p&gt;Translate into symbolic logic.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Differentiation on Luxformel Bibliothéik</title>
-    <link>https://biblio.luxformel.info/tags/differentiation/</link>
+    <link>http://localhost:1313/tags/differentiation/</link>
     <description>Recent content in Differentiation on Luxformel Bibliothéik</description>
     <image>
       <title>Luxformel Bibliothéik</title>
-      <url>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://biblio.luxformel.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>lb</language>
     <lastBuildDate>Thu, 08 Jan 2026 09:57:06 +0100</lastBuildDate>
-    <atom:link href="https://biblio.luxformel.info/tags/differentiation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/differentiation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Differential Calculus</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/differential-calculus/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</link>
       <pubDate>Thu, 08 Jan 2026 09:57:06 +0100</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/differential-calculus/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/differential-calculus/</guid>
       <description>&lt;h1 id=&#34;differential-calculus&#34;&gt;Differential Calculus&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1--sequences-and-limits-of-sequences&#34;&gt;Exercise 1 : Sequences and Limits of Sequences&lt;/h2&gt;
 &lt;p&gt;Calculate the limiting value of the following sequences for $n \to \infty$.&lt;/p&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>Differentiation</title>
-      <link>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</link>
+      <link>http://localhost:1313/posts/mathe/calculus/en/differentiation/</link>
       <pubDate>Sun, 07 Sep 2025 06:50:32 +0200</pubDate>
-      <guid>https://biblio.luxformel.info/posts/mathe/calculus/en/differentiation/</guid>
+      <guid>http://localhost:1313/posts/mathe/calculus/en/differentiation/</guid>
       <description>&lt;h1 id=&#34;differentiation&#34;&gt;Differentiation&lt;/h1&gt;
 &lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
 &lt;p&gt;Find $f^{\prime}(x)$ for each $f$:&lt;/p&gt;

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Proofs on Luxformel Bibliothéik</title>
+    <link>http://localhost:1313/tags/proofs/</link>
+    <description>Recent content in Proofs on Luxformel Bibliothéik</description>
+    <image>
+      <title>Luxformel Bibliothéik</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>lb</language>
+    <lastBuildDate>Sat, 17 Jan 2026 18:50:40 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/proofs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proof Strategies</title>
+      <link>http://localhost:1313/posts/mathe/logic/en/proof-strategies/</link>
+      <pubDate>Sat, 17 Jan 2026 18:50:40 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mathe/logic/en/proof-strategies/</guid>
+      <description>&lt;h1 id=&#34;proof-strategies&#34;&gt;Proof Strategies&lt;/h1&gt;
+&lt;h2 id=&#34;exercise-1--identifying-hypotheses-and-conclusions&#34;&gt;Exercise 1 : Identifying Hypotheses and Conclusions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Theorem&lt;/strong&gt;&lt;br&gt;
+Suppose \(n\) is an integer larger than 1 and \(n\) is not prime. Then \(2^n - 1\) is not prime.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify the hypothesis and conclusion of the theorem. Are the hypotheses true when \(n = 6\)? If so, what does the theorem conclude for \(n=6\)? Check whether this conclusion is correct.&lt;/li&gt;
+&lt;li&gt;What does the theorem conclude when \(n = 15\)? Verify this conclusion directly.&lt;/li&gt;
+&lt;li&gt;What does the theorem conclude when \(n = 11\)? Does the theorem apply in this case? Why or why not?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;exercise-2--understanding-a-quadratic-theorem&#34;&gt;Exercise 2 : Understanding a Quadratic Theorem&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Theorem&lt;/strong&gt;&lt;br&gt;
+Suppose that \(b^2 &gt; 4ac\). Then the quadratic equation \(ax^2 + bx + c = 0\) has exactly two real solutions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

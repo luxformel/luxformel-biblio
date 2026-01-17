@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="lb" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Equivalences Involving Quantifiers | Luxformel Bibliothéik</title>
+<meta name="keywords" content="Logic">
+<meta name="description" content="Equivalences Involving Quantifiers
+Exercise 1 : Negations and Positive Equivalents
+Negate each of the following statements. Then rewrite the negation as an equivalent positive statement (avoiding negation symbols in front of quantifiers or compound expressions where possible).
+
+Everyone who is majoring in math has a friend who needs help with his or her homework.
+Hint: First write it formally with quantifiers and predicates.
+Everyone has a roommate who dislikes everyone.
+Hint: Introduce predicates for “has as roommate” and “dislikes.”
+\( A \cup B \subseteq C \setminus D \)
+Hint: Rewrite the subset condition in logical form before negating.
+\( \exists x \, \forall y &gt; x \; \exists z \, (z^2 &#43; 5z = y) \)
+Clarification: Read as “There exists an \(x\) such that for every \(y &gt; x\), there exists a \(z\) satisfying \(z^2 &#43; 5z = y\).”
+
+Exercise 2 : More Negations and Positive Reformulations
+Negate each statement, then express the negation in a positive form.">
+<meta name="author" content="">
+<link rel="canonical"
+    href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.580f6cae49d190ebebe6aaff9c50a12e7f8c6fc16c8b5c2e9c27b20581d3133c.css" integrity="sha256-WA9srknRkOvr5qr/nFChLn&#43;Mb8Fsi1wunCeyBYHTEzw="
+    rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/static/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/static/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/static/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/%20safari-pinned-tab.svg">
+<meta name="theme-color" content="#7d68f9">
+<meta name="msapplication-TileColor" content=" #2e2e33">
+<link rel="alternate" hreflang="lb" href="http://localhost:1313/posts/mathe/logic/en/equivalences-involving-quantifiers/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+</noscript>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script>
+
+    <meta property="og:url" content="http://localhost:1313/posts/mathe/logic/en/equivalences-involving-quantifiers/">
+  <meta property="og:site_name" content="Luxformel Bibliothéik">
+  <meta property="og:title" content="Equivalences Involving Quantifiers">
+  <meta property="og:description" content="Equivalences Involving Quantifiers Exercise 1 : Negations and Positive Equivalents Negate each of the following statements. Then rewrite the negation as an equivalent positive statement (avoiding negation symbols in front of quantifiers or compound expressions where possible).
+Everyone who is majoring in math has a friend who needs help with his or her homework.
+Hint: First write it formally with quantifiers and predicates. Everyone has a roommate who dislikes everyone.
+Hint: Introduce predicates for “has as roommate” and “dislikes.” \( A \cup B \subseteq C \setminus D \)
+Hint: Rewrite the subset condition in logical form before negating. \( \exists x \, \forall y &gt; x \; \exists z \, (z^2 &#43; 5z = y) \)
+Clarification: Read as “There exists an \(x\) such that for every \(y &gt; x\), there exists a \(z\) satisfying \(z^2 &#43; 5z = y\).” Exercise 2 : More Negations and Positive Reformulations Negate each statement, then express the negation in a positive form.">
+  <meta property="og:locale" content="lb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-01-17T18:23:24+01:00">
+    <meta property="article:modified_time" content="2026-01-17T18:23:24+01:00">
+    <meta property="article:tag" content="Logic">
+      <meta property="og:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
+<meta name="twitter:title" content="Equivalences Involving Quantifiers">
+<meta name="twitter:description" content="Equivalences Involving Quantifiers
+Exercise 1 : Negations and Positive Equivalents
+Negate each of the following statements. Then rewrite the negation as an equivalent positive statement (avoiding negation symbols in front of quantifiers or compound expressions where possible).
+
+Everyone who is majoring in math has a friend who needs help with his or her homework.
+Hint: First write it formally with quantifiers and predicates.
+Everyone has a roommate who dislikes everyone.
+Hint: Introduce predicates for “has as roommate” and “dislikes.”
+\( A \cup B \subseteq C \setminus D \)
+Hint: Rewrite the subset condition in logical form before negating.
+\( \exists x \, \forall y &gt; x \; \exists z \, (z^2 &#43; 5z = y) \)
+Clarification: Read as “There exists an \(x\) such that for every \(y &gt; x\), there exists a \(z\) satisfying \(z^2 &#43; 5z = y\).”
+
+Exercise 2 : More Negations and Positive Reformulations
+Negate each statement, then express the negation in a positive form.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Equivalences Involving Quantifiers",
+      "item": "http://localhost:1313/posts/mathe/logic/en/equivalences-involving-quantifiers/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Equivalences Involving Quantifiers",
+  "name": "Equivalences Involving Quantifiers",
+  "description": "Equivalences Involving Quantifiers Exercise 1 : Negations and Positive Equivalents Negate each of the following statements. Then rewrite the negation as an equivalent positive statement (avoiding negation symbols in front of quantifiers or compound expressions where possible).\nEveryone who is majoring in math has a friend who needs help with his or her homework.\nHint: First write it formally with quantifiers and predicates. Everyone has a roommate who dislikes everyone.\nHint: Introduce predicates for “has as roommate” and “dislikes.” \\( A \\cup B \\subseteq C \\setminus D \\)\nHint: Rewrite the subset condition in logical form before negating. \\( \\exists x \\, \\forall y \u003e x \\; \\exists z \\, (z^2 + 5z = y) \\)\nClarification: Read as “There exists an \\(x\\) such that for every \\(y \u003e x\\), there exists a \\(z\\) satisfying \\(z^2 + 5z = y\\).” Exercise 2 : More Negations and Positive Reformulations Negate each statement, then express the negation in a positive form.\n",
+  "keywords": [
+    "Logic"
+  ],
+  "articleBody": "Equivalences Involving Quantifiers Exercise 1 : Negations and Positive Equivalents Negate each of the following statements. Then rewrite the negation as an equivalent positive statement (avoiding negation symbols in front of quantifiers or compound expressions where possible).\nEveryone who is majoring in math has a friend who needs help with his or her homework.\nHint: First write it formally with quantifiers and predicates. Everyone has a roommate who dislikes everyone.\nHint: Introduce predicates for “has as roommate” and “dislikes.” \\( A \\cup B \\subseteq C \\setminus D \\)\nHint: Rewrite the subset condition in logical form before negating. \\( \\exists x \\, \\forall y \u003e x \\; \\exists z \\, (z^2 + 5z = y) \\)\nClarification: Read as “There exists an \\(x\\) such that for every \\(y \u003e x\\), there exists a \\(z\\) satisfying \\(z^2 + 5z = y\\).” Exercise 2 : More Negations and Positive Reformulations Negate each statement, then express the negation in a positive form.\nThere is someone in the freshman class who doesn’t have a roommate.\nHint: Use predicates for “is in the freshman class” and “has as roommate.” Everyone likes someone, but no one likes everyone.\nHint: This is a conjunction; negate both parts carefully. \\( \\forall a \\in A \\; \\exists b \\in B \\; (a \\in C \\leftrightarrow b \\in C) \\)\nHint: Negate the biconditional inside the quantifiers. \\( \\forall y \u003e 0 \\; \\exists x \\; (ax^2 + bx + c = y) \\)\nInterpretation: \\(a, b, c\\) are fixed constants. Exercise 3 : Truth Evaluation in \\(\\mathbb{N}\\) Determine whether each statement is true or false. The universe of discourse is the set of natural numbers \\(\\mathbb{N} = \\{0, 1, 2, \\dots\\}\\).\n\\( \\forall x \\; (x \u003c 7 \\to \\exists a \\, \\exists b \\, \\exists c \\, (a^2 + b^2 + c^2 = x)) \\)\nInterpretation: Every natural number less than 7 is the sum of three squares (of natural numbers). \\( \\exists! \\, x \\; (x^2 + 3 = 4x) \\)\nInterpretation: “There exists a unique \\(x\\) such that …” \\( \\exists! \\, x \\; (x^2 = 4x + 5) \\) \\( \\exists x \\, \\exists y \\; (x^2 = 4x + 5 \\land y^2 = 4y + 5) \\) Exercise 4 : Deriving One Quantifier Negation Law from the Other The first quantifier negation law states: \\[ \\neg \\exists x P(x) \\; \\equiv \\; \\forall x \\neg P(x). \\] Using only this law (and basic logical equivalences such as double negation), derive the second quantifier negation law: \\[ \\neg \\forall x P(x) \\; \\equiv \\; \\exists x \\neg P(x). \\]Exercise 5 : Bounded Quantifier Negation Prove the equivalence: \\[ \\neg \\exists x \\in A \\, P(x) \\;\\equiv\\; \\forall x \\in A \\, \\neg P(x). \\] Hint: Start by recalling that “\\(x \\in A\\)” is part of the bounded quantifier notation.\nExercise 6 : Existential Quantifier Distributes over Disjunction Show that: \\[ \\exists x \\, (P(x) \\vee Q(x)) \\;\\equiv\\; \\exists x P(x) \\;\\vee\\; \\exists x Q(x). \\] Hint: Use the known fact that the universal quantifier distributes over conjunction, i.e., \\(\\forall x (P(x) \\wedge Q(x)) \\equiv \\forall x P(x) \\wedge \\forall x Q(x)\\), together with quantifier negation laws.\nExercise 7 : Implication Inside an Existential Quantifier Prove the equivalence: \\[ \\exists x (P(x) \\to Q(x)) \\;\\equiv\\; \\forall x P(x) \\to \\exists x Q(x). \\] Hint: Rewrite \\(P(x) \\to Q(x)\\) as \\(\\neg P(x) \\vee Q(x)\\) and use previous distribution laws.\nExercise 8 : Universal Quantifier over Union Show that:\n\\[ (\\forall x \\in A \\; P(x)) \\;\\wedge\\; (\\forall x \\in B \\; P(x)) \\;\\equiv\\; \\forall x \\in (A \\cup B) \\; P(x). \\] Hint: Write the bounded quantifiers in terms of unrestricted quantifiers and implications, then reason logically.\nExercise 9 : Universal Quantifier over Disjunction Is the following equivalence valid?\n\\[ \\forall x (P(x) \\vee Q(x)) \\;\\equiv\\; \\forall x P(x) \\;\\vee\\; \\forall x Q(x)? \\] If yes, prove it; if no, provide a counterexample (by describing possible truth values of \\(P(x)\\) and \\(Q(x)\\) for different \\(x\\)).\nExercise 10 : Existential Quantifier with Bounded Domains Show that: \\[ \\exists x \\in A \\, P(x) \\;\\vee\\; \\exists x \\in B \\, P(x) \\;\\equiv\\; \\exists x \\in (A \\cup B) \\, P(x). \\] Is the following true? \\[ \\exists x \\in A \\, P(x) \\;\\wedge\\; \\exists x \\in B \\, P(x) \\;\\equiv\\; \\exists x \\in (A \\cap B) \\, P(x) \\] Prove it or give a counterexample. Exercise 11 : Subset and Set Difference Prove that the statements \\(A \\subseteq B\\) and \\(A \\setminus B = \\emptyset\\) are equivalent:\nWrite each statement in logical symbols (using quantifiers and set membership). Show the two resulting formulas are logically equivalent. Exercise 12 : Two Forms of Subset Relations Prove the equivalence:\n\\[ C \\subseteq A \\cup B \\;\\equiv\\; C \\setminus A \\subseteq B. \\] Hint: Write both sides in logical form and compare.\nExercise 13 : Subset Expressed with Union and Intersection Show \\(A \\subseteq B \\;\\equiv\\; A \\cup B = B\\) by: Translating both sides into logical statements, Using the definition of set equality (two inclusions), Show \\(A \\subseteq B \\;\\equiv\\; A \\cap B = A\\) in a similar way. Exercise 14 : Disjointness and Set Difference Prove: \\[ A \\cap B = \\emptyset \\;\\equiv\\; A \\setminus B = A. \\] Hint: Translate “\\(A \\cap B = \\emptyset\\)” as “no element is in both \\(A\\) and \\(B\\).”\nExercise 15 : Uniqueness Quantifiers in a Relation Let \\(T(x, y)\\) mean “\\(x\\) is a teacher of \\(y\\).”\nExplain in English what each formula asserts. \\(\\exists! \\, y \\, T(x, y)\\) \\(\\exists x \\, \\exists! \\, y \\, T(x, y)\\) \\(\\exists! \\, x \\, \\exists y \\, T(x, y)\\) \\(\\exists y \\, \\exists! \\, x \\, T(x, y)\\) \\(\\exists x \\, \\exists y \\, [T(x, y) \\land \\neg \\exists u \\, \\exists v \\, (T(u, v) \\land (u = x \\lor v = y))]\\) Under what real-world circumstances would each be true? Are any pairs of these statements logically equivalent? Explain briefly. ",
+  "wordCount" : "997",
+  "inLanguage": "lb",
+  "image": "http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished": "2026-01-17T18:23:24+01:00",
+  "dateModified": "2026-01-17T18:23:24+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Luxformel"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/mathe/logic/en/equivalences-involving-quantifiers/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luxformel Bibliothéik",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Heem (Alt + H)">Heem</a>
+                    <div class="logo-switches">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                    </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="kategorie">
+                    <span>kategorie</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="archiv">
+                    <span>archiv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="sichen (Alt &#43; /)" accesskey=/>
+                    <span>sichen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luxformel.info/" title="luxformel.info">
+                    <span>luxformel.info</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+        }
+    };
+</script><main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Heem</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Equivalences Involving Quantifiers
+    </h1>
+    <div class="post-meta"><span title='2026-01-17 18:23:24 +0100 CET'>Januar 17, 2026</span>&nbsp;·&nbsp;<span>997 wierder</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeechnes</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exercise-1--negations-and-positive-equivalents">Exercise 1 : Negations and Positive Equivalents</a></li>
+    <li><a href="#exercise-2--more-negations-and-positive-reformulations">Exercise 2 : More Negations and Positive Reformulations</a></li>
+    <li><a href="#exercise-3--truth-evaluation-in">Exercise 3 : Truth Evaluation in </a></li>
+    <li><a href="#exercise-4--deriving-one-quantifier-negation-law-from-the-other">Exercise 4 : Deriving One Quantifier Negation Law from the Other</a></li>
+    <li><a href="#exercise-5--bounded-quantifier-negation">Exercise 5 : Bounded Quantifier Negation</a></li>
+    <li><a href="#exercise-6--existential-quantifier-distributes-over-disjunction">Exercise 6 : Existential Quantifier Distributes over Disjunction</a></li>
+    <li><a href="#exercise-7--implication-inside-an-existential-quantifier">Exercise 7 : Implication Inside an Existential Quantifier</a></li>
+    <li><a href="#exercise-8--universal-quantifier-over-union">Exercise 8 : Universal Quantifier over Union</a></li>
+    <li><a href="#exercise-9--universal-quantifier-over-disjunction">Exercise 9 : Universal Quantifier over Disjunction</a></li>
+    <li><a href="#exercise-10--existential-quantifier-with-bounded-domains">Exercise 10 : Existential Quantifier with Bounded Domains</a></li>
+    <li><a href="#exercise-11--subset-and-set-difference">Exercise 11 : Subset and Set Difference</a></li>
+    <li><a href="#exercise-12--two-forms-of-subset-relations">Exercise 12 : Two Forms of Subset Relations</a></li>
+    <li><a href="#exercise-13--subset-expressed-with-union-and-intersection">Exercise 13 : Subset Expressed with Union and Intersection</a></li>
+    <li><a href="#exercise-14--disjointness-and-set-difference">Exercise 14 : Disjointness and Set Difference</a></li>
+    <li><a href="#exercise-15--uniqueness-quantifiers-in-a-relation">Exercise 15 : Uniqueness Quantifiers in a Relation</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="equivalences-involving-quantifiers">Equivalences Involving Quantifiers<a hidden class="anchor" aria-hidden="true" href="#equivalences-involving-quantifiers">#</a></h1>
+<h2 id="exercise-1--negations-and-positive-equivalents">Exercise 1 : Negations and Positive Equivalents<a hidden class="anchor" aria-hidden="true" href="#exercise-1--negations-and-positive-equivalents">#</a></h2>
+<p>Negate each of the following statements. Then rewrite the negation as an equivalent positive statement (avoiding negation symbols in front of quantifiers or compound expressions where possible).</p>
+<ol>
+<li>Everyone who is majoring in math has a friend who needs help with his or her homework.<br>
+<em>Hint: First write it formally with quantifiers and predicates.</em></li>
+<li>Everyone has a roommate who dislikes everyone.<br>
+<em>Hint: Introduce predicates for “has as roommate” and “dislikes.”</em></li>
+<li>\( A \cup B \subseteq C \setminus D \)<br>
+<em>Hint: Rewrite the subset condition in logical form before negating.</em></li>
+<li>\( \exists x \, \forall y > x \; \exists z \, (z^2 + 5z = y) \)<br>
+<em>Clarification: Read as “There exists an \(x\) such that for every \(y > x\), there exists a \(z\) satisfying \(z^2 + 5z = y\).”</em></li>
+</ol>
+<h2 id="exercise-2--more-negations-and-positive-reformulations">Exercise 2 : More Negations and Positive Reformulations<a hidden class="anchor" aria-hidden="true" href="#exercise-2--more-negations-and-positive-reformulations">#</a></h2>
+<p>Negate each statement, then express the negation in a positive form.</p>
+<ol>
+<li>There is someone in the freshman class who doesn’t have a roommate.<br>
+<em>Hint: Use predicates for “is in the freshman class” and “has as roommate.”</em></li>
+<li>Everyone likes someone, but no one likes everyone.<br>
+<em>Hint: This is a conjunction; negate both parts carefully.</em></li>
+<li>\( \forall a \in A \; \exists b \in B \; (a \in C \leftrightarrow b \in C) \)<br>
+<em>Hint: Negate the biconditional inside the quantifiers.</em></li>
+<li>\( \forall y > 0 \; \exists x \; (ax^2 + bx + c = y) \)<br>
+<em>Interpretation: \(a, b, c\) are fixed constants.</em></li>
+</ol>
+<h2 id="exercise-3--truth-evaluation-in">Exercise 3 : Truth Evaluation in \(\mathbb{N}\)<a hidden class="anchor" aria-hidden="true" href="#exercise-3--truth-evaluation-in">#</a></h2>
+<p>Determine whether each statement is true or false. The universe of discourse is the set of natural numbers \(\mathbb{N} = \{0, 1, 2, \dots\}\).</p>
+<ol>
+<li>\( \forall x \; (x < 7 \to \exists a \, \exists b \, \exists c \, (a^2 + b^2 + c^2 = x)) \)<br>
+<em>Interpretation: Every natural number less than 7 is the sum of three squares (of natural numbers).</em></li>
+<li>\( \exists! \, x \; (x^2 + 3 = 4x) \)<br>
+<em>Interpretation: “There exists a unique \(x\) such that …”</em></li>
+<li>\( \exists! \, x \; (x^2 = 4x + 5) \)</li>
+<li>\( \exists x \, \exists y \; (x^2 = 4x + 5 \land y^2 = 4y + 5) \)</li>
+</ol>
+<h2 id="exercise-4--deriving-one-quantifier-negation-law-from-the-other">Exercise 4 : Deriving One Quantifier Negation Law from the Other<a hidden class="anchor" aria-hidden="true" href="#exercise-4--deriving-one-quantifier-negation-law-from-the-other">#</a></h2>
+<p>The first quantifier negation law states:
+</p>
+\[
+\neg \exists x P(x) \; \equiv \; \forall x \neg P(x).
+\]<p>
+Using only this law (and basic logical equivalences such as double negation), derive the second quantifier negation law:
+</p>
+\[
+\neg \forall x P(x) \; \equiv \; \exists x \neg P(x).
+\]<h2 id="exercise-5--bounded-quantifier-negation">Exercise 5 : Bounded Quantifier Negation<a hidden class="anchor" aria-hidden="true" href="#exercise-5--bounded-quantifier-negation">#</a></h2>
+<p>Prove the equivalence:
+</p>
+\[
+\neg \exists x \in A \, P(x) \;\equiv\; \forall x \in A \, \neg P(x).
+\]<p>
+<em>Hint: Start by recalling that “\(x \in A\)” is part of the bounded quantifier notation.</em></p>
+<h2 id="exercise-6--existential-quantifier-distributes-over-disjunction">Exercise 6 : Existential Quantifier Distributes over Disjunction<a hidden class="anchor" aria-hidden="true" href="#exercise-6--existential-quantifier-distributes-over-disjunction">#</a></h2>
+<p>Show that:
+</p>
+\[
+\exists x \, (P(x) \vee Q(x)) \;\equiv\; \exists x P(x) \;\vee\; \exists x Q(x).
+\]<p>
+<em>Hint: Use the known fact that the universal quantifier distributes over conjunction, i.e., \(\forall x (P(x) \wedge Q(x)) \equiv \forall x P(x) \wedge \forall x Q(x)\), together with quantifier negation laws.</em></p>
+<h2 id="exercise-7--implication-inside-an-existential-quantifier">Exercise 7 : Implication Inside an Existential Quantifier<a hidden class="anchor" aria-hidden="true" href="#exercise-7--implication-inside-an-existential-quantifier">#</a></h2>
+<p>Prove the equivalence:
+</p>
+\[
+\exists x (P(x) \to Q(x)) \;\equiv\; \forall x P(x) \to \exists x Q(x).
+\]<p>
+<em>Hint: Rewrite \(P(x) \to Q(x)\) as \(\neg P(x) \vee Q(x)\) and use previous distribution laws.</em></p>
+<h2 id="exercise-8--universal-quantifier-over-union">Exercise 8 : Universal Quantifier over Union<a hidden class="anchor" aria-hidden="true" href="#exercise-8--universal-quantifier-over-union">#</a></h2>
+<p>Show that:</p>
+\[
+(\forall x \in A \; P(x)) \;\wedge\; (\forall x \in B \; P(x)) \;\equiv\; \forall x \in (A \cup B) \; P(x).
+\]<p>
+<em>Hint: Write the bounded quantifiers in terms of unrestricted quantifiers and implications, then reason logically.</em></p>
+<h2 id="exercise-9--universal-quantifier-over-disjunction">Exercise 9 : Universal Quantifier over Disjunction<a hidden class="anchor" aria-hidden="true" href="#exercise-9--universal-quantifier-over-disjunction">#</a></h2>
+<p>Is the following equivalence valid?<br>
+</p>
+\[
+\forall x (P(x) \vee Q(x)) \;\equiv\; \forall x P(x) \;\vee\; \forall x Q(x)?
+\]<p>
+If yes, prove it; if no, provide a counterexample (by describing possible truth values of \(P(x)\) and \(Q(x)\) for different \(x\)).</p>
+<h2 id="exercise-10--existential-quantifier-with-bounded-domains">Exercise 10 : Existential Quantifier with Bounded Domains<a hidden class="anchor" aria-hidden="true" href="#exercise-10--existential-quantifier-with-bounded-domains">#</a></h2>
+<ol>
+<li>Show that:
+\[
+   \exists x \in A \, P(x) \;\vee\; \exists x \in B \, P(x) \;\equiv\; \exists x \in (A \cup B) \, P(x).
+   \]</li>
+<li>Is the following true?
+\[
+   \exists x \in A \, P(x) \;\wedge\; \exists x \in B \, P(x) \;\equiv\; \exists x \in (A \cap B) \, P(x)
+   \]
+Prove it or give a counterexample.</li>
+</ol>
+<h2 id="exercise-11--subset-and-set-difference">Exercise 11 : Subset and Set Difference<a hidden class="anchor" aria-hidden="true" href="#exercise-11--subset-and-set-difference">#</a></h2>
+<p>Prove that the statements \(A \subseteq B\) and \(A \setminus B = \emptyset\) are equivalent:</p>
+<ol>
+<li>Write each statement in logical symbols (using quantifiers and set membership).</li>
+<li>Show the two resulting formulas are logically equivalent.</li>
+</ol>
+<h2 id="exercise-12--two-forms-of-subset-relations">Exercise 12 : Two Forms of Subset Relations<a hidden class="anchor" aria-hidden="true" href="#exercise-12--two-forms-of-subset-relations">#</a></h2>
+<p>Prove the equivalence:</p>
+\[
+C \subseteq A \cup B \;\equiv\; C \setminus A \subseteq B.
+\]<p>
+<em>Hint: Write both sides in logical form and compare.</em></p>
+<h2 id="exercise-13--subset-expressed-with-union-and-intersection">Exercise 13 : Subset Expressed with Union and Intersection<a hidden class="anchor" aria-hidden="true" href="#exercise-13--subset-expressed-with-union-and-intersection">#</a></h2>
+<ol>
+<li>Show \(A \subseteq B \;\equiv\; A \cup B = B\) by:
+<ul>
+<li>Translating both sides into logical statements,</li>
+<li>Using the definition of set equality (two inclusions),</li>
+</ul>
+</li>
+<li>Show \(A \subseteq B \;\equiv\; A \cap B = A\) in a similar way.</li>
+</ol>
+<h2 id="exercise-14--disjointness-and-set-difference">Exercise 14 : Disjointness and Set Difference<a hidden class="anchor" aria-hidden="true" href="#exercise-14--disjointness-and-set-difference">#</a></h2>
+<p>Prove:
+</p>
+\[
+A \cap B = \emptyset \;\equiv\; A \setminus B = A.
+\]<p>
+<em>Hint: Translate “\(A \cap B = \emptyset\)” as “no element is in both \(A\) and \(B\).”</em></p>
+<h2 id="exercise-15--uniqueness-quantifiers-in-a-relation">Exercise 15 : Uniqueness Quantifiers in a Relation<a hidden class="anchor" aria-hidden="true" href="#exercise-15--uniqueness-quantifiers-in-a-relation">#</a></h2>
+<p>Let \(T(x, y)\) mean “\(x\) is a teacher of \(y\).”</p>
+<ol>
+<li>Explain in English what each formula asserts.
+<ul>
+<li>\(\exists! \, y \, T(x, y)\)</li>
+<li>\(\exists x \, \exists! \, y \, T(x, y)\)</li>
+<li>\(\exists! \, x \, \exists y \, T(x, y)\)</li>
+<li>\(\exists y \, \exists! \, x \, T(x, y)\)</li>
+<li>\(\exists x \, \exists y \, [T(x, y) \land \neg \exists u \, \exists v \, (T(u, v) \land (u = x \lor v = y))]\)</li>
+</ul>
+</li>
+<li>Under what real-world circumstances would each be true?</li>
+<li>Are any pairs of these statements logically equivalent? Explain briefly.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/logic/">Logic</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/mathe/logic/en/operations-on-sets/">
+    <span class="title">« Virdrun</span>
+    <br>
+    <span>Operations on Sets</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/mathe/logic/en/deductive-reasoning-and-logical-connectives/">
+    <span class="title">Nächst »</span>
+    <br>
+    <span>Deductive Reasoning and Logical Connectives</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+
+    <span>
+       Luxformel Bibliothéik <br> Feedback: <a href="mailto:feedback@luxformel.info">feedback@luxformel.info</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'kopéieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'kopéiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'kopéieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>
